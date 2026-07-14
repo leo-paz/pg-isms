@@ -106,31 +106,57 @@ class RepositoryFixture:
             "---\nname: test-startup-judgment\ndescription: Use when comparing consequential startup choices.\n---\n\n# Test Startup Judgment\n\nCompare evidence before committing.\n"
         )
         (skill / "agents/openai.yaml").write_text(
-            'interface:\n  display_name: "Test Startup Judgment"\n  short_description: "Compare startup choices"\n  default_prompt: "Use $test-startup-judgment to compare these choices."\n'
+            'interface:\n  display_name: "Test Startup Judgment"\n  short_description: "Compare consequential startup choices"\n  default_prompt: "Use $test-startup-judgment to compare these choices."\n'
         )
         eval_dir = self.repo / "evals/test-startup-judgment"
         (eval_dir / "baseline").mkdir(parents=True)
         (eval_dir / "forward").mkdir()
-        (eval_dir / "cases.json").write_text(
-            json.dumps(
-                {
-                    "cases": [
-                        {"type": "trigger", "prompt": "Compare two launch strategies."},
-                        {"type": "non-trigger", "prompt": "Summarize an unrelated essay."},
-                        {"type": "application", "prompt": "Apply the workflow to a launch choice."},
-                        {"type": "condition", "prompt": "Decide under a severe time constraint."},
-                        {"type": "edge", "prompt": "Handle contradictory customer evidence."},
-                    ]
-                },
-                indent=2,
+        cases = [
+            {"id": "trigger", "type": "trigger", "prompt": "Compare two launch strategies.", "criteria": ["Recognizes the skill applies."]},
+            {"id": "non-trigger", "type": "non-trigger", "prompt": "Summarize an unrelated essay.", "criteria": ["Does not force the workflow."]},
+            {"id": "application", "type": "application", "prompt": "Apply the workflow to a launch choice.", "criteria": ["Uses relevant evidence."]},
+            {"id": "condition", "type": "condition", "prompt": "Decide under a severe time constraint.", "criteria": ["Handles the stated condition."]},
+            {"id": "edge", "type": "edge", "prompt": "Handle contradictory customer evidence.", "criteria": ["Addresses contradictory evidence."]},
+        ]
+        (eval_dir / "cases.json").write_text(json.dumps({"schema_version": 1, "cases": cases}, indent=2) + "\n")
+        case_ids = [case["id"] for case in cases]
+        for phase, reviewer, score in (("baseline", "baseline-agent", 1), ("forward", "forward-agent", 4)):
+            for case_id in case_ids:
+                (eval_dir / phase / f"{case_id}.md").write_text(
+                    f"# Raw evaluation output\n\nCase ID: {case_id}\n\nReviewer ID: {reviewer}\n\n"
+                    f"This is the complete raw agent response captured for the {case_id} evaluation scenario.\n"
+                )
+            summary = {
+                "schema_version": 1,
+                "skill_name": "test-startup-judgment",
+                "phase": phase,
+                "reviewer_id": reviewer,
+                "case_results": [
+                    {"case_id": case_id, "score": score, "max_score": 5, "raw_output": f"{case_id}.md"}
+                    for case_id in case_ids
+                ],
+            }
+            (eval_dir / phase / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
+        final_review_sections = [
+            "Missing principles",
+            "Overlap/gaps",
+            "Contradictions",
+            "Stage-dependent advice",
+            "Triggering quality",
+            "Copyright hygiene",
+        ]
+        review = "# Independent final review\n\nReviewer: independent-agent\n\nStatus: complete\n"
+        for category in final_review_sections:
+            review += (
+                f"\n## {category}\n\n"
+                "Severity: none\n\n"
+                "Disposition: no-findings\n\n"
+                "Evidence: The reviewer inspected the canonical research and skill artifacts for this category.\n\n"
+                "Affected essays/skills: none\n\n"
+                "Proposed remedy: none required\n\n"
+                "Verification: The applicable repository evidence was checked independently.\n"
             )
-            + "\n"
-        )
-        (eval_dir / "baseline/result.md").write_text("# Baseline\n\nReviewer: baseline-agent\n\nGap observed.\n")
-        (eval_dir / "forward/result.md").write_text("# Forward\n\nReviewer: forward-agent\n\nImprovement observed.\n")
-        (self.repo / "research/final-review.md").write_text(
-            "# Independent final review\n\nReviewer: independent-agent\n\nStatus: complete\n"
-        )
+        (self.repo / "research/final-review.md").write_text(review)
         (self.repo / "README.md").write_text(
             "# Skills\n\n- [Test Startup Judgment](skills/test-startup-judgment/)\n"
         )
@@ -221,6 +247,17 @@ class ValidateRepositoryTests(unittest.TestCase):
 
         self.assert_invalid(fixture, "taxonomy", "coverage gap|not covered")
 
+    def test_rejects_taxonomy_themes_unrelated_to_audited_themes(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_taxonomy()
+        taxonomy_path = fixture.repo / "research/taxonomy.json"
+        taxonomy = json.loads(taxonomy_path.read_text())
+        taxonomy["skills"][0]["themes"] = ["unrelated placeholder"]
+        taxonomy_path.write_text(json.dumps(taxonomy))
+
+        self.assert_invalid(fixture, "taxonomy", "audited themes|theme coverage")
+
     def test_rejects_missing_skill_package_metadata(self) -> None:
         temp_dir, fixture = self.fixture()
         self.addCleanup(temp_dir.cleanup)
@@ -229,13 +266,82 @@ class ValidateRepositoryTests(unittest.TestCase):
 
         self.assert_invalid(fixture, "final", "openai.yaml")
 
+    def test_rejects_malformed_skill_frontmatter(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        skill = fixture.repo / "skills/test-startup-judgment/SKILL.md"
+        skill.write_text(
+            '---\nname: test-startup-judgment\ndescription: "Use when comparing choices.\n---\n\n# Test Startup Judgment\n\nCompare evidence.\n'
+        )
+
+        self.assert_invalid(fixture, "final", "invalid YAML|frontmatter")
+
+    def test_rejects_malformed_openai_yaml(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        metadata = fixture.repo / "skills/test-startup-judgment/agents/openai.yaml"
+        metadata.write_text(
+            'interface:\n display_name: "Test Startup Judgment"\n short_description: "Compare consequential startup choices"\n default_prompt: "Use $test-startup-judgment to compare these choices."\n'
+        )
+
+        self.assert_invalid(fixture, "final", "invalid.*openai.yaml|openai.yaml.*invalid")
+
     def test_rejects_missing_evaluation_evidence(self) -> None:
         temp_dir, fixture = self.fixture()
         self.addCleanup(temp_dir.cleanup)
         fixture.add_valid_final()
-        (fixture.repo / "evals/test-startup-judgment/baseline/result.md").unlink()
+        (fixture.repo / "evals/test-startup-judgment/baseline/summary.json").unlink()
 
         self.assert_invalid(fixture, "final", "baseline evaluation")
+
+    def test_rejects_evaluations_without_material_improvement(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        summary_path = fixture.repo / "evals/test-startup-judgment/forward/summary.json"
+        summary = json.loads(summary_path.read_text())
+        for case_result in summary["case_results"]:
+            case_result["score"] = 1
+        summary_path.write_text(json.dumps(summary))
+
+        self.assert_invalid(fixture, "final", "material improvement")
+
+    def test_rejects_reused_baseline_and_forward_reviewer_ids(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        summary_path = fixture.repo / "evals/test-startup-judgment/forward/summary.json"
+        summary = json.loads(summary_path.read_text())
+        summary["reviewer_id"] = "baseline-agent"
+        summary_path.write_text(json.dumps(summary))
+        for raw_path in (fixture.repo / "evals/test-startup-judgment/forward").glob("*.md"):
+            raw_path.write_text(raw_path.read_text().replace("Reviewer ID: forward-agent", "Reviewer ID: baseline-agent"))
+
+        self.assert_invalid(fixture, "final", "fresh reviewer|reuse.*reviewer")
+
+    def test_rejects_evaluation_summary_with_missing_raw_artifact(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        summary_path = fixture.repo / "evals/test-startup-judgment/forward/summary.json"
+        summary = json.loads(summary_path.read_text())
+        summary["case_results"][0]["raw_output"] = "missing.md"
+        summary_path.write_text(json.dumps(summary))
+
+        self.assert_invalid(fixture, "final", "raw output")
+
+    def test_rejects_incomplete_final_review_categories(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        review_path = fixture.repo / "research/final-review.md"
+        review = review_path.read_text()
+        review = review.replace("## Copyright hygiene", "## Other review")
+        review_path.write_text(review)
+
+        self.assert_invalid(fixture, "final", "final review.*categories|missing.*copyright hygiene")
 
     def test_rejects_stale_readme_catalog_entries(self) -> None:
         temp_dir, fixture = self.fixture()

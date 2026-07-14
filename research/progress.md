@@ -105,4 +105,39 @@ manifest validation passed: corpus_files=223 manifest_essays=223 unique_assignme
 ### Remaining work and blockers
 
 - Remaining: independent review of all 12 non-overlapping essay batches, canonical audit assembly, taxonomy synthesis, per-skill baseline/forward evaluation, independent final review, and README catalog.
+- Delivery state: checkpoint push is pending clean controller review; no push or completion claim is made here.
 - Blockers: none.
+
+### Checkpoint 1 review remediation
+
+The first independent implementation review found four validator gaps. Focused regression tests were added before production changes for:
+
+- normalized exact coverage of every audited theme by the essay's mapped taxonomy skills;
+- malformed `SKILL.md` frontmatter and malformed `agents/openai.yaml` indentation/quoting;
+- evaluation summaries that show no material improvement, reuse reviewer IDs, or reference missing raw output;
+- final-review files missing a required evidence category.
+
+Focused RED command:
+
+```bash
+python3 -m unittest -v \
+  tests.test_validate_repository.ValidateRepositoryTests.test_rejects_taxonomy_themes_unrelated_to_audited_themes \
+  tests.test_validate_repository.ValidateRepositoryTests.test_rejects_malformed_skill_frontmatter \
+  tests.test_validate_repository.ValidateRepositoryTests.test_rejects_malformed_openai_yaml \
+  tests.test_validate_repository.ValidateRepositoryTests.test_rejects_evaluations_without_material_improvement \
+  tests.test_validate_repository.ValidateRepositoryTests.test_rejects_reused_baseline_and_forward_reviewer_ids \
+  tests.test_validate_repository.ValidateRepositoryTests.test_rejects_evaluation_summary_with_missing_raw_artifact \
+  tests.test_validate_repository.ValidateRepositoryTests.test_rejects_incomplete_final_review_categories
+```
+
+Before the fixes, all seven tests failed with `AssertionError: ValidationError not raised` (`Ran 7 tests`, `FAILED (failures=7)`). After the minimum validator changes, the same command reported `Ran 7 tests` and `OK`.
+
+Evaluation artifact schema v1 is defined in the implementation plan. It uses versioned `cases.json`, versioned per-phase `summary.json`, one scored result and raw Markdown artifact per case, distinct stable reviewer IDs, identical scoring scales, and a minimum normalized forward-minus-baseline delta of `0.10`.
+
+Post-remediation discovery:
+
+```text
+$ python3 -m unittest discover -s tests -v
+Ran 23 tests
+OK
+```

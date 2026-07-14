@@ -33,6 +33,14 @@ TAXONOMY_FIELDS = {
 }
 SKILL_NAME = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 LINE_RANGE = re.compile(r"^(\d+)-(\d+)$")
+FINAL_REVIEW_CATEGORIES = {
+    "missing principles",
+    "overlap gaps",
+    "contradictions",
+    "stage dependent advice",
+    "triggering quality",
+    "copyright hygiene",
+}
 
 
 class ValidationError(ValueError):
@@ -252,6 +260,11 @@ def _taxonomy_entries(value: Any) -> List[Dict[str, Any]]:
     return entries
 
 
+def _normalized_theme(value: str) -> str:
+    """Normalize theme labels for case/punctuation-insensitive exact matching."""
+    return " ".join(re.sub(r"[\W_]+", " ", value.casefold()).split())
+
+
 def _validate_taxonomy(repo: Path, audit: List[Dict[str, Any]], proof: Dict[str, int]) -> List[Dict[str, Any]]:
     synthesis = repo / "research/theme-synthesis.md"
     _require(synthesis.is_file() and len(synthesis.read_text(encoding="utf-8").split()) >= 5, "missing theme synthesis")
@@ -286,6 +299,7 @@ def _validate_taxonomy(repo: Path, audit: List[Dict[str, Any]], proof: Dict[str,
     uncovered = relevant_ids - covered_ids
     _require(not uncovered, f"taxonomy coverage gap; relevant essays not covered: {sorted(uncovered)}")
     taxonomy_names = set(names)
+    taxonomy_by_name = {entry["skill_name"]: entry for entry in entries}
     for article_no in relevant_ids:
         final_skills = set(audit_by_id[article_no]["final_skills"])
         _require(final_skills, f"taxonomy coverage gap; essay {article_no} has no final_skills")
@@ -295,31 +309,165 @@ def _validate_taxonomy(repo: Path, audit: List[Dict[str, Any]], proof: Dict[str,
         _require(not missing_pairings, f"taxonomy does not reciprocally cover essay {article_no}")
         taxonomy_only = {name for paired_id, name in pairings if paired_id == article_no} - final_skills
         _require(not taxonomy_only, f"audit does not reciprocally map essay {article_no}: {sorted(taxonomy_only)}")
+        audited_themes = {_normalized_theme(theme) for theme in audit_by_id[article_no]["themes"]}
+        mapped_themes = {
+            _normalized_theme(theme)
+            for skill_name in final_skills
+            for theme in taxonomy_by_name[skill_name]["themes"]
+        }
+        missing_themes = audited_themes - mapped_themes
+        _require(
+            not missing_themes,
+            f"taxonomy theme coverage for essay {article_no} omits audited themes: {sorted(missing_themes)}",
+        )
     proof.update(skills=len(entries), relevant_essays=len(relevant_ids), uncovered_relevant=len(uncovered), orphan_skills=0)
     return entries
+
+
+def _yaml_scalar(value: str, path: Path, line_number: int, *, require_quoted: bool = False) -> str:
+    value = value.strip()
+    _require(bool(value), f"invalid YAML scalar in {path}:{line_number}")
+    if value.startswith('"'):
+        try:
+            parsed = json.loads(value)
+        except json.JSONDecodeError as exc:
+            raise ValidationError(f"invalid YAML scalar in {path}:{line_number}: {exc}") from exc
+        _require(isinstance(parsed, str), f"invalid YAML scalar in {path}:{line_number}")
+        return parsed
+    if value.startswith("'"):
+        _require(len(value) >= 2 and value.endswith("'"), f"invalid YAML scalar in {path}:{line_number}")
+        return value[1:-1].replace("''", "'")
+    _require(not require_quoted, f"invalid YAML in {path}:{line_number}: string values must be quoted")
+    _require(value[0] not in "[{&*!|>@`", f"invalid YAML scalar in {path}:{line_number}")
+    return value
 
 
 def _frontmatter(text: str, path: Path) -> Dict[str, str]:
     lines = text.splitlines()
     _require(lines and lines[0].strip() == "---", f"{path} has invalid YAML frontmatter")
     metadata: Dict[str, str] = {}
-    for line in lines[1:]:
+    closing_index: Optional[int] = None
+    for line_number, line in enumerate(lines[1:], start=2):
         if line.strip() == "---":
+            closing_index = line_number - 1
             break
+        if not line.strip():
+            continue
+        _require(line == line.lstrip(), f"{path} has invalid YAML frontmatter indentation at line {line_number}")
         if ":" not in line:
-            raise ValidationError(f"{path} has invalid YAML frontmatter")
+            raise ValidationError(f"{path} has invalid YAML frontmatter at line {line_number}")
         key, value = line.split(":", 1)
-        metadata[key.strip()] = value.strip().strip('"').strip("'")
-    else:
-        raise ValidationError(f"{path} has unterminated YAML frontmatter")
+        key = key.strip()
+        _require(re.fullmatch(r"[a-z][a-z0-9_-]*", key) is not None, f"{path} has invalid YAML frontmatter key")
+        _require(key not in metadata, f"{path} has duplicate YAML frontmatter key: {key}")
+        metadata[key] = _yaml_scalar(value, path, line_number)
+    _require(closing_index is not None, f"{path} has unterminated YAML frontmatter")
+    _require(set(metadata) == {"name", "description"}, f"{path} frontmatter must contain only name and description")
+    body = "\n".join(lines[closing_index + 1 :]).strip()
+    _require(bool(body) and any(line.startswith("# ") for line in body.splitlines()), f"{path} has no skill body heading")
     return metadata
 
 
-def _reviewer(path: Path) -> str:
-    text = path.read_text(encoding="utf-8")
-    match = re.search(r"(?im)^reviewer:\s*(\S.*?)\s*$", text)
-    _require(match is not None, f"evaluation evidence lacks reviewer identity: {path}")
-    return match.group(1).strip()
+def _validate_openai_yaml(path: Path, skill_name: str) -> None:
+    _require(path.is_file(), f"missing skill package metadata: {path}")
+    lines = path.read_text(encoding="utf-8").splitlines()
+    _require(lines and lines[0] == "interface:", f"invalid agents/openai.yaml structure: {path}")
+    values: Dict[str, str] = {}
+    allowed = {"display_name", "short_description", "default_prompt", "icon_small", "icon_large", "brand_color"}
+    for line_number, line in enumerate(lines[1:], start=2):
+        if not line.strip():
+            continue
+        _require("\t" not in line and line.startswith("  ") and not line.startswith("   "), f"invalid agents/openai.yaml indentation: {path}:{line_number}")
+        entry = line[2:]
+        _require(":" in entry, f"invalid agents/openai.yaml entry: {path}:{line_number}")
+        key, raw_value = entry.split(":", 1)
+        _require(key in allowed, f"invalid agents/openai.yaml key {key!r}: {path}:{line_number}")
+        _require(key not in values, f"duplicate agents/openai.yaml key {key!r}: {path}:{line_number}")
+        values[key] = _yaml_scalar(raw_value, path, line_number, require_quoted=True)
+    required = {"display_name", "short_description", "default_prompt"}
+    _require(required <= set(values), f"invalid agents/openai.yaml; missing fields: {sorted(required - set(values))}")
+    _require(bool(values["display_name"].strip()), f"invalid agents/openai.yaml display_name: {path}")
+    _require(25 <= len(values["short_description"]) <= 64, f"invalid agents/openai.yaml short_description length: {path}")
+    _require(f"${skill_name}" in values["default_prompt"], f"{path} default_prompt does not invoke ${skill_name}")
+
+
+def _evaluation_cases(path: Path, skill_name: str) -> Set[str]:
+    document = _load_json(path)
+    _require(isinstance(document, dict) and document.get("schema_version") == 1, f"invalid evaluation cases schema for {skill_name}")
+    cases = document.get("cases")
+    _require(isinstance(cases, list), f"evaluation cases for {skill_name} must be an array")
+    case_ids: List[str] = []
+    case_types: Set[str] = set()
+    for index, case in enumerate(cases, start=1):
+        _require(isinstance(case, dict), f"evaluation case {index} for {skill_name} must be an object")
+        case_id = case.get("id")
+        _require(isinstance(case_id, str) and SKILL_NAME.fullmatch(case_id), f"evaluation case {index} for {skill_name} has an invalid id")
+        _require(isinstance(case.get("prompt"), str) and case["prompt"].strip(), f"evaluation case {case_id} has no prompt")
+        _require(_string_list(case.get("criteria"), allow_empty=False), f"evaluation case {case_id} has no scoring criteria")
+        _require(isinstance(case.get("type"), str), f"evaluation case {case_id} has no type")
+        case_ids.append(case_id)
+        case_types.add(case["type"])
+    duplicates = _duplicates(case_ids)
+    _require(not duplicates, f"duplicate evaluation case ids for {skill_name}: {sorted(duplicates)}")
+    required_types = {"trigger", "non-trigger", "application", "condition", "edge"}
+    _require(required_types <= case_types, f"evaluation cases for {skill_name} are incomplete")
+    return set(case_ids)
+
+
+def _number(value: Any) -> bool:
+    return isinstance(value, (int, float)) and not isinstance(value, bool)
+
+
+def _evaluation_summary(eval_dir: Path, skill_name: str, phase: str, case_ids: Set[str]) -> Dict[str, Any]:
+    summary_path = eval_dir / phase / "summary.json"
+    _require(summary_path.is_file(), f"missing {phase} evaluation summary for {skill_name}")
+    summary = _load_json(summary_path)
+    _require(isinstance(summary, dict) and summary.get("schema_version") == 1, f"invalid {phase} evaluation summary for {skill_name}")
+    _require(summary.get("skill_name") == skill_name, f"{phase} evaluation summary skill mismatch for {skill_name}")
+    _require(summary.get("phase") == phase, f"{phase} evaluation summary phase mismatch for {skill_name}")
+    reviewer_id = summary.get("reviewer_id")
+    _require(
+        isinstance(reviewer_id, str) and re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]*", reviewer_id) is not None,
+        f"{phase} evaluation summary lacks a stable reviewer_id for {skill_name}",
+    )
+    case_results = summary.get("case_results")
+    _require(isinstance(case_results, list), f"{phase} evaluation summary case_results must be an array for {skill_name}")
+    result_ids: List[str] = []
+    raw_outputs: List[str] = []
+    scores: Dict[str, float] = {}
+    maxima: Dict[str, float] = {}
+    for index, result in enumerate(case_results, start=1):
+        _require(isinstance(result, dict), f"{phase} evaluation result {index} must be an object for {skill_name}")
+        case_id = result.get("case_id")
+        _require(isinstance(case_id, str), f"{phase} evaluation result {index} has no case_id for {skill_name}")
+        score = result.get("score")
+        max_score = result.get("max_score")
+        _require(_number(score) and _number(max_score), f"{phase} evaluation result {case_id} has non-numeric scores")
+        _require(max_score > 0 and 0 <= score <= max_score, f"{phase} evaluation result {case_id} has an invalid score")
+        raw_output = result.get("raw_output")
+        _require(isinstance(raw_output, str) and Path(raw_output).name == raw_output and raw_output.endswith(".md"), f"{phase} evaluation result {case_id} has an invalid raw output path")
+        raw_path = eval_dir / phase / raw_output
+        _require(raw_path.is_file(), f"missing raw output for {phase} case {case_id}: {raw_path}")
+        raw_text = raw_path.read_text(encoding="utf-8")
+        _require(len(raw_text.split()) >= 12, f"raw output is empty or abbreviated for {phase} case {case_id}")
+        _require(f"Case ID: {case_id}" in raw_text, f"raw output does not identify {phase} case {case_id}")
+        _require(f"Reviewer ID: {reviewer_id}" in raw_text, f"raw output reviewer does not match {phase} summary for {case_id}")
+        result_ids.append(case_id)
+        raw_outputs.append(raw_output)
+        scores[case_id] = float(score)
+        maxima[case_id] = float(max_score)
+    result_duplicates = _duplicates(result_ids)
+    _require(not result_duplicates, f"duplicate {phase} evaluation case results for {skill_name}: {sorted(result_duplicates)}")
+    _require(set(result_ids) == case_ids, f"{phase} evaluation summary does not cover the exact case set for {skill_name}")
+    raw_duplicates = _duplicates(raw_outputs)
+    _require(not raw_duplicates, f"{phase} evaluation cases must have distinct raw output artifacts for {skill_name}")
+    normalized_score = sum(scores.values()) / sum(maxima.values())
+    return {
+        "reviewer_id": reviewer_id,
+        "normalized_score": normalized_score,
+        "maxima": maxima,
+        "raw_outputs": len(raw_outputs),
+    }
 
 
 def _normalized_tokens(text: str) -> List[str]:
@@ -366,15 +514,58 @@ def _git(args: Sequence[str], repo: Path) -> str:
     return result.stdout.strip()
 
 
+def _review_category(value: str) -> str:
+    return " ".join(re.sub(r"[^a-z0-9]+", " ", value.casefold()).split())
+
+
+def _review_field(section: str, field: str, category: str) -> str:
+    match = re.search(rf"(?im)^{re.escape(field)}:\s*(\S.*?)\s*$", section)
+    _require(match is not None, f"final review category {category!r} is missing {field}")
+    return match.group(1).strip()
+
+
+def _validate_final_review(path: Path) -> str:
+    _require(path.is_file(), "missing independent final review evidence")
+    text = path.read_text(encoding="utf-8")
+    reviewer_match = re.search(r"(?im)^reviewer:\s*([A-Za-z0-9][A-Za-z0-9._-]*)\s*$", text)
+    _require(reviewer_match is not None, "final review lacks an independent reviewer ID")
+    _require(re.search(r"(?im)^status:\s*complete\s*$", text) is not None, "independent final review is not complete")
+    headings = list(re.finditer(r"(?m)^##\s+(.+?)\s*$", text))
+    sections: Dict[str, str] = {}
+    for index, heading in enumerate(headings):
+        category = _review_category(heading.group(1))
+        _require(category not in sections, f"duplicate final review category: {category}")
+        end = headings[index + 1].start() if index + 1 < len(headings) else len(text)
+        sections[category] = text[heading.end() : end]
+    missing_categories = FINAL_REVIEW_CATEGORIES - set(sections)
+    _require(not missing_categories, f"final review is missing required categories: {sorted(missing_categories)}")
+    allowed_severities = {"none", "minor", "important", "critical"}
+    allowed_dispositions = {"no-findings", "accepted", "rejected", "remediated"}
+    for category in sorted(FINAL_REVIEW_CATEGORIES):
+        section = sections[category]
+        severity = _review_field(section, "Severity", category).casefold()
+        disposition = _review_field(section, "Disposition", category).casefold()
+        evidence = _review_field(section, "Evidence", category)
+        affected = _review_field(section, "Affected essays/skills", category)
+        remedy = _review_field(section, "Proposed remedy", category)
+        verification = _review_field(section, "Verification", category)
+        _require(severity in allowed_severities, f"final review category {category!r} has invalid severity")
+        _require(disposition in allowed_dispositions, f"final review category {category!r} has invalid disposition")
+        _require(len(evidence.split()) >= 8, f"final review category {category!r} lacks specific evidence")
+        _require(bool(affected.strip()), f"final review category {category!r} lacks affected essays/skills")
+        _require(bool(remedy.strip()), f"final review category {category!r} lacks a proposed remedy")
+        _require(len(verification.split()) >= 5, f"final review category {category!r} lacks verification")
+    return reviewer_match.group(1)
+
+
 def _validate_final(repo: Path, corpus: Path, taxonomy: List[Dict[str, Any]], proof: Dict[str, int]) -> None:
     final_review = repo / "research/final-review.md"
-    _require(final_review.is_file(), "missing independent final review evidence")
-    review_text = final_review.read_text(encoding="utf-8")
-    _require(re.search(r"(?im)^reviewer:\s*\S+", review_text) is not None, "final review lacks an independent reviewer")
-    _require(re.search(r"(?im)^status:\s*complete\s*$", review_text) is not None, "independent final review is not complete")
+    _validate_final_review(final_review)
 
     baseline_count = 0
     forward_count = 0
+    baseline_raw_outputs = 0
+    forward_raw_outputs = 0
     taxonomy_names = {entry["skill_name"] for entry in taxonomy}
     for name in sorted(taxonomy_names):
         skill_dir = repo / "skills" / name
@@ -384,28 +575,29 @@ def _validate_final(repo: Path, corpus: Path, taxonomy: List[Dict[str, Any]], pr
         metadata = _frontmatter(skill_md.read_text(encoding="utf-8"), skill_md)
         _require(metadata.get("name") == name, f"skill frontmatter name mismatch for {name}")
         _require(metadata.get("description", "").startswith("Use when"), f"skill {name} needs a trigger-focused description")
-        _require(metadata_path.is_file(), f"missing skill package metadata: {metadata_path}")
-        metadata_text = metadata_path.read_text(encoding="utf-8")
-        for key in ("display_name:", "short_description:", "default_prompt:"):
-            _require(key in metadata_text, f"{metadata_path} is missing {key[:-1]}")
-        _require(f"${name}" in metadata_text, f"{metadata_path} default_prompt does not invoke ${name}")
+        _validate_openai_yaml(metadata_path, name)
 
         eval_dir = repo / "evals" / name
-        cases = _load_json(eval_dir / "cases.json")
-        case_entries = cases.get("cases") if isinstance(cases, dict) else cases
-        _require(isinstance(case_entries, list), f"evaluation cases for {name} must be an array")
-        case_types = {case.get("type") for case in case_entries if isinstance(case, dict)}
-        required_types = {"trigger", "non-trigger", "application", "condition", "edge"}
-        _require(required_types <= case_types, f"evaluation cases for {name} are incomplete")
-        baseline = sorted((eval_dir / "baseline").glob("*.md")) if (eval_dir / "baseline").is_dir() else []
-        forward = sorted((eval_dir / "forward").glob("*.md")) if (eval_dir / "forward").is_dir() else []
-        _require(baseline, f"missing baseline evaluation evidence for {name}")
-        _require(forward, f"missing forward evaluation evidence for {name}")
-        baseline_reviewers = {_reviewer(path) for path in baseline}
-        forward_reviewers = {_reviewer(path) for path in forward}
-        _require(not (baseline_reviewers & forward_reviewers), f"baseline and forward evaluations reuse a reviewer for {name}")
-        baseline_count += len(baseline)
-        forward_count += len(forward)
+        case_ids = _evaluation_cases(eval_dir / "cases.json", name)
+        baseline = _evaluation_summary(eval_dir, name, "baseline", case_ids)
+        forward = _evaluation_summary(eval_dir, name, "forward", case_ids)
+        _require(
+            baseline["reviewer_id"] != forward["reviewer_id"],
+            f"baseline and forward evaluations must use distinct fresh reviewer IDs for {name}",
+        )
+        _require(
+            baseline["maxima"] == forward["maxima"],
+            f"baseline and forward evaluations use different scoring scales for {name}",
+        )
+        improvement = forward["normalized_score"] - baseline["normalized_score"]
+        _require(
+            improvement >= 0.10,
+            f"forward evaluation does not prove material improvement for {name}: delta={improvement:.3f}, required=0.100",
+        )
+        baseline_count += 1
+        forward_count += 1
+        baseline_raw_outputs += baseline["raw_outputs"]
+        forward_raw_outputs += forward["raw_outputs"]
 
     readme = repo / "README.md"
     _require(readme.is_file(), "missing README catalog")
@@ -432,6 +624,8 @@ def _validate_final(repo: Path, corpus: Path, taxonomy: List[Dict[str, Any]], pr
     proof.update(
         baseline_evaluations=baseline_count,
         forward_evaluations=forward_count,
+        baseline_raw_outputs=baseline_raw_outputs,
+        forward_raw_outputs=forward_raw_outputs,
         readme_catalog_entries=len(catalog_names),
         long_source_excerpts=len(violations),
         git_sync_checked=git_checked,

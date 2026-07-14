@@ -191,6 +191,7 @@
 **Interfaces:**
 - Taxonomy records contain `skill_name`, `purpose`, `triggers`, `non_triggers`, `themes`, `essay_ids`, `stage_conditions`, `tensions`, and `candidate_eval_cases`.
 - Every core/supporting audit record maps to one or more synthesized themes and final skill names.
+- Theme coverage uses normalized exact labels: case-fold each label, replace punctuation/underscores with spaces, and collapse whitespace. Every normalized audited theme for a relevant essay must occur in the taxonomy themes of at least one of that essay's mapped `final_skills`; unrelated nonempty placeholders do not count.
 - Every final skill must represent an actionable workflow, decision, or mental model distinct from its neighbors.
 
 - [ ] **Step 1: Use brainstorming to cluster audited evidence without preset categories**
@@ -237,6 +238,14 @@
 - The order is the stable order in `research/taxonomy.json`; do not scaffold the next package until the current package is committed and pushed.
 - Official tools live under `/Users/leopaz/.codex/skills/.system/skill-creator/scripts/`.
 - Every package contains only `SKILL.md`, `agents/openai.yaml`, and directly useful one-level resources such as `references/provenance.md`.
+- The repository validator supports the canonical generated metadata subset: a flat `SKILL.md` frontmatter mapping containing only `name` and `description`, plus an `agents/openai.yaml` `interface` mapping with quoted `display_name`, `short_description`, and `default_prompt` strings. Optional generated interface strings are allowed; malformed quoting, indentation, duplicate keys, or unsupported structure fails the final gate.
+
+**Evaluation artifact schema v1:**
+
+- `evals/<skill>/cases.json` is an object with `schema_version: 1` and `cases`. Every case has a unique lowercase hyphenated `id`, a required type (`trigger`, `non-trigger`, `application`, `condition`, or `edge`), a nonempty `prompt`, and nonempty string `criteria`.
+- `evals/<skill>/{baseline,forward}/summary.json` contains `schema_version`, `skill_name`, `phase`, `reviewer_id`, and one `case_results` record per exact case ID. Each result contains numeric `score`, positive `max_score`, and a unique same-directory Markdown `raw_output` filename.
+- Every raw output names its `Case ID` and `Reviewer ID`, matches its summary, and contains the captured response rather than an abbreviated placeholder. Baseline and forward use distinct reviewer IDs and identical scoring scales.
+- Material improvement means the forward aggregate normalized score (`sum(score) / sum(max_score)`) is at least `0.10` greater than baseline. Raw prose claims without these summaries do not pass.
 
 - [ ] **Step 1: Create realistic evaluation cases for the first unbuilt taxonomy skill**
 
@@ -289,6 +298,7 @@
 
 **Interfaces:**
 - Findings include category, severity, evidence, affected essays/skills, proposed remedy, disposition, and verification.
+- `research/final-review.md` has a stable `Reviewer` ID, `Status: complete`, and `##` sections for `Missing principles`, `Overlap/gaps`, `Contradictions`, `Stage-dependent advice`, `Triggering quality`, and `Copyright hygiene`. Every required section records `Severity`, `Disposition`, specific `Evidence`, `Affected essays/skills`, `Proposed remedy`, and `Verification`; a reviewer/status stub does not pass.
 
 - [ ] **Step 1: Dispatch fresh-context independent reviews**
 
