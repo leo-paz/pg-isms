@@ -5,12 +5,17 @@
     "Two independent non-overlapping corpus reviews supplied exact raw-label mappings; overlapping labels and later semantic red-team corrections were reconciled against audit workflows.",
     "Close synonyms share a base target and genuine compounds map to at most three targets; optional article-scoped overrides disambiguate recurrent homonyms without changing raw audit labels.",
     "Launch safety, survival state, evidence latency, investor truth, user acquisition versus company acquisition, urgency, stage, product type, and historical context remain distinct.",
-    "Canonical themes support later evidence retrieval only and must not be treated as final skill names or runtime instructions."
+    "Canonical themes support later evidence retrieval only and must not be treated as final skill names or runtime instructions.",
+    "Checkpoint 3 semantic routing review split broad equity, adversarial, network-effect, and policy labels by actor or mechanism and added mappings for five reopened essays."
   ],
   "canonical_themes": [
     {
       "name": "abstraction-and-composability",
       "definition": "Domain abstractions, reusable primitives, conceptual compression, and bottom-up composition."
+    },
+    {
+      "name": "abuse-and-moderation-controls",
+      "definition": "Community abuse response, troll prevention, moderation review, and participant-facing control mechanisms."
     },
     {
       "name": "accelerators-and-advising",
@@ -25,8 +30,8 @@
       "definition": "Getting a prospect or new user through an explicit activation/conversion path."
     },
     {
-      "name": "adversarial-robustness-and-abuse",
-      "definition": "Abuse, attackers, asymmetric classifiers, and user-controlled defenses."
+      "name": "adversarial-system-robustness",
+      "definition": "Adaptive classifiers, attacker-aware product design, personalized defenses, asymmetric error handling, and robust evaluation."
     },
     {
       "name": "architecture-and-technical-fit",
@@ -125,8 +130,12 @@
       "definition": "Organic, platform, audience, referral, and other adoption/growth mechanisms."
     },
     {
-      "name": "equity-and-ownership",
-      "definition": "Founder/employee ownership, liquidity, dilution, and outcome-adjusted equity."
+      "name": "ecosystem-policy-and-institutions",
+      "definition": "Policy, university, program, immigration, and institutional levers used to create or strengthen a startup ecosystem."
+    },
+    {
+      "name": "employee-equity-and-compensation",
+      "definition": "Employee equity allocation and its relationship to compensation, hiring, contribution, and company value."
     },
     {
       "name": "evidence-latency-and-cadence",
@@ -269,10 +278,6 @@
       "definition": "Intrinsic interest, ambition, self-selection, and calibration of project, field, or work fit."
     },
     {
-      "name": "network-effects-and-critical-mass",
-      "definition": "Popularity, density, network effects, and threshold/critical-mass dynamics."
-    },
-    {
       "name": "organizational-leadership-and-role-evolution",
       "definition": "Management, institution design, founder-role transitions, succession, and organizational leadership."
     },
@@ -301,10 +306,6 @@
       "definition": "Product/platform boundaries, developer ecosystems, open platforms, and platform choice."
     },
     {
-      "name": "policy-regulation-and-immigration",
-      "definition": "Rules, policy programs, immigration, and regulatory friction affecting startups."
-    },
-    {
       "name": "portfolio-investing",
       "definition": "Angel/VC portfolio construction, conflicts, learning, and capital allocation."
     },
@@ -329,6 +330,10 @@
       "definition": "Product evolution after feedback, including continuous redesign."
     },
     {
+      "name": "product-network-effects-and-critical-mass",
+      "definition": "Participant or user interaction effects, referral loops, density thresholds, and contained-market liquidity in a product."
+    },
+    {
       "name": "product-positioning-and-comparison",
       "definition": "Explaining a product by problem, contrast, relevance, or concrete framing."
     },
@@ -343,6 +348,14 @@
     {
       "name": "public-visibility-and-reputation-defense",
       "definition": "Public claims, criticism, identity threats, disputes, reputation defense, and their attention costs."
+    },
+    {
+      "name": "regional-ecosystem-density",
+      "definition": "Founder, investor, peer, talent, and expertise density that compounds within a regional startup ecosystem."
+    },
+    {
+      "name": "regulatory-and-legal-constraints",
+      "definition": "Current legal, regulatory, patent, immigration, and policy constraints that condition startup choices and require revalidation."
     },
     {
       "name": "release-and-deployment",
@@ -423,6 +436,10 @@
     {
       "name": "technical-leverage-and-productivity",
       "definition": "Technology-induced speed, compression, or output advantage."
+    },
+    {
+      "name": "technology-ecosystem-adoption",
+      "definition": "Libraries, interoperability, tool popularity, developer ecosystems, and other adoption loops around a technology."
     },
     {
       "name": "technology-selection",
@@ -689,8 +706,7 @@
     {
       "raw_theme": "adoption activation energy",
       "canonical_themes": [
-        "market-timing-and-transitions",
-        "network-effects-and-critical-mass"
+        "market-timing-and-transitions"
       ],
       "reviewer": "semantic-theme-partition-113-223"
     },
@@ -705,9 +721,17 @@
     {
       "raw_theme": "adversarial robustness",
       "canonical_themes": [
-        "adversarial-robustness-and-abuse"
+        "adversarial-system-robustness"
       ],
       "reviewer": "semantic-theme-partition-001-112"
+    },
+    {
+      "raw_theme": "allocator-operator trust",
+      "canonical_themes": [
+        "decision-quality-and-noise",
+        "investor-truth-trust-and-reputation"
+      ],
+      "reviewer": "taxonomy-semantic-remediation"
     },
     {
       "raw_theme": "ambient thought",
@@ -817,9 +841,17 @@
       "reviewer": "semantic-theme-partition-001-112"
     },
     {
+      "raw_theme": "asymmetric candor",
+      "canonical_themes": [
+        "integrity-truth-and-calibration",
+        "investor-truth-trust-and-reputation"
+      ],
+      "reviewer": "taxonomy-semantic-remediation"
+    },
+    {
       "raw_theme": "asymmetric error costs",
       "canonical_themes": [
-        "adversarial-robustness-and-abuse",
+        "adversarial-system-robustness",
         "risk-and-error-management"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -834,7 +866,7 @@
     {
       "raw_theme": "asymmetric-error design",
       "canonical_themes": [
-        "adversarial-robustness-and-abuse",
+        "adversarial-system-robustness",
         "risk-and-error-management"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -897,6 +929,14 @@
         "user-feedback-and-observation"
       ],
       "reviewer": "semantic-theme-partition-001-112"
+    },
+    {
+      "raw_theme": "audience-response quality",
+      "canonical_themes": [
+        "product-quality-and-behavioral-feedback",
+        "user-feedback-and-observation"
+      ],
+      "reviewer": "taxonomy-semantic-remediation"
     },
     {
       "raw_theme": "authentic taste",
@@ -1202,8 +1242,7 @@
     {
       "raw_theme": "career flexibility",
       "canonical_themes": [
-        "career-choice-and-optionality",
-        "policy-regulation-and-immigration"
+        "career-choice-and-optionality"
       ],
       "reviewer": "semantic-theme-partition-001-112"
     },
@@ -1253,6 +1292,13 @@
         "measurement-and-evaluation"
       ],
       "reviewer": "semantic-theme-partition-113-223"
+    },
+    {
+      "raw_theme": "causal humility",
+      "canonical_themes": [
+        "assumption-testing-and-epistemics"
+      ],
+      "reviewer": "taxonomy-semantic-remediation"
     },
     {
       "raw_theme": "causal imitation",
@@ -1711,8 +1757,8 @@
     {
       "raw_theme": "control versus adoption",
       "canonical_themes": [
-        "network-effects-and-critical-mass",
-        "platform-and-ecosystem-strategy"
+        "platform-and-ecosystem-strategy",
+        "technology-ecosystem-adoption"
       ],
       "reviewer": "semantic-theme-partition-113-223"
     },
@@ -1803,6 +1849,13 @@
       "reviewer": "semantic-theme-partition-001-112"
     },
     {
+      "raw_theme": "credibility calibration",
+      "canonical_themes": [
+        "integrity-truth-and-calibration"
+      ],
+      "reviewer": "taxonomy-semantic-remediation"
+    },
+    {
       "raw_theme": "critical dependencies",
       "canonical_themes": [
         "attention-and-priority-control",
@@ -1813,7 +1866,8 @@
     {
       "raw_theme": "critical mass",
       "canonical_themes": [
-        "network-effects-and-critical-mass"
+        "regional-ecosystem-density",
+        "startup-ecosystems-and-hubs"
       ],
       "reviewer": "semantic-theme-partition-001-112"
     },
@@ -2076,8 +2130,8 @@
     {
       "raw_theme": "developer ecosystems",
       "canonical_themes": [
-        "network-effects-and-critical-mass",
-        "platform-and-ecosystem-strategy"
+        "platform-and-ecosystem-strategy",
+        "technology-ecosystem-adoption"
       ],
       "reviewer": "semantic-theme-partition-001-112"
     },
@@ -2207,7 +2261,7 @@
     {
       "raw_theme": "distributed human review",
       "canonical_themes": [
-        "adversarial-robustness-and-abuse",
+        "abuse-and-moderation-controls",
         "community-moderation-and-reputation"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -2243,6 +2297,14 @@
         "learning-and-skill-development"
       ],
       "reviewer": "semantic-theme-partition-113-223"
+    },
+    {
+      "raw_theme": "domain-expertise exceptions",
+      "canonical_themes": [
+        "accelerators-and-advising",
+        "decision-quality-and-noise"
+      ],
+      "reviewer": "taxonomy-semantic-remediation"
     },
     {
       "raw_theme": "domain-specific abstractions",
@@ -2358,7 +2420,7 @@
     {
       "raw_theme": "ecosystem flywheels",
       "canonical_themes": [
-        "network-effects-and-critical-mass",
+        "regional-ecosystem-density",
         "startup-ecosystems-and-hubs"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -2384,6 +2446,13 @@
         "startup-ecosystems-and-hubs"
       ],
       "reviewer": "semantic-theme-partition-113-223"
+    },
+    {
+      "raw_theme": "egocentric-bias correction",
+      "canonical_themes": [
+        "status-prestige-and-bias"
+      ],
+      "reviewer": "taxonomy-semantic-remediation"
     },
     {
       "raw_theme": "emergent vision",
@@ -2412,7 +2481,7 @@
     {
       "raw_theme": "employee equity",
       "canonical_themes": [
-        "equity-and-ownership",
+        "employee-equity-and-compensation",
         "hiring-and-talent"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -2459,7 +2528,7 @@
       "raw_theme": "equity dilution",
       "canonical_themes": [
         "deal-mechanics-and-terms",
-        "equity-and-ownership"
+        "financing-terms-equity-and-control"
       ],
       "reviewer": "semantic-theme-partition-001-112"
     },
@@ -2664,6 +2733,14 @@
       "reviewer": "semantic-theme-partition-001-112"
     },
     {
+      "raw_theme": "extraneous-influence control",
+      "canonical_themes": [
+        "measurement-and-evaluation",
+        "status-prestige-and-bias"
+      ],
+      "reviewer": "taxonomy-semantic-remediation"
+    },
+    {
       "raw_theme": "fake work",
       "canonical_themes": [
         "attention-and-priority-control",
@@ -2679,6 +2756,14 @@
         "user-acquisition-and-distribution"
       ],
       "reviewer": "semantic-theme-partition-113-223"
+    },
+    {
+      "raw_theme": "fast falsification",
+      "canonical_themes": [
+        "assumption-testing-and-epistemics",
+        "evidence-latency-and-cadence"
+      ],
+      "reviewer": "taxonomy-semantic-remediation"
     },
     {
       "raw_theme": "fast launch",
@@ -2775,6 +2860,14 @@
         "prioritization-and-focus"
       ],
       "reviewer": "semantic-theme-partition-001-112"
+    },
+    {
+      "raw_theme": "forecast accountability",
+      "canonical_themes": [
+        "integrity-truth-and-calibration",
+        "measurement-and-evaluation"
+      ],
+      "reviewer": "taxonomy-semantic-remediation"
     },
     {
       "raw_theme": "format honesty",
@@ -2947,7 +3040,7 @@
       "raw_theme": "founder immigration",
       "canonical_themes": [
         "location-and-mobility",
-        "policy-regulation-and-immigration"
+        "regulatory-and-legal-constraints"
       ],
       "reviewer": "semantic-theme-partition-001-112"
     },
@@ -2978,7 +3071,7 @@
     {
       "raw_theme": "founder liquidity",
       "canonical_themes": [
-        "equity-and-ownership",
+        "financing-terms-equity-and-control",
         "strategic-optionality"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -3165,7 +3258,7 @@
     {
       "raw_theme": "founder-friendly policy",
       "canonical_themes": [
-        "policy-regulation-and-immigration",
+        "ecosystem-policy-and-institutions",
         "startup-ecosystems-and-hubs"
       ],
       "reviewer": "semantic-theme-partition-113-223"
@@ -3173,7 +3266,7 @@
     {
       "raw_theme": "founder-investor density",
       "canonical_themes": [
-        "network-effects-and-critical-mass",
+        "regional-ecosystem-density",
         "startup-ecosystems-and-hubs"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -3464,7 +3557,7 @@
     {
       "raw_theme": "fundraising tradeoffs",
       "canonical_themes": [
-        "equity-and-ownership",
+        "financing-terms-equity-and-control",
         "fundraising-strategy-and-process"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -3661,7 +3754,7 @@
     {
       "raw_theme": "historical adversarial-incentive hypothesis",
       "canonical_themes": [
-        "adversarial-robustness-and-abuse",
+        "adversarial-system-robustness",
         "historical-and-source-context",
         "incentives-and-behavior"
       ],
@@ -3703,7 +3796,7 @@
     {
       "raw_theme": "hub effects",
       "canonical_themes": [
-        "network-effects-and-critical-mass",
+        "regional-ecosystem-density",
         "startup-ecosystems-and-hubs"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -3711,7 +3804,7 @@
     {
       "raw_theme": "hub network effects",
       "canonical_themes": [
-        "network-effects-and-critical-mass",
+        "regional-ecosystem-density",
         "startup-ecosystems-and-hubs"
       ],
       "reviewer": "semantic-theme-partition-113-223"
@@ -3845,7 +3938,7 @@
       "raw_theme": "immigration-constrained recruiting",
       "canonical_themes": [
         "hiring-and-talent",
-        "policy-regulation-and-immigration"
+        "regulatory-and-legal-constraints"
       ],
       "reviewer": "semantic-theme-partition-113-223"
     },
@@ -3867,7 +3960,7 @@
         {
           "article_no": "033",
           "canonical_themes": [
-            "equity-and-ownership",
+            "financing-terms-equity-and-control",
             "incentives-and-behavior"
           ],
           "reviewer": "semantic-remediation-2026-07-14"
@@ -3919,6 +4012,13 @@
         "incumbent-dynamics"
       ],
       "reviewer": "semantic-theme-partition-001-112"
+    },
+    {
+      "raw_theme": "incumbent short-term incentives",
+      "canonical_themes": [
+        "incumbent-dynamics"
+      ],
+      "reviewer": "taxonomy-semantic-remediation"
     },
     {
       "raw_theme": "independent investor commitments",
@@ -4366,6 +4466,14 @@
       "reviewer": "semantic-theme-partition-001-112"
     },
     {
+      "raw_theme": "legal distortion diagnostic",
+      "canonical_themes": [
+        "integrity-truth-and-calibration",
+        "regulatory-and-legal-constraints"
+      ],
+      "reviewer": "taxonomy-semantic-remediation"
+    },
+    {
       "raw_theme": "living in the future",
       "canonical_themes": [
         "founder-user-product-and-domain-fit",
@@ -4648,7 +4756,7 @@
       "raw_theme": "market-based eligibility",
       "canonical_themes": [
         "performance-selection-and-credentials",
-        "policy-regulation-and-immigration"
+        "regulatory-and-legal-constraints"
       ],
       "reviewer": "semantic-theme-partition-001-112"
     },
@@ -4854,8 +4962,8 @@
     {
       "raw_theme": "narrative propagation",
       "canonical_themes": [
-        "media-pr-and-narrative",
-        "network-effects-and-critical-mass"
+        "distribution-and-growth",
+        "media-pr-and-narrative"
       ],
       "reviewer": "semantic-theme-partition-001-112"
     },
@@ -4984,12 +5092,27 @@
       "reviewer": "semantic-theme-partition-001-112"
     },
     {
+      "raw_theme": "objective taste",
+      "canonical_themes": [
+        "product-design-and-taste"
+      ],
+      "reviewer": "taxonomy-semantic-remediation"
+    },
+    {
       "raw_theme": "obsolete beliefs",
       "canonical_themes": [
         "decision-quality-and-noise",
         "learning-and-skill-development"
       ],
       "reviewer": "semantic-theme-partition-113-223"
+    },
+    {
+      "raw_theme": "obsolete business-model enforcement",
+      "canonical_themes": [
+        "business-models-and-channel-power",
+        "incumbent-dynamics"
+      ],
+      "reviewer": "taxonomy-semantic-remediation"
     },
     {
       "raw_theme": "open platforms",
@@ -5055,7 +5178,7 @@
     {
       "raw_theme": "organic expertise growth",
       "canonical_themes": [
-        "network-effects-and-critical-mass",
+        "regional-ecosystem-density",
         "startup-ecosystems-and-hubs"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -5124,7 +5247,7 @@
     {
       "raw_theme": "outcome-adjusted ownership",
       "canonical_themes": [
-        "equity-and-ownership",
+        "financing-terms-equity-and-control",
         "measurement-and-evaluation"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -5220,7 +5343,7 @@
     {
       "raw_theme": "ownership liquidity",
       "canonical_themes": [
-        "equity-and-ownership",
+        "financing-terms-equity-and-control",
         "strategic-optionality"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -5252,14 +5375,14 @@
       "raw_theme": "patent ethics",
       "canonical_themes": [
         "integrity-truth-and-calibration",
-        "policy-regulation-and-immigration"
+        "regulatory-and-legal-constraints"
       ],
       "reviewer": "semantic-remediation-2026-07-14"
     },
     {
       "raw_theme": "peer and audience density",
       "canonical_themes": [
-        "network-effects-and-critical-mass",
+        "regional-ecosystem-density",
         "startup-ecosystems-and-hubs"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -5282,8 +5405,8 @@
     {
       "raw_theme": "peer motivation",
       "canonical_themes": [
-        "motivation-and-morale",
-        "network-effects-and-critical-mass"
+        "collaboration-and-peer-support",
+        "motivation-and-morale"
       ],
       "reviewer": "semantic-theme-partition-001-112"
     },
@@ -5372,7 +5495,7 @@
     {
       "raw_theme": "personalized learning",
       "canonical_themes": [
-        "adversarial-robustness-and-abuse",
+        "adversarial-system-robustness",
         "architecture-and-technical-fit"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -5471,7 +5594,7 @@
     {
       "raw_theme": "policy experiments",
       "canonical_themes": [
-        "policy-regulation-and-immigration",
+        "ecosystem-policy-and-institutions",
         "prototyping-and-experimentation"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -5488,7 +5611,7 @@
     {
       "raw_theme": "popularity network effects",
       "canonical_themes": [
-        "network-effects-and-critical-mass",
+        "technology-ecosystem-adoption",
         "technology-selection"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -5720,8 +5843,8 @@
     {
       "raw_theme": "program incentives",
       "canonical_themes": [
-        "incentives-and-behavior",
-        "policy-regulation-and-immigration"
+        "ecosystem-policy-and-institutions",
+        "incentives-and-behavior"
       ],
       "reviewer": "semantic-theme-partition-001-112"
     },
@@ -5816,7 +5939,6 @@
     {
       "raw_theme": "public product validation",
       "canonical_themes": [
-        "network-effects-and-critical-mass",
         "user-demand-discovery-and-validation"
       ],
       "reviewer": "semantic-theme-partition-113-223"
@@ -5869,6 +5991,13 @@
         "stage-and-state-conditions"
       ],
       "reviewer": "semantic-theme-partition-001-112"
+    },
+    {
+      "raw_theme": "randomness-aware attribution",
+      "canonical_themes": [
+        "decision-quality-and-noise"
+      ],
+      "reviewer": "taxonomy-semantic-remediation"
     },
     {
       "raw_theme": "rapid development",
@@ -5977,8 +6106,8 @@
     {
       "raw_theme": "referral networks",
       "canonical_themes": [
-        "distribution-and-growth",
-        "network-effects-and-critical-mass"
+        "investor-incentives-and-selection",
+        "portfolio-investing"
       ],
       "reviewer": "semantic-theme-partition-001-112"
     },
@@ -6001,7 +6130,7 @@
     {
       "raw_theme": "regulatory friction",
       "canonical_themes": [
-        "policy-regulation-and-immigration",
+        "regulatory-and-legal-constraints",
         "risk-and-error-management"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -6476,7 +6605,7 @@
       "canonical_themes": [
         "historical-and-source-context",
         "integrity-truth-and-calibration",
-        "policy-regulation-and-immigration"
+        "regulatory-and-legal-constraints"
       ],
       "reviewer": "semantic-remediation-2026-07-14"
     },
@@ -6538,7 +6667,7 @@
     {
       "raw_theme": "social adoption",
       "canonical_themes": [
-        "network-effects-and-critical-mass",
+        "product-network-effects-and-critical-mass",
         "user-demand-discovery-and-validation"
       ],
       "reviewer": "semantic-theme-partition-113-223"
@@ -6546,7 +6675,7 @@
     {
       "raw_theme": "social norms",
       "canonical_themes": [
-        "network-effects-and-critical-mass",
+        "regional-ecosystem-density",
         "startup-ecosystems-and-hubs"
       ],
       "reviewer": "semantic-theme-partition-113-223"
@@ -6684,7 +6813,7 @@
     {
       "raw_theme": "startup ecosystem policy",
       "canonical_themes": [
-        "policy-regulation-and-immigration",
+        "ecosystem-policy-and-institutions",
         "startup-ecosystems-and-hubs"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -6715,7 +6844,7 @@
     {
       "raw_theme": "startup formation policy",
       "canonical_themes": [
-        "policy-regulation-and-immigration",
+        "ecosystem-policy-and-institutions",
         "startup-ecosystems-and-hubs"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -6883,7 +7012,7 @@
     {
       "raw_theme": "startup-hub effects",
       "canonical_themes": [
-        "network-effects-and-critical-mass",
+        "regional-ecosystem-density",
         "startup-ecosystems-and-hubs"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -6891,7 +7020,7 @@
     {
       "raw_theme": "startup-hub formation",
       "canonical_themes": [
-        "network-effects-and-critical-mass",
+        "regional-ecosystem-density",
         "startup-ecosystems-and-hubs"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -7106,7 +7235,7 @@
       "raw_theme": "talent clusters",
       "canonical_themes": [
         "hiring-and-talent",
-        "network-effects-and-critical-mass",
+        "regional-ecosystem-density",
         "startup-ecosystems-and-hubs"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -7298,6 +7427,14 @@
       "reviewer": "semantic-theme-partition-001-112"
     },
     {
+      "raw_theme": "technology-dependent value capture",
+      "canonical_themes": [
+        "business-models-and-channel-power",
+        "technology-transitions-and-disruption"
+      ],
+      "reviewer": "taxonomy-semantic-remediation"
+    },
+    {
       "raw_theme": "technology-led company formation",
       "canonical_themes": [
         "technology-transitions-and-disruption",
@@ -7342,7 +7479,7 @@
       "raw_theme": "threshold markets",
       "canonical_themes": [
         "beachheads-and-market-expansion",
-        "network-effects-and-critical-mass"
+        "product-network-effects-and-critical-mass"
       ],
       "reviewer": "semantic-theme-partition-113-223"
     },
@@ -7419,7 +7556,7 @@
     {
       "raw_theme": "troll prevention",
       "canonical_themes": [
-        "adversarial-robustness-and-abuse",
+        "abuse-and-moderation-controls",
         "community-moderation-and-reputation"
       ],
       "reviewer": "semantic-theme-partition-001-112"
@@ -7476,10 +7613,19 @@
     {
       "raw_theme": "university role",
       "canonical_themes": [
-        "policy-regulation-and-immigration",
+        "ecosystem-policy-and-institutions",
         "startup-ecosystems-and-hubs"
       ],
       "reviewer": "semantic-theme-partition-113-223"
+    },
+    {
+      "raw_theme": "unrestricted capital allocation",
+      "canonical_themes": [
+        "accelerators-and-advising",
+        "founder-autonomy-and-control",
+        "investor-incentives-and-selection"
+      ],
+      "reviewer": "taxonomy-semantic-remediation"
     },
     {
       "raw_theme": "unscalable service",
@@ -7666,7 +7812,7 @@
     {
       "raw_theme": "user-controlled abuse response",
       "canonical_themes": [
-        "adversarial-robustness-and-abuse",
+        "abuse-and-moderation-controls",
         "user-empathy-and-respect"
       ],
       "reviewer": "semantic-theme-partition-001-112"

@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "review": "Checkpoint 3 independent taxonomy coverage red-team",
+  "reviewer": "taxonomy-coverage-redteam",
+  "date": "2026-07-14",
+  "corrections": [
+    {
+      "article_no": "060",
+      "previous_classification": "excluded",
+      "classification": "supporting startup",
+      "exclusion_reason": "",
+      "themes": [
+        "randomness-aware attribution",
+        "egocentric-bias correction",
+        "causal humility"
+      ],
+      "candidate_workflows": [
+        "When interpreting a surprising action or outcome, compare an intent-centered explanation with a simpler situational or random explanation and prefer the account that does not center the observer unless evidence supports it.",
+        "Treat apparent purpose or malice as a hypothesis rather than signal; state what observation would distinguish deliberate action from noise before updating a startup decision."
+      ],
+      "evidence_line_ranges": [
+        "20-42"
+      ],
+      "rationale": "The full passage supplies a concrete causal-attribution and noise-control heuristic comparable to other included general startup judgment models."
+    },
+    {
+      "article_no": "144",
+      "previous_classification": "excluded",
+      "classification": "supporting startup",
+      "exclusion_reason": "",
+      "themes": [
+        "technology-dependent value capture",
+        "incumbent short-term incentives",
+        "obsolete business-model enforcement",
+        "legal distortion diagnostic"
+      ],
+      "candidate_workflows": [
+        "When technology changes distribution or enforceability, revisit what can sustainably be owned or charged for instead of assuming the old property and value-capture model remains viable.",
+        "Diagnose incumbent resistance by separating long-term equity value from short-term bonus incentives, then look for startup opportunities created by the transition.",
+        "Treat a business model that requires distorting the surrounding network or legal environment to preserve obsolete economics as evidence that the model no longer works; independently verify current law before acting."
+      ],
+      "evidence_line_ranges": [
+        "18-38",
+        "44-48"
+      ],
+      "rationale": "The complete essay yields a technology-transition, incumbent-incentive, and value-capture diagnostic directly usable in business-model and competition work."
+    },
+    {
+      "article_no": "189",
+      "previous_classification": "excluded",
+      "classification": "supporting startup",
+      "exclusion_reason": "",
+      "themes": [
+        "forecast accountability",
+        "credibility calibration",
+        "fast falsification"
+      ],
+      "candidate_workflows": [
+        "Record confident predictions with their expected resolution date, compare them with rapid and unambiguous outcomes when available, and retain the result when calibrating an adviser, source, or decision process.",
+        "Discount confidence that survives only because outcomes are vague or delayed; prefer claims that expose themselves to a clear falsification test."
+      ],
+      "evidence_line_ranges": [
+        "12-22"
+      ],
+      "rationale": "The topical example contains a reusable forecast-accountability loop grounded in falsification speed and remembered outcomes."
+    },
+    {
+      "article_no": "199",
+      "previous_classification": "excluded",
+      "classification": "supporting startup",
+      "exclusion_reason": "",
+      "themes": [
+        "allocator-operator trust",
+        "unrestricted capital allocation",
+        "domain-expertise exceptions",
+        "asymmetric candor"
+      ],
+      "candidate_workflows": [
+        "When allocating resources to a competent and trusted operator, fund the outcome without replacing their local allocation judgment; if that trust is absent, reconsider the allocation itself.",
+        "Restrict resources only when the allocator has genuine domain expertise or the recipient is an umbrella for explicitly different purposes, and make those exceptions visible.",
+        "Do not treat agreement from a resource-dependent operator as candid evidence under a strong power asymmetry; create a channel where constraints and disagreement are safe to state."
+      ],
+      "evidence_line_ranges": [
+        "12-24"
+      ],
+      "rationale": "The allocator workflow and explicit exceptions directly inform investor, accelerator, and advisor support without requiring nonprofit-specific advice at runtime."
+    },
+    {
+      "article_no": "210",
+      "previous_classification": "excluded",
+      "classification": "supporting startup",
+      "exclusion_reason": "",
+      "themes": [
+        "objective taste",
+        "audience-response quality",
+        "taste calibration",
+        "extraneous-influence control"
+      ],
+      "candidate_workflows": [
+        "Evaluate product or creative quality by its intended effect on a shared human audience, while accepting a partial rather than total ordering when informed observers disagree.",
+        "Calibrate taste through repeated making and comparison with strong work, and discount fame, prestige, social expectation, and other extraneous influences during review.",
+        "Use knowledgeable observers and controlled comparisons rather than a raw popularity vote when judging whether a design performs its purpose."
+      ],
+      "evidence_line_ranges": [
+        "18-38"
+      ],
+      "rationale": "Its evaluation procedure directly overlaps the already included product-taste workflow in article 070, making the previous exclusion inconsistent."
+    }
+  ]
+}

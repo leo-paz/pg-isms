@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "review": "Checkpoint 3 taxonomy semantic routing red-team remediation",
+  "date": "2026-07-14",
+  "remove_canonical_themes": [
+    "adversarial-robustness-and-abuse",
+    "equity-and-ownership",
+    "network-effects-and-critical-mass",
+    "policy-regulation-and-immigration"
+  ],
+  "add_canonical_themes": [
+    {
+      "name": "abuse-and-moderation-controls",
+      "definition": "Community abuse response, troll prevention, moderation review, and participant-facing control mechanisms."
+    },
+    {
+      "name": "adversarial-system-robustness",
+      "definition": "Adaptive classifiers, attacker-aware product design, personalized defenses, asymmetric error handling, and robust evaluation."
+    },
+    {
+      "name": "ecosystem-policy-and-institutions",
+      "definition": "Policy, university, program, immigration, and institutional levers used to create or strengthen a startup ecosystem."
+    },
+    {
+      "name": "employee-equity-and-compensation",
+      "definition": "Employee equity allocation and its relationship to compensation, hiring, contribution, and company value."
+    },
+    {
+      "name": "product-network-effects-and-critical-mass",
+      "definition": "Participant or user interaction effects, referral loops, density thresholds, and contained-market liquidity in a product."
+    },
+    {
+      "name": "regional-ecosystem-density",
+      "definition": "Founder, investor, peer, talent, and expertise density that compounds within a regional startup ecosystem."
+    },
+    {
+      "name": "regulatory-and-legal-constraints",
+      "definition": "Current legal, regulatory, patent, immigration, and policy constraints that condition startup choices and require revalidation."
+    },
+    {
+      "name": "technology-ecosystem-adoption",
+      "definition": "Libraries, interoperability, tool popularity, developer ecosystems, and other adoption loops around a technology."
+    }
+  ],
+  "replace_mappings": [
+    {"raw_theme":"adoption activation energy","canonical_themes":["market-timing-and-transitions"]},
+    {"raw_theme":"adversarial robustness","canonical_themes":["adversarial-system-robustness"]},
+    {"raw_theme":"asymmetric error costs","canonical_themes":["adversarial-system-robustness","risk-and-error-management"]},
+    {"raw_theme":"asymmetric-error design","canonical_themes":["adversarial-system-robustness","risk-and-error-management"]},
+    {"raw_theme":"career flexibility","canonical_themes":["career-choice-and-optionality"]},
+    {"raw_theme":"control versus adoption","canonical_themes":["platform-and-ecosystem-strategy","technology-ecosystem-adoption"]},
+    {"raw_theme":"critical mass","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
+    {"raw_theme":"developer ecosystems","canonical_themes":["platform-and-ecosystem-strategy","technology-ecosystem-adoption"]},
+    {"raw_theme":"distributed human review","canonical_themes":["abuse-and-moderation-controls","community-moderation-and-reputation"]},
+    {"raw_theme":"ecosystem flywheels","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
+    {"raw_theme":"employee equity","canonical_themes":["employee-equity-and-compensation","hiring-and-talent"]},
+    {"raw_theme":"equity dilution","canonical_themes":["deal-mechanics-and-terms","financing-terms-equity-and-control"]},
+    {"raw_theme":"founder immigration","canonical_themes":["location-and-mobility","regulatory-and-legal-constraints"]},
+    {"raw_theme":"founder liquidity","canonical_themes":["financing-terms-equity-and-control","strategic-optionality"]},
+    {"raw_theme":"founder-friendly policy","canonical_themes":["ecosystem-policy-and-institutions","startup-ecosystems-and-hubs"]},
+    {"raw_theme":"founder-investor density","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
+    {"raw_theme":"fundraising tradeoffs","canonical_themes":["financing-terms-equity-and-control","fundraising-strategy-and-process"]},
+    {"raw_theme":"historical adversarial-incentive hypothesis","canonical_themes":["adversarial-system-robustness","historical-and-source-context","incentives-and-behavior"]},
+    {"raw_theme":"hub effects","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
+    {"raw_theme":"hub network effects","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
+    {"raw_theme":"immigration-constrained recruiting","canonical_themes":["hiring-and-talent","regulatory-and-legal-constraints"]},
+    {"raw_theme":"market-based eligibility","canonical_themes":["performance-selection-and-credentials","regulatory-and-legal-constraints"]},
+    {"raw_theme":"narrative propagation","canonical_themes":["distribution-and-growth","media-pr-and-narrative"]},
+    {"raw_theme":"organic expertise growth","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
+    {"raw_theme":"outcome-adjusted ownership","canonical_themes":["financing-terms-equity-and-control","measurement-and-evaluation"]},
+    {"raw_theme":"ownership liquidity","canonical_themes":["financing-terms-equity-and-control","strategic-optionality"]},
+    {"raw_theme":"patent ethics","canonical_themes":["integrity-truth-and-calibration","regulatory-and-legal-constraints"]},
+    {"raw_theme":"peer and audience density","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
+    {"raw_theme":"peer motivation","canonical_themes":["collaboration-and-peer-support","motivation-and-morale"]},
+    {"raw_theme":"personalized learning","canonical_themes":["adversarial-system-robustness","architecture-and-technical-fit"]},
+    {"raw_theme":"policy experiments","canonical_themes":["ecosystem-policy-and-institutions","prototyping-and-experimentation"]},
+    {"raw_theme":"popularity network effects","canonical_themes":["technology-ecosystem-adoption","technology-selection"]},
+    {"raw_theme":"program incentives","canonical_themes":["ecosystem-policy-and-institutions","incentives-and-behavior"]},
+    {"raw_theme":"public product validation","canonical_themes":["user-demand-discovery-and-validation"]},
+    {"raw_theme":"referral networks","canonical_themes":["investor-incentives-and-selection","portfolio-investing"]},
+    {"raw_theme":"regulatory friction","canonical_themes":["regulatory-and-legal-constraints","risk-and-error-management"]},
+    {"raw_theme":"small-company protection","canonical_themes":["historical-and-source-context","integrity-truth-and-calibration","regulatory-and-legal-constraints"]},
+    {"raw_theme":"social adoption","canonical_themes":["product-network-effects-and-critical-mass","user-demand-discovery-and-validation"]},
+    {"raw_theme":"social norms","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
+    {"raw_theme":"startup ecosystem policy","canonical_themes":["ecosystem-policy-and-institutions","startup-ecosystems-and-hubs"]},
+    {"raw_theme":"startup formation policy","canonical_themes":["ecosystem-policy-and-institutions","startup-ecosystems-and-hubs"]},
+    {"raw_theme":"startup-hub effects","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
+    {"raw_theme":"startup-hub formation","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
+    {"raw_theme":"talent clusters","canonical_themes":["hiring-and-talent","regional-ecosystem-density","startup-ecosystems-and-hubs"]},
+    {"raw_theme":"threshold markets","canonical_themes":["beachheads-and-market-expansion","product-network-effects-and-critical-mass"]},
+    {"raw_theme":"troll prevention","canonical_themes":["abuse-and-moderation-controls","community-moderation-and-reputation"]},
+    {"raw_theme":"university role","canonical_themes":["ecosystem-policy-and-institutions","startup-ecosystems-and-hubs"]},
+    {"raw_theme":"user-controlled abuse response","canonical_themes":["abuse-and-moderation-controls","user-empathy-and-respect"]}
+  ],
+  "replace_article_overrides": [
+    {"raw_theme":"incentive alignment","article_no":"033","canonical_themes":["financing-terms-equity-and-control","incentives-and-behavior"]}
+  ],
+  "add_mappings": [
+    {"raw_theme":"allocator-operator trust","canonical_themes":["decision-quality-and-noise","investor-truth-trust-and-reputation"]},
+    {"raw_theme":"asymmetric candor","canonical_themes":["integrity-truth-and-calibration","investor-truth-trust-and-reputation"]},
+    {"raw_theme":"audience-response quality","canonical_themes":["product-quality-and-behavioral-feedback","user-feedback-and-observation"]},
+    {"raw_theme":"causal humility","canonical_themes":["assumption-testing-and-epistemics"]},
+    {"raw_theme":"credibility calibration","canonical_themes":["integrity-truth-and-calibration"]},
+    {"raw_theme":"domain-expertise exceptions","canonical_themes":["accelerators-and-advising","decision-quality-and-noise"]},
+    {"raw_theme":"egocentric-bias correction","canonical_themes":["status-prestige-and-bias"]},
+    {"raw_theme":"extraneous-influence control","canonical_themes":["measurement-and-evaluation","status-prestige-and-bias"]},
+    {"raw_theme":"fast falsification","canonical_themes":["assumption-testing-and-epistemics","evidence-latency-and-cadence"]},
+    {"raw_theme":"forecast accountability","canonical_themes":["integrity-truth-and-calibration","measurement-and-evaluation"]},
+    {"raw_theme":"incumbent short-term incentives","canonical_themes":["incumbent-dynamics"]},
+    {"raw_theme":"legal distortion diagnostic","canonical_themes":["integrity-truth-and-calibration","regulatory-and-legal-constraints"]},
+    {"raw_theme":"objective taste","canonical_themes":["product-design-and-taste"]},
+    {"raw_theme":"obsolete business-model enforcement","canonical_themes":["business-models-and-channel-power","incumbent-dynamics"]},
+    {"raw_theme":"randomness-aware attribution","canonical_themes":["decision-quality-and-noise"]},
+    {"raw_theme":"technology-dependent value capture","canonical_themes":["business-models-and-channel-power","technology-transitions-and-disruption"]},
+    {"raw_theme":"unrestricted capital allocation","canonical_themes":["accelerators-and-advising","founder-autonomy-and-control","investor-incentives-and-selection"]}
+  ]
+}

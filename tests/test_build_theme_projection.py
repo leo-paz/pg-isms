@@ -682,7 +682,7 @@ class ProductionSemanticRemediationTests(unittest.TestCase):
                 "218": ["motivation-and-work-fit", "owned-projects-and-maker-autonomy"],
             },
             "incentive alignment": {
-                "033": ["equity-and-ownership", "incentives-and-behavior"],
+                "033": ["financing-terms-equity-and-control", "incentives-and-behavior"],
                 "052": ["investor-incentives-and-selection", "risk-and-error-management"],
             },
             "intellectual honesty": {
@@ -704,6 +704,46 @@ class ProductionSemanticRemediationTests(unittest.TestCase):
         for article_no in {"131", "136", "145", "156", "172", "185", "191", "196"}:
             with self.subTest(article_no=article_no):
                 self.assertIn("historical-and-source-context", self.projection[article_no]["canonical_themes"])
+
+    def test_runtime_routing_splits_replace_broad_canonical_themes(self):
+        removed = {
+            "adversarial-robustness-and-abuse",
+            "equity-and-ownership",
+            "network-effects-and-critical-mass",
+            "policy-regulation-and-immigration",
+        }
+        added = {
+            "abuse-and-moderation-controls",
+            "adversarial-system-robustness",
+            "ecosystem-policy-and-institutions",
+            "employee-equity-and-compensation",
+            "product-network-effects-and-critical-mass",
+            "regional-ecosystem-density",
+            "regulatory-and-legal-constraints",
+            "technology-ecosystem-adoption",
+        }
+
+        self.assertTrue(removed.isdisjoint(self.canonical_names))
+        self.assertTrue(added <= self.canonical_names)
+        self.assert_targets("employee equity", ["employee-equity-and-compensation", "hiring-and-talent"])
+        self.assert_targets("adversarial robustness", ["adversarial-system-robustness"])
+        self.assert_targets("critical mass", ["regional-ecosystem-density", "startup-ecosystems-and-hubs"])
+        self.assert_targets("referral networks", ["investor-incentives-and-selection", "portfolio-investing"])
+        self.assert_targets(
+            "startup-hub formation", ["regional-ecosystem-density", "startup-ecosystems-and-hubs"]
+        )
+
+    def test_reopened_essays_have_semantic_theme_projections(self):
+        expected = {
+            "060": {"decision-quality-and-noise", "status-prestige-and-bias"},
+            "144": {"business-models-and-channel-power", "technology-transitions-and-disruption"},
+            "189": {"evidence-latency-and-cadence", "integrity-truth-and-calibration"},
+            "199": {"accelerators-and-advising", "founder-autonomy-and-control"},
+            "210": {"product-design-and-taste", "product-quality-and-behavioral-feedback"},
+        }
+        for article_no, themes in expected.items():
+            with self.subTest(article_no=article_no):
+                self.assertTrue(themes <= set(self.projection[article_no]["canonical_themes"]))
 
 
 if __name__ == "__main__":

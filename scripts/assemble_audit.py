@@ -41,9 +41,12 @@ def _write_json(path: Path, value: Any) -> None:
     path.write_text(json.dumps(value, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
+def _jsonl_text(records: Iterable[Dict[str, Any]]) -> str:
+    return "".join(json.dumps(record, ensure_ascii=False, sort_keys=True) + "\n" for record in records)
+
+
 def _write_jsonl(path: Path, records: Iterable[Dict[str, Any]]) -> None:
-    text = "".join(json.dumps(record, ensure_ascii=False, sort_keys=True) + "\n" for record in records)
-    path.write_text(text, encoding="utf-8")
+    path.write_text(_jsonl_text(records), encoding="utf-8")
 
 
 def _validate_audit_batch(batch: Dict[str, Any], records: List[Dict[str, Any]]) -> str:
@@ -144,8 +147,9 @@ def validate_batch(repo: Path, batch_id: str) -> Dict[str, Any]:
     }
 
 
-def assemble(repo: Path) -> Dict[str, int]:
-    """Validate all assigned batches and write deterministic canonical outputs."""
+def _canonical_audit_inputs(
+    repo: Path,
+) -> tuple[Path, Dict[str, Any], List[tuple[Dict[str, Any], str]], List[Dict[str, Any]]]:
     repo = repo.resolve()
     research = repo / "research"
     config = _load_json(research / "audit-batches.json")
@@ -153,31 +157,74 @@ def assemble(repo: Path) -> Dict[str, int]:
     if not isinstance(batches, list) or config.get("batch_count") != len(batches):
         raise AssemblyError("invalid audit batch configuration")
 
+    validated: List[tuple[Dict[str, Any], str]] = []
     all_audit: List[Dict[str, Any]] = []
-    all_retrieval: List[Dict[str, Any]] = []
-    bm25_batches = 0
-    vector_batches = 0
-    full_documents = 0
     for batch in batches:
         batch_id = batch.get("batch_id")
-        audit_path = research / "batches" / f"{batch_id}.jsonl"
-        retrieval_path = research / "batches" / f"retrieval-{batch_id}.jsonl"
-        audit_records = _load_jsonl(audit_path)
-        reviewer = _validate_audit_batch(batch, audit_records)
-        retrieval_records = _load_jsonl(retrieval_path)
-        retrieval_proof = _validate_retrieval_batch(batch, reviewer, retrieval_records)
+        records = _load_jsonl(research / "batches" / f"{batch_id}.jsonl")
+        reviewer = _validate_audit_batch(batch, records)
         batch["reviewer"] = reviewer
-        all_audit.extend(audit_records)
-        all_retrieval.extend(retrieval_records)
-        bm25_batches += retrieval_proof["bm25"]
-        vector_batches += retrieval_proof["vector"]
-        full_documents += retrieval_proof["full_documents"]
+        validated.append((batch, reviewer))
+        all_audit.extend(records)
 
     article_nos = [record["article_no"] for record in all_audit]
     if article_nos != sorted(article_nos):
         raise AssemblyError("canonical audit is not numerically sorted")
     if len(article_nos) != len(set(article_nos)):
         raise AssemblyError("canonical audit contains duplicate article numbers")
+    return research, config, validated, all_audit
+
+
+def check_canonical_audit(repo: Path) -> Dict[str, int]:
+    """Require canonical audit bytes to equal deterministic primary-batch assembly."""
+    research, _config, validated, all_audit = _canonical_audit_inputs(repo)
+    path = research / "essay-audit.jsonl"
+    try:
+        actual = path.read_text(encoding="utf-8")
+    except OSError as exc:
+        raise AssemblyError(f"cannot read canonical audit {path}: {exc}") from exc
+    if actual != _jsonl_text(all_audit):
+        raise AssemblyError("canonical audit does not exactly match primary audit batches")
+    return {"batches": len(validated), "essays": len(all_audit)}
+
+
+def validate_assembly_inputs(repo: Path) -> Dict[str, int]:
+    """Validate every batch and retrieval dependency without writing canonical files."""
+    research, _config, validated, all_audit = _canonical_audit_inputs(repo)
+    bm25_batches = 0
+    vector_batches = 0
+    full_documents = 0
+    for batch, reviewer in validated:
+        records = _load_jsonl(research / "batches" / f"retrieval-{batch['batch_id']}.jsonl")
+        proof = _validate_retrieval_batch(batch, reviewer, records)
+        bm25_batches += proof["bm25"]
+        vector_batches += proof["vector"]
+        full_documents += proof["full_documents"]
+    return {
+        "batches": len(validated),
+        "essays": len(all_audit),
+        "bm25_batches": bm25_batches,
+        "vector_batches": vector_batches,
+        "full_documents": full_documents,
+    }
+
+
+def assemble(repo: Path) -> Dict[str, int]:
+    """Validate all assigned batches and write deterministic canonical outputs."""
+    research, config, validated, all_audit = _canonical_audit_inputs(repo)
+    all_retrieval: List[Dict[str, Any]] = []
+    bm25_batches = 0
+    vector_batches = 0
+    full_documents = 0
+    for batch, reviewer in validated:
+        batch_id = batch["batch_id"]
+        retrieval_path = research / "batches" / f"retrieval-{batch_id}.jsonl"
+        retrieval_records = _load_jsonl(retrieval_path)
+        retrieval_proof = _validate_retrieval_batch(batch, reviewer, retrieval_records)
+        all_retrieval.extend(retrieval_records)
+        bm25_batches += retrieval_proof["bm25"]
+        vector_batches += retrieval_proof["vector"]
+        full_documents += retrieval_proof["full_documents"]
 
     base_log_path = research / "retrieval-log.jsonl"
     base_records = _load_jsonl(base_log_path) if base_log_path.exists() else []
@@ -186,7 +233,7 @@ def assemble(repo: Path) -> Dict[str, int]:
     _write_jsonl(research / "essay-audit.jsonl", all_audit)
     _write_jsonl(base_log_path, unbatched + all_retrieval)
     return {
-        "batches": len(batches),
+        "batches": len(validated),
         "essays": len(all_audit),
         "bm25_batches": bm25_batches,
         "vector_batches": vector_batches,

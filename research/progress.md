@@ -373,3 +373,64 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
   sequential per-skill RED-GREEN-REFACTOR, metadata, validation, forward-test,
   commit, and push loop.
 - Blockers: none.
+
+## Checkpoint 3 verified: evidence-led skill taxonomy
+
+- Checkpoint 3 reopened five Checkpoint 2 exclusions after independent full-passage
+  review. Articles `060`, `144`, `189`, `199`, and `210` are now supporting startup
+  evidence. This deliberately supersedes the earlier `84/120/19`, `204`, and `118`
+  counts while preserving the earlier checkpoint record as historical evidence.
+- Corrected audit proof: `223` exact essays, `84` core startup, `125` supporting
+  startup, `14` specifically excluded, `209` relevant, `223` recorded full reads,
+  `622` relevant evidence ranges, and `0` gaps, overlaps, or uncovered relevant
+  essays.
+- Revised normalization proof: `1,059` raw assignments, `964` exact raw labels,
+  `892` singletons, `122` canonical themes, `12` article overrides, and `209`
+  relevant projections. Broad equity, adversarial, network, and policy labels were
+  split by actor and runtime job before taxonomy ownership was assigned.
+- The minimal complete taxonomy has `21` distinct reusable skill jobs and `831`
+  reciprocal essay-skill pairings. Every canonical theme has exactly one primary
+  owner; every final skill has source evidence; no essay-to-skill links are manually
+  maintained outside deterministic derivation.
+- Runtime conditions are explicit and checkable: `7` inherited decision invariants,
+  a `6`-row product-type matrix, `9` cross-skill routing rules, and `42` structured
+  two-sided branches covering all `42` named tensions across the `21` skills. The
+  source declares exact `21/42/42` skill, stage-condition, and decision-branch
+  totals; the validator rejects missing, duplicated, mismatched, empty, one-sided,
+  or lockstep-deleted contract elements.
+- Three independent fresh-context reviews all pass after RED remediation:
+  coverage/gaps, routing/overlap, and conditions/contradictions. The routing review
+  classified `54` adversarial prompts (`32` primary routes, `17` ordered
+  compositions, and `5` non-triggers) without finding a duplicate primary job.
+  Three non-blocking composition cases are carried forward as mandatory skill eval
+  seeds: governance policy to anti-abuse engineering to rollout; unsettled writing
+  to domain validation to communication; and ecosystem-level relocation policy to
+  each team's location decision.
+- Canonical assembly, theme projection, and taxonomy synchronization are byte-stable
+  across a write cycle. The audit gate also byte-compares canonical audit output to
+  all `12` primary batches, and taxonomy validation requires all three human-authored
+  correction, normalization-revision, and taxonomy sources. Stable hashes:
+  `b8e053c3...6c781be` (audit), `87a8c873...368598` (projection),
+  `ac0c006e...847755` (normalization), `c4935a41...1a9f2a5` (taxonomy source), and
+  `9459c8a3...ff1c3a` (derived taxonomy).
+- Verification:
+
+  ```text
+  audit reclassification check passed: corrections=5 changed=0
+  normalization revision check passed: canonical_themes=122 raw_mappings=964
+  theme projection check passed: raw_assignments=1059 distinct_raw=964 singleton_raw=892 canonical=122 article_overrides=12 relevant_essays=209
+  taxonomy check passed: skills=21 themes=122 relevant_essays=209 essay_skill_pairings=831 global_invariants=7 product_types=6 routing_rules=9 decision_branches=42
+  taxonomy validation passed: corpus_files=223 classified=223 core_startup=84 supporting_startup=125 excluded=14 uncovered_relevant=0 orphan_skills=0
+  python3 -m unittest discover -s tests
+  Ran 112 tests
+  OK
+  ```
+
+- Copyright hygiene: the repository-wide normalized `40`-token scan found `0`
+  corpus matches in publishable artifacts.
+- Remaining work: build each of the `21` skills sequentially through fresh-context
+  baseline, official initialization, concise implementation, metadata generation,
+  structural validation, independent forward testing, revision, commit, and push;
+  then run final independent review, finish the README, and pass the final repository
+  gate.
+- Blockers: none.

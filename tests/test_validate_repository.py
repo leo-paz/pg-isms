@@ -67,7 +67,20 @@ class RepositoryFixture:
                 }
             )
         path = self.repo / "research/essay-audit.jsonl"
-        path.write_text("".join(json.dumps(record) + "\n" for record in records), encoding="utf-8")
+        path.write_text(
+            "".join(json.dumps(record, sort_keys=True) + "\n" for record in records),
+            encoding="utf-8",
+        )
+        (self.repo / "research/batches").mkdir(exist_ok=True)
+        records_by_batch = {batch["batch_id"]: [] for batch in batch_data["batches"]}
+        for record in records:
+            records_by_batch[record["review_batch"]].append(record)
+        for batch_id, batch_records in records_by_batch.items():
+            batch_path = self.repo / "research/batches" / f"{batch_id}.jsonl"
+            batch_path.write_text(
+                "".join(json.dumps(record, sort_keys=True) + "\n" for record in batch_records),
+                encoding="utf-8",
+            )
 
     def audit_records(self) -> list[dict]:
         path = self.repo / "research/essay-audit.jsonl"
@@ -75,14 +88,46 @@ class RepositoryFixture:
 
     def write_audit_records(self, records: list[dict]) -> None:
         path = self.repo / "research/essay-audit.jsonl"
-        path.write_text("".join(json.dumps(record) + "\n" for record in records), encoding="utf-8")
+        path.write_text(
+            "".join(json.dumps(record, sort_keys=True) + "\n" for record in records),
+            encoding="utf-8",
+        )
 
     def add_valid_taxonomy(self) -> None:
         self.add_valid_audit()
+        audit_records = self.audit_records()
+        article_002 = next(record for record in audit_records if record["article_no"] == "002")
+        audit_reclassifications = {
+            "schema_version": 1,
+            "corrections": [
+                {
+                    "article_no": "002",
+                    "previous_classification": "supporting startup",
+                    **{
+                        field: article_002[field]
+                        for field in (
+                            "classification",
+                            "exclusion_reason",
+                            "themes",
+                            "candidate_workflows",
+                            "evidence_line_ranges",
+                        )
+                    },
+                }
+            ],
+        }
+        (self.repo / "research/audit-reclassifications.json").write_text(
+            json.dumps(audit_reclassifications, indent=2) + "\n", encoding="utf-8"
+        )
+        revision_note = (
+            "Checkpoint 3 semantic routing review split broad equity, adversarial, network-effect, "
+            "and policy labels by actor or mechanism and added mappings for five reopened essays."
+        )
         normalization = {
             "schema_version": 1,
             "method_notes": [
-                "Raw audit labels remain intact while taxonomy uses canonical research themes."
+                "Raw audit labels remain intact while taxonomy uses canonical research themes.",
+                revision_note,
             ],
             "canonical_themes": [
                 {
@@ -101,22 +146,124 @@ class RepositoryFixture:
         (self.repo / "research/theme-normalization.json").write_text(
             json.dumps(normalization, indent=2) + "\n", encoding="utf-8"
         )
+        normalization_revisions = {
+            "schema_version": 1,
+            "remove_canonical_themes": [],
+            "add_canonical_themes": [],
+            "replace_mappings": [],
+            "replace_article_overrides": [],
+            "add_mappings": [],
+        }
+        (self.repo / "research/normalization-revisions.json").write_text(
+            json.dumps(normalization_revisions, indent=2) + "\n", encoding="utf-8"
+        )
         build_theme_projection(self.repo)
-        taxonomy = {
-            "skills": [
+        skill = {
+            "skill_name": "test-startup-judgment",
+            "purpose": "Apply evidence to a startup decision.",
+            "triggers": ["Choose between startup approaches."],
+            "non_triggers": ["Summarize an unrelated essay."],
+            "themes": ["startup judgment"],
+            "essay_ids": [],
+            "stage_conditions": [
+                "Use before committing scarce resources.",
+                "Raise the evidence gate when the choice is irreversible.",
+            ],
+            "tensions": ["Speed versus confidence.", "Action versus preserving options."],
+            "candidate_eval_cases": ["Compare two launch strategies."],
+        }
+        invariant_ids = [
+            "stage-and-state",
+            "reversibility-and-error-cost",
+            "evidence-latency",
+            "product-and-venture-type",
+            "truth-character-and-user-effects",
+            "historical-revalidation",
+            "preserve-optionality",
+        ]
+        product_types = [
+            "capital-light-software",
+            "enterprise-and-integration",
+            "hardware",
+            "biotech-energy-and-capital-heavy",
+            "marketplace-and-community",
+            "high-harm-regulated-product",
+        ]
+        routing_ids = [
+            "opportunity-learning-growth",
+            "marketplace-cold-start",
+            "survival-before-capital",
+            "domain-before-communication",
+            "writing-before-persuasion",
+            "location-versus-ecosystem",
+            "selection-versus-support",
+            "technical-structure-versus-release",
+            "residual-calibration",
+        ]
+        taxonomy_source = {
+            "expected_counts": {
+                "skills": 1,
+                "stage_conditions": 2,
+                "decision_branches": 2,
+            },
+            "global_invariants": [
                 {
-                    "skill_name": "test-startup-judgment",
-                    "purpose": "Apply evidence to a startup decision.",
-                    "triggers": ["Choose between startup approaches."],
-                    "non_triggers": ["Summarize an unrelated essay."],
-                    "themes": ["startup judgment"],
-                    "essay_ids": ["001"],
-                    "stage_conditions": ["Use before committing scarce resources."],
-                    "tensions": ["Speed versus confidence."],
-                    "candidate_eval_cases": ["Compare two launch strategies."],
+                    "id": invariant_id,
+                    "rule": "Apply the invariant before choosing the branch.",
+                    "source_themes": ["startup judgment"],
                 }
+                for invariant_id in invariant_ids
+            ],
+            "product_type_matrix": [
+                {
+                    "type": product_type,
+                    "evidence_latency": "Match the observation interval to credible evidence.",
+                    "launch_gate": "Match the release gate to expected harm.",
+                    "manual_test": "Use the smallest discriminating bounded test.",
+                    "capital_runway": "Model the runway implied by this product type.",
+                    "acquisition": "Choose acquisition only after defining the evidence state.",
+                    "invalid_default_advice": "Do not apply a context-free default.",
+                }
+                for product_type in product_types
+            ],
+            "routing_rules": [
+                {
+                    "id": routing_id,
+                    "predicate": "Route the decision to its primary owner before composing another skill.",
+                    "primary_sequence": ["test-startup-judgment"],
+                }
+                for routing_id in routing_ids
+            ],
+            "evaluation_branch_contract": [
+                "Test both sides of every tension.",
+                "Include triggers, non-triggers, conditions, applications, and edges.",
+                "Use fresh evaluators for baseline and forward evidence.",
+            ],
+            "decision_branches": {
+                "test-startup-judgment": [
+                    {
+                        "tension": "Speed versus confidence.",
+                        "predicate": "If the choice is cheap and reversible, then act quickly; otherwise require stronger evidence before committing.",
+                        "true_case": "A reversible internal experiment can produce evidence within one working day.",
+                        "false_case": "An irreversible customer migration needs stronger evidence and a rollback plan.",
+                    },
+                    {
+                        "tension": "Action versus preserving options.",
+                        "predicate": "If one option dominates on current evidence, then commit deliberately; otherwise preserve alternatives while running a discriminating test.",
+                        "true_case": "A tested branch clearly dominates and delay now destroys meaningful value.",
+                        "false_case": "Evidence remains ambiguous and a short test can preserve both options.",
+                    },
+                ]
+            },
+            "skills": [
+                skill
             ]
         }
+        (self.repo / "research/taxonomy-source.json").write_text(
+            json.dumps(taxonomy_source, indent=2) + "\n", encoding="utf-8"
+        )
+        taxonomy = json.loads(json.dumps(taxonomy_source))
+        taxonomy["skills"][0]["essay_ids"] = ["001"]
         (self.repo / "research/taxonomy.json").write_text(json.dumps(taxonomy, indent=2) + "\n")
         (self.repo / "research/theme-synthesis.md").write_text(
             "# Theme synthesis\n\nEvidence-backed startup judgment is the initial test theme.\n"
@@ -279,7 +426,52 @@ class ValidateRepositoryTests(unittest.TestCase):
         taxonomy["skills"][0]["essay_ids"] = []
         taxonomy_path.write_text(json.dumps(taxonomy))
 
-        self.assert_invalid(fixture, "taxonomy", "coverage gap|not covered")
+        self.assert_invalid(fixture, "taxonomy", "coverage gap|not covered|essay_ids are stale")
+
+    def test_rejects_taxonomy_when_primary_batch_mapping_is_stale(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_taxonomy()
+        batch_path = fixture.repo / "research/batches/batch-01.jsonl"
+        records = [json.loads(line) for line in batch_path.read_text().splitlines()]
+        records[0]["final_skills"] = []
+        batch_path.write_text("".join(json.dumps(record) + "\n" for record in records))
+
+        self.assert_invalid(fixture, "taxonomy", "batch.*stale|stale.*batch|canonical audit.*batch")
+
+    def test_rejects_canonical_audit_drift_from_primary_batch(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_taxonomy()
+        records = fixture.audit_records()
+        records[0]["candidate_workflows"] = ["canonical-only drift"]
+        fixture.write_audit_records(records)
+
+        self.assert_invalid(fixture, "taxonomy", "canonical audit.*batch|batch.*canonical audit")
+
+    def test_rejects_taxonomy_without_required_taxonomy_source(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_taxonomy()
+        (fixture.repo / "research/taxonomy-source.json").unlink()
+
+        self.assert_invalid(fixture, "taxonomy", "taxonomy source|taxonomy-source")
+
+    def test_rejects_taxonomy_without_audit_reclassification_source(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_taxonomy()
+        (fixture.repo / "research/audit-reclassifications.json").unlink()
+
+        self.assert_invalid(fixture, "taxonomy", "audit reclassification.*missing|missing.*audit reclassification")
+
+    def test_rejects_taxonomy_without_normalization_revision_source(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_taxonomy()
+        (fixture.repo / "research/normalization-revisions.json").unlink()
+
+        self.assert_invalid(fixture, "taxonomy", "normalization revision.*missing|missing.*normalization revision")
 
     def test_taxonomy_uses_canonical_projection_themes_instead_of_raw_audit_labels(self) -> None:
         temp_dir, fixture = self.fixture()
@@ -299,7 +491,11 @@ class ValidateRepositoryTests(unittest.TestCase):
         taxonomy["skills"][0]["themes"] = ["unrelated placeholder"]
         taxonomy_path.write_text(json.dumps(taxonomy))
 
-        self.assert_invalid(fixture, "taxonomy", "canonical themes|theme coverage")
+        self.assert_invalid(
+            fixture,
+            "taxonomy",
+            "canonical themes|theme coverage|taxonomy synchronization|essay_ids are stale",
+        )
 
     def test_rejects_taxonomy_when_theme_projection_is_absent(self) -> None:
         temp_dir, fixture = self.fixture()

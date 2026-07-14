@@ -13,11 +13,19 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List, Mapping, Optional, Sequence, Set, Tuple
 
 try:
+    from .assemble_audit import AssemblyError, check_canonical_audit
+    from .apply_audit_reclassifications import ReclassificationError, apply as check_audit_reclassifications
+    from .apply_normalization_revisions import RevisionError, apply as check_normalization_revisions
     from .build_research_scaffold import AUDIT_FIELDS, read_corpus
     from .build_theme_projection import ProjectionError, build as check_theme_projection
+    from .sync_taxonomy import SyncError, sync as check_taxonomy_sync
 except ImportError:  # Direct script execution.
+    from assemble_audit import AssemblyError, check_canonical_audit
+    from apply_audit_reclassifications import ReclassificationError, apply as check_audit_reclassifications
+    from apply_normalization_revisions import RevisionError, apply as check_normalization_revisions
     from build_research_scaffold import AUDIT_FIELDS, read_corpus
     from build_theme_projection import ProjectionError, build as check_theme_projection
+    from sync_taxonomy import SyncError, sync as check_taxonomy_sync
 
 
 PHASES = ("manifest", "audit", "taxonomy", "final")
@@ -196,6 +204,12 @@ def _validate_audit(
     batch_for_article: Mapping[str, str],
     proof: Dict[str, int],
 ) -> List[Dict[str, Any]]:
+    if (repo / "research/audit-reclassifications.json").is_file():
+        try:
+            correction_proof = check_audit_reclassifications(repo, check=True)
+        except ReclassificationError as exc:
+            raise ValidationError(f"audit reclassification validation failed: {exc}") from exc
+        proof["reviewed_reclassifications"] = correction_proof["corrections"]
     records = _load_jsonl(repo / "research/essay-audit.jsonl")
     record_ids = [record.get("article_no") for record in records]
     _require(all(isinstance(item, str) for item in record_ids), "audit article numbers must be strings")
@@ -245,6 +259,10 @@ def _validate_audit(
                 _string_list(record.get("candidate_workflows"), allow_empty=False),
                 f"relevant essay {article_no} requires candidate workflows",
             )
+    try:
+        check_canonical_audit(repo)
+    except AssemblyError as exc:
+        raise ValidationError(f"canonical audit batch validation failed: {exc}") from exc
     proof.update(
         classified=len(records),
         unaudited=len(missing),
@@ -272,6 +290,11 @@ def _load_current_theme_projection(repo: Path) -> List[Dict[str, Any]]:
     """Require the deterministic theme projection to match its current inputs."""
     projection_path = repo / "research/essay-theme-map.jsonl"
     _require(projection_path.is_file(), f"theme projection missing: {projection_path}")
+    if (repo / "research/normalization-revisions.json").is_file():
+        try:
+            check_normalization_revisions(repo, check=True)
+        except RevisionError as exc:
+            raise ValidationError(f"normalization revision validation failed: {exc}") from exc
     try:
         check_theme_projection(repo, check=True)
     except ProjectionError as exc:
@@ -280,7 +303,18 @@ def _load_current_theme_projection(repo: Path) -> List[Dict[str, Any]]:
 
 
 def _validate_taxonomy(repo: Path, audit: List[Dict[str, Any]], proof: Dict[str, int]) -> List[Dict[str, Any]]:
+    required_sources = {
+        "audit reclassification": repo / "research/audit-reclassifications.json",
+        "normalization revision": repo / "research/normalization-revisions.json",
+        "taxonomy source": repo / "research/taxonomy-source.json",
+    }
+    for label, path in required_sources.items():
+        _require(path.is_file(), f"missing required {label} source: {path}")
     projection = _load_current_theme_projection(repo)
+    try:
+        sync_proof = check_taxonomy_sync(repo, check=True)
+    except SyncError as exc:
+        raise ValidationError(f"taxonomy synchronization failed: {exc}") from exc
     projection_by_id = {record["article_no"]: record for record in projection}
     synthesis = repo / "research/theme-synthesis.md"
     _require(synthesis.is_file() and len(synthesis.read_text(encoding="utf-8").split()) >= 5, "missing theme synthesis")
@@ -305,7 +339,10 @@ def _validate_taxonomy(repo: Path, audit: List[Dict[str, Any]], proof: Dict[str,
             f"taxonomy coverage gap: skill {name} needs non-empty essay_ids",
         )
         for field in ("stage_conditions", "tensions"):
-            _require(_string_list(entry.get(field)), f"taxonomy skill {name} {field} must be an array of strings")
+            _require(
+                _string_list(entry.get(field), allow_empty=False),
+                f"taxonomy skill {name} needs non-empty {field}",
+            )
         essay_ids = set(entry["essay_ids"])
         unknown = essay_ids - relevant_ids
         _require(not unknown, f"taxonomy skill {name} cites excluded or unknown essays: {sorted(unknown)}")
@@ -342,6 +379,12 @@ def _validate_taxonomy(repo: Path, audit: List[Dict[str, Any]], proof: Dict[str,
         skills=len(entries),
         relevant_essays=len(relevant_ids),
         projected_essays=len(projection),
+        canonical_themes=sync_proof["themes"],
+        essay_skill_pairings=sync_proof["essay_skill_pairings"],
+        global_invariants=sync_proof["global_invariants"],
+        product_types=sync_proof["product_types"],
+        routing_rules=sync_proof["routing_rules"],
+        decision_branches=sync_proof["decision_branches"],
         uncovered_relevant=len(uncovered),
         orphan_skills=0,
     )
@@ -721,8 +764,15 @@ def _format_proof(phase: str, proof: Mapping[str, int]) -> str:
         "core_startup",
         "supporting_startup",
         "excluded",
+        "reviewed_reclassifications",
         "skills",
         "relevant_essays",
+        "canonical_themes",
+        "essay_skill_pairings",
+        "global_invariants",
+        "product_types",
+        "routing_rules",
+        "decision_branches",
         "uncovered_relevant",
         "orphan_skills",
         "baseline_evaluations",

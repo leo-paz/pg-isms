@@ -1,0 +1,2048 @@
+{
+  "schema_version": 1,
+  "method": "Each canonical research theme is assigned to exactly one primary evidence workflow. Global invariants are inherited by every runtime skill, and deterministic routing rules compose neighboring workflows without making broad themes create false triggers. Essay IDs and reciprocal audit mappings are projected with scripts/sync_taxonomy.py.",
+  "expected_counts": {
+    "skills": 21,
+    "stage_conditions": 42,
+    "decision_branches": 42
+  },
+  "global_invariants": [
+    {
+      "id": "stage-and-state",
+      "rule": "Identify company stage, survival state, product state, and the binding constraint before applying advice; default-dead or acute survival work precedes normal growth, hiring, and financing optimization.",
+      "source_themes": [
+        "stage-and-state-conditions",
+        "runway-survival-and-profitability"
+      ]
+    },
+    {
+      "id": "reversibility-and-error-cost",
+      "rule": "Move fastest when errors are cheap and reversible; raise validation, review, and rollout gates for irreversible safety, trust, security, legal, financial, or community harm.",
+      "source_themes": [
+        "risk-and-error-management",
+        "launch-safety-and-reversibility"
+      ]
+    },
+    {
+      "id": "evidence-latency",
+      "rule": "Match experiment and review cadence to the shortest interval in which trustworthy evidence can appear; do not manufacture certainty before the product type can produce a result.",
+      "source_themes": [
+        "evidence-latency-and-cadence",
+        "measurement-and-evaluation"
+      ]
+    },
+    {
+      "id": "product-and-venture-type",
+      "rule": "Select the applicable product-type matrix row before reusing software, enterprise, hardware, biotech, marketplace, community, or high-harm advice across categories.",
+      "source_themes": [
+        "venture-type-and-capital-model",
+        "architecture-and-technical-fit"
+      ]
+    },
+    {
+      "id": "truth-character-and-user-effects",
+      "rule": "Require truthful claims, non-deceptive conduct, accountable user effects, safe disagreement under power asymmetry, and character screening where durable trust or control is granted.",
+      "source_themes": [
+        "integrity-truth-and-calibration",
+        "founder-character-and-ethical-conduct",
+        "mission-and-user-benefit",
+        "user-empathy-and-respect"
+      ]
+    },
+    {
+      "id": "historical-revalidation",
+      "rule": "Separate durable mechanisms from dated parameters and verify current costs, laws, instruments, markets, platform policies, location access, and enabling technologies before acting.",
+      "source_themes": [
+        "historical-and-source-context",
+        "regulatory-and-legal-constraints"
+      ]
+    },
+    {
+      "id": "preserve-optionality",
+      "rule": "Prefer reversible tests and preserve credible alternatives until evidence justifies an irreversible commitment; state the switch condition and the cost of delay.",
+      "source_themes": [
+        "strategic-optionality",
+        "decision-quality-and-noise"
+      ]
+    }
+  ],
+  "product_type_matrix": [
+    {
+      "type": "capital-light-software",
+      "evidence_latency": "Often days or weeks through usage, releases, and direct support.",
+      "launch_gate": "Launch a small complete utility when errors are reversible.",
+      "manual_test": "Founder-built prototype, direct onboarding, support, and observed use.",
+      "capital_runway": "May reach revenue or ramen profitability before institutional capital.",
+      "acquisition": "Manual first users, product-led distribution, direct sales, or a narrow channel.",
+      "invalid_default_advice": "Do not generalize cheap iteration when the software controls money, safety, identity, or other irreversible outcomes."
+    },
+    {
+      "type": "enterprise-and-integration",
+      "evidence_latency": "Longer because procurement, switching, security review, and integration delay real use.",
+      "launch_gate": "Validate workflow and access before treating a prototype as market evidence.",
+      "manual_test": "Act as a consultant to one urgent user while protecting a repeatable product boundary.",
+      "capital_runway": "Plan for sales-cycle and implementation latency rather than consumer-software cadence.",
+      "acquisition": "Founder-led sales, credible references, and integration-specific beachheads.",
+      "invalid_default_advice": "Compliments, pilots without deployment, and a self-serve launch are not equivalent to committed demand."
+    },
+    {
+      "type": "hardware",
+      "evidence_latency": "Weeks or months across fabrication, supply, reliability, and physical use.",
+      "launch_gate": "Prototype and fabricate manually, but validate reliability and irreversible physical risks before broad exposure.",
+      "manual_test": "Build early units, observe assembly and use, and record operational bottlenecks before automation.",
+      "capital_runway": "Include inventory, tooling, manufacturing, and working-capital scenarios using current costs.",
+      "acquisition": "Demonstrations, early adopters, preorder evidence, and channel-specific distribution.",
+      "invalid_default_advice": "Do not impose a weekly software experiment cadence or assume current crowdfunding and component economics."
+    },
+    {
+      "type": "biotech-energy-and-capital-heavy",
+      "evidence_latency": "Months or years with scientific, regulatory, and infrastructure dependencies.",
+      "launch_gate": "Use milestone and safety validation; company formation and financing may precede a shippable product.",
+      "manual_test": "Test the riskiest scientific, regulatory, or deployment premise rather than simulating software-style user use.",
+      "capital_runway": "Ramen profitability and tiny seed assumptions usually do not apply; finance staged technical milestones.",
+      "acquisition": "Partnership, trial, regulatory, and specialist-buyer paths may dominate broad user channels.",
+      "invalid_default_advice": "Do not generalize capital-light accelerator ratios, launch-first advice, or default-alive revenue extrapolation."
+    },
+    {
+      "type": "marketplace-and-community",
+      "evidence_latency": "Depends on reaching enough participant density for interaction quality and retention to become observable.",
+      "launch_gate": "Concentrate a narrow market manually; roll ranking, reputation, and moderation changes conservatively.",
+      "manual_test": "Recruit or supply the initial sides, curate participation, and observe interaction failures directly.",
+      "capital_runway": "Model the cost and time required to reach local liquidity without mistaking subsidized activity for durable demand.",
+      "acquisition": "Growth owns cold-start liquidity; governance owns norms, reputation, moderation, abuse, and interaction quality.",
+      "invalid_default_advice": "Raw signup growth is not a substitute for liquidity, healthy interaction, trust, or retained community character."
+    },
+    {
+      "type": "high-harm-regulated-product",
+      "evidence_latency": "May be short, but observed failure can be unacceptable; pre-release assurance matters.",
+      "launch_gate": "Require risk-appropriate validation, monitoring, rollback, human review, and current legal or regulatory checks.",
+      "manual_test": "Use sandboxes, simulations, expert review, staged access, and bounded pilots rather than unsafe public exposure.",
+      "capital_runway": "Budget compliance, assurance, incident response, and longer approval cycles.",
+      "acquisition": "Trust, evidence, and permission constrain distribution before channel optimization.",
+      "invalid_default_advice": "Do not apply launch-fast or apologize-later heuristics to irreversible user harm."
+    }
+  ],
+  "routing_rules": [
+    {
+      "id": "opportunity-learning-growth",
+      "predicate": "A direction decision belongs to opportunity choice. If whether or why a need exists is still unknown, user learning owns the hypothesis, sample, evidence standard, and interpretation; growth may compose only to recruit that sample or seed a narrow beachhead under the learning plan. Once one segment shows real use or payment, growth owns funnel, channel, activation, liquidity, retention, and expansion interventions.",
+      "pre_validation_composition": "Growth may execute sample recruitment or narrow beachhead seeding before validation, but user learning retains ownership of the question, evidence standard, and interpretation; channel optimization remains out of scope.",
+      "handoff_gate": "Primary ownership moves from user learning to growth only after one target segment demonstrates real use, payment, or an equally discriminating commitment defined in advance.",
+      "primary_sequence": [
+        "choosing-startup-opportunities",
+        "learning-from-users",
+        "acquiring-and-growing-users"
+      ]
+    },
+    {
+      "id": "marketplace-cold-start",
+      "predicate": "Initial participant liquidity and beachhead acquisition belong to growth; compose community governance only when interaction quality, trust, ranking, reputation, moderation, or abuse is binding.",
+      "primary_sequence": [
+        "acquiring-and-growing-users",
+        "governing-platforms-and-communities"
+      ]
+    },
+    {
+      "id": "survival-before-capital",
+      "predicate": "If the company is default-dead or time-to-zero is binding, run survival scenarios and a switch date before executing even a plausible rescue financing branch.",
+      "primary_sequence": [
+        "managing-runway-and-survival",
+        "raising-and-governing-capital"
+      ]
+    },
+    {
+      "id": "domain-before-communication",
+      "predicate": "A domain skill establishes facts, decision substance, and uncertainty; communication then adapts the settled claims for an audience without changing their calibration.",
+      "primary_sequence": [
+        "domain-owner",
+        "communicating-clearly"
+      ]
+    },
+    {
+      "id": "writing-before-persuasion",
+      "predicate": "Use private neutral-reader writing to discover and test an unsettled idea before optimizing a settled claim for persuasion or public response.",
+      "primary_sequence": [
+        "thinking-through-writing",
+        "communicating-clearly"
+      ]
+    },
+    {
+      "id": "location-versus-ecosystem",
+      "predicate": "A founder or active team choosing where to live and operate uses preparation; a policymaker, university, accelerator, or city changing ecosystem supply uses ecosystem building.",
+      "primary_sequence": [
+        "preparing-to-found",
+        "building-startup-ecosystems"
+      ]
+    },
+    {
+      "id": "selection-versus-support",
+      "predicate": "Choosing bets, applications, or a portfolio belongs to evaluation; diagnosing an already supported founder's bottleneck or program intervention belongs to advising.",
+      "primary_sequence": [
+        "evaluating-startups-and-founders",
+        "advising-and-supporting-founders"
+      ]
+    },
+    {
+      "id": "technical-structure-versus-release",
+      "predicate": "Internal technology, architecture, abstraction, or code ownership belongs to engineering; a user-visible artifact, rollout, or release experiment belongs to shipping.",
+      "primary_sequence": [
+        "engineering-for-leverage",
+        "shipping-and-iterating-products"
+      ]
+    },
+    {
+      "id": "residual-calibration",
+      "predicate": "Use calibrated decisions as the primary skill only for an explicit cross-domain framework, conflicting startup advice, source calibration, or a decision with no specialist owner; otherwise inherit its invariants inside the specialist.",
+      "primary_sequence": [
+        "making-calibrated-decisions",
+        "domain-owner"
+      ]
+    }
+  ],
+  "evaluation_branch_contract": [
+    "Every skill must test both sides of each named tension with observable if/then predicates.",
+    "Every skill must include at least one trigger, non-trigger, condition, application, and edge case, plus product-type or stage counterexamples when applicable.",
+    "Fresh evaluators must distinguish primary ownership from ordered composition for every routing rule."
+  ],
+  "decision_branches": {
+    "preparing-to-found": [
+      {
+        "tension": "Deliberate preparation versus learning by beginning.",
+        "predicate": "If readiness can be tested through owned projects, joining, or reversible experiments, then preserve options before making an irreversible founder commitment; otherwise state why beginning now is the lowest-cost valid test.",
+        "true_case": "A student can spend a semester shipping an owned project before deciding.",
+        "false_case": "An experienced pair has urgent paying users and can begin with a reversible trial."
+      },
+      {
+        "tension": "Hub advantages versus relocation cost and distraction.",
+        "predicate": "If a hub's current access advantage exceeds family, immigration, industry, funding, and distraction costs, then consider moving; otherwise stay and deliberately replace the missing access.",
+        "true_case": "A founder without dependents or visa friction gains direct user and investor access by moving.",
+        "false_case": "A parent faces visa delays and already has a committed domain investor locally."
+      }
+    ],
+    "building-startup-ecosystems": [
+      {
+        "tension": "Organic density versus deliberate intervention.",
+        "predicate": "If evidence identifies a limiting reagent such as founders, investors, peers, talent, or institutions, then intervene on that constraint; otherwise diagnose before copying visible hub artifacts.",
+        "true_case": "Regional data shows capable founders leave because no early investors decide quickly.",
+        "false_case": "A mayor proposes an office park before measuring any ecosystem constraint."
+      },
+      {
+        "tension": "Local retention versus healthy mobility and external networks.",
+        "predicate": "If retention tactics would weaken healthy mobility or external networks, then build connective density instead; otherwise address measured leakage with a time-bounded experiment.",
+        "true_case": "A grant's residency lock would isolate founders from customers and outside talent.",
+        "false_case": "Measured company leakage follows one fixable local permitting bottleneck."
+      }
+    ],
+    "choosing-startup-opportunities": [
+      {
+        "tension": "Organic problem discovery versus deliberate idea search.",
+        "predicate": "If founders directly understand a real missing need, then test that organic direction first; otherwise search deliberately inside genuine expertise and observed gaps.",
+        "true_case": "Founders repeatedly encounter a missing tool in work they understand deeply.",
+        "false_case": "A team needs an idea and searches observed gaps inside its real expertise."
+      },
+      {
+        "tension": "Ambitious upside versus immediate user intensity.",
+        "predicate": "If a narrow group has urgent demand and a credible expansion path, then prefer depth over broad indifference; otherwise do not mistake theoretical market size for a startup opportunity.",
+        "true_case": "A narrow group urgently uses a crude workaround and adjacent groups share the constraint.",
+        "false_case": "A huge theoretical market shows no one willing to try a crude version."
+      }
+    ],
+    "learning-from-users": [
+      {
+        "tension": "Listening to requests versus inferring the underlying problem.",
+        "predicate": "If stated requests conflict with observed behavior, then investigate the underlying problem and behavior before implementing the request; otherwise test the clearest falsifiable demand claim.",
+        "true_case": "Interviewees request dashboards but observation shows the real failure is delayed handoff.",
+        "false_case": "Observed behavior and stated need agree on one falsifiable demand claim."
+      },
+      {
+        "tension": "A narrow delighted niche versus superficial approval from a broad audience.",
+        "predicate": "If one narrow segment repeatedly uses or pays, then conclude the learning loop and hand distribution work to growth; otherwise continue sampling, observation, or demand tests.",
+        "true_case": "One segment repeatedly deploys and pays after the same demand test.",
+        "false_case": "Praise is broad but no segment repeatedly uses, pays, or commits."
+      }
+    ],
+    "shipping-and-iterating-products": [
+      {
+        "tension": "Fast launch versus quality and safety.",
+        "predicate": "If errors are cheap and reversible, then ship the smallest complete utility and shorten the feedback loop; otherwise raise validation, monitoring, rollback, and review gates before exposure.",
+        "true_case": "A reversible internal tool can be rolled back without user loss.",
+        "false_case": "A payment release can irreversibly misroute customer funds."
+      },
+      {
+        "tension": "Founder taste versus observed user behavior.",
+        "predicate": "If observed user behavior contradicts founder taste, then revise the product unless the evidence is confounded or unsafe; otherwise use informed taste to choose among behaviorally equivalent options.",
+        "true_case": "Retention falls exactly where observed users fight a founder-preferred interaction.",
+        "false_case": "Two designs behave equally in tests and informed taste must break the tie."
+      }
+    ],
+    "engineering-for-leverage": [
+      {
+        "tension": "Unusual technical leverage versus hiring and ecosystem costs.",
+        "predicate": "If an unusual technology creates specific product leverage greater than its hiring, ecosystem, and maintenance costs, then use it; otherwise prefer a capable familiar tool.",
+        "true_case": "A niche runtime uniquely enables the product's core latency advantage despite hiring cost.",
+        "false_case": "A novel language offers elegance but no product leverage over the team's familiar stack."
+      },
+      {
+        "tension": "Reusable abstraction versus premature generalization.",
+        "predicate": "If a pattern is repeated, stable, and clearer as a primitive, then abstract it; otherwise keep the concrete implementation and avoid premature generalization.",
+        "true_case": "Three stable modules repeat the same well-understood protocol boundary.",
+        "false_case": "A first implementation only hints that another use might someday appear."
+      }
+    ],
+    "acquiring-and-growing-users": [
+      {
+        "tension": "Unscalable early recruitment versus scalable channels.",
+        "predicate": "If no segment yet shows real use, payment, or a discriminating commitment, then growth may only execute recruitment or narrow beachhead seeding under a user-learning plan; otherwise growth owns acquisition, activation, liquidity, retention, and expansion optimization.",
+        "true_case": "A learning plan specifies twenty target operators, and growth executes only their recruitment.",
+        "false_case": "A retained paying segment exists, but its activation and acquisition channel remain weak."
+      },
+      {
+        "tension": "Fast growth versus preserving user delight.",
+        "predicate": "If faster acquisition degrades retention, interaction quality, or accountable user effects, then repair the product or channel before scaling; otherwise invest in the proven loop.",
+        "true_case": "Paid acquisition raises signups while retained use and user welfare decline.",
+        "false_case": "Acquisition, activation, retention, and accountable user effects improve together."
+      }
+    ],
+    "designing-business-models": [
+      {
+        "tension": "Growth versus monetization.",
+        "predicate": "If willingness to pay or the payer is unknown, then test value capture before optimizing price; otherwise tune pricing and sales against observed customer economics.",
+        "true_case": "Heavy engagement exists but the team has never tested who will pay.",
+        "false_case": "Repeated paid deals reveal stable buyer economics that can now be tuned."
+      },
+      {
+        "tension": "Vertical integration versus partner leverage.",
+        "predicate": "If integration reduces coordination and dependency costs more than partner leverage, then bring the capability inside; otherwise preserve a partner or supplier boundary.",
+        "true_case": "Owning a core supplier removes repeated coordination failures and dependency risk.",
+        "false_case": "A specialized partner delivers better economics without strategic lock-in."
+      }
+    ],
+    "competing-and-positioning": [
+      {
+        "tension": "Learning from competitors versus imitating them.",
+        "predicate": "If competitor evidence sharpens the user thesis or exposes a real alternative, then use it to differentiate; otherwise stop rival surveillance and return attention to users.",
+        "true_case": "A rival's adoption exposes a switching constraint the startup can uniquely remove.",
+        "false_case": "Feature-by-feature monitoring produces no new user or positioning insight."
+      },
+      {
+        "tension": "Immediate distribution leverage versus long-term platform dependence.",
+        "predicate": "If platform leverage has a credible dependency, policy, and migration plan, then use it; otherwise avoid trading durable control for short-lived distribution.",
+        "true_case": "A platform channel has contractual access, portable data, and a tested migration path.",
+        "false_case": "A platform can revoke the only channel and the startup has no user relationship."
+      }
+    ],
+    "forming-founder-partnerships": [
+      {
+        "tension": "Complementary skills versus proven trust.",
+        "predicate": "If trust, commitment, and conflict behavior have not been tested through demanding shared work, then run a work trial before formalizing; otherwise make roles and expectations explicit.",
+        "true_case": "Potential cofounders have never completed demanding work or resolved conflict together.",
+        "false_case": "The pair has shipped under pressure and demonstrated durable trust and commitment."
+      },
+      {
+        "tension": "Equal partnership versus contribution and commitment differences.",
+        "predicate": "If commitment, risk, and contribution are materially symmetric, then equal ownership may preserve partnership; otherwise discuss differences directly instead of hiding them behind default splits.",
+        "true_case": "Both founders take equal risk, time, and responsibility over the same horizon.",
+        "false_case": "One founder is part-time and takes materially less risk and responsibility."
+      }
+    ],
+    "building-and-evolving-organizations": [
+      {
+        "tension": "Specialization versus end-to-end ownership.",
+        "predicate": "If a measured coordination bottleneck exceeds small-team speed, then add the smallest role or process that resolves it; otherwise keep ownership direct and structure light.",
+        "true_case": "Repeated cross-team handoffs now delay releases more than direct ownership helps.",
+        "false_case": "Five people communicate directly and a proposed hierarchy solves no measured delay."
+      },
+      {
+        "tension": "Process consistency versus small-team speed.",
+        "predicate": "If a specialist hire's bottleneck relief exceeds compensation, coordination, and ownership costs, then hire; otherwise keep the work with the current small team.",
+        "true_case": "A specialist removes a proven bottleneck worth more than compensation and coordination cost.",
+        "false_case": "The role imitates a large company and has no current bottleneck to own."
+      }
+    ],
+    "operating-with-focus-and-morale": [
+      {
+        "tension": "Persistence in the goal versus flexibility in tactics.",
+        "predicate": "If evidence still supports the goal but a tactic fails, then change the tactic and persist; otherwise, when the demand or goal premise fails, revisit the goal.",
+        "true_case": "Demand remains strong but one sales tactic repeatedly fails against a reachable segment.",
+        "false_case": "The underlying demand premise fails across discriminating tests, not merely one tactic."
+      },
+      {
+        "tension": "Sustained intensity versus burnout and degraded judgment.",
+        "predicate": "If sustained intensity is degrading judgment, health, or team durability, then reduce or restructure the load; otherwise protect focused maker time and continue.",
+        "true_case": "Sustained hours now cause mistakes, conflict, and declining decision quality.",
+        "false_case": "The team is healthy and focused but keeps surrendering maker time to optional meetings."
+      }
+    ],
+    "managing-runway-and-survival": [
+      {
+        "tension": "Frugality versus underinvesting in a proven engine.",
+        "predicate": "If scenarios show default-dead or time-to-zero is binding, then run survival actions and a dated plan B before growth, hiring, or capital optimization; otherwise invest according to the proven engine.",
+        "true_case": "Scenario ranges show cash reaches zero before any credible financing or profitability date.",
+        "false_case": "Operating history supports default alive and a proven engine can absorb investment."
+      },
+      {
+        "tension": "Fundraising for rescue versus reaching default alive independently.",
+        "predicate": "If incremental spend has evidence-backed returns the company can absorb, then spend; otherwise preserve runway and remove state-inappropriate hiring or costs.",
+        "true_case": "A channel has repeatable payback the company can fund without endangering runway.",
+        "false_case": "A hiring plan assumes an uncommitted round and has no evidence-backed return."
+      }
+    ],
+    "raising-and-governing-capital": [
+      {
+        "tension": "Speed and certainty versus investor quality and terms.",
+        "predicate": "If the venture type, milestone, runway, and current investor market support a bounded round, then enter fundraising mode; otherwise keep building or use the survival branch.",
+        "true_case": "A capital-heavy milestone, runway plan, and current investor market support a bounded round.",
+        "false_case": "A capital-light team seeks funding as progress without a milestone or use for the money."
+      },
+      {
+        "tension": "Persuasive framing versus truthful calibration.",
+        "predicate": "If an offer satisfies the required runway, partner, control, truth, and certainty thresholds, then prefer closing over indefinite optimization; otherwise continue the parallel process with a switch date.",
+        "true_case": "A signed offer meets runway, partner, control, truth, and certainty thresholds.",
+        "false_case": "An offer creates unacceptable control risk and still does not fund the required milestone."
+      }
+    ],
+    "making-calibrated-decisions": [
+      {
+        "tension": "Speed versus confidence.",
+        "predicate": "If a specialist owns the concrete decision, then use that specialist with inherited invariants; otherwise use this skill for the explicit cross-domain or source-calibration decision.",
+        "true_case": "A launch question has a clear shipping owner and only needs inherited risk guards.",
+        "false_case": "A founder explicitly asks to reconcile conflicting user, runway, control, and historical evidence."
+      },
+      {
+        "tension": "Contrarian independence versus ignoring accumulated evidence.",
+        "predicate": "If evidence is weak and the next move is reversible, then run a discriminating test; otherwise, when the commitment is irreversible, require stronger evidence and preserve alternatives.",
+        "true_case": "Evidence is weak and a reversible pilot can distinguish the competing explanations.",
+        "false_case": "The next step irreversibly transfers control and no fallback remains."
+      }
+    ],
+    "thinking-through-writing": [
+      {
+        "tension": "Generative speed versus exact revision.",
+        "predicate": "If the idea or decision is unsettled, then draft to discover and test it without audience optimization; otherwise hand the settled claim to communication.",
+        "true_case": "A founder cannot state why a pivot is justified and needs a private discovery memo.",
+        "false_case": "The decision and evidence are settled and only the audience explanation remains."
+      },
+      {
+        "tension": "A favored conclusion versus what survives the neutral-reader test.",
+        "predicate": "If a neutral-reader pass exposes missing assumptions, contradictions, or broken claims, then revise or discard them; otherwise stop when the idea is complete enough to decide.",
+        "true_case": "A neutral-reader pass reveals an unstated assumption that invalidates the conclusion.",
+        "false_case": "Repeated neutral-reader passes find a complete, qualified, decision-ready argument."
+      }
+    ],
+    "communicating-clearly": [
+      {
+        "tension": "Persuasion versus truthful calibration.",
+        "predicate": "If domain facts or the decision remain unsettled, then return to the domain owner or thinking-through-writing; otherwise adapt the calibrated claim for the named audience.",
+        "true_case": "A draft investor update hides that the runway decision itself is unresolved.",
+        "false_case": "The runway decision is settled and needs a candid reader-specific explanation."
+      },
+      {
+        "tension": "Conciseness versus necessary qualification.",
+        "predicate": "If a qualification materially changes truth or reader action, then include it; otherwise cut unnecessary language and preserve clarity.",
+        "true_case": "A risk qualification changes whether customers should act on the claim.",
+        "false_case": "A paragraph repeats context that does not change truth, meaning, or reader action."
+      }
+    ],
+    "navigating-acquisitions-and-exits": [
+      {
+        "tension": "Optionality and information versus distraction and manipulation.",
+        "predicate": "If the company does not want to sell now, then decline corp-dev engagement; otherwise engage only with a defined acceptable outcome and enough leverage.",
+        "true_case": "A young company does not want to sell but accepts a speculative corp-dev meeting.",
+        "false_case": "Founders want to sell now and have defined an acceptable outcome and walk-away point."
+      },
+      {
+        "tension": "A certain exit versus continued independent upside.",
+        "predicate": "If the company is a young promising business in the vulnerable middle, then protect focus from speculative process; otherwise, when it is very strong or near death, evaluate the distinct option set.",
+        "true_case": "A promising eight-month-old company risks losing weeks of product focus to buyer courtship.",
+        "false_case": "A near-dead company has no financing path and a concrete acquisition offer preserves value."
+      }
+    ],
+    "evaluating-startups-and-founders": [
+      {
+        "tension": "Consistent selection criteria versus rare outlier potential.",
+        "predicate": "If product and growth evidence are sparse, then weight learning rate, resourcefulness, commitment, and tested character; otherwise integrate operating evidence without outcome hindsight.",
+        "true_case": "A pre-product applicant shows rapid learning, resourcefulness, commitment, and tested character.",
+        "false_case": "A later-stage company has operating evidence that contradicts a polished founder narrative."
+      },
+      {
+        "tension": "Sparse early evidence versus premature confidence.",
+        "predicate": "If an unconventional candidate has credible extreme upside, then tolerate non-polish and ordinary-looking risk; otherwise reject manufactured upside, and never use power-law potential to excuse deception or durable character concerns.",
+        "true_case": "An unconventional founder has a credible path to an extreme outcome despite weak polish.",
+        "false_case": "A high-upside founder repeatedly deceives partners and fails the durable character screen."
+      }
+    ],
+    "advising-and-supporting-founders": [
+      {
+        "tension": "Direct advice versus helping founders learn independently.",
+        "predicate": "If the true top bottleneck and its evidence latency are known, then choose one contextual intervention and review when results can arrive; otherwise diagnose before prescribing.",
+        "true_case": "The top bottleneck is known and a hardware result cannot arrive for two months.",
+        "false_case": "An advisor prescribes weekly growth before learning which constraint actually binds."
+      },
+      {
+        "tension": "Consistent program structure versus company-specific bottlenecks.",
+        "predicate": "If a trusted operator has better local knowledge, then allocate flexible support and create candor; otherwise restrict support only for an explicit expert or umbrella purpose.",
+        "true_case": "A trusted founder has better local knowledge and asks for flexible runway support.",
+        "false_case": "A domain-expert program funds one explicit scientific milestone through an umbrella grant."
+      }
+    ],
+    "governing-platforms-and-communities": [
+      {
+        "tension": "Growth versus community character.",
+        "predicate": "If the product merely lacks initial users or liquidity, then use growth; otherwise, when participants can interact and trust, norms, ranking, reputation, moderation, or abuse is binding, govern the interaction system.",
+        "true_case": "A forum has active interaction but opaque ranking, fraud, and norm decay undermine trust.",
+        "false_case": "An empty marketplace has no interaction yet and only needs initial participant liquidity."
+      },
+      {
+        "tension": "Open participation versus adversarial robustness and moderation.",
+        "predicate": "If a ranking, reputation, or moderation change can poison culture or harm users, then stage it transparently with rollback and review; otherwise run a bounded experiment and inspect behavior.",
+        "true_case": "A reputation change can publicly misclassify users and split the community.",
+        "false_case": "A reversible display experiment has bounded exposure, transparent rules, and rollback."
+      }
+    ]
+  },
+  "skills": [
+    {
+      "skill_name": "preparing-to-found",
+      "purpose": "Decide whether and when to pursue a startup, then build readiness through owned work, skills, peers, and environment.",
+      "triggers": [
+        "Assess whether starting a startup is the right next move.",
+        "Create a preparation plan or help a founder or active team choose a startup location."
+      ],
+      "non_triggers": [
+        "Evaluate an already chosen startup idea.",
+        "Plan an active fundraising process."
+      ],
+      "themes": [
+        "career-choice-and-optionality",
+        "founder-readiness-and-commitment",
+        "learning-and-skill-development",
+        "location-and-mobility",
+        "motivation-and-work-fit",
+        "owned-projects-and-maker-autonomy"
+      ],
+      "stage_conditions": [
+        "Use readiness work before commitment when options are still cheap to preserve; location decisions can recur after founding.",
+        "Treat location advice as conditional on family, current immigration law, industry, distributed access, committed funding, and relocation distraction."
+      ],
+      "tensions": [
+        "Deliberate preparation versus learning by beginning.",
+        "Hub advantages versus relocation cost and distraction."
+      ],
+      "candidate_eval_cases": [
+        "A student asks whether to found now, join a startup, or build projects first.",
+        "A remote team asks whether moving to a startup hub is worth it."
+      ],
+      "essay_ids": [
+        "038",
+        "041",
+        "046",
+        "048",
+        "050",
+        "056",
+        "062",
+        "063",
+        "068",
+        "069",
+        "072",
+        "073",
+        "081",
+        "082",
+        "085",
+        "089",
+        "096",
+        "097",
+        "107",
+        "109",
+        "111",
+        "112",
+        "119",
+        "123",
+        "132",
+        "139",
+        "141",
+        "142",
+        "143",
+        "145",
+        "151",
+        "154",
+        "157",
+        "161",
+        "164",
+        "176",
+        "180",
+        "187",
+        "193",
+        "194",
+        "197",
+        "204",
+        "205",
+        "206",
+        "207",
+        "208",
+        "209",
+        "211",
+        "213",
+        "216",
+        "217",
+        "218",
+        "219",
+        "220",
+        "221"
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "purpose": "Help policymakers, universities, cities, accelerators, and community builders strengthen a startup ecosystem through limiting-reagent diagnosis and long-horizon experiments.",
+      "triggers": [
+        "Design or diagnose a city, university, policy, or program intended to create more successful startups.",
+        "Choose ecosystem interventions for founder, investor, peer, talent, or institutional density."
+      ],
+      "non_triggers": [
+        "Help one founder decide whether to relocate.",
+        "Moderate the behavior of users inside a product community."
+      ],
+      "themes": [
+        "ecosystem-policy-and-institutions",
+        "regional-ecosystem-density",
+        "startup-ecosystems-and-hubs"
+      ],
+      "stage_conditions": [
+        "Diagnose the local limiting reagent before copying a visible hub artifact such as offices, events, or branding.",
+        "Use multi-year measures, account for talent and company leakage, and revalidate historical assumptions about geography, immigration, and face-to-face access."
+      ],
+      "tensions": [
+        "Organic density versus deliberate intervention.",
+        "Local retention versus healthy mobility and external networks."
+      ],
+      "candidate_eval_cases": [
+        "A mayor wants a five-year startup ecosystem plan built around an empty office park.",
+        "A university wants to increase founder formation without creating startup theater."
+      ],
+      "essay_ids": [
+        "014",
+        "049",
+        "051",
+        "057",
+        "062",
+        "063",
+        "069",
+        "084",
+        "085",
+        "096",
+        "101",
+        "107",
+        "112",
+        "114",
+        "139",
+        "162",
+        "165",
+        "176",
+        "198"
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "purpose": "Generate, frame, compare, and pivot startup directions around real problems, founder fit, urgency, mission, and timing.",
+      "triggers": [
+        "Find or compare startup ideas.",
+        "Reframe a solution-first concept or decide whether to pivot."
+      ],
+      "non_triggers": [
+        "Design interviews for a direction already selected.",
+        "Choose a database or deployment architecture."
+      ],
+      "themes": [
+        "founder-user-product-and-domain-fit",
+        "market-timing-and-transitions",
+        "mission-and-user-benefit",
+        "originality-and-idea-development",
+        "problem-discovery-and-framing",
+        "startup-idea-selection-and-pivots",
+        "urgency-and-demand-intensity"
+      ],
+      "stage_conditions": [
+        "Before strong user evidence, prefer problems the founders understand directly and can test cheaply.",
+        "During a pivot, preserve learned constraints rather than restarting from slogans."
+      ],
+      "tensions": [
+        "Organic problem discovery versus deliberate idea search.",
+        "Ambitious upside versus immediate user intensity."
+      ],
+      "candidate_eval_cases": [
+        "A founder has five fashionable ideas but no observed user pain.",
+        "A team with weak demand must choose whether to persist, narrow, or pivot."
+      ],
+      "essay_ids": [
+        "014",
+        "015",
+        "021",
+        "029",
+        "030",
+        "033",
+        "038",
+        "039",
+        "041",
+        "044",
+        "046",
+        "051",
+        "052",
+        "055",
+        "061",
+        "064",
+        "065",
+        "067",
+        "069",
+        "073",
+        "074",
+        "080",
+        "081",
+        "086",
+        "091",
+        "093",
+        "099",
+        "101",
+        "105",
+        "108",
+        "111",
+        "118",
+        "123",
+        "125",
+        "127",
+        "134",
+        "135",
+        "140",
+        "141",
+        "143",
+        "146",
+        "150",
+        "151",
+        "154",
+        "155",
+        "157",
+        "158",
+        "161",
+        "166",
+        "174",
+        "175",
+        "176",
+        "177",
+        "179",
+        "180",
+        "181",
+        "184",
+        "185",
+        "193",
+        "194",
+        "195",
+        "196",
+        "197",
+        "198",
+        "204",
+        "205",
+        "207",
+        "209",
+        "213",
+        "216",
+        "217",
+        "218",
+        "220",
+        "221",
+        "222",
+        "223"
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "purpose": "Identify a narrow user, observe real behavior, validate demand, and turn direct service and feedback into trustworthy product learning.",
+      "triggers": [
+        "Plan user discovery, demand validation, interviews, or support-driven learning.",
+        "Choose an initial niche and evidence that would confirm a real need."
+      ],
+      "non_triggers": [
+        "Optimize a proven acquisition channel at scale.",
+        "Implement a product feature from an already validated specification."
+      ],
+      "themes": [
+        "customer-service-and-support",
+        "manual-and-scrappy-operations",
+        "market-validation-and-demand",
+        "target-user-and-niche-focus",
+        "user-demand-discovery-and-validation",
+        "user-discovery-and-understanding",
+        "user-empathy-and-respect",
+        "user-feedback-and-observation"
+      ],
+      "stage_conditions": [
+        "Early on, user learning owns the hypothesis, sample, evidence standard, and interpretation; growth may execute recruitment or beachhead seeding only as a subordinate step in that plan.",
+        "For products with long evidence latency, match the test interval to when credible behavior can appear."
+      ],
+      "tensions": [
+        "Listening to requests versus inferring the underlying problem.",
+        "A narrow delighted niche versus superficial approval from a broad audience."
+      ],
+      "candidate_eval_cases": [
+        "A B2B founder has compliments but no commitments and needs a validation plan.",
+        "A consumer founder receives contradictory interview and usage evidence."
+      ],
+      "essay_ids": [
+        "007",
+        "008",
+        "009",
+        "011",
+        "013",
+        "014",
+        "017",
+        "019",
+        "024",
+        "025",
+        "028",
+        "029",
+        "033",
+        "035",
+        "039",
+        "043",
+        "044",
+        "045",
+        "046",
+        "047",
+        "051",
+        "054",
+        "058",
+        "059",
+        "061",
+        "064",
+        "067",
+        "068",
+        "069",
+        "070",
+        "074",
+        "081",
+        "093",
+        "105",
+        "108",
+        "111",
+        "117",
+        "118",
+        "123",
+        "125",
+        "137",
+        "140",
+        "141",
+        "151",
+        "153",
+        "157",
+        "159",
+        "195",
+        "196",
+        "198",
+        "210",
+        "213",
+        "219",
+        "222"
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "purpose": "Turn a problem into a small working product, launch at an appropriate risk level, and improve it through short evidence-producing loops.",
+      "triggers": [
+        "Scope a prototype, first launch, redesign, or iteration loop.",
+        "Decide how much quality and reversibility a release requires."
+      ],
+      "non_triggers": [
+        "Run open-ended user discovery before choosing what to build.",
+        "Select a company-wide fundraising strategy."
+      ],
+      "themes": [
+        "development-feedback-loops",
+        "launch-safety-and-reversibility",
+        "launch-strategy",
+        "product-design-and-taste",
+        "product-iteration-and-redesign",
+        "product-quality-and-behavioral-feedback",
+        "prototyping-and-experimentation",
+        "release-and-deployment"
+      ],
+      "stage_conditions": [
+        "Move quickly when errors are cheap and reversible; raise the gate for irreversible harm, trust, security, or legal exposure.",
+        "A first release should maximize learning, while a redesign must account for existing user habits."
+      ],
+      "tensions": [
+        "Fast launch versus quality and safety.",
+        "Founder taste versus observed user behavior."
+      ],
+      "candidate_eval_cases": [
+        "A team is polishing a reversible MVP instead of launching.",
+        "A fintech team proposes a fast release with irreversible user risk."
+      ],
+      "essay_ids": [
+        "002",
+        "003",
+        "004",
+        "006",
+        "008",
+        "009",
+        "011",
+        "014",
+        "016",
+        "019",
+        "020",
+        "022",
+        "024",
+        "027",
+        "028",
+        "033",
+        "034",
+        "037",
+        "038",
+        "039",
+        "042",
+        "046",
+        "050",
+        "051",
+        "056",
+        "059",
+        "061",
+        "064",
+        "066",
+        "068",
+        "069",
+        "070",
+        "077",
+        "080",
+        "081",
+        "084",
+        "086",
+        "088",
+        "089",
+        "093",
+        "095",
+        "096",
+        "100",
+        "105",
+        "106",
+        "107",
+        "111",
+        "112",
+        "118",
+        "123",
+        "124",
+        "125",
+        "140",
+        "145",
+        "149",
+        "153",
+        "169",
+        "182",
+        "183",
+        "193",
+        "195",
+        "210",
+        "218",
+        "222"
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "purpose": "Choose technical foundations, abstractions, ownership, and simplicity that increase a small team's product learning and output.",
+      "triggers": [
+        "Choose a technology, architecture, abstraction, or code ownership model for a startup.",
+        "Reduce technical complexity that is slowing product iteration."
+      ],
+      "non_triggers": [
+        "Perform a routine implementation with no architectural choice.",
+        "Choose which customer segment to pursue."
+      ],
+      "themes": [
+        "abstraction-and-composability",
+        "adversarial-system-robustness",
+        "architecture-and-technical-fit",
+        "code-structure-and-ownership",
+        "software-quality-and-simplicity",
+        "technical-leverage-and-productivity",
+        "technology-selection"
+      ],
+      "stage_conditions": [
+        "Favor tools the team can use to ship now unless a specific product constraint creates durable leverage.",
+        "Revisit ownership and decomposition as coordination costs begin to exceed local coding speed."
+      ],
+      "tensions": [
+        "Unusual technical leverage versus hiring and ecosystem costs.",
+        "Reusable abstraction versus premature generalization."
+      ],
+      "candidate_eval_cases": [
+        "Two founders are choosing between a familiar stack and a powerful niche language.",
+        "A growing codebase has shared surfaces that no one clearly owns."
+      ],
+      "essay_ids": [
+        "002",
+        "003",
+        "004",
+        "006",
+        "007",
+        "009",
+        "013",
+        "014",
+        "015",
+        "016",
+        "017",
+        "018",
+        "020",
+        "022",
+        "023",
+        "024",
+        "025",
+        "027",
+        "028",
+        "029",
+        "031",
+        "033",
+        "037",
+        "069",
+        "080",
+        "083",
+        "086",
+        "108",
+        "208"
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "purpose": "Choose a beachhead, acquire and activate users, measure the right growth phase, and retain users before scaling distribution.",
+      "triggers": [
+        "Recruit a validation sample or seed a narrow beachhead under a user-learning evidence plan.",
+        "Design the first acquisition, activation, or marketplace-liquidity plan after a target segment shows real use or willingness to pay.",
+        "Diagnose growth, retention, or expansion after demand is established."
+      ],
+      "non_triggers": [
+        "Validate whether the underlying problem exists; use user learning first.",
+        "Fix marketplace or community trust, ranking, moderation, reputation, or abuse; use community governance."
+      ],
+      "themes": [
+        "activation-and-conversion",
+        "beachheads-and-market-expansion",
+        "distribution-and-growth",
+        "growth-measurement-and-phases",
+        "product-network-effects-and-critical-mass",
+        "user-acquisition-and-distribution",
+        "user-delight-and-retention"
+      ],
+      "stage_conditions": [
+        "If the main unknown is whether or why the need exists, user learning owns the hypothesis, sample, evidence standard, and interpretation; growth may only execute recruitment or beachhead seeding under that plan, and owns optimization only after real use or payment.",
+        "Recruit manually before optimizing a channel, and do not treat top-line acquisition or subsidized marketplace activity as healthy growth when activation, liquidity, or retention is weak."
+      ],
+      "tensions": [
+        "Unscalable early recruitment versus scalable channels.",
+        "Fast growth versus preserving user delight."
+      ],
+      "candidate_eval_cases": [
+        "A user-learning plan needs twenty target operators recruited without letting outreach metrics substitute for demand evidence.",
+        "A marketplace has no initial liquidity and needs a beachhead.",
+        "A product has rising signups but falling retained use."
+      ],
+      "essay_ids": [
+        "007",
+        "008",
+        "011",
+        "033",
+        "045",
+        "054",
+        "061",
+        "064",
+        "069",
+        "093",
+        "108",
+        "117",
+        "123",
+        "125",
+        "137",
+        "140",
+        "143",
+        "149",
+        "151",
+        "153",
+        "154",
+        "166",
+        "168",
+        "169",
+        "182",
+        "195",
+        "196",
+        "198",
+        "201",
+        "219",
+        "222"
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "purpose": "Design how the venture creates and captures value through pricing, sales, channels, company boundaries, and an appropriate capital model.",
+      "triggers": [
+        "Choose pricing, revenue, sales, channel, or venture model.",
+        "Decide whether a capability belongs inside the company or in a partner ecosystem."
+      ],
+      "non_triggers": [
+        "Negotiate a specific financing term sheet.",
+        "Debug a weak user interview plan."
+      ],
+      "themes": [
+        "business-models-and-channel-power",
+        "company-boundaries-and-industry-structure",
+        "growth-and-monetization-tradeoffs",
+        "market-structure-and-cost-curves",
+        "pricing-and-customer-economics",
+        "sales-and-monetization",
+        "venture-type-and-capital-model"
+      ],
+      "stage_conditions": [
+        "Delay optimization while learning, but test willingness to pay before free usage becomes ambiguous evidence.",
+        "Match external capital to the venture's return shape rather than assuming every good business is venture-scale."
+      ],
+      "tensions": [
+        "Growth versus monetization.",
+        "Vertical integration versus partner leverage."
+      ],
+      "candidate_eval_cases": [
+        "A useful product has engagement but no clear payer or channel.",
+        "A durable small business is being forced into a venture model."
+      ],
+      "essay_ids": [
+        "011",
+        "040",
+        "052",
+        "054",
+        "058",
+        "063",
+        "084",
+        "093",
+        "098",
+        "101",
+        "102",
+        "108",
+        "113",
+        "114",
+        "116",
+        "121",
+        "129",
+        "130",
+        "140",
+        "144",
+        "149",
+        "150",
+        "152",
+        "153",
+        "159",
+        "168",
+        "173",
+        "175",
+        "201"
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "purpose": "Position a startup against alternatives, anticipate incumbent and technology shifts, and build advantages without becoming rival-obsessed.",
+      "triggers": [
+        "Analyze competitors, differentiation, moats, positioning, or a platform dependency.",
+        "Plan around an incumbent or technology transition."
+      ],
+      "non_triggers": [
+        "Choose a first user interview sample.",
+        "Moderate behavior inside the startup's own user community."
+      ],
+      "themes": [
+        "competitive-strategy",
+        "defensibility-and-moats",
+        "incumbent-dynamics",
+        "platform-and-ecosystem-strategy",
+        "product-positioning-and-comparison",
+        "technology-ecosystem-adoption",
+        "technology-transitions-and-disruption"
+      ],
+      "stage_conditions": [
+        "At the earliest stage, user learning usually outranks broad competitor surveillance.",
+        "Platform leverage is attractive only with an explicit plan for dependency and policy risk."
+      ],
+      "tensions": [
+        "Learning from competitors versus imitating them.",
+        "Immediate distribution leverage versus long-term platform dependence."
+      ],
+      "candidate_eval_cases": [
+        "A founder is copying a funded rival feature-for-feature.",
+        "A startup depends on a platform whose incentives are changing."
+      ],
+      "essay_ids": [
+        "006",
+        "009",
+        "015",
+        "017",
+        "023",
+        "024",
+        "028",
+        "043",
+        "050",
+        "054",
+        "058",
+        "059",
+        "064",
+        "067",
+        "069",
+        "074",
+        "084",
+        "108",
+        "113",
+        "121",
+        "124",
+        "135",
+        "144",
+        "150",
+        "151",
+        "158",
+        "167",
+        "173",
+        "184",
+        "198",
+        "201"
+      ]
+    },
+    {
+      "skill_name": "forming-founder-partnerships",
+      "purpose": "Find and test cofounder fit, make ownership choices, and establish a durable working relationship before conflicts become existential.",
+      "triggers": [
+        "Choose, evaluate, or trial a potential cofounder.",
+        "Resolve founder ownership, commitment, trust, or relationship concerns."
+      ],
+      "non_triggers": [
+        "Design a later-stage management hierarchy.",
+        "Hire an individual contributor for a defined role."
+      ],
+      "themes": [
+        "cofounder-formation-and-selection",
+        "cofounder-relationships-and-durability"
+      ],
+      "stage_conditions": [
+        "Test relationships through demanding shared work before making irreversible commitments.",
+        "Revisit roles as evidence changes, while treating trust failures as different from ordinary role evolution."
+      ],
+      "tensions": [
+        "Complementary skills versus proven trust.",
+        "Equal partnership versus contribution and commitment differences."
+      ],
+      "candidate_eval_cases": [
+        "A solo founder is considering a stranger with complementary credentials.",
+        "Two cofounders disagree about commitment and equity after six months."
+      ],
+      "essay_ids": [
+        "068",
+        "069",
+        "073",
+        "099",
+        "105",
+        "110",
+        "123",
+        "134",
+        "157",
+        "196",
+        "221"
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "purpose": "Hire for the current bottleneck, preserve small-team ownership and culture, and evolve roles and coordination only when scale requires it.",
+      "triggers": [
+        "Plan startup hiring, roles, incentives, management, or organizational scaling.",
+        "Diagnose coordination overhead or culture erosion."
+      ],
+      "non_triggers": [
+        "Select an initial cofounder.",
+        "Make an emergency runway reduction without an organizational design question."
+      ],
+      "themes": [
+        "employee-equity-and-compensation",
+        "hiring-and-talent",
+        "incentives-and-behavior",
+        "organizational-leadership-and-role-evolution",
+        "organizational-scale-and-overhead",
+        "performance-selection-and-credentials",
+        "small-team-advantage",
+        "team-culture-and-cohesion",
+        "team-structure-and-ownership"
+      ],
+      "stage_conditions": [
+        "Do not import large-company structure before a real coordination bottleneck exists.",
+        "Founder roles should evolve as the company shifts from product work to deals, hiring, and organization."
+      ],
+      "tensions": [
+        "Specialization versus end-to-end ownership.",
+        "Process consistency versus small-team speed."
+      ],
+      "candidate_eval_cases": [
+        "A five-person startup wants three management layers to look mature.",
+        "A 60-person company has unclear ownership and founder bottlenecks."
+      ],
+      "essay_ids": [
+        "002",
+        "007",
+        "011",
+        "014",
+        "017",
+        "019",
+        "021",
+        "024",
+        "025",
+        "027",
+        "029",
+        "030",
+        "031",
+        "033",
+        "037",
+        "045",
+        "047",
+        "049",
+        "054",
+        "063",
+        "064",
+        "069",
+        "071",
+        "075",
+        "076",
+        "078",
+        "080",
+        "082",
+        "084",
+        "087",
+        "089",
+        "094",
+        "097",
+        "100",
+        "101",
+        "103",
+        "104",
+        "106",
+        "107",
+        "111",
+        "112",
+        "123",
+        "124",
+        "130",
+        "132",
+        "145",
+        "158",
+        "162",
+        "167",
+        "169",
+        "172",
+        "173",
+        "176",
+        "178",
+        "181",
+        "191",
+        "194",
+        "198",
+        "201",
+        "205",
+        "206"
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "purpose": "Protect high-value founder work, sustain morale, and combine determined goals with adaptable tactics and realistic work habits.",
+      "triggers": [
+        "Prioritize founder time, recover focus, or manage morale and persistence.",
+        "Decide what to stop when activity is displacing core startup work."
+      ],
+      "non_triggers": [
+        "Calculate runway and emergency spending cuts.",
+        "Choose among startup ideas based on user need."
+      ],
+      "themes": [
+        "attention-and-priority-control",
+        "maker-environment-and-deep-work",
+        "motivation-and-morale",
+        "persistence-and-adaptation",
+        "prioritization-and-focus",
+        "resourcefulness-and-agency",
+        "work-habits-and-time"
+      ],
+      "stage_conditions": [
+        "During acute survival or fundraising, temporarily narrow the operating cadence around the state-changing constraint.",
+        "Protect maker time early; add coordination deliberately as the founder role changes."
+      ],
+      "tensions": [
+        "Persistence in the goal versus flexibility in tactics.",
+        "Sustained intensity versus burnout and degraded judgment."
+      ],
+      "candidate_eval_cases": [
+        "A founder spends every day on meetings, media, and investor updates instead of users or product.",
+        "A demoralized team needs to distinguish a hard phase from evidence to change direction."
+      ],
+      "essay_ids": [
+        "019",
+        "027",
+        "030",
+        "031",
+        "041",
+        "047",
+        "051",
+        "055",
+        "056",
+        "057",
+        "061",
+        "064",
+        "065",
+        "067",
+        "068",
+        "071",
+        "072",
+        "077",
+        "080",
+        "081",
+        "091",
+        "093",
+        "095",
+        "096",
+        "098",
+        "099",
+        "100",
+        "105",
+        "110",
+        "111",
+        "115",
+        "118",
+        "119",
+        "123",
+        "126",
+        "127",
+        "128",
+        "129",
+        "134",
+        "137",
+        "141",
+        "142",
+        "147",
+        "150",
+        "152",
+        "156",
+        "158",
+        "159",
+        "163",
+        "164",
+        "174",
+        "175",
+        "180",
+        "182",
+        "183",
+        "184",
+        "186",
+        "193",
+        "195",
+        "196",
+        "197",
+        "198",
+        "205",
+        "206",
+        "207",
+        "218",
+        "223"
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "purpose": "Diagnose the company's survival state, extend runway, restore revenue or profitability, and sequence spending and hiring accordingly.",
+      "triggers": [
+        "Assess default-alive status, burn, runway, cash crisis, or survival options.",
+        "Choose emergency spending, revenue, profitability, or hiring actions."
+      ],
+      "non_triggers": [
+        "Design a normal financing process for a healthy company.",
+        "Optimize long-term pricing without a survival constraint."
+      ],
+      "themes": [
+        "capital-efficiency-and-runway",
+        "revenue-and-profitability",
+        "runway-survival-and-profitability",
+        "startup-economics-and-risk",
+        "startup-survival-and-failure",
+        "state-conditioned-spending-and-hiring"
+      ],
+      "stage_conditions": [
+        "Trigger at default-dead, not only at acute time-to-zero: survival state overrides normal growth, hiring, and financing optimization.",
+        "Require enough operating history for a default-alive extrapolation; otherwise use scenario ranges, a calendar runway plan, and a written plan B with a switch date."
+      ],
+      "tensions": [
+        "Frugality versus underinvesting in a proven engine.",
+        "Fundraising for rescue versus reaching default alive independently."
+      ],
+      "candidate_eval_cases": [
+        "A startup has eight months of cash, weak growth, and an assumed future round.",
+        "A profitable startup is avoiding a high-confidence growth investment."
+      ],
+      "essay_ids": [
+        "011",
+        "028",
+        "029",
+        "039",
+        "040",
+        "048",
+        "049",
+        "052",
+        "053",
+        "068",
+        "069",
+        "076",
+        "077",
+        "081",
+        "084",
+        "089",
+        "097",
+        "098",
+        "099",
+        "102",
+        "105",
+        "116",
+        "117",
+        "129",
+        "137",
+        "156",
+        "159",
+        "168",
+        "169",
+        "195",
+        "198",
+        "201"
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "purpose": "Prepare and run a time-bounded financing process, select aligned investors, and reason clearly about terms, dilution, valuation, control, and truth.",
+      "triggers": [
+        "Plan or diagnose a startup fundraising round.",
+        "Compare investors, terms, valuation, dilution, control, or financing timing."
+      ],
+      "non_triggers": [
+        "Decide whether the venture should use outside capital at all.",
+        "Diagnose a default-dead company; run survival first even when a rescue round seems credible."
+      ],
+      "themes": [
+        "deal-mechanics-and-terms",
+        "financing-terms-equity-and-control",
+        "founder-autonomy-and-control",
+        "funding-market-conditions",
+        "funding-stage-fit",
+        "fundraising-readiness-and-investor-communication",
+        "fundraising-strategy-and-process",
+        "investor-incentives-and-selection",
+        "investor-truth-trust-and-reputation",
+        "valuation"
+      ],
+      "stage_conditions": [
+        "Raise when the company has an appropriate milestone and enough process leverage; long-build and capital-heavy ventures may need company financing before product launch.",
+        "Advice changes across venture type, seed and later rounds, hot and weak markets, and survival financing; verify current instruments, terms, and investor conditions."
+      ],
+      "tensions": [
+        "Speed and certainty versus investor quality and terms.",
+        "Persuasive framing versus truthful calibration."
+      ],
+      "candidate_eval_cases": [
+        "A founder has scattered investor conversations but no defined process.",
+        "A team is considering a high valuation with heavy control terms."
+      ],
+      "essay_ids": [
+        "033",
+        "039",
+        "040",
+        "046",
+        "048",
+        "049",
+        "050",
+        "052",
+        "053",
+        "061",
+        "067",
+        "069",
+        "073",
+        "076",
+        "078",
+        "084",
+        "085",
+        "088",
+        "089",
+        "092",
+        "098",
+        "102",
+        "105",
+        "109",
+        "116",
+        "123",
+        "127",
+        "129",
+        "131",
+        "133",
+        "136",
+        "137",
+        "145",
+        "149",
+        "150",
+        "152",
+        "154",
+        "155",
+        "156",
+        "159",
+        "165",
+        "169",
+        "174",
+        "176",
+        "182",
+        "196",
+        "198",
+        "199",
+        "201"
+      ]
+    },
+    {
+      "skill_name": "making-calibrated-decisions",
+      "purpose": "Handle explicit cross-domain startup decisions, reconcile conflicting advice, and calibrate sources when no specialist workflow owns the whole problem.",
+      "triggers": [
+        "The user explicitly asks for a cross-domain decision framework or wants conflicting startup advice reconciled.",
+        "Calibrate a source, prediction, historical claim, or consequential decision that has no domain-specific workflow owner."
+      ],
+      "non_triggers": [
+        "Perform a routine low-stakes task with clear requirements.",
+        "Solve a specialist user, product, growth, hiring, runway, financing, or acquisition problem; inherit the global invariants inside that specialist instead."
+      ],
+      "themes": [
+        "assumption-testing-and-epistemics",
+        "compounding-and-power-law-returns",
+        "decision-quality-and-noise",
+        "evidence-latency-and-cadence",
+        "founder-character-and-ethical-conduct",
+        "historical-and-source-context",
+        "independent-and-contrarian-judgment",
+        "integrity-truth-and-calibration",
+        "measurement-and-evaluation",
+        "regulatory-and-legal-constraints",
+        "risk-and-error-management",
+        "stage-and-state-conditions",
+        "status-prestige-and-bias",
+        "strategic-optionality"
+      ],
+      "stage_conditions": [
+        "First identify company stage, survival state, product type, evidence latency, and reversibility.",
+        "Historical essays provide hypotheses, not timeless operating facts; revalidate changed market assumptions."
+      ],
+      "tensions": [
+        "Speed versus confidence.",
+        "Contrarian independence versus ignoring accumulated evidence."
+      ],
+      "candidate_eval_cases": [
+        "A founder wants one decision record reconciling conflicting user, runway, and control evidence before specialists execute the branches.",
+        "An advisor cites a historical funding or location claim as current fact and needs its mechanism separated from parameters that require verification."
+      ],
+      "essay_ids": [
+        "004",
+        "006",
+        "007",
+        "009",
+        "011",
+        "013",
+        "016",
+        "017",
+        "018",
+        "020",
+        "021",
+        "022",
+        "025",
+        "026",
+        "027",
+        "028",
+        "032",
+        "034",
+        "035",
+        "038",
+        "040",
+        "044",
+        "046",
+        "048",
+        "049",
+        "050",
+        "052",
+        "053",
+        "056",
+        "058",
+        "059",
+        "060",
+        "061",
+        "063",
+        "064",
+        "065",
+        "066",
+        "069",
+        "070",
+        "071",
+        "072",
+        "073",
+        "075",
+        "076",
+        "077",
+        "078",
+        "082",
+        "083",
+        "085",
+        "086",
+        "088",
+        "089",
+        "090",
+        "091",
+        "092",
+        "093",
+        "094",
+        "095",
+        "097",
+        "098",
+        "099",
+        "100",
+        "101",
+        "102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "108",
+        "111",
+        "112",
+        "118",
+        "120",
+        "122",
+        "123",
+        "124",
+        "126",
+        "129",
+        "131",
+        "134",
+        "136",
+        "138",
+        "140",
+        "141",
+        "142",
+        "144",
+        "145",
+        "147",
+        "148",
+        "149",
+        "156",
+        "157",
+        "158",
+        "161",
+        "162",
+        "163",
+        "165",
+        "166",
+        "167",
+        "168",
+        "171",
+        "172",
+        "174",
+        "176",
+        "177",
+        "178",
+        "180",
+        "181",
+        "182",
+        "185",
+        "187",
+        "188",
+        "189",
+        "191",
+        "193",
+        "194",
+        "195",
+        "196",
+        "197",
+        "198",
+        "199",
+        "200",
+        "201",
+        "204",
+        "205",
+        "207",
+        "210",
+        "211",
+        "213",
+        "216",
+        "218",
+        "219",
+        "220",
+        "223"
+      ]
+    },
+    {
+      "skill_name": "thinking-through-writing",
+      "purpose": "Use private drafting and a neutral-reader test to discover, complete, challenge, and revise an unsettled startup idea before persuasion begins.",
+      "triggers": [
+        "Think through an unsettled startup question by writing.",
+        "Create a private decision or strategy memo that should expose missing assumptions and broken ideas."
+      ],
+      "non_triggers": [
+        "Explain a settled decision to a real audience.",
+        "Draft PR, a public response, a pitch, or cosmetic copy."
+      ],
+      "themes": [
+        "writing-as-discovery-and-thinking"
+      ],
+      "stage_conditions": [
+        "Write a fast imperfect draft, make assumptions explicit, reread as a neutral stranger, and discard claims that cannot survive clarification.",
+        "Do not optimize for an actual audience until the idea is settled enough to hand off to communication."
+      ],
+      "tensions": [
+        "Generative speed versus exact revision.",
+        "A favored conclusion versus what survives the neutral-reader test."
+      ],
+      "candidate_eval_cases": [
+        "A founder has a vague strategy in their head and wants a memo that exposes its gaps.",
+        "A founder asks for a persuasive investor update even though the underlying explanation is still internally inconsistent."
+      ],
+      "essay_ids": [
+        "032",
+        "042",
+        "122",
+        "146",
+        "179",
+        "185",
+        "209",
+        "211",
+        "216",
+        "220"
+      ]
+    },
+    {
+      "skill_name": "communicating-clearly",
+      "purpose": "Turn settled, calibrated startup claims into clear reader-aware communication, disagreement, persuasion, narrative, and public response without deception.",
+      "triggers": [
+        "Explain a settled startup decision or claim to a specific audience.",
+        "Draft or revise an argument, update, pitch, disagreement, PR narrative, or public response."
+      ],
+      "non_triggers": [
+        "Discover what the writer believes about an unsettled question; use thinking through writing first.",
+        "Establish the domain facts or run an investor, sales, or product process."
+      ],
+      "themes": [
+        "communication-and-persuasion",
+        "disagreement-and-conflict",
+        "media-pr-and-narrative",
+        "public-visibility-and-reputation-defense",
+        "writing-clarity-and-revision"
+      ],
+      "stage_conditions": [
+        "The domain skill establishes facts and uncertainty before communication adapts them for the reader.",
+        "Public responses require a higher attention, truth, and reputation threshold than private drafts; verify every factual or current claim."
+      ],
+      "tensions": [
+        "Persuasion versus truthful calibration.",
+        "Conciseness versus necessary qualification."
+      ],
+      "candidate_eval_cases": [
+        "Turn a settled runway decision into a candid investor update without changing its uncertainty.",
+        "A startup must respond to public criticism without escalating or obscuring the truth."
+      ],
+      "essay_ids": [
+        "034",
+        "042",
+        "045",
+        "061",
+        "067",
+        "075",
+        "076",
+        "090",
+        "091",
+        "104",
+        "120",
+        "122",
+        "138",
+        "143",
+        "146",
+        "170",
+        "178",
+        "179",
+        "186",
+        "188",
+        "200",
+        "211",
+        "220"
+      ]
+    },
+    {
+      "skill_name": "navigating-acquisitions-and-exits",
+      "purpose": "Decide whether and when to engage acquirers, preserve exit optionality, and protect focus and leverage through an acquisition process.",
+      "triggers": [
+        "Evaluate an acquisition approach, offer, exit path, or corp-dev meeting.",
+        "Decide whether the company is actually ready to sell."
+      ],
+      "non_triggers": [
+        "Raise a normal venture financing round.",
+        "Analyze ordinary competitors with no transaction under consideration."
+      ],
+      "themes": [
+        "acquisition-and-exit"
+      ],
+      "stage_conditions": [
+        "Young promising companies face unusually high distraction and low leverage when they engage before wanting to sell.",
+        "Very strong or near-dead companies have different negotiating options from companies in the vulnerable middle."
+      ],
+      "tensions": [
+        "Optionality and information versus distraction and manipulation.",
+        "A certain exit versus continued independent upside."
+      ],
+      "candidate_eval_cases": [
+        "Corp dev requests a meeting with a fast-growing eight-month-old startup.",
+        "A near-dead startup receives a low acquisition offer."
+      ],
+      "essay_ids": [
+        "033",
+        "046",
+        "052",
+        "059",
+        "074",
+        "084",
+        "092",
+        "097",
+        "163"
+      ]
+    },
+    {
+      "skill_name": "evaluating-startups-and-founders",
+      "purpose": "Select startup and founder bets from early evidence, character, outlier potential, and portfolio logic without rewarding polish or ordinary outcomes.",
+      "triggers": [
+        "Evaluate, rank, or select founders, startups, accelerator applications, or investments.",
+        "Design seed selection criteria, check sizes, or a startup portfolio."
+      ],
+      "non_triggers": [
+        "Choose a cofounder for your own company.",
+        "Coach an already selected founder or design office hours."
+      ],
+      "themes": [
+        "founder-evaluation-and-potential",
+        "portfolio-investing"
+      ],
+      "stage_conditions": [
+        "At very early stages, evaluate rate of learning, resourcefulness, commitment, tested character, and direct evidence more than polish.",
+        "Optimize selection for rare extreme outcomes without excusing deception, exploitative conduct, or a durable character concern."
+      ],
+      "tensions": [
+        "Consistent selection criteria versus rare outlier potential.",
+        "Sparse early evidence versus premature confidence."
+      ],
+      "candidate_eval_cases": [
+        "An accelerator must compare polished applicants with resourceful but unconventional founders.",
+        "A resourceful founder has outlier potential but repeated evidence of ethically doubtful conduct."
+      ],
+      "essay_ids": [
+        "039",
+        "076",
+        "082",
+        "092",
+        "107",
+        "109",
+        "110",
+        "123",
+        "134",
+        "137",
+        "142",
+        "148",
+        "150",
+        "152",
+        "154",
+        "158",
+        "161",
+        "166",
+        "171",
+        "172",
+        "178",
+        "191",
+        "195",
+        "197",
+        "204",
+        "205",
+        "206",
+        "209",
+        "222"
+      ]
+    },
+    {
+      "skill_name": "advising-and-supporting-founders",
+      "purpose": "Diagnose an already supported founder's current bottleneck and design contextual advice, office hours, peers, cohorts, or resource allocation without replacing founder agency.",
+      "triggers": [
+        "Coach a founder or diagnose the highest-leverage intervention for an existing startup.",
+        "Design office hours, accelerator support, cohort learning, peer networks, or founder resource allocation."
+      ],
+      "non_triggers": [
+        "Choose which startup or founder to fund or admit.",
+        "Manage an employee performance system inside one company."
+      ],
+      "themes": [
+        "accelerators-and-advising",
+        "collaboration-and-peer-support"
+      ],
+      "stage_conditions": [
+        "Shard advice to people who know the company, identify the true top problem, and match review cadence to when evidence can arrive.",
+        "Allocate flexible support when trusted founders have better local knowledge; restrict it only for a stated expert or umbrella purpose, and create candor despite power asymmetry."
+      ],
+      "tensions": [
+        "Direct advice versus helping founders learn independently.",
+        "Consistent program structure versus company-specific bottlenecks."
+      ],
+      "candidate_eval_cases": [
+        "An advisor is giving the same weekly prescription to every portfolio company.",
+        "A hardware founder's experiment takes months but office hours demand weekly outcome changes."
+      ],
+      "essay_ids": [
+        "050",
+        "057",
+        "068",
+        "088",
+        "118",
+        "119",
+        "132",
+        "139",
+        "172",
+        "193",
+        "199",
+        "204",
+        "213",
+        "218"
+      ]
+    },
+    {
+      "skill_name": "governing-platforms-and-communities",
+      "purpose": "Govern interaction quality in a networked product or community through participant fit, norms, ranking, reputation, moderation, transparency, user welfare, and abuse controls.",
+      "triggers": [
+        "Diagnose norms, trust, ranking, reputation, moderation, transparency, addiction, quality, or abuse in a marketplace, social product, community, or user-generated platform.",
+        "Design interaction-quality or adversarial controls after participants can interact."
+      ],
+      "non_triggers": [
+        "A marketplace or community merely lacks initial users or liquidity; use acquisition and growth.",
+        "Manage internal employee culture."
+      ],
+      "themes": [
+        "abuse-and-moderation-controls",
+        "community-growth-and-fit",
+        "community-moderation-and-reputation"
+      ],
+      "stage_conditions": [
+        "Growth owns cold-start liquidity; compose governance early only when participant selection is deliberately shaping norms, trust, or safety.",
+        "Ranking, reputation, and moderation experiments need transparent, conservative rollout when errors can split, poison, exploit, or addict the community."
+      ],
+      "tensions": [
+        "Growth versus community character.",
+        "Open participation versus adversarial robustness and moderation."
+      ],
+      "candidate_eval_cases": [
+        "A marketplace has enough activity but opaque reputation scores and fraud are eroding trust.",
+        "A fast-growing forum is losing quality and becoming easier to game."
+      ],
+      "essay_ids": [
+        "025",
+        "054",
+        "087",
+        "106"
+      ]
+    }
+  ]
+}
