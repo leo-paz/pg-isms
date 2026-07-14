@@ -208,3 +208,12 @@ OK
 ```
 
 Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifest gate, and `git diff --check` also passed.
+
+### Checkpoint 1 published
+
+- Independent diff review: spec compliant; task quality approved; zero Critical, Important, or Minor findings remaining.
+- Fresh controller verification: `31` tests passed, Python compilation exited `0`, manifest validation reported `223` corpus files, `223` unique batch assignments, `12` batches, `0` gaps, and `0` overlaps, and `git diff --check` exited `0`.
+- Reviewed implementation head: `71292b1` (`fix: align skill metadata boundaries`).
+- Published branch: `origin/codex/pg-isms-library`.
+- Remaining work: complete all 12 audit batches, independent overlap/gap review, evidence-led taxonomy, sequential skill RED-GREEN-REFACTOR loops, final independent review, README, and final repository gate.
+- Blockers: none.
