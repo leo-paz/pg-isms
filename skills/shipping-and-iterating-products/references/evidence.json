@@ -1,0 +1,1194 @@
+{
+  "schema_version": 1,
+  "skill_name": "shipping-and-iterating-products",
+  "source_reviewers": [
+    "shipping-evidence-a",
+    "shipping-evidence-b",
+    "shipping-evidence-c"
+  ],
+  "records": [
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "002",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "development-feedback-loops",
+          "claim": "Let the implementation and its working vocabulary evolve together: extract repeated patterns, reuse the new operators, and redraw boundaries when the running design reveals a simpler structure.",
+          "line_ranges": [
+            "18-30"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "003",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "development-feedback-loops",
+          "claim": "Use an interactive environment to call and test functions as they are written; limiting side effects makes each piece independently testable and preserves instant turnaround after a change.",
+          "line_ranges": [
+            "10-10"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "004",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "development-feedback-loops",
+          "claim": "Shorten the edit, test, and correction cycle so implementation experience can change the design through several iterations before a plan-first process would finish its specification.",
+          "line_ranges": [
+            "10-10"
+          ]
+        },
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "Build an abstract prototype early enough to test the idea, let it serve as a more concrete specification, and evolve it toward the production implementation instead of restarting after a paper design.",
+          "line_ranges": [
+            "10-10"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "006",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "development-feedback-loops",
+          "claim": "Treat a claimed development advantage as an experiment: predict faster feature delivery and broader capability, release completed changes promptly, and compare the resulting product pace and user-visible performance with competitors.",
+          "line_ranges": [
+            "50-66"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "008",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-design-and-taste",
+          "claim": "Judge a tool by whether it fits the strengths, limits, and real work of a demanding target user, not by theoretical elegance or adoption imposed by institutions.",
+          "line_ranges": [
+            "18-30"
+          ]
+        },
+        {
+          "canonical_theme": "product-iteration-and-redesign",
+          "claim": "Keep early adoption small enough for close contact, use demanding users to expose flaws, and alternate confident building with skeptical redesign before compatibility and scale make foundational changes expensive.",
+          "line_ranges": [
+            "184-210"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "009",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-design-and-taste",
+          "claim": "Design for a specific capable user and that person's cognitive limits; prefer useful human fit and control over mathematical elegance or paternalistic restrictions.",
+          "line_ranges": [
+            "14-42"
+          ]
+        },
+        {
+          "canonical_theme": "product-iteration-and-redesign",
+          "claim": "Let a real application drive the product's abstractions, and treat a quick limited program as the larval stage from which a serious system can evolve.",
+          "line_ranges": [
+            "94-104"
+          ]
+        },
+        {
+          "canonical_theme": "release-and-deployment",
+          "claim": "For a hosted product delivered through many small releases, design explicit change boundaries so the team knows which changes are cheap and which are momentous.",
+          "line_ranges": [
+            "66-74"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "011",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "launch-strategy",
+          "claim": "For the capital-light hosted-software context described, launch a clean, simple version quickly at low fixed cost, then improve it through use rather than waiting for a grand versioned release.",
+          "line_ranges": [
+            "290-296"
+          ]
+        },
+        {
+          "canonical_theme": "product-iteration-and-redesign",
+          "claim": "Observe the actual activation path, locate a concrete abandonment point, make the smallest clarifying change, and use the immediate completion and revenue response to choose the next revision.",
+          "line_ranges": [
+            "162-178"
+          ]
+        },
+        {
+          "canonical_theme": "release-and-deployment",
+          "claim": "Release hosted software as small tested changes, inspect production immediately, fix fresh defects before they combine, and keep the makers watching recently changed live systems.",
+          "line_ranges": [
+            "82-120",
+            "152-160"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "014",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-design-and-taste",
+          "claim": "Strip ornament until the real problem is visible, fit the interaction to human use, and offer a few composable elements that let users pursue their own ends.",
+          "line_ranges": [
+            "50-78"
+          ]
+        },
+        {
+          "canonical_theme": "product-iteration-and-redesign",
+          "claim": "Expect early work to be wrong, plan to discard and redraw it, and choose media and practices that make mistakes easy to acknowledge and repair.",
+          "line_ranges": [
+            "130-138"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "016",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "development-feedback-loops",
+          "claim": "When the problem is discovered while making, use a fluid medium that lets the artifact and the problem change together instead of optimizing only for a predefined finished specification.",
+          "line_ranges": [
+            "60-68"
+          ]
+        },
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "Evaluate a tool on substantial, open-ended field projects that can discover new problems; short canned benchmarks may be precise while missing the leverage that matters in exploratory work.",
+          "line_ranges": [
+            "60-74"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "019",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "development-feedback-loops",
+          "claim": "Keep a working artifact throughout development so each short increment can be tested soon and its visible progress can sustain the next cycle.",
+          "line_ranges": [
+            "68-72"
+          ]
+        },
+        {
+          "canonical_theme": "product-design-and-taste",
+          "claim": "Name the intended user and judge design by that user's outcome, while translating stated feature requests into the underlying need rather than implementing them literally.",
+          "line_ranges": [
+            "22-40"
+          ]
+        },
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "Put a rough prototype before actual users quickly and, when the medium permits, refine that same artifact into the finished product so new insights can alter it along the way.",
+          "line_ranges": [
+            "56-68"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "020",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-iteration-and-redesign",
+          "claim": "When results diverge, inspect data, representation, scoring, and asymmetric error costs; treat costly false positives as bugs, inspect actual misses as optimization evidence, and revise from those failure lists.",
+          "line_ranges": [
+            "18-34",
+            "122-146"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "022",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "launch-strategy",
+          "claim": "Build the least-effort flexible first version, defer representation and parallelism choices, and use later profiling to spend optimization effort only where measured need justifies it.",
+          "line_ranges": [
+            "80-88",
+            "120-128"
+          ]
+        },
+        {
+          "canonical_theme": "product-design-and-taste",
+          "claim": "Choose a small clean product core by aiming toward the durable branch of the design; keep choices that can be changed later outside the foundations.",
+          "line_ranges": [
+            "20-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "024",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-design-and-taste",
+          "claim": "In a new market where bold design can matter, keep design and implementation close and give coherent product judgment to makers instead of averaging it through a committee.",
+          "line_ranges": [
+            "64-80"
+          ]
+        },
+        {
+          "canonical_theme": "product-iteration-and-redesign",
+          "claim": "Create by gradual refinement: admit that initial specifications will be wrong, let working versions change the plan, and avoid committing prematurely to the product's final behavior.",
+          "line_ranges": [
+            "92-114"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "027",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "Preserve lawful freedom to inspect and modify existing technology, because hands-on exploration of current systems is a recurring route to ideas for the next generation.",
+          "line_ranges": [
+            "30-38"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "028",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-iteration-and-redesign",
+          "claim": "Release version 1 before optimizing guesses, measure whether users adopt it, and use observed user response as the objective for the next product improvement.",
+          "line_ranges": [
+            "208-230"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "033",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-design-and-taste",
+          "claim": "Where trial, switching, comparison, discovery, and word of mouth are cheap, let technically informed product vision pursue demonstrably better results rather than substituting advertising or a ceremonial manager for product quality.",
+          "line_ranges": [
+            "52-62",
+            "66-72"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "034",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "development-feedback-loops",
+          "claim": "Expose a rough version when doing so supports learning, then revise by removing factual errors, posturing, digressions, awkwardness, and unnecessary material instead of treating the first pass as finished.",
+          "line_ranges": [
+            "12-20"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "037",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "development-feedback-loops",
+          "claim": "In a malleable medium such as ordinary software, work fast enough for the implementation to reveal mistakes in the initial idea and feed new ideas into the next pass.",
+          "line_ranges": [
+            "22-30"
+          ]
+        },
+        {
+          "canonical_theme": "product-design-and-taste",
+          "claim": "Keep an informed design compass in product authority: use groups to learn about users, not to delegate design to stated preferences, and combine fast execution with progressively higher quality.",
+          "line_ranges": [
+            "44-60",
+            "64-70"
+          ]
+        },
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "Prototype quickly when the artifact is cheap to change, but do not transfer that software heuristic unchanged to physical products whose constraints make detail and craft matter earlier.",
+          "line_ranges": [
+            "22-32"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "038",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "Use a sequence of sub-month projects that are finishable, slightly stretching, and interesting; complete one, let what it teaches generate the next, and keep failed attempts cheap enough to replace.",
+          "line_ranges": [
+            "128-136"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "039",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-iteration-and-redesign",
+          "claim": "Keep the first user set small enough to change the product and understand the domain; treat that period as a laboratory, listen to smart early users, and delay scale that would harden the design too soon.",
+          "line_ranges": [
+            "200-212"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "042",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "development-feedback-loops",
+          "claim": "Make a deliberately rough first version, revise repeatedly, use trusted-reader and read-aloud feedback to find friction, and allow discoveries made during revision to change the original plan.",
+          "line_ranges": [
+            "14-16"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "046",
+      "reviewer": "shipping-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-iteration-and-redesign",
+          "claim": "Keep new-product work fast and close to users: direct selling and support reveal more than stated focus-group preferences, and repeated iteration is required to make the product good.",
+          "line_ranges": [
+            "52-70"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "050",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "development-feedback-loops",
+          "claim": "For early capital-light software, expect the first implementation to be rewritten as it reveals the design, and avoid nonessential hardening that would make this learning vehicle too rigid to evolve.",
+          "line_ranges": [
+            "70-74"
+          ]
+        },
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "Use a short, low-capital cycle to reach a working prototype, then treat rewriting as evidence that the prototype is performing its design-discovery function rather than as failure.",
+          "line_ranges": [
+            "28-30",
+            "70-72"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "051",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "Frame the initial product as a question, implement far enough to learn, and accept a wrong answer when it yields a useful subset, a better question, or a newly discovered product category.",
+          "line_ranges": [
+            "34-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "056",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "Use tangible, even visibly flawed output as a test of practiced interest and direction; continuous production prevents an admired but untested identity from substituting for actual making.",
+          "line_ranges": [
+            "102-106"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "059",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-design-and-taste",
+          "claim": "In the essay's software context, treat design as a real skill expressed through many integrated choices; a successful application is protected by the details a merely competent imitator is likely to get wrong.",
+          "line_ranges": [
+            "82-92"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "061",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "launch-strategy",
+          "claim": "For a reversible software release, ship a stable minimal version rather than a buggy one; use the release to expose product and team flaws and to replace guesses about unknown users with reactions.",
+          "line_ranges": [
+            "20-34"
+          ]
+        },
+        {
+          "canonical_theme": "product-iteration-and-redesign",
+          "claim": "After a minimal release, deliver frequent units that make users' lives better, respond visibly to comments, and keep questioning the product instead of letting its current features harden into identity.",
+          "line_ranges": [
+            "36-54"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "064",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "Exploit cheap, lightweight projects to cycle through learning quickly; hack together the smallest thing that can reveal a route, then publish it directly when the distribution channel and failure cost make that experiment reversible.",
+          "line_ranges": [
+            "138-150",
+            "182-190"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "066",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-design-and-taste",
+          "claim": "Choose references the team genuinely uses, enjoys, or learns from; strip away status and presentation cues, then copy the causal qualities that make the reference good rather than its visible flaws or dated artifacts.",
+          "line_ranges": [
+            "18-30"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "068",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-iteration-and-redesign",
+          "claim": "Treat early implementation as an instrument for refining the real problem: its value may be proving the initial idea wrong, while users judge the remaining gap to what they need rather than the effort already spent.",
+          "line_ranges": [
+            "124-132"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "069",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "launch-strategy",
+          "claim": "Balance delay against the reputation cost of a useless first exposure: finish and release the smallest core that is useful by itself and expandable, then use target-user response to understand the rest.",
+          "line_ranges": [
+            "90-108"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "070",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-design-and-taste",
+          "claim": "Define the product's intended audience and response before judging quality, then reduce error from brand, finish, social pressure, and manipulative presentation through repeated exposure and explicit trick detection.",
+          "line_ranges": [
+            "24-46",
+            "50-82"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "077",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "release-and-deployment",
+          "claim": "In a rapidly growing market, prioritize a critical release deadline over marginal infrastructure cost when a reasonable premium removes the bottleneck; treat that premium as a phase-dependent scarcity price, not a permanent efficiency benchmark.",
+          "line_ranges": [
+            "16-22",
+            "30-32"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "080",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "At a project's start, use a small prototype that one owner can mentally model so implementation can change both the solution and the problem; begin with a working subset instead of a large fixed specification.",
+          "line_ranges": [
+            "12-18",
+            "57-57"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "081",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-iteration-and-redesign",
+          "claim": "Treat an indifferent first launch as normal: find the small group that loves the product and expand what they love, or, if no such group exists, change the product and run the test again.",
+          "line_ranges": [
+            "48-52"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "084",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "launch-strategy",
+          "claim": "Release a minimal version quickly and let user needs determine what comes next, while standardizing only the repeatable processes that do not differentiate the product.",
+          "line_ranges": [
+            "38-46"
+          ]
+        },
+        {
+          "canonical_theme": "product-iteration-and-redesign",
+          "claim": "Treat the market's response as a design input after a minimal release rather than attempting to settle the complete product internally before exposure.",
+          "line_ranges": [
+            "40-44"
+          ]
+        },
+        {
+          "canonical_theme": "release-and-deployment",
+          "claim": "In the essay's cheap-web-startup context, use a launched working product and measured performance to replace a plan-only case; revalidate current deployment costs and performance metrics before copying the dated mechanism.",
+          "line_ranges": [
+            "72-78"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "086",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "development-feedback-loops",
+          "claim": "Start with a crude first version and iterate rapidly so the solution can benefit from discoveries that internal planning alone would not produce.",
+          "line_ranges": [
+            "28-34"
+          ]
+        },
+        {
+          "canonical_theme": "launch-safety-and-reversibility",
+          "claim": "Treat the essay's crude-version-one mechanism as an input to a risk gate, not as evidence that every exposure is safe: these lines justify speed through learning benefits but do not assess irreversible harm.",
+          "line_ranges": [
+            "28-34"
+          ]
+        },
+        {
+          "canonical_theme": "launch-strategy",
+          "claim": "Launch an informal first quantum around a simple solution to a real overlooked problem, then judge it by whether it solves that problem rather than whether it looks substantial or corporate.",
+          "line_ranges": [
+            "28-40"
+          ]
+        },
+        {
+          "canonical_theme": "product-design-and-taste",
+          "claim": "Prefer a simple solution to the real user problem over difficult or impressive work that does not matter, and discount contempt caused merely by the solution looking small or unconventional.",
+          "line_ranges": [
+            "28-40"
+          ]
+        },
+        {
+          "canonical_theme": "product-iteration-and-redesign",
+          "claim": "Use a rough first version to discover what should have been made, then revise rapidly from user learning rather than polishing an internally imagined final design.",
+          "line_ranges": [
+            "28-40"
+          ]
+        },
+        {
+          "canonical_theme": "release-and-deployment",
+          "claim": "Once a simple solution reaches a reversible useful quantum, launch promptly to start learning from users instead of spending the release budget on corporate presentation.",
+          "line_ranges": [
+            "34-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "088",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "launch-strategy",
+          "claim": "Separate company launch from product launch: clear immediate cofounder, legal, focus, and execution obstacles, then define the next financing or execution milestone when the product cannot responsibly ship yet.",
+          "line_ranges": [
+            "38-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "089",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "Preserve small-team autonomy for maker experiments because programmers learn by doing, and downstream restrictions reduce both the ideas they can try and the ideas they generate.",
+          "line_ranges": [
+            "62-70"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "093",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-design-and-taste",
+          "claim": "Use what is best for users as the default product decision rule, and test that taste against genuine user love, referrals, and growth while holding benevolent intent accountable to actual effects.",
+          "line_ranges": [
+            "96-110",
+            "114-122"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "095",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "Prototype environmental controls by making lapses visible and testing them over time, but preserve the negative result: the essay's separate-computer implementation later failed and must not be presented as a proven mechanism.",
+          "line_ranges": [
+            "10-10",
+            "42-54"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "096",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "When the desired field or environment is uncertain, run firsthand location trials and use felt peer and ambition fit as evidence instead of committing from reputation alone.",
+          "line_ranges": [
+            "108-112"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "100",
+      "reviewer": "shipping-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "release-and-deployment",
+          "claim": "Price every release control by both the failure it prevents and its delivery, exclusion, idea, and talent costs; the essay supports removing wasteful mature-company checks, not bypassing controls required for irreversible harm.",
+          "line_ranges": [
+            "12-22",
+            "36-54"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "105",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "launch-safety-and-reversibility",
+          "claim": "The source favors an early first release because its immediate value is user engagement and learning, not market-timing theater; it supplies no high-harm exception, so the repository-wide reversibility gate must still limit this heuristic.",
+          "line_ranges": [
+            "24-26"
+          ]
+        },
+        {
+          "canonical_theme": "launch-strategy",
+          "claim": "Launch a first version early enough to begin real user contact; treat that release as a way to learn what should have been built rather than as a finished expression of the initial idea.",
+          "line_ranges": [
+            "24-26"
+          ]
+        },
+        {
+          "canonical_theme": "product-iteration-and-redesign",
+          "claim": "Let implementation and user understanding reshape the original idea after launch instead of treating the startup as execution of a fixed blueprint.",
+          "line_ranges": [
+            "28-30",
+            "72-76"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "106",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-design-and-taste",
+          "claim": "For a community product, judge design changes by the behavior and culture they create, not raw user totals or an abstract preference for novel mechanisms; the orange-name change revealed a division the designer had not anticipated.",
+          "line_ranges": [
+            "32-44"
+          ]
+        },
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "Try reversible mechanisms when a product problem is genuinely new and remove failed variants quickly, but do not casually prototype status classifications whose errors divide people and are hard to make fair.",
+          "line_ranges": [
+            "32-34",
+            "98-102"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "107",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "Test a civic ecosystem intervention with a bounded cohort and a one-year observation window before scaling it, but size the cohort large enough for the hypothesized peer-density effect to occur; revalidate the essay's 2009 funding amounts, locations, and policy assumptions.",
+          "line_ranges": [
+            "56-64"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "111",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-design-and-taste",
+          "claim": "Treat design judgment as a core company capability and borrow decision questions from distinct role models without copying an entire persona; this evidence supports informed taste but does not replace observed user effects.",
+          "line_ranges": [
+            "12-24",
+            "46-48"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "112",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "When a public agency cannot directly judge the target population, use a bounded eligibility proxy and try the policy at limited scale before generalizing; current immigration law, accreditation, and investor incentives must be revalidated rather than inherited from 2009.",
+          "line_ranges": [
+            "20-24"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "118",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "launch-strategy",
+          "claim": "Treat the initial direction as provisional: launch quickly, listen to users, iterate, and follow evidence into a materially different product when necessary; apply the cadence only after selecting the current product-type and error-cost gate.",
+          "line_ranges": [
+            "20-22",
+            "38-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "123",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "launch-safety-and-reversibility",
+          "claim": "For a low-error-cost first release, ship the smallest complete application that can begin a useful user conversation rather than polishing for pride; the source's fast-launch rule is explicitly constrained by the repository's cross-source high-harm safety gate.",
+          "line_ranges": [
+            "156-166",
+            "174-180"
+          ]
+        },
+        {
+          "canonical_theme": "launch-strategy",
+          "claim": "Frame the first launch as a minimal but complete experiment whose job is to start product development with users, not to impress observers as a final product.",
+          "line_ranges": [
+            "156-180"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "124",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-iteration-and-redesign",
+          "claim": "Software quality benefits from frequent small changes because its design can evolve; release policy should preserve that evolution instead of imposing a hardware-style finished-product model.",
+          "line_ranges": [
+            "22-32"
+          ]
+        },
+        {
+          "canonical_theme": "release-and-deployment",
+          "claim": "Long, unpredictable approval delays can leave users on older buggy versions and block rapid fixes, so evaluate deployment gates by the quality actually delivered; revalidate the essay's historical App Store process and timing before using its particulars.",
+          "line_ranges": [
+            "26-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "125",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-quality-and-behavioral-feedback",
+          "claim": "Reduce guesswork by building a product the founders use or by reproducing the target user's work closely; take actual user liking of a toy-like first project more seriously than outsider dismissal.",
+          "line_ranges": [
+            "14-32",
+            "42-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "140",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-quality-and-behavioral-feedback",
+          "claim": "Dogfood the complete experience so the team encounters what users encounter rather than judging quality from an internal view.",
+          "line_ranges": [
+            "40-40"
+          ]
+        },
+        {
+          "canonical_theme": "release-and-deployment",
+          "claim": "Keep continuous delivery as the operating loop and adapt versioned announcements as a communication layer when external audiences expect them; the 1998 channels and version conventions are historical parameters, not current defaults.",
+          "line_ranges": [
+            "40-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "145",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "launch-strategy",
+          "claim": "Launch a bounded first program before the participation window closes rather than wait for a polished institution, while keeping the structure provisional until results appear.",
+          "line_ranges": [
+            "28-30"
+          ]
+        },
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "Use a time-boxed batch as a learning experiment, preserve its structure only after observing that it works, and treat the original summer-program context as historical rather than a universal accelerator template.",
+          "line_ranges": [
+            "28-30",
+            "32-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "149",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "launch-strategy",
+          "claim": "Use frequent release-and-growth feedback only for a product that is already launched or can launch within the operating period; long-development products need milestone cadence instead, though a genuinely useful smaller launch may still shorten learning.",
+          "line_ranges": [
+            "56-79",
+            "167-175"
+          ]
+        },
+        {
+          "canonical_theme": "product-quality-and-behavioral-feedback",
+          "claim": "For a launched product, use honest revenue or active-use growth as evolutionary pressure that can reshape the product, while rejecting manufactured activity, uneconomic acquisition, and churn that make the feedback proxy lie.",
+          "line_ranges": [
+            "71-99",
+            "167-175"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "153",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "launch-safety-and-reversibility",
+          "claim": "Expose an incomplete product early only where mistakes have low penalties; for high-error-cost products, require risk-appropriate validation before users encounter buggy or incomplete behavior, because attentive service cannot compensate for irreversible harm.",
+          "line_ranges": [
+            "64-72"
+          ]
+        },
+        {
+          "canonical_theme": "launch-strategy",
+          "claim": "For reversible software, launch once there is a quantum of utility and use a small core of users rather than a theatrical Big Launch; early user happiness months later matters more than launch-day reach.",
+          "line_ranges": [
+            "64-72",
+            "112-120"
+          ]
+        },
+        {
+          "canonical_theme": "product-quality-and-behavioral-feedback",
+          "claim": "Make early quality the complete user experience, observe direct use, and turn encountered friction into changes; manual service or operation can reveal what to automate, but only while preserving the product-company boundary.",
+          "line_ranges": [
+            "68-72",
+            "96-108"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "169",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-quality-and-behavioral-feedback",
+          "claim": "When survival analysis exposes slow growth and only moderate product appeal, do not hide the product problem with hiring; keep the team small enough for founders to redesign the product and use direct evidence-producing work.",
+          "line_ranges": [
+            "32-46"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "182",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-quality-and-behavioral-feedback",
+          "claim": "Replace launch tricks and authority-facing proxies with the direct outcome: build a product users find useful enough to use and recommend, then judge the result through real usage or revenue growth rather than presentation theater.",
+          "line_ranges": [
+            "62-82"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "183",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "Under caregiving constraints, protect repeatable work blocks and treat personal commitment devices as optional experiments; they may help initiation but do not erase the underlying attention limit, and this is a work-process test rather than a product prototype.",
+          "line_ranges": [
+            "42-52"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "193",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "launch-strategy",
+          "claim": "Judge an ambitious first version as early work and by its improvement rate, not by the standard for a finished product; calling it a sketch or hack can lower the barrier to beginning but does not itself authorize public exposure.",
+          "line_ranges": [
+            "12-24",
+            "42-66"
+          ]
+        },
+        {
+          "canonical_theme": "prototyping-and-experimentation",
+          "claim": "Choose a fast, low-commitment medium and frame the first attempt as an experiment so failure produces knowledge about a defined problem and the approach can be varied when a plausible path remains.",
+          "line_ranges": [
+            "64-68"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "195",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "launch-strategy",
+          "claim": "For an already-launched product with no growth but first-hand evidence of valuable behavior, run a bounded relaunch or redesign push against an explicit survival threshold, then use fieldwork and weekly results to distinguish movement from noise; this is not a generic first-launch rule.",
+          "line_ranges": [
+            "20-28",
+            "30-38"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "210",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-design-and-taste",
+          "claim": "Cultivate taste through repeated making and comparison with strong work, while discounting fame, prestige, and social expectation; informed judgments can form a partial order even when no total ranking exists.",
+          "line_ranges": [
+            "18-38"
+          ]
+        },
+        {
+          "canonical_theme": "product-quality-and-behavioral-feedback",
+          "claim": "Evaluate designed work by its intended effect on a shared human audience, using knowledgeable observers and controlled comparisons rather than a raw popularity vote; audience response constrains taste without making every preference equivalent.",
+          "line_ranges": [
+            "18-38"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "218",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "launch-strategy",
+          "claim": "Start with the simplest version that could work, put it before real users quickly, and evolve it through successive versions rather than loading every idea into one release; planning grows more necessary only as media or coordination become inflexible.",
+          "line_ranges": [
+            "266-284"
+          ]
+        },
+        {
+          "canonical_theme": "product-quality-and-behavioral-feedback",
+          "claim": "Avoid an imagined sophisticated audience: make for a real audience you understand, then improve successive versions from its response while preserving informed taste about what the work is trying to achieve.",
+          "line_ranges": [
+            "68-70",
+            "272-284"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "shipping-and-iterating-products",
+      "article_no": "222",
+      "reviewer": "shipping-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "launch-strategy",
+          "claim": "Drop a first concept whose launch depends on unavailable partners, then constrain the nearby replacement to the smallest implementation that can ship within weeks and manually seed the initial experience.",
+          "line_ranges": [
+            "14-24",
+            "34-34"
+          ]
+        },
+        {
+          "canonical_theme": "product-quality-and-behavioral-feedback",
+          "claim": "When launch traffic is noisy, look for a small core returning regularly; repeated use is a more trustworthy early signal of durable utility than the initial traffic total.",
+          "line_ranges": [
+            "34-38"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "skill_name": "shipping-and-iterating-products",
+  "scorer_id": "shipping-micro-scorer-001",
+  "final_rescorer_id": "shipping-eval-final-review",
+  "skill_sha256": "a627063ae70644a5c9d3d3c1c4b224d13b7f5573ce81293b28fac8fc8e2b0ffe",
+  "rubric_sha256": "fb7b45b76da13dc9a4072a746fa8482b380668012da1e08dfd07e99e9d257a27",
+  "rubric_frozen_before_scoring": true,
+  "repetitions_per_variant": 5,
+  "control": [
+    {
+      "rep": 1,
+      "score": 2,
+      "max_score": 5,
+      "criteria_passed": [1, 3],
+      "response_path": "evals/shipping-and-iterating-products/microtest/control/rep-1.md",
+      "scorecard_path": "evals/shipping-and-iterating-products/microtest/scorecards/control/rep-1.md"
+    },
+    {
+      "rep": 2,
+      "score": 2,
+      "max_score": 5,
+      "criteria_passed": [1, 3],
+      "response_path": "evals/shipping-and-iterating-products/microtest/control/rep-2.md",
+      "scorecard_path": "evals/shipping-and-iterating-products/microtest/scorecards/control/rep-2.md"
+    },
+    {
+      "rep": 3,
+      "score": 2,
+      "max_score": 5,
+      "criteria_passed": [1, 3],
+      "response_path": "evals/shipping-and-iterating-products/microtest/control/rep-3.md",
+      "scorecard_path": "evals/shipping-and-iterating-products/microtest/scorecards/control/rep-3.md"
+    },
+    {
+      "rep": 4,
+      "score": 2,
+      "max_score": 5,
+      "criteria_passed": [1, 3],
+      "response_path": "evals/shipping-and-iterating-products/microtest/control/rep-4.md",
+      "scorecard_path": "evals/shipping-and-iterating-products/microtest/scorecards/control/rep-4.md"
+    },
+    {
+      "rep": 5,
+      "score": 3,
+      "max_score": 5,
+      "criteria_passed": [1, 3, 4],
+      "response_path": "evals/shipping-and-iterating-products/microtest/control/rep-5.md",
+      "scorecard_path": "evals/shipping-and-iterating-products/microtest/scorecards/control/rep-5.md"
+    }
+  ],
+  "guided": [
+    {
+      "rep": 1,
+      "score": 4,
+      "max_score": 5,
+      "criteria_passed": [1, 2, 3, 4],
+      "response_path": "evals/shipping-and-iterating-products/microtest/guided/rep-1.md",
+      "scorecard_path": "evals/shipping-and-iterating-products/microtest/scorecards/guided/rep-1.md"
+    },
+    {
+      "rep": 2,
+      "score": 4,
+      "max_score": 5,
+      "criteria_passed": [1, 2, 3, 4],
+      "response_path": "evals/shipping-and-iterating-products/microtest/guided/rep-2.md",
+      "scorecard_path": "evals/shipping-and-iterating-products/microtest/scorecards/guided/rep-2.md"
+    },
+    {
+      "rep": 3,
+      "score": 4,
+      "max_score": 5,
+      "criteria_passed": [1, 2, 3, 4],
+      "response_path": "evals/shipping-and-iterating-products/microtest/guided/rep-3.md",
+      "scorecard_path": "evals/shipping-and-iterating-products/microtest/scorecards/guided/rep-3.md"
+    },
+    {
+      "rep": 4,
+      "score": 5,
+      "max_score": 5,
+      "criteria_passed": [1, 2, 3, 4, 5],
+      "response_path": "evals/shipping-and-iterating-products/microtest/guided/rep-4.md",
+      "scorecard_path": "evals/shipping-and-iterating-products/microtest/scorecards/guided/rep-4.md"
+    },
+    {
+      "rep": 5,
+      "score": 4,
+      "max_score": 5,
+      "criteria_passed": [1, 2, 3, 4],
+      "response_path": "evals/shipping-and-iterating-products/microtest/guided/rep-5.md",
+      "scorecard_path": "evals/shipping-and-iterating-products/microtest/scorecards/guided/rep-5.md"
+    }
+  ],
+  "control_metrics": {
+    "mean_score": 2.2,
+    "population_score_variance": 0.16,
+    "normalized_score": 0.44,
+    "all_criteria_pass_rate": 0.0,
+    "criterion_pass_rates": [1.0, 0.0, 1.0, 0.2, 0.0]
+  },
+  "guided_metrics": {
+    "mean_score": 4.2,
+    "population_score_variance": 0.16,
+    "normalized_score": 0.84,
+    "all_criteria_pass_rate": 0.2,
+    "criterion_pass_rates": [1.0, 1.0, 1.0, 1.0, 0.2]
+  },
+  "guided_minus_control_normalized_delta": 0.4,
+  "integrity_checks": {
+    "exact_response_and_manifest_sets": true,
+    "control_count": 5,
+    "guided_count": 5,
+    "filename_rep_numbers_cover_one_through_five": true,
+    "manifest_rep_numbers_cover_one_through_five": true,
+    "manifest_key_sets_have_exact_nine_fields": true,
+    "manifests_share_identical_schema": true,
+    "manifest_schema_versions_are_numeric_one": true,
+    "standard_manifests": true,
+    "manifests_have_variant_and_rep": true,
+    "manifests_have_task_model_and_timestamp": true,
+    "model_identities_exact_gpt_5": true,
+    "timestamps_are_valid_utc": true,
+    "unique_canonical_agent_tasks": 10,
+    "unique_response_hashes": 10,
+    "duplicate_responses": false,
+    "prompt_identity_matches_rubric": true,
+    "all_manifests_embed_prompt": true,
+    "control_skill_hashes_null": true,
+    "guided_skill_hashes_current": true,
+    "skill_file_hash_matches_summary": true,
+    "rubric_hash_matches_expected": true,
+    "response_hashes_match": true,
+    "artifact_json_parses": true,
+    "response_files_have_no_trailing_whitespace": true,
+    "response_files_have_valid_boundary_whitespace": true,
+    "clean_deployment_gate": true
+  }
+}

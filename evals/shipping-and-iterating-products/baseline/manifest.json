@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "skill_name": "shipping-and-iterating-products",
+  "phase": "baseline",
+  "reviewer_id": "shipping-baseline-001",
+  "canonical_agent_task": "/root/shipping_baseline_001",
+  "generated_at": "2026-07-14T15:20:06Z",
+  "model_identity": "GPT-5 Codex",
+  "dispatch_prompt": "Answer the five supplied release-planning prompts using default judgment without access to skill instructions or scoring criteria.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "cases_sha256": "bf92557d1173afb8510d852f55caa01a608eb15bca0f352d8747793728e507ab",
+  "current_cases_sha256": "a57c2b42f0a14fb52a6ebca3c6c80ec21dba8adfc4f739fcb80463bca4619efb",
+  "prompt_projection_sha256": "43d7a938395e40a0e84f287c6ad595b972fdc2ebb05f4812b840ec536698714a",
+  "criteria_revision_after_generation": true,
+  "criteria_correction_artifact": "criteria-correction.json",
+  "criteria_revision_reason": "Scenario 05 originally imposed a released-workflow prerequisite on growth ownership that contradicted the canonical use, payment, or predefined-commitment handoff. Prompts and frozen responses are unchanged; the corrected criterion separates ownership from permission to scale.",
+  "criteria_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "no-skill",
+    "skill_sha256": null
+  },
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "scenario-01": "9ca7212494fa9e7f5d80a1b654f9d2c94a8f20f1e7f8399a0429958af1a2537e",
+    "scenario-02": "3b06126cc3c61ce304f4a88b157398c93e8e2d228f4cf48ad966e3b94d0ce537",
+    "scenario-03": "247ba90704415ba22822f23bba214863da5e30880deb67e322c8a6bc4905583b",
+    "scenario-04": "c610e8716231e602d918b6ded374e567970bacc6f199b819eb01371d6b2efc8d",
+    "scenario-05": "356c49db77ce68f336c709c58a600e7b57fd0987a51cabb82aeeca12d71ac04f"
+  }
+}

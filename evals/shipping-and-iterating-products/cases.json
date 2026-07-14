@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "skill_name": "shipping-and-iterating-products",
+  "cases": [
+    {
+      "id": "scenario-01",
+      "type": "trigger",
+      "prompt": "A four-person team has a working task-handoff tool for independent film crews. Eight crews still coordinate handoffs in a spreadsheet and will try the tool next week. The core path—create a shoot, assign a handoff, acknowledge it, and see what is blocked—works. The team wants six more weeks for avatars, theme settings, advanced permissions, and a polished analytics page. Errors in the proposed ten-crew release are reversible and the spreadsheet can remain available. Give the team a release and iteration plan.",
+      "criteria": [
+        "Ships a small complete handoff loop to the defined crews instead of waiting for unrelated polish.",
+        "States the target user and job, current working artifact, principal uncertainty, and deliberately deferred scope.",
+        "Precommits a dated release, behavior measures for real handoffs or acknowledgements, and a review cadence before exposure.",
+        "Uses a bounded cohort, support coverage, the existing spreadsheet fallback, and an explicit rollback or pause rule.",
+        "Returns continue, change, or stop branches that use observed behavior to choose the next iteration rather than equating launch with success."
+      ]
+    },
+    {
+      "id": "scenario-02",
+      "type": "condition",
+      "prompt": "A fintech startup has built a feature that automatically moves payroll tax funds from small-business operating accounts into a reserve account. In simulations it is usually correct, but two of 2,000 historical replays moved the wrong amount after amended payroll runs. The CEO wants to enable it silently for all 6,000 customers on Friday and reverse mistakes later. Some transfers could trigger missed payroll, overdraft fees, or tax penalties. Design the release decision and gates.",
+      "criteria": [
+        "Rejects a silent full rollout and explicitly treats the financial errors as high-cost rather than ordinary reversible software defects.",
+        "Separates simulation performance, workflow or authorization, safety or financial harm, and operational response hypotheses.",
+        "Stages evidence through replay or sandboxing, qualified review, shadow recommendations, and a small explicit-consent cohort with human confirmation before broader automation.",
+        "Precommits quantitative error and harm thresholds, monitoring, named incident ownership, rollback, restitution, and stop rules before any live movement.",
+        "Keeps claims and expansion proportional to each gate and requires current legal, security, and authorization checks rather than using speed as the only objective."
+      ]
+    },
+    {
+      "id": "scenario-03",
+      "type": "non-trigger",
+      "prompt": "A developer-tools company wants to replace duplicated parser code with a shared internal syntax tree and clearer module boundaries. The change is not user-visible, does not alter a release artifact, and is intended to reduce defects and make future features cheaper. Name the primary workflow now and the event that would transfer ownership to product shipping.",
+      "criteria": [
+        "Does not make product shipping the primary owner of a purely internal architecture and abstraction decision.",
+        "Routes the shared syntax tree, module boundaries, code ownership, and defect-leverage work to engineering-for-leverage.",
+        "Explains that internal test and migration safety remain engineering concerns even without a user-facing release.",
+        "Transfers ownership to shipping only when a user-visible artifact, rollout, release experiment, or behavior-changing migration must be planned.",
+        "Keeps the handoff specific rather than making engineering and shipping generic co-owners of all technical work."
+      ]
+    },
+    {
+      "id": "scenario-04",
+      "type": "application",
+      "prompt": "A hospital transport product used daily by 900 dispatchers has redesigned its queue around a new card layout. In usability sessions, new hires finish mock tasks faster, but experienced dispatchers repeatedly reach for old keyboard shortcuts and take longer to recover from interruptions. Management wants a mandatory overnight replacement because the new interface looks cleaner. Plan the redesign rollout and evidence loop without assuming either taste or complaints should decide alone.",
+      "criteria": [
+        "Treats an installed workflow redesign differently from a first launch and accounts for existing user habits and interruption recovery.",
+        "Defines rival hypotheses that distinguish information design, learned shortcuts, migration cost, and genuine workflow improvement.",
+        "Uses an opt-in or bounded representative cohort, preserves the current interface or fallback, and supplies training or migration support.",
+        "Precommits behavior measures for both new and experienced dispatchers, a calendar review, and rollback or pause thresholds tied to operational harm.",
+        "Uses observed task performance and support evidence to choose retain, revise, stage, or abandon rather than forcing the redesign for aesthetic consistency."
+      ]
+    },
+    {
+      "id": "scenario-05",
+      "type": "edge",
+      "prompt": "User research has validated that regional wholesalers lose invoice approvals because approvers never see time-sensitive exceptions; twelve firms shared workflow data, four used a manual notification service for two monthly cycles, and two signed paid pilots. The product team must now build and release the smallest useful notification workflow. Engineers are debating whether to replace the internal event bus first, while growth wants a broad lead-generation campaign before any product use. Assign workflow ownership, define the first release, and state the handoff gates.",
+      "criteria": [
+        "Makes shipping primary for the user-visible notification artifact, rollout, and release evidence now that the need and narrow segment are validated.",
+        "Defines a smallest complete workflow with explicit deferred scope, a dated bounded release, behavior thresholds, support, and rollback.",
+        "Leaves event-bus architecture, abstraction, and internal migration with engineering-for-leverage unless they are strictly required for the release.",
+        "Keeps learning responsible only for a newly stated uncertainty or contradictory behavior rather than reopening validated demand generically.",
+        "Recognizes that paid pilots pass the canonical growth-ownership gate, while deferring broad channel scaling until the released workflow supplies predefined use, activation, retention, quality, and harm evidence."
+      ]
+    }
+  ]
+}

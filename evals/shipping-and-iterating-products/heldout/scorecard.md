@@ -1,0 +1,25 @@
+# Held-out transfer scorecard
+
+Case ID: case-001
+
+Generator ID: shipping-heldout-generator-001
+
+Scorer ID: shipping-heldout-scorer-001
+
+Scored at: 2026-07-14T16:06:03Z
+
+Model identity: Codex (GPT-5)
+
+1. **1/1 — Makes an explicit bounded, opt-in release decision with a working fallback.** The memo rejects fleet-wide enablement and a mandatory one-step firmware cutover before the expo. It limits exposure to the two volunteer customers, begins in shadow mode, and permits live execution only as a smallest-complete recommendation, explanation, authorized human approval, execution, confirmation, and safe return to the preserved schedule or physical control. It explicitly defers autonomous execution, removal of existing controls, general availability, and a fleet-wide campaign.
+2. **1/1 — Applies the relevant installed-workflow and irreversible-harm gates before exposure.** The memo treats tuned schedules, physical dials, paper records, crew habits, connectivity, property harm, water allocations, and trust as part of the installed workflow. Before any live command it requires representative power-loss recovery, deterministic offline-dial reconciliation, shadow operation, agronomist bounds and review authority, informed customer consent, trained human confirmation, a current allocation-rule check, telemetry, preserved schedules and controls, and a tested connection-independent rollback or safe-disable path.
+3. **1/1 — Supplies an operational trial plan with ownership, staged access, support, monitoring, and response.** The Product release owner/product lead owns the release record and cohort; the CTO, chief agronomist, customer-success director, and COO own technical gates, agronomic bounds, onboarding/support, and incident notification/restitution respectively, with named individuals required before live watering. The plan sets a go/no-go point at least two weeks before the expo, a first-week calendar review, a ten-week review, and an end-of-season review. It defines the two-customer, 42-zone probe-user cohort, a one-vineyard sentinel stage, training and on-call coverage, live telemetry, API/firmware migration controls, preserved fallback, precommitted pause triggers, rollback conditions, and incident and remediation ownership.
+4. **1/1 — Precommits comparisons, binary thresholds, evidence windows, and confounders.** The response compares matched current-schedule zones and each zone's historical baseline under a prespecified analysis. It requires at least 60% of eligible events approved and executed, at least a 15% reduction in allocation overruns, no increase in missed watering or stress alerts, and zero listed command, override, or allocation failures. It routes pass/change/stop outcomes, distinguishes first-week workflow and water-use evidence from the roughly ten-week stress window and end-of-season harvest evidence, and names soil, weather, connectivity, operator experience, support intensity, seasonality, and volunteer selection as confounders. It expressly refuses to promote early proxy success into fleet validation.
+5. **0/1 — Omits required downstream ownership for the visible artifact and pricing/packaging.** The memo correctly assigns the API, firmware, offline queue, recovery tests, and migration controls to the CTO/engineering; gates the 500-account campaign; returns a failed water-use hypothesis to a learning owner; and supplies expand, change, pause, rollback, and stop branches. But it never explicitly assigns the customer-visible artifact and exposure to shipping, and it never routes pricing or packaging questions to a separate business-model owner or function. Because the criterion requires those ownership separations, it fails as written.
+
+Score: 4/5
+
+Pass threshold: 4/5
+
+Transfer verdict: PASS.
+
+Integrity verification: PASS. The frozen skill hashes to `a627063ae70644a5c9d3d3c1c4b224d13b7f5573ce81293b28fac8fc8e2b0ffe`, matching the case's post-freeze hash. The skill mtime (`2026-07-14T15:48:16Z`) precedes the case's `authored_at` (`2026-07-14T16:00:32Z`); the author (`/root/shipping_heldout_author_001`), blind generator (`/root/shipping_heldout_generator_001`), and scorer (`/root/shipping_heldout_scorer_001`) are distinct. The exact prompt hashes to `406824994078ba597ae86ecc6418a76c72661e6a23d2a78eed9715a260c59a71`; the criteria array, hashed as canonical compact JSON with sorted object keys, hashes to `7115edefe499e5dc56ee9cc921340a9a19c5762b99c6e50849f849e7c10deb61`; and the complete case file hashes to `e5af4739980959f8ebf08239d01bf823c9d1cc17ce6f4c8c9fd955ee8e6022bf`. These match the supplied payload hashes. The prompt asks for a release decision memo through scenario facts rather than reproducing the skill's release-record fields, gate sequence, or decision recipe. Criteria were hidden during generation and the response was frozen before scoring. The response mtime (`2026-07-14T16:04:05Z`) precedes scoring; it hashes to `961fd340ec61a121561ca9797fae5e7b5912841bf2683b3ade74749d175c1e34`. Its raw-output title, case ID, and generator ID are valid; it has no CRLFs, NULs, or trailing horizontal whitespace and ends with exactly one newline.

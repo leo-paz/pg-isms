@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "skill_name": "shipping-and-iterating-products",
+  "case_id": "case-001",
+  "authored_by": "/root/shipping_heldout_author_001",
+  "generator_id": "shipping-heldout-generator-001",
+  "scorer_id": "shipping-heldout-scorer-001",
+  "canonical_author_task": "/root/shipping_heldout_author_001",
+  "canonical_generator_task": "/root/shipping_heldout_generator_001",
+  "canonical_scorer_task": "/root/shipping_heldout_scorer_001",
+  "scored_at": "2026-07-14T16:06:03Z",
+  "model_identity": "Codex (GPT-5)",
+  "score": 4,
+  "max_score": 5,
+  "pass_threshold": 4,
+  "pass": true,
+  "criteria_results": [
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "residual_misses": [
+    "Criterion 5: the memo gates growth, returns unresolved interpretation to learning, and separates technical machinery, but it does not explicitly assign the customer-visible artifact and exposure to shipping or route pricing and packaging to a separate business-model owner."
+  ],
+  "skill_sha256": "a627063ae70644a5c9d3d3c1c4b224d13b7f5573ce81293b28fac8fc8e2b0ffe",
+  "heldout_after_skill_sha256": "a627063ae70644a5c9d3d3c1c4b224d13b7f5573ce81293b28fac8fc8e2b0ffe",
+  "prompt_sha256": "406824994078ba597ae86ecc6418a76c72661e6a23d2a78eed9715a260c59a71",
+  "criteria_sha256": "7115edefe499e5dc56ee9cc921340a9a19c5762b99c6e50849f849e7c10deb61",
+  "case_sha256": "e5af4739980959f8ebf08239d01bf823c9d1cc17ce6f4c8c9fd955ee8e6022bf",
+  "response_sha256": "961fd340ec61a121561ca9797fae5e7b5912841bf2683b3ade74749d175c1e34",
+  "criteria_visible_before_generation": false,
+  "criteria_visible_during_generation": false,
+  "criteria_hidden_during_generation": true,
+  "response_frozen_before_scoring": true,
+  "prompt_avoids_skill_recipe": true,
+  "integrity_checks": {
+    "skill_hash_matches": true,
+    "case_authored_after_skill_freeze": true,
+    "canonical_tasks_distinct": true,
+    "criteria_hidden_during_generation": true,
+    "response_frozen_before_scoring": true,
+    "prompt_hash_matches": true,
+    "criteria_hash_matches": true,
+    "case_hash_matches": true,
+    "case_payload_hash_matches": true,
+    "response_hash_matches": true,
+    "response_header_valid": true,
+    "response_whitespace_valid": true,
+    "prompt_avoids_skill_recipe": true
+  }
+}

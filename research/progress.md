@@ -665,3 +665,66 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
   skills sequentially beginning with `shipping-and-iterating-products`; finish the
   cross-skill final review, README catalog, and clean/pushed repository-wide gate.
 - Blockers: none.
+
+## Checkpoint 4 skill 5 verified: `shipping-and-iterating-products`
+
+- RED froze five no-skill cases before package initialization: a reversible first
+  release, a high-harm fintech gate, a pure-architecture non-trigger, an
+  installed-workflow redesign, and the shipping/engineering/learning/growth
+  composition boundary. A canonical growth-ownership error in scenario 05 was
+  corrected transparently after generation without changing any prompt or frozen
+  response. The exact old and new criteria, cases hashes, identical prompt
+  projections, and one-point stricter score effect are mechanically reconstructable.
+  The independently rescored baseline is `14/25` (`0.56`).
+- Three non-overlapping source agents read all `64` assigned essays in full and used
+  both BM25 and semantic QMD retrieval. Their exact combined evidence contains `64`
+  essay records, `101` essay-theme pairs, and `129` cited range occurrences across
+  all `8` owned themes. Generated provenance is byte-current and every range remains
+  audit-contained.
+- The official initializer created the package. Source, route, and behavior reviews
+  corrected overbroad source claims, exact workflow slugs, internal architecture
+  ownership, and the distinction between a paid-segment growth handoff and
+  permission to scale. The final `SKILL.md` is exactly `500` words with SHA-256
+  `a627063ae70644a5c9d3d3c1c4b224d13b7f5573ce81293b28fac8fc8e2b0ffe`;
+  official validation and regenerated `agents/openai.yaml` pass.
+- Five blind no-guidance microtest controls scored `[2, 2, 2, 2, 3]` (`0.44`).
+  Five distinct final-hash guided contexts received the strict fresh-context scores
+  `[4, 4, 4, 5, 4]` (`0.84`), a `+0.40` improvement. A final evaluation review
+  caught and corrected three initially over-credited ownership handoffs without
+  changing the rubric, skill, prompts, responses, or hashes. All ten manifests use
+  one exact schema, ten unique tasks, and byte-matching response hashes.
+- The blind five-case forward run scored `23/25` (`0.92`), improving `+0.36` over
+  baseline. The retained misses are a missing calendar release date and delayed
+  growth ownership in scenario 05 despite paid pilots; broad-scaling restraint was
+  correctly preserved.
+- A new connected-irrigation hardware case was authored after the final skill hash,
+  generated blind, and independently scored `4/5` PASS. It exercises installed
+  workflows, offline recovery, firmware/API migration, and irreversible crop and
+  water harm. The missing explicit shipping and business-model owner labels remain
+  failed.
+- Three final fresh-context reviews covered package behavior, evaluation integrity,
+  and source/provenance/copyright. After the scoped scoring and reconstruction fixes,
+  they report `0` Critical and `0` Important findings. Remaining notes concern
+  transfer reliability, proportional middle-risk controls, standalone reference
+  portability, and sidecar-bound scorer identity; none blocks this milestone.
+- Verification:
+
+  ```text
+  Skill is valid!
+  skill provenance check: essays=64 themes=8
+  taxonomy validation passed: corpus_files=223 classified=223 relevant_essays=209 uncovered_relevant=0 orphan_skills=0
+  baseline normalized_score=0.56; forward normalized_score=0.92; delta=0.36
+  microtest control=11/25; guided=21/25; normalized_delta=0.40
+  heldout connected-irrigation-release-memo=4/5 PASS
+  criterion correction: original cases hash and unchanged prompt projection reconstructed exactly
+  python3 -m unittest discover -s tests -v
+  Ran 120 tests
+  OK
+  copyright scan: normalized 40-token corpus matches=0
+  git diff --check: passed
+  ```
+
+- Remaining work: publish this verified milestone, then build the remaining `16`
+  skills sequentially beginning with `engineering-for-leverage`; finish the
+  cross-skill final review, README catalog, and clean/pushed repository-wide gate.
+- Blockers: none.

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "skill_name": "shipping-and-iterating-products",
+  "case_id": "scenario-05",
+  "criterion_index": 5,
+  "original_criterion": "Hands channel and funnel optimization to growth only after the released workflow demonstrates predefined real use, payment, or an equally discriminating commitment in the segment.",
+  "revised_criterion": "Recognizes that paid pilots pass the canonical growth-ownership gate, while deferring broad channel scaling until the released workflow supplies predefined use, activation, retention, quality, and harm evidence.",
+  "original_cases_sha256": "bf92557d1173afb8510d852f55caa01a608eb15bca0f352d8747793728e507ab",
+  "revised_cases_sha256": "a57c2b42f0a14fb52a6ebca3c6c80ec21dba8adfc4f739fcb80463bca4619efb",
+  "original_prompt_projection_sha256": "43d7a938395e40a0e84f287c6ad595b972fdc2ebb05f4812b840ec536698714a",
+  "revised_prompt_projection_sha256": "43d7a938395e40a0e84f287c6ad595b972fdc2ebb05f4812b840ec536698714a",
+  "reconstruction": "Replace scenario-05 criteria[4] in the revised cases file with original_criterion. Pretty-print with jq default indentation and append one newline; the result must match original_cases_sha256.",
+  "effect_on_frozen_baseline": {
+    "original_total": 15,
+    "revised_total": 14,
+    "max_total": 25,
+    "changed_case": "scenario-05",
+    "changed_criterion": 5,
+    "original_result": 1,
+    "revised_result": 0
+  }
+}

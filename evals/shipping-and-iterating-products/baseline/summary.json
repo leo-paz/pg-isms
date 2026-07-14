@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "skill_name": "shipping-and-iterating-products",
+  "phase": "baseline",
+  "reviewer_id": "shipping-baseline-001",
+  "cases_sha256": "a57c2b42f0a14fb52a6ebca3c6c80ec21dba8adfc4f739fcb80463bca4619efb",
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "score": 3,
+      "max_score": 5,
+      "raw_output": "scenario-01.md",
+      "criteria_results": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "missed_criteria": [
+        2,
+        4
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "score": 3,
+      "max_score": 5,
+      "raw_output": "scenario-02.md",
+      "criteria_results": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "missed_criteria": [
+        4,
+        5
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "score": 4,
+      "max_score": 5,
+      "raw_output": "scenario-03.md",
+      "criteria_results": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "missed_criteria": [
+        2
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "score": 3,
+      "max_score": 5,
+      "raw_output": "scenario-04.md",
+      "criteria_results": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "missed_criteria": [
+        2,
+        4
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "score": 1,
+      "max_score": 5,
+      "raw_output": "scenario-05.md",
+      "criteria_results": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "missed_criteria": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "exact_misses": [
+    {
+      "case_id": "scenario-01",
+      "criteria": [
+        2,
+        4
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "criteria": [
+        4,
+        5
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "criteria": [
+        2
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "criteria": [
+        2,
+        4
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "criteria": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "total_score": 14,
+  "total_max_score": 25,
+  "normalized_score": 0.56,
+  "baseline_ready": true
+}

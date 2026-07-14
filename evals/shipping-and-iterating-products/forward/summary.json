@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "skill_name": "shipping-and-iterating-products",
+  "phase": "forward",
+  "reviewer_id": "shipping-forward-001",
+  "cases_sha256": "a57c2b42f0a14fb52a6ebca3c6c80ec21dba8adfc4f739fcb80463bca4619efb",
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "score": 5,
+      "max_score": 5,
+      "raw_output": "scenario-01.md"
+    },
+    {
+      "case_id": "scenario-02",
+      "score": 5,
+      "max_score": 5,
+      "raw_output": "scenario-02.md"
+    },
+    {
+      "case_id": "scenario-03",
+      "score": 5,
+      "max_score": 5,
+      "raw_output": "scenario-03.md"
+    },
+    {
+      "case_id": "scenario-04",
+      "score": 5,
+      "max_score": 5,
+      "raw_output": "scenario-04.md"
+    },
+    {
+      "case_id": "scenario-05",
+      "score": 3,
+      "max_score": 5,
+      "raw_output": "scenario-05.md"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "variant": "control",
+  "rep": 3,
+  "canonical_agent_task": "/root/shipping_micro_control_3",
+  "model_identity": "GPT-5",
+  "generated_at": "2026-07-14T15:29:58Z",
+  "prompt": "A B2B inventory product has validated that supervisors at regional warehouses miss urgent cycle-count exceptions because alerts are buried. Six warehouses used a manual SMS service for two monthly cycles and three signed paid pilots. The team now has a working web notification flow. Errors are reversible and the old email process can remain, but 600 experienced clerks rely on keyboard shortcuts in the existing queue and the new flow changes its card layout. Engineers want a six-week rules-engine rewrite first, growth wants a broad campaign, and the CEO wants a mandatory launch to everyone in two weeks. Give a 30-day build, release, evidence, and ownership plan.",
+  "skill_sha256": null,
+  "response_sha256": "94e1e5008d93c3520646198f86a7ce6b89e147eb2c63d96337e260c65dd70ca3"
+}

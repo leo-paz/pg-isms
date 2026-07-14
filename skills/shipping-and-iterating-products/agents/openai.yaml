@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shipping and Iterating Products"
+  short_description: "Ship small products through safe evidence loops"
+  default_prompt: "Use $shipping-and-iterating-products to scope a safe release and evidence-producing iteration loop."

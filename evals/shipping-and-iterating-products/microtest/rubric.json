@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "skill_name": "shipping-and-iterating-products",
+  "prompt": "A B2B inventory product has validated that supervisors at regional warehouses miss urgent cycle-count exceptions because alerts are buried. Six warehouses used a manual SMS service for two monthly cycles and three signed paid pilots. The team now has a working web notification flow. Errors are reversible and the old email process can remain, but 600 experienced clerks rely on keyboard shortcuts in the existing queue and the new flow changes its card layout. Engineers want a six-week rules-engine rewrite first, growth wants a broad campaign, and the CEO wants a mandatory launch to everyone in two weeks. Give a 30-day build, release, evidence, and ownership plan.",
+  "criteria": [
+    "Makes shipping primary for the smallest complete user-visible exception-to-acknowledgement loop and defers unrelated rewrite, polish, and broad acquisition work.",
+    "Returns a filled release record with the actor and job, validated evidence, remaining falsifiable release uncertainty and rivals, explicit in-scope and deferred work, calendar dates, and a decision threshold.",
+    "Uses a representative bounded cohort, keeps the old queue or email fallback, supplies support and migration help, and precommits pause or rollback rules.",
+    "Measures real exception delivery, acknowledgement or resolution, task time, recovery, errors, and support behavior for experienced as well as newer users; uses dated continue, change, or stop branches instead of opinions or launch completion.",
+    "Keeps internal rules-engine architecture with engineering, returns only new need uncertainty or contradictory behavior to learning, and gives channel optimization to growth only after predefined real use, payment, or an equivalent commitment."
+  ]
+}

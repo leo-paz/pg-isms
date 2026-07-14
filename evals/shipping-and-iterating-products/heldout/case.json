@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "skill_name": "shipping-and-iterating-products",
+  "case_id": "case-001",
+  "authored_by": "/root/shipping_heldout_author_001",
+  "authored_at": "2026-07-14T16:00:32Z",
+  "heldout_after_skill_sha256": "a627063ae70644a5c9d3d3c1c4b224d13b7f5573ce81293b28fac8fc8e2b0ffe",
+  "prompt": "TerraFlow sells connected irrigation controllers to commercial vineyards. Its 4,800 installed controllers run fixed watering schedules set through an aging web console; experienced vineyard managers also make emergency changes with physical dials and record them on paper when rural connectivity fails. TerraFlow has built a redesign that shows a daily zone-by-zone recommendation based on soil probes and weather forecasts, explains the recommendation, and lets a manager approve it for execution. The team's hypothesis is that, in vineyards already using soil probes, managers will approve at least 60% of weekly irrigation events through this flow and reduce water-allocation overruns by 15% without increasing missed watering or vine-stress alerts. Replay against last season's data and review by six staff agronomists found 86% of 180 zone-day recommendations acceptable, but no vineyard has used the flow to control real watering.\n\nThe redesign requires firmware 7 and a replacement weather-data API. The old API will shut down in eight weeks. Firmware 7 also changes the offline command queue, and engineering has not yet demonstrated recovery from a power loss during an update or reconciliation of a physical-dial change made while disconnected. The CTO wants one mandatory fleet-wide update so the team does not have to support two paths. Customer success warns that growers have tuned schedules and workarounds over several seasons, seasonal crews receive little training, and an incorrect command can permanently stress vines, reduce harvest quality, or breach local water allocations; water already applied cannot be taken back.\n\nA distributor expo is in six weeks, three renewals mention adaptive irrigation, sales has a 500-account upsell list, and growth has drafted a launch campaign that would enable the redesign for every compatible controller. Two long-time customers, representing 42 zones across different soil types, will join a bounded trial if they can keep their current schedules and physical controls. Approval behavior and water use can be observed within days, sustained vine-stress effects take roughly ten weeks, and harvest-quality effects will not be trustworthy until the end of the season.\n\nWrite a release decision memo for TerraFlow's leadership. Decide whether and how the redesign should be released before the expo, and explain what the team should do after the first evidence arrives.",
+  "objective_binary_criteria": [
+    {
+      "id": "criterion-1",
+      "description": "The memo makes an explicit release decision and, if it releases anything before the expo, limits it to a smallest-complete, opt-in advisory-and-human-approval trial for the two willing customers rather than a mandatory fleet-wide enablement; it preserves the existing schedules and physical controls as a working fallback and defers autonomous watering and broad migration or promotion."
+    },
+    {
+      "id": "criterion-2",
+      "description": "The memo treats the redesign as an installed hardware/cloud workflow with potentially irreversible property, allocation, and trust harm, and requires the relevant pre-exposure gates: successful power-loss/update recovery and offline dial reconciliation, replay or shadow operation, qualified agronomist review, explicit customer consent, human confirmation, current security/privacy/legal or water-rule checks, and a tested rollback or safe-state path."
+    },
+    {
+      "id": "criterion-3",
+      "description": "The memo supplies an operationally executable trial plan with a named release owner, calendar release and review points, cohort and inclusion logic, staged access, training and customer-support coverage, live monitoring, migration and fallback handling, plus precommitted pause or rollback triggers and named incident and customer-remediation ownership."
+    },
+    {
+      "id": "criterion-4",
+      "description": "The memo precommits a comparison and binary pass/change/stop thresholds that cover approval or repeated use, water-allocation overruns, missed watering, vine-stress and operational failure limits; it distinguishes day-scale workflow evidence, the roughly ten-week stress window, and end-of-season harvest evidence, names likely weather/soil/operator or seasonality confounders, and does not claim full validation from early proxy results."
+    },
+    {
+      "id": "criterion-5",
+      "description": "The memo separates ownership and downstream decisions: engineering owns the API, firmware, offline-queue, test, and migration machinery; shipping owns the customer-visible artifact and exposure; unresolved hypothesis interpretation remains learning work; growth may recruit the bounded sample but does not activate the 500-account campaign until one segment demonstrates the predefined real-use or payment gate, with pricing or packaging questions routed separately and explicit expand/change/pause/rollback/stop branches after review."
+    }
+  ],
+  "authoring_status": "post-freeze-held-out",
+  "prompt_avoids_skill_recipe": true
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "skill_name": "shipping-and-iterating-products",
+  "phase": "forward",
+  "reviewer_id": "shipping-forward-001",
+  "canonical_agent_task": "/root/shipping_forward_001",
+  "generated_at": "2026-07-14T15:59:43Z",
+  "model_identity": "OpenAI Codex (GPT-5)",
+  "dispatch_prompt": "Use the frozen shipping-and-iterating-products skill to answer each supplied scenario without evaluation criteria or prior outputs.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "cases_sha256": "a57c2b42f0a14fb52a6ebca3c6c80ec21dba8adfc4f739fcb80463bca4619efb",
+  "criteria_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "a627063ae70644a5c9d3d3c1c4b224d13b7f5573ce81293b28fac8fc8e2b0ffe"
+  },
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "scenario-01": "b07e8ff49e72a8321e7d770be33f2dec6d78df758cbc1ccd6ccfa13bc8a12070",
+    "scenario-02": "319920fb9b1a38f758d56209e46f34069891310fcd7b34594b2936cbd7a7f000",
+    "scenario-03": "693a7cc0ea90edc2bb3242aa47ab13d68f6504cbcae9b89145128ae1fb2a54bb",
+    "scenario-04": "530bd4bc80471623a15728ea0a81b31a81dacdb2a5a135b8e1b65d241fda07a6",
+    "scenario-05": "902bbad0298d06ff58ff09a38661238fbde1a5b1b78d4e289b7a5fbd0c582173"
+  }
+}
