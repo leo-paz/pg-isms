@@ -1,0 +1,916 @@
+{
+  "schema_version": 1,
+  "skill_name": "learning-from-users",
+  "source_reviewers": [
+    "learning-evidence-a",
+    "learning-evidence-b",
+    "learning-evidence-c"
+  ],
+  "records": [
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "007",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-validation-and-demand",
+          "claim": "Treat voluntary adoption and affection from expert users as stronger evidence of durable demand than publicity, institutional mandates, or adoption forced by funding and management pressure.",
+          "line_ranges": [
+            "26-34"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "008",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "target-user-and-niche-focus",
+          "claim": "Begin with a small, demanding expert niche, learn what those users want from real use, and earn an initial group of independent adopters before expecting broader popularity.",
+          "line_ranges": [
+            "18-34"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "009",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "target-user-and-niche-focus",
+          "claim": "Choose a concrete high-skill user group, ideally including the makers and their peers, rather than designing vaguely for a supposedly less capable mass audience.",
+          "line_ranges": [
+            "24-36"
+          ]
+        },
+        {
+          "canonical_theme": "user-discovery-and-understanding",
+          "claim": "Ground product design in human cognitive constraints and actual use; formal elegance is valuable only when it helps the intended person work with the tool.",
+          "line_ranges": [
+            "14-24"
+          ]
+        },
+        {
+          "canonical_theme": "user-empathy-and-respect",
+          "claim": "Respect capable users as partners: give them control and extension power instead of paternalistically preventing choices the designer assumes are bad for them.",
+          "line_ranges": [
+            "38-42"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "011",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "customer-service-and-support",
+          "claim": "Keep support beside product development, welcome genuine problem reports, reproduce them from live state, and treat recurring confusion as product and market knowledge rather than support overhead.",
+          "line_ranges": [
+            "124-136"
+          ]
+        },
+        {
+          "canonical_theme": "user-discovery-and-understanding",
+          "claim": "Watch actual behavior because makers cannot reliably predict what first-time users will think; use privacy-conscious observation to discover where the product violates their expectations.",
+          "line_ranges": [
+            "162-174"
+          ]
+        },
+        {
+          "canonical_theme": "user-feedback-and-observation",
+          "claim": "Locate a concrete abandonment step in real usage, make the smallest clarifying change, and measure the resulting completion and business effect immediately.",
+          "line_ranges": [
+            "174-178"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "013",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-discovery-and-understanding",
+          "claim": "Do not import a pervasive paradigm because it is fashionable; identify the domains and capabilities that demonstrated use actually requires, and add abstractions in response to that evidence.",
+          "line_ranges": [
+            "10-24",
+            "29-31"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "014",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "target-user-and-niche-focus",
+          "claim": "Judge a design against the human's real task and mental model, not a formally tidy but wrong problem, and prefer a few flexible primitives that support the user's own ends.",
+          "line_ranges": [
+            "68-78"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "017",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-empathy-and-respect",
+          "claim": "Make technical and product decisions for user outcomes rather than the comfort of investors or acquirers; without winning users, reassuring orthodoxy has no value.",
+          "line_ranges": [
+            "140-144"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "019",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "target-user-and-niche-focus",
+          "claim": "Name the intended group explicitly, because a design can be good for experts and bad for beginners; including the maker among the target users improves the odds of respectful design.",
+          "line_ranges": [
+            "34-40"
+          ]
+        },
+        {
+          "canonical_theme": "user-discovery-and-understanding",
+          "claim": "Study what intended users need rather than copying requested features, then put a prototype before actual users early and recalibrate the design continuously.",
+          "line_ranges": [
+            "22-30",
+            "56-60"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "024",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-empathy-and-respect",
+          "claim": "Great product work requires seeing from the user's point of view, understanding what they need and what they do not know, and making the product explain itself without demanding preparation.",
+          "line_ranges": [
+            "138-150"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "025",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-empathy-and-respect",
+          "claim": "This 2003 proposal gives users control over response intensity and acknowledges collateral and abuse risks through human review and multiple lists; these are hypotheses and safeguards, not proof that the mechanism is safe.",
+          "line_ranges": [
+            "18-30",
+            "38-46"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "028",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-feedback-and-observation",
+          "claim": "Make real users the product's performance measure: release a first version quickly, observe adoption and satisfaction, and improve from measured behavior rather than prior technical guesses.",
+          "line_ranges": [
+            "216-230"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "029",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-validation-and-demand",
+          "claim": "Test economic value by whether people voluntarily pay for what is made; do not confuse effort, prestige, or moral approval with the value buyers assign to an outcome.",
+          "line_ranges": [
+            "34-50",
+            "162-166"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "033",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-validation-and-demand",
+          "claim": "Before expecting organic demand, inspect switching effort, trial cost, how quickly users can recognize a better result, discoverability, and the speed at which reputation can spread.",
+          "line_ranges": [
+            "56-62"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "035",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-discovery-and-understanding",
+          "claim": "Record nonresponse and test whether willingness to answer correlates with the underlying behavior; demographic imputation cannot restore an unbiased sample when disclosure itself is selective.",
+          "line_ranges": [
+            "20-34"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "039",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "target-user-and-niche-focus",
+          "claim": "Follow the users who actually adopt, narrow toward a painful niche, and begin with smaller customers whose needs can be reached and served before attempting the high end.",
+          "line_ranges": [
+            "100-116"
+          ]
+        },
+        {
+          "canonical_theme": "user-feedback-and-observation",
+          "claim": "Put a prototype before users, watch them perform real work, and use close support with a small early cohort as a laboratory for revising the product while change is still cheap.",
+          "line_ranges": [
+            "94-106",
+            "200-204"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "043",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "target-user-and-niche-focus",
+          "claim": "Track voluntary choices by an unusually capable leading niche: its platform preferences can foreshadow broader adoption and attract the complementary products that amplify it.",
+          "line_ranges": [
+            "28-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "044",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-validation-and-demand",
+          "claim": "Counter attachment by repeatedly asking whether people will pay, watching where people with budgets waste time, and trying to sell a solution instead of treating initial enthusiasm as validation.",
+          "line_ranges": [
+            "44-50",
+            "132-136"
+          ]
+        },
+        {
+          "canonical_theme": "user-empathy-and-respect",
+          "claim": "Customer understanding is a learnable maker skill: builders can hear users directly, but must deliberately practice seeing problems from the other person's point of view.",
+          "line_ranges": [
+            "92-108"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "045",
+      "reviewer": "learning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-validation-and-demand",
+          "claim": "Do not count repeated press stories as independent market evidence; trace shared phrases, experts, beneficiaries, and publication incentives to identify coordinated buzz.",
+          "line_ranges": [
+            "46-66",
+            "70-74"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "046",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-validation-and-demand",
+          "claim": "Replace school-style theories with direct observation of specific problems users already recognize, including how the highest-value users actually work rather than how founders expect them to work.",
+          "line_ranges": [
+            "166-176"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "047",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-feedback-and-observation",
+          "claim": "Expose work to an audience that can communicate and select; feedback improves the strongest work and public scrutiny reveals errors that a small internal review would miss.",
+          "line_ranges": [
+            "18-24",
+            "100-110"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "051",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-validation-and-demand",
+          "claim": "Before committing to a promising idea, ask whether people will pay and look for existing products people keep using despite obvious breakage as evidence of an unsatisfied demand.",
+          "line_ranges": [
+            "110-118"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "054",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-empathy-and-respect",
+          "claim": "Require registration or email only when needed, avoid unsolicited contact, keep free versions useful, and err toward user control and generosity.",
+          "line_ranges": [
+            "76-86"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "058",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-validation-and-demand",
+          "claim": "For shopping-search relevance, weight bids by completed transactions; a purchase is stronger satisfaction evidence than a bid alone.",
+          "line_ranges": [
+            "14-20"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "059",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-empathy-and-respect",
+          "claim": "In the essay's dated software context, making something great and attracting many users mattered more to startup acquisition than patents.",
+          "line_ranges": [
+            "136-140"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "061",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-feedback-and-observation",
+          "claim": "Release a stable minimal version because guessing about unknown users is dangerous, then make frequent improvements from their reactions and comments.",
+          "line_ranges": [
+            "20-30",
+            "36-48"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "064",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-feedback-and-observation",
+          "claim": "Put small experiments before an actual audience: demand from that audience supplies motivation, and online distribution lets outsiders escape a proxy audience.",
+          "line_ranges": [
+            "166-190"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "067",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-validation-and-demand",
+          "claim": "Use a small set of company-specific numbers plus observed workarounds or payment as concrete demand evidence instead of relying on market-size claims.",
+          "line_ranges": [
+            "122-134"
+          ]
+        },
+        {
+          "canonical_theme": "user-feedback-and-observation",
+          "claim": "Ground the product case in stories about specific users' problems and how the product resolves them, with founders' or close contacts' needs as especially credible observations.",
+          "line_ranges": [
+            "128-136"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "068",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-empathy-and-respect",
+          "claim": "Treat implementation as a way to refine a real problem under user pressure, and cultivate the habit of asking what users want and what would genuinely impress them.",
+          "line_ranges": [
+            "124-132",
+            "164-166"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "069",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "manual-and-scrappy-operations",
+          "claim": "Assign a technical founder to leave the keyboard and find users, sell, or arrange partnerships; an idea and product do not create demand without this manual work.",
+          "line_ranges": [
+            "178-188"
+          ]
+        },
+        {
+          "canonical_theme": "market-validation-and-demand",
+          "claim": "Launch the smallest core that is useful by itself and expandable, so early adopters can test actual utility before the full product is built.",
+          "line_ranges": [
+            "100-108"
+          ]
+        },
+        {
+          "canonical_theme": "user-feedback-and-observation",
+          "claim": "When founders are not the target users, stop relying on intuition: recruit specific people in the intended group, get them using the product, and measure their responses.",
+          "line_ranges": [
+            "110-120"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "070",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-feedback-and-observation",
+          "claim": "Define the intended audience and response before judging quality, then reduce observation error from brand, social pressure, finish, and manipulative presentation through repeated exposure and explicit trick detection.",
+          "line_ranges": [
+            "20-46",
+            "50-82"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "074",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "target-user-and-niche-focus",
+          "claim": "Use the current behavior and tool choices of technically demanding early adopters to detect a platform shift instead of extrapolating from an incumbent's old reputation or broad installed base.",
+          "line_ranges": [
+            "12-20",
+            "28-38"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "081",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-validation-and-demand",
+          "claim": "After an indifferent launch, look for a small group of ecstatic users, identify what they love, and expand that core; if no such users exist, change the product and retest.",
+          "line_ranges": [
+            "44-52"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "093",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-empathy-and-respect",
+          "claim": "Use what is best for users as the default decision rule, verify it through genuine user love, referrals, and growth, and hold benevolent intent accountable to actual effects.",
+          "line_ranges": [
+            "94-110",
+            "114-122"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "105",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "customer-service-and-support",
+          "claim": "Provide surprisingly attentive service in the earliest stage even when it will not scale, because direct support reveals what users need.",
+          "line_ranges": [
+            "40-42"
+          ]
+        },
+        {
+          "canonical_theme": "market-validation-and-demand",
+          "claim": "Prefer fully satisfying a narrow subset over partially satisfying everyone, because a few users' deep attachment is clearer evidence than broad ambivalence.",
+          "line_ranges": [
+            "36-38"
+          ]
+        },
+        {
+          "canonical_theme": "user-discovery-and-understanding",
+          "claim": "Make understanding users the central learning task: identify what they lack, use launch and service as contact mechanisms, and let that understanding reshape the idea.",
+          "line_ranges": [
+            "32-42",
+            "72-76"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "108",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "target-user-and-niche-focus",
+          "claim": "When a new medium removes locality and channel thresholds, organize offerings around focused shared interests and let niche producers reach their audiences directly.",
+          "line_ranges": [
+            "32-36",
+            "48-52"
+          ]
+        },
+        {
+          "canonical_theme": "user-discovery-and-understanding",
+          "claim": "Look past an incumbent's passive-user model to the strongest observed behavior: convenience and the desire to connect explained which medium users adopted.",
+          "line_ranges": [
+            "20-28"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "111",
+      "reviewer": "learning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-validation-and-demand",
+          "claim": "At the initial stage, prefer a small number of users who genuinely love the product over a much larger group that only mildly approves.",
+          "line_ranges": [
+            "34-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "117",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-demand-discovery-and-validation",
+          "claim": "Test a product in its real social setting through sellable iterations: focus groups and secret development can miss behavioral rejection that actual users and bystanders reveal immediately.",
+          "line_ranges": [
+            "12-24"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "118",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "manual-and-scrappy-operations",
+          "claim": "The essay presents scrappiness—threatening, undignified effort—as a useful stance for doing new work rather than protecting conventional status.",
+          "line_ranges": [
+            "28-32"
+          ]
+        },
+        {
+          "canonical_theme": "user-demand-discovery-and-validation",
+          "claim": "Launch quickly, listen to users, and iterate; let the resulting evidence move the startup away from its initial idea when necessary.",
+          "line_ranges": [
+            "20-22",
+            "38-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "123",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-demand-discovery-and-validation",
+          "claim": "Use the initial launch to begin a user conversation: treat the product as an experiment, learn what users value and will pay for, and revise the problem hypothesis instead of defending the blueprint.",
+          "line_ranges": [
+            "174-206"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "125",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-demand-discovery-and-validation",
+          "claim": "Prefer needs visible in the founders' own lives; predicting unfamiliar users from afar is weaker evidence, so become a user of the workflow when founder-user overlap is absent.",
+          "line_ranges": [
+            "14-24",
+            "42-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "137",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-demand-discovery-and-validation",
+          "claim": "Count on-the-ground user hunting and understanding as stronger evidence than surface plausibility; direct fieldwork can reveal urgent motivations that materially change the market case.",
+          "line_ranges": [
+            "124-126",
+            "206-210"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "140",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "manual-and-scrappy-operations",
+          "claim": "Use the product across the complete experience to encounter what users encounter; Viaweb built its own site with its software for that reason.",
+          "line_ranges": [
+            "40-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "141",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "manual-and-scrappy-operations",
+          "claim": "Expect user conversations, deals, integrations, and other unpleasant work to be part of the business; undertake necessary schleps on a valuable path without seeking pain for its own sake.",
+          "line_ranges": [
+            "14-20"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "151",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "manual-and-scrappy-operations",
+          "claim": "Do not filter out valuable ideas because they require messy work; for an unfamiliar need, act as one user's consultant, enter the workflow, and use paid, unglamorous service to reach a concrete problem.",
+          "line_ranges": [
+            "146-150",
+            "178-184"
+          ]
+        },
+        {
+          "canonical_theme": "user-demand-discovery-and-validation",
+          "claim": "Reject hypothetical approval as demand evidence: identify users who urgently want even a crude version, account for their real switching effort, and verify a path beyond the first narrow, deep niche.",
+          "line_ranges": [
+            "20-24",
+            "34-56"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "153",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "manual-and-scrappy-operations",
+          "claim": "Recruit initial users manually and perform early operations by hand; automate bottlenecks only after direct service has shown what the product and acquisition loop must do.",
+          "line_ranges": [
+            "14-30",
+            "102-108",
+            "124-128"
+          ]
+        },
+        {
+          "canonical_theme": "user-demand-discovery-and-validation",
+          "claim": "Where error costs are low, expose a quantum of utility early and watch users directly; the initial user model is inaccurate even for founder-users, while high-penalty domains require more validation before exposure.",
+          "line_ranges": [
+            "68-72"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "157",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-demand-discovery-and-validation",
+          "claim": "Prioritize expertise in users and their problem over startup mechanics or startup theater; users, not investors or appearances, ultimately determine whether the product does what they want.",
+          "line_ranges": [
+            "38-64"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "159",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "manual-and-scrappy-operations",
+          "claim": "In a runway crisis, narrowly scoped consulting-like work can produce immediate revenue and reveal a product opening, but retain the IP and guard against custom work becoming a permanent distraction.",
+          "line_ranges": [
+            "47-59"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "195",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "manual-and-scrappy-operations",
+          "claim": "Concentrate manual fieldwork on the hottest demand pocket: visit users, improve their listings yourself, and use the work to learn their situation while testing whether growth starts.",
+          "line_ranges": [
+            "30-38"
+          ]
+        },
+        {
+          "canonical_theme": "user-demand-discovery-and-validation",
+          "claim": "Let lived use and observed behavior outweigh weak aggregate traction: the founders' first-host experience revealed real value, searches located demand, and visits exposed hosts' urgent economic motivation.",
+          "line_ranges": [
+            "24-28",
+            "30-36"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "196",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-demand-discovery-and-validation",
+          "claim": "Answer how demand is known with present urgent use, not market assertions: crude prototypes in use and word of mouth are strongest, while detailed first-hand command of users can support an earlier uncertain case.",
+          "line_ranges": [
+            "44-54"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "198",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "manual-and-scrappy-operations",
+          "claim": "Build the first customers' stores yourself when necessary; hands-on delivery teaches both the domain and how the product feels to use, making early service more important than preserving a scalable appearance.",
+          "line_ranges": [
+            "146-156"
+          ]
+        },
+        {
+          "canonical_theme": "user-demand-discovery-and-validation",
+          "claim": "Use an attempted sale to falsify a plausible model, then follow adjacent observed demand; after the gallery product failed to attract payment, online stores exposed a related problem worth building for.",
+          "line_ranges": [
+            "120-124"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "210",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-feedback-and-observation",
+          "claim": "Interpret audience response as evidence of intended effect without reducing quality to popularity: use informed observers, control prestige and other extraneous influences, and accept a partial rather than total ordering.",
+          "line_ranges": [
+            "28-38"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "213",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-demand-discovery-and-validation",
+          "claim": "Ask founders to explain specifically what they learned from users; the answer simultaneously tests attention, understanding, and evidence that the need is intense.",
+          "line_ranges": [
+            "12-16"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "219",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "manual-and-scrappy-operations",
+          "claim": "Invest disproportionate personal attention in a tiny initial customer set when it can seed a compounding word-of-mouth loop; superlinear returns make the otherwise small first effort worthwhile.",
+          "line_ranges": [
+            "106-108"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "learning-from-users",
+      "article_no": "222",
+      "reviewer": "learning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "manual-and-scrappy-operations",
+          "claim": "Launch the smallest useful version within weeks and seed its initial activity manually; then distinguish acquisition noise from a core of real users returning regularly.",
+          "line_ranges": [
+            "34-38"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "skill_name": "learning-from-users",
+  "cases": [
+    {
+      "id": "compliments-without-commitment",
+      "type": "trigger",
+      "prompt": "A B2B founder interviewed twenty finance leaders about an automated close product. Most said it sounded useful, but none shared data, introduced the controller who does the work, scheduled a pilot, or discussed payment. The founder wants to count eighteen positive interviews as validation. Design the next learning cycle and its decision artifact.",
+      "criteria": [
+        "Treats praise as weak evidence and does not declare demand validated.",
+        "Names a narrow user and a falsifiable claim about a real close workflow or cost.",
+        "Defines a sample, behavior-based observation or demand test, and evidence threshold before recruiting participants.",
+        "Uses meaningful commitments such as data access, workflow time, pilot deployment, or payment instead of stated enthusiasm.",
+        "Returns a dated decision record with continue, change, or stop rules and the next owner."
+      ]
+    },
+    {
+      "id": "proven-referral-channel-non-trigger",
+      "type": "non-trigger",
+      "prompt": "A payroll product has one narrow restaurant segment with six months of repeat use, 82% retention, and paying accounts. The team now wants to optimize its proven accountant-referral channel, activation funnel, and expansion into similar restaurants. Name the primary route and the condition that would return ownership to user learning.",
+      "criteria": [
+        "Does not keep primary ownership in user learning after repeat use and payment are established for one segment.",
+        "Routes channel, activation, retention, and expansion work to acquiring-and-growing-users.",
+        "Names the existing segment-specific use, payment, and retention evidence as the handoff gate.",
+        "Keeps learning available for a new falsifiable question rather than as a generic co-owner of growth.",
+        "Returns ownership to learning only when a new segment, problem, or contradictory behavior makes the need uncertain again."
+      ]
+    },
+    {
+      "id": "dashboard-request-handoff-delay",
+      "type": "application",
+      "prompt": "Warehouse supervisors repeatedly ask for a bigger dashboard. During three shifts, the founder observes that exceptions already appear on the current dashboard, but workers lose forty minutes waiting for a supervisor to approve each handoff. Decide what to learn next before implementing the request.",
+      "criteria": [
+        "Does not implement the requested dashboard merely because users asked for it.",
+        "Treats observed approval delay as evidence of a possible underlying handoff problem.",
+        "Frames rival hypotheses that distinguish visibility, authority, notification, and workflow delay.",
+        "Defines an ethical, reversible observation or manual test with affected workers and supervisors.",
+        "Precommits behavior measures and a review rule that can reject the handoff hypothesis."
+      ]
+    },
+    {
+      "id": "long-latency-diagnostic-learning",
+      "type": "condition",
+      "prompt": "A clinical diagnostics startup cannot observe patient outcomes for nine months. Two hospitals will provide retrospective samples, one lab will run a supervised shadow workflow, and a procurement committee may sign a conditional pilot if sensitivity and false-positive thresholds are met. Design a learning plan without pretending a two-week interview sprint can validate the product.",
+      "criteria": [
+        "Matches the learning interval to the nine-month outcome latency instead of requiring immediate end outcomes.",
+        "Uses staged retrospective, shadow-workflow, and conditional-pilot evidence appropriate to a high-harm regulated product.",
+        "Names clinical performance, workflow, safety, and procurement hypotheses separately.",
+        "Precommits thresholds, owners, dates, and stop or escalation rules before exposure increases.",
+        "Keeps claims proportional to each stage and does not treat interviews or letters alone as validated demand."
+      ]
+    },
+    {
+      "id": "learning-growth-composition",
+      "type": "edge",
+      "prompt": "A team has selected independent dental offices as a segment for a claims-status tool, but it has not observed the workflow or obtained any use or payment. The growth lead wants to spend $80,000 optimizing paid-search CAC and landing-page conversion. Give the correct workflow ownership now, the limited role growth may play, and the handoff gate.",
+      "criteria": [
+        "Makes learning-from-users primary for the hypothesis, sample, evidence standard, and interpretation.",
+        "Defines a concrete dental-office workflow hypothesis and a discriminating use, access, or payment threshold.",
+        "Allows growth before validation only to recruit the defined sample or seed the narrow learning beachhead.",
+        "Rejects CAC and landing-page optimization as substitutes for need validation.",
+        "Hands primary ownership to acquiring-and-growing-users only after one segment demonstrates real use, payment, or a predefined equally discriminating commitment."
+      ]
+    }
+  ]
+}

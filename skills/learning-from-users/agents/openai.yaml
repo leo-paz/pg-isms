@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning from Users"
+  short_description: "Validate demand through observed user behavior"
+  default_prompt: "Use $learning-from-users to define the user-learning hypothesis, evidence, and handoff gate."

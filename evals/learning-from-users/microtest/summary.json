@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "skill_name": "learning-from-users",
+  "scorer_id": "learning-micro-scorer-002",
+  "skill_sha256": "19dba2988470b9b2ac69025531765359a5d36838b2bb0d000db131dbe853bee9",
+  "rubric_sha256": "53c707a44e892385112ddc4f61f0f7ef9821708f51b588ce724dc86033799f34",
+  "rubric_frozen_before_scoring": true,
+  "repetitions_per_variant": 5,
+  "control": [
+    {
+      "rep": 1,
+      "score": 0,
+      "max_score": 5,
+      "criteria_passed": [],
+      "response_path": "evals/learning-from-users/microtest/control/rep-1.md",
+      "scorecard_path": "evals/learning-from-users/microtest/scorecards/control/rep-1.md"
+    },
+    {
+      "rep": 2,
+      "score": 1,
+      "max_score": 5,
+      "criteria_passed": [3],
+      "response_path": "evals/learning-from-users/microtest/control/rep-2.md",
+      "scorecard_path": "evals/learning-from-users/microtest/scorecards/control/rep-2.md"
+    },
+    {
+      "rep": 3,
+      "score": 2,
+      "max_score": 5,
+      "criteria_passed": [1, 3],
+      "response_path": "evals/learning-from-users/microtest/control/rep-3.md",
+      "scorecard_path": "evals/learning-from-users/microtest/scorecards/control/rep-3.md"
+    },
+    {
+      "rep": 4,
+      "score": 2,
+      "max_score": 5,
+      "criteria_passed": [1, 3],
+      "response_path": "evals/learning-from-users/microtest/control/rep-4.md",
+      "scorecard_path": "evals/learning-from-users/microtest/scorecards/control/rep-4.md"
+    },
+    {
+      "rep": 5,
+      "score": 1,
+      "max_score": 5,
+      "criteria_passed": [4],
+      "response_path": "evals/learning-from-users/microtest/control/rep-5.md",
+      "scorecard_path": "evals/learning-from-users/microtest/scorecards/control/rep-5.md"
+    }
+  ],
+  "guided": [
+    {
+      "rep": 1,
+      "score": 5,
+      "max_score": 5,
+      "criteria_passed": [1, 2, 3, 4, 5],
+      "response_path": "evals/learning-from-users/microtest/guided/rep-1.md",
+      "scorecard_path": "evals/learning-from-users/microtest/scorecards/guided/rep-1.md"
+    },
+    {
+      "rep": 2,
+      "score": 5,
+      "max_score": 5,
+      "criteria_passed": [1, 2, 3, 4, 5],
+      "response_path": "evals/learning-from-users/microtest/guided/rep-2.md",
+      "scorecard_path": "evals/learning-from-users/microtest/scorecards/guided/rep-2.md"
+    },
+    {
+      "rep": 3,
+      "score": 5,
+      "max_score": 5,
+      "criteria_passed": [1, 2, 3, 4, 5],
+      "response_path": "evals/learning-from-users/microtest/guided/rep-3.md",
+      "scorecard_path": "evals/learning-from-users/microtest/scorecards/guided/rep-3.md"
+    },
+    {
+      "rep": 4,
+      "score": 5,
+      "max_score": 5,
+      "criteria_passed": [1, 2, 3, 4, 5],
+      "response_path": "evals/learning-from-users/microtest/guided/rep-4.md",
+      "scorecard_path": "evals/learning-from-users/microtest/scorecards/guided/rep-4.md"
+    },
+    {
+      "rep": 5,
+      "score": 5,
+      "max_score": 5,
+      "criteria_passed": [1, 2, 3, 4, 5],
+      "response_path": "evals/learning-from-users/microtest/guided/rep-5.md",
+      "scorecard_path": "evals/learning-from-users/microtest/scorecards/guided/rep-5.md"
+    }
+  ],
+  "control_metrics": {
+    "mean_score": 1.2,
+    "population_score_variance": 0.56,
+    "normalized_score": 0.24,
+    "all_criteria_pass_rate": 0.0,
+    "criterion_pass_rates": [0.4, 0.0, 0.6, 0.2, 0.0]
+  },
+  "guided_metrics": {
+    "mean_score": 5.0,
+    "population_score_variance": 0.0,
+    "normalized_score": 1.0,
+    "all_criteria_pass_rate": 1.0,
+    "criterion_pass_rates": [1.0, 1.0, 1.0, 1.0, 1.0]
+  },
+  "guided_minus_control_normalized_delta": 0.76,
+  "integrity_checks": {
+    "exact_response_and_manifest_sets": true,
+    "control_count": 5,
+    "guided_count": 5,
+    "filename_rep_numbers_cover_one_through_five": true,
+    "standard_manifests": true,
+    "manifest_rep_numbers_cover_one_through_five": true,
+    "manifests_have_variant_and_rep": true,
+    "manifests_have_task_model_and_timestamp": true,
+    "unique_canonical_agent_tasks": 10,
+    "unique_response_hashes": 10,
+    "duplicate_responses": false,
+    "prompt_identity_matches_rubric": true,
+    "all_manifests_embed_prompt": true,
+    "control_skill_hashes_null": true,
+    "guided_skill_hashes_current": true,
+    "skill_file_hash_matches_summary": true,
+    "response_hashes_match": true,
+    "artifact_json_parses": true,
+    "response_files_have_no_trailing_whitespace": true,
+    "response_files_have_valid_boundary_whitespace": true,
+    "clean_deployment_gate": true
+  }
+}

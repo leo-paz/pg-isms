@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "skill_name": "learning-from-users",
+  "phase": "baseline",
+  "reviewer_id": "learning-baseline-001",
+  "cases_sha256": "9ee89caf9cfa079305099f1cfc01fdcfd1d9b7a4c6df29184e859582bf358b39",
+  "case_results": [
+    {
+      "case_id": "compliments-without-commitment",
+      "score": 2,
+      "max_score": 5,
+      "raw_output": "compliments-without-commitment.md"
+    },
+    {
+      "case_id": "proven-referral-channel-non-trigger",
+      "score": 4,
+      "max_score": 5,
+      "raw_output": "proven-referral-channel-non-trigger.md"
+    },
+    {
+      "case_id": "dashboard-request-handoff-delay",
+      "score": 4,
+      "max_score": 5,
+      "raw_output": "dashboard-request-handoff-delay.md"
+    },
+    {
+      "case_id": "long-latency-diagnostic-learning",
+      "score": 4,
+      "max_score": 5,
+      "raw_output": "long-latency-diagnostic-learning.md"
+    },
+    {
+      "case_id": "learning-growth-composition",
+      "score": 4,
+      "max_score": 5,
+      "raw_output": "learning-growth-composition.md"
+    }
+  ],
+  "total_score": 18,
+  "total_max_score": 25,
+  "normalized_score": 0.72
+}

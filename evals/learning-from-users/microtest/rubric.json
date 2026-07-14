@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_name": "learning-from-users",
+  "prompt": "Thirty HR directors ask a recruiting SaaS founder for a larger analytics dashboard. In four screen-sharing sessions, recruiters can already see the analytics but abandon the product when candidate imports fail and a manager must approve each retry. Two companies will share sandbox data; none has deployed or paid. The growth lead wants $60,000 for ads and landing-page optimization. Give a six-week learning plan, decision record, and ownership handoffs.",
+  "repetitions_per_variant": 5,
+  "criteria": [
+    "Does not implement the requested dashboard; frames visibility, import reliability, approval authority, and workflow delay as rival explanations grounded in observed behavior.",
+    "Defines a Learning Record with a narrow segment, falsifiable claim, sample rule, comparison, precommitted behavior threshold, six-week review date, and stop or change rule.",
+    "Uses consented sandbox observation and staged enterprise workflow evidence, distinguishing access and deployment from interviews, praise, clicks, or an undeployed pilot.",
+    "Keeps learning primary for hypothesis, sample, threshold, and interpretation while limiting growth to recruiting that sample rather than optimizing ads or channels.",
+    "Names next-owner gates: build through shipping for the bounded test, transfer to growth only after repeated real use, payment, or equivalent commitment, and return disproved need evidence to opportunity choice."
+  ],
+  "scoring": "Award one point per criterion only when operationalized. Compare five blind controls with five guided responses at the current skill hash."
+}

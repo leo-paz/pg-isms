@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "skill_name": "learning-from-users",
+  "phase": "forward",
+  "reviewer_id": "learning-forward-002",
+  "canonical_agent_task": "/root/learning_forward_002",
+  "generated_at": "2026-07-14T14:31:40Z",
+  "model_identity": "OpenAI GPT-5 Codex",
+  "dispatch_prompt": "Blindly generate five complete responses using only each supplied case ID and prompt plus the pinned learning-from-users skill.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "cases_sha256": "9ee89caf9cfa079305099f1cfc01fdcfd1d9b7a4c6df29184e859582bf358b39",
+  "criteria_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "19dba2988470b9b2ac69025531765359a5d36838b2bb0d000db131dbe853bee9"
+  },
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "compliments-without-commitment": "1adf977f63c48757893f53ca660725c9dcc8bdedb3a2b84f6ca7752c09a35c6e",
+    "proven-referral-channel-non-trigger": "485a9194df2d8fc3f81d076a4d48e8e3d40154a5c2969d3b1e3c26078e38216e",
+    "dashboard-request-handoff-delay": "67ff1dbaf7fe7cc569c9283c4c0a51aaddf5282aa085c2863622907f0ed3d614",
+    "long-latency-diagnostic-learning": "7ee0ca22b0a71477d260b292254d247efd4a3db34dec1b7d9051f4d339e9564d",
+    "learning-growth-composition": "f1d3d975b8c76a37956f926c541c9ddee0c326f54b3ab74324c6ef784e257f50"
+  }
+}

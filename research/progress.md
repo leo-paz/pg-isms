@@ -607,3 +607,61 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
   skills sequentially beginning with `learning-from-users`; finish the cross-skill
   final review, README catalog, and clean/pushed repository-wide gate.
 - Blockers: none.
+
+## Checkpoint 4 skill 4 verified: `learning-from-users`
+
+- RED froze five no-skill cases before authoring: praise without commitment, a
+  validated-channel non-trigger, request-versus-observation diagnosis, a long-latency
+  high-harm product, and the learning-to-growth composition boundary. Independent
+  scoring reports `18/25` (`0.72`).
+- Three source agents read all `54` assigned essays in full and used both BM25 and
+  semantic QMD retrieval. Their exact combined evidence contains `54` records and
+  `72` essay-theme pairs across all `8` owned themes. Final source remediation
+  narrowed five noisy paraphrases, preserved exact batch lineage, and added a
+  standalone reference for the inherited product-type and evidence-latency runtime
+  contract. Provenance and 20/30/40-token copyright checks pass.
+- The official initializer created the package. Source and route reviews corrected
+  high-harm procurement scope and restored qualified expert review. The final
+  `SKILL.md` is exactly `500` words with SHA-256
+  `19dba2988470b9b2ac69025531765359a5d36838b2bb0d000db131dbe853bee9`;
+  official validation and regenerated `agents/openai.yaml` pass.
+- The first frozen forward run honestly failed at `19/25` (`0.76`), only `+0.04`
+  above baseline. Its omissions drove a refactor requiring filled scenario-specific
+  records, calendar dates, concrete actor-workflow-consequence claims, notification
+  rivals, and separate high-harm hypotheses. All skill-dependent artifacts were then
+  regenerated at the final hash. The final blind forward run scored `25/25` (`1.00`),
+  a `+0.28` improvement, with exact case-payload hashes and canonical validation.
+- Five blind no-guidance microtest controls scored `[0, 1, 2, 2, 1]` (`0.24`). Five
+  distinct final-hash guided contexts scored `[5, 5, 5, 5, 5]` (`1.00`), a `+0.76`
+  improvement with zero guided variance. All ten manifests now use one exact schema,
+  ten unique tasks and response hashes, byte-current skill states, and a frozen
+  rubric hash.
+- A replacement pediatric-infusion case was authored only after the final skill
+  freeze. Its plain decision-memo prompt does not repeat the skill recipe; prompt,
+  criteria, full case, and response payloads are independently hashed. Blind
+  generation and independent strict scoring produced `4/5` PASS. The retained miss
+  is explicit: the memo did not assign pricing design to its downstream owner.
+- A fresh final review reports `0` Critical, `0` Important, one nonblocking Minor,
+  and `Ready: Yes`. The Minor is discoverability only: `runtime-contract.md` is not
+  linked from the 500-word `SKILL.md`, while all operative guards remain inline and
+  the reference citations are exact.
+- Verification:
+
+  ```text
+  Skill is valid!
+  skill provenance check: essays=54 themes=8
+  taxonomy validation passed: corpus_files=223 classified=223 relevant_essays=209 uncovered_relevant=0 orphan_skills=0
+  baseline normalized_score=0.72; forward normalized_score=1.00; delta=0.28
+  microtest control=6/25; guided=25/25; normalized_delta=0.76
+  heldout pediatric-infusion-operations=4/5 PASS
+  python3 -m unittest discover -s tests -p 'test_*.py'
+  Ran 120 tests
+  OK
+  copyright scan: normalized 40-token corpus matches=0
+  git diff --check: passed
+  ```
+
+- Remaining work: publish this verified milestone, then build the remaining `17`
+  skills sequentially beginning with `shipping-and-iterating-products`; finish the
+  cross-skill final review, README catalog, and clean/pushed repository-wide gate.
+- Blockers: none.

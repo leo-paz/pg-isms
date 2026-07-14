@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "rep": 5,
+  "variant": "control",
+  "canonical_agent_task": "/root/learning_micro_control_5",
+  "model_identity": "GPT-5",
+  "generated_at": "2026-07-14T14:06:42Z",
+  "prompt": "Thirty HR directors ask a recruiting SaaS founder for a larger analytics dashboard. In four screen-sharing sessions, recruiters can already see the analytics but abandon the product when candidate imports fail and a manager must approve each retry. Two companies will share sandbox data; none has deployed or paid. The growth lead wants $60,000 for ads and landing-page optimization. Give a six-week learning plan, decision record, and ownership handoffs.",
+  "response_sha256": "356c9d69d3e214071a4f8c4f07b4c5e7117f038797cf56415f3a41b82e62b551",
+  "skill_sha256": null
+}
