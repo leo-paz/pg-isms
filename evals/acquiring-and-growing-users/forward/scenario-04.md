@@ -1,0 +1,12 @@
+# Raw evaluation output
+
+Case ID: scenario-04
+Reviewer ID: growth-forward-001
+
+The primary workflow is `learning-from-users`. The company is still before the demand-evidence gate. Giveaway waitlist emails, enthusiastic testimonials, and webinar attention show exposure or praise; they do not establish procurement need. Because this is an enterprise/integration product, activation would require evidence such as access to the real workflow, a deployable pilot that clears relevant procurement, security, support, switching, and integration conditions, live use, payment, or an equally discriminating predeclared deployment commitment. None is present.
+
+Do not build an acquisition funnel, referral loop, or growth activation dashboard yet. First, the learning owner should define the target segment and roles—such as procurement operators, workflow owners, security/integration stakeholders, and economic buyers—and observe current procurement work across a sample that includes cold organizations rather than only conference respondents. Capture repeated work, urgency, consequences, current alternatives, access constraints, and behavioral contradictions. The product direction remains subject to that evidence.
+
+`acquiring-and-growing-users` has one limited role: execute the learning owner's recruitment instruction. It may contact eligible prospects, screen them against the inclusion rule, schedule observations, and log source, contact attempts, nonresponse, completion, incentive, cost, and consent. The 2,400-email list can be one recruiting source, but it must not define the sample or supply a demand numerator. Opens, replies, bookings, and landing-page conversions diagnose whether recruitment is working; they must remain separate from observed workflow evidence and commitment.
+
+The handoff is explicit. If no segment shows a repeated consequential problem, learning keeps ownership and growth stops. If a target segment shows the problem and reaches real use, payment, or a predeclared commitment that includes the necessary workflow and deployment access, then growth may define source → qualified encounter → deployment start → enterprise activation → retained use → referral or expansion. At that point, it should still cohort by segment and source and account for sales effort, integration, support, switching, and procurement latency. Competitor urgency is not a reason to skip the gate.

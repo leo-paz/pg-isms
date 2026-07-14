@@ -1,0 +1,4 @@
+interface:
+  display_name: "Acquiring and Growing Users"
+  short_description: "Build healthy acquisition and retention loops"
+  default_prompt: "Use $acquiring-and-growing-users to choose the next acquisition, activation, liquidity, retention, or expansion intervention with explicit stage gates and evidence."

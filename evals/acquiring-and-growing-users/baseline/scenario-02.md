@@ -1,0 +1,19 @@
+# Raw evaluation output
+
+Case ID: scenario-02
+
+Reviewer ID: growth-baseline-001
+
+The company has evidence of a valuable local wedge, not evidence for national scale. Sixty paid urgent orders, twelve fulfilling suppliers, and nine repeat shops demonstrate real transactions in Houston. Thin supply beyond two pump families and waitlists elsewhere show that geography and category coverage are still constraints. The next 60 days should increase the reliability and economics of the proven market, then test one adjacent market under explicit gates.
+
+Days 1-10 should establish the operating baseline. Break the 60 orders down by pump family, shop, supplier, urgency, order value, gross margin or take rate, time to first supplier response, fill rate, cancellation or return rate, and operator time spent matching. Interview repeat and nonrepeat shops about what triggered the order, which alternatives they considered, and what would make them use the marketplace first. Interview suppliers about inventory visibility, response delays, pricing, delivery radius, and the minimum volume required for dependable participation. Define a "liquid" request as one that receives a qualified response and completes within a time window appropriate to an urgent repair. Set minimum gates for fill rate, response time, fulfillment quality, repeat behavior, and contribution after manual operations.
+
+Days 11-30 should deepen Houston within the two proven pump families. Recruit suppliers only where request logs show a coverage gap, and onboard them around specific SKUs, hours, delivery capabilities, and service levels. Improve the manual system with a structured request form, normalized part data, a live availability process, rapid supplier notification, and clear escalation ownership. Give the 18 shops a reliable reordering path and contact them at moments tied to actual maintenance demand. Ask satisfied shops and suppliers for introductions only after a successful transaction. The objective is not more top-of-funnel volume; it is a higher proportion of urgent requests that can be fulfilled quickly, with improving repeat use and unit economics.
+
+In parallel, run one adjacency test at a time. The lower-risk test is another pump family in Houston because the team can reuse buyer relationships and local delivery operations. Seed only enough catalog and supplier coverage to handle a defined set of requests, then invite a small number of known shops to place real paid orders. If category adjacency passes the service and economics gates, the team can test a second adjacency.
+
+A new city should be treated as a market launch experiment, not a media market. Choose one city using evidence of urgent demand and supplier density, not waitlist count alone. Before inviting buyers, secure a small set of suppliers that collectively cover the target pump families, verify actual availability and response commitments, and designate an operator for the first transactions. Recruit a bounded cohort of repair shops directly and measure real requests, paid completions, and second orders. A city that cannot meet the liquidity gate stays in learning mode.
+
+Paid acquisition should be capped and used only to test whether a proven local transaction engine can acquire more of the same high-fit buyers. Supplier subsidies should be narrow, temporary, and tied to a measurable cold-start behavior such as catalog setup, verified availability, or on-time fulfillment. Do not subsidize unqualified listings or permanently conceal bad transaction economics. Every subsidy should have a budget, an owner, a sunset date, and an unsubsidized retention check.
+
+At day 60, expand only if Houston's core metrics are stable or improving and the adjacency produced repeated paid fulfillment. Otherwise, invest the next cycle in coverage, speed, and repeat use. National paid acquisition would amplify unfillable demand and damage trust; it is the last step, not the next one.

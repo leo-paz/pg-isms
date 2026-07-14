@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "skill_name": "acquiring-and-growing-users",
+  "phase": "forward",
+  "reviewer_id": "growth-forward-001",
+  "scorer_id": "growth-forward-scorer-001",
+  "cases_sha256": "b4c05cdd4143aa2646a8f61e9a3ce2df80c7983426bcd41d9e5b80ed35d74390",
+  "skill_sha256": "8d0a3145d9957bd16cfcd1130f9bb64af84f7ee7535ce1516b39d8530a981da4",
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "raw_output": "scenario-01.md",
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1, "evidence": "Learning remains primary across the sample, observation, evidence, and interpretation; growth only executes recruitment."},
+        {"criterion": 2, "score": 1, "max_score": 1, "evidence": "Direct bounded outreach preserves cold prospects and applies explicit eligibility and exclusion rules."},
+        {"criterion": 3, "score": 1, "max_score": 1, "evidence": "Recruitment-process measures are separated from the demand-evidence record."},
+        {"criterion": 4, "score": 1, "max_score": 1, "evidence": "Source and nonresponse are logged, contradictions return to learning, and scalable channel optimization is deferred."},
+        {"criterion": 5, "score": 1, "max_score": 1, "evidence": "Growth ownership transfers only after real use, payment, or an equally discriminating predeclared commitment."}
+      ],
+      "missed_criteria": [],
+      "score": 5,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-02",
+      "raw_output": "scenario-02.md",
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1, "evidence": "Growth owns a narrow Houston two-family beachhead after paid fulfillment and repeat use."},
+        {"criterion": 2, "score": 1, "max_score": 1, "evidence": "The plan manually seeds supply and capped demand, fills observed family gaps, and delays national scaling."},
+        {"criterion": 3, "score": 1, "max_score": 1, "evidence": "The full liquidity and repeat path is measured in comparable cohorts."},
+        {"criterion": 4, "score": 0, "max_score": 1, "evidence": "The dated review and branches exist, but explicit thresholds are not supplied for all required liquidity, repeat, quality, and subsidy dimensions."},
+        {"criterion": 5, "score": 0, "max_score": 1, "evidence": "The response omits both governance routing for dispute/reputation/ranking/abuse/recourse policy and shipping routing for user-visible rollout."}
+      ],
+      "missed_criteria": [4, 5],
+      "score": 3,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-03",
+      "raw_output": "scenario-03.md",
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1, "evidence": "Activation, retention, and established-user experience bind; acquisition scaling is capped."},
+        {"criterion": 2, "score": 0, "max_score": 1, "evidence": "Cohorting is adequate, but no actual product event is defined as the value-tied activation event."},
+        {"criterion": 3, "score": 1, "max_score": 1, "evidence": "Learning investigates failures while shipping owns reversible changes and bounded exposure that preserve the core path."},
+        {"criterion": 4, "score": 0, "max_score": 1, "evidence": "The dated branches lack explicit acceptance thresholds for every required dimension, especially performance, support burden, and channel quality."},
+        {"criterion": 5, "score": 1, "max_score": 1, "evidence": "Later spend depends on durable, source-attributed activation and retention while repeat-use behavior is protected."}
+      ],
+      "missed_criteria": [2, 4],
+      "score": 3,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-04",
+      "raw_output": "scenario-04.md",
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1, "evidence": "Learning, not growth, is primary before need and workflow validation."},
+        {"criterion": 2, "score": 1, "max_score": 1, "evidence": "Learning owns the segment, roles, sample, observation, alternatives, evidence standard, and interpretation."},
+        {"criterion": 3, "score": 1, "max_score": 1, "evidence": "Growth only recruits the bounded sample and weak interest signals remain outside demand evidence."},
+        {"criterion": 4, "score": 1, "max_score": 1, "evidence": "Channel, referral, and activation optimization wait for use, payment, or a discriminating commitment."},
+        {"criterion": 5, "score": 0, "max_score": 1, "evidence": "The handoff skips shipping's required test of a validated artifact between learning and growth."}
+      ],
+      "missed_criteria": [5],
+      "score": 4,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-05",
+      "raw_output": "scenario-05.md",
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1, "evidence": "Governance is primary for ranking, retaliation, discrimination, transparency, and recourse."},
+        {"criterion": 2, "score": 1, "max_score": 1, "evidence": "Referral and paid-ranking expansion pause despite strong aggregate growth."},
+        {"criterion": 3, "score": 1, "max_score": 1, "evidence": "Governance defines policy and safeguards before engineering and shipping execute."},
+        {"criterion": 4, "score": 1, "max_score": 1, "evidence": "Disaggregated service, complaint, retaliation, repeat, and recourse outcomes expose unequal harm."},
+        {"criterion": 5, "score": 1, "max_score": 1, "evidence": "Growth resumes only after governance and service-quality gates pass while liquidity remains separately healthy."}
+      ],
+      "missed_criteria": [],
+      "score": 5,
+      "max_score": 5
+    }
+  ],
+  "exact_misses": [
+    {"case_id": "scenario-02", "criterion": 4, "reason": "No explicit thresholds are supplied for every required liquidity, repeat-behavior, service-quality, and subsidy-dependence dimension."},
+    {"case_id": "scenario-02", "criterion": 5, "reason": "No governance owner is named for dispute, reputation, ranking, abuse, and recourse policy, and no shipping owner is named for user-visible rollout."},
+    {"case_id": "scenario-03", "criterion": 2, "reason": "The response instructs the team to define activation behaviorally but does not state the actual event that represents experienced planning value."},
+    {"case_id": "scenario-03", "criterion": 4, "reason": "Historical references and relative phrases do not provide explicit precommitted thresholds for all activation, retention, performance, support-burden, and channel-quality gates."},
+    {"case_id": "scenario-04", "criterion": 5, "reason": "The ordered handoff omits shipping's intermediate test of a validated artifact before growth optimizes distribution."}
+  ],
+  "totals": {
+    "score": 20,
+    "max_score": 25,
+    "passed_criteria": 20,
+    "missed_criteria": 5,
+    "total_criteria": 25
+  },
+  "normalized_score": 0.8,
+  "forward_ready": true
+}

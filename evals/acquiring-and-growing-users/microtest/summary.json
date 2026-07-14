@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "skill_name": "acquiring-and-growing-users",
+  "scorer_id": "growth-micro-scorer-001",
+  "final_rescorer_id": null,
+  "skill_sha256": "8d0a3145d9957bd16cfcd1130f9bb64af84f7ee7535ce1516b39d8530a981da4",
+  "rubric_sha256": "da3398b90c659a8c729e345351b77b6250764aa9d66261d82d55ae5b8f226a56",
+  "rubric_frozen_before_scoring": true,
+  "repetitions_per_variant": 5,
+  "control": [
+    {
+      "rep": 1,
+      "score": 2,
+      "max_score": 5,
+      "criteria_passed": [2, 5],
+      "response_path": "evals/acquiring-and-growing-users/microtest/control/rep-1.md",
+      "scorecard_path": "evals/acquiring-and-growing-users/microtest/scorecards/control/rep-1.md"
+    },
+    {
+      "rep": 2,
+      "score": 1,
+      "max_score": 5,
+      "criteria_passed": [2],
+      "response_path": "evals/acquiring-and-growing-users/microtest/control/rep-2.md",
+      "scorecard_path": "evals/acquiring-and-growing-users/microtest/scorecards/control/rep-2.md"
+    },
+    {
+      "rep": 3,
+      "score": 0,
+      "max_score": 5,
+      "criteria_passed": [],
+      "response_path": "evals/acquiring-and-growing-users/microtest/control/rep-3.md",
+      "scorecard_path": "evals/acquiring-and-growing-users/microtest/scorecards/control/rep-3.md"
+    },
+    {
+      "rep": 4,
+      "score": 1,
+      "max_score": 5,
+      "criteria_passed": [2],
+      "response_path": "evals/acquiring-and-growing-users/microtest/control/rep-4.md",
+      "scorecard_path": "evals/acquiring-and-growing-users/microtest/scorecards/control/rep-4.md"
+    },
+    {
+      "rep": 5,
+      "score": 0,
+      "max_score": 5,
+      "criteria_passed": [],
+      "response_path": "evals/acquiring-and-growing-users/microtest/control/rep-5.md",
+      "scorecard_path": "evals/acquiring-and-growing-users/microtest/scorecards/control/rep-5.md"
+    }
+  ],
+  "guided": [
+    {
+      "rep": 1,
+      "score": 3,
+      "max_score": 5,
+      "criteria_passed": [1, 2, 5],
+      "response_path": "evals/acquiring-and-growing-users/microtest/guided/rep-1.md",
+      "scorecard_path": "evals/acquiring-and-growing-users/microtest/scorecards/guided/rep-1.md"
+    },
+    {
+      "rep": 2,
+      "score": 3,
+      "max_score": 5,
+      "criteria_passed": [1, 2, 5],
+      "response_path": "evals/acquiring-and-growing-users/microtest/guided/rep-2.md",
+      "scorecard_path": "evals/acquiring-and-growing-users/microtest/scorecards/guided/rep-2.md"
+    },
+    {
+      "rep": 3,
+      "score": 4,
+      "max_score": 5,
+      "criteria_passed": [1, 2, 4, 5],
+      "response_path": "evals/acquiring-and-growing-users/microtest/guided/rep-3.md",
+      "scorecard_path": "evals/acquiring-and-growing-users/microtest/scorecards/guided/rep-3.md"
+    },
+    {
+      "rep": 4,
+      "score": 4,
+      "max_score": 5,
+      "criteria_passed": [1, 2, 4, 5],
+      "response_path": "evals/acquiring-and-growing-users/microtest/guided/rep-4.md",
+      "scorecard_path": "evals/acquiring-and-growing-users/microtest/scorecards/guided/rep-4.md"
+    },
+    {
+      "rep": 5,
+      "score": 3,
+      "max_score": 5,
+      "criteria_passed": [2, 4, 5],
+      "response_path": "evals/acquiring-and-growing-users/microtest/guided/rep-5.md",
+      "scorecard_path": "evals/acquiring-and-growing-users/microtest/scorecards/guided/rep-5.md"
+    }
+  ],
+  "control_metrics": {
+    "mean_score": 0.8,
+    "population_score_variance": 0.56,
+    "normalized_score": 0.16,
+    "all_criteria_pass_rate": 0.0,
+    "criterion_pass_rates": [0.0, 0.6, 0.0, 0.0, 0.2]
+  },
+  "guided_metrics": {
+    "mean_score": 3.4,
+    "population_score_variance": 0.24,
+    "normalized_score": 0.68,
+    "all_criteria_pass_rate": 0.0,
+    "criterion_pass_rates": [0.8, 1.0, 0.0, 0.6, 1.0]
+  },
+  "guided_minus_control_normalized_delta": 0.52,
+  "integrity_checks": {
+    "exact_response_and_manifest_sets": true,
+    "control_count": 5,
+    "guided_count": 5,
+    "filename_rep_numbers_cover_one_through_five": true,
+    "manifest_rep_numbers_cover_one_through_five": true,
+    "manifest_key_sets_have_exact_nine_fields": true,
+    "manifests_share_identical_schema": true,
+    "manifest_schema_versions_are_numeric_one": true,
+    "standard_manifests": true,
+    "manifests_have_variant_and_rep": true,
+    "manifests_have_task_model_and_timestamp": true,
+    "model_identities_exact_gpt_5": true,
+    "timestamps_are_valid_utc": true,
+    "unique_canonical_agent_tasks": 10,
+    "unique_response_hashes": 10,
+    "duplicate_responses": false,
+    "prompt_identity_matches_rubric": true,
+    "all_manifests_embed_prompt": true,
+    "control_skill_hashes_null": true,
+    "guided_skill_hashes_current": true,
+    "skill_file_hash_matches_summary": true,
+    "rubric_hash_matches_expected": true,
+    "response_hashes_match": true,
+    "artifact_json_parses": true,
+    "response_files_have_no_trailing_whitespace": true,
+    "response_files_have_valid_boundary_whitespace": true,
+    "clean_deployment_gate": true
+  }
+}

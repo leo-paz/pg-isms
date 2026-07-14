@@ -1,0 +1,550 @@
+{
+  "schema_version": 1,
+  "skill_name": "acquiring-and-growing-users",
+  "source_reviewers": [
+    "growth-evidence-a",
+    "growth-evidence-b",
+    "growth-evidence-c"
+  ],
+  "records": [
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "007",
+      "reviewer": "growth-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "distribution-and-growth",
+          "claim": "Judge distribution quality by voluntary expert adoption and earned peer influence rather than hype or compelled use.",
+          "line_ranges": [
+            "26-34"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "008",
+      "reviewer": "growth-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "distribution-and-growth",
+          "claim": "Bootstrap a small initial group through an application users already want, then let demanding early adopters, persistent improvement, and word of mouth drive organic growth before a broad launch.",
+          "line_ranges": [
+            "26-34",
+            "172-190"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "011",
+      "reviewer": "growth-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "activation-and-conversion",
+          "claim": "Only with appropriate user consent and privacy-safe, minimally scoped instrumentation, observe live activation paths, repair the exact abandonment step, and verify completion and revenue effects.",
+          "line_ranges": [
+            "162-178"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "033",
+      "reviewer": "growth-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "distribution-and-growth",
+          "claim": "Organic distribution is strongest when switching and trial are cheap, better results are easy to see, discovery is inexpensive, and reputation spreads quickly enough for word of mouth to carry the product.",
+          "line_ranges": [
+            "56-62"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "045",
+      "reviewer": "growth-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "distribution-and-growth",
+          "claim": "Use truthful, outlet-matched information for legitimate earned-media distribution, but do not manufacture apparent independent confirmation through coordinated placements; the source characterizes that buzz tactic as deliberately misleading.",
+          "line_ranges": [
+            "14-34",
+            "46-48"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "054",
+      "reviewer": "growth-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "activation-and-conversion",
+          "claim": "Remove registration, email, confirmation, and permission friction unless each step is necessary to deliver user value; err toward generosity and user control.",
+          "line_ranges": [
+            "76-86"
+          ]
+        },
+        {
+          "canonical_theme": "distribution-and-growth",
+          "claim": "Treat spontaneous builder adoption as the signal that a platform is spreading; genuine developer uptake does not need PR to manufacture interest.",
+          "line_ranges": [
+            "106-110"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "061",
+      "reviewer": "growth-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "activation-and-conversion",
+          "claim": "Design for casual visitors, state and show the product's value immediately, and measure whether they convert; weak conversion means the product or explanation needs repair.",
+          "line_ranges": [
+            "56-78"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "064",
+      "reviewer": "growth-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "distribution-and-growth",
+          "claim": "Use internet platforms to grow a direct audience without insider gatekeepers, then publish work directly as distribution itself becomes available to outsiders.",
+          "line_ranges": [
+            "166-176",
+            "178-190"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "069",
+      "reviewer": "growth-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-acquisition-and-distribution",
+          "claim": "Make at least one technical founder own customer work: embody the idea in a product, then leave the desk to find users and conduct sales or partner conversations.",
+          "line_ranges": [
+            "178-188"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "093",
+      "reviewer": "growth-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "distribution-and-growth",
+          "claim": "Make user benefit the growth engine: user love produces referrals and compounding organic growth, but growth counts only when it is genuine rather than purchased.",
+          "line_ranges": [
+            "94-100",
+            "114-116"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "108",
+      "reviewer": "growth-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "distribution-and-growth",
+          "claim": "Open internet distribution lets makers reach audiences directly, lowers channel-entry thresholds, and expands long-tail supply while user connection drives adoption.",
+          "line_ranges": [
+            "14-28",
+            "48-54"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "117",
+      "reviewer": "growth-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-network-effects-and-critical-mass",
+          "claim": "Treat social visibility as an adoption constraint: a functionally useful product can still fail when public use carries a social penalty. Before the handoff gate, growth only recruits the specified sample; learning-from-users owns real-setting test design and interpretation.",
+          "line_ranges": [
+            "12-24"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "123",
+      "reviewer": "growth-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-acquisition-and-distribution",
+          "claim": "When acquisition stalls, distinguish insufficient exposure from a weak product and from switching or integration friction; use product-driven word of mouth where quality can carry distribution, and deals or marketing where the product type requires them.",
+          "line_ranges": [
+            "226-244"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "125",
+      "reviewer": "growth-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "beachheads-and-market-expansion",
+          "claim": "Do not reject a small initial product merely because outsiders call it a toy; real user pull around a newly fixable problem can be the larval market from which broader adoption develops.",
+          "line_ranges": [
+            "28-36"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "137",
+      "reviewer": "growth-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "beachheads-and-market-expansion",
+          "claim": "Build an expansion case as a sequence through adjacent customer classes, and strengthen it with observed movement from the initial peer-to-peer beachhead toward professional supply rather than relying only on a distant market claim.",
+          "line_ranges": [
+            "184-196",
+            "240-246"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "140",
+      "reviewer": "growth-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-acquisition-and-distribution",
+          "claim": "Match acquisition to the discovery channels that exist in the current market, then organize the site as a funnel toward an interactive trial instead of assuming users will find or understand the product unaided.",
+          "line_ranges": [
+            "26-32"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "143",
+      "reviewer": "growth-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "beachheads-and-market-expansion",
+          "claim": "Win an intense initial core with a product tailored to that group; constraints that might matter later are secondary if the startup cannot first become genuinely preferred inside the beachhead.",
+          "line_ranges": [
+            "36-40",
+            "128-132"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "149",
+      "reviewer": "growth-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "beachheads-and-market-expansion",
+          "claim": "Test expansion potential on both demand and reach: a scalable company must serve a market in which many people want the product and the company can actually reach and serve them.",
+          "line_ranges": [
+            "26-32"
+          ]
+        },
+        {
+          "canonical_theme": "growth-measurement-and-phases",
+          "claim": "First identify the startup's growth phase; for a launched or launchable product, measure percentage growth from the existing base, prefer revenue and then active users, and reject high-churn or manufactured activity that corrupts the metric.",
+          "line_ranges": [
+            "60-79",
+            "167-173"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "151",
+      "reviewer": "growth-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "beachheads-and-market-expansion",
+          "claim": "Prefer a narrow group with demand deep enough to overcome version-one friction, but require a credible path into adjacent markets; the expansion route may reveal itself gradually rather than being fully knowable at the start.",
+          "line_ranges": [
+            "34-54"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "153",
+      "reviewer": "growth-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "beachheads-and-market-expansion",
+          "claim": "Use early enthusiasm to identify a promising segment, then contain the market enough to reach critical mass quickly; participant density is especially important for a marketplace.",
+          "line_ranges": [
+            "44-44",
+            "76-84"
+          ]
+        },
+        {
+          "canonical_theme": "user-acquisition-and-distribution",
+          "claim": "Recruit and onboard the first users manually instead of waiting for spontaneous adoption, then move gradually to less manual acquisition only as the company develops momentum and a repeatable path.",
+          "line_ranges": [
+            "20-32"
+          ]
+        },
+        {
+          "canonical_theme": "user-delight-and-retention",
+          "claim": "Use a small company's ability to provide an extraordinarily attentive early experience, feed direct engagement back into the product, and judge the few-month outcome more by initial-user happiness than by announcement volume.",
+          "line_ranges": [
+            "48-72",
+            "112-128"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "154",
+      "reviewer": "growth-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "beachheads-and-market-expansion",
+          "claim": "A capturable market may begin small when there is a plausible sequence of hops into a large one; require evidence appropriate to the company's age rather than pretending the full expansion is already proven.",
+          "line_ranges": [
+            "62-72"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "166",
+      "reviewer": "growth-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "beachheads-and-market-expansion",
+          "claim": "Treat an unimpressive initial wedge as a possible path into several much larger markets; do not require founders to predict the final company before following the most immediately compelling credible path.",
+          "line_ranges": [
+            "12-16",
+            "20-22"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "168",
+      "reviewer": "growth-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "growth-measurement-and-phases",
+          "claim": "Distinguish a constant-multiple monetization gain from a change in compounding growth rate; under the essay's assumptions, improving the rate dominates extracting more from each user.",
+          "line_ranges": [
+            "18-24"
+          ]
+        },
+        {
+          "canonical_theme": "user-acquisition-and-distribution",
+          "claim": "A product good enough for users to recommend can make word of mouth a compounding acquisition mechanism, whereas aggressive extraction can impair that mechanism.",
+          "line_ranges": [
+            "26-28"
+          ]
+        },
+        {
+          "canonical_theme": "user-delight-and-retention",
+          "claim": "Preserve generosity when it helps make the product worth recommending, and pair it with disciplined work on the growth rate rather than imitating an extractive business stereotype.",
+          "line_ranges": [
+            "26-30"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "169",
+      "reviewer": "growth-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-delight-and-retention",
+          "claim": "When growth is weak because the product is only moderately appealing, repair the product through founder-led redesign and direct unscalable work before trying to manufacture growth with headcount or premature scale.",
+          "line_ranges": [
+            "32-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "182",
+      "reviewer": "growth-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "growth-measurement-and-phases",
+          "claim": "Use revenue or usage growth as a direct outcome, but do not substitute launch exposure, influential mentions, or other hackable proxies for building a product users choose and recommend.",
+          "line_ranges": [
+            "68-74",
+            "80-82"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "195",
+      "reviewer": "growth-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "beachheads-and-market-expansion",
+          "claim": "After a segment has crossed the real-use or payment handoff, concentrate marketplace growth in the hottest demand subset and improve supply in person; if field contact reopens whether or why participants need the product, return that question to user learning.",
+          "line_ranges": [
+            "30-38"
+          ]
+        },
+        {
+          "canonical_theme": "growth-measurement-and-phases",
+          "claim": "Track short-interval results closely enough to separate random fluctuation from a real change in growth, then continue pushing once the movement is clear.",
+          "line_ranges": [
+            "38-42"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "196",
+      "reviewer": "growth-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "beachheads-and-market-expansion",
+          "claim": "A small market is a valid beachhead only when some seed users urgently want the imperfect product now; from that real base, expand through requested features, more similar users, referrals, regions, or an evolving market.",
+          "line_ranges": [
+            "34-48"
+          ]
+        },
+        {
+          "canonical_theme": "user-delight-and-retention",
+          "claim": "A startup lacks the power to force adoption, so it must genuinely delight users; retaining that orientation remains necessary as the company grows rather than ending after the first users arrive.",
+          "line_ranges": [
+            "24-26",
+            "98-100"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "198",
+      "reviewer": "growth-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "beachheads-and-market-expansion",
+          "claim": "Serve the first users manually even when building stores for them appears to contradict the product's self-service premise; repeated concrete service work teaches the team about the domain and the experience of using the product.",
+          "line_ranges": [
+            "150-156"
+          ]
+        },
+        {
+          "canonical_theme": "growth-measurement-and-phases",
+          "claim": "Judge long-run startup progress by growth rate rather than absolute user count, while still checking whether the current absolute economics threaten survival and avoiding hiring that delays profitability.",
+          "line_ranges": [
+            "158-160"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "201",
+      "reviewer": "growth-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-acquisition-and-distribution",
+          "claim": "Technology can lower product-building and customer-acquisition costs and make distribution faster, changing which startups can form and how quickly they can grow; current costs and channels must be revalidated before applying this historical trend.",
+          "line_ranges": [
+            "54-60"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "219",
+      "reviewer": "growth-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "beachheads-and-market-expansion",
+          "claim": "Apply disproportionate personal attention to a tiny initial customer set when the product has a credible word-of-mouth loop; the purpose is to establish a toehold from which compounding can begin.",
+          "line_ranges": [
+            "106-108"
+          ]
+        },
+        {
+          "canonical_theme": "growth-measurement-and-phases",
+          "claim": "Use growth rate rather than early absolute size as a compass for what to improve; sustained rate changes compound into qualitatively different outcomes, including survival or failure.",
+          "line_ranges": [
+            "24-32"
+          ]
+        },
+        {
+          "canonical_theme": "product-network-effects-and-critical-mass",
+          "claim": "In a market with network effects, fast growth can help cross a competitive threshold that reinforces future advantage; this mechanism does not by itself prove healthy liquidity or retained interaction.",
+          "line_ranges": [
+            "46-48"
+          ]
+        },
+        {
+          "canonical_theme": "user-acquisition-and-distribution",
+          "claim": "Seed acquisition through unusually attentive work with the first few customers when doing so can initiate recommendation-driven exponential growth.",
+          "line_ranges": [
+            "106-108"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "acquiring-and-growing-users",
+      "article_no": "222",
+      "reviewer": "growth-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "user-acquisition-and-distribution",
+          "claim": "Manually seed a community product with founders, peers, and friends rather than waiting for an organic cold start; a small active set can be enough to make the initial experience useful.",
+          "line_ranges": [
+            "34-38"
+          ]
+        },
+        {
+          "canonical_theme": "user-delight-and-retention",
+          "claim": "When traffic is noisy, look for a small core returning regularly as the earliest retention signal; durable utility can keep compounding despite later management mistakes, though this case does not excuse those mistakes.",
+          "line_ranges": [
+            "38-38",
+            "40-42"
+          ]
+        }
+      ]
+    }
+  ]
+}

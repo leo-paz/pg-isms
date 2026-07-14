@@ -1,0 +1,14 @@
+# Raw evaluation output
+
+Case ID: scenario-03
+Reviewer ID: growth-forward-001
+
+The company is post-validation, but it is in a repair phase, not a scale phase. The first visible break is activation, from 42% to 24%, followed by week-four retained use falling from 18% to 8%. Long-retained teams independently report clutter and latency. Rising signups and aggregate monthly active users can be a lagging stock created by heavy acquisition; they do not show that the current loop works. Doubling influencer spend would pour more users into a damaged loop.
+
+**Days 1–5: cap acquisition and establish truth.** Hold influencer spending at the minimum needed for a stable control cohort; do not double it. Define the activation event in behavioral terms and the week-four outcome as retained team use. Break cohorts out by signup week, influencer/source, team type, product release, device, and acquisition cost. Measure encounter → start → activation → retained team use, plus load time, error rate, support burden, referral, and the experience of the six-month retained cohort. Check whether source quality contributes, but treat the product evidence as binding unless cohorts disprove it.
+
+**Days 6–20: diagnose and repair the product.** Growth owns the cohort outcome and identifies the broken transitions. `learning-from-users` owns why representative new and retained teams struggle. `shipping-and-iterating-products` owns the artifact: stage reversible changes that remove or hide clutter, restore the critical planning path, and fix measured latency. Manually onboard a small cohort to distinguish unclear value from interface friction, recording every founder rescue rather than counting rescued users as normal activation.
+
+**Days 21–35: run a bounded re-exposure.** Send comparable, capped cohorts through the repaired experience and the control. Keep source, offer, and audience stable enough to attribute the change. Monitor activation immediately and allow the earliest repaired cohorts to reach week four. Guard against a cosmetic activation gain that worsens retained use, speed, support, or the experience of established teams.
+
+**Days 36–45: make the precommitted decision.** Resume expansion only if the repaired cohort restores activation and week-four retained use to the accepted pre-campaign range—using 42% and 18% as the historical reference—without worse latency, support, economics, or retained-team outcomes, and without manual rescue. Continue repair if activation improves materially but retention has not recovered or the confidence interval is still too wide. Pause the influencer source if its comparable cohorts remain materially worse after the product repair. Stop the product change if established-team outcomes degrade. The preserved alternative is renewed influencer scaling; its switch condition is a healthy, source-attributed cohort loop, not another rise in totals.

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "skill_name": "acquiring-and-growing-users",
+  "prompt": "A nine-person scheduling startup has six multi-site dental groups paying for pilots. Founder-led outreach and onboarding produced all six. At the pilot sites, 70% of invited office managers start setup, 35% complete the practice-management integration, and 22% still schedule through the product in week eight. The two retained groups refer peers and praise the support, but the four others report integration delays and confusing setup. A reseller offers access to 400 dental groups if the startup commits to a trade-show launch and reseller campaign next month; price and reseller economics are not settled. Procurement and integration take six to eight weeks. The CEO wants to accept, hire three salespeople, and optimize demos. Give a 60-day acquisition, activation, retention, and ownership plan.",
+  "criteria": [
+    "Makes acquiring-and-growing-users primary after paid pilot commitment, identifies integration-limited activation and retained value—not lead volume—as the binding growth constraint, and records enterprise evidence latency plus company, product, and survival assumptions.",
+    "Maps the complete source-to-retention loop for one dental-group beachhead, defines an activation event tied to completed integration and experienced scheduling value, segments cohorts by source and implementation state, and states causal rivals for setup and retention failure.",
+    "Keeps founder-led recruitment, onboarding, and support at the binding point; sends setup artifact and exposure changes to shipping, integration machinery to engineering, and price or reseller economics to designing-business-models before scaling the reseller channel.",
+    "Uses explicit numerator/denominator cohort measures for setup, integration, retained scheduling, referral, support, time, and cost over the six-to-eight-week evidence window, with a calendar review, precommitted thresholds, and keep-manual, repair, scale, and stop branches.",
+    "Caps the trade-show, reseller, and hiring expansion until activation, retention, support burden, economics, and accountable user effects improve together; does not treat pipeline, demos, praise, starts, or referrals alone as permission to scale."
+  ]
+}

@@ -1,0 +1,14 @@
+# Raw evaluation output
+
+Case ID: scenario-05
+Reviewer ID: growth-forward-001
+
+`governing-platforms-and-communities` is now the primary workflow. The marketplace has already proven liquidity, but the binding constraint is participant harm and interaction policy: ranking rewards bait-and-switch behavior, reviewers face retaliation, and quote service differs for immigrant homeowners. Rising completed jobs does not make those harms acceptable or turn them into a growth-owned optimization problem.
+
+Sequence the response as follows:
+
+1. **Cap growth and contain the mechanism.** Pause the referral campaign and new paid ranking boosts. Roll back or disable the suspect boosts where reversible, preserve audit evidence, prevent retaliation against complainants, and provide a human escalation path. Do not send more homeowners into a loop whose trust and fairness controls are failing.
+2. **Establish accountable facts.** Governance should define the investigation and acceptable-interaction standard. Measure advertised versus final price, complaint and cancellation rates, review-linked retaliation, quote response and latency by relevant homeowner cohort, provider/category/city, ranking exposure, repeat behavior, and recourse outcomes. Protect privacy and verify current anti-discrimination, consumer-protection, advertising, and platform obligations rather than guessing at law.
+3. **Set policy before machinery.** Governance owns eligibility for ranking, truthful-price requirements, review protection, moderation and enforcement, transparency, appeal and recourse, and the fairness standard. `designing-business-models` owns whether paid placement is an acceptable commercial product. `engineering-for-leverage` implements auditability, detection, ranking constraints, and monitoring; `shipping-and-iterating-products` stages the changed experience and rollback.
+4. **Re-expose narrowly.** Test the governed ranking in a bounded city/category cohort with human review. Track liquidity and fulfillment, but also bait-and-switch incidence, retaliation, quote-time disparity, service quality, retention on both sides, support cost, and accountable user effects. Do not accept aggregate job growth as an offsetting metric.
+5. **Resume growth only after the guardrail holds.** Precommit governance-set maximums for deceptive pricing and retaliation, an accepted bound for quote-service disparity, functioning appeals, and a trustworthy monitoring interval. Keep the intervention manual while cases require human judgment; repair or stop it when a guardrail is breached. Growth may restart referrals or broader acquisition only after those conditions hold without hidden rescue and liquidity remains healthy. The preserved alternative is renewed promotion; its switch condition is demonstrated safe and fair interaction quality, not completed-job volume.

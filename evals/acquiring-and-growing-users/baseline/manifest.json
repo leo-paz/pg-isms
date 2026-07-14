@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "skill_name": "acquiring-and-growing-users",
+  "phase": "baseline",
+  "reviewer_id": "growth-baseline-001",
+  "canonical_agent_task": "/root/growth_baseline_001",
+  "generated_at": "2026-07-14T17:45:34Z",
+  "model_identity": "GPT-5 Codex",
+  "dispatch_prompt": "Generate fresh no-skill answers to five projected user-growth prompts using only their identifiers and prompt text.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "cases_sha256": "b4c05cdd4143aa2646a8f61e9a3ce2df80c7983426bcd41d9e5b80ed35d74390",
+  "prompt_projection_sha256": "bd70cf0b8811c5f1d49b91113673a86c7f4e40fe693bad628cbd9120ab1acbad",
+  "skill_state": {
+    "mode": "no-skill",
+    "skill_sha256": null
+  },
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "scenario-01": "dbc4cd10c7f94ddd93a274f06321fe95febe76e4ace82751e3c332cfdfc0463b",
+    "scenario-02": "9a57e8e9ae003993755db4c9eb208d05a3b49adb5480913a121a9c0f0ed20bf9",
+    "scenario-03": "1e6bd7cc494eca4a4e833ef29cabcd27657a544590a504930491db2b23fccdc3",
+    "scenario-04": "8a2ab232fed33aa18459881e7d09f040d77e5dbe0e16b4869198ec9ef6f767f8",
+    "scenario-05": "8fcfbdd4d7ccf9f9c050af11f99f0d0e88dfe9179499f89ae0408ef53a2d0d17"
+  }
+}

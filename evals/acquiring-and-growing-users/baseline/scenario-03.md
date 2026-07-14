@@ -1,0 +1,19 @@
+# Raw evaluation output
+
+Case ID: scenario-03
+
+Reviewer ID: growth-baseline-001
+
+This is not an acquisition shortage. Acquisition has outrun the product's ability to activate and retain users, while the experience for established teams is degrading. Rising signups and monthly active users are lagging totals inflated by large incoming cohorts; the cohort rates show that the engine is weakening. Doubling influencer spend would pour more users into a leak and could accelerate negative word of mouth among the six-month teams that once supplied the product's strongest evidence.
+
+For 45 days, make activation, retention, and product quality the primary growth work. Pause any increase in influencer spending immediately and reduce campaigns to the minimum needed for controlled measurement. Preserve channel-level data, but do not optimize for signup volume. Product, design, and engineering should own the recovery, with growth responsible for cohort analysis, experiment design, and communication to affected users.
+
+During days 1-7, build a cohort diagnosis. Define one behavioral activation event that represents a team reaching initial value, and define retained use in terms of the recurring planning job rather than a login. Segment activation and week-four retention by acquisition source, campaign, team size, use case, device, plan, product version, and signup week. Trace the onboarding path to find the largest drop-offs. Measure latency and errors on the workflows used by new and established teams. Interview or observe recent activators, recent abandoners, and long-tenured teams; ask them to perform actual planning work and identify where clutter or delay blocks it. Review which features and interface changes coincide with the decline.
+
+During days 8-21, remove the largest barriers. Fix performance and reliability regressions first. Simplify the first-use path around the core collaborative outcome, defer optional configuration, and use progressive disclosure instead of presenting every feature at once. Protect mature workflows: remove or relocate low-value interface additions, preserve familiar paths where possible, and communicate disruptive changes. Run small experiments against new cohorts, but judge them on completion of the core action, time to value, and early repeat behavior. Avoid superficial onboarding prompts that increase clicks without increasing successful team work.
+
+During days 22-35, validate retention effects. Follow activated teams through at least their next natural planning cycles, compare them with a recent untreated cohort, and inspect qualitative failure cases rather than relying only on averages. Offer targeted help to previously healthy teams affected by clutter or slowness, and measure whether they resume the recurring workflow. Keep a guardrail for the six-month cohort so a new-user improvement cannot be declared successful if it further harms established teams.
+
+During days 36-45, decide whether acquisition can reopen. The release gate should require a material and sustained recovery in activation, evidence that the improvement carries into repeated use, restored product performance, and no deterioration among long-tenured teams. Because week-four retention cannot be fully observed for the final cohorts inside 45 days, use earlier repeat behavior as a provisional signal and continue the full cohort measurement after the period; do not pretend the lag has disappeared.
+
+If the gates pass, restart influencer acquisition in small channel-specific increments. Compare downstream activated and retained teams per dollar, not signups per dollar, and stop campaigns that bring a poor-fit audience even if their click or signup costs look attractive. If the gates do not pass, keep scale paused and continue product recovery. The correct growth phase is restoring the value and repeat-use engine before resuming broad acquisition.

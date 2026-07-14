@@ -1,2 +1,3 @@
-# Preserve exact bytes of the archived failed held-out response, including its recorded whitespace defect.
+# Preserve exact bytes of archived failed held-out responses, including recorded whitespace defects.
 evals/engineering-for-leverage/heldout/attempt-001/response.md binary
+evals/acquiring-and-growing-users/heldout/attempt-001/response.md binary

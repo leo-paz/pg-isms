@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "skill_name": "acquiring-and-growing-users",
+  "phase": "baseline",
+  "reviewer_id": "growth-baseline-001",
+  "scorer_id": "growth-baseline-scorer-001",
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "raw_output": "scenario-01.md",
+      "criteria_results": [1, 0, 1, 0, 0],
+      "missed_criteria": [2, 4, 5],
+      "score": 2,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-02",
+      "raw_output": "scenario-02.md",
+      "criteria_results": [1, 0, 0, 0, 0],
+      "missed_criteria": [2, 3, 4, 5],
+      "score": 1,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-03",
+      "raw_output": "scenario-03.md",
+      "criteria_results": [1, 0, 1, 0, 1],
+      "missed_criteria": [2, 4],
+      "score": 3,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-04",
+      "raw_output": "scenario-04.md",
+      "criteria_results": [1, 0, 0, 1, 0],
+      "missed_criteria": [2, 3, 5],
+      "score": 2,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-05",
+      "raw_output": "scenario-05.md",
+      "criteria_results": [1, 1, 0, 1, 1],
+      "missed_criteria": [3],
+      "score": 4,
+      "max_score": 5
+    }
+  ],
+  "exact_misses": [
+    {
+      "case_id": "scenario-01",
+      "criteria": [2, 4, 5]
+    },
+    {
+      "case_id": "scenario-02",
+      "criteria": [2, 3, 4, 5]
+    },
+    {
+      "case_id": "scenario-03",
+      "criteria": [2, 4]
+    },
+    {
+      "case_id": "scenario-04",
+      "criteria": [2, 3, 5]
+    },
+    {
+      "case_id": "scenario-05",
+      "criteria": [3]
+    }
+  ],
+  "total_score": 12,
+  "total_max_score": 25,
+  "normalized_score": 0.48,
+  "baseline_ready": true
+}

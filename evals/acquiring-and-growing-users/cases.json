@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "skill_name": "acquiring-and-growing-users",
+  "cases": [
+    {
+      "id": "scenario-01",
+      "type": "condition",
+      "prompt": "A startup has not yet established whether independent veterinary clinics need its proposed inventory assistant. The user-learning owner has defined a sample of 20 clinic managers, including cold prospects, and wants to observe current ordering and stockout work before testing a prototype. The growth lead offers to recruit the sample but wants to judge the opportunity by ad click-through, email opens, and landing-page signups, then optimize the winning channel. Assign ownership and design the recruitment work without letting outreach performance substitute for demand evidence.",
+      "criteria": [
+        "Keeps learning-from-users primary for the need hypothesis, sample design, evidence standard, observation, and interpretation while assigning growth only the bounded recruitment execution.",
+        "Uses direct, initially unscalable recruitment across the predefined clinic segment, including cold outreach and explicit inclusion or exclusion rules, rather than selecting only responsive or convenient contacts.",
+        "Treats contact, response, scheduling, click, open, and signup measures as recruitment-process diagnostics rather than evidence that the need or product is validated.",
+        "Records recruitment source and nonresponse, returns workflow contradictions to learning, and does not optimize a scalable acquisition channel while the need remains unknown.",
+        "Defines the ordered handoff: growth may own acquisition, activation, retention, or expansion only after one target segment shows real use, payment, or an equally discriminating predeclared commitment."
+      ]
+    },
+    {
+      "id": "scenario-02",
+      "type": "trigger",
+      "prompt": "A marketplace manually matched 60 urgent industrial-pump part orders for 18 repair shops in the Houston area; the shops paid, 12 local suppliers fulfilled orders, and nine shops bought again. Supply is thin outside two pump families and other cities have only waitlist signups. The founders want national paid acquisition and supplier subsidies. Design the next 60 days of marketplace growth.",
+      "criteria": [
+        "Makes acquiring-and-growing-users primary after real payment and repeat use, and chooses a narrow Houston pump-family beachhead based on demonstrated buyer, supplier, and transaction density.",
+        "Seeds both sides manually, fills specific supply or demand gaps, and delays national channel optimization until the beachhead produces reliable liquidity without founder rescue.",
+        "Measures the complete liquidity and retention path—qualified request, useful offer, time to match, fulfillment, repeat buying and supplying, and cohort retention—rather than signups, listings, gross volume, or subsidized activity alone.",
+        "Sets a calendar review with precommitted keep, repair, expand, and stop branches, including explicit thresholds for liquidity, repeat behavior, service quality, and subsidy dependence.",
+        "Keeps cold-start density with growth, routes dispute, reputation, ranking, abuse, and recourse policy to governing-platforms-and-communities, and sends user-visible rollout changes through shipping-and-iterating-products."
+      ]
+    },
+    {
+      "id": "scenario-03",
+      "type": "application",
+      "prompt": "A collaborative planning app acquired 50,000 signups through influencer campaigns in one quarter. New-user activation fell from 42% to 24%, week-four retained use fell from 18% to 8%, and teams that had used the product weekly for six months say the interface is becoming cluttered and slower. The CEO wants to double influencer spend because total signups and monthly active users still rise. Diagnose the growth phase and give a 45-day plan.",
+      "criteria": [
+        "Identifies activation, retained value, and user delight—not top-line acquisition—as the binding growth constraint and pauses or caps channel scaling until those measures recover.",
+        "Segments cohorts by acquisition source, use case, and tenure; defines an activation event tied to experienced value; and follows retained team behavior over time instead of relying on signups or aggregate monthly actives.",
+        "Investigates why new and long-tenured users fail or leave, preserves the core experience for retained users, and hands product changes and bounded exposure to shipping-and-iterating-products rather than treating growth metrics as a design specification.",
+        "Uses dated, precommitted thresholds and explicit continue, change, stop, and later-scale branches for activation, retention, performance, support burden, and channel quality.",
+        "Resolves the fast-growth versus delight tension by protecting the product behavior that creates repeat use and expanding spend only for cohorts whose activation and retention demonstrate durable value."
+      ]
+    },
+    {
+      "id": "scenario-04",
+      "type": "non-trigger",
+      "prompt": "An AI procurement assistant has 2,400 waitlist emails from a conference giveaway, three enthusiastic webinar testimonials, and no observation of procurement work, live product use, payment, workflow access, or deployment commitment. The founders ask for an acquisition funnel, referral loop, and activation dashboard so they can grow before competitors arrive. Name the primary workflow and the limited role, if any, for acquiring-and-growing-users.",
+      "criteria": [
+        "Does not make acquiring-and-growing-users primary when the underlying need, actor, workflow, and consequence remain unvalidated.",
+        "Routes the hypothesis, sample, workflow observation, rivals, evidence standard, and interpretation to learning-from-users.",
+        "Allows growth only to recruit the learning owner's bounded target sample and treats waitlist, giveaway, webinar, click, referral, and signup activity as weak interest or recruitment evidence rather than demand validation.",
+        "Rejects channel, referral, and activation optimization until one target segment demonstrates real use, payment, or an equally discriminating predeclared commitment.",
+        "Provides an ordered handoff rather than generic co-ownership: learning decides whether the need survives, then shipping tests a validated artifact, and growth optimizes distribution only after the gate."
+      ]
+    },
+    {
+      "id": "scenario-05",
+      "type": "edge",
+      "prompt": "A home-services marketplace has strong city-level liquidity, 55% six-month buyer repeat, and enough providers in every major category. Complaints now show that ranking boosts favor providers who bait-and-switch on price, some providers retaliate against negative reviewers, and immigrant homeowners receive slower quotes. Growth wants a referral campaign and paid ranking boosts because completed jobs are still rising. Assign the primary workflow and sequence the response.",
+      "criteria": [
+        "Makes governing-platforms-and-communities primary for participant effects, ranking policy, retaliation, discrimination, transparency, and recourse rather than treating an interaction-quality failure as a growth optimization problem.",
+        "Pauses referral and paid-ranking expansion that would amplify the unresolved harms even though liquidity, completed jobs, and aggregate retention are strong.",
+        "Requires governance to define policy and affected-participant safeguards before engineering implements ranking or abuse machinery and shipping stages user-visible exposure.",
+        "Uses disaggregated outcomes, complaints, reversals, response time, repeat behavior, and credible harm measures so aggregate growth cannot hide unequal treatment or low-quality transactions.",
+        "Returns acquisition or expansion to growth only after predeclared governance and service-quality gates pass, while preserving the already-healthy marketplace liquidity as a separate fact."
+      ]
+    }
+  ]
+}

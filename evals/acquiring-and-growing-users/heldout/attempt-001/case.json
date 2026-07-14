@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "skill_name": "acquiring-and-growing-users",
+  "case_id": "hardware-regional-channel-versus-national-inventory-commitment",
+  "authored_by": "/root/growth_heldout_author_001",
+  "authored_at": "2026-07-14T18:29:48Z",
+  "heldout_after_skill_sha256": "8d0a3145d9957bd16cfcd1130f9bb64af84f7ee7535ce1516b39d8530a981da4",
+  "prompt": "Prepare a decision memo for the founders of a company selling modular thermal-storage units to independent grocery stores. Ten stores in Northern California have paid for 14 units; nine stores have operated them through four months of peak-demand days, eight still use them, and four have ordered a second unit. Installations came through two local energy contractors, but the founders still attend every site survey and solve commissioning problems. A national equipment distributor will place the product in 80 branches if the company commits next week to $4.5 million of inventory and promises 30-day delivery. The current units have been observed only in warm weather; a redesigned compressor from a new supplier will enter the next batch, and the first reliable cold-season data cannot arrive for five months. The board wants weekly signup targets and a nationwide preorder campaign now. Recommend whether to accept the distributor deal and what growth decision should replace it if not.",
+  "criteria": [
+    "Treats acquiring-and-growing-users as primary because one defined segment has paid, operated, and expanded, while identifying the unproven nationwide distributor loop rather than the existence of demand as the decision under review.",
+    "Rejects weekly signups or preorders alone as sufficient justification and matches the review cadence to the five-month physical-use and reliability interval, separating the existing warm-weather units from the cold-season and redesigned-supplier cohort.",
+    "Chooses the smallest bounded channel intervention, using an additional regional store-and-contractor cohort with manual installation and support, and does not make the $4.5 million inventory commitment until the loop works without hidden founder rescue.",
+    "Measures the channel path from contractor or demonstration encounter through order, installed-and-commissioned activation, continued physical use, and second-unit expansion, with source cohorts, support burden, channel cost, supply or reliability confounders, and accountable store effects rather than top-line leads alone.",
+    "Sets a dated review with precommitted repair, expand, pause, and stop thresholds for activation, reliability, retained physical use, founder support, channel economics, and inventory exposure; preserves the distributor option with a switch condition and assigns channel evidence to growth, rollout exposure to shipping, manufacturing machinery to engineering, and distributor economics to business-model ownership."
+  ],
+  "authoring_status": "post-freeze-held-out",
+  "prompt_avoids_skill_recipe": true
+}

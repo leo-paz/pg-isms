@@ -787,3 +787,67 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
   skills sequentially beginning with `acquiring-and-growing-users`; finish the
   cross-skill final review, README catalog, and clean/pushed repository-wide gate.
 - Blockers: none.
+
+## Checkpoint 4 skill 7 verified: `acquiring-and-growing-users`
+
+- RED froze five no-skill cases before package initialization: learning-owned
+  recruitment, a paid marketplace cold start, an activation/retention collapse, an
+  unvalidated waitlist non-trigger, and marketplace interaction governance. A final
+  independent audit caught one overcredited placeholder activation event in scenario
+  03. The frozen cases, responses, and manifest did not change; the corrected strict
+  baseline is `12/25` (`0.48`).
+- Three non-overlapping source agents read all `31` assigned essays in full and used
+  both BM25 and semantic QMD retrieval. Their exact combined evidence contains `31`
+  essay records, `44` unique essay-theme pairs, and `58` audit-contained range
+  occurrences across all `7` owned themes. Independent overlap and final source
+  reviews verified all prior claim-scope remediations, exact generated provenance,
+  current-context conditions, and no gaps or extras.
+- The official initializer created the package. Repeated behavior, routing, and source
+  reviews tightened the learning handoff, business-model/channel split, governance
+  sequence, support burden, and complete threshold/owner record. The final `SKILL.md`
+  is `498` words with SHA-256
+  `8d0a3145d9957bd16cfcd1130f9bb64af84f7ee7535ce1516b39d8530a981da4`;
+  official validation and regenerated `agents/openai.yaml` pass.
+- The blind forward run scored `20/25` (`0.80`), improving `+0.32` over the corrected
+  baseline. Its five retained misses concern fully explicit marketplace thresholds
+  and governance/shipping owners, an actual activation event and complete measure
+  thresholds, and an intermediate shipping handoff. These remain failed rather than
+  inferred; the frozen skill itself states each required behavior.
+- Five blind no-skill microtest controls scored `[2, 1, 0, 1, 0]` (`0.16`). Five
+  distinct final-hash guided contexts scored `[3, 3, 4, 4, 3]` (`0.68`), a `+0.52`
+  improvement with lower population variance (`0.56` to `0.24`). The recurring miss
+  is the rubric's compound founder-person/manual-owner requirement; final review
+  distinguishes that scenario-specific conjunction from the canonical no-hidden-
+  rescue rule and preserves it as a regression target.
+- The first post-freeze hardware held-out response scored `4/5` on transfer but failed
+  integrity because its frozen bytes contain trailing whitespace; it remains archived
+  exactly and now exposes separate transfer-PASS/integrity-FAIL fields. A second,
+  genuinely new walking-pod case scored `2/5` FAIL with clean integrity and is also
+  preserved. A third B2B proposal-workflow case used another distinct author,
+  generator, and scorer triple and scored `5/5` PASS with full integrity.
+- Fresh final source and evaluation audits report `0` Critical, `0` Important, and
+  `0` Minor findings. The final behavior review reports `0` Critical, `0` Important,
+  and two accepted Minors for generated-answer completeness and the narrower
+  founder-person microtest requirement. All three reviews say `Ready to commit: Yes`.
+- Verification:
+
+  ```text
+  Skill is valid!
+  skill provenance check: essays=31 themes=7
+  taxonomy validation passed: corpus_files=223 classified=223 relevant_essays=209 uncovered_relevant=0 orphan_skills=0
+  baseline normalized_score=0.48; forward normalized_score=0.80; delta=0.32
+  microtest control=4/25; guided=17/25; normalized_delta=0.52
+  heldout growth-heldout-003=5/5 PASS integrity=PASS
+  preserved hardware-regional-channel-versus-national-inventory-commitment=4/5 transfer PASS, integrity FAIL
+  preserved walking-pod-consumer-channel-scale=2/5 transfer FAIL, integrity PASS
+  python3 -m unittest discover -s tests -p 'test_*.py'
+  Ran 120 tests
+  OK
+  copyright scan: normalized 20/30/40-token corpus matches=0/0/0
+  git diff --check: passed
+  ```
+
+- Remaining work: publish this verified milestone, then build the remaining `14`
+  skills sequentially beginning with `designing-business-models`; finish the
+  cross-skill final review, README catalog, and clean/pushed repository-wide gate.
+- Blockers: none.

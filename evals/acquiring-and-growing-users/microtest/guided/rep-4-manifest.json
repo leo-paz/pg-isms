@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "variant": "guided",
+  "rep": 4,
+  "canonical_agent_task": "/root/growth_micro_orchestrator/guided_4",
+  "model_identity": "GPT-5",
+  "generated_at": "2026-07-14T18:19:34Z",
+  "prompt": "A nine-person scheduling startup has six multi-site dental groups paying for pilots. Founder-led outreach and onboarding produced all six. At the pilot sites, 70% of invited office managers start setup, 35% complete the practice-management integration, and 22% still schedule through the product in week eight. The two retained groups refer peers and praise the support, but the four others report integration delays and confusing setup. A reseller offers access to 400 dental groups if the startup commits to a trade-show launch and reseller campaign next month; price and reseller economics are not settled. Procurement and integration take six to eight weeks. The CEO wants to accept, hire three salespeople, and optimize demos. Give a 60-day acquisition, activation, retention, and ownership plan.",
+  "skill_sha256": "8d0a3145d9957bd16cfcd1130f9bb64af84f7ee7535ce1516b39d8530a981da4",
+  "response_sha256": "75cb56a485e84f42c9ea4f867ed7d50ba5e4970ad44244ee0c1097416acae537"
+}
