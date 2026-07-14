@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "skill_name": "building-startup-ecosystems",
+  "case_id": "industrial-software-anchor-access",
+  "scorer_id": "ecosystems-heldout-9c90-scorer",
+  "score": 4,
+  "max_score": 5,
+  "pass": true,
+  "heldout_after_skill_sha256": "9c90b05a4dc1c569fe63a03b5c41f7467b02d0b5872717d88f92badc3a000770",
+  "response_sha256": "479f7996f898c31d0c41410fd0d7dd13a5f24efb6e8f663b76f3aad96f4f8364",
+  "integrity_checks": {
+    "skill_hash_matches": true,
+    "case_authored_after_skill_freeze": true,
+    "canonical_tasks_distinct": true,
+    "criteria_hidden_during_generation": true,
+    "response_frozen_before_scoring": true,
+    "response_hash_matches": true,
+    "response_header_valid": true,
+    "response_whitespace_valid": true
+  }
+}

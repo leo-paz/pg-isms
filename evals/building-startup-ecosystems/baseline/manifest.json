@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "skill_name": "building-startup-ecosystems",
+  "phase": "baseline",
+  "reviewer_id": "ecosystems-baseline-001",
+  "canonical_agent_task": "/root/baseline_building_ecosystems",
+  "generated_at": "2026-07-14T11:54:32Z",
+  "model_identity": "OpenAI GPT-5 Codex",
+  "dispatch_prompt": "Generate independent no-skill responses from the mechanically projected case identifiers, types, and prompts only.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "no-skill",
+    "skill_sha256": null
+  },
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "accelerator-location-composition": "52ea4a5f51c0c9972e66bd91a92a668f78e64599bdc9df463c8576c8f48ff473",
+    "founder-relocation-non-trigger": "b612825cff5981f2aa1684a1830132678d22330faefa0d02728b50cc00fb2a02",
+    "mayor-office-park-trigger": "4fae51c408e7cae03932bedb8291594c5284217189124d88a4aced9a33070466",
+    "residency-lock-condition": "ccbf232222b79971f06d30e84f14cb0bffd8d87cd39e5f1d4507988d02785d33",
+    "university-founder-formation": "66f2eeabc8ecd361731e982cfc6bfc1197182d125bab4be002fb8970b197539c"
+  }
+}

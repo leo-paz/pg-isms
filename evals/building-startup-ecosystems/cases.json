@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "mayor-office-park-trigger",
+      "type": "trigger",
+      "prompt": "A mayor has an empty office park, a five-year budget, and a mandate to create a startup hub. The city has never measured founder formation, early capital, talent flows, university spinouts, or company leakage. Decide what job should be done first and produce a defensible first-year plan.",
+      "criteria": [
+        "Recognizes this as an ecosystem-level diagnosis and intervention problem rather than a real-estate or branding project.",
+        "Refuses to copy visible hub artifacts before identifying the local limiting reagent.",
+        "Measures founder, investor, peer, talent, institutional, and leakage conditions before choosing an intervention.",
+        "Uses the office park only if evidence connects it to the diagnosed constraint.",
+        "Defines a bounded first-year experiment inside a multi-year review horizon."
+      ]
+    },
+    {
+      "id": "founder-relocation-non-trigger",
+      "type": "non-trigger",
+      "prompt": "One six-person robotics startup is deciding whether to move from Cleveland to Boston to recruit controls engineers and reach customers. Give the primary route for this request and the next decision artifact.",
+      "criteria": [
+        "Does not turn one active team's location choice into a regional ecosystem plan.",
+        "Routes primary ownership to preparing-to-found or its team-location decision workflow.",
+        "Names the access mechanism the team needs now rather than praising hubs generically.",
+        "Accounts for company-specific industry, customer, talent, cost, and relocation burdens.",
+        "Uses a reversible location/access test and a dated decision gate."
+      ]
+    },
+    {
+      "id": "university-founder-formation",
+      "type": "application",
+      "prompt": "A research university wants more durable founder formation but currently proposes a glossy incubator, pitch competitions, and compulsory entrepreneurship classes. Design a two-year program that avoids startup theater.",
+      "criteria": [
+        "Diagnoses whether founders, ambitious peers, commercialization pathways, early investors, talent, or institutional rules are binding before selecting programs.",
+        "Prioritizes real maker ownership, demanding shared work, user contact, or company formation over appearances and compulsory performance.",
+        "Uses opt-in experiments and selection based on demonstrated work rather than credentials or pitch polish.",
+        "Names owners, cohorts, leading indicators, outcome measures, and stop/change rules.",
+        "Separates university-controllable mechanisms from long-horizon regional outcomes."
+      ]
+    },
+    {
+      "id": "residency-lock-condition",
+      "type": "condition",
+      "prompt": "A state fund says local startups take its grants and then move away. It proposes a ten-year founder residency requirement and local-only hiring rule. Decide whether to adopt the policy and design a better test if needed.",
+      "criteria": [
+        "Rejects retention rules that would damage healthy founder mobility, outside customer access, or talent networks.",
+        "Distinguishes founder, company, job, capital, and network leakage instead of treating all movement as failure.",
+        "Identifies the measured local bottleneck causing avoidable leakage before prescribing a remedy.",
+        "Proposes a time-bounded connective or bottleneck experiment without coercive isolation.",
+        "Defines multi-year net measures and explicit adopt/change/stop conditions."
+      ]
+    },
+    {
+      "id": "accelerator-location-composition",
+      "type": "edge",
+      "prompt": "A regional accelerator funded by a city wants every cohort company to relocate for nine months so public money creates local impact. The cohort spans biotech, remote SaaS, founders with children, and visa holders. Produce one policy recommendation and the correct ordered composition of startup workflows.",
+      "criteria": [
+        "Makes ecosystem building primary for the regional program intervention and refuses an automatic relocation mandate.",
+        "Diagnoses the regional objective and limiting reagent before choosing local-impact mechanisms.",
+        "Designs program-level incentives, access, or measurement separately from company-level location decisions.",
+        "Hands each active team to preparing-to-found for an industry- and constraint-specific location decision after program design.",
+        "Uses a bounded policy experiment with local network/outcome measures, full relocation costs, and a revisit date."
+      ]
+    }
+  ]
+}

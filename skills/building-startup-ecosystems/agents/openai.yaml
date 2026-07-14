@@ -1,0 +1,4 @@
+interface:
+  display_name: "Building Startup Ecosystems"
+  short_description: "Diagnose and strengthen startup ecosystems"
+  default_prompt: "Use $building-startup-ecosystems to diagnose the regional constraint and design a measurable ecosystem intervention."

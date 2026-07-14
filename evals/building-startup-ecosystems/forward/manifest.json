@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "skill_name": "building-startup-ecosystems",
+  "phase": "forward",
+  "reviewer_id": "ecosystems-forward-9c90-001",
+  "canonical_agent_task": "/root/ecosystems_forward_9c90_final",
+  "generated_at": "2026-07-14T13:02:41Z",
+  "model_identity": "gpt-5",
+  "dispatch_prompt": "Generate five blind forward responses using only the frozen skill and supplied case prompts.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "9c90b05a4dc1c569fe63a03b5c41f7467b02d0b5872717d88f92badc3a000770"
+  },
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "mayor-office-park-trigger": "1ed7a6950f4d59f3b15120bb8e333636a314531af541fd7e9b2a81e453706902",
+    "founder-relocation-non-trigger": "26db502df266ed0dcd00f83358d0eb7211da7d64acc47f28ace44a29d866a26a",
+    "university-founder-formation": "25b65999617627b191d15c0db7dae3eb2066f26b569f7f7affd7d5e4652cfaa7",
+    "residency-lock-condition": "a5e55376de85ec9dc1cb7259bdd213a8f33d5ba71302b5dec87550015677e09e",
+    "accelerator-location-composition": "97ac9b77580634e2c26a35c678e0c04df8d658189041c093c1df26c1773cc819"
+  }
+}

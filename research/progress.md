@@ -503,3 +503,56 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
   cross-skill final review, README catalog, and clean/pushed repository-wide final
   gate.
 - Blockers: none.
+
+## Checkpoint 4 skill 2 verified: `building-startup-ecosystems`
+
+- RED used five fresh no-skill cases spanning a regional trigger, single-team
+  non-trigger, university program, coercive residency condition, and the required
+  A3 ecosystem-to-team composition. The frozen baseline scored `17/25` (`0.68`).
+- Three independent source agents re-read all `19` assigned essays. Their `31`
+  claim/theme records produce byte-current provenance for all `19` essays and all
+  `3` owned themes. Source re-review corrected overstatements, separated voluntary
+  attraction from coercive retention, and approved the final scope at SHA-256
+  `9c90b05a4dc1c569fe63a03b5c41f7467b02d0b5872717d88f92badc3a000770`.
+- The official initializer created the package. The final `SKILL.md` is `497` words;
+  official validation passes, `agents/openai.yaml` was regenerated from the frozen
+  file, and the provenance check reports `19` essays and `3` themes.
+- RED-GREEN wording tests used five control and five guided single-shot contexts.
+  Several hash-pinned iterations exposed an initially overbroad cohort gate and a
+  repeated tendency to assume a cause. The final honest scores are control
+  `[0, 0, 0, 0, 0]` and guided `[4, 4, 4, 4, 3]`, a normalized `+0.76`
+  improvement with ten unique tasks and byte-matching responses. The systematic
+  exact-three-hypothesis miss remains disclosed as a regression target; no score or
+  rubric was weakened to hide it.
+- The final blind five-case forward run used the frozen skill and hidden criteria.
+  Independent scoring reports `24/25` (`0.96`), a `+0.28` improvement over the
+  baseline. The only withheld point is an accelerator response lacking an actual
+  revisit date and full relocation-cost accounting.
+- A wholly new industrial-software case was authored after the final skill hash,
+  generated blind, and scored by a third task. It passes `4/5`, exercising rival
+  causal hypotheses and the population-wide-friction versus targeted-allocation
+  boundary; the missing operational budget cap remains failed.
+- Independent final review reports no Critical or Important findings and
+  `Ready to commit: Yes`. It treats the disclosed wording variance as Minor because
+  the skill explicitly requires discriminating hypotheses and both forward and
+  held-out transfer evidence exercise the behavior without inflated scoring.
+- Verification:
+
+  ```text
+  Skill is valid!
+  skill provenance check: essays=19 themes=3
+  taxonomy validation passed: corpus_files=223 classified=223 relevant_essays=209 uncovered_relevant=0 orphan_skills=0
+  baseline normalized_score=0.68; forward normalized_score=0.96
+  microtest control=0/25; guided=19/25; normalized_delta=0.76
+  heldout industrial-software-anchor-access=4/5 PASS
+  python3 -m unittest discover -s tests
+  Ran 120 tests
+  OK
+  copyright scan: normalized 40-token corpus matches=0
+  git diff --check: passed
+  ```
+
+- Remaining work: publish this verified milestone, then build the remaining `19`
+  skills sequentially beginning with `choosing-startup-opportunities`; finish the
+  cross-skill final review, README catalog, and clean/pushed repository-wide gate.
+- Blockers: none.

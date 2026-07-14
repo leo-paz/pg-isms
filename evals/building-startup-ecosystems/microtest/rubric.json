@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_name": "building-startup-ecosystems",
+  "prompt": "A university president has $4 million and wants more durable startups. She proposes a compulsory entrepreneurship course, a pitch contest, and a branded incubator. Spinout formation is low, faculty IP approval takes eighteen months, many ambitious students leave the city, and there are almost no early investors. Give one two-year recommendation.",
+  "repetitions_per_variant": 5,
+  "criteria": [
+    "Rejects the proposed course, contest, and incubator as defaults and makes limiting-reagent diagnosis the first job.",
+    "Uses the stated IP delay, founder outflow, and early-investor scarcity as competing hypotheses to measure rather than assuming one cause.",
+    "Before a targeted hub, attraction, or cohort allocation, applies controllability, credible selection or reach, community density, and local-precondition gates; otherwise explicitly chooses bounded diagnostic, general-friction, or outside-link work and explains why cohort gates are inapplicable.",
+    "Defines a bounded two-year experiment with an owner, target population, comparison, mechanism evidence, multi-year outcomes, stop/change/expand rules, and a selection rule when the work is targeted.",
+    "Separates university-controllable changes from hub outcomes while preserving outside networks and founder mobility."
+  ],
+  "scoring": "Award one point per criterion only when operationalized. Compare mean score and all-criteria pass rate across five control and five guided single-shot responses."
+}

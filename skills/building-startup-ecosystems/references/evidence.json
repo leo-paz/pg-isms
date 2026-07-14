@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "skill_name": "building-startup-ecosystems",
+  "records": [
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "014",
+      "reviewer": "ecosystems-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "regional-ecosystem-density",
+          "line_ranges": [
+            "158-166"
+          ],
+          "claim": "Creative output rises when a place concentrates capable people tackling related problems; innate ability alone does not substitute for proximity to an active peer cluster."
+        },
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "158-166"
+          ],
+          "claim": "Ecosystem builders should treat hotspots as interacting communities rather than isolated talent pools, because distance from active centers sharply limits otherwise strong contributors."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "049",
+      "reviewer": "ecosystems-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "72-78"
+          ],
+      "claim": "The essay argues that capped outcomes reduce willingness to fund and found risky companies, and hypothesizes that the most uncertain startups would disappear first."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "051",
+      "reviewer": "ecosystems-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "50-64"
+          ],
+          "claim": "Idea-producing ecosystems combine exposure to emerging technology with trusted peers who can challenge and refine nascent concepts; universities are one implementation, not the only one."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "057",
+      "reviewer": "ecosystems-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "18-22"
+          ],
+          "claim": "Search for a formation bottleneck where a small, precisely targeted intervention can activate many capable would-be founders and produce companies that otherwise would not form."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "062",
+      "reviewer": "ecosystems-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "regional-ecosystem-density",
+          "line_ranges": [
+            "26-40"
+          ],
+          "claim": "A technology region needs both capable builders and experienced startup investors who contribute selection judgment, counsel, connections, and attentive capital."
+        },
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "114-124"
+          ],
+          "claim": "A durable hub compounds over years as employees become founders and successful founders become investors; initial expert density must cross a self-sustaining threshold."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "063",
+      "reviewer": "ecosystems-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "ecosystem-policy-and-institutions",
+          "line_ranges": [
+            "84-94"
+          ],
+          "claim": "Test policy by replaying real founding histories under local rules, then remove incorporation, zoning, or compliance barriers that would eliminate fragile early companies."
+        },
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "106-112"
+          ],
+          "claim": "Early founders who remain after success seed later companies with angel capital and encouragement, creating an organic flywheel whose cycle should be measured in years."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "069",
+      "reviewer": "ecosystems-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "regional-ecosystem-density",
+          "line_ranges": [
+            "30-36"
+          ],
+          "claim": "Regional density improves a startup's access to specialized expertise, recruits, supporting services, sympathetic norms, and high-value chance encounters."
+        },
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "30-36"
+          ],
+          "claim": "The sharp geographic falloff in startup formation indicates that hub conditions combine to materially affect company survival and growth."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "084",
+      "reviewer": "ecosystems-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "84-98"
+          ],
+          "claim": "Low startup costs permit formation almost anywhere, yet in-person knowledge exchange and investor access can still improve outcomes; highly mobile seed teams may therefore strengthen established hubs while draining would-be regional centers."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "085",
+      "reviewer": "ecosystems-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "regional-ecosystem-density",
+          "line_ranges": [
+            "24-26",
+            "52-58"
+          ],
+          "claim": "Regional advantage increases with accumulated startup know-how, specialized participants, and concentrated face-to-face market activity rather than appearing only at a single threshold."
+        },
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "40-58"
+          ],
+          "claim": "A strong hub combines investors able to assess unusual opportunities with a dense specialist market, so ecosystem quality includes judgment and operating knowledge as well as capital supply."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "096",
+      "reviewer": "ecosystems-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "regional-ecosystem-density",
+          "line_ranges": [
+            "54-60",
+            "96-104"
+          ],
+          "claim": "Concentrated peers and an interested audience provide encouragement and discovery channels that are difficult to recreate in fields where talent and new work are hard to evaluate."
+        },
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "24-30",
+            "54-60"
+          ],
+          "claim": "Local norms materially shape sustained ambition, so an ecosystem must make startup work socially valued rather than expect isolated founders to overcome persistent indifference."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "101",
+      "reviewer": "ecosystems-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "48-48",
+            "50-56"
+          ],
+      "claim": "Startup methods flourish less readily where institutions and social norms resist autonomous, measurable small teams, even when the technical model is understood."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "107",
+      "reviewer": "ecosystems-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "ecosystem-policy-and-institutions",
+          "line_ranges": [
+            "42-50",
+            "56-64"
+          ],
+          "claim": "Public programs that cannot evaluate startups should borrow credible specialist selection, test a bounded cohort, preserve founder autonomy, and avoid ceremonial infrastructure or restrictive program rules."
+        },
+        {
+          "canonical_theme": "regional-ecosystem-density",
+          "line_ranges": [
+            "28-38",
+            "56-60",
+            "78-80"
+          ],
+      "claim": "Regional startup density can reinforce itself: a deliberate experiment must be large enough to form a functioning community and must account for local conditions."
+        },
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "16-24",
+            "46-50"
+          ],
+          "claim": "Creating more startups differs from anchoring them locally because young teams are mobile; retention mandates select weaker applicants, while missing local investor expertise creates a reinforcing ecosystem bottleneck."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "112",
+      "reviewer": "ecosystems-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "ecosystem-policy-and-institutions",
+          "line_ranges": [
+            "12-24"
+          ],
+          "claim": "Policy should target the binding constraint on company formation, use recognized private investors as an eligibility signal when government lacks selection expertise, and begin with a limited, measurable trial."
+        },
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "14-18"
+          ],
+          "claim": "Immigration restrictions can shrink the available founder pool and suppress new-company formation, including the downstream employment those companies could generate."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "114",
+      "reviewer": "ecosystems-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "regional-ecosystem-density",
+          "line_ranges": [
+            "32-38"
+          ],
+          "claim": "Model a prospective hub as a threshold system: founders, investors, and strong institutions must reinforce one another while established centers compete for the best new companies."
+        },
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "26-30"
+          ],
+          "claim": "Treat startup formation as a social-capability problem requiring local expertise, not as infrastructure that policy or fast communication can reproduce on command."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "139",
+      "reviewer": "ecosystems-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "regional-ecosystem-density",
+          "line_ranges": [
+            "58-64"
+          ],
+          "claim": "Build enough participant density and variety that founders encounter specialized help and the community's ambitions become a supportive local norm."
+        },
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "24-32",
+            "36-50"
+          ],
+          "claim": "Diagnose a hub by its people-driven mechanisms: social permission makes founding feel plausible, while repeated informal encounters connect teams with unusually relevant help."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "162",
+      "reviewer": "ecosystems-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "24-28"
+          ],
+          "claim": "Keep access open to exceptional international talent because strong peers attract one another and can compound into a dominant technical cluster."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "165",
+      "reviewer": "ecosystems-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "22-32"
+          ],
+      "claim": "In a connected, transparent, unpredictable network, information about mistreatment travels and consistent conduct earns durable trust."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "176",
+      "reviewer": "ecosystems-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "ecosystem-policy-and-institutions",
+          "line_ranges": [
+            "36-40",
+            "52-66"
+          ],
+          "claim": "Remove concrete city friction for talent-attracting amenities, make universities excellent talent magnets, preserve room for side projects, and tolerate unconventional people instead of staging generic entrepreneurship programs."
+        },
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "24-30",
+            "74-80"
+          ],
+          "claim": "Confirm a young-talent foothold, then cultivate a patient flywheel in which companies remain locally, successful founders become investors, and the investor base grows organically."
+        }
+      ]
+    },
+    {
+      "skill_name": "building-startup-ecosystems",
+      "article_no": "198",
+      "reviewer": "ecosystems-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-ecosystems-and-hubs",
+          "line_ranges": [
+            "226-230",
+            "240-242"
+          ],
+          "claim": "Build founder-support institutions from problems founders have experienced directly, then use cohorts and alumni networks to reduce isolation, share assistance, and seed customer relationships."
+        }
+      ]
+    }
+  ]
+}

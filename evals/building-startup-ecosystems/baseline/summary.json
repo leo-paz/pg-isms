@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "skill_name": "building-startup-ecosystems",
+  "phase": "baseline",
+  "reviewer_id": "ecosystems-baseline-001",
+  "case_results": [
+    {
+      "case_id": "mayor-office-park-trigger",
+      "score": 3,
+      "max_score": 5,
+      "raw_output": "mayor-office-park-trigger.md"
+    },
+    {
+      "case_id": "founder-relocation-non-trigger",
+      "score": 5,
+      "max_score": 5,
+      "raw_output": "founder-relocation-non-trigger.md"
+    },
+    {
+      "case_id": "university-founder-formation",
+      "score": 2,
+      "max_score": 5,
+      "raw_output": "university-founder-formation.md"
+    },
+    {
+      "case_id": "residency-lock-condition",
+      "score": 4,
+      "max_score": 5,
+      "raw_output": "residency-lock-condition.md"
+    },
+    {
+      "case_id": "accelerator-location-composition",
+      "score": 3,
+      "max_score": 5,
+      "raw_output": "accelerator-location-composition.md"
+    }
+  ],
+  "total_score": 17,
+  "total_max_score": 25,
+  "normalized_score": 0.68
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "industrial-software-anchor-access",
+  "authored_by": "/root/ecosystems_heldout_9c90_author",
+  "authored_at": "2026-07-14T13:02:32Z",
+  "heldout_after_skill_sha256": "9c90b05a4dc1c569fe63a03b5c41f7467b02d0b5872717d88f92badc3a000770",
+  "prompt": "A former manufacturing city has $12 million for a four-year industrial-software startup initiative. Its engineering university graduates 1,200 students a year, but annual local startup formation has stayed near eleven companies. Half of the teams that raise seed rounds move their headquarters, usually after an outside investor joins. Local angels say there are too few investable teams; founders say the region's large manufacturers take nine months to approve a new software vendor; university leaders say graduates cannot find ambitious peers; and city staff count investor introductions but have not tracked whether they lead to diligence, investment, customers, or durable relationships. The mayor proposes a 'Founders Stay Here Fund': economic-development generalists would select twenty local-office companies for grants, require founders and headquarters to remain for five years, and organize monthly downtown demo days. Give the mayor one decision response. Decide what can start population-wide now, what evidence would distinguish the plausible causes of the symptoms, and what must be true before any later targeted or eligibility-limited allocation.",
+  "criteria": [
+    "Treats the observed symptoms as at least three rival causal hypotheses—such as anchor-customer access, investor expertise or outside links, founder or peer supply, and post-financing mobility—and pairs each named hypothesis with a discriminating measure that could change the diagnosis instead of declaring one limiting reagent from anecdotes.",
+    "Starts only a bounded, population-wide diagnostic, general-friction, or outside-link intervention that is open beyond a selected cohort; names its owner, budget or budget cap, duration, comparison, and mechanism/outcome measures; and explicitly explains why cohort gates are inapplicable to that first phase.",
+    "Defers the proposed fund and any other targeted or eligibility-limited allocation until it separately records all four gates: a controllable constraint, credible selection or reach, sufficient community interaction or density, and local preconditions; refuses allocation when any gate is unsupported rather than treating activity or branding as proof.",
+    "Rejects the five-year founder and headquarters lock, distinguishes company relocation from jobs, capital, customer access, and durable relationships, and preserves voluntary mobility and outside networks while specifying how leakage will be measured.",
+    "Returns an executable decision record with dated multi-year formation, survival, growth, and flow outcomes plus separate stop, change, expand, and remeasure rules; attendance, demo days, introductions, office occupancy, and one cohort do not count as ecosystem success by themselves."
+  ]
+}

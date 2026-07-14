@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "variant": "control",
+  "rep": 4,
+  "canonical_agent_task": "/root/ecosystems_micro_control_4",
+  "model_identity": "OpenAI GPT-5 Codex",
+  "generated_at": "2026-07-14T11:59:23Z",
+  "skill_sha256": null,
+  "prompt": "A university president has $4 million and wants more durable startups. She proposes a compulsory entrepreneurship course, a pitch contest, and a branded incubator. Spinout formation is low, faculty IP approval takes eighteen months, many ambitious students leave the city, and there are almost no early investors. Give one two-year recommendation.",
+  "response_sha256": "ab8f06f0c0d11a1cb44821f41f178897183a84a4a563a94869bf1a0e1e5e8944"
+}
