@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "pg-isms essay audit record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "article_no",
+    "title",
+    "source_url",
+    "corpus_path",
+    "classification",
+    "exclusion_reason",
+    "themes",
+    "candidate_workflows",
+    "final_skills",
+    "evidence_line_ranges",
+    "review_batch",
+    "reviewer",
+    "full_text_read"
+  ],
+  "properties": {
+    "article_no": {
+      "type": "string",
+      "pattern": "^\\d{3}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_url": {
+      "type": "string",
+      "pattern": "^https?://"
+    },
+    "corpus_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "classification": {
+      "type": "string",
+      "enum": [
+        "core startup",
+        "supporting startup",
+        "excluded"
+      ]
+    },
+    "exclusion_reason": {
+      "type": "string"
+    },
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "candidate_workflows": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "final_skills": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "evidence_line_ranges": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^\\d+-\\d+$"
+      }
+    },
+    "review_batch": {
+      "type": "string",
+      "pattern": "^batch-\\d{2}$"
+    },
+    "reviewer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "full_text_read": {
+      "const": true
+    }
+  }
+}

@@ -1,0 +1,1344 @@
+{
+  "schema_version": 1,
+  "document_count": 223,
+  "essays": [
+    {
+      "article_no": "001",
+      "title": "This Year We Can End the Death Penalty in California",
+      "source_url": "https://paulgraham.com/prop62.html",
+      "corpus_path": "001_this-year-we-can-end-the-death-penalty-in-california.md"
+    },
+    {
+      "article_no": "002",
+      "title": "Programming Bottom-Up",
+      "source_url": "https://paulgraham.com/progbot.html",
+      "corpus_path": "002_programming-bottom-up.md"
+    },
+    {
+      "article_no": "003",
+      "title": "Chapter 2 of Ansi Common Lisp",
+      "source_url": "https://sep.turbifycdn.com/ty/cdn/paulgraham/acl2.txt?t=1720874326&",
+      "corpus_path": "003_chapter-2-of-ansi-common-lisp.md"
+    },
+    {
+      "article_no": "004",
+      "title": "Chapter 1 of Ansi Common Lisp",
+      "source_url": "https://sep.turbifycdn.com/ty/cdn/paulgraham/acl1.txt?t=1720874326&",
+      "corpus_path": "004_chapter-1-of-ansi-common-lisp.md"
+    },
+    {
+      "article_no": "005",
+      "title": "Lisp for Web-Based Applications",
+      "source_url": "https://paulgraham.com/lwba.html",
+      "corpus_path": "005_lisp-for-web-based-applications.md"
+    },
+    {
+      "article_no": "006",
+      "title": "Beating the Averages",
+      "source_url": "https://paulgraham.com/avg.html",
+      "corpus_path": "006_beating-the-averages.md"
+    },
+    {
+      "article_no": "007",
+      "title": "Java's Cover",
+      "source_url": "https://paulgraham.com/javacover.html",
+      "corpus_path": "007_java-s-cover.md"
+    },
+    {
+      "article_no": "008",
+      "title": "Being Popular",
+      "source_url": "https://paulgraham.com/popular.html",
+      "corpus_path": "008_being-popular.md"
+    },
+    {
+      "article_no": "009",
+      "title": "Five Questions about Language Design",
+      "source_url": "https://paulgraham.com/langdes.html",
+      "corpus_path": "009_five-questions-about-language-design.md"
+    },
+    {
+      "article_no": "010",
+      "title": "The Roots of Lisp",
+      "source_url": "https://paulgraham.com/rootsoflisp.html",
+      "corpus_path": "010_the-roots-of-lisp.md"
+    },
+    {
+      "article_no": "011",
+      "title": "The Other Road Ahead",
+      "source_url": "https://paulgraham.com/road.html",
+      "corpus_path": "011_the-other-road-ahead.md"
+    },
+    {
+      "article_no": "012",
+      "title": "What Made Lisp Different",
+      "source_url": "https://paulgraham.com/diff.html",
+      "corpus_path": "012_what-made-lisp-different.md"
+    },
+    {
+      "article_no": "013",
+      "title": "Why Arc Isn't Especially Object-Oriented",
+      "source_url": "https://paulgraham.com/noop.html",
+      "corpus_path": "013_why-arc-isn-t-especially-object-oriented.md"
+    },
+    {
+      "article_no": "014",
+      "title": "Taste for Makers",
+      "source_url": "https://paulgraham.com/taste.html",
+      "corpus_path": "014_taste-for-makers.md"
+    },
+    {
+      "article_no": "015",
+      "title": "What Languages Fix",
+      "source_url": "https://paulgraham.com/fix.html",
+      "corpus_path": "015_what-languages-fix.md"
+    },
+    {
+      "article_no": "016",
+      "title": "Succinctness is Power",
+      "source_url": "https://paulgraham.com/power.html",
+      "corpus_path": "016_succinctness-is-power.md"
+    },
+    {
+      "article_no": "017",
+      "title": "Revenge of the Nerds",
+      "source_url": "https://paulgraham.com/icad.html",
+      "corpus_path": "017_revenge-of-the-nerds.md"
+    },
+    {
+      "article_no": "018",
+      "title": "A Plan for Spam",
+      "source_url": "https://paulgraham.com/spam.html",
+      "corpus_path": "018_a-plan-for-spam.md"
+    },
+    {
+      "article_no": "019",
+      "title": "Design and Research",
+      "source_url": "https://paulgraham.com/desres.html",
+      "corpus_path": "019_design-and-research.md"
+    },
+    {
+      "article_no": "020",
+      "title": "Better Bayesian Filtering",
+      "source_url": "https://paulgraham.com/better.html",
+      "corpus_path": "020_better-bayesian-filtering.md"
+    },
+    {
+      "article_no": "021",
+      "title": "Why Nerds are Unpopular",
+      "source_url": "https://paulgraham.com/nerds.html",
+      "corpus_path": "021_why-nerds-are-unpopular.md"
+    },
+    {
+      "article_no": "022",
+      "title": "The Hundred-Year Language",
+      "source_url": "https://paulgraham.com/hundred.html",
+      "corpus_path": "022_the-hundred-year-language.md"
+    },
+    {
+      "article_no": "023",
+      "title": "If Lisp is So Great",
+      "source_url": "https://paulgraham.com/iflisp.html",
+      "corpus_path": "023_if-lisp-is-so-great.md"
+    },
+    {
+      "article_no": "024",
+      "title": "Hackers and Painters",
+      "source_url": "https://paulgraham.com/hp.html",
+      "corpus_path": "024_hackers-and-painters.md"
+    },
+    {
+      "article_no": "025",
+      "title": "Filters that Fight Back",
+      "source_url": "https://paulgraham.com/ffb.html",
+      "corpus_path": "025_filters-that-fight-back.md"
+    },
+    {
+      "article_no": "026",
+      "title": "What You Can't Say",
+      "source_url": "https://paulgraham.com/say.html",
+      "corpus_path": "026_what-you-can-t-say.md"
+    },
+    {
+      "article_no": "027",
+      "title": "The Word \"Hacker\"",
+      "source_url": "https://paulgraham.com/gba.html",
+      "corpus_path": "027_the-word-hacker.md"
+    },
+    {
+      "article_no": "028",
+      "title": "How to Make Wealth",
+      "source_url": "https://paulgraham.com/wealth.html",
+      "corpus_path": "028_how-to-make-wealth.md"
+    },
+    {
+      "article_no": "029",
+      "title": "Mind the Gap",
+      "source_url": "https://paulgraham.com/gap.html",
+      "corpus_path": "029_mind-the-gap.md"
+    },
+    {
+      "article_no": "030",
+      "title": "Great Hackers",
+      "source_url": "https://paulgraham.com/gh.html",
+      "corpus_path": "030_great-hackers.md"
+    },
+    {
+      "article_no": "031",
+      "title": "The Python Paradox",
+      "source_url": "https://paulgraham.com/pypar.html",
+      "corpus_path": "031_the-python-paradox.md"
+    },
+    {
+      "article_no": "032",
+      "title": "The Age of the Essay",
+      "source_url": "https://paulgraham.com/essay.html",
+      "corpus_path": "032_the-age-of-the-essay.md"
+    },
+    {
+      "article_no": "033",
+      "title": "What the Bubble Got Right",
+      "source_url": "https://paulgraham.com/bubble.html",
+      "corpus_path": "033_what-the-bubble-got-right.md"
+    },
+    {
+      "article_no": "034",
+      "title": "A Version 1.0",
+      "source_url": "https://paulgraham.com/laundry.html",
+      "corpus_path": "034_a-version-1-0.md"
+    },
+    {
+      "article_no": "035",
+      "title": "Bradley's Ghost",
+      "source_url": "https://paulgraham.com/polls.html",
+      "corpus_path": "035_bradley-s-ghost.md"
+    },
+    {
+      "article_no": "036",
+      "title": "It's Charisma, Stupid",
+      "source_url": "https://paulgraham.com/charisma.html",
+      "corpus_path": "036_it-s-charisma-stupid.md"
+    },
+    {
+      "article_no": "037",
+      "title": "Made in USA",
+      "source_url": "https://paulgraham.com/usa.html",
+      "corpus_path": "037_made-in-usa.md"
+    },
+    {
+      "article_no": "038",
+      "title": "What You'll Wish You'd Known",
+      "source_url": "https://paulgraham.com/hs.html",
+      "corpus_path": "038_what-you-ll-wish-you-d-known.md"
+    },
+    {
+      "article_no": "039",
+      "title": "How to Start a Startup",
+      "source_url": "https://paulgraham.com/start.html",
+      "corpus_path": "039_how-to-start-a-startup.md"
+    },
+    {
+      "article_no": "040",
+      "title": "A Unified Theory of VC Suckage",
+      "source_url": "https://paulgraham.com/venturecapital.html",
+      "corpus_path": "040_a-unified-theory-of-vc-suckage.md"
+    },
+    {
+      "article_no": "041",
+      "title": "Undergraduation",
+      "source_url": "https://paulgraham.com/college.html",
+      "corpus_path": "041_undergraduation.md"
+    },
+    {
+      "article_no": "042",
+      "title": "Writing, Briefly",
+      "source_url": "https://paulgraham.com/writing44.html",
+      "corpus_path": "042_writing-briefly.md"
+    },
+    {
+      "article_no": "043",
+      "title": "Return of the Mac",
+      "source_url": "https://paulgraham.com/mac.html",
+      "corpus_path": "043_return-of-the-mac.md"
+    },
+    {
+      "article_no": "044",
+      "title": "Why Smart People Have Bad Ideas",
+      "source_url": "https://paulgraham.com/bronze.html",
+      "corpus_path": "044_why-smart-people-have-bad-ideas.md"
+    },
+    {
+      "article_no": "045",
+      "title": "The Submarine",
+      "source_url": "https://paulgraham.com/submarine.html",
+      "corpus_path": "045_the-submarine.md"
+    },
+    {
+      "article_no": "046",
+      "title": "Hiring is Obsolete",
+      "source_url": "https://paulgraham.com/hiring.html",
+      "corpus_path": "046_hiring-is-obsolete.md"
+    },
+    {
+      "article_no": "047",
+      "title": "What Business Can Learn from Open Source",
+      "source_url": "https://paulgraham.com/opensource.html",
+      "corpus_path": "047_what-business-can-learn-from-open-source.md"
+    },
+    {
+      "article_no": "048",
+      "title": "After the Ladder",
+      "source_url": "https://paulgraham.com/ladder.html",
+      "corpus_path": "048_after-the-ladder.md"
+    },
+    {
+      "article_no": "049",
+      "title": "Inequality and Risk",
+      "source_url": "https://paulgraham.com/inequality.html",
+      "corpus_path": "049_inequality-and-risk.md"
+    },
+    {
+      "article_no": "050",
+      "title": "What I Did this Summer",
+      "source_url": "https://paulgraham.com/sfp.html",
+      "corpus_path": "050_what-i-did-this-summer.md"
+    },
+    {
+      "article_no": "051",
+      "title": "Ideas for Startups",
+      "source_url": "https://paulgraham.com/ideas.html",
+      "corpus_path": "051_ideas-for-startups.md"
+    },
+    {
+      "article_no": "052",
+      "title": "The Venture Capital Squeeze",
+      "source_url": "https://paulgraham.com/vcsqueeze.html",
+      "corpus_path": "052_the-venture-capital-squeeze.md"
+    },
+    {
+      "article_no": "053",
+      "title": "How to Fund a Startup",
+      "source_url": "https://paulgraham.com/startupfunding.html",
+      "corpus_path": "053_how-to-fund-a-startup.md"
+    },
+    {
+      "article_no": "054",
+      "title": "Web 2.0",
+      "source_url": "https://paulgraham.com/web20.html",
+      "corpus_path": "054_web-2-0.md"
+    },
+    {
+      "article_no": "055",
+      "title": "Good and Bad Procrastination",
+      "source_url": "https://paulgraham.com/procrastination.html",
+      "corpus_path": "055_good-and-bad-procrastination.md"
+    },
+    {
+      "article_no": "056",
+      "title": "How to Do What You Love",
+      "source_url": "https://paulgraham.com/love.html",
+      "corpus_path": "056_how-to-do-what-you-love.md"
+    },
+    {
+      "article_no": "057",
+      "title": "Why YC",
+      "source_url": "https://paulgraham.com/whyyc.html",
+      "corpus_path": "057_why-yc.md"
+    },
+    {
+      "article_no": "058",
+      "title": "6,631,372",
+      "source_url": "https://paulgraham.com/6631327.html",
+      "corpus_path": "058_6-631-372.md"
+    },
+    {
+      "article_no": "059",
+      "title": "Are Software Patents Evil?",
+      "source_url": "https://paulgraham.com/softwarepatents.html",
+      "corpus_path": "059_are-software-patents-evil.md"
+    },
+    {
+      "article_no": "060",
+      "title": "See Randomness",
+      "source_url": "https://paulgraham.com/randomness.html",
+      "corpus_path": "060_see-randomness.md"
+    },
+    {
+      "article_no": "061",
+      "title": "The Hardest Lessons for Startups to Learn",
+      "source_url": "https://paulgraham.com/startuplessons.html",
+      "corpus_path": "061_the-hardest-lessons-for-startups-to-learn.md"
+    },
+    {
+      "article_no": "062",
+      "title": "How to Be Silicon Valley",
+      "source_url": "https://paulgraham.com/siliconvalley.html",
+      "corpus_path": "062_how-to-be-silicon-valley.md"
+    },
+    {
+      "article_no": "063",
+      "title": "Why Startups Condense in America",
+      "source_url": "https://paulgraham.com/america.html",
+      "corpus_path": "063_why-startups-condense-in-america.md"
+    },
+    {
+      "article_no": "064",
+      "title": "The Power of the Marginal",
+      "source_url": "https://paulgraham.com/marginal.html",
+      "corpus_path": "064_the-power-of-the-marginal.md"
+    },
+    {
+      "article_no": "065",
+      "title": "The Island Test",
+      "source_url": "https://paulgraham.com/island.html",
+      "corpus_path": "065_the-island-test.md"
+    },
+    {
+      "article_no": "066",
+      "title": "Copy What You Like",
+      "source_url": "https://paulgraham.com/copy.html",
+      "corpus_path": "066_copy-what-you-like.md"
+    },
+    {
+      "article_no": "067",
+      "title": "How to Present to Investors",
+      "source_url": "https://paulgraham.com/investors.html",
+      "corpus_path": "067_how-to-present-to-investors.md"
+    },
+    {
+      "article_no": "068",
+      "title": "A Student's Guide to Startups",
+      "source_url": "https://paulgraham.com/mit.html",
+      "corpus_path": "068_a-student-s-guide-to-startups.md"
+    },
+    {
+      "article_no": "069",
+      "title": "The 18 Mistakes That Kill Startups",
+      "source_url": "https://paulgraham.com/startupmistakes.html",
+      "corpus_path": "069_the-18-mistakes-that-kill-startups.md"
+    },
+    {
+      "article_no": "070",
+      "title": "How Art Can Be Good",
+      "source_url": "https://paulgraham.com/goodart.html",
+      "corpus_path": "070_how-art-can-be-good.md"
+    },
+    {
+      "article_no": "071",
+      "title": "Learning from Founders",
+      "source_url": "https://paulgraham.com/foundersatwork.html",
+      "corpus_path": "071_learning-from-founders.md"
+    },
+    {
+      "article_no": "072",
+      "title": "Is It Worth Being Wise?",
+      "source_url": "https://paulgraham.com/wisdom.html",
+      "corpus_path": "072_is-it-worth-being-wise.md"
+    },
+    {
+      "article_no": "073",
+      "title": "Why to Not Not Start a Startup",
+      "source_url": "https://paulgraham.com/notnot.html",
+      "corpus_path": "073_why-to-not-not-start-a-startup.md"
+    },
+    {
+      "article_no": "074",
+      "title": "Microsoft is Dead",
+      "source_url": "https://paulgraham.com/microsoft.html",
+      "corpus_path": "074_microsoft-is-dead.md"
+    },
+    {
+      "article_no": "075",
+      "title": "Two Kinds of Judgement",
+      "source_url": "https://paulgraham.com/judgement.html",
+      "corpus_path": "075_two-kinds-of-judgement.md"
+    },
+    {
+      "article_no": "076",
+      "title": "The Hacker's Guide to Investors",
+      "source_url": "https://paulgraham.com/guidetoinvestors.html",
+      "corpus_path": "076_the-hacker-s-guide-to-investors.md"
+    },
+    {
+      "article_no": "077",
+      "title": "An Alternative Theory of Unions",
+      "source_url": "https://paulgraham.com/unions.html",
+      "corpus_path": "077_an-alternative-theory-of-unions.md"
+    },
+    {
+      "article_no": "078",
+      "title": "The Equity Equation",
+      "source_url": "https://paulgraham.com/equity.html",
+      "corpus_path": "078_the-equity-equation.md"
+    },
+    {
+      "article_no": "079",
+      "title": "Stuff",
+      "source_url": "https://paulgraham.com/stuff.html",
+      "corpus_path": "079_stuff.md"
+    },
+    {
+      "article_no": "080",
+      "title": "Holding a Program in One's Head",
+      "source_url": "https://paulgraham.com/head.html",
+      "corpus_path": "080_holding-a-program-in-one-s-head.md"
+    },
+    {
+      "article_no": "081",
+      "title": "How Not to Die",
+      "source_url": "https://paulgraham.com/die.html",
+      "corpus_path": "081_how-not-to-die.md"
+    },
+    {
+      "article_no": "082",
+      "title": "News from the Front",
+      "source_url": "https://paulgraham.com/colleges.html",
+      "corpus_path": "082_news-from-the-front.md"
+    },
+    {
+      "article_no": "083",
+      "title": "How to Do Philosophy",
+      "source_url": "https://paulgraham.com/philosophy.html",
+      "corpus_path": "083_how-to-do-philosophy.md"
+    },
+    {
+      "article_no": "084",
+      "title": "The Future of Web Startups",
+      "source_url": "https://paulgraham.com/webstartups.html",
+      "corpus_path": "084_the-future-of-web-startups.md"
+    },
+    {
+      "article_no": "085",
+      "title": "Why to Move to a Startup Hub",
+      "source_url": "https://paulgraham.com/startuphubs.html",
+      "corpus_path": "085_why-to-move-to-a-startup-hub.md"
+    },
+    {
+      "article_no": "086",
+      "title": "Six Principles for Making New Things",
+      "source_url": "https://paulgraham.com/newthings.html",
+      "corpus_path": "086_six-principles-for-making-new-things.md"
+    },
+    {
+      "article_no": "087",
+      "title": "Trolls",
+      "source_url": "https://paulgraham.com/trolls.html",
+      "corpus_path": "087_trolls.md"
+    },
+    {
+      "article_no": "088",
+      "title": "A New Venture Animal",
+      "source_url": "https://paulgraham.com/ycombinator.html",
+      "corpus_path": "088_a-new-venture-animal.md"
+    },
+    {
+      "article_no": "089",
+      "title": "You Weren't Meant to Have a Boss",
+      "source_url": "https://paulgraham.com/boss.html",
+      "corpus_path": "089_you-weren-t-meant-to-have-a-boss.md"
+    },
+    {
+      "article_no": "090",
+      "title": "How to Disagree",
+      "source_url": "https://paulgraham.com/disagree.html",
+      "corpus_path": "090_how-to-disagree.md"
+    },
+    {
+      "article_no": "091",
+      "title": "Some Heroes",
+      "source_url": "https://paulgraham.com/heroes.html",
+      "corpus_path": "091_some-heroes.md"
+    },
+    {
+      "article_no": "092",
+      "title": "Why There Aren't More Googles",
+      "source_url": "https://paulgraham.com/googles.html",
+      "corpus_path": "092_why-there-aren-t-more-googles.md"
+    },
+    {
+      "article_no": "093",
+      "title": "Be Good",
+      "source_url": "https://paulgraham.com/good.html",
+      "corpus_path": "093_be-good.md"
+    },
+    {
+      "article_no": "094",
+      "title": "Lies We Tell Kids",
+      "source_url": "https://paulgraham.com/lies.html",
+      "corpus_path": "094_lies-we-tell-kids.md"
+    },
+    {
+      "article_no": "095",
+      "title": "Disconnecting Distraction",
+      "source_url": "https://paulgraham.com/distraction.html",
+      "corpus_path": "095_disconnecting-distraction.md"
+    },
+    {
+      "article_no": "096",
+      "title": "Cities and Ambition",
+      "source_url": "https://paulgraham.com/cities.html",
+      "corpus_path": "096_cities-and-ambition.md"
+    },
+    {
+      "article_no": "097",
+      "title": "The Pooled-Risk Company Management Company",
+      "source_url": "https://paulgraham.com/prcmc.html",
+      "corpus_path": "097_the-pooled-risk-company-management-company.md"
+    },
+    {
+      "article_no": "098",
+      "title": "A Fundraising Survival Guide",
+      "source_url": "https://paulgraham.com/fundraising.html",
+      "corpus_path": "098_a-fundraising-survival-guide.md"
+    },
+    {
+      "article_no": "099",
+      "title": "Why to Start a Startup in a Bad Economy",
+      "source_url": "https://paulgraham.com/badeconomy.html",
+      "corpus_path": "099_why-to-start-a-startup-in-a-bad-economy.md"
+    },
+    {
+      "article_no": "100",
+      "title": "The Other Half of \"Artists Ship\"",
+      "source_url": "https://paulgraham.com/artistsship.html",
+      "corpus_path": "100_the-other-half-of-artists-ship.md"
+    },
+    {
+      "article_no": "101",
+      "title": "The High-Res Society",
+      "source_url": "https://paulgraham.com/highres.html",
+      "corpus_path": "101_the-high-res-society.md"
+    },
+    {
+      "article_no": "102",
+      "title": "Could VC be a Casualty of the Recession?",
+      "source_url": "https://paulgraham.com/divergence.html",
+      "corpus_path": "102_could-vc-be-a-casualty-of-the-recession.md"
+    },
+    {
+      "article_no": "103",
+      "title": "After Credentials",
+      "source_url": "https://paulgraham.com/credentials.html",
+      "corpus_path": "103_after-credentials.md"
+    },
+    {
+      "article_no": "104",
+      "title": "Keep Your Identity Small",
+      "source_url": "https://paulgraham.com/identity.html",
+      "corpus_path": "104_keep-your-identity-small.md"
+    },
+    {
+      "article_no": "105",
+      "title": "Startups in 13 Sentences",
+      "source_url": "https://paulgraham.com/13sentences.html",
+      "corpus_path": "105_startups-in-13-sentences.md"
+    },
+    {
+      "article_no": "106",
+      "title": "What I've Learned from Hacker News",
+      "source_url": "https://paulgraham.com/hackernews.html",
+      "corpus_path": "106_what-i-ve-learned-from-hacker-news.md"
+    },
+    {
+      "article_no": "107",
+      "title": "Can You Buy a Silicon Valley? Maybe.",
+      "source_url": "https://paulgraham.com/maybe.html",
+      "corpus_path": "107_can-you-buy-a-silicon-valley-maybe.md"
+    },
+    {
+      "article_no": "108",
+      "title": "Why TV Lost",
+      "source_url": "https://paulgraham.com/convergence.html",
+      "corpus_path": "108_why-tv-lost.md"
+    },
+    {
+      "article_no": "109",
+      "title": "How to Be an Angel Investor",
+      "source_url": "https://paulgraham.com/angelinvesting.html",
+      "corpus_path": "109_how-to-be-an-angel-investor.md"
+    },
+    {
+      "article_no": "110",
+      "title": "Relentlessly Resourceful",
+      "source_url": "https://paulgraham.com/relres.html",
+      "corpus_path": "110_relentlessly-resourceful.md"
+    },
+    {
+      "article_no": "111",
+      "title": "Five Founders",
+      "source_url": "https://paulgraham.com/5founders.html",
+      "corpus_path": "111_five-founders.md"
+    },
+    {
+      "article_no": "112",
+      "title": "The Founder Visa",
+      "source_url": "https://paulgraham.com/foundervisa.html",
+      "corpus_path": "112_the-founder-visa.md"
+    },
+    {
+      "article_no": "113",
+      "title": "Why Twitter is a Big Deal",
+      "source_url": "https://paulgraham.com/twitter.html",
+      "corpus_path": "113_why-twitter-is-a-big-deal.md"
+    },
+    {
+      "article_no": "114",
+      "title": "A Local Revolution?",
+      "source_url": "https://paulgraham.com/revolution.html",
+      "corpus_path": "114_a-local-revolution.md"
+    },
+    {
+      "article_no": "115",
+      "title": "Maker's Schedule, Manager's Schedule",
+      "source_url": "https://paulgraham.com/makersschedule.html",
+      "corpus_path": "115_maker-s-schedule-manager-s-schedule.md"
+    },
+    {
+      "article_no": "116",
+      "title": "Ramen Profitable",
+      "source_url": "https://paulgraham.com/ramenprofitable.html",
+      "corpus_path": "116_ramen-profitable.md"
+    },
+    {
+      "article_no": "117",
+      "title": "The Trouble with the Segway",
+      "source_url": "https://paulgraham.com/segway.html",
+      "corpus_path": "117_the-trouble-with-the-segway.md"
+    },
+    {
+      "article_no": "118",
+      "title": "What Kate Saw in Silicon Valley",
+      "source_url": "https://paulgraham.com/kate.html",
+      "corpus_path": "118_what-kate-saw-in-silicon-valley.md"
+    },
+    {
+      "article_no": "119",
+      "title": "The Anatomy of Determination",
+      "source_url": "https://paulgraham.com/determination.html",
+      "corpus_path": "119_the-anatomy-of-determination.md"
+    },
+    {
+      "article_no": "120",
+      "title": "The List of N Things",
+      "source_url": "https://paulgraham.com/nthings.html",
+      "corpus_path": "120_the-list-of-n-things.md"
+    },
+    {
+      "article_no": "121",
+      "title": "Post-Medium Publishing",
+      "source_url": "https://paulgraham.com/publishing.html",
+      "corpus_path": "121_post-medium-publishing.md"
+    },
+    {
+      "article_no": "122",
+      "title": "Persuade xor Discover",
+      "source_url": "https://paulgraham.com/discover.html",
+      "corpus_path": "122_persuade-xor-discover.md"
+    },
+    {
+      "article_no": "123",
+      "title": "What Startups Are Really Like",
+      "source_url": "https://paulgraham.com/really.html",
+      "corpus_path": "123_what-startups-are-really-like.md"
+    },
+    {
+      "article_no": "124",
+      "title": "Apple's Mistake",
+      "source_url": "https://paulgraham.com/apple.html",
+      "corpus_path": "124_apple-s-mistake.md"
+    },
+    {
+      "article_no": "125",
+      "title": "Organic Startup Ideas",
+      "source_url": "https://paulgraham.com/organic.html",
+      "corpus_path": "125_organic-startup-ideas.md"
+    },
+    {
+      "article_no": "126",
+      "title": "How to Lose Time and Money",
+      "source_url": "https://paulgraham.com/selfindulgence.html",
+      "corpus_path": "126_how-to-lose-time-and-money.md"
+    },
+    {
+      "article_no": "127",
+      "title": "The Top Idea in Your Mind",
+      "source_url": "https://paulgraham.com/top.html",
+      "corpus_path": "127_the-top-idea-in-your-mind.md"
+    },
+    {
+      "article_no": "128",
+      "title": "The Acceleration of Addictiveness",
+      "source_url": "https://paulgraham.com/addiction.html",
+      "corpus_path": "128_the-acceleration-of-addictiveness.md"
+    },
+    {
+      "article_no": "129",
+      "title": "The Future of Startup Funding",
+      "source_url": "https://paulgraham.com/future.html",
+      "corpus_path": "129_the-future-of-startup-funding.md"
+    },
+    {
+      "article_no": "130",
+      "title": "What Happened to Yahoo",
+      "source_url": "https://paulgraham.com/yahoo.html",
+      "corpus_path": "130_what-happened-to-yahoo.md"
+    },
+    {
+      "article_no": "131",
+      "title": "High Resolution Fundraising",
+      "source_url": "https://paulgraham.com/hiresfund.html",
+      "corpus_path": "131_high-resolution-fundraising.md"
+    },
+    {
+      "article_no": "132",
+      "title": "Where to See Silicon Valley",
+      "source_url": "https://paulgraham.com/seesv.html",
+      "corpus_path": "132_where-to-see-silicon-valley.md"
+    },
+    {
+      "article_no": "133",
+      "title": "The New Funding Landscape",
+      "source_url": "https://paulgraham.com/superangels.html",
+      "corpus_path": "133_the-new-funding-landscape.md"
+    },
+    {
+      "article_no": "134",
+      "title": "What We Look for in Founders",
+      "source_url": "https://paulgraham.com/founders.html",
+      "corpus_path": "134_what-we-look-for-in-founders.md"
+    },
+    {
+      "article_no": "135",
+      "title": "Tablets",
+      "source_url": "https://paulgraham.com/tablets.html",
+      "corpus_path": "135_tablets.md"
+    },
+    {
+      "article_no": "136",
+      "title": "Founder Control",
+      "source_url": "https://paulgraham.com/control.html",
+      "corpus_path": "136_founder-control.md"
+    },
+    {
+      "article_no": "137",
+      "title": "Subject: Airbnb",
+      "source_url": "https://paulgraham.com/airbnb.html",
+      "corpus_path": "137_subject-airbnb.md"
+    },
+    {
+      "article_no": "138",
+      "title": "The Patent Pledge",
+      "source_url": "https://paulgraham.com/patentpledge.html",
+      "corpus_path": "138_the-patent-pledge.md"
+    },
+    {
+      "article_no": "139",
+      "title": "Why Startup Hubs Work",
+      "source_url": "https://paulgraham.com/hubs.html",
+      "corpus_path": "139_why-startup-hubs-work.md"
+    },
+    {
+      "article_no": "140",
+      "title": "Snapshot: Viaweb, June 1998",
+      "source_url": "https://paulgraham.com/vw.html",
+      "corpus_path": "140_snapshot-viaweb-june-1998.md"
+    },
+    {
+      "article_no": "141",
+      "title": "Schlep Blindness",
+      "source_url": "https://paulgraham.com/schlep.html",
+      "corpus_path": "141_schlep-blindness.md"
+    },
+    {
+      "article_no": "142",
+      "title": "A Word to the Resourceful",
+      "source_url": "https://paulgraham.com/word.html",
+      "corpus_path": "142_a-word-to-the-resourceful.md"
+    },
+    {
+      "article_no": "143",
+      "title": "Frighteningly Ambitious Startup Ideas",
+      "source_url": "https://paulgraham.com/ambitious.html",
+      "corpus_path": "143_frighteningly-ambitious-startup-ideas.md"
+    },
+    {
+      "article_no": "144",
+      "title": "Defining Property",
+      "source_url": "https://paulgraham.com/property.html",
+      "corpus_path": "144_defining-property.md"
+    },
+    {
+      "article_no": "145",
+      "title": "How Y Combinator Started",
+      "source_url": "https://paulgraham.com/ycstart.html",
+      "corpus_path": "145_how-y-combinator-started.md"
+    },
+    {
+      "article_no": "146",
+      "title": "Writing and Speaking",
+      "source_url": "https://paulgraham.com/speak.html",
+      "corpus_path": "146_writing-and-speaking.md"
+    },
+    {
+      "article_no": "147",
+      "title": "The Top of My Todo List",
+      "source_url": "https://paulgraham.com/todo.html",
+      "corpus_path": "147_the-top-of-my-todo-list.md"
+    },
+    {
+      "article_no": "148",
+      "title": "Black Swan Farming",
+      "source_url": "https://paulgraham.com/swan.html",
+      "corpus_path": "148_black-swan-farming.md"
+    },
+    {
+      "article_no": "149",
+      "title": "Startup = Growth",
+      "source_url": "https://paulgraham.com/growth.html",
+      "corpus_path": "149_startup-growth.md"
+    },
+    {
+      "article_no": "150",
+      "title": "The Hardware Renaissance",
+      "source_url": "https://paulgraham.com/hw.html",
+      "corpus_path": "150_the-hardware-renaissance.md"
+    },
+    {
+      "article_no": "151",
+      "title": "How to Get Startup Ideas",
+      "source_url": "https://paulgraham.com/startupideas.html",
+      "corpus_path": "151_how-to-get-startup-ideas.md"
+    },
+    {
+      "article_no": "152",
+      "title": "Startup Investing Trends",
+      "source_url": "https://paulgraham.com/invtrend.html",
+      "corpus_path": "152_startup-investing-trends.md"
+    },
+    {
+      "article_no": "153",
+      "title": "Do Things that Don't Scale",
+      "source_url": "https://paulgraham.com/ds.html",
+      "corpus_path": "153_do-things-that-don-t-scale.md"
+    },
+    {
+      "article_no": "154",
+      "title": "How to Convince Investors",
+      "source_url": "https://paulgraham.com/convince.html",
+      "corpus_path": "154_how-to-convince-investors.md"
+    },
+    {
+      "article_no": "155",
+      "title": "Investor Herd Dynamics",
+      "source_url": "https://paulgraham.com/herd.html",
+      "corpus_path": "155_investor-herd-dynamics.md"
+    },
+    {
+      "article_no": "156",
+      "title": "How to Raise Money",
+      "source_url": "https://paulgraham.com/fr.html",
+      "corpus_path": "156_how-to-raise-money.md"
+    },
+    {
+      "article_no": "157",
+      "title": "Before the Startup",
+      "source_url": "https://paulgraham.com/before.html",
+      "corpus_path": "157_before-the-startup.md"
+    },
+    {
+      "article_no": "158",
+      "title": "Mean People Fail",
+      "source_url": "https://paulgraham.com/mean.html",
+      "corpus_path": "158_mean-people-fail.md"
+    },
+    {
+      "article_no": "159",
+      "title": "The Fatal Pinch",
+      "source_url": "https://paulgraham.com/pinch.html",
+      "corpus_path": "159_the-fatal-pinch.md"
+    },
+    {
+      "article_no": "160",
+      "title": "How You Know",
+      "source_url": "https://paulgraham.com/know.html",
+      "corpus_path": "160_how-you-know.md"
+    },
+    {
+      "article_no": "161",
+      "title": "How to Be an Expert in a Changing World",
+      "source_url": "https://paulgraham.com/ecw.html",
+      "corpus_path": "161_how-to-be-an-expert-in-a-changing-world.md"
+    },
+    {
+      "article_no": "162",
+      "title": "Let the Other 95% of Great Programmers In",
+      "source_url": "https://paulgraham.com/95.html",
+      "corpus_path": "162_let-the-other-95-of-great-programmers-in.md"
+    },
+    {
+      "article_no": "163",
+      "title": "Don't Talk to Corp Dev",
+      "source_url": "https://paulgraham.com/corpdev.html",
+      "corpus_path": "163_don-t-talk-to-corp-dev.md"
+    },
+    {
+      "article_no": "164",
+      "title": "What Doesn't Seem Like Work?",
+      "source_url": "https://paulgraham.com/work.html",
+      "corpus_path": "164_what-doesn-t-seem-like-work.md"
+    },
+    {
+      "article_no": "165",
+      "title": "The Ronco Principle",
+      "source_url": "https://paulgraham.com/ronco.html",
+      "corpus_path": "165_the-ronco-principle.md"
+    },
+    {
+      "article_no": "166",
+      "title": "What Microsoft Is this the Altair Basic of?",
+      "source_url": "https://paulgraham.com/altair.html",
+      "corpus_path": "166_what-microsoft-is-this-the-altair-basic-of.md"
+    },
+    {
+      "article_no": "167",
+      "title": "Change Your Name",
+      "source_url": "https://paulgraham.com/name.html",
+      "corpus_path": "167_change-your-name.md"
+    },
+    {
+      "article_no": "168",
+      "title": "Why It's Safe for Founders to Be Nice",
+      "source_url": "https://paulgraham.com/safe.html",
+      "corpus_path": "168_why-it-s-safe-for-founders-to-be-nice.md"
+    },
+    {
+      "article_no": "169",
+      "title": "Default Alive or Default Dead?",
+      "source_url": "https://paulgraham.com/aord.html",
+      "corpus_path": "169_default-alive-or-default-dead.md"
+    },
+    {
+      "article_no": "170",
+      "title": "Write Like You Talk",
+      "source_url": "https://paulgraham.com/talk.html",
+      "corpus_path": "170_write-like-you-talk.md"
+    },
+    {
+      "article_no": "171",
+      "title": "A Way to Detect Bias",
+      "source_url": "https://paulgraham.com/bias.html",
+      "corpus_path": "171_a-way-to-detect-bias.md"
+    },
+    {
+      "article_no": "172",
+      "title": "Jessica Livingston",
+      "source_url": "https://paulgraham.com/jessica.html",
+      "corpus_path": "172_jessica-livingston.md"
+    },
+    {
+      "article_no": "173",
+      "title": "The Refragmentation",
+      "source_url": "https://paulgraham.com/re.html",
+      "corpus_path": "173_the-refragmentation.md"
+    },
+    {
+      "article_no": "174",
+      "title": "Economic Inequality",
+      "source_url": "https://paulgraham.com/ineq.html",
+      "corpus_path": "174_economic-inequality.md"
+    },
+    {
+      "article_no": "175",
+      "title": "Life is Short",
+      "source_url": "https://paulgraham.com/vb.html",
+      "corpus_path": "175_life-is-short.md"
+    },
+    {
+      "article_no": "176",
+      "title": "How to Make Pittsburgh a Startup Hub",
+      "source_url": "https://paulgraham.com/pgh.html",
+      "corpus_path": "176_how-to-make-pittsburgh-a-startup-hub.md"
+    },
+    {
+      "article_no": "177",
+      "title": "The Risk of Discovery",
+      "source_url": "https://paulgraham.com/disc.html",
+      "corpus_path": "177_the-risk-of-discovery.md"
+    },
+    {
+      "article_no": "178",
+      "title": "Charisma / Power",
+      "source_url": "https://paulgraham.com/pow.html",
+      "corpus_path": "178_charisma-power.md"
+    },
+    {
+      "article_no": "179",
+      "title": "General and Surprising",
+      "source_url": "https://paulgraham.com/sun.html",
+      "corpus_path": "179_general-and-surprising.md"
+    },
+    {
+      "article_no": "180",
+      "title": "The Bus Ticket Theory of Genius",
+      "source_url": "https://paulgraham.com/genius.html",
+      "corpus_path": "180_the-bus-ticket-theory-of-genius.md"
+    },
+    {
+      "article_no": "181",
+      "title": "Novelty and Heresy",
+      "source_url": "https://paulgraham.com/nov.html",
+      "corpus_path": "181_novelty-and-heresy.md"
+    },
+    {
+      "article_no": "182",
+      "title": "The Lesson to Unlearn",
+      "source_url": "https://paulgraham.com/lesson.html",
+      "corpus_path": "182_the-lesson-to-unlearn.md"
+    },
+    {
+      "article_no": "183",
+      "title": "Having Kids",
+      "source_url": "https://paulgraham.com/kids.html",
+      "corpus_path": "183_having-kids.md"
+    },
+    {
+      "article_no": "184",
+      "title": "Fashionable Problems",
+      "source_url": "https://paulgraham.com/fp.html",
+      "corpus_path": "184_fashionable-problems.md"
+    },
+    {
+      "article_no": "185",
+      "title": "The Two Kinds of Moderate",
+      "source_url": "https://paulgraham.com/mod.html",
+      "corpus_path": "185_the-two-kinds-of-moderate.md"
+    },
+    {
+      "article_no": "186",
+      "title": "Haters",
+      "source_url": "https://paulgraham.com/fh.html",
+      "corpus_path": "186_haters.md"
+    },
+    {
+      "article_no": "187",
+      "title": "Being a Noob",
+      "source_url": "https://paulgraham.com/noob.html",
+      "corpus_path": "187_being-a-noob.md"
+    },
+    {
+      "article_no": "188",
+      "title": "How to Write Usefully",
+      "source_url": "https://paulgraham.com/useful.html",
+      "corpus_path": "188_how-to-write-usefully.md"
+    },
+    {
+      "article_no": "189",
+      "title": "Coronavirus and Credibility",
+      "source_url": "https://paulgraham.com/cred.html",
+      "corpus_path": "189_coronavirus-and-credibility.md"
+    },
+    {
+      "article_no": "190",
+      "title": "Orthodox Privilege",
+      "source_url": "https://paulgraham.com/orth.html",
+      "corpus_path": "190_orthodox-privilege.md"
+    },
+    {
+      "article_no": "191",
+      "title": "The Four Quadrants of Conformism",
+      "source_url": "https://paulgraham.com/conformism.html",
+      "corpus_path": "191_the-four-quadrants-of-conformism.md"
+    },
+    {
+      "article_no": "192",
+      "title": "Modeling a Wealth Tax",
+      "source_url": "https://paulgraham.com/wtax.html",
+      "corpus_path": "192_modeling-a-wealth-tax.md"
+    },
+    {
+      "article_no": "193",
+      "title": "Early Work",
+      "source_url": "https://paulgraham.com/early.html",
+      "corpus_path": "193_early-work.md"
+    },
+    {
+      "article_no": "194",
+      "title": "How to Think for Yourself",
+      "source_url": "https://paulgraham.com/think.html",
+      "corpus_path": "194_how-to-think-for-yourself.md"
+    },
+    {
+      "article_no": "195",
+      "title": "The Airbnbs",
+      "source_url": "https://paulgraham.com/airbnbs.html",
+      "corpus_path": "195_the-airbnbs.md"
+    },
+    {
+      "article_no": "196",
+      "title": "Billionaires Build",
+      "source_url": "https://paulgraham.com/ace.html",
+      "corpus_path": "196_billionaires-build.md"
+    },
+    {
+      "article_no": "197",
+      "title": "Earnestness",
+      "source_url": "https://paulgraham.com/earnest.html",
+      "corpus_path": "197_earnestness.md"
+    },
+    {
+      "article_no": "198",
+      "title": "What I Worked On",
+      "source_url": "https://paulgraham.com/worked.html",
+      "corpus_path": "198_what-i-worked-on.md"
+    },
+    {
+      "article_no": "199",
+      "title": "Donate Unrestricted",
+      "source_url": "https://paulgraham.com/donate.html",
+      "corpus_path": "199_donate-unrestricted.md"
+    },
+    {
+      "article_no": "200",
+      "title": "Write Simply",
+      "source_url": "https://paulgraham.com/simply.html",
+      "corpus_path": "200_write-simply.md"
+    },
+    {
+      "article_no": "201",
+      "title": "How People Get Rich Now",
+      "source_url": "https://paulgraham.com/richnow.html",
+      "corpus_path": "201_how-people-get-rich-now.md"
+    },
+    {
+      "article_no": "202",
+      "title": "The Real Reason to End the Death Penalty",
+      "source_url": "https://paulgraham.com/real.html",
+      "corpus_path": "202_the-real-reason-to-end-the-death-penalty.md"
+    },
+    {
+      "article_no": "203",
+      "title": "An NFT That Saves Lives",
+      "source_url": "https://paulgraham.com/nft.html",
+      "corpus_path": "203_an-nft-that-saves-lives.md"
+    },
+    {
+      "article_no": "204",
+      "title": "Crazy New Ideas",
+      "source_url": "https://paulgraham.com/newideas.html",
+      "corpus_path": "204_crazy-new-ideas.md"
+    },
+    {
+      "article_no": "205",
+      "title": "Fierce Nerds",
+      "source_url": "https://paulgraham.com/fn.html",
+      "corpus_path": "205_fierce-nerds.md"
+    },
+    {
+      "article_no": "206",
+      "title": "A Project of One's Own",
+      "source_url": "https://paulgraham.com/own.html",
+      "corpus_path": "206_a-project-of-one-s-own.md"
+    },
+    {
+      "article_no": "207",
+      "title": "How to Work Hard",
+      "source_url": "https://paulgraham.com/hwh.html",
+      "corpus_path": "207_how-to-work-hard.md"
+    },
+    {
+      "article_no": "208",
+      "title": "Weird Languages",
+      "source_url": "https://paulgraham.com/weird.html",
+      "corpus_path": "208_weird-languages.md"
+    },
+    {
+      "article_no": "209",
+      "title": "Beyond Smart",
+      "source_url": "https://paulgraham.com/smart.html",
+      "corpus_path": "209_beyond-smart.md"
+    },
+    {
+      "article_no": "210",
+      "title": "Is There Such a Thing as Good Taste?",
+      "source_url": "https://paulgraham.com/goodtaste.html",
+      "corpus_path": "210_is-there-such-a-thing-as-good-taste.md"
+    },
+    {
+      "article_no": "211",
+      "title": "Putting Ideas into Words",
+      "source_url": "https://paulgraham.com/words.html",
+      "corpus_path": "211_putting-ideas-into-words.md"
+    },
+    {
+      "article_no": "212",
+      "title": "Heresy",
+      "source_url": "https://paulgraham.com/heresy.html",
+      "corpus_path": "212_heresy.md"
+    },
+    {
+      "article_no": "213",
+      "title": "What I've Learned from Users",
+      "source_url": "https://paulgraham.com/users.html",
+      "corpus_path": "213_what-i-ve-learned-from-users.md"
+    },
+    {
+      "article_no": "214",
+      "title": "Alien Truth",
+      "source_url": "https://paulgraham.com/alien.html",
+      "corpus_path": "214_alien-truth.md"
+    },
+    {
+      "article_no": "215",
+      "title": "What You (Want to)* Want",
+      "source_url": "https://paulgraham.com/want.html",
+      "corpus_path": "215_what-you-want-to-want.md"
+    },
+    {
+      "article_no": "216",
+      "title": "The Need to Read",
+      "source_url": "https://paulgraham.com/read.html",
+      "corpus_path": "216_the-need-to-read.md"
+    },
+    {
+      "article_no": "217",
+      "title": "How to Get New Ideas",
+      "source_url": "https://paulgraham.com/getideas.html",
+      "corpus_path": "217_how-to-get-new-ideas.md"
+    },
+    {
+      "article_no": "218",
+      "title": "How to Do Great Work",
+      "source_url": "https://paulgraham.com/greatwork.html",
+      "corpus_path": "218_how-to-do-great-work.md"
+    },
+    {
+      "article_no": "219",
+      "title": "Superlinear Returns",
+      "source_url": "https://paulgraham.com/superlinear.html",
+      "corpus_path": "219_superlinear-returns.md"
+    },
+    {
+      "article_no": "220",
+      "title": "The Best Essay",
+      "source_url": "https://paulgraham.com/best.html",
+      "corpus_path": "220_the-best-essay.md"
+    },
+    {
+      "article_no": "221",
+      "title": "How to Start Google",
+      "source_url": "https://paulgraham.com/google.html",
+      "corpus_path": "221_how-to-start-google.md"
+    },
+    {
+      "article_no": "222",
+      "title": "The Reddits",
+      "source_url": "https://paulgraham.com/reddits.html",
+      "corpus_path": "222_the-reddits.md"
+    },
+    {
+      "article_no": "223",
+      "title": "The Right Kind of Stubborn",
+      "source_url": "https://paulgraham.com/persistence.html",
+      "corpus_path": "223_the-right-kind-of-stubborn.md"
+    }
+  ]
+}
