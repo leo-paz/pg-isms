@@ -246,3 +246,13 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
 - The batch reviewers corrected all seven findings. Targeted re-review approved the wave with `0` Critical, `0` Important, and `0` Minor findings and no new issues.
 - Remaining work: close wave `04`, assemble all `223` records, run the cumulative audit gate, and perform the independent cross-corpus overlap/gap review.
 - Blockers: none.
+
+## Checkpoint 2 progress: audit wave 4
+
+- Primary coverage: batches `batch-10` through `batch-12`, articles `170-223`, with `54` ordered records and complete per-batch retrieval/full-read proof.
+- Final classification counts for the wave: `7` core startup, `36` supporting startup, `11` excluded.
+- Independent review found `8` Important and `6` Minor issues plus one classification correction (`172`, core to supporting). Findings covered biographical overreach, ecosystem and supplier preconditions, stage/visibility scope, unsupported workflow extrapolations, and missing low-end-disruption, compounding-work, and young-founder conditions.
+- The three batch reviewers corrected all `14` findings. Targeted re-review approved the wave with `0` Critical, `0` Important, and `0` Minor findings.
+- Primary audit status: all `223` essays have now been read in full, explicitly classified in non-overlapping batches, and independently wave-reviewed.
+- Remaining work: assemble the canonical audit/retrieval records, run the cumulative audit gate, and perform the separate full-corpus overlap/gap review for suspicious exclusions, inconsistent themes, and missed principles.
+- Blockers: none.
