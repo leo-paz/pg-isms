@@ -228,3 +228,12 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
 - Assembly infrastructure: `scripts/assemble_audit.py` was developed RED-GREEN and rejects article-set mismatches, reviewer/batch inconsistencies, missing BM25/vector evidence, or incomplete full-document coverage. It writes canonical outputs only when all 12 assignments exist.
 - Remaining work: finish and review batches `04-12`, assemble the canonical audit, run the cumulative audit gate, and complete the cross-corpus overlap/gap review.
 - Blockers: none.
+
+## Checkpoint 2 progress: audit wave 2
+
+- Primary coverage: batches `batch-04` through `batch-06`, articles `058-114`, with `57` ordered audit records and complete BM25, semantic, and full-document evidence.
+- Classification counts: `28` core startup, `28` supporting startup, `1` excluded.
+- Independent full-source review found `1` Critical, `5` Important, and `2` Minor issues: an equity-equation ambiguity; missing opportunity, location, platform, founder-sales, acquisition, risk, product-capital, and fundraising conditions; and two provenance overstatements.
+- The original batch reviewers corrected all eight findings without changing classifications. Targeted re-review approved the wave with `0` Critical, `0` Important, and `0` Minor findings.
+- Remaining work: finish/review batches `07-12`, assemble all `223` records, run the cumulative audit gate, and complete the cross-corpus overlap/gap review.
+- Blockers: none.
