@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "attempt": 1,
+  "canonical": false,
+  "accepted": false,
+  "transfer_score": 2,
+  "threshold": 4,
+  "case_generation_and_response_artifacts_frozen": true,
+  "score_content_preserved": true,
+  "scorecard_whitespace_normalized_before_commit": true,
+  "disposition": "Retained post-freeze transfer failure with full generation integrity. Formatting-only scorecard whitespace normalization did not alter any criterion decision, score, response, or generation hash."
+}

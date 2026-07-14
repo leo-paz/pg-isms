@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "skill_name": "designing-business-models",
+  "phase": "baseline",
+  "reviewer_id": "business-model-baseline-001",
+  "canonical_agent_task": "/root/business_model_baseline_001",
+  "generated_at": "2026-07-14T19:11:36Z",
+  "model_identity": "Codex (GPT-5)",
+  "dispatch_prompt": "Answer each projected business-model prompt independently using only the facts contained in that prompt.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "no-skill",
+    "skill_sha256": null
+  },
+  "response_hash_algorithm": "sha256",
+  "cases_sha256": "88f415e5cc5163580cdf4614b0bf6c57459c31d4ba5055c1a8141c843858f3ce",
+  "projection_sha256": "7820f9a4e305ad4f91cfa25c50e9ee4ba184146f81b2c8b2feb9a31c71209e6a",
+  "response_hashes": {
+    "scenario-01": "dd13417e6e38b1099f12abd7782f22d263ba3e7df3c58cffcf0ed6447dcee9df",
+    "scenario-02": "c959d9373b9bb612a0908430d07e8e57966a136112e1462ab6a200d0348b78a2",
+    "scenario-03": "335b9fe7d20d87943306ce4562a63ece72f49d7e3e2a61e2389b9ea04a738c4d",
+    "scenario-04": "0b629ebf2a2951d1e59c29239cd3e494699f43bcc9fe2e8ef8aa4ae8958fbf50",
+    "scenario-05": "052cdae7afea972572fd61cf763aac9cf009603b5a6716c2fbd802e89ea5c3d6"
+  }
+}

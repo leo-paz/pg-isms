@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "skill_name": "designing-business-models",
+  "prompt": "An 11-person startup sells route-optimization software to independent pharmacies that run same-day prescription delivery. Eighteen pharmacies completed a ten-week paid pilot at $500 per month; twelve renewed and six did not. Pharmacy technicians use the product, owners approve purchases, patients receive deliveries, and outside courier services perform most routes. On-time delivery improved from 86% to 95% at renewed sites. Pharmacies above 2,500 monthly deliveries create 60% of compute and support cost but pay the same price as smaller sites. A regional wholesaler offers access to 600 pharmacies for a 25% revenue share, two-year exclusivity, and a custom integration. Separately, the CTO proposes building courier dispatch in-house for $600,000 over six months; the current partner API costs $0.40 per delivery and offers an SLA. Give the founders a 90-day pricing, sales/channel, and make-or-partner decision plan.",
+  "criteria": [
+    "Names designing-business-models as primary, starts with an explicit primary owner and ordered handoffs, and routes billing or integration artifacts to shipping or engineering while routing post-gate channel execution to growth.",
+    "Builds separate economic records for small, high-volume, renewed, and non-renewed pharmacies, distinguishing user, buyer, payer, beneficiary, value event, willingness-to-pay evidence, sales/support effort, cost to serve, retention, and confounders.",
+    "Defines a bounded 90-day price, package, and sales-motion test with actual prices or labeled assumptions, named cohorts, an owner, review dates, numeric thresholds, and predeclared interpretations of acceptance, rejection, discounting, and churn.",
+    "Compares the wholesaler and courier boundary choices using internal-versus-partner coordination and dependency costs, exclusivity, switching, capability, delay, capital, interface, quality, and supplier-versus-architecture failure evidence before integrating or accepting the channel.",
+    "Precommits explicit pricing and boundary branches, includes a retention and accountable-effects gate, preserves a reversible option, and names the next owner for each material result rather than recommending scale or integration from access, renewal, or core-technology slogans alone."
+  ]
+}

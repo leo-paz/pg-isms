@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "attempt": 1,
+  "canonical": false,
+  "accepted": false,
+  "response_artifacts_frozen": true,
+  "score_content_preserved": true,
+  "score_artifact_whitespace_normalized_before_commit": true,
+  "scores": {
+    "control_normalized": 0.0,
+    "guided_normalized": 0.76,
+    "delta": 0.76
+  },
+  "disposition": "Integrity-incomplete: generation artifacts did not preserve a pre-generation prompt-only isolation contract or explicit proof that criteria were hidden. Retained without modification and replaced by a fresh canonical rerun."
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "skill_name": "designing-business-models",
+  "phase": "forward",
+  "reviewer_id": "business-model-forward-001",
+  "scorer_id": "business-model-forward-scorer-001",
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "raw_output": "scenario-01.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 0,
+          "max_score": 1,
+          "miss": "The response identifies a value-capture problem but never explicitly makes designing-business-models the primary workflow."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It separates beneficiary and user from buyer and payer and tests distinct owner, accountant, and lender offers."
+        },
+        {
+          "criterion": 3,
+          "score": 0,
+          "max_score": 1,
+          "miss": "No offer states an actual price or price range; two unspecified annualized price points are insufficient."
+        },
+        {
+          "criterion": 4,
+          "score": 0,
+          "max_score": 1,
+          "miss": "The response does not explicitly defer fine price tuning, and its branch thresholds do not explicitly incorporate retention."
+        },
+        {
+          "criterion": 5,
+          "score": 0,
+          "max_score": 1,
+          "miss": "The required explicit ownership and routing across designing-business-models and the three adjacent workflows is absent."
+        }
+      ],
+      "missed_criteria": [1, 3, 4, 5],
+      "score": 1,
+      "max_score": 5,
+      "exact_misses": [
+        {
+          "criterion": 1,
+          "miss": "No explicit primary-workflow assignment to designing-business-models."
+        },
+        {
+          "criterion": 3,
+          "miss": "No actual price or price range for any offer."
+        },
+        {
+          "criterion": 4,
+          "miss": "No explicit deferral of fine price tuning and no retention condition in the decision branches."
+        },
+        {
+          "criterion": 5,
+          "miss": "No explicit workflow ownership or routing."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "raw_output": "scenario-02.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 0,
+          "max_score": 1,
+          "miss": "The response never explicitly compares coordination cost between partner and internal alternatives."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It uses hardware-specific lot, reliability, certification, inventory, working-capital, and build-latency evidence."
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It qualifies the alternate and tests the interface before integration while separating supplier from architecture failures."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It supplies dated, thresholded integrate, dual-source, partner, repair, and stop branches tied to the required decision factors."
+        },
+        {
+          "criterion": 5,
+          "score": 0,
+          "max_score": 1,
+          "miss": "The required explicit workflow ownership and routing is absent."
+        }
+      ],
+      "missed_criteria": [1, 5],
+      "score": 3,
+      "max_score": 5,
+      "exact_misses": [
+        {
+          "criterion": 1,
+          "miss": "No explicit coordination-cost comparison."
+        },
+        {
+          "criterion": 5,
+          "miss": "No explicit routing to designing-business-models, engineering-for-leverage, shipping-and-iterating-products, and raising-and-governing-capital."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "raw_output": "scenario-03.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It starts from observed segment value and cost economics and rejects competitor-copying, seats, and unlimited usage."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It builds account records spanning all four required cohorts and all required economic fields."
+        },
+        {
+          "criterion": 3,
+          "score": 0,
+          "max_score": 1,
+          "miss": "The response does not run a bounded sales-motion test and does not predeclare how churn will be interpreted."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It supplies time-bound cohort branches, notice and grandfathering protections, and rejects unbounded unlimited usage."
+        },
+        {
+          "criterion": 5,
+          "score": 0,
+          "max_score": 1,
+          "miss": "The required explicit workflow ownership and routing is absent."
+        }
+      ],
+      "missed_criteria": [3, 5],
+      "score": 3,
+      "max_score": 5,
+      "exact_misses": [
+        {
+          "criterion": 3,
+          "miss": "No bounded sales-motion test and no predeclared churn interpretation."
+        },
+        {
+          "criterion": 5,
+          "miss": "No explicit routing to designing-business-models, shipping, growth, and communication owners."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "raw_output": "scenario-04.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It explicitly makes raising-and-governing-capital primary and excludes designing-business-models from term-sheet selection."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It routes the full financing-term, control, governance, process, and negotiation surface to raising-and-governing-capital."
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It limits business-model work to capital amount, absorption, and return-shape fit while keeping the commercial model closed."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It invokes managing-runway-and-survival first only if runway is binding and states that a signed term sheet is not cash."
+        },
+        {
+          "criterion": 5,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It provides an ordered, named handoff with concrete milestone, deployment, downside, scale, and exit evidence."
+        }
+      ],
+      "missed_criteria": [],
+      "score": 5,
+      "max_score": 5,
+      "exact_misses": []
+    },
+    {
+      "case_id": "scenario-05",
+      "raw_output": "scenario-05.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 0,
+          "max_score": 1,
+          "miss": "The response never explicitly compares plausible exit paths."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It treats judgment, implementation, and accountability as current delivered value and tests whether buyers still require them."
+        },
+        {
+          "criterion": 3,
+          "score": 0,
+          "max_score": 1,
+          "miss": "It does not model both paths with explicit assumptions for all required revenue, margin, growth, hiring, capital, evidence-latency, and downside dimensions."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It uses a capped six-month paid-product gate and permits venture capital only after venture-return evidence survives."
+        },
+        {
+          "criterion": 5,
+          "score": 0,
+          "max_score": 1,
+          "miss": "It does not explicitly assign the boundary to designing-business-models or later financing to raising-and-governing-capital."
+        }
+      ],
+      "missed_criteria": [1, 3, 5],
+      "score": 2,
+      "max_score": 5,
+      "exact_misses": [
+        {
+          "criterion": 1,
+          "miss": "No explicit comparison of plausible exit paths."
+        },
+        {
+          "criterion": 3,
+          "miss": "No complete two-path model covering every required assumption category."
+        },
+        {
+          "criterion": 5,
+          "miss": "No explicit routing to designing-business-models and raising-and-governing-capital."
+        }
+      ]
+    }
+  ],
+  "total_score": 14,
+  "max_score": 25,
+  "normalized_score": 0.56,
+  "forward_ready": false
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "attempt": 1,
+  "canonical": false,
+  "accepted": false,
+  "response_and_score_artifacts_frozen": true,
+  "archived_from": "evals/designing-business-models/forward/",
+  "disposition": "Historical forward failure at a superseded skill hash. Paths in the frozen review describe its pre-archive location; archived files and hashes are authoritative."
+}

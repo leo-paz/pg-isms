@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "skill_name": "designing-business-models",
+  "phase": "microtest",
+  "attempt": 2,
+  "created_at": "2026-07-14T21:16:03Z",
+  "canonical_orchestrator_task": "/root/business_model_micro_orchestrator_002",
+  "plan_frozen_before_generation": true,
+  "rubric_sha256": "726da76b63ebc82b6d60e0c045dde065a1b1f3b449c04a562233a9024d9d881a",
+  "prompt_projection": "decoded prompt only",
+  "prompt_sha256": "6d25e19d71639221af82c759db4632b4a8228269b9739436c5fdd515eaa68868",
+  "criteria_sha256": "c7a8aa272e0bbd62c9776353fe0b728c550c9fcd440fc03ad4606857d8becdb9",
+  "criteria_visible_before_generation": false,
+  "criteria_visible_during_generation": false,
+  "criteria_hidden_during_generation": true,
+  "prior_outputs_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "control_skill_sha256": null,
+  "guided_skill_sha256": "fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0",
+  "read_boundaries": {
+    "control": ["prompt projection"],
+    "guided": ["prompt projection", "skills/designing-business-models/SKILL.md", "skills/designing-business-models/references/runtime-contract.md"]
+  },
+  "planned_tasks": [
+    "/root/business_model_micro_orchestrator_002/control_1",
+    "/root/business_model_micro_orchestrator_002/control_2",
+    "/root/business_model_micro_orchestrator_002/control_3",
+    "/root/business_model_micro_orchestrator_002/control_4",
+    "/root/business_model_micro_orchestrator_002/control_5",
+    "/root/business_model_micro_orchestrator_002/guided_1",
+    "/root/business_model_micro_orchestrator_002/guided_2",
+    "/root/business_model_micro_orchestrator_002/guided_3",
+    "/root/business_model_micro_orchestrator_002/guided_4",
+    "/root/business_model_micro_orchestrator_002/guided_5"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "skill_name": "designing-business-models",
+  "case_id": "business-model-heldout-002",
+  "authored_by": "/root/business_model_heldout_author_002",
+  "authored_at": "2026-07-14T20:57:26Z",
+  "heldout_after_skill_sha256": "fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0",
+  "prompt": "You are advising Morrow Diagnostics on July 14, 2026. Morrow has built an investigational home finger-prick monitor that estimates absolute neutrophil count for people receiving chemotherapy. Patients benefit; patients and oncology nurses use it; economic ownership is unresolved. A supervised 48-patient feasibility study found that 93% of paired results were within the prespecified laboratory tolerance and 81% of participants completed a test without staff help. Three cancer centers now want to discuss post-clearance access, but none has agreed to pay.\n\nThis is a high-harm, pre-clearance device, not a launch-ready product. Before any clinical reliance or commercial deployment, Morrow must confirm the current regulatory pathway and permissions, complete human-factors validation and a 120-patient prospective study, and maintain clinician review, monitoring, incident response, and stop rules. The January 15, 2027 gate is sensitivity of at least 95% for severe neutropenia, an invalid-result rate no higher than 5%, and no unresolved serious device-related event. Non-dilutive funding covers that work through March 2027, so the company is not in an acute survival decision. A separate maximum of $75,000 is available for business-model evidence through October 23, 2026; counsel must approve any pre-clearance commitment or exposure. The board decides on November 6.\n\nThe founders are considering three routes. In the direct center route, a cancer center buys each reader for $900 (COGS $420) and cartridges for $28 (COGS $9). A typical reachable center has 180 eligible patients annually using eight cartridges each. First-year training and integration cost Morrow $4,000 per center, annual support is $3,000, and a six-month sale costs about $12,000. About 500 high-volume US centers appear reachable, subject to verification.\n\nIn the episode route, a risk-bearing oncology group pays $480 for each 16-week chemotherapy episode. At 180 episodes per group per year, cartridges, cloud service, and nurse escalation cost Morrow $152 per episode; implementation, outcome adjudication, and acquisition cost $40,000 in year one. Procurement and outcome evidence take about nine months, and avoided acute-care attribution is still uncertain. Roughly 1,200 groups might qualify, also subject to verification.\n\nIn the license route, an established diagnostics manufacturer offers a nonbinding outline: Morrow spends $350,000 on design transfer, receives $500,000 upon clearance, and earns $5 per cartridge. The proposed five-year oncology exclusivity starts with a 250,000-cartridge annual minimum in year three; the partner's 1.2 million-unit year-five forecast is not a commitment. This path avoids building manufacturing and sales but concentrates data access and execution in one partner.\n\nThe CEO wants a clinically responsible durable company and will accept institutional equity only if the selected route can plausibly support venture returns and genuinely needs acceleration. Write the board's decision memo. Recommend one primary route and preserve one fallback rather than leaving all three open. Explain the decision at decision-useful unit economics, choose a capital posture, and propose one legally bounded commercial-evidence test that concludes by October 23 within the $75,000 cap, with numeric results that determine whether Morrow proceeds, revises, or stops. Make clear who owns the decision now, how the January gate limits it, and who owns the next work after each result.",
+  "criteria": [
+    {
+      "id": "ownership-state-gate",
+      "description": "Names designing-business-models as primary, identifies the pre-clearance high-harm state without inventing a survival crisis, and makes the January regulatory/clinical gate precede clinical-use pricing or exposure."
+    },
+    {
+      "id": "actors-route-economics",
+      "description": "Distinguishes beneficiary, user, buyer, and payer for the selected route and compares its economics with at least one alternative using supplied revenue, variable cost, and route-specific implementation, sales, support, or transfer costs."
+    },
+    {
+      "id": "venture-capital-fit",
+      "description": "Selects a capital posture by connecting the chosen route's reachable returns, capital need, and evidence latency to the founders' venture-return condition; it does not treat investor interest or the partner forecast as proof."
+    },
+    {
+      "id": "bounded-dated-test",
+      "description": "Defines one legally bounded test costing no more than $75,000 and reviewed by October 23, 2026, with numeric results that unambiguously trigger proceed, revise, and stop-or-preserve-fallback branches."
+    },
+    {
+      "id": "ordered-handoffs",
+      "description": "Provides ordered handoffs while retaining business-model ownership of economic interpretation, assigns evidence execution to the appropriate owner, and names a next accountable owner for each material test outcome without sending growth or capital work prematurely."
+    }
+  ],
+  "authoring_status": "post-freeze-held-out",
+  "prompt_avoids_skill_recipe": true
+}

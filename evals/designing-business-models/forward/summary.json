@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "skill_name": "designing-business-models",
+  "phase": "forward",
+  "reviewer_id": "business-model-forward-004",
+  "scorer_id": "business-model-forward-scorer-004",
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "raw_output": "scenario-01.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Makes designing-business-models primary for demonstrated value with unknown payer/WTP, separates engagement from capture evidence, and pauses ads."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Separate owner, accountant, and lender rows distinguish beneficiary, user, buyer, payer, and channel and state capture hypotheses."
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Specifies $49, $299, and $5,000 offers, bounded cohorts, and qualifying cash/deposit evidence while excluding weak signals."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Defers ads and fine tuning and precommits dated pay/revise/preserve-free/stop branches with retention, effects, and economics gates."
+        },
+        {
+          "criterion": 5,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Assigns evidence execution to learning, offer/billing exposure to shipping, and post-gate channel cohorts to growth under business-model ownership."
+        }
+      ],
+      "missed_criteria": [],
+      "score": 5,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-02",
+      "raw_output": "scenario-02.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Frames integration as a boundary/economics choice and compares coordination, delay, quality, dependency, switching, capital, capability, and scale."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Uses supplied costs and latencies plus qualification, reliability, inventory, working-capital, certification, and capability gates."
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Tests the alternate supplier and standard interface before integration and records supplier-versus-interface failures."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Precommits dated dual-source/partner/repair/integrate/stop branches with numeric delivery, quality, switching, dependency, capital, and capability thresholds."
+        },
+        {
+          "criterion": 5,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Keeps the boundary decision with business models, interface work with engineering, rollout with shipping, and later financing with capital governance."
+        }
+      ],
+      "missed_criteria": [],
+      "score": 5,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-03",
+      "raw_output": "scenario-03.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Starts from value, usage, renewals, procurement, support, and cost concentration and rejects competitor menus and unproven seats."
+        },
+        {
+          "criterion": 2,
+          "score": 0,
+          "max_score": 1,
+          "evidence": "The high-cost row omits explicit buyer, value event, WTP evidence, retention, and expansion-risk fields; a future join or measurement plan does not fill the required record."
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Defines an explicit eight-renewal cohort, bounded offers, and predeclared interpretations of acceptance, payment, discount, procurement delay, deployment, expansion, rejection, and churn."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Uses dated keep/change/segment/grandfather/stop branches, active-term and integrity guards, and rejects unlimited heavy-user economics."
+        },
+        {
+          "criterion": 5,
+          "score": 0,
+          "max_score": 1,
+          "evidence": "Business-model, shipping, and growth ownership are explicit, but communicating-clearly and the settled-offer-only communication constraint are absent."
+        }
+      ],
+      "missed_criteria": [
+        2,
+        5
+      ],
+      "score": 3,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-04",
+      "raw_output": "scenario-04.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Makes raising-and-governing-capital primary and explicitly rejects business-model ownership of term-sheet selection or negotiation."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Routes instrument economics, dilution, control, governance, investor incentives, process, counsel, comparison, negotiation, and recommendation to capital governance."
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Limits business-model work to amount/absorption/return fit and keeps validated payer, pricing, packaging, sales, and channels closed absent contrary evidence."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "States that signed terms are not cash and routes survival first only if time-to-zero binds."
+        },
+        {
+          "criterion": 5,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Provides ordered named ownership, an amount-and-absorption evidence memo, and precommitted fit outcomes without ranking term-sheet terms."
+        }
+      ],
+      "missed_criteria": [],
+      "score": 5,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-05",
+      "raw_output": "scenario-05.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Compares reachable market, growth ceiling, return shape, founder goals, capital absorption, dilution, downside, and exits across durable and venture paths."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Treats judgment, implementation, and accountability as current value and uses a bounded hybrid/software test to test separability."
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Models durable service-plus-software and venture-product paths with all required economic, hiring, capital, latency, founder, and downside fields."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Uses a dated product/repeatability milestone and later renewal switch condition, making equity conditional on venture-return evidence."
+        },
+        {
+          "criterion": 5,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Keeps venture type and service/product boundary with business models, routes later financing to capital governance, and records no acute runway problem."
+        }
+      ],
+      "missed_criteria": [],
+      "score": 5,
+      "max_score": 5
+    }
+  ],
+  "exact_misses": [
+    {
+      "case_id": "scenario-03",
+      "criterion": 2,
+      "criterion_text": "Builds separate customer-economic records for weekly audit, monthly, archival, and heavy-cost accounts, including buyer, value event, willingness-to-pay evidence, gross margin, support burden, sales effort, retention, and expansion risk.",
+      "reason": "The high-cost record omits explicit buyer, value event, WTP evidence, retention, and expansion risk."
+    },
+    {
+      "case_id": "scenario-03",
+      "criterion": 5,
+      "criterion_text": "Keeps pricing, packaging, sales model, and customer economics with designing-business-models while shipping owns billing or entitlement exposure, growth owns channel execution, and communication adapts only settled offers.",
+      "reason": "The response omits communicating-clearly and the settled-offer-only communication constraint."
+    }
+  ],
+  "total_score": 23,
+  "total_max_score": 25,
+  "normalized_score": 0.92,
+  "baseline_normalized_score": 0.24,
+  "guided_minus_baseline_normalized_delta": 0.68,
+  "forward_ready": true,
+  "skill_sha256": "fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0",
+  "cases_sha256": "88f415e5cc5163580cdf4614b0bf6c57459c31d4ba5055c1a8141c843858f3ce"
+}

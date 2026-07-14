@@ -1,0 +1,4 @@
+interface:
+  display_name: "Designing Business Models"
+  short_description: "Design payer, pricing, channel, and venture model"
+  default_prompt: "Use $designing-business-models to design the payer, pricing, channel, company boundary, and venture model for this startup decision."

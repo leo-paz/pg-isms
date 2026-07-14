@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "skill_name": "designing-business-models",
+  "case_id": "business-model-heldout-001",
+  "authored_by": "/root/business_model_heldout_author_001",
+  "authored_at": "2026-07-14T20:44:36Z",
+  "generator_id": "business-model-heldout-generator-001",
+  "canonical_author_task": "/root/business_model_heldout_author_001",
+  "canonical_agent_task": "/root/business_model_heldout_generator_001",
+  "generated_at": "2026-07-14T20:50:59Z",
+  "model_identity": "Codex (GPT-5)",
+  "criteria_visible_before_generation": false,
+  "criteria_visible_during_generation": false,
+  "criteria_hidden_during_generation": true,
+  "response_frozen_before_scoring": true,
+  "prompt_avoids_skill_recipe": true,
+  "skill_sha256": "fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0",
+  "heldout_after_skill_sha256": "fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0",
+  "prompt_sha256": "3a1c7ca85542fa7e6aa8349854b7397986994d8f7795effd9f0ce39c3d7dde14",
+  "case_sha256": "3cff606c8efe2ceed5fb5225add06b79f589cf2a4032870920b618e4f13bbd4a",
+  "response_sha256": "7b04caa3915ce2f4d3b2930afd29b4eedd605781f7e8880b8f1183855233c34f"
+}

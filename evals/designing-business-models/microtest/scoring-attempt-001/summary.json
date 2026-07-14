@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "skill_name": "designing-business-models",
+  "scorer_id": "business-model-micro-scorer-002",
+  "final_rescorer_id": null,
+  "scored_at": "2026-07-14T21:50:07Z",
+  "skill_sha256": "fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0",
+  "rubric_sha256": "726da76b63ebc82b6d60e0c045dde065a1b1f3b449c04a562233a9024d9d881a",
+  "generation_plan_sha256": "1db521138c8dd59a0cabfc6e654c64828e14d91f55ccdf6b61ddd50d5228f939",
+  "prompt_sha256": "6d25e19d71639221af82c759db4632b4a8228269b9739436c5fdd515eaa68868",
+  "criteria_sha256": "c7a8aa272e0bbd62c9776353fe0b728c550c9fcd440fc03ad4606857d8becdb9",
+  "rubric_frozen_before_scoring": true,
+  "criteria_hidden_during_generation": true,
+  "repetitions": 5,
+  "control": {
+    "responses": [
+      {
+        "variant": "control",
+        "rep": 1,
+        "response_sha256": "92d82a9fdde20a34e0ee8ed56315cb7ab8ebe46706ed0fc130285876d411c108",
+        "score": 2,
+        "criterion_results": [false, false, true, false, true],
+        "misses": [1, 2, 4],
+        "scorecard": "scorecards/control/rep-1.md"
+      },
+      {
+        "variant": "control",
+        "rep": 2,
+        "response_sha256": "1390dacf3200d39ff88da96b07df37cec8f1ad3f6e71e27c45a578ba8e992f6a",
+        "score": 1,
+        "criterion_results": [false, false, false, true, false],
+        "misses": [1, 2, 3, 5],
+        "scorecard": "scorecards/control/rep-2.md"
+      },
+      {
+        "variant": "control",
+        "rep": 3,
+        "response_sha256": "580d08e95d4c7ad47cde4df3d87a011342610370175e4d7604e58ff92701f823",
+        "score": 0,
+        "criterion_results": [false, false, false, false, false],
+        "misses": [1, 2, 3, 4, 5],
+        "scorecard": "scorecards/control/rep-3.md"
+      },
+      {
+        "variant": "control",
+        "rep": 4,
+        "response_sha256": "38fc602aa224e88381125ae1fd9d527c4b480e10d6bdc8df906f02b3f4fd489c",
+        "score": 1,
+        "criterion_results": [false, false, false, true, false],
+        "misses": [1, 2, 3, 5],
+        "scorecard": "scorecards/control/rep-4.md"
+      },
+      {
+        "variant": "control",
+        "rep": 5,
+        "response_sha256": "8d334c0b37afc94806620247aee387ffb2cb521e1fc31e97ed532de40922901c",
+        "score": 0,
+        "criterion_results": [false, false, false, false, false],
+        "misses": [1, 2, 3, 4, 5],
+        "scorecard": "scorecards/control/rep-5.md"
+      }
+    ],
+    "mean_score": 0.8,
+    "population_score_variance": 0.56,
+    "normalized_score": 0.16,
+    "all_criteria_pass_rate": 0.0,
+    "criterion_pass_rates": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.2,
+      "4": 0.4,
+      "5": 0.2
+    }
+  },
+  "guided": {
+    "responses": [
+      {
+        "variant": "guided",
+        "rep": 1,
+        "response_sha256": "ab17cf56e482e41a7567ab24795941ebc332d9f4afdf2c575de9a2f2d4eff7e0",
+        "score": 5,
+        "criterion_results": [true, true, true, true, true],
+        "misses": [],
+        "scorecard": "scorecards/guided/rep-1.md"
+      },
+      {
+        "variant": "guided",
+        "rep": 2,
+        "response_sha256": "1ae23dc74d07c5ee8c31d37f089eb5cf614c5195b0ba27789c0bc1ac4095d591",
+        "score": 5,
+        "criterion_results": [true, true, true, true, true],
+        "misses": [],
+        "scorecard": "scorecards/guided/rep-2.md"
+      },
+      {
+        "variant": "guided",
+        "rep": 3,
+        "response_sha256": "1805f584db409de231b11fe4f41d7c398c1401e8de1db1f5749bef880c5eaed8",
+        "score": 5,
+        "criterion_results": [true, true, true, true, true],
+        "misses": [],
+        "scorecard": "scorecards/guided/rep-3.md"
+      },
+      {
+        "variant": "guided",
+        "rep": 4,
+        "response_sha256": "959b85691437433f7c438b14003eef6ab8ec7f58f20cf55f136a181b830f973f",
+        "score": 5,
+        "criterion_results": [true, true, true, true, true],
+        "misses": [],
+        "scorecard": "scorecards/guided/rep-4.md"
+      },
+      {
+        "variant": "guided",
+        "rep": 5,
+        "response_sha256": "55bccb35e60ceac5b4feda793b8eada35f735426eba8977a73d31b17060937e4",
+        "score": 5,
+        "criterion_results": [true, true, true, true, true],
+        "misses": [],
+        "scorecard": "scorecards/guided/rep-5.md"
+      }
+    ],
+    "mean_score": 5.0,
+    "population_score_variance": 0.0,
+    "normalized_score": 1.0,
+    "all_criteria_pass_rate": 1.0,
+    "criterion_pass_rates": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "5": 1.0
+    }
+  },
+  "guided_minus_control_delta": {
+    "mean_score": 4.2,
+    "population_score_variance": -0.56,
+    "normalized_score": 0.84,
+    "all_criteria_pass_rate": 1.0,
+    "criterion_pass_rates": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 0.8,
+      "4": 0.6,
+      "5": 0.8
+    }
+  },
+  "material_improvement": true,
+  "integrity_checks": {
+    "all_pass": true,
+    "hashes": {
+      "rubric_sha256_verified": true,
+      "generation_plan_sha256_verified": true,
+      "prompt_projection_sha256_verified": true,
+      "criteria_projection_sha256_verified": true,
+      "guided_skill_sha256_verified": true
+    },
+    "counts": {
+      "control_responses_exactly_5": true,
+      "guided_responses_exactly_5": true,
+      "manifests_exactly_10": true,
+      "manifest_keys_exactly_15_each": true
+    },
+    "expected_manifest_keys": [
+      "canonical_agent_task",
+      "criteria_hidden_during_generation",
+      "criteria_visible_during_generation",
+      "frozen_at",
+      "generated_at",
+      "generation_plan_sha256",
+      "model_identity",
+      "prior_outputs_visible_during_generation",
+      "prompt",
+      "prompt_sha256",
+      "rep",
+      "response_sha256",
+      "schema_version",
+      "skill_sha256",
+      "variant"
+    ],
+    "plan_and_attestation": {
+      "plan_frozen_before_generation": true,
+      "plan_created_before_every_generated_at": true,
+      "plan_created_before_every_frozen_at": true,
+      "every_generated_at_not_after_frozen_at": true,
+      "every_frozen_at_before_attestation_completed_at": true,
+      "planned_tasks_equal_attestation_planned_tasks": true,
+      "planned_tasks_equal_completed_tasks_exact_order": true,
+      "planned_tasks_equal_manifest_task_set": true,
+      "attestation_planned_tasks_equal_completed_tasks_flag": true,
+      "canonical_orchestrator_task_consistent": true,
+      "attestation_response_hash_map_matches_all_manifests": true,
+      "attestation_completed_after_all_responses_frozen": true
+    },
+    "isolation": {
+      "plan_criteria_visible_before_generation_false": true,
+      "plan_criteria_visible_during_generation_false": true,
+      "plan_criteria_hidden_during_generation_true": true,
+      "plan_prior_outputs_visible_during_generation_false": true,
+      "plan_responses_frozen_before_scoring_true": true,
+      "attestation_criteria_visible_during_generation_false": true,
+      "attestation_criteria_hidden_during_generation_true": true,
+      "attestation_prior_outputs_visible_during_generation_false": true,
+      "attestation_responses_frozen_before_scoring_true": true,
+      "every_manifest_criteria_visible_during_generation_false": true,
+      "every_manifest_criteria_hidden_during_generation_true": true,
+      "every_manifest_prior_outputs_visible_during_generation_false": true
+    },
+    "identity_and_uniqueness": {
+      "prompt_text_identical_in_all_manifests": true,
+      "prompt_hash_identical_in_all_manifests": true,
+      "generation_plan_hash_identical_in_all_manifests": true,
+      "control_skill_hash_null_in_all_manifests": true,
+      "guided_skill_hash_current_in_all_manifests": true,
+      "canonical_task_matches_variant_and_rep_in_all_manifests": true,
+      "canonical_tasks_unique": true,
+      "response_hashes_unique": true,
+      "exact_response_byte_hashes_match_manifests": true,
+      "response_hashes_match_attestation": true
+    },
+    "per_response": [
+      {
+        "variant": "control",
+        "rep": 1,
+        "canonical_agent_task": "/root/business_model_micro_orchestrator_002/control_1",
+        "generated_at": "2026-07-14T21:19:27Z",
+        "frozen_at": "2026-07-14T21:19:27Z",
+        "exact_15_keys": true,
+        "prompt_identity_and_hash_match": true,
+        "plan_hash_matches": true,
+        "skill_hash_mode_matches": true,
+        "isolation_flags_match": true,
+        "timestamp_order_valid": true,
+        "exact_response_byte_hash_matches": true,
+        "attestation_hash_matches": true
+      },
+      {
+        "variant": "control",
+        "rep": 2,
+        "canonical_agent_task": "/root/business_model_micro_orchestrator_002/control_2",
+        "generated_at": "2026-07-14T21:20:45Z",
+        "frozen_at": "2026-07-14T21:20:45Z",
+        "exact_15_keys": true,
+        "prompt_identity_and_hash_match": true,
+        "plan_hash_matches": true,
+        "skill_hash_mode_matches": true,
+        "isolation_flags_match": true,
+        "timestamp_order_valid": true,
+        "exact_response_byte_hash_matches": true,
+        "attestation_hash_matches": true
+      },
+      {
+        "variant": "control",
+        "rep": 3,
+        "canonical_agent_task": "/root/business_model_micro_orchestrator_002/control_3",
+        "generated_at": "2026-07-14T21:22:03Z",
+        "frozen_at": "2026-07-14T21:22:09Z",
+        "exact_15_keys": true,
+        "prompt_identity_and_hash_match": true,
+        "plan_hash_matches": true,
+        "skill_hash_mode_matches": true,
+        "isolation_flags_match": true,
+        "timestamp_order_valid": true,
+        "exact_response_byte_hash_matches": true,
+        "attestation_hash_matches": true
+      },
+      {
+        "variant": "control",
+        "rep": 4,
+        "canonical_agent_task": "/root/business_model_micro_orchestrator_002/control_4",
+        "generated_at": "2026-07-14T21:24:11Z",
+        "frozen_at": "2026-07-14T21:24:11Z",
+        "exact_15_keys": true,
+        "prompt_identity_and_hash_match": true,
+        "plan_hash_matches": true,
+        "skill_hash_mode_matches": true,
+        "isolation_flags_match": true,
+        "timestamp_order_valid": true,
+        "exact_response_byte_hash_matches": true,
+        "attestation_hash_matches": true
+      },
+      {
+        "variant": "control",
+        "rep": 5,
+        "canonical_agent_task": "/root/business_model_micro_orchestrator_002/control_5",
+        "generated_at": "2026-07-14T21:26:14Z",
+        "frozen_at": "2026-07-14T21:26:14Z",
+        "exact_15_keys": true,
+        "prompt_identity_and_hash_match": true,
+        "plan_hash_matches": true,
+        "skill_hash_mode_matches": true,
+        "isolation_flags_match": true,
+        "timestamp_order_valid": true,
+        "exact_response_byte_hash_matches": true,
+        "attestation_hash_matches": true
+      },
+      {
+        "variant": "guided",
+        "rep": 1,
+        "canonical_agent_task": "/root/business_model_micro_orchestrator_002/guided_1",
+        "generated_at": "2026-07-14T21:29:59Z",
+        "frozen_at": "2026-07-14T21:29:59Z",
+        "exact_15_keys": true,
+        "prompt_identity_and_hash_match": true,
+        "plan_hash_matches": true,
+        "skill_hash_mode_matches": true,
+        "isolation_flags_match": true,
+        "timestamp_order_valid": true,
+        "exact_response_byte_hash_matches": true,
+        "attestation_hash_matches": true
+      },
+      {
+        "variant": "guided",
+        "rep": 2,
+        "canonical_agent_task": "/root/business_model_micro_orchestrator_002/guided_2",
+        "generated_at": "2026-07-14T21:34:30Z",
+        "frozen_at": "2026-07-14T21:34:30Z",
+        "exact_15_keys": true,
+        "prompt_identity_and_hash_match": true,
+        "plan_hash_matches": true,
+        "skill_hash_mode_matches": true,
+        "isolation_flags_match": true,
+        "timestamp_order_valid": true,
+        "exact_response_byte_hash_matches": true,
+        "attestation_hash_matches": true
+      },
+      {
+        "variant": "guided",
+        "rep": 3,
+        "canonical_agent_task": "/root/business_model_micro_orchestrator_002/guided_3",
+        "generated_at": "2026-07-14T21:37:43Z",
+        "frozen_at": "2026-07-14T21:37:43Z",
+        "exact_15_keys": true,
+        "prompt_identity_and_hash_match": true,
+        "plan_hash_matches": true,
+        "skill_hash_mode_matches": true,
+        "isolation_flags_match": true,
+        "timestamp_order_valid": true,
+        "exact_response_byte_hash_matches": true,
+        "attestation_hash_matches": true
+      },
+      {
+        "variant": "guided",
+        "rep": 4,
+        "canonical_agent_task": "/root/business_model_micro_orchestrator_002/guided_4",
+        "generated_at": "2026-07-14T21:41:22Z",
+        "frozen_at": "2026-07-14T21:41:22Z",
+        "exact_15_keys": true,
+        "prompt_identity_and_hash_match": true,
+        "plan_hash_matches": true,
+        "skill_hash_mode_matches": true,
+        "isolation_flags_match": true,
+        "timestamp_order_valid": true,
+        "exact_response_byte_hash_matches": true,
+        "attestation_hash_matches": true
+      },
+      {
+        "variant": "guided",
+        "rep": 5,
+        "canonical_agent_task": "/root/business_model_micro_orchestrator_002/guided_5",
+        "generated_at": "2026-07-14T21:43:47Z",
+        "frozen_at": "2026-07-14T21:43:47Z",
+        "exact_15_keys": true,
+        "prompt_identity_and_hash_match": true,
+        "plan_hash_matches": true,
+        "skill_hash_mode_matches": true,
+        "isolation_flags_match": true,
+        "timestamp_order_valid": true,
+        "exact_response_byte_hash_matches": true,
+        "attestation_hash_matches": true
+      }
+    ]
+  }
+}

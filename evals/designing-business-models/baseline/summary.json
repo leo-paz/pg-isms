@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "skill_name": "designing-business-models",
+  "phase": "baseline",
+  "reviewer_id": "business-model-baseline-001",
+  "scorer_id": "business-model-baseline-scorer-001",
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "raw_output": "scenario-01.md",
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1},
+        {"criterion": 2, "score": 0, "max_score": 1},
+        {"criterion": 3, "score": 0, "max_score": 1},
+        {"criterion": 4, "score": 0, "max_score": 1},
+        {"criterion": 5, "score": 0, "max_score": 1}
+      ],
+      "missed_criteria": [2, 3, 4, 5],
+      "score": 1,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-02",
+      "raw_output": "scenario-02.md",
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1},
+        {"criterion": 2, "score": 0, "max_score": 1},
+        {"criterion": 3, "score": 0, "max_score": 1},
+        {"criterion": 4, "score": 0, "max_score": 1},
+        {"criterion": 5, "score": 0, "max_score": 1}
+      ],
+      "missed_criteria": [2, 3, 4, 5],
+      "score": 1,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-03",
+      "raw_output": "scenario-03.md",
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1},
+        {"criterion": 2, "score": 0, "max_score": 1},
+        {"criterion": 3, "score": 0, "max_score": 1},
+        {"criterion": 4, "score": 0, "max_score": 1},
+        {"criterion": 5, "score": 0, "max_score": 1}
+      ],
+      "missed_criteria": [2, 3, 4, 5],
+      "score": 1,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-04",
+      "raw_output": "scenario-04.md",
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1},
+        {"criterion": 2, "score": 0, "max_score": 1},
+        {"criterion": 3, "score": 0, "max_score": 1},
+        {"criterion": 4, "score": 0, "max_score": 1},
+        {"criterion": 5, "score": 1, "max_score": 1}
+      ],
+      "missed_criteria": [2, 3, 4],
+      "score": 2,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-05",
+      "raw_output": "scenario-05.md",
+      "criteria_results": [
+        {"criterion": 1, "score": 0, "max_score": 1},
+        {"criterion": 2, "score": 1, "max_score": 1},
+        {"criterion": 3, "score": 0, "max_score": 1},
+        {"criterion": 4, "score": 0, "max_score": 1},
+        {"criterion": 5, "score": 0, "max_score": 1}
+      ],
+      "missed_criteria": [1, 3, 4, 5],
+      "score": 1,
+      "max_score": 5
+    }
+  ],
+  "exact_misses": [
+    {"case_id": "scenario-01", "criterion": 2, "miss": "Does not explicitly separate beneficiary, user, buyer, and payer as four roles."},
+    {"case_id": "scenario-01", "criterion": 3, "miss": "Provides no explicit offer price or price range and no predeclared pass/fail commitment threshold."},
+    {"case_id": "scenario-01", "criterion": 4, "miss": "Does not precommit dated pay, revise, preserve-free, and stop branches or defer fine price tuning until payer-path validation."},
+    {"case_id": "scenario-01", "criterion": 5, "miss": "Does not make the required explicit ownership and workflow handoffs."},
+    {"case_id": "scenario-02", "criterion": 2, "miss": "Does not explicitly include inventory or internal-build estimate uncertainty."},
+    {"case_id": "scenario-02", "criterion": 3, "miss": "Does not record supplier-specific versus architectural failures."},
+    {"case_id": "scenario-02", "criterion": 4, "miss": "Provides no precommitted thresholds or complete integrate, dual-source, partner, repair, and stop branches."},
+    {"case_id": "scenario-02", "criterion": 5, "miss": "Does not make the required explicit ownership and workflow handoffs."},
+    {"case_id": "scenario-03", "criterion": 2, "miss": "Does not explicitly record willingness-to-pay evidence and gross margin for each required segment."},
+    {"case_id": "scenario-03", "criterion": 3, "miss": "Does not predeclare interpretations of acceptance, rejection, discounting, and churn."},
+    {"case_id": "scenario-03", "criterion": 4, "miss": "Does not precommit dated keep, change, segment, grandfather, and stop branches."},
+    {"case_id": "scenario-03", "criterion": 5, "miss": "Does not make the required explicit ownership and workflow handoffs."},
+    {"case_id": "scenario-04", "criterion": 2, "miss": "Does not explicitly route the full remit, including investor incentives, to raising-and-governing-capital."},
+    {"case_id": "scenario-04", "criterion": 3, "miss": "Does not explicitly test return shape or keep payer, price, packaging, and sales design closed absent new evidence."},
+    {"case_id": "scenario-04", "criterion": 4, "miss": "Does not make the required conditional runway routing or signed-offer survival caveat."},
+    {"case_id": "scenario-05", "criterion": 1, "miss": "Does not explicitly compare plausible exits for the venture and durable-company paths."},
+    {"case_id": "scenario-05", "criterion": 3, "miss": "Does not model both paths across every required explicit assumption."},
+    {"case_id": "scenario-05", "criterion": 4, "miss": "Provides no dated switch condition and no explicit evidence-gated capital-as-acceleration rule."},
+    {"case_id": "scenario-05", "criterion": 5, "miss": "Does not make the required explicit ownership and workflow handoffs."}
+  ],
+  "total_score": 6,
+  "total_max_score": 25,
+  "normalized_score": 0.24,
+  "baseline_ready": true
+}

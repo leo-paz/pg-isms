@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "skill_name": "designing-business-models",
+  "scorer_id": "business-model-micro-scorer-001",
+  "final_rescorer_id": null,
+  "skill_sha256": "fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0",
+  "rubric_sha256": "726da76b63ebc82b6d60e0c045dde065a1b1f3b449c04a562233a9024d9d881a",
+  "rubric_frozen_before_scoring": true,
+  "repetitions_per_variant": 5,
+  "control": [
+    {
+      "rep": 1,
+      "score": 0,
+      "max_score": 5,
+      "criteria_passed": [],
+      "response_path": "evals/designing-business-models/microtest/control/rep-1.md",
+      "scorecard_path": "evals/designing-business-models/microtest/scorecards/control/rep-1.md"
+    },
+    {
+      "rep": 2,
+      "score": 0,
+      "max_score": 5,
+      "criteria_passed": [],
+      "response_path": "evals/designing-business-models/microtest/control/rep-2.md",
+      "scorecard_path": "evals/designing-business-models/microtest/scorecards/control/rep-2.md"
+    },
+    {
+      "rep": 3,
+      "score": 0,
+      "max_score": 5,
+      "criteria_passed": [],
+      "response_path": "evals/designing-business-models/microtest/control/rep-3.md",
+      "scorecard_path": "evals/designing-business-models/microtest/scorecards/control/rep-3.md"
+    },
+    {
+      "rep": 4,
+      "score": 0,
+      "max_score": 5,
+      "criteria_passed": [],
+      "response_path": "evals/designing-business-models/microtest/control/rep-4.md",
+      "scorecard_path": "evals/designing-business-models/microtest/scorecards/control/rep-4.md"
+    },
+    {
+      "rep": 5,
+      "score": 0,
+      "max_score": 5,
+      "criteria_passed": [],
+      "response_path": "evals/designing-business-models/microtest/control/rep-5.md",
+      "scorecard_path": "evals/designing-business-models/microtest/scorecards/control/rep-5.md"
+    }
+  ],
+  "guided": [
+    {
+      "rep": 1,
+      "score": 4,
+      "max_score": 5,
+      "criteria_passed": [1, 3, 4, 5],
+      "response_path": "evals/designing-business-models/microtest/guided/rep-1.md",
+      "scorecard_path": "evals/designing-business-models/microtest/scorecards/guided/rep-1.md"
+    },
+    {
+      "rep": 2,
+      "score": 4,
+      "max_score": 5,
+      "criteria_passed": [1, 3, 4, 5],
+      "response_path": "evals/designing-business-models/microtest/guided/rep-2.md",
+      "scorecard_path": "evals/designing-business-models/microtest/scorecards/guided/rep-2.md"
+    },
+    {
+      "rep": 3,
+      "score": 4,
+      "max_score": 5,
+      "criteria_passed": [1, 3, 4, 5],
+      "response_path": "evals/designing-business-models/microtest/guided/rep-3.md",
+      "scorecard_path": "evals/designing-business-models/microtest/scorecards/guided/rep-3.md"
+    },
+    {
+      "rep": 4,
+      "score": 3,
+      "max_score": 5,
+      "criteria_passed": [1, 4, 5],
+      "response_path": "evals/designing-business-models/microtest/guided/rep-4.md",
+      "scorecard_path": "evals/designing-business-models/microtest/scorecards/guided/rep-4.md"
+    },
+    {
+      "rep": 5,
+      "score": 4,
+      "max_score": 5,
+      "criteria_passed": [1, 3, 4, 5],
+      "response_path": "evals/designing-business-models/microtest/guided/rep-5.md",
+      "scorecard_path": "evals/designing-business-models/microtest/scorecards/guided/rep-5.md"
+    }
+  ],
+  "control_metrics": {
+    "mean": 0.0,
+    "population_variance": 0.0,
+    "normalized_score": 0.0,
+    "all_criteria_pass_rate": 0.0,
+    "criterion_pass_rates": {
+      "criterion_1": 0.0,
+      "criterion_2": 0.0,
+      "criterion_3": 0.0,
+      "criterion_4": 0.0,
+      "criterion_5": 0.0
+    }
+  },
+  "guided_metrics": {
+    "mean": 3.8,
+    "population_variance": 0.16,
+    "normalized_score": 0.76,
+    "all_criteria_pass_rate": 0.0,
+    "criterion_pass_rates": {
+      "criterion_1": 1.0,
+      "criterion_2": 0.0,
+      "criterion_3": 0.8,
+      "criterion_4": 1.0,
+      "criterion_5": 1.0
+    }
+  },
+  "guided_minus_control_normalized_delta": 0.76,
+  "integrity_checks": {
+    "rubric_sha256_matches_expected": true,
+    "skill_sha256_matches_expected": true,
+    "rubric_frozen_before_scoring": true,
+    "manifest_count": 10,
+    "exactly_five_control_repetitions": true,
+    "exactly_five_guided_repetitions": true,
+    "rep_sequences_are_1_through_5": true,
+    "manifest_schema_version_all_one": true,
+    "manifest_key_count_all_nine": true,
+    "manifest_keys_exact": [
+      "canonical_agent_task",
+      "generated_at",
+      "model_identity",
+      "prompt",
+      "rep",
+      "response_sha256",
+      "schema_version",
+      "skill_sha256",
+      "variant"
+    ],
+    "all_manifest_prompts_equal_rubric_prompt": true,
+    "all_control_skill_hashes_null": true,
+    "all_guided_skill_hashes_equal_current_skill": true,
+    "all_timestamps_valid_utc": true,
+    "all_model_identities_gpt5": true,
+    "canonical_agent_tasks_unique": true,
+    "response_sha256_values_unique": true,
+    "all_response_hashes_lowercase_sha256": true,
+    "all_declared_response_hashes_match_bytes": true,
+    "all_response_paths_unique": true,
+    "all_scorecard_paths_unique": true,
+    "all_scorecards_present": true,
+    "scorecard_scores_match_summary": true,
+    "summary_arithmetic_recomputed": true,
+    "source_rubric_responses_and_manifests_unchanged_by_scorer": true
+  }
+}

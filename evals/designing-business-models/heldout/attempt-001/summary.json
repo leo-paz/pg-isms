@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "skill_name": "designing-business-models",
+  "case_id": "business-model-heldout-001",
+  "authored_by": "/root/business_model_heldout_author_001",
+  "generator_id": "business-model-heldout-generator-001",
+  "scorer_id": "business-model-heldout-scorer-001",
+  "canonical_author_task": "/root/business_model_heldout_author_001",
+  "canonical_agent_task": "/root/business_model_heldout_generator_001",
+  "canonical_scorer_task": "/root/business_model_heldout_scorer_001",
+  "criteria_results": [
+    {
+      "criterion_number": 1,
+      "passed": false,
+      "reason": "The response names designing-business-models as primary and applies the pre-deployment capital-heavy and high-harm gates, but it never explicitly states that BlueBerth is not survival-bound; the required state cannot be inferred from its runway calculation."
+    },
+    {
+      "criterion_number": 2,
+      "passed": false,
+      "reason": "The response records the three routes' customer, payer, contract, and data-control differences and correctly calculates the required margin and contribution figures, but it omits the explicit $5.1M / $1.485M = approximately 3.43-year unlevered service payback."
+    },
+    {
+      "criterion_number": 3,
+      "passed": true,
+      "reason": "The response calculates $71.28M of maximum annual recurring service contribution at 48 berths, recognizes that this misses the $100M venture gate, and preserves the durable customer/project-financed path until reliability or expansion evidence changes capital fit."
+    },
+    {
+      "criterion_number": 4,
+      "passed": true,
+      "reason": "The response defines one test capped at $250,000, uses all three required dates, precommits numeric sale, service-SPV, license/partner, repair, and stop branches from the supplied gates, and supplies a first-deployment tiebreak."
+    },
+    {
+      "criterion_number": 5,
+      "passed": false,
+      "reason": "The response includes explicit ordered Handoffs and correctly gates capital and growth owners, but managing-runway-and-survival precedes learning-from-users and shipping-and-iterating-products precedes engineering-for-leverage, violating both required ordering clauses."
+    }
+  ],
+  "score": 2,
+  "max_score": 5,
+  "threshold": 4,
+  "pass": false,
+  "transfer_pass": false,
+  "integrity_pass": true,
+  "hashes": {
+    "case_sha256": "3cff606c8efe2ceed5fb5225add06b79f589cf2a4032870920b618e4f13bbd4a",
+    "prompt_sha256": "3a1c7ca85542fa7e6aa8349854b7397986994d8f7795effd9f0ce39c3d7dde14",
+    "criteria_sha256": "1fe17793969a9e5c6ebc8a57ff2f3289b1c57bdb98ec9ff9e5a5d5741adf0a99",
+    "skill_sha256": "fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0",
+    "current_skill_sha256": "fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0",
+    "case_heldout_after_skill_sha256": "fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0",
+    "generation_skill_sha256": "fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0",
+    "generation_heldout_after_skill_sha256": "fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0",
+    "response_sha256": "7b04caa3915ce2f4d3b2930afd29b4eedd605781f7e8880b8f1183855233c34f",
+    "generation_manifest_sha256": "e9fbd127d58e1091e8191086d971148745ff4a44512993dd716f4b1f03bc5956"
+  },
+  "integrity_checks": [
+    {
+      "check": "case_raw_sha256_matches",
+      "passed": true,
+      "expected": "3cff606c8efe2ceed5fb5225add06b79f589cf2a4032870920b618e4f13bbd4a",
+      "actual": "3cff606c8efe2ceed5fb5225add06b79f589cf2a4032870920b618e4f13bbd4a"
+    },
+    {
+      "check": "decoded_prompt_sha256_matches",
+      "passed": true,
+      "expected": "3a1c7ca85542fa7e6aa8349854b7397986994d8f7795effd9f0ce39c3d7dde14",
+      "actual": "3a1c7ca85542fa7e6aa8349854b7397986994d8f7795effd9f0ce39c3d7dde14"
+    },
+    {
+      "check": "canonical_criteria_sha256_matches",
+      "passed": true,
+      "expected": "1fe17793969a9e5c6ebc8a57ff2f3289b1c57bdb98ec9ff9e5a5d5741adf0a99",
+      "actual": "1fe17793969a9e5c6ebc8a57ff2f3289b1c57bdb98ec9ff9e5a5d5741adf0a99"
+    },
+    {
+      "check": "current_skill_sha256_matches_expected",
+      "passed": true,
+      "expected": "fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0",
+      "actual": "fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0"
+    },
+    {
+      "check": "case_skill_freeze_matches_current",
+      "passed": true,
+      "evidence": "case heldout_after_skill_sha256 and the current SKILL.md SHA-256 are both fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0"
+    },
+    {
+      "check": "generation_skill_freeze_matches_current",
+      "passed": true,
+      "evidence": "generation skill_sha256 and heldout_after_skill_sha256 both equal the current SKILL.md SHA-256"
+    },
+    {
+      "check": "response_sha256_matches_generation_manifest",
+      "passed": true,
+      "expected": "7b04caa3915ce2f4d3b2930afd29b4eedd605781f7e8880b8f1183855233c34f",
+      "actual": "7b04caa3915ce2f4d3b2930afd29b4eedd605781f7e8880b8f1183855233c34f"
+    },
+    {
+      "check": "response_headers_exact",
+      "passed": true,
+      "expected": [
+        "# Held-out response",
+        "Case ID: business-model-heldout-001",
+        "Generator ID: business-model-heldout-generator-001"
+      ],
+      "actual": [
+        "# Held-out response",
+        "Case ID: business-model-heldout-001",
+        "Generator ID: business-model-heldout-generator-001"
+      ]
+    },
+    {
+      "check": "skill_and_case_identity_consistent",
+      "passed": true,
+      "evidence": "case and generation manifest both identify designing-business-models and business-model-heldout-001"
+    },
+    {
+      "check": "author_generator_scorer_identities_distinct",
+      "passed": true,
+      "evidence": "business-model-heldout-author-001, business-model-heldout-generator-001, and business-model-heldout-scorer-001 are distinct"
+    },
+    {
+      "check": "canonical_tasks_distinct_and_consistent",
+      "passed": true,
+      "evidence": "/root/business_model_heldout_author_001, /root/business_model_heldout_generator_001, and /root/business_model_heldout_scorer_001 are distinct; frozen author and generator task fields match their identities"
+    },
+    {
+      "check": "timestamp_order",
+      "passed": true,
+      "evidence": "2026-07-14T20:44:36Z < 2026-07-14T20:50:59Z < 2026-07-14T20:53:01Z"
+    },
+    {
+      "check": "criteria_hidden_during_generation",
+      "passed": true,
+      "evidence": "criteria_visible_before_generation=false, criteria_visible_during_generation=false, and criteria_hidden_during_generation=true"
+    },
+    {
+      "check": "response_frozen_before_scoring",
+      "passed": true,
+      "evidence": "generation manifest records response_frozen_before_scoring=true and the response hash matches"
+    },
+    {
+      "check": "prompt_avoids_skill_recipe",
+      "passed": true,
+      "evidence": "case and generation manifest both record prompt_avoids_skill_recipe=true"
+    },
+    {
+      "check": "criterion_count_and_binary_scoring",
+      "passed": true,
+      "evidence": "exactly five criteria were scored as binary PASS/MISS values"
+    },
+    {
+      "check": "score_arithmetic_and_threshold",
+      "passed": true,
+      "evidence": "two passing criteria out of five produce score 2/5; 2 is below threshold 4, so pass and transfer_pass are false"
+    },
+    {
+      "check": "frozen_source_files_preserved",
+      "passed": true,
+      "evidence": "case.json, response.md, and generation-manifest.json retained their pre-scoring SHA-256 values"
+    }
+  ],
+  "authored_at": "2026-07-14T20:44:36Z",
+  "generated_at": "2026-07-14T20:50:59Z",
+  "scored_at": "2026-07-14T20:53:01Z",
+  "retained_misses": [
+    {
+      "criterion_number": 1,
+      "criterion_id": "primary-ownership-and-state",
+      "reason": "No explicit statement that BlueBerth is not survival-bound."
+    },
+    {
+      "criterion_number": 2,
+      "criterion_id": "complete-economic-record",
+      "reason": "No explicit approximately 3.43-year unlevered service payback calculation."
+    },
+    {
+      "criterion_number": 5,
+      "criterion_id": "ordered-handoffs-and-next-owners",
+      "reason": "Customer learning is not the first next handoff, and shipping is ordered before engineering."
+    }
+  ]
+}

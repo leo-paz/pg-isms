@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "skill_name": "designing-business-models",
+  "case_id": "business-model-heldout-002",
+  "authored_by": "/root/business_model_heldout_author_002",
+  "canonical_author_task": "/root/business_model_heldout_author_002",
+  "generator_id": "business-model-heldout-generator-002",
+  "canonical_agent_task": "/root/business_model_heldout_generator_002",
+  "scorer_id": "business-model-heldout-scorer-002",
+  "canonical_scorer_task": "/root/business_model_heldout_scorer_002",
+  "authored_at": "2026-07-14T20:57:26Z",
+  "generated_at": "2026-07-14T21:03:03Z",
+  "scored_at": "2026-07-14T21:05:35Z",
+  "model_identity": "Codex (GPT-5)",
+  "criteria_results": [
+    {
+      "id": "ownership-state-gate",
+      "result": "PASS",
+      "evidence": "The response assigns primary ownership to designing-business-models, identifies an investigational pre-clearance high-harm device without claiming an acute survival crisis, and makes the January gate controlling before clinical reliance or commercial deployment."
+    },
+    {
+      "id": "actors-route-economics",
+      "result": "PASS",
+      "evidence": "The selected direct route names beneficiary, users, buyer, and payer and calculates supplied revenue, COGS, sales, training/integration, and support costs; it compares those economics with the episode route and the license route."
+    },
+    {
+      "id": "venture-capital-fit",
+      "result": "PASS",
+      "evidence": "The response declines institutional equity now by linking unverified reachable returns, existing non-dilutive funding, evidence latency, and an absent acceleration need to the founders' venture-return condition; it treats market arithmetic and the partner forecast as unverified."
+    },
+    {
+      "id": "bounded-dated-test",
+      "result": "PASS",
+      "evidence": "One legally conditioned eight-center test has a line-item $75,000 cap, an October 23, 2026 readout, and numeric funded-deposit thresholds for proceed, revise, and stop or activate fallback."
+    },
+    {
+      "id": "ordered-handoffs",
+      "result": "PASS",
+      "evidence": "The response retains economic interpretation with designing-business-models, orders domain handoffs by gate, names accountable owners for every material outcome, and defers growth, rollout, and capital work until their prerequisites."
+    }
+  ],
+  "score": 5,
+  "max": 5,
+  "threshold": 4,
+  "pass": true,
+  "transfer_pass": true,
+  "integrity_pass": true,
+  "hashes": {
+    "case_sha256": "4288498390222cf2dd8f7ad094bbccaecf72c33a9007dddeea66bb1fcda80776",
+    "decoded_prompt_sha256": "fd14365c42efd467f3df2a5a90279c152b8f27300096d83892c350c3d39db709",
+    "canonical_criteria_sha256": "61558521e561aed6874af5513ce0760808ab48542384b0454b4b79a000c2882c",
+    "skill_sha256": "fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0",
+    "response_sha256": "c9040cfceaafda3eea9f912695836662c2e21170b260132db879dfe373761e47",
+    "generation_manifest_sha256": "c555742c62c14bd064a2f05ad5aa0d91d6d2f0c9e1d019a87a765c711c59ba2b",
+    "scorecard_sha256": "1be90021de63e890ed55f7cb2044b7ada766e1d83eac450851491194b518b3fc"
+  },
+  "integrity_checks": {
+    "raw_case_sha256_matches_expected": true,
+    "decoded_prompt_sha256_matches_expected": true,
+    "canonical_criteria_sha256_matches_expected": true,
+    "current_skill_sha256_matches_expected": true,
+    "case_skill_sha256_matches_expected": true,
+    "generation_skill_sha256_matches_expected": true,
+    "case_and_generation_skill_sha256_match": true,
+    "case_sha256_matches_generation_manifest": true,
+    "prompt_sha256_matches_generation_manifest": true,
+    "response_sha256_matches_expected": true,
+    "response_sha256_matches_generation_manifest": true,
+    "response_heading_exact": true,
+    "response_case_header_exact": true,
+    "response_generator_header_exact": true,
+    "case_id_consistent": true,
+    "skill_name_consistent": true,
+    "author_id_consistent": true,
+    "author_task_consistent": true,
+    "generator_id_consistent": true,
+    "generator_task_consistent": true,
+    "scorer_task_consistent": true,
+    "author_generator_scorer_identities_distinct": true,
+    "authored_before_generated": true,
+    "generated_before_scored": true,
+    "criteria_count_exactly_five": true,
+    "criteria_visible_before_generation_is_false": true,
+    "criteria_visible_during_generation_is_false": true,
+    "criteria_hidden_during_generation_is_true": true,
+    "generation_manifest_omits_criteria": true,
+    "response_frozen_before_scoring_is_true": true,
+    "authoring_status_is_post_freeze_held_out": true,
+    "case_prompt_avoids_skill_recipe_is_true": true,
+    "generation_prompt_avoids_skill_recipe_is_true": true,
+    "skill_content_not_used_for_scoring": true,
+    "case_response_and_generation_manifest_preserved": true
+  },
+  "misses": []
+}

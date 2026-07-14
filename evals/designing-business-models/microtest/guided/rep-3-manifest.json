@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "variant": "guided",
+  "rep": 3,
+  "canonical_agent_task": "/root/business_model_micro_orchestrator_002/guided_3",
+  "model_identity": "GPT-5",
+  "generated_at": "2026-07-14T21:37:43Z",
+  "frozen_at": "2026-07-14T21:37:43Z",
+  "prompt": "An 11-person startup sells route-optimization software to independent pharmacies that run same-day prescription delivery. Eighteen pharmacies completed a ten-week paid pilot at $500 per month; twelve renewed and six did not. Pharmacy technicians use the product, owners approve purchases, patients receive deliveries, and outside courier services perform most routes. On-time delivery improved from 86% to 95% at renewed sites. Pharmacies above 2,500 monthly deliveries create 60% of compute and support cost but pay the same price as smaller sites. A regional wholesaler offers access to 600 pharmacies for a 25% revenue share, two-year exclusivity, and a custom integration. Separately, the CTO proposes building courier dispatch in-house for $600,000 over six months; the current partner API costs $0.40 per delivery and offers an SLA. Give the founders a 90-day pricing, sales/channel, and make-or-partner decision plan.",
+  "prompt_sha256": "6d25e19d71639221af82c759db4632b4a8228269b9739436c5fdd515eaa68868",
+  "skill_sha256": "fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0",
+  "generation_plan_sha256": "1db521138c8dd59a0cabfc6e654c64828e14d91f55ccdf6b61ddd50d5228f939",
+  "criteria_visible_during_generation": false,
+  "criteria_hidden_during_generation": true,
+  "prior_outputs_visible_during_generation": false,
+  "response_sha256": "1805f584db409de231b11fe4f41d7c398c1401e8de1db1f5749bef880c5eaed8"
+}

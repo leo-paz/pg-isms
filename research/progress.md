@@ -851,3 +851,68 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
   skills sequentially beginning with `designing-business-models`; finish the
   cross-skill final review, README catalog, and clean/pushed repository-wide gate.
 - Blockers: none.
+
+## Checkpoint 4 skill 8 verified: `designing-business-models`
+
+- RED froze five no-skill cases before package initialization: a useful free product
+  with no payer, a hardware make-or-partner boundary, segment pricing and sales,
+  a term-sheet non-trigger, and a durable consultancy under venture pressure. The
+  independently scored baseline is `6/25` (`0.24`).
+- Three non-overlapping source agents read all `29` assigned essays in full and used
+  both BM25 and semantic QMD retrieval. Their exact combined evidence contains `29`
+  essay records, `35` unique essay-theme pairs, and `56` audit-contained range
+  occurrences across all `7` owned themes. Independent overlap and source reviews
+  verified every range, exact generated provenance, both canonical tensions, all
+  applicable routes and product rows, and zero gaps or extras.
+- The official initializer created the package. Repeated behavior and routing reviews
+  tightened post-value evidence execution, per-segment economic actors, marketplace
+  liquidity ownership, complete venture paths, product-row factors, numeric branch
+  thresholds, and all specialist handoffs. The final `SKILL.md` is `498` words with
+  SHA-256
+  `fe50d245ee40ee68ee7e722089d83797f76ce62e3fd0a0e9a26608b933397ad0`;
+  official validation and regenerated `agents/openai.yaml` pass.
+- Four blind forward attempts remain visible. Attempt 001 scored `14/25` and drove
+  the first output-contract revision. Attempt 002 scored `21/25` but is explicitly
+  rejected as evaluator-invalid because of missing response headers and schema/path
+  drift. Attempt 003 was mechanically valid but scored `17/25`. The canonical fourth
+  attempt scored `23/25` (`0.92`), improving `+0.68` over baseline. Its two retained
+  misses are an incomplete heavy-cost-account row and a missing settled-offer
+  communication handoff; both requirements remain explicit in the frozen skill.
+- The first five-plus-five microtest scored `0.00` control versus `0.76` guided but
+  lacked pre-generation proof that criteria were hidden, so it is retained as an
+  integrity-incomplete attempt. A full fresh rerun used a frozen pre-generation plan,
+  prompt-only projection, per-response isolation/freeze manifests, and a batch
+  attestation. After formatting-only normalization and a fresh rescore, canonical
+  control scores are `[0, 1, 0, 1, 0]` (`0.08`); guided scores are
+  `[5, 5, 5, 5, 5]` (`1.00`), a `+0.92` normalized improvement with ten unique
+  tasks and response hashes.
+- The first post-freeze energy-infrastructure held-out case used distinct author,
+  generator, and scorer contexts and scored `2/5` FAIL with full integrity; it is
+  preserved unchanged. A genuinely new pre-clearance diagnostics case used another
+  distinct triple and scored `5/5` PASS at a `4/5` threshold with exact prompt,
+  criteria, case, skill, generation-manifest, and response hashes.
+- Final source, behavior, routing, package, and evaluation-integrity reviews report
+  `0` Critical and `0` Important findings and `Ready: Yes`. Accepted Minors concern
+  generated-answer variance, held-out schema vocabulary drift, and chronology that
+  becomes immutable at this commit; none weakens the canonical evidence.
+- Verification:
+
+  ```text
+  Skill is valid!
+  skill provenance check: essays=29 themes=7
+  taxonomy validation passed: corpus_files=223 classified=223 relevant_essays=209 uncovered_relevant=0 orphan_skills=0
+  baseline normalized_score=0.24; forward normalized_score=0.92; delta=0.68
+  microtest control=2/25; guided=25/25; normalized_delta=0.92
+  heldout business-model-heldout-002=5/5 PASS integrity=PASS
+  preserved business-model-heldout-001=2/5 FAIL integrity=PASS
+  python3 -m unittest discover -s tests -p 'test_*.py'
+  Ran 120 tests
+  OK
+  copyright scan: normalized 20/30/40-token corpus matches=0/0/0
+  git diff --check: passed
+  ```
+
+- Remaining work: publish this verified milestone, then build the remaining `13`
+  skills sequentially beginning with `competing-and-positioning`; finish the
+  cross-skill final review, README catalog, and clean/pushed repository-wide gate.
+- Blockers: none.

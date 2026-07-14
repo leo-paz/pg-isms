@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "skill_name": "designing-business-models",
+  "cases": [
+    {
+      "id": "scenario-01",
+      "type": "condition",
+      "prompt": "A cash-flow app has 42,000 weekly active independent-restaurant owners, 61% twelve-week retained use, and repeated evidence that its invoice forecasting prevents missed payroll. The product has always been free. The team has never tested who would pay, what commitment would discriminate willingness to pay, or whether accountants, restaurant owners, or lenders should be the buyer. Growth wants to add ads immediately and optimize impressions because engagement is strong. Diagnose the business-model state and design the next six weeks.",
+      "criteria": [
+        "Makes designing-business-models primary because user value is demonstrated but the payer and willingness to pay are unknown, while treating engagement as product evidence rather than proof of a viable value-capture model.",
+        "Separates beneficiary, user, buyer, and payer and states testable value-capture hypotheses for owners, accountants, and lenders instead of assuming the active user must pay.",
+        "Runs bounded commitment tests with explicit offers, prices or price ranges, target segments, and predeclared evidence such as payment, signed paid pilots, or equally discriminating commitments rather than surveys, ad clicks, or continued free use.",
+        "Defers ad optimization and fine price tuning until a payer path survives, then uses dated pay, revise, preserve-free, and stop branches that account for trust, retention, and customer economics.",
+        "Keeps payer, pricing, packaging, and channel economics with business-model design; routes customer-evidence execution to learning-from-users, product or paywall exposure to shipping-and-iterating-products, and post-gate acquisition cohorts to acquiring-and-growing-users."
+      ]
+    },
+    {
+      "id": "scenario-02",
+      "type": "application",
+      "prompt": "A cold-chain sensor startup sells validated hardware to regional food distributors. Its sole calibration-module supplier now causes eight-week delays, 7% rework, and missed installation dates, but owns specialized tooling and currently delivers each module for $180. Building an internal line would cost $2.4 million, take an estimated twelve months, and require capabilities the 14-person company does not have. A second qualified supplier offers $230 modules, a six-week qualification program, and no exclusivity; a standard interface would let either supplier work but would add $70,000 and ten engineering weeks. The board calls the module core and wants immediate vertical integration. Design the 90-day company-boundary decision.",
+      "criteria": [
+        "Treats vertical integration as a company-boundary and economics decision, not a slogan about core technology, and compares coordination, delay, quality, dependency, switching, fixed-capital, capability, and scale costs.",
+        "Uses current hardware evidence and realistic qualification, reliability, inventory, working-capital, and twelve-month build latency rather than applying a weekly software cadence or assuming the internal estimate is certain.",
+        "Preserves reversible partner leverage by testing the second supplier and standard interface before committing to the internal line, while recording which failures remain supplier-specific versus architectural.",
+        "Precommits dated thresholds and integrate, dual-source, partner, repair, and stop branches tied to delivered quality, lead time, switching cost, strategic dependency, and capital capacity.",
+        "Keeps the make-or-partner boundary with designing-business-models, engineering design and interface implementation with engineering-for-leverage, user-visible rollout with shipping-and-iterating-products, and any financing transaction with raising-and-governing-capital."
+      ]
+    },
+    {
+      "id": "scenario-03",
+      "type": "trigger",
+      "prompt": "An enterprise compliance product has 24 annual customers. Twelve distributors use it weekly during audits and report avoiding $120,000-$400,000 of remediation work; eight use it monthly; four mainly archive documents. Everyone pays the same $18,000 per year. The four heaviest accounts create 68% of compute and support cost, while the smallest accounts require long procurement calls but little ongoing support. Renewal evidence exists for two cycles. The CEO wants a $29-per-seat self-serve tier and an unlimited enterprise plan because competitors publish similar menus. Design the pricing, packaging, and sales-model decision for the next renewal cycle.",
+      "criteria": [
+        "Starts from observed segment value, usage, renewal, cost to serve, procurement, and support economics rather than copying competitor tiers or assuming seats are the right value metric.",
+        "Builds separate customer-economic records for weekly audit, monthly, archival, and heavy-cost accounts, including buyer, value event, willingness-to-pay evidence, gross margin, support burden, sales effort, retention, and expansion risk.",
+        "Defines bounded renewal or new-logo tests of value metric, price, packaging, and sales motion with explicit cohorts and no retroactive interpretation of acceptance, rejection, discounting, or churn.",
+        "Uses dated keep, change, segment, grandfather, and stop branches that protect trust and reject an unlimited plan when heavy-user economics remain unbounded.",
+        "Keeps pricing, packaging, sales model, and customer economics with designing-business-models while shipping owns billing or entitlement exposure, growth owns channel execution, and communication adapts only settled offers."
+      ]
+    },
+    {
+      "id": "scenario-04",
+      "type": "non-trigger",
+      "prompt": "A venture-scale developer-tools company has already validated its buyer, annual pricing, direct sales motion, gross margins, and capital need. It has two signed Series A term sheets with different liquidation preferences, pro rata rights, board seats, option-pool treatment, and founder vesting resets. The founders ask designing-business-models to choose the term sheet and lead the negotiation. Name the primary workflow and any limited business-model check that remains.",
+      "criteria": [
+        "Does not make designing-business-models primary for comparing or negotiating specific financing terms once the venture shape and capital need are settled.",
+        "Routes term-sheet economics, dilution, control, governance rights, investor incentives, process, and negotiation to raising-and-governing-capital.",
+        "Limits business-model composition to rechecking whether the amount and return shape still fit the validated venture model, without reopening payer, price, packaging, or sales design absent new evidence.",
+        "Requires managing-runway-and-survival to precede the financing branch only if time-to-zero or default-dead status is binding, rather than treating a signed offer as guaranteed survival.",
+        "Produces an ordered handoff with named owners and decision evidence instead of generic co-ownership or a shadow term-sheet recommendation."
+      ]
+    },
+    {
+      "id": "scenario-05",
+      "type": "edge",
+      "prompt": "Two founders run a profitable regulatory-reporting consultancy with $1.6 million in annual revenue, 22% operating margin, 90% client renewal, and no acute runway problem. A repeatable internal tool now cuts delivery time by 35%, but clients still buy judgment, implementation, and accountability. The founders estimate the reachable specialist market at $14 million annually and prefer durable cash distributions. An accelerator says every good software-enabled company should raise venture capital, eliminate services, hire 30 people, and pursue a billion-dollar outcome. Decide the venture type, company boundary, and capital model without assuming either a consultancy or a venture startup is inherently superior.",
+      "criteria": [
+        "Rejects venture capital as an identity test and compares the venture's reachable market, growth ceiling, return shape, founder goals, capital absorption, dilution, and plausible exits with a durable profitable-company path.",
+        "Tests whether judgment, implementation, and accountability are essential delivered value or merely manual scaffolding before removing services or declaring the tool a standalone scalable product.",
+        "Models at least a productized-service path and a venture-product path with explicit revenue, margin, growth, hiring, capital, evidence-latency, and downside assumptions rather than forcing one forecast.",
+        "Preserves optionality through a bounded standalone-product or repeatability milestone and a dated switch condition; outside capital becomes an acceleration choice only if evidence supports the venture-return path.",
+        "Keeps venture type and service-versus-product boundary with designing-business-models, routes any later financing instrument or investor negotiation to raising-and-governing-capital, and does not invent a survival crisis."
+      ]
+    }
+  ]
+}

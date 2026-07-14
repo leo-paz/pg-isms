@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "skill_name": "designing-business-models",
+  "phase": "forward",
+  "reviewer_id": "business-model-forward-002",
+  "skill_sha256": "f133bb08fbc5b1e784a44af5245fd2a59fdc569df01839bf499874d22d304729",
+  "cases_sha256": "88f415e5cc5163580cdf4614b0bf6c57459c31d4ba5055c1a8141c843858f3ce",
+  "total_score": 21,
+  "max_score": 25,
+  "normalized_score": 0.84,
+  "case_scores": [
+    {
+      "case_id": "scenario-01",
+      "score": 4,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-02",
+      "score": 4,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-03",
+      "score": 4,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-04",
+      "score": 5,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-05",
+      "score": 4,
+      "max_score": 5
+    }
+  ],
+  "exact_misses": [
+    {
+      "case_id": "scenario-01",
+      "criterion": 2,
+      "reason": "Buyer and payer are not explicitly distinguished for the owner, accountant, and lender hypotheses."
+    },
+    {
+      "case_id": "scenario-02",
+      "criterion": 5,
+      "reason": "The required shipping-and-iterating-products owner for user-visible rollout is absent."
+    },
+    {
+      "case_id": "scenario-03",
+      "criterion": 5,
+      "reason": "The required communication handoff for settled offers is absent."
+    },
+    {
+      "case_id": "scenario-05",
+      "criterion": 3,
+      "reason": "The two paths are not fully modeled with explicit assumptions for every required revenue, margin, growth, hiring, capital, evidence-latency, and downside field."
+    }
+  ],
+  "scorecard_files": [
+    "evals/designing-business-models/forward/scorecards/scenario-01.md",
+    "evals/designing-business-models/forward/scorecards/scenario-02.md",
+    "evals/designing-business-models/forward/scorecards/scenario-03.md",
+    "evals/designing-business-models/forward/scorecards/scenario-04.md",
+    "evals/designing-business-models/forward/scorecards/scenario-05.md"
+  ],
+  "forward_ready": true
+}

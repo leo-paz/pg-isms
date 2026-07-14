@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "attempt": 1,
+  "scorer_id": "business-model-micro-scorer-002",
+  "canonical": false,
+  "accepted": false,
+  "score_content_preserved": true,
+  "disposition": "The 0.16 control and 1.00 guided result was valid for the scored bytes, but one guided response contained trailing horizontal whitespace. The original generator normalized and re-froze that response after this score, so these scoring artifacts are retained and a fresh canonical scorer is required. Score-artifact whitespace was normalized before commit without changing decisions or arithmetic."
+}

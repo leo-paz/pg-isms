@@ -1,0 +1,480 @@
+{
+  "schema_version": 1,
+  "skill_name": "designing-business-models",
+  "source_reviewers": [
+    "business-model-evidence-a",
+    "business-model-evidence-b",
+    "business-model-evidence-c"
+  ],
+  "records": [
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "011",
+      "reviewer": "business-model-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "sales-and-monetization",
+          "claim": "For hosted software, recurring subscriptions match continuous service; easy purchasing raises sales, and a reseller channel is destructive when it severs necessary product and operating control, so start with flexible small customers when enterprise sales cost overwhelms price.",
+          "line_ranges": [
+            "182-186",
+            "192-196",
+            "200-214"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "040",
+      "reviewer": "business-model-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-structure-and-cost-curves",
+          "claim": "Infer required check size and behavior from a capital provider's fund economics, and reject funding amounts or valuations the company cannot productively absorb or that eliminate otherwise viable modest exits.",
+          "line_ranges": [
+            "22-36"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "052",
+      "reviewer": "business-model-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-structure-and-cost-curves",
+          "claim": "Recompute capital needs when technology and distribution costs fall; a fund's check-size needs and the current exit or regulatory market can otherwise force excess capital into a venture whose viable path is cheaper and earlier.",
+          "line_ranges": [
+            "12-24",
+            "26-34"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "054",
+      "reviewer": "business-model-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "sales-and-monetization",
+          "claim": "Exploit a medium's cost structure by unbundling what users want and pricing free or cheap only where a sustaining revenue engine exists; optimize captured value rather than preserve the incumbent industry's revenue pool.",
+          "line_ranges": [
+            "84-90",
+            "98-102"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "058",
+      "reviewer": "business-model-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "sales-and-monetization",
+          "claim": "Align ranking and monetization by combining willingness to pay with observed transactions so revenue rewards buyer outcomes; an incumbent can reject that alignment when then-current advertisers overpay and better matching would reduce revenue.",
+          "line_ranges": [
+            "14-20",
+            "22-24"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "063",
+      "reviewer": "business-model-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-structure-and-cost-curves",
+          "claim": "Account for whether a large, linguistically unified domestic market permits a simple local first product; smaller markets impose internationalization and cross-border selling costs earlier, while local angel supply develops only after successful founders recycle capital.",
+          "line_ranges": [
+            "96-112"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "084",
+      "reviewer": "business-model-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-structure-and-cost-curves",
+          "claim": "Falling startup costs remove investor permission as a formation gate and increase entrant volume; standardize repeatable, non-differentiating work to exploit that cost curve while preserving necessary custom decisions.",
+          "line_ranges": [
+            "16-24",
+            "28-48"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "093",
+      "reviewer": "business-model-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "sales-and-monetization",
+          "claim": "Delay business-model optimization while creating strong user value, but verify that users have money or that helping them creates an economic return; delaying profit is defensible only for genuine growth, not bought users.",
+          "line_ranges": [
+            "16-42",
+            "44-48",
+            "114-116"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "098",
+      "reviewer": "business-model-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-structure-and-cost-curves",
+          "claim": "Treat fundraising as a thin correlated market rather than independent consensus; compare external capital with consulting by time-to-break-even and delay cost, and use consulting only as a temporary path that preserves the scalable product boundary.",
+          "line_ranges": [
+            "14-34",
+            "40-52",
+            "142-150"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "101",
+      "reviewer": "business-model-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-structure-and-cost-curves",
+          "claim": "When rules change quickly, small autonomous units' speed can outweigh economies of scale; retain large disciplined structures for slowly changing games and favor boundaries that let units be measured independently with low coordination impedance.",
+          "line_ranges": [
+            "18-32",
+            "34-48",
+            "50-56"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "102",
+      "reviewer": "business-model-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-structure-and-cost-curves",
+          "claim": "Recompute the venture's feasible cost structure when technology lowers hardware, software, distribution, or staffing costs; a revenue level that is small in market terms can still cross the operating-profitability threshold and change the financing state.",
+          "line_ranges": [
+            "18-22"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "108",
+      "reviewer": "business-model-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-structure-and-cost-curves",
+          "claim": "When an open platform and falling distribution costs remove legacy constraints such as synchronicity, locality, and channel-entry thresholds, redesign around current user behavior and a longer tail; former gatekeepers may become service providers rather than publishers.",
+          "line_ranges": [
+            "14-28",
+            "32-44",
+            "48-60"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "113",
+      "reviewer": "business-model-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "growth-and-monetization-tradeoffs",
+          "claim": "For a privately owned product that functions like a new shared protocol, test whether early monetization or tight control would impede adoption; delayed monetization can help only as a product-specific hypothesis, not a universal rule.",
+          "line_ranges": [
+            "12-16"
+          ]
+        },
+        {
+          "canonical_theme": "venture-type-and-capital-model",
+          "claim": "Identify protocol-like products as a distinct venture shape: their value can depend on becoming a shared default even though ownership and eventual value capture remain private.",
+          "line_ranges": [
+            "12-16"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "114",
+      "reviewer": "business-model-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "venture-type-and-capital-model",
+          "claim": "Distinguish founder-culture startups that emerge organically from research-commercialization companies created around scientific discoveries; funding laboratories can produce the latter without creating the former or the startup culture on which they depend.",
+          "line_ranges": [
+            "46-52"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "116",
+      "reviewer": "business-model-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "business-models-and-channel-power",
+          "claim": "Treat non-harmful interim revenue or limited service work as a bridge only while it continues producing a repeatable product; survival revenue need not be the eventual scalable value-capture model.",
+          "line_ranges": [
+            "52-60"
+          ]
+        },
+        {
+          "canonical_theme": "growth-and-monetization-tradeoffs",
+          "claim": "Do not require launch-day charging when it would constrain adoption, but use willingness to pay as a focusing test when appropriate and keep any easy consulting revenue from displacing scalable product growth.",
+          "line_ranges": [
+            "52-60"
+          ]
+        },
+        {
+          "canonical_theme": "venture-type-and-capital-model",
+          "claim": "Gate the ramen-profitability strategy on capital needs: it can buy time for many low-cost software startups but is not feasible for capital-heavy categories such as most biotech ventures.",
+          "line_ranges": [
+            "16-24"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "121",
+      "reviewer": "business-model-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "business-models-and-channel-power",
+          "claim": "Separate customer value from the medium and controlled channel that historically enabled charging; if the medium loses scarcity, choose explicitly between indirect revenue and embodying the information in a paid product or experience that creates new user value.",
+          "line_ranges": [
+            "12-40",
+            "48-68"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "129",
+      "reviewer": "business-model-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "venture-type-and-capital-model",
+          "claim": "Match the financing-provider model and early round size to the startup's capital need: many capital-light software companies can make substantial progress with smaller early investments, whereas expensive energy or biotech ventures do not share that assumption.",
+          "line_ranges": [
+            "14-28",
+            "120-122"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "130",
+      "reviewer": "business-model-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "business-models-and-channel-power",
+          "claim": "Audit whether the revenue model reinforces the product's true strategic role; lucrative but transient advertising revenue can obscure a higher-value technology direction and harden the wrong company identity.",
+          "line_ranges": [
+            "14-42"
+          ]
+        },
+        {
+          "canonical_theme": "pricing-and-customer-economics",
+          "claim": "Compare prices customers currently pay with measurable economic and user value: buyers can temporarily overpay against the wrong reference point, while behavior-linked ranking can align search quality with actual purchasing rather than temporary overpayment.",
+          "line_ranges": [
+            "14-42"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "140",
+      "reviewer": "business-model-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "pricing-and-customer-economics",
+          "claim": "Before choosing flat pricing, model cost to serve at the heaviest-user boundary; Viaweb's largest store could consume bandwidth equal to its entire monthly fee, a dated example of unit-economics exposure rather than a current price benchmark.",
+          "line_ranges": [
+            "34-36"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "144",
+      "reviewer": "business-model-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "business-models-and-channel-power",
+          "claim": "When technology changes what can sustainably be owned or charged for, redesign value capture; dependence on distorting the surrounding legal or technical network to preserve old economics is evidence the model no longer works, subject to current legal verification.",
+          "line_ranges": [
+            "18-38",
+            "44-48"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "149",
+      "reviewer": "business-model-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "venture-type-and-capital-model",
+          "claim": "Classify a company as a startup only when it is designed for rapid growth and can both reach and serve a large market; being new, technical, venture-funded, or exit-oriented is not enough.",
+          "line_ranges": [
+            "14-32"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "150",
+      "reviewer": "business-model-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "venture-type-and-capital-model",
+          "claim": "Do not treat hardware as permanently unsuitable for rapid-growth ventures: re-evaluate the category when crowdfunding, components, prototyping, manufacturing access, and direct retail change its operating economics.",
+          "line_ranges": [
+            "18-24"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "152",
+      "reviewer": "business-model-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "venture-type-and-capital-model",
+          "claim": "As startup costs fall, size the investment model from the company's actual capital need and the equity founders choose to sell rather than from an investor's inherited ownership target or board-seat economics.",
+          "line_ranges": [
+            "26-38",
+            "64-74"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "153",
+      "reviewer": "business-model-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "venture-type-and-capital-model",
+          "claim": "Use consulting-like attention and manual delivery to discover a repeatable product, but preserve the product-company boundary by avoiding open-ended hourly obligations and automating only after the workflow is understood.",
+          "line_ranges": [
+            "96-108"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "159",
+      "reviewer": "business-model-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "growth-and-monetization-tradeoffs",
+          "claim": "In an acute survival state, ask what urgent result customers will pay well for now and sell a tightly defined derivative of the product while retaining the IP and avoiding hourly billing.",
+          "line_ranges": [
+            "12-33",
+            "51-57"
+          ]
+        },
+        {
+          "canonical_theme": "venture-type-and-capital-model",
+          "claim": "Keep emergency custom work subordinate to the intended product-company model: look for repeated needs that can become a scalable opening while limiting the damage and distraction of sliding into pure consulting.",
+          "line_ranges": [
+            "47-59"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "168",
+      "reviewer": "business-model-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "growth-and-monetization-tradeoffs",
+          "claim": "Model value extraction as a constant-multiple change and growth as a compounding-rate change; when generosity improves recommendation and the company remains viable, preserve it instead of sacrificing growth for short-term extraction.",
+          "line_ranges": [
+            "18-30",
+            "34-38"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "173",
+      "reviewer": "business-model-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "company-boundaries-and-industry-structure",
+          "claim": "Revisit vertical integration as specialist suppliers mature and coordination technology lowers transaction costs: a replaceable network can outperform ownership, while a side supplier that controls the standard and customer can capture industry power.",
+          "line_ranges": [
+            "72-82"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "175",
+      "reviewer": "business-model-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "pricing-and-customer-economics",
+          "claim": "Evaluate a customer after the attention and servicing burden, not revenue alone; for a freelancer or small company, avoiding a toxic customer can preserve more value in time than it loses in income.",
+          "line_ranges": [
+            "24-30"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "designing-business-models",
+      "article_no": "201",
+      "reviewer": "business-model-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "pricing-and-customer-economics",
+          "claim": "Technology can change product-building and customer-acquisition costs, founder dependence on capital, and the value of a revenue stream through faster growth; revalidate those costs and rates before applying the historical trend.",
+          "line_ranges": [
+            "54-64"
+          ]
+        },
+        {
+          "canonical_theme": "venture-type-and-capital-model",
+          "claim": "Distinguish venture-scale startups from ordinary new businesses by the capacity to grow very large, and distinguish technology-led advantage from businesses driven mainly by deals when matching the company to venture capital.",
+          "line_ranges": [
+            "18-30",
+            "76-78"
+          ]
+        }
+      ]
+    }
+  ]
+}

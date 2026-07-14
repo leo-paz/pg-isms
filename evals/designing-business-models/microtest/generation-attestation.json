@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "generation_plan_sha256": "1db521138c8dd59a0cabfc6e654c64828e14d91f55ccdf6b61ddd50d5228f939",
+  "canonical_orchestrator_task": "/root/business_model_micro_orchestrator_002",
+  "completed_at": "2026-07-14T22:03:47Z",
+  "prompt_projection": "decoded prompt only",
+  "prompt_sha256": "6d25e19d71639221af82c759db4632b4a8228269b9739436c5fdd515eaa68868",
+  "rubric_sha256": "726da76b63ebc82b6d60e0c045dde065a1b1f3b449c04a562233a9024d9d881a",
+  "criteria_sha256": "c7a8aa272e0bbd62c9776353fe0b728c550c9fcd440fc03ad4606857d8becdb9",
+  "criteria_visible_during_generation": false,
+  "criteria_hidden_during_generation": true,
+  "prior_outputs_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "planned_tasks": [
+    "/root/business_model_micro_orchestrator_002/control_1",
+    "/root/business_model_micro_orchestrator_002/control_2",
+    "/root/business_model_micro_orchestrator_002/control_3",
+    "/root/business_model_micro_orchestrator_002/control_4",
+    "/root/business_model_micro_orchestrator_002/control_5",
+    "/root/business_model_micro_orchestrator_002/guided_1",
+    "/root/business_model_micro_orchestrator_002/guided_2",
+    "/root/business_model_micro_orchestrator_002/guided_3",
+    "/root/business_model_micro_orchestrator_002/guided_4",
+    "/root/business_model_micro_orchestrator_002/guided_5"
+  ],
+  "completed_tasks": [
+    "/root/business_model_micro_orchestrator_002/control_1",
+    "/root/business_model_micro_orchestrator_002/control_2",
+    "/root/business_model_micro_orchestrator_002/control_3",
+    "/root/business_model_micro_orchestrator_002/control_4",
+    "/root/business_model_micro_orchestrator_002/control_5",
+    "/root/business_model_micro_orchestrator_002/guided_1",
+    "/root/business_model_micro_orchestrator_002/guided_2",
+    "/root/business_model_micro_orchestrator_002/guided_3",
+    "/root/business_model_micro_orchestrator_002/guided_4",
+    "/root/business_model_micro_orchestrator_002/guided_5"
+  ],
+  "planned_tasks_equal_completed_tasks": true,
+  "response_hashes_by_task": {
+    "/root/business_model_micro_orchestrator_002/control_1": "92d82a9fdde20a34e0ee8ed56315cb7ab8ebe46706ed0fc130285876d411c108",
+    "/root/business_model_micro_orchestrator_002/control_2": "1390dacf3200d39ff88da96b07df37cec8f1ad3f6e71e27c45a578ba8e992f6a",
+    "/root/business_model_micro_orchestrator_002/control_3": "580d08e95d4c7ad47cde4df3d87a011342610370175e4d7604e58ff92701f823",
+    "/root/business_model_micro_orchestrator_002/control_4": "38fc602aa224e88381125ae1fd9d527c4b480e10d6bdc8df906f02b3f4fd489c",
+    "/root/business_model_micro_orchestrator_002/control_5": "8d334c0b37afc94806620247aee387ffb2cb521e1fc31e97ed532de40922901c",
+    "/root/business_model_micro_orchestrator_002/guided_1": "ab17cf56e482e41a7567ab24795941ebc332d9f4afdf2c575de9a2f2d4eff7e0",
+    "/root/business_model_micro_orchestrator_002/guided_2": "1ae23dc74d07c5ee8c31d37f089eb5cf614c5195b0ba27789c0bc1ac4095d591",
+    "/root/business_model_micro_orchestrator_002/guided_3": "1805f584db409de231b11fe4f41d7c398c1401e8de1db1f5749bef880c5eaed8",
+    "/root/business_model_micro_orchestrator_002/guided_4": "959b85691437433f7c438b14003eef6ab8ec7f58f20cf55f136a181b830f973f",
+    "/root/business_model_micro_orchestrator_002/guided_5": "f6e24a2c4b9b26a7019194cb130281cdd5d7b68ae5d3d2d706d3ed75bf665b90"
+  }
+}

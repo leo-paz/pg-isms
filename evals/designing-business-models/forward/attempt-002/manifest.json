@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "skill_name": "designing-business-models",
+  "phase": "forward",
+  "reviewer_id": "business-model-forward-002",
+  "canonical_agent_task": "/root/business_model_forward_002",
+  "generated_at": "2026-07-14T20:04:20Z",
+  "model_identity": "Codex (GPT-5)",
+  "dispatch_prompt": "You are a fresh-context forward-test generator for the Codex skill repository at /Users/leopaz/dev/opensource/pg-isms. Generate five independent responses for the frozen `designing-business-models` skill.\n\nHard isolation contract:\n- Read only `evals/designing-business-models/cases.json`, but during generation use only each case `id` and `prompt`; do not read or retain its `criteria` fields.\n- Read `skills/designing-business-models/SKILL.md` and its directly linked `references/runtime-contract.md`. You may read no other repository file.\n- Do not read baseline/, forward/attempt-001/, any scorecards, summaries, reviews, `.superpowers`, provenance, or evidence.\n- The expected SKILL.md SHA-256 is `f133bb08fbc5b1e784a44af5245fd2a59fdc569df01839bf499874d22d304729`; runtime-contract.md SHA-256 is `571256b26dcf05a8c1f68a2a2c8166997f5b4f6d76e3a2b8561a238b608335e6`. Verify both before generating and stop if mismatched.\n- Answer each scenario independently, following the skill faithfully. Do not mention evaluation machinery.\n\nWrite canonical outputs to `evals/designing-business-models/forward/scenario-01.md` through `scenario-05.md`. Write `evals/designing-business-models/forward/manifest.json` with schema_version 1, skill_name, phase `forward`, reviewer_id `business-model-forward-002`, canonical_agent_task `/root/business_model_forward_002`, ISO generated_at, model_identity `Codex (GPT-5)`, the exact dispatch prompt, cases_projection `id-and-prompt-only`, criteria_visible_during_generation false, responses_frozen_before_scoring true, skill_state mode `with-skill` and exact skill hash, response_hash_algorithm `sha256`, exact full cases.json SHA `88f415e5cc5163580cdf4614b0bf6c57459c31d4ba5055c1a8141c843858f3ce`, prompt-only projection SHA `7820f9a4e305ad4f91cfa25c50e9ee4ba184146f81b2c8b2feb9a31c71209e6a`, and response_hashes keyed exactly by scenario IDs. Do not create scorecards, summary, or review. Do not edit any other file. Report paths and hashes.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "with-skill",
+    "skill_sha256": "f133bb08fbc5b1e784a44af5245fd2a59fdc569df01839bf499874d22d304729"
+  },
+  "response_hash_algorithm": "sha256",
+  "cases_sha256": "88f415e5cc5163580cdf4614b0bf6c57459c31d4ba5055c1a8141c843858f3ce",
+  "cases_projection_sha256": "7820f9a4e305ad4f91cfa25c50e9ee4ba184146f81b2c8b2feb9a31c71209e6a",
+  "response_hashes": {
+    "scenario-01": "e1265564d4e60c301f3b2cc774c2819314a301d99e7c7060d146b8e0822a9d48",
+    "scenario-02": "2b8189e51d95665ceb7d27d0329780eefa7baa1ba5ce29c40a11ead9e473444b",
+    "scenario-03": "f8ecb0fd89b5180b522b9f205c4c63e6d4c726c8fb9e13f9d4ec5bb4712fdf21",
+    "scenario-04": "67b6c9c39ea8da9805d8804de1cd2ac22ea6621918b91cbd6c4f521c72161bfa",
+    "scenario-05": "60005a37ea323d0b3b6418f76e46962757a8d90af0446ff19ecc5a0765e6794b"
+  }
+}

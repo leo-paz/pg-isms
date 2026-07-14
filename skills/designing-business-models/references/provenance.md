@@ -1,0 +1,84 @@
+# Provenance: Designing Business Models
+
+This file is generated from the canonical audit, theme projection, and taxonomy. It records concise provenance rather than reproducing source prose.
+
+## Contents
+
+- Runtime scope, triggers, non-triggers, and stage conditions
+- Canonical themes owned by this skill
+- Skill-specific essay claims and exact local corpus ranges
+- Source-use and revalidation rule
+
+## Runtime scope
+
+Design how the venture creates and captures value through pricing, sales, channels, company boundaries, and an appropriate capital model.
+
+### Triggers
+
+- Choose pricing, revenue, sales, channel, or venture model.
+- Decide whether a capability belongs inside the company or in a partner ecosystem.
+
+### Non-triggers
+
+- Negotiate a specific financing term sheet.
+- Debug a weak user interview plan.
+
+### Stage conditions
+
+- Delay optimization while learning, but test willingness to pay before free usage becomes ambiguous evidence.
+- Match external capital to the venture's return shape rather than assuming every good business is venture-scale.
+
+### Preserved tensions
+
+- Growth versus monetization.
+- Vertical integration versus partner leverage.
+
+## Canonical themes
+
+- `business-models-and-channel-power`
+- `company-boundaries-and-industry-structure`
+- `growth-and-monetization-tradeoffs`
+- `market-structure-and-cost-curves`
+- `pricing-and-customer-economics`
+- `sales-and-monetization`
+- `venture-type-and-capital-model`
+
+## Essay evidence inventory
+
+Each range below was independently reviewed for this exact skill and canonical theme. Ranges address the committed local corpus path; audit-wide ranges supporting other skills are intentionally omitted.
+
+| ID | Essay | Corpus path | Skill-specific claim and evidence | Review lineage |
+|---|---|---|---|---|
+| `011` | [The Other Road Ahead](https://paulgraham.com/road.html) | `011_the-other-road-ahead.md` | `sales-and-monetization` — For hosted software, recurring subscriptions match continuous service; easy purchasing raises sales, and a reseller channel is destructive when it severs necessary product and operating control, so start with flexible small customers when enterprise sales cost overwhelms price. (`182-186`, `192-196`, `200-214`) | audit-agent-batch-01 / batch-01; business-model-evidence-a |
+| `040` | [A Unified Theory of VC Suckage](https://paulgraham.com/venturecapital.html) | `040_a-unified-theory-of-vc-suckage.md` | `market-structure-and-cost-curves` — Infer required check size and behavior from a capital provider's fund economics, and reject funding amounts or valuations the company cannot productively absorb or that eliminate otherwise viable modest exits. (`22-36`) | audit-agent-batch-03 / batch-03; business-model-evidence-a |
+| `052` | [The Venture Capital Squeeze](https://paulgraham.com/vcsqueeze.html) | `052_the-venture-capital-squeeze.md` | `market-structure-and-cost-curves` — Recompute capital needs when technology and distribution costs fall; a fund's check-size needs and the current exit or regulatory market can otherwise force excess capital into a venture whose viable path is cheaper and earlier. (`12-24`, `26-34`) | audit-agent-batch-03 / batch-03; business-model-evidence-a |
+| `054` | [Web 2.0](https://paulgraham.com/web20.html) | `054_web-2-0.md` | `sales-and-monetization` — Exploit a medium's cost structure by unbundling what users want and pricing free or cheap only where a sustaining revenue engine exists; optimize captured value rather than preserve the incumbent industry's revenue pool. (`84-90`, `98-102`) | audit-agent-batch-03 / batch-03; business-model-evidence-a |
+| `058` | [6,631,372](https://paulgraham.com/6631327.html) | `058_6-631-372.md` | `sales-and-monetization` — Align ranking and monetization by combining willingness to pay with observed transactions so revenue rewards buyer outcomes; an incumbent can reject that alignment when then-current advertisers overpay and better matching would reduce revenue. (`14-20`, `22-24`) | audit-agent-batch-04 / batch-04; business-model-evidence-a |
+| `063` | [Why Startups Condense in America](https://paulgraham.com/america.html) | `063_why-startups-condense-in-america.md` | `market-structure-and-cost-curves` — Account for whether a large, linguistically unified domestic market permits a simple local first product; smaller markets impose internationalization and cross-border selling costs earlier, while local angel supply develops only after successful founders recycle capital. (`96-112`) | audit-agent-batch-04 / batch-04; business-model-evidence-a |
+| `084` | [The Future of Web Startups](https://paulgraham.com/webstartups.html) | `084_the-future-of-web-startups.md` | `market-structure-and-cost-curves` — Falling startup costs remove investor permission as a formation gate and increase entrant volume; standardize repeatable, non-differentiating work to exploit that cost curve while preserving necessary custom decisions. (`16-24`, `28-48`) | audit-agent-batch-05 / batch-05; business-model-evidence-a |
+| `093` | [Be Good](https://paulgraham.com/good.html) | `093_be-good.md` | `sales-and-monetization` — Delay business-model optimization while creating strong user value, but verify that users have money or that helping them creates an economic return; delaying profit is defensible only for genuine growth, not bought users. (`16-42`, `44-48`, `114-116`) | audit-agent-batch-05 / batch-05; business-model-evidence-a |
+| `098` | [A Fundraising Survival Guide](https://paulgraham.com/fundraising.html) | `098_a-fundraising-survival-guide.md` | `market-structure-and-cost-curves` — Treat fundraising as a thin correlated market rather than independent consensus; compare external capital with consulting by time-to-break-even and delay cost, and use consulting only as a temporary path that preserves the scalable product boundary. (`14-34`, `40-52`, `142-150`) | audit-agent-batch-06 / batch-06; business-model-evidence-a |
+| `101` | [The High-Res Society](https://paulgraham.com/highres.html) | `101_the-high-res-society.md` | `market-structure-and-cost-curves` — When rules change quickly, small autonomous units' speed can outweigh economies of scale; retain large disciplined structures for slowly changing games and favor boundaries that let units be measured independently with low coordination impedance. (`18-32`, `34-48`, `50-56`) | audit-agent-batch-06 / batch-06; business-model-evidence-a |
+| `102` | [Could VC be a Casualty of the Recession?](https://paulgraham.com/divergence.html) | `102_could-vc-be-a-casualty-of-the-recession.md` | `market-structure-and-cost-curves` — Recompute the venture's feasible cost structure when technology lowers hardware, software, distribution, or staffing costs; a revenue level that is small in market terms can still cross the operating-profitability threshold and change the financing state. (`18-22`) | audit-agent-batch-06 / batch-06; business-model-evidence-b |
+| `108` | [Why TV Lost](https://paulgraham.com/convergence.html) | `108_why-tv-lost.md` | `market-structure-and-cost-curves` — When an open platform and falling distribution costs remove legacy constraints such as synchronicity, locality, and channel-entry thresholds, redesign around current user behavior and a longer tail; former gatekeepers may become service providers rather than publishers. (`14-28`, `32-44`, `48-60`) | audit-agent-batch-06 / batch-06; business-model-evidence-b |
+| `113` | [Why Twitter is a Big Deal](https://paulgraham.com/twitter.html) | `113_why-twitter-is-a-big-deal.md` | `growth-and-monetization-tradeoffs` — For a privately owned product that functions like a new shared protocol, test whether early monetization or tight control would impede adoption; delayed monetization can help only as a product-specific hypothesis, not a universal rule. (`12-16`)<br>`venture-type-and-capital-model` — Identify protocol-like products as a distinct venture shape: their value can depend on becoming a shared default even though ownership and eventual value capture remain private. (`12-16`) | audit-agent-batch-06 / batch-06; business-model-evidence-b |
+| `114` | [A Local Revolution?](https://paulgraham.com/revolution.html) | `114_a-local-revolution.md` | `venture-type-and-capital-model` — Distinguish founder-culture startups that emerge organically from research-commercialization companies created around scientific discoveries; funding laboratories can produce the latter without creating the former or the startup culture on which they depend. (`46-52`) | audit-agent-batch-06 / batch-06; business-model-evidence-b |
+| `116` | [Ramen Profitable](https://paulgraham.com/ramenprofitable.html) | `116_ramen-profitable.md` | `business-models-and-channel-power` — Treat non-harmful interim revenue or limited service work as a bridge only while it continues producing a repeatable product; survival revenue need not be the eventual scalable value-capture model. (`52-60`)<br>`growth-and-monetization-tradeoffs` — Do not require launch-day charging when it would constrain adoption, but use willingness to pay as a focusing test when appropriate and keep any easy consulting revenue from displacing scalable product growth. (`52-60`)<br>`venture-type-and-capital-model` — Gate the ramen-profitability strategy on capital needs: it can buy time for many low-cost software startups but is not feasible for capital-heavy categories such as most biotech ventures. (`16-24`) | audit-agent-batch-07 / batch-07; business-model-evidence-b |
+| `121` | [Post-Medium Publishing](https://paulgraham.com/publishing.html) | `121_post-medium-publishing.md` | `business-models-and-channel-power` — Separate customer value from the medium and controlled channel that historically enabled charging; if the medium loses scarcity, choose explicitly between indirect revenue and embodying the information in a paid product or experience that creates new user value. (`12-40`, `48-68`) | audit-agent-batch-07 / batch-07; business-model-evidence-b |
+| `129` | [The Future of Startup Funding](https://paulgraham.com/future.html) | `129_the-future-of-startup-funding.md` | `venture-type-and-capital-model` — Match the financing-provider model and early round size to the startup's capital need: many capital-light software companies can make substantial progress with smaller early investments, whereas expensive energy or biotech ventures do not share that assumption. (`14-28`, `120-122`) | audit-agent-batch-07 / batch-07; business-model-evidence-b |
+| `130` | [What Happened to Yahoo](https://paulgraham.com/yahoo.html) | `130_what-happened-to-yahoo.md` | `business-models-and-channel-power` — Audit whether the revenue model reinforces the product's true strategic role; lucrative but transient advertising revenue can obscure a higher-value technology direction and harden the wrong company identity. (`14-42`)<br>`pricing-and-customer-economics` — Compare prices customers currently pay with measurable economic and user value: buyers can temporarily overpay against the wrong reference point, while behavior-linked ranking can align search quality with actual purchasing rather than temporary overpayment. (`14-42`) | audit-agent-batch-07 / batch-07; business-model-evidence-b |
+| `140` | [Snapshot: Viaweb, June 1998](https://paulgraham.com/vw.html) | `140_snapshot-viaweb-june-1998.md` | `pricing-and-customer-economics` — Before choosing flat pricing, model cost to serve at the heaviest-user boundary; Viaweb's largest store could consume bandwidth equal to its entire monthly fee, a dated example of unit-economics exposure rather than a current price benchmark. (`34-36`) | audit-agent-batch-08 / batch-08; business-model-evidence-b |
+| `144` | [Defining Property](https://paulgraham.com/property.html) | `144_defining-property.md` | `business-models-and-channel-power` — When technology changes what can sustainably be owned or charged for, redesign value capture; dependence on distorting the surrounding legal or technical network to preserve old economics is evidence the model no longer works, subject to current legal verification. (`18-38`, `44-48`) | audit-agent-batch-08 / batch-08; business-model-evidence-b |
+| `149` | [Startup = Growth](https://paulgraham.com/growth.html) | `149_startup-growth.md` | `venture-type-and-capital-model` — Classify a company as a startup only when it is designed for rapid growth and can both reach and serve a large market; being new, technical, venture-funded, or exit-oriented is not enough. (`14-32`) | audit-agent-batch-08 / batch-08; business-model-evidence-c |
+| `150` | [The Hardware Renaissance](https://paulgraham.com/hw.html) | `150_the-hardware-renaissance.md` | `venture-type-and-capital-model` — Do not treat hardware as permanently unsuitable for rapid-growth ventures: re-evaluate the category when crowdfunding, components, prototyping, manufacturing access, and direct retail change its operating economics. (`18-24`) | audit-agent-batch-08 / batch-08; business-model-evidence-c |
+| `152` | [Startup Investing Trends](https://paulgraham.com/invtrend.html) | `152_startup-investing-trends.md` | `venture-type-and-capital-model` — As startup costs fall, size the investment model from the company's actual capital need and the equity founders choose to sell rather than from an investor's inherited ownership target or board-seat economics. (`26-38`, `64-74`) | audit-agent-batch-09 / batch-09; business-model-evidence-c |
+| `153` | [Do Things that Don't Scale](https://paulgraham.com/ds.html) | `153_do-things-that-don-t-scale.md` | `venture-type-and-capital-model` — Use consulting-like attention and manual delivery to discover a repeatable product, but preserve the product-company boundary by avoiding open-ended hourly obligations and automating only after the workflow is understood. (`96-108`) | audit-agent-batch-09 / batch-09; business-model-evidence-c |
+| `159` | [The Fatal Pinch](https://paulgraham.com/pinch.html) | `159_the-fatal-pinch.md` | `growth-and-monetization-tradeoffs` — In an acute survival state, ask what urgent result customers will pay well for now and sell a tightly defined derivative of the product while retaining the IP and avoiding hourly billing. (`12-33`, `51-57`)<br>`venture-type-and-capital-model` — Keep emergency custom work subordinate to the intended product-company model: look for repeated needs that can become a scalable opening while limiting the damage and distraction of sliding into pure consulting. (`47-59`) | audit-agent-batch-09 / batch-09; business-model-evidence-c |
+| `168` | [Why It's Safe for Founders to Be Nice](https://paulgraham.com/safe.html) | `168_why-it-s-safe-for-founders-to-be-nice.md` | `growth-and-monetization-tradeoffs` — Model value extraction as a constant-multiple change and growth as a compounding-rate change; when generosity improves recommendation and the company remains viable, preserve it instead of sacrificing growth for short-term extraction. (`18-30`, `34-38`) | audit-agent-batch-09 / batch-09; business-model-evidence-c |
+| `173` | [The Refragmentation](https://paulgraham.com/re.html) | `173_the-refragmentation.md` | `company-boundaries-and-industry-structure` — Revisit vertical integration as specialist suppliers mature and coordination technology lowers transaction costs: a replaceable network can outperform ownership, while a side supplier that controls the standard and customer can capture industry power. (`72-82`) | audit-agent-batch-10 / batch-10; business-model-evidence-c |
+| `175` | [Life is Short](https://paulgraham.com/vb.html) | `175_life-is-short.md` | `pricing-and-customer-economics` — Evaluate a customer after the attention and servicing burden, not revenue alone; for a freelancer or small company, avoiding a toxic customer can preserve more value in time than it loses in income. (`24-30`) | audit-agent-batch-10 / batch-10; business-model-evidence-c |
+| `201` | [How People Get Rich Now](https://paulgraham.com/richnow.html) | `201_how-people-get-rich-now.md` | `pricing-and-customer-economics` — Technology can change product-building and customer-acquisition costs, founder dependence on capital, and the value of a revenue stream through faster growth; revalidate those costs and rates before applying the historical trend. (`54-64`)<br>`venture-type-and-capital-model` — Distinguish venture-scale startups from ordinary new businesses by the capacity to grow very large, and distinguish technology-led advantage from businesses driven mainly by deals when matching the company to venture capital. (`18-30`, `76-78`) | audit-agent-batch-11 / batch-11; business-model-evidence-c |
+
+## Source-use rule
+
+Resolve each range against the listed file in the local corpus snapshot. Use the linked source when deeper context is needed. Revalidate time-sensitive claims before applying them, and paraphrase the principle instead of copying long passages.

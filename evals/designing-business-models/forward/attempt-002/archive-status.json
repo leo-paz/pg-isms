@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "attempt": 2,
+  "canonical": false,
+  "accepted": false,
+  "response_and_score_artifacts_frozen": true,
+  "archived_from": "evals/designing-business-models/forward/",
+  "substantive_threshold_met": true,
+  "evaluator_contract_valid": false,
+  "disposition": "The 21/25 score remains historical evidence only. The run is rejected because response headers are missing, skill mode and projection keys drift, summary schema is noncanonical, and frozen paths point to the former live directory. Its embedded forward_ready value records the substantive score threshold, not canonical acceptance."
+}

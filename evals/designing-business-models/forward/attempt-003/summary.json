@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "skill_name": "designing-business-models",
+  "phase": "forward",
+  "reviewer_id": "business-model-forward-003",
+  "scorer_id": "business-model-forward-scorer-003",
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "raw_output": "scenario-01.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Primary owner is designing-business-models; the response distinguishes product-value evidence from absent capture evidence and says engagement/retention do not prove willingness to pay."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It identifies the owner as observed user/beneficiary, leaves buyer/payer unresolved, and creates separate owner, accountant, and lender offers."
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It specifies bounded cohorts, explicit $99/month, $300/month, and $7,500 prices, and cleared-payment/deployment acceptance evidence."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It pauses ads and fine price optimization, decides on day 42, and defines pay/revise/preserve-free/stop branches with retention, trust, effects, and cost gates."
+        },
+        {
+          "criterion": 5,
+          "score": 0,
+          "max_score": 1,
+          "evidence": "Shipping and post-gate growth are routed, but learning-from-users is assigned only newly exposed product-value uncertainty rather than explicit execution ownership for the planned customer-evidence interviews."
+        }
+      ],
+      "missed_criteria": [5],
+      "score": 4,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-02",
+      "raw_output": "scenario-02.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "The response rejects the core-technology slogan and compares supplier coordination, delay, quality, dependency, switching, fixed capital, capability, and scale-sensitive total cost."
+        },
+        {
+          "criterion": 2,
+          "score": 0,
+          "max_score": 1,
+          "evidence": "It covers qualification, reliability, working capital, and estimated twelve-month latency, but does not explicitly model inventory needs or inventory economics."
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It qualifies supplier two and builds the standard interface before integration while separating supplier failures from specification, interface, transport, inspection, and installation causes."
+        },
+        {
+          "criterion": 4,
+          "score": 0,
+          "max_score": 1,
+          "evidence": "Although dates and all five branch names are present, phrases such as materially better and acceptable are not precommitted delivered-quality/lead-time thresholds, and no explicit switching-cost threshold selects a branch."
+        },
+        {
+          "criterion": 5,
+          "score": 0,
+          "max_score": 1,
+          "evidence": "Boundary ownership, engineering, and financing are routed, but shipping-and-iterating-products is never assigned user-visible rollout."
+        }
+      ],
+      "missed_criteria": [2, 4, 5],
+      "score": 2,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-03",
+      "raw_output": "scenario-03.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "The diagnosis starts from observed value, usage cadence, renewal, procurement, support, and cost concentration and rejects competitor menus and seats as evidence."
+        },
+        {
+          "criterion": 2,
+          "score": 0,
+          "max_score": 1,
+          "evidence": "The ledger covers segment, value, cost, margin, support, sales, renewal, and expansion evidence, but does not explicitly include the buyer or a labeled willingness-to-pay-evidence field for each account/segment."
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It defines segment-specific renewal price/package tests, explicit cohorts and review timing, and predeclared interpretations of renewal, payment, concessions, nondeployment, discounting, and churn."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It includes keep/change/segment/grandfather/stop branches, a dated transition, trust-preserving grandfathering, and rejection of unlimited packaging under unbounded heavy-user costs."
+        },
+        {
+          "criterion": 5,
+          "score": 0,
+          "max_score": 1,
+          "evidence": "Shipping and post-settlement sales execution are routed, but communicating-clearly is never named and communication is not limited to settled offers."
+        }
+      ],
+      "missed_criteria": [2, 5],
+      "score": 3,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-04",
+      "raw_output": "scenario-04.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "The response makes raising-and-governing-capital primary and refuses to have business-model design select or negotiate the term sheet."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It assigns instrument economics, dilution, investor incentives, control, governance, and negotiation to raising-and-governing-capital."
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "The limited business-model check covers amount absorption and return-shape fit and keeps payer, price, package, and sales design closed absent contrary evidence."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "Managing-runway-and-survival precedes only if time-to-zero/default-dead status binds, and signed term sheets are explicitly not treated as cash."
+        },
+        {
+          "criterion": 5,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "The handoff is ordered with named owners and stated decision evidence, and the response gives no shadow term-sheet recommendation."
+        }
+      ],
+      "missed_criteria": [],
+      "score": 5,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-05",
+      "raw_output": "scenario-05.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 0,
+          "max_score": 1,
+          "evidence": "The response compares market ceiling, return shape, founder goals, capital absorption, and exits, but never explicitly compares dilution."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It treats judgment, implementation, and accountability as potentially essential and tests whether those needs fall before removing services."
+        },
+        {
+          "criterion": 3,
+          "score": 0,
+          "max_score": 1,
+          "evidence": "It describes durable and venture-product paths, but the durable path lacks a stated evidence latency and the venture-product path leaves revenue/growth economics unknown instead of modeling explicit assumptions for them."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It preserves optionality with a bounded 120-day paid test, day-60/day-120 reviews, a dated switch condition, and an evidence gate before equity acceleration."
+        },
+        {
+          "criterion": 5,
+          "score": 1,
+          "max_score": 1,
+          "evidence": "It keeps venture type and service/product boundary with business-model design, routes later financing to raising-and-governing-capital, and states there is no survival constraint."
+        }
+      ],
+      "missed_criteria": [1, 3],
+      "score": 3,
+      "max_score": 5
+    }
+  ],
+  "exact_misses": [
+    {
+      "case_id": "scenario-01",
+      "criterion": 5,
+      "reason": "No explicit `learning-from-users` owner for executing the planned customer-evidence interviews."
+    },
+    {
+      "case_id": "scenario-02",
+      "criterion": 2,
+      "reason": "Inventory exposure and economics are not explicit."
+    },
+    {
+      "case_id": "scenario-02",
+      "criterion": 4,
+      "reason": "Delivered-quality, lead-time, and switching-cost decision thresholds are not precommitted."
+    },
+    {
+      "case_id": "scenario-02",
+      "criterion": 5,
+      "reason": "No `shipping-and-iterating-products` handoff for user-visible rollout."
+    },
+    {
+      "case_id": "scenario-03",
+      "criterion": 2,
+      "reason": "Per-account/segment buyer and explicitly labeled willingness-to-pay evidence are absent from the customer-economic record."
+    },
+    {
+      "case_id": "scenario-03",
+      "criterion": 5,
+      "reason": "No `communicating-clearly` handoff limited to settled offers."
+    },
+    {
+      "case_id": "scenario-05",
+      "criterion": 1,
+      "reason": "Dilution is not explicitly compared."
+    },
+    {
+      "case_id": "scenario-05",
+      "criterion": 3,
+      "reason": "The two path models do not each contain explicit revenue, growth, and evidence-latency assumptions."
+    }
+  ],
+  "total_score": 17,
+  "total_max_score": 25,
+  "normalized_score": 0.68,
+  "forward_ready": false,
+  "skill_sha256": "f133bb08fbc5b1e784a44af5245fd2a59fdc569df01839bf499874d22d304729",
+  "cases_sha256": "88f415e5cc5163580cdf4614b0bf6c57459c31d4ba5055c1a8141c843858f3ce"
+}
