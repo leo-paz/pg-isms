@@ -1,3 +1,4 @@
+import hashlib
 import json
 import tempfile
 import unittest
@@ -292,10 +293,18 @@ class RepositoryFixture:
         (eval_dir / "cases.json").write_text(json.dumps({"schema_version": 1, "cases": cases}, indent=2) + "\n")
         case_ids = [case["id"] for case in cases]
         for phase, reviewer, score in (("baseline", "baseline-agent", 1), ("forward", "forward-agent", 4)):
+            (eval_dir / phase / "scorecards").mkdir()
+            response_hashes = {}
             for case_id in case_ids:
-                (eval_dir / phase / f"{case_id}.md").write_text(
+                response_path = eval_dir / phase / f"{case_id}.md"
+                response_path.write_text(
                     f"# Raw evaluation output\n\nCase ID: {case_id}\n\nReviewer ID: {reviewer}\n\n"
                     f"This is the complete raw agent response captured for the {case_id} evaluation scenario.\n"
+                )
+                response_hashes[case_id] = hashlib.sha256(response_path.read_bytes()).hexdigest()
+                (eval_dir / phase / "scorecards" / f"{case_id}.md").write_text(
+                    f"# Evaluation scorecard\n\nCase ID: {case_id}\n\nReviewer ID: {reviewer}\n\n"
+                    f"The frozen response earned Score: {score}/5 under the complete case rubric.\n"
                 )
             summary = {
                 "schema_version": 1,
@@ -308,6 +317,28 @@ class RepositoryFixture:
                 ],
             }
             (eval_dir / phase / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
+            manifest = {
+                "schema_version": 1,
+                "skill_name": "test-startup-judgment",
+                "phase": phase,
+                "reviewer_id": reviewer,
+                "canonical_agent_task": f"/fixture/{reviewer}",
+                "generated_at": "2026-07-14T00:00:00-07:00",
+                "model_identity": "fixture model identity",
+                "dispatch_prompt": "Generate complete frozen responses from prompts before opening any evaluation criteria or intended answers.",
+                "cases_projection": "id-and-prompt-only",
+                "criteria_visible_during_generation": False,
+                "responses_frozen_before_scoring": True,
+                "skill_state": {
+                    "mode": "no-skill" if phase == "baseline" else "skill",
+                    "skill_sha256": None
+                    if phase == "baseline"
+                    else hashlib.sha256((skill / "SKILL.md").read_bytes()).hexdigest(),
+                },
+                "response_hash_algorithm": "sha256",
+                "response_hashes": response_hashes,
+            }
+            (eval_dir / phase / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
         final_review_sections = [
             "Missing principles",
             "Overlap/gaps",
@@ -660,6 +691,9 @@ class ValidateRepositoryTests(unittest.TestCase):
         for case_result in summary["case_results"]:
             case_result["score"] = 1
         summary_path.write_text(json.dumps(summary))
+        scorecards = fixture.repo / "evals/test-startup-judgment/forward/scorecards"
+        for scorecard in scorecards.glob("*.md"):
+            scorecard.write_text(scorecard.read_text().replace("Score: 4/5", "Score: 1/5"))
 
         self.assert_invalid(fixture, "final", "material improvement")
 
@@ -671,8 +705,24 @@ class ValidateRepositoryTests(unittest.TestCase):
         summary = json.loads(summary_path.read_text())
         summary["reviewer_id"] = "baseline-agent"
         summary_path.write_text(json.dumps(summary))
-        for raw_path in (fixture.repo / "evals/test-startup-judgment/forward").glob("*.md"):
-            raw_path.write_text(raw_path.read_text().replace("Reviewer ID: forward-agent", "Reviewer ID: baseline-agent"))
+        manifest_path = fixture.repo / "evals/test-startup-judgment/forward/manifest.json"
+        manifest = json.loads(manifest_path.read_text())
+        manifest["reviewer_id"] = "baseline-agent"
+        forward_dir = fixture.repo / "evals/test-startup-judgment/forward"
+        for case_result in summary["case_results"]:
+            response_path = forward_dir / case_result["raw_output"]
+            response_path.write_text(
+                response_path.read_text().replace("Reviewer ID: forward-agent", "Reviewer ID: baseline-agent")
+            )
+            manifest["response_hashes"][case_result["case_id"]] = hashlib.sha256(
+                response_path.read_bytes()
+            ).hexdigest()
+        manifest_path.write_text(json.dumps(manifest))
+        scorecards = fixture.repo / "evals/test-startup-judgment/forward/scorecards"
+        for scorecard in scorecards.glob("*.md"):
+            scorecard.write_text(
+                scorecard.read_text().replace("Reviewer ID: forward-agent", "Reviewer ID: baseline-agent")
+            )
 
         self.assert_invalid(fixture, "final", "fresh reviewer|reuse.*reviewer")
 
@@ -686,6 +736,44 @@ class ValidateRepositoryTests(unittest.TestCase):
         summary_path.write_text(json.dumps(summary))
 
         self.assert_invalid(fixture, "final", "raw output")
+
+    def test_rejects_missing_evaluation_generation_manifest(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        (fixture.repo / "evals/test-startup-judgment/forward/manifest.json").unlink()
+
+        self.assert_invalid(fixture, "final", "generation manifest|manifest.*forward")
+
+    def test_accepts_iso_z_timestamp_and_single_token_model_identity(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        for phase in ("baseline", "forward"):
+            manifest_path = fixture.repo / f"evals/test-startup-judgment/{phase}/manifest.json"
+            manifest = json.loads(manifest_path.read_text())
+            manifest["generated_at"] = "2026-07-14T07:00:00Z"
+            manifest["model_identity"] = "gpt-5"
+            manifest_path.write_text(json.dumps(manifest))
+
+        validate_repository(fixture.repo, fixture.corpus, "final")
+
+    def test_rejects_response_changed_after_evaluation_freeze(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        response = fixture.repo / "evals/test-startup-judgment/forward/trigger.md"
+        response.write_text(response.read_text() + "Changed after the recorded freeze.\n")
+
+        self.assert_invalid(fixture, "final", "response hash|frozen response")
+
+    def test_rejects_missing_evaluation_scorecard(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        (fixture.repo / "evals/test-startup-judgment/forward/scorecards/trigger.md").unlink()
+
+        self.assert_invalid(fixture, "final", "scorecard")
 
     def test_rejects_unsupported_extra_evaluation_case_type(self) -> None:
         temp_dir, fixture = self.fixture()

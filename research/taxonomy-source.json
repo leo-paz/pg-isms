@@ -168,10 +168,10 @@
     },
     {
       "id": "location-versus-ecosystem",
-      "predicate": "A founder or active team choosing where to live and operate uses preparation; a policymaker, university, accelerator, or city changing ecosystem supply uses ecosystem building.",
+      "predicate": "If a founder or active team is choosing where to live and operate, preparation owns that team decision. If a policymaker, university, accelerator, or city is changing regional supply, ecosystem building owns the intervention. If one program policy also imposes location choices on active teams, design the ecosystem intervention first, then apply preparation separately to each affected team.",
       "primary_sequence": [
-        "preparing-to-found",
-        "building-startup-ecosystems"
+        "building-startup-ecosystems",
+        "preparing-to-found"
       ]
     },
     {
@@ -530,7 +530,8 @@
       ],
       "candidate_eval_cases": [
         "A student asks whether to found now, join a startup, or build projects first.",
-        "A remote team asks whether moving to a startup hub is worth it."
+        "A remote team asks whether moving to a startup hub is worth it.",
+        "An accelerator relocation policy must separate the regional intervention from each active team's location decision."
       ]
     },
     {

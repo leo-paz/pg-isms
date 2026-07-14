@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "student-readiness",
+      "type": "trigger",
+      "prompt": "I am a 22-year-old computer science student and think I may want to found a startup after graduation, but I have no idea yet and do not want to spend the next year doing startup theater. How should I use the next twelve months?",
+      "criteria": [
+        "Turns abstract founder ambition into observable readiness tests rather than demanding an immediate commitment.",
+        "Centers at least one owned project exposed to real users or real operating constraints.",
+        "Uses demanding shared work to discover collaborators and working compatibility.",
+        "Builds domain, user, and maker capability instead of optimizing credentials or networking appearances.",
+        "Defines a dated review point that preserves the option to found, join a startup, or keep learning."
+      ]
+    },
+    {
+      "id": "organization-non-trigger",
+      "type": "non-trigger",
+      "prompt": "Our 60-person startup has unclear ownership, too many handoffs, and every decision still waits for a founder. Redesign the roles and coordination model.",
+      "criteria": [
+        "Recognizes that founder preparation is not the primary workflow for an operating organization design problem.",
+        "Routes the request to building-and-evolving-organizations or an equivalent organization owner.",
+        "Does not force pre-founding readiness, cofounder search, or location advice into the answer.",
+        "Identifies ownership and coordination as the binding deliverables.",
+        "Keeps any handoff concise instead of pretending to execute the unrelated workflow."
+      ]
+    },
+    {
+      "id": "paying-users-begin-now",
+      "type": "application",
+      "prompt": "My former teammate and I have worked together for four years. Three companies are urgently asking to pay for a rough tool we built on weekends. Should we spend six months preparing to become founders first, and what should we do next?",
+      "criteria": [
+        "Recognizes that proven trust plus urgent paying demand favors learning by beginning rather than a long preparation program.",
+        "Proposes a bounded, reversible operating trial with the three prospective customers.",
+        "Makes roles, commitment, ownership expectations, and personal runway explicit before the trial becomes irreversible.",
+        "Defines evidence and a dated continue, change, or stop decision instead of assuming the trial must become a company.",
+        "Avoids generic courses, networking, fundraising, or relocation work that would delay the immediate user test."
+      ]
+    },
+    {
+      "id": "active-team-location",
+      "type": "condition",
+      "prompt": "Our active two-founder startup is deciding whether to move from Toronto to New York. New York would put us near target customers and investors, but one founder has young children and immigration friction, and we already have a committed domain investor in Toronto. Give us a decision process, not a slogan about hubs.",
+      "criteria": [
+        "Treats this as one active team's conditional operating-location decision rather than a city ecosystem-building problem.",
+        "Compares current customer, investor, talent, and peer access benefits with family, immigration, cost, and distraction burdens.",
+        "Uses present evidence rather than treating historical hub advice as a timeless command.",
+        "Designs a reversible test or deliberate substitute for the access supposedly gained by moving.",
+        "Ends with an explicit decision rule and trigger for revisiting the choice."
+      ]
+    },
+    {
+      "id": "accelerator-relocation-policy",
+      "type": "edge",
+      "prompt": "Our accelerator wants every company in its next cohort to relocate here, partly to improve each team's odds and partly to strengthen the regional startup scene. Design one defensible relocation policy.",
+      "criteria": [
+        "Routes the program-wide regional-supply objective to building-startup-ecosystems before applying individual founder preparation.",
+        "Evaluates each affected team's location choice separately using its customers, industry, family, immigration, funding, and operating constraints.",
+        "Rejects a blanket relocation mandate unless evidence supports it for both the regional intervention and the individual teams.",
+        "Separates ecosystem success measures from each company's decision and stopping criteria.",
+        "Makes the ordered composition between ecosystem policy and team-level preparation explicit."
+      ]
+    }
+  ]
+}

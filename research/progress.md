@@ -434,3 +434,72 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
   then run final independent review, finish the README, and pass the final repository
   gate.
 - Blockers: none.
+
+## Checkpoint 4 skill 1 verified: `preparing-to-found`
+
+- RED was recorded before skill authoring with five fresh-context cases spanning a
+  trigger, non-trigger, ordinary application, stage/location condition, and the A3
+  accelerator-policy composition edge. The frozen no-skill baseline scored `17/25`
+  (`0.68`). Response-only files, separate scorecards, exact hashes, dispatch
+  manifests, hidden-criteria declarations, and the no-skill state make the control
+  reconstructable.
+- The package was initialized with the official `skill-creator` tool. The final
+  `SKILL.md` is `497` words, keeps preparation-versus-beginning and hub-access-versus-
+  relocation-cost conditions executable, routes the mixed A3 request ecosystem-first
+  and team-by-team second, and has SHA-256
+  `ff2f0ae1ea51b2bd587791a32de603977c2acc9d150948ec2f091d46957730ff`.
+  `agents/openai.yaml` was regenerated from that final file and official
+  `quick_validate.py` reports `Skill is valid!`.
+- Exact skill provenance covers all `55` assigned essays and all `6` owned themes.
+  Three independent source reviewers re-read the complete assigned corpus files and
+  produced claim/theme/range evidence. The generated reference contains only ranges
+  contained in the canonical audit, plus corpus paths and both audit and skill-review
+  lineage. Standalone tests reject duplicates, nonreciprocal assignments, and
+  out-of-audit ranges.
+- GREEN used a distinct fresh-context agent and the final frozen skill. The five
+  responses scored `24/25` (`0.96`), a `+0.28` normalized improvement. One point was
+  deliberately withheld because the paying-user answer tested one design partner
+  before all three prospects. The repository evaluation helper independently accepts
+  both baseline and forward manifests and current hashes.
+- A five-repetition no-guidance wording control scored `[2, 2, 3, 2, 2]` (`0.44`).
+  The first guided iteration exposed a repeated omission of existing local customers
+  or committed capital, so wording was revised and all skill-dependent tests were
+  regenerated. Five new single-shot guided contexts then scored `[5, 5, 5, 5, 5]`
+  (`1.00`), a `+0.56` improvement with ten unique agent tasks and exact response
+  hashes.
+- The original transfer prompt was quarantined after review showed it predated the
+  last wording revision. A wholly new procurement/cofounder/unpaid-leave case was
+  authored after the final skill hash, generated blind by a fresh agent, and scored
+  by an independent agent. Strict re-review corrected an overstated actual-use point
+  in v3, and staging then found trailing Markdown whitespace. Rather than mutate that
+  frozen response, fresh v4 generation and scoring produced a clean, hash-verified
+  `5/5` PASS that explicitly operationalizes buyer/user, use, payment, team, and gate
+  evidence.
+- The first independent review's `4` Important and `3` Minor findings were all
+  remediated: skill-specific provenance, canonical A3 order, honest scoring, durable
+  freeze evidence, repeated/held-out transfer testing, sub-500-word guidance,
+  standalone provenance lineage, and negative generator tests. A separate fresh
+  final review reports `0` Critical, `0` Important, and Ready to commit: Yes. It notes
+  only two nonblocking hardening opportunities: integrate extended-test/provenance
+  freshness into the final repository gate and add a focused semantic assertion for
+  the current A3 predicate.
+- Verification:
+
+  ```text
+  Skill is valid!
+  skill provenance check: essays=55 themes=6
+  taxonomy check passed: skills=21 themes=122 relevant_essays=209 essay_skill_pairings=831 global_invariants=7 product_types=6 routing_rules=9 decision_branches=42
+  taxonomy validation passed: corpus_files=223 classified=223 unaudited=0 uncovered_relevant=0 orphan_skills=0
+  python3 -m unittest discover -s tests
+  Ran 120 tests
+  OK
+  extended evaluation integrity: micro_reps=10 unique_tasks=10 delta=0.56 heldout=5/5
+  copyright scan: normalized 40-token corpus matches=0
+  git diff --check: passed
+  ```
+
+- Remaining work: publish this verified skill milestone, then build the remaining
+  `20` skills sequentially beginning with `building-startup-ecosystems`; finish the
+  cross-skill final review, README catalog, and clean/pushed repository-wide final
+  gate.
+- Blockers: none.

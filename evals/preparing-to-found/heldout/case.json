@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_name": "preparing-to-found",
+  "case_id": "procurement-cofounder-leave-transfer",
+  "prompt": "Two former colleagues invite a product manager to cofound a hospital-procurement startup. She has fourteen months of savings and no dependents. The three have been friends for years but have never worked together under deadline. One hospital signed a nonbinding letter of interest; there is no product or payment. She can take six weeks of unpaid leave next quarter. Decide whether she should resign now, join them as a cofounder, join another startup, or run a test. Give one recommendation and a decision gate.",
+  "criteria": [
+    "Separates founder readiness from opportunity evidence and identifies the binding unknowns in collaborator trust and buyer urgency.",
+    "Uses the reversible six-week leave for a bounded operating trial rather than recommending an immediate resignation.",
+    "Tests the prospective cofounders through demanding shared work and sets a boundary for commitment, roles, and ownership expectations.",
+    "Specifies real hospital-user evidence to collect about workflow urgency, product use, and willingness to pay rather than treating the letter as demand proof.",
+    "Ends with a dated observable rule for founding, joining, continuing preparation, or stopping."
+  ],
+  "created_at": "2026-07-14T04:38:00-07:00",
+  "heldout_after_skill_sha256": "ff2f0ae1ea51b2bd587791a32de603977c2acc9d150948ec2f091d46957730ff",
+  "authoring_status": "Authored after the final skill text and hash were frozen; this case was not used to revise the skill."
+}

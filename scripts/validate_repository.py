@@ -561,6 +561,94 @@ def _evaluation_summary(eval_dir: Path, skill_name: str, phase: str, case_ids: S
     _require(set(result_ids) == case_ids, f"{phase} evaluation summary does not cover the exact case set for {skill_name}")
     raw_duplicates = _duplicates(raw_outputs)
     _require(not raw_duplicates, f"{phase} evaluation cases must have distinct raw output artifacts for {skill_name}")
+    manifest_path = eval_dir / phase / "manifest.json"
+    _require(manifest_path.is_file(), f"missing {phase} evaluation generation manifest for {skill_name}")
+    manifest = _load_json(manifest_path)
+    _require(
+        isinstance(manifest, dict) and manifest.get("schema_version") == 1,
+        f"invalid {phase} evaluation generation manifest for {skill_name}",
+    )
+    _require(manifest.get("skill_name") == skill_name, f"{phase} generation manifest skill mismatch")
+    _require(manifest.get("phase") == phase, f"{phase} generation manifest phase mismatch")
+    _require(manifest.get("reviewer_id") == reviewer_id, f"{phase} generation manifest reviewer mismatch")
+    _require(
+        isinstance(manifest.get("canonical_agent_task"), str)
+        and manifest["canonical_agent_task"].startswith("/"),
+        f"{phase} generation manifest lacks a canonical agent task",
+    )
+    _require(
+        isinstance(manifest.get("generated_at"), str)
+        and re.fullmatch(
+            r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2})",
+            manifest["generated_at"],
+        ),
+        f"{phase} generation manifest has an invalid timestamp",
+    )
+    _require(
+        isinstance(manifest.get("model_identity"), str) and bool(manifest["model_identity"].strip()),
+        f"{phase} generation manifest lacks model identity",
+    )
+    _require(
+        isinstance(manifest.get("dispatch_prompt"), str) and len(manifest["dispatch_prompt"].split()) >= 12,
+        f"{phase} generation manifest lacks the dispatch prompt",
+    )
+    _require(
+        manifest.get("cases_projection") == "id-and-prompt-only"
+        and manifest.get("criteria_visible_during_generation") is False
+        and manifest.get("responses_frozen_before_scoring") is True,
+        f"{phase} generation manifest does not prove blind frozen responses",
+    )
+    skill_state = manifest.get("skill_state")
+    _require(isinstance(skill_state, dict), f"{phase} generation manifest lacks skill state")
+    if phase == "baseline":
+        _require(
+            skill_state.get("mode") == "no-skill" and skill_state.get("skill_sha256") is None,
+            f"baseline generation manifest must record a no-skill control",
+        )
+    else:
+        skill_path = eval_dir.parents[1] / "skills" / skill_name / "SKILL.md"
+        _require(skill_path.is_file(), f"missing skill under forward evaluation: {skill_path}")
+        current_skill_hash = hashlib.sha256(skill_path.read_bytes()).hexdigest()
+        _require(
+            skill_state.get("mode") == "skill" and skill_state.get("skill_sha256") == current_skill_hash,
+            f"forward generation manifest skill hash is stale for {skill_name}",
+        )
+    _require(
+        manifest.get("response_hash_algorithm") == "sha256",
+        f"{phase} generation manifest has an unsupported response hash",
+    )
+    response_hashes = manifest.get("response_hashes")
+    _require(
+        isinstance(response_hashes, dict) and set(response_hashes) == case_ids,
+        f"{phase} generation manifest response hashes do not cover the exact case set",
+    )
+    for result in case_results:
+        case_id = result["case_id"]
+        response_path = eval_dir / phase / result["raw_output"]
+        response_text = response_path.read_text(encoding="utf-8")
+        _require(
+            not re.search(r"(?m)^## (?:Score|Criterion scoring)\s*$", response_text),
+            f"{phase} frozen response contains an embedded scorecard for {case_id}",
+        )
+        actual_hash = hashlib.sha256(response_path.read_bytes()).hexdigest()
+        expected_hash = response_hashes.get(case_id)
+        _require(
+            isinstance(expected_hash, str)
+            and re.fullmatch(r"[0-9a-f]{64}", expected_hash) is not None
+            and actual_hash == expected_hash,
+            f"{phase} frozen response hash mismatch for {case_id}",
+        )
+        scorecard = eval_dir / phase / "scorecards" / f"{case_id}.md"
+        _require(scorecard.is_file(), f"missing {phase} evaluation scorecard for {case_id}")
+        scorecard_text = scorecard.read_text(encoding="utf-8")
+        score_text = f"Score: {float(result['score']):g}/{float(result['max_score']):g}"
+        _require(
+            len(scorecard_text.split()) >= 12
+            and f"Case ID: {case_id}" in scorecard_text
+            and f"Reviewer ID: {reviewer_id}" in scorecard_text
+            and score_text in scorecard_text,
+            f"invalid {phase} evaluation scorecard for {case_id}",
+        )
     normalized_score = sum(scores.values()) / sum(maxima.values())
     return {
         "reviewer_id": reviewer_id,

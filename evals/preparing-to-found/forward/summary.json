@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "skill_name": "preparing-to-found",
+  "phase": "forward",
+  "reviewer_id": "preparing-forward-v3-001",
+  "case_results": [
+    {
+      "case_id": "student-readiness",
+      "score": 5,
+      "max_score": 5,
+      "raw_output": "student-readiness.md"
+    },
+    {
+      "case_id": "organization-non-trigger",
+      "score": 5,
+      "max_score": 5,
+      "raw_output": "organization-non-trigger.md"
+    },
+    {
+      "case_id": "paying-users-begin-now",
+      "score": 4,
+      "max_score": 5,
+      "raw_output": "paying-users-begin-now.md"
+    },
+    {
+      "case_id": "active-team-location",
+      "score": 5,
+      "max_score": 5,
+      "raw_output": "active-team-location.md"
+    },
+    {
+      "case_id": "accelerator-relocation-policy",
+      "score": 5,
+      "max_score": 5,
+      "raw_output": "accelerator-relocation-policy.md"
+    }
+  ]
+}

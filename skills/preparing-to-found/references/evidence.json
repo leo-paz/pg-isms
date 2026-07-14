@@ -1,0 +1,902 @@
+{
+  "schema_version": 1,
+  "skill_name": "preparing-to-found",
+  "records": [
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "038",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "132-136"
+          ],
+          "claim": "Use small, finishable projects that stretch genuine interests; repeated doing builds capability and reveals the next worthwhile question."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "041",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-readiness-and-commitment",
+          "line_ranges": [
+            "82-98"
+          ],
+          "claim": "Prepare for founding by mastering high-leverage tools, practicing on existing code, and starting projects around problems you personally understand."
+        },
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "22-40"
+          ],
+          "claim": "Develop skill through engaging, technically hard projects, learning from strong peers, and owning work that can be changed without permission."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "046",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "career-choice-and-optionality",
+          "line_ranges": [
+            "118-130"
+          ],
+          "claim": "When personal obligations are low, a startup can be a reversible career experiment: failure builds experience and need not reduce later employability."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "048",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "career-choice-and-optionality",
+          "line_ranges": [
+            "12-12",
+            "16-18",
+            "26-28"
+          ],
+          "claim": "Compare startup and corporate paths by counting hidden job-security value and loss of control as well as visible ownership and risk."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "050",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "78-86"
+          ],
+          "claim": "Founders can learn unfamiliar operating skills quickly through practice, shared problems, and direct observation of peers."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "056",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "career-choice-and-optionality",
+          "line_ranges": [
+            "120-134",
+            "142-146"
+          ],
+          "claim": "Choose between an organic career and a separate money job based on work certainty, tolerance for orders and risk, while preserving flexibility and sampling varied work early."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "062",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "location-and-mobility",
+          "line_ranges": [
+            "130-138"
+          ],
+          "claim": "Investor proximity and startup density pull teams toward hubs, but sufficient traction or a compelling local environment can let founders resist relocation."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "063",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "career-choice-and-optionality",
+          "line_ranges": [
+            "72-80"
+          ],
+          "claim": "Treating a career as a sequence of work rather than lifelong service to one employer lowers the perceived risk of trying a startup."
+        },
+        {
+          "canonical_theme": "location-and-mobility",
+          "line_ranges": [
+            "170-182"
+          ],
+          "claim": "Founders' mobility depends on immigration rules; systems tied to degrees and employment by established companies can block capable people from building where they choose."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "068",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-readiness-and-commitment",
+          "line_ranges": [
+            "24-42"
+          ],
+          "claim": "School provides a fallback that can weaken founder accountability, so uncertain students should wait while unusually committed ones may justify starting earlier."
+        },
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "154-166"
+          ],
+          "claim": "Prepare by observing or working inside startups, choosing potential collaborators deliberately, learning execution-oriented tools, and building for real users."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "069",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-readiness-and-commitment",
+          "line_ranges": [
+            "198-210"
+          ],
+          "claim": "Half-hearted side projects commonly fade; full commitment matters, but leaving a job should follow an honest assessment of determination rather than a blanket rule."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "072",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "86-100"
+          ],
+          "claim": "Build capability by pursuing hard problems that sustain genuine curiosity and by getting demanding, calibrated feedback on self-directed work."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "073",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "career-choice-and-optionality",
+          "line_ranges": [
+            "140-148",
+            "176-184",
+            "210-220"
+          ],
+          "claim": "Weigh family downside and startup uncertainty against joining or employment fallbacks instead of accepting a regular job as an unquestioned default."
+        },
+        {
+          "canonical_theme": "founder-readiness-and-commitment",
+          "line_ranges": [
+            "52-58",
+            "74-82",
+            "160-174"
+          ],
+          "claim": "Ready founders respond maturely to challenge, pursue their own projects, accept a multi-year commitment, and can act without imposed structure."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "081",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-readiness-and-commitment",
+          "line_ranges": [
+            "54-70"
+          ],
+          "claim": "Founder commitment requires removing escape hatches and competing projects, making the startup primary, and persisting even when adaptation is necessary."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "082",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "48-56",
+            "60-64"
+          ],
+          "claim": "Learning depends more on self-direction and deliberately chosen smart peers than institutional prestige, so prioritize learning and doing over credentials."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "085",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "location-and-mobility",
+          "line_ranges": [
+            "24-38"
+          ],
+          "claim": "Startup hubs offer concentrated knowledge, people, and infrastructure, but family disruption, immigration friction, industry ties, or committed local funding can outweigh moving."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "089",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "62-70"
+          ],
+          "claim": "Programmers learn by doing, and owning work in a startup or very small company permits far more experimentation than a large organization."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "096",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "location-and-mobility",
+          "line_ranges": [
+            "96-112"
+          ],
+          "claim": "Choose an environment whose peers and audience support the intended ambition, and test several places early because that fit is hard to infer without living there."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "097",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-readiness-and-commitment",
+          "line_ranges": [
+            "16-26"
+          ],
+          "claim": "Before founding, distinguish wanting freedom and security from wanting to operate a company, which demands continual attention and submission to customer needs."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "107",
+      "reviewer": "preparing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "location-and-mobility",
+          "line_ranges": [
+            "16-24",
+            "28-38"
+          ],
+          "claim": "Early startups are mobile and may relocate for funding; residency restrictions select weaker teams, while enough capital, traction, or local roots can let them stay."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "109",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "102-104"
+          ],
+          "claim": "Keep first angel checks small enough to absorb losses and use the initial portfolio as practical training."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "111",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-readiness-and-commitment",
+          "line_ranges": [
+            "44-48"
+          ],
+          "claim": "Treat force of will as one founder-readiness signal, not as a deterministic winner label."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "112",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "location-and-mobility",
+          "line_ranges": [
+            "14-18"
+          ],
+          "claim": "Immigration restrictions can prevent capable founders from locating where they intend to form companies, making mobility a startup-formation constraint."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "119",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-work-fit",
+          "line_ranges": [
+            "60-62"
+          ],
+          "claim": "Work that is intrinsically compelling requires less forced persistence, but serving others still creates tasks that motivation alone will not cover."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "123",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "294-300"
+          ],
+          "claim": "Model outcomes as the product of skill, determination, and luck, so success or failure alone does not cleanly measure capability."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "132",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "location-and-mobility",
+          "line_ranges": [
+            "26-28"
+          ],
+          "claim": "For an early team, favor a walkable office near food and public activity when that setting keeps people together for informal discussion and implementation."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "139",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "location-and-mobility",
+          "line_ranges": [
+            "24-32",
+            "36-42",
+            "70-70"
+          ],
+          "claim": "Compare locations by whether founding is socially normal and by the density of useful chance encounters; outside a hub, plan explicit morale and network substitutes."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "141",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "30-32"
+          ],
+          "claim": "Estimate feasibility using founders' capacity to grow into progressively harder problems, not only their present capability."
+        },
+        {
+          "canonical_theme": "motivation-and-work-fit",
+          "line_ranges": [
+            "14-20"
+          ],
+          "claim": "Audit whether aversion to unavoidable operational work is silently removing worthwhile opportunities; do not confuse necessary effort with seeking pain for its own sake."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "142",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "20-24",
+            "32-36"
+          ],
+          "claim": "Learning readiness shows in following compact advice through inconvenient implications and rejecting it only for fresh, evidence-based reasons."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "143",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-work-fit",
+          "line_ranges": [
+            "14-24"
+          ],
+          "claim": "Treat fear and identity threat as possible filters against ambitious work, then examine the feasible edge instead of letting discomfort decide."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "145",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-readiness-and-commitment",
+          "line_ranges": [
+            "14-20"
+          ],
+          "claim": "Turn recurring intent into concrete commitment by assigning capital, choosing a full-time owner, and recruiting the initial team."
+        },
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "28-30",
+            "32-34"
+          ],
+          "claim": "Use a bounded cohort with low participant opportunity cost to accelerate learning, and treat the initial capital as tuition until evidence accumulates."
+        },
+        {
+          "canonical_theme": "location-and-mobility",
+          "line_ranges": [
+            "42-44"
+          ],
+          "claim": "Use participant density as a location criterion, while adapting the exact site to immediate time and space constraints."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "151",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "72-82"
+          ],
+          "claim": "Prepare for organic opportunities by gaining practical experience at the edge of a changing field until you can notice and quickly build what is missing."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "154",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "40-42",
+            "115-115"
+          ],
+          "claim": "Build enough domain expertise to answer detailed market questions; when an answer is unknown, explain how you will discover it instead of bluffing."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "157",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-readiness-and-commitment",
+          "line_ranges": [
+            "70-76",
+            "84-90"
+          ],
+          "claim": "Treat founding as an all-consuming, hard-to-reverse commitment and preserve early exploration unless an unusually strong side project justifies narrowing."
+        },
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "112-118",
+            "126-136"
+          ],
+          "claim": "Prepare indirectly by learning consequential domains and tackling demanding problems with respected people until ideas and collaborators emerge organically."
+        },
+        {
+          "canonical_theme": "motivation-and-work-fit",
+          "line_ranges": [
+            "122-124"
+          ],
+          "claim": "Use sustained attraction to genuinely interesting problems as evidence of work fit and as preparation for founding."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "161",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "16-24",
+            "26-28"
+          ],
+          "claim": "Keep expertise current by treating beliefs about changing domains as provisional and investigating anomalous hunches produced by deep contact with the field."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "164",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-work-fit",
+          "line_ranges": [
+            "22-28"
+          ],
+          "claim": "Identify work fit by finding difficult tasks that feel rewarding to you but burdensome to others; unusual preferences are stronger evidence."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "176",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "location-and-mobility",
+          "line_ranges": [
+            "24-28"
+          ],
+          "claim": "Choose location partly by where scarce talent wants to live, even when founders personally prefer another place."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "180",
+      "reviewer": "preparing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "72-74",
+            "106-110"
+          ],
+          "claim": "Cultivate learning through learner-led depth: give interests fair exposure, then support unusually deep exploration rather than forcing enthusiasm."
+        },
+        {
+          "canonical_theme": "motivation-and-work-fit",
+          "line_ranges": [
+            "24-28",
+            "40-42"
+          ],
+          "claim": "Look for work where intrinsic curiosity coincides with creating something difficult that is unusually tractable for you; interest can reveal aptitude and sustain effort."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "187",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "14-18"
+          ],
+          "claim": "Entering unfamiliar fields or environments can increase overall knowledge even while it makes local competence feel lower."
+        },
+        {
+          "canonical_theme": "motivation-and-work-fit",
+          "line_ranges": [
+            "20-26"
+          ],
+          "claim": "Treat beginner discomfort as a possible signal of novel work rather than an automatic reason to retreat to familiar tasks."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "193",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "62-68"
+          ],
+          "claim": "Judge early work partly by its improvement rate and frame bounded attempts as learning opportunities whose failures can yield knowledge."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "194",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-work-fit",
+          "line_ranges": [
+            "90-96"
+          ],
+          "claim": "Seek work and topics that sustain curiosity; investigating genuine interests tends to deepen that motivation and guide novel work."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "197",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-work-fit",
+          "line_ranges": [
+            "16-24"
+          ],
+          "claim": "Intrinsic interest in a problem strengthens effort and persistence when the work becomes genuinely difficult."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "204",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "40-42"
+          ],
+          "claim": "Study important ideas in their unfinished early form to improve judgment about promising work before it looks polished."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "205",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-work-fit",
+          "line_ranges": [
+            "32-34"
+          ],
+          "claim": "Channel intense competitiveness and drive into ambitious hard projects so the energy produces constructive satisfaction instead of bitterness."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "206",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-work-fit",
+          "line_ranges": [
+            "44-48"
+          ],
+          "claim": "Novel, self-directed work can create unusually strong intrinsic engagement and productivity."
+        },
+        {
+          "canonical_theme": "owned-projects-and-maker-autonomy",
+          "line_ranges": [
+            "32-42"
+          ],
+          "claim": "Preserve voluntary individual ownership inside collaboration by letting makers control distinct parts that fit into the larger project."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "207",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-work-fit",
+          "line_ranges": [
+            "76-78"
+          ],
+          "claim": "Choose work by both aptitude and deep interest, while checking whether money, prestige, or others' expectations are distorting the choice."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "208",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "16-22"
+          ],
+          "claim": "Learning a strong but unusual programming language can expand both what a maker can express and the concepts they can think with."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "209",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-work-fit",
+          "line_ranges": [
+            "30-36"
+          ],
+          "claim": "Cultivate sustained interest and arrange owned work, effort, recovery, and colleagues so original ideas are more likely to emerge."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "211",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "22-24"
+          ],
+          "claim": "Explaining a familiar domain in writing surfaces tacit expert knowledge and produces learning beyond other forms of exploration."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "213",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "14-16",
+            "20-24"
+          ],
+          "claim": "Build startup judgment by extracting specific lessons from users and accumulating many varied early-stage cases."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "216",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "14-14",
+            "24-24"
+          ],
+          "claim": "Read strong writing for meaning because reading quality develops the writing ability used for serious thinking."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "217",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "14-16"
+          ],
+          "claim": "Learn a domain deeply enough to reach its frontier, where unresolved gaps become visible and can generate new work."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "218",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-work-fit",
+          "line_ranges": [
+            "18-20"
+          ],
+          "claim": "Select work at the intersection of natural aptitude, deep interest, and room for ambitious achievement."
+        },
+        {
+          "canonical_theme": "owned-projects-and-maker-autonomy",
+          "line_ranges": [
+            "26-30"
+          ],
+          "claim": "Develop a habit of driving personally exciting projects rather than defining work only as assignments from others."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "219",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "50-60"
+          ],
+          "claim": "Seek work where learning compounds, count failure as progress only when it builds capability, and keep learning without filtering too narrowly for known value."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "220",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "76-82"
+          ],
+          "claim": "Improve idea generation through breadth across dissimilar inputs and depth earned by solving hard problems in a domain."
+        }
+      ]
+    },
+    {
+      "skill_name": "preparing-to-found",
+      "article_no": "221",
+      "reviewer": "preparing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-readiness-and-commitment",
+          "line_ranges": [
+            "26-30"
+          ],
+          "claim": "Before founding, separately establish technical capability, a concrete thing worth building, and suitable cofounders."
+        },
+        {
+          "canonical_theme": "learning-and-skill-development",
+          "line_ranges": [
+            "34-38"
+          ],
+          "claim": "Build technical ability through self-directed production, because real projects teach faster and more reliably than coursework alone."
+        },
+        {
+          "canonical_theme": "owned-projects-and-maker-autonomy",
+          "line_ranges": [
+            "58-64"
+          ],
+          "claim": "Use personally motivated projects as both a training ground and a source of startups that emerge after a useful build shows promise."
+        }
+      ]
+    }
+  ]
+}

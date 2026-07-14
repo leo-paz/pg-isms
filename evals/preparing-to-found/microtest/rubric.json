@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_name": "preparing-to-found",
+  "prompt": "Our regional accelerator is under pressure from city funders to prove local impact. It wants to require every company in the next cohort to relocate here for nine months, but the teams include biotech labs, remote SaaS companies, parents, and visa holders. Give one defensible recommendation by tomorrow.",
+  "repetitions_per_variant": 5,
+  "criteria": [
+    "Rejects a blanket relocation mandate and gives the regional program objective to ecosystem design before making team-level location decisions.",
+    "Applies a separate conditional decision to each affected team rather than treating the cohort as interchangeable.",
+    "Tests a concrete access mechanism and destination advantage for each team, including the team's industry.",
+    "Accounts for family, immigration, cost, committed local ties or capital, and relocation distraction instead of treating mobility as free.",
+    "Uses substitutes or reversible tests and states an observable condition or date for revisiting the decision."
+  ],
+  "scoring": "Award one point per criterion only when the response operationalizes it. Score each frozen response from 0 to 5 and compare the mean and all-criteria pass rate by variant."
+}

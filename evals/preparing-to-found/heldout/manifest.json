@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_name": "preparing-to-found",
+  "case_id": "procurement-cofounder-leave-transfer",
+  "generator_id": "preparing-heldout-v4-001",
+  "canonical_agent_task": "/root/heldout_preparing_to_found_v4",
+  "generated_at": "2026-07-14T11:47:50Z",
+  "model_identity": "Codex (GPT-5)",
+  "criteria_visible_before_generation": false,
+  "response_frozen_before_scoring": true,
+  "skill_sha256": "ff2f0ae1ea51b2bd587791a32de603977c2acc9d150948ec2f091d46957730ff",
+  "prompt_sha256": "68a0ca033b1e945cc8b7d20ad40488c3911126033140e9b9a890103df8c794c0",
+  "response_sha256": "0ab8e05babe2db03e61d6e03fb5203414308f8b716078b14a1f2769f9a1a4ccb"
+}

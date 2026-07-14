@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "variant": "control",
+  "rep": 5,
+  "canonical_agent_task": "/root/prep_micro_control_5b",
+  "model_identity": "gpt-5",
+  "generated_at": "2026-07-14T11:21:53Z",
+  "skill_sha256": null,
+  "prompt": "Our regional accelerator is under pressure from city funders to prove local impact. It wants to require every company in the next cohort to relocate here for nine months, but the teams include biotech labs, remote SaaS companies, parents, and visa holders. Give one defensible recommendation by tomorrow.",
+  "response_sha256": "f69325d640b8f56c0b7f171cd90e533ecd98d852c63dc259b5dd64e4e548a96d"
+}

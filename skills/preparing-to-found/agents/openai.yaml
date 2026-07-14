@@ -1,0 +1,4 @@
+interface:
+  display_name: "Preparing to Found"
+  short_description: "Test founder readiness and location choices"
+  default_prompt: "Use $preparing-to-found to decide whether, when, and where to found through evidence and reversible tests."

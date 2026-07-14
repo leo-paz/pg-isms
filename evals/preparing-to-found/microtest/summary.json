@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "skill_name": "preparing-to-found",
+  "scorer_id": "preparing-micro-scorer-002",
+  "repetitions_per_variant": 5,
+  "control": [
+    {
+      "rep": 1,
+      "score": 2,
+      "max_score": 5,
+      "response_path": "evals/preparing-to-found/microtest/control/rep-1.md",
+      "scorecard_path": "evals/preparing-to-found/microtest/scorecards/control/rep-1.md"
+    },
+    {
+      "rep": 2,
+      "score": 2,
+      "max_score": 5,
+      "response_path": "evals/preparing-to-found/microtest/control/rep-2.md",
+      "scorecard_path": "evals/preparing-to-found/microtest/scorecards/control/rep-2.md"
+    },
+    {
+      "rep": 3,
+      "score": 3,
+      "max_score": 5,
+      "response_path": "evals/preparing-to-found/microtest/control/rep-3.md",
+      "scorecard_path": "evals/preparing-to-found/microtest/scorecards/control/rep-3.md"
+    },
+    {
+      "rep": 4,
+      "score": 2,
+      "max_score": 5,
+      "response_path": "evals/preparing-to-found/microtest/control/rep-4.md",
+      "scorecard_path": "evals/preparing-to-found/microtest/scorecards/control/rep-4.md"
+    },
+    {
+      "rep": 5,
+      "score": 2,
+      "max_score": 5,
+      "response_path": "evals/preparing-to-found/microtest/control/rep-5.md",
+      "scorecard_path": "evals/preparing-to-found/microtest/scorecards/control/rep-5.md"
+    }
+  ],
+  "guided": [
+    {
+      "rep": 1,
+      "score": 5,
+      "max_score": 5,
+      "response_path": "evals/preparing-to-found/microtest/guided/rep-1.md",
+      "scorecard_path": "evals/preparing-to-found/microtest/scorecards/guided/rep-1.md"
+    },
+    {
+      "rep": 2,
+      "score": 5,
+      "max_score": 5,
+      "response_path": "evals/preparing-to-found/microtest/guided/rep-2.md",
+      "scorecard_path": "evals/preparing-to-found/microtest/scorecards/guided/rep-2.md"
+    },
+    {
+      "rep": 3,
+      "score": 5,
+      "max_score": 5,
+      "response_path": "evals/preparing-to-found/microtest/guided/rep-3.md",
+      "scorecard_path": "evals/preparing-to-found/microtest/scorecards/guided/rep-3.md"
+    },
+    {
+      "rep": 4,
+      "score": 5,
+      "max_score": 5,
+      "response_path": "evals/preparing-to-found/microtest/guided/rep-4.md",
+      "scorecard_path": "evals/preparing-to-found/microtest/scorecards/guided/rep-4.md"
+    },
+    {
+      "rep": 5,
+      "score": 5,
+      "max_score": 5,
+      "response_path": "evals/preparing-to-found/microtest/guided/rep-5.md",
+      "scorecard_path": "evals/preparing-to-found/microtest/scorecards/guided/rep-5.md"
+    }
+  ],
+  "control_metrics": {
+    "mean_score": 2.2,
+    "normalized_score": 0.44,
+    "all_criteria_pass_rate": 0.0
+  },
+  "guided_metrics": {
+    "mean_score": 5.0,
+    "normalized_score": 1.0,
+    "all_criteria_pass_rate": 1.0
+  },
+  "guided_minus_control_normalized_delta": 0.56
+}

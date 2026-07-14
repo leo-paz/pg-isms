@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "variant": "guided",
+  "rep": 5,
+  "canonical_agent_task": "/root/prep_micro_guided_5c",
+  "model_identity": "OpenAI GPT-5 Codex",
+  "generated_at": "2026-07-14T04:27:46-07:00",
+  "skill_sha256": "ff2f0ae1ea51b2bd587791a32de603977c2acc9d150948ec2f091d46957730ff",
+  "prompt": "Our regional accelerator is under pressure from city funders to prove local impact. It wants to require every company in the next cohort to relocate here for nine months, but the teams include biotech labs, remote SaaS companies, parents, and visa holders. Give one defensible recommendation by tomorrow.",
+  "response_sha256": "259efa5f57ab2f9669451e42f5d2add59b5e310fa996fb2fdafe1844bfcdf28a"
+}

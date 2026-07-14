@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "skill_name": "preparing-to-found",
+  "phase": "forward",
+  "reviewer_id": "preparing-forward-v3-001",
+  "canonical_agent_task": "/root/forward_preparing_to_found_v3",
+  "generated_at": "2026-07-14T04:28:48-07:00",
+  "model_identity": "OpenAI GPT-5 Codex",
+  "dispatch_prompt": "Generate a final fresh skill-guided response for every projected evaluation case before viewing criteria.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "ff2f0ae1ea51b2bd587791a32de603977c2acc9d150948ec2f091d46957730ff"
+  },
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "student-readiness": "7a62e5de8deea56fc18ea4034a073712d94635323b93ce28cac4c405eaf8ef2a",
+    "organization-non-trigger": "74563ea4a55005179bedf4eddb5c173a3487cee267badf0a026273c69f808846",
+    "paying-users-begin-now": "df36f574f9d514853078399c952a489e286d30081f23549ce3c332d5e51e23d0",
+    "active-team-location": "f1a408bba8eceafe2921e586e6f0b664583d8340c1937a10940e61a675d9653b",
+    "accelerator-relocation-policy": "a0b787449bbc02b1bba1c57316f1704425e1f009f45a0c6f3818aad089d88348"
+  }
+}
