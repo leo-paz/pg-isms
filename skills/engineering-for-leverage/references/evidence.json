@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "skill_name": "engineering-for-leverage",
+  "source_reviewers": [
+    "engineering-evidence-a",
+    "engineering-evidence-b",
+    "engineering-evidence-c"
+  ],
+  "records": [
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "002",
+      "reviewer": "engineering-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "abstraction-and-composability",
+          "claim": "Build recurring domain operations into reusable primitives, then let use of those primitives reveal simpler boundaries across the rest of the system.",
+          "line_ranges": [
+            "18-30"
+          ]
+        },
+        {
+          "canonical_theme": "architecture-and-technical-fit",
+          "claim": "Let the internal language and application evolve together, repeatedly redrawing their boundary until the architecture matches the natural structure of the problem.",
+          "line_ranges": [
+            "18-24"
+          ]
+        },
+        {
+          "canonical_theme": "software-quality-and-simplicity",
+          "claim": "Keep components comprehensible, then reduce the number of components and connections so the system is easier to read, test, debug, and change with fewer defect surfaces.",
+          "line_ranges": [
+            "14-24"
+          ]
+        },
+        {
+          "canonical_theme": "technical-leverage-and-productivity",
+          "claim": "Accumulate reusable utilities and higher-level operators so later programs require less work, extending what a small team can build without adding coordination overhead.",
+          "line_ranges": [
+            "24-30",
+            "35-37"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "003",
+      "reviewer": "engineering-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "abstraction-and-composability",
+          "claim": "Use a uniform representation in which functions and code are manipulable values, allowing programs to compose operations and extend the language they use.",
+          "line_ranges": [
+            "10-10"
+          ]
+        },
+        {
+          "canonical_theme": "architecture-and-technical-fit",
+          "claim": "Prefer a language structure that can be improved to suit the program rather than forcing the program into one fixed application model.",
+          "line_ranges": [
+            "10-10"
+          ]
+        },
+        {
+          "canonical_theme": "code-structure-and-ownership",
+          "claim": "Decompose a program into callable functions that can be exercised piece by piece from the interactive top level instead of depending on one opaque entry path.",
+          "line_ranges": [
+            "10-10"
+          ]
+        },
+        {
+          "canonical_theme": "software-quality-and-simplicity",
+          "claim": "Minimize side effects so each function can be tested as it is written and changes receive immediate, localized feedback.",
+          "line_ranges": [
+            "10-10"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "004",
+      "reviewer": "engineering-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "abstraction-and-composability",
+          "claim": "Separate general machinery from application-specific behavior by building reusable lower layers, each of which acts as a small language for the layer above.",
+          "line_ranges": [
+            "10-10"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "006",
+      "reviewer": "engineering-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "technical-leverage-and-productivity",
+          "claim": "Treat a claimed tool advantage as a product experiment: predict faster features, otherwise difficult capabilities, a smaller team, and lower costs, then check those effects in the resulting product and delivery pace.",
+          "line_ranges": [
+            "50-66"
+          ]
+        },
+        {
+          "canonical_theme": "technology-selection",
+          "claim": "Choose technology for the concrete product and delivery advantage it creates, not because it is the median choice or carries institutional approval.",
+          "line_ranges": [
+            "36-54"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "007",
+      "reviewer": "engineering-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "technology-selection",
+          "claim": "Before investing deeply in an unfamiliar technology, use voluntary expert adoption, creator use, coherent governance, sponsor incentives, and ecosystem dependence as triage signals to investigate, not as a substitute for hands-on evaluation.",
+          "line_ranges": [
+            "12-16",
+            "20-52"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "009",
+      "reviewer": "engineering-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "architecture-and-technical-fit",
+          "claim": "Drive a platform or language architecture with a real application, preferably one exposing a new problem, so needed capabilities emerge from use rather than an internally complete theory.",
+          "line_ranges": [
+            "94-104"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "013",
+      "reviewer": "engineering-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "architecture-and-technical-fit",
+          "claim": "Use a pervasive paradigm only where its abstractions map naturally to the domain; otherwise take only the required capabilities and do not add machinery merely because convention calls it good design.",
+          "line_ranges": [
+            "10-24",
+            "29-31"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "014",
+      "reviewer": "engineering-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "abstraction-and-composability",
+          "claim": "Offer a small set of basic elements users can combine for their own purposes, and prefer primitives that enable further work over elaborate one-off solutions.",
+          "line_ranges": [
+            "68-78"
+          ]
+        },
+        {
+          "canonical_theme": "software-quality-and-simplicity",
+          "claim": "Remove ornamental complexity until the real problem and structural elements are exposed; simplicity should concentrate attention on substance rather than camouflage weak form.",
+          "line_ranges": [
+            "50-58"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "015",
+      "reviewer": "engineering-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "architecture-and-technical-fit",
+          "claim": "Compare technical foundations by stating the predecessor limitation each one removes, then check whether that limitation is actually present in the product's architecture and domain.",
+          "line_ranges": [
+            "10-38",
+            "44-60"
+          ]
+        },
+        {
+          "canonical_theme": "technology-selection",
+          "claim": "Separate capability-driven variants from technologies whose salient difference is vendor or platform control before treating the difference as a technical reason to adopt.",
+          "line_ranges": [
+            "40-42"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "016",
+      "reviewer": "engineering-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "abstraction-and-composability",
+          "claim": "Search stable repeated patterns for an operation that makes many programs shorter; broad repeated compression is evidence of a useful abstraction rather than a local trick.",
+          "line_ranges": [
+            "50-56"
+          ]
+        },
+        {
+          "canonical_theme": "code-structure-and-ownership",
+          "claim": "Evaluate code structure by the conceptual elements a reader must hold and connect, rather than by formatting-dependent line or character counts.",
+          "line_ranges": [
+            "40-46"
+          ]
+        },
+        {
+          "canonical_theme": "software-quality-and-simplicity",
+          "claim": "Judge readability across the whole program, and require a dense helper or macro to repay its extra comprehension cost through substantial repeated use.",
+          "line_ranges": [
+            "92-100",
+            "114-124"
+          ]
+        },
+        {
+          "canonical_theme": "technical-leverage-and-productivity",
+          "claim": "Use conceptual compression to let engineers express and reason about more with fewer parts, then seek field evidence that the smaller system improves delivery and defect rates.",
+          "line_ranges": [
+            "30-56",
+            "60-74"
+          ]
+        },
+        {
+          "canonical_theme": "technology-selection",
+          "claim": "Compare tools on substantial, open-ended field projects that require discovering the problem; short predefined benchmarks can be precise while missing the leverage that matters in exploratory work.",
+          "line_ranges": [
+            "60-74"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "017",
+      "reviewer": "engineering-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "architecture-and-technical-fit",
+          "claim": "Classify the work by problem difficulty, control of the whole system, dependency on existing libraries, and realistic team size before choosing a technical foundation; advanced tools fit demanding owned systems better than routine glue or constrained client environments.",
+          "line_ranges": [
+            "114-120",
+            "126-138"
+          ]
+        },
+        {
+          "canonical_theme": "technical-leverage-and-productivity",
+          "claim": "Seek leverage by expressing the domain with larger, bottom-up abstractions that reduce the conceptual program size; the payoff compounds on harder work because shorter systems take less time to build and remain within a small team's cognitive reach.",
+          "line_ranges": [
+            "148-166"
+          ]
+        },
+        {
+          "canonical_theme": "technology-selection",
+          "claim": "Choose a nonstandard tool only when its specific product advantage exceeds interoperability, library, and hiring costs; do not select an orthodox stack merely to reassure investors or acquirers when that choice removes the capability users value.",
+          "line_ranges": [
+            "114-144"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "018",
+      "reviewer": "engineering-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "adversarial-system-robustness",
+          "claim": "Make an adaptive defense learn from each user's corrections, assume the attacker knows the method, and preserve variation across defenses so the attacker cannot cheaply optimize against one static universal target.",
+          "line_ranges": [
+            "62-66",
+            "76-80",
+            "100-100"
+          ]
+        },
+        {
+          "canonical_theme": "architecture-and-technical-fit",
+          "claim": "For a classification system with asymmetric error costs, prefer an architecture that learns from labeled positive and negative corpora, combines evidence under a measurable rule, and explicitly biases the decision boundary against the more harmful error instead of accumulating hand-written feature rules.",
+          "line_ranges": [
+            "20-34",
+            "38-60"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "020",
+      "reviewer": "engineering-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "adversarial-system-robustness",
+          "claim": "When adversarial-system results diverge, audit sample size, omitted structure, representation, scoring, and error asymmetry before rejecting the method; inspect actual failures as separate bug and optimization queues, then personalize defenses to lengthen the attacker's test-and-tune loop.",
+          "line_ranges": [
+            "18-34",
+            "138-146",
+            "158-166"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "022",
+      "reviewer": "engineering-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "abstraction-and-composability",
+          "claim": "Keep the irreducible core small, separate semantic meaning from performance-specific representation, and push reusable domain behavior into layers that each serve as a compact language for the layer above.",
+          "line_ranges": [
+            "36-44",
+            "68-88",
+            "102-108"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "023",
+      "reviewer": "engineering-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "software-quality-and-simplicity",
+          "claim": "Do not treat immediate familiarity or popularity as evidence of software quality; investigate whether apparent difficulty comes from unfamiliar notation and judge the tool's intrinsic behavior separately from its adoption level.",
+          "line_ranges": [
+            "22-34"
+          ]
+        },
+        {
+          "canonical_theme": "technology-selection",
+          "claim": "Treat popularity as a real ecosystem input because it compounds through libraries, interoperability, and hiring supply, but do not mistake those network effects or managerial replaceability for proof that competing tools are technically equivalent.",
+          "line_ranges": [
+            "28-34"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "024",
+      "reviewer": "engineering-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "code-structure-and-ownership",
+          "claim": "Avoid ownerless shared code that accumulates neglect: divide the system into sharply bounded modules, give each module a definite owner, and design the interfaces between owners as carefully as a language boundary.",
+          "line_ranges": [
+            "132-136"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "025",
+      "reviewer": "engineering-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "adversarial-system-robustness",
+          "claim": "Treat this 2003 traffic-amplifying countermeasure as a historical hypothesis, not a deployable control: its suspect-only targeting, human-vetted lists, user-controlled intensity, evidence-scaled load, and multiple lists show why any modern adaptation needs independent authorization, collateral-effect, abuse-resistance, and effectiveness validation.",
+          "line_ranges": [
+            "12-30",
+            "38-46"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "027",
+      "reviewer": "engineering-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "technology-selection",
+          "claim": "Preserve lawful, sandboxed freedom to inspect and modify current technologies before narrowing the team's choices, because close technical examination often generates the next approach; distinguish productive curiosity from performative rule-breaking that slows innovation.",
+          "line_ranges": [
+            "24-28",
+            "30-38"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "028",
+      "reviewer": "engineering-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "technical-leverage-and-productivity",
+          "claim": "Use a small accountable team to develop a repeatable technique whose value multiplies across users; choose hard technical ground only when it serves a valuable capability and creates a defensible execution gap, not because difficulty alone is impressive.",
+          "line_ranges": [
+            "132-142",
+            "166-188"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "029",
+      "reviewer": "engineering-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "technical-leverage-and-productivity",
+          "claim": "Assess engineering productivity by valuable output rather than effort: technology multiplies the capability of people who master it, and concentrated judgment can outperform a much larger committee when the work does not scale linearly.",
+          "line_ranges": [
+            "40-48",
+            "84-90",
+            "162-166"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "031",
+      "reviewer": "engineering-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "technology-selection",
+          "claim": "Evaluate a language by the concepts it gives the team and by the code-reading experience it creates, not merely by adoption or career utility; voluntary mastery of an uncommon tool may also change the recruiting pool, but that hiring inference belongs to the organization workflow.",
+          "line_ranges": [
+            "14-24"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "033",
+      "reviewer": "engineering-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "technical-leverage-and-productivity",
+          "claim": "Treat technology as a multiplier on individual output and keep the technical group deliberately small when added coordination friction would cost more productivity than another hire contributes.",
+          "line_ranges": [
+            "136-144"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "037",
+      "reviewer": "engineering-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "architecture-and-technical-fit",
+          "claim": "Match the development method to the medium: malleable software can use a fast prototype to correct the initial design, while physical products impose constraints that demand earlier attention to craft and detail.",
+          "line_ranges": [
+            "22-32"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "069",
+      "reviewer": "engineering-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "technology-selection",
+          "claim": "Treat a platform as both support and constraint: have technically capable builders benchmark the product's real scaling and operational requirements before committing, instead of choosing the conventionally respectable option; the essay's named 1990s platforms are historical examples, not current recommendations.",
+          "line_ranges": [
+            "78-88"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "080",
+      "reviewer": "engineering-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "architecture-and-technical-fit",
+          "claim": "At the exploratory start of a complex program, optimize architecture for a coherent mental model: begin with a subset prototype, use succinct layered primitives to hide understood lower levels, and keep rewriting until the design is easy to reload and change.",
+          "line_ranges": [
+            "12-18",
+            "36-44",
+            "57-57"
+          ]
+        },
+        {
+          "canonical_theme": "code-structure-and-ownership",
+          "claim": "Preserve integrated redesign by avoiding shared authorship of the same code surface; when several programmers are necessary, divide the system into components and give each component a definite owner.",
+          "line_ranges": [
+            "46-55"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "083",
+      "reviewer": "engineering-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "abstraction-and-composability",
+          "claim": "When an abstract design argument stalls, check whether fuzzy terms or an incomplete partition created the dispute; build upward from a useful specific case and increase generality only while the abstraction still changes a concrete action.",
+          "line_ranges": [
+            "30-40",
+            "104-130"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "086",
+      "reviewer": "engineering-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "software-quality-and-simplicity",
+          "claim": "Prefer the simple solution to the real problem over complexity added to look substantial, corporate, or technically impressive; simplicity is earned by identifying what actually matters, not by omitting required behavior or safety.",
+          "line_ranges": [
+            "28-30",
+            "34-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "108",
+      "reviewer": "engineering-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "architecture-and-technical-fit",
+          "claim": "Evaluate a platform transition through openness to outside builders, the changing capability and cost curve, and dominant user behavior; design for the new medium's constraints instead of preserving legacy synchronization, locality, or gatekeeping assumptions, and revalidate the essay's 2009 examples before acting.",
+          "line_ranges": [
+            "14-28",
+            "32-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "engineering-for-leverage",
+      "article_no": "208",
+      "reviewer": "engineering-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "technology-selection",
+          "claim": "Expand the technical option set by studying a capable but unusual language's differences from the common intersection of popular tools and asking what it expresses that would be impractical elsewhere; this is discovery evidence, not by itself a production-stack decision.",
+          "line_ranges": [
+            "16-22"
+          ]
+        }
+      ]
+    }
+  ]
+}

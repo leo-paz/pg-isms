@@ -1,0 +1,10 @@
+Case ID: scenario-05
+Reviewer ID: engineering-baseline-001
+
+Give one payroll correctness team end-to-end ownership from webhook receipt through calculation, transfer intent, reconciliation, and incident response. A named release owner should control the first rollout, while security reviews signature verification and the bank integration owner reviews provider-specific semantics. Do not divide responsibility by technical layer when the safety property spans the whole flow.
+
+Build ingestion as a durable, replayable boundary. Verify signatures and source constraints before accepting an event; validate and version the envelope; persist the raw event and receipt metadata before acknowledging it; deduplicate on a provider event key plus an internal idempotency key; and preserve both provider time and receipt time. Route malformed, unverifiable, or unprocessable events to a quarantined queue with alerts. Process accepted events through explicit account-level state transitions that tolerate delay and reordering, and make every downstream calculation and transfer-intent write idempotent. Use transactions or an outbox where state and queued work must advance together, and reconcile internal state against provider and bank records.
+
+Before live money movement, test a fault matrix covering duplicates, reordering, long delays, forged signatures, malformed payloads, worker crashes at every durable step, replay, provider outages, and reconciliation mismatches. Then shadow-ingest real partner traffic without creating transfers and compare derived results with fixtures, partner reports, and the current trusted process.
+
+Enable the first live employer only after shadow results reconcile exactly for an agreed period. Start with a small, known cohort under explicit transfer limits, dual approval or manual review of computed transfer batches, real-time alerts, a kill switch, and a documented rollback and recovery drill. Increase volume only after each batch independently reconciles; never use unverified payroll transfers as the experiment for discovering ingestion correctness.

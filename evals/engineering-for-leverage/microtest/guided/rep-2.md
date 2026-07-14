@@ -1,0 +1,71 @@
+# 30-day technical decision
+
+## Decision record
+
+**Context.** This is an eight-person, early enterprise-integration company with three paying customers. Real payment and eight months of live use are meaningful evidence for the existing ingestion semantics; two unsigned sales leads are not evidence for a five-carrier platform. The third signed carrier and its six-week date are the binding delivery constraint. The reported four-second p95 at a projected 40x load is a warning, not yet a diagnosis, because throughput, backlog, recovery, ordering, and operability were not measured.
+
+Assumptions to confirm on day 1: the company is not default-dead in the next six weeks; the two-second contract measures receipt-to-customer-visible durable processing rather than HTTP acknowledgement; carrier agreements permit the proposed payload retention and replay; and the current monolith can be deployed and rolled back independently of a carrier rollout. If the survival assumption is false, preserving the signed launch and revenue takes precedence over architecture work.
+
+**Decision.** For the next 30 days, retain Python, Postgres, and one deployable monolith. Harden the ingestion path, extract only a narrow in-process carrier adapter, and build the third connector against it. Do not introduce Rust, Kafka, a runtime plugin framework, or per-connector microservices during this window. This is the smallest reversible change that protects the six-week launch while testing the only demonstrated technical concern.
+
+The familiar baseline has mature libraries, team proficiency, one deployment and debugging model, existing observability and security practices, no new procurement, and low migration and hiring cost. Rust might remove a measured CPU bottleneck, Kafka might remove a measured durable-buffering or replay limit, and connector services might remove a measured independent scaling or release bottleneck. None of those predecessor limitations has been demonstrated. Today they instead add language proficiency, build and hiring costs; broker procurement, schema and partition operations, and vendor/exit work; or network failures, distributed tracing, extra deployments, and cross-service invariant coordination. A universal plugin framework also solves hypothetical untrusted or independently installed extensions, not the three known connectors.
+
+**Falsifiable leverage claim.** The proposed work should support the projected 40x representative load with p95 contract latency at or below 1.5 seconds, zero lost or incorrectly reordered events, deterministic recovery, and one-team operability, while keeping the third connector on its six-week path. The 1.5-second engineering threshold leaves headroom below the two-second contract; changing the definition of latency is not a valid pass.
+
+The alternatives remain explicit:
+
+- Keep the hardened baseline if it passes all runtime gates in three repeat runs.
+- Add a queue behind the existing queue port only if the baseline fails because Postgres cannot provide bounded buffering, partitioned ordering, or recovery after query/index/transaction and worker tuning. Compare a managed Kafka service with a simpler managed queue on measured recovery and ordering needs, including security review, procurement lead time, on-call burden, migration, monthly cost, and an export/replay exit path.
+- Prototype Rust only for an isolated parser or processor if profiles show CPU consumes at least 50% of the end-to-end budget and an optimized Python implementation still misses the gate. The Rust candidate must use the same fixtures and envelope and show enough end-to-end gain to repay a second toolchain and operational model; a faster microbenchmark alone does not qualify.
+- Reconsider connector services only after production evidence shows independent deployment or scaling is repeatedly blocked: for example, two release delays or incidents in a quarter caused by connector coupling. A single load-test failure is not that evidence.
+
+The technical decision owner records measurements and the choice on July 22, 2026. The architecture is reviewed again on August 12 after release rehearsal, and on September 8 after the third carrier has real traffic. Raw envelopes, the adapter contract, and a queue-neutral worker boundary preserve the ability to change the execution engine without committing to it now.
+
+## Target architecture and invariants
+
+Keep a modular ingestion path inside the monolith:
+
+1. A carrier-specific edge adapter authenticates the webhook, validates size and schema, identifies the tenant, and emits a canonical envelope. The interface is deliberately small: `verify`, `dedupe_key`, `order_key`, `sequence_or_time`, and `normalize`. It has no plugin discovery, dynamic loading, connector lifecycle, or connector-owned persistence.
+2. In one short Postgres transaction, the ingress path stores the immutable raw envelope, payload hash, tenant/carrier identity, receive time, deduplication key, processing status, and an append-only audit entry. A unique constraint on `(tenant, carrier, dedupe_key)` makes duplicate receipt harmless. The HTTP response is sent only after this durable commit.
+3. Python workers claim only the head event for an ordering key, process it, and commit the state transition, audit record, and any outbound action to a transactional outbox. Parallelism is across ordering keys, never within one key. The carrier-specific ordering guarantee must be documented; when a carrier supplies no authoritative sequence, arrival order is not mislabeled as source order and scheduled reconciliation is the correctness backstop.
+4. Bounded retries use jitter and an attempt budget. Exhausted, malformed, hash-conflicting, or sequence-gap events enter a quarantine queue with a reason, dashboard, and human replay procedure rather than disappearing. The raw envelope plus versioned normalizer permits deterministic replay. A reconciliation job compares carrier-authoritative state with local state after interruption or gaps.
+5. Partition or index the receipt and audit tables only when the measured query plan and retention volume require it. Put retention, redaction, capacity alarms, and cleanup under the same operational contract.
+
+The protected outcome is that no external sender can lose, duplicate, reorder, forge, or cross-tenant-mutate a broker's load state. The webhook edge is a trust boundary: require carrier signatures and replay windows, constant-time verification, secret rotation, payload and rate limits, least-privilege credentials, tenant-scoped queries, encryption, and redacted logs. Test ordinary retries as well as invalid signatures, stale replays, duplicate floods, oversized or malformed payloads, sequence gaps, and a duplicate key with a different payload hash. Alert on auth failures, hash conflicts, quarantine growth, lag, reconciliation drift, and unusual per-carrier volume. Security/privacy review must confirm payload retention, secrets, tenant isolation, and carrier obligations before exposure. Quarantined corrections that could change customer state require human confirmation and leave an audit entry.
+
+The repeated abstraction is the stable normalization boundary, not an imagined carrier platform. Shared ordering, idempotency, audit, retry, replay, and reconciliation remain one implementation with one owner. Each adapter must pass common conformance fixtures for authentication failure, canonical fields, deduplication, ordering metadata, malformed input, and replay. Carrier-specific fixtures cover documented quirks. Migrate the two live connectors one at a time behind a flag with byte-for-byte canonical-envelope comparison; on mismatch, route that carrier to its old handler. Build carrier three only after this comparison works.
+
+Retreat from the adapter if adding carrier three requires repeated connector conditionals in the shared pipeline, changes the interface for carrier-specific policy, or increases concepts and call sites without deleting equivalent duplication. In that case, keep explicit connector code and share only the proven primitives. Conversely, separate a component later only if measured change frequency, scaling, or incidents show a clean data seam and an end-to-end owner can test, deploy, operate, and roll it back.
+
+## Representative evaluation and precommitted branches
+
+By day 3, freeze a redacted workload from the two live carriers: their real payload-size distribution, tenant and ordering-key skew, duplicate and retry rates, and slowest normalizations. Add the third carrier's signed specification and sandbox fixtures. The harness must measure receipt-to-durable-commit and receipt-to-customer-visible processing separately while reporting the contract metric unchanged.
+
+Run sustained 40x projected traffic for 60 minutes, an 80x ten-minute burst, and a hot-key case. During load, inject duplicate and out-of-order delivery, worker termination, deploy/restart, database connection loss, downstream timeout, poison payloads, and a database failover or the closest staging equivalent. Then replay the same envelopes and reconcile against a deterministic expected ledger.
+
+A candidate passes only if all three repeat runs meet every gate:
+
+- contract p95 at or below 1.5 seconds and p99 at or below 2 seconds at sustained 40x;
+- no growing backlog at 40x, and the 80x burst backlog drains within 10 minutes without manual data repair;
+- zero loss, duplicate side effects, cross-tenant mutations, or per-key ordering violations;
+- restart/failover resumes within 60 seconds, and replay plus reconciliation produces the expected final state and complete audit chain;
+- an on-call engineer using only the dashboard and runbook can identify a poisoned event within 10 minutes, quarantine/replay it, and complete rollback within 15 minutes;
+- database CPU, connections, locks, storage growth, and outbox lag retain documented headroom and do not depend on one person's workstation knowledge.
+
+If query plans, indexes, transaction length, batching, or safe worker concurrency make the familiar baseline pass, stop. If it still fails, the evidence must name the limiting resource. A buffering/recovery limit triggers the queue comparison; a CPU profile triggers the narrow Rust comparison; lock contention triggers data-access and partitioning experiments before a new language. No branch proceeds merely because its technology is preferred.
+
+## Thirty-day execution, ownership, and handoff
+
+**July 14-16 (days 1-3): instrument and freeze the decision.** The ingestion DRI defines the contract clock with product/support, captures the representative workload, adds lag, queue-depth, ordering, dedupe, reconciliation, database, and per-carrier dashboards, and writes the decision record. The database owner reviews schema, queries, capacity, backup/failover, and retention. The security reviewer documents the webhook trust boundary and current review requirements. Product/release confirms that existing customer-visible commitments remain unchanged.
+
+**July 17-22 (days 4-9): establish evidence and choose.** Run the baseline and fault tests before optimization, profile the four-second result, make bounded Python/Postgres changes, and repeat the tests. On July 22, publish pass/fail measurements and take only the precommitted branch above. Reserve delivery capacity for carrier three; architecture investigation cannot consume its connector owner.
+
+**July 23-August 2 (days 10-20): implement the smallest passing design.** The ingestion DRI and backup implement the canonical envelope, durable receipt, ordering-key worker, transactional outbox, quarantine, replay, and reconciliation. One live connector owner migrates carrier one behind comparison mode, then carrier two only after carrier one passes. The third-connector owner builds its adapter and sandbox suite in parallel against the frozen interface. Every migration is behavior-preserving and flag-reversible.
+
+**August 3-7 (days 21-25): assure the release.** Run all conformance, load, hostile-input, interruption, replay, and operability tests in a production-like environment. Complete security/privacy review and a backup/on-call game day. Send support the dashboard definitions, known failure modes, quarantine and reconciliation procedure, customer-safe status language, and escalation contacts.
+
+**August 8-12 (days 26-30): rehearse and hand off.** Rehearse deploy, flag enablement, rollback, and data reconciliation with the release owner and support. The August 12 review signs the measured gate sheet and leaves two weeks for a sandbox/shadow soak and a controlled week-six launch. Existing connectors stay on their old path until their comparison gate passes; carrier three is enabled by tenant/carrier flag, not by a monolith-wide cutover.
+
+These are code and incident boundaries, not a reporting reorganization. One ingestion DRI with a named backup owns the envelope through durable processing, common invariant tests, dashboards, runbooks, and ingestion incidents. Adapter owners own carrier authentication, mapping, fixtures, and carrier escalation, but cannot fork shared invariants. The database owner owns capacity, migrations, backups, and failover exercises. The product/release DRI owns customer exposure, rollout monitoring, support coordination, and the go/no-go decision; engineering owns the technical flag, rollback, replay, and reconciliation. Support owns customer communication and joins the rehearsal, but does not diagnose raw database state.
+
+For the week-six launch, start with the signed carrier's sandbox/shadow traffic, then one allowlisted broker or the smallest agreed slice, then increase exposure only after a full business cycle with latency, lag, auth, quarantine, and reconciliation green. Automatically stop expansion on p95 above two seconds for 10 minutes, any confirmed loss/duplicate side effect/ordering breach, unexplained reconciliation drift, audit gaps, or sustained quarantine growth. Disable the carrier flag, retain raw receipts, replay only after the fault is understood, and have the release DRI coordinate customer remediation. A failed safety gate is escalated as a customer commitment decision; it is never hidden by redefining the metric or bypassing the gate.

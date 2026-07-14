@@ -1,0 +1,4 @@
+interface:
+  display_name: "Engineering for Leverage"
+  short_description: "Choose technical foundations for startup leverage"
+  default_prompt: "Use $engineering-for-leverage to choose a simple, high-leverage technical foundation with explicit evidence and ownership."

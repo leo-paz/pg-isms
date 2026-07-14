@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "skill_name": "engineering-for-leverage",
+  "cases": [
+    {
+      "id": "scenario-01",
+      "type": "trigger",
+      "prompt": "Two founders are choosing the technical foundation for a real-time collaboration product. They both know TypeScript and Postgres. A niche actor-oriented runtime might make the product's target of 50,000 persistent connections and sub-100 ms fanout easier, but neither founder has operated it in production, its hiring pool and managed ecosystem are smaller, and the familiar prototype has only been tested to 5,000 connections. Make the architecture decision and define what evidence should change it.",
+      "criteria": [
+        "Makes engineering-for-leverage primary and translates the product constraint into a written, measurable technical decision rather than choosing by fashion or familiarity alone.",
+        "Compares a capable familiar design with the niche option on the representative workload, including latency, throughput, failure recovery, and operability rather than a toy benchmark.",
+        "Uses a bounded time-boxed spike with precommitted thresholds, a decision date, a fallback or portability seam, and an explicit branch for each result.",
+        "Counts team proficiency, debugging, hiring, libraries, deployment, observability, maintenance, and switching cost, choosing the niche tool only if specific durable product leverage exceeds those costs.",
+        "Keeps the internal technology choice with engineering and hands a later user-visible artifact, exposure, or rollout experiment to shipping-and-iterating-products instead of treating technical novelty as product evidence."
+      ]
+    },
+    {
+      "id": "scenario-02",
+      "type": "condition",
+      "prompt": "A billing system has two provider connectors that have used the same retry, idempotency, and audit protocol for nine months. A third confirmed provider needs that protocol next quarter, but its authentication and settlement details differ. A fourth provider is only a sales possibility. An engineer proposes pausing delivery to build a universal plugin framework for every future provider. Decide what to abstract now, what to keep concrete, and when to revisit.",
+      "criteria": [
+        "Recognizes the repeated stable protocol as a possible abstraction while rejecting a universal framework based on hypothetical providers.",
+        "Extracts the smallest clear primitive or interface around the stable retry, idempotency, and audit behavior while leaving provider-specific authentication and settlement concrete.",
+        "Requires conformance tests, explicit invariants, one accountable owner, and a migration that preserves current behavior rather than relying on an elegant diagram.",
+        "States observable abstraction gates such as repeated change, stable vocabulary, reduced duplication or coordination, and simpler call sites, plus a removal or retreat path if complexity rises.",
+        "Protects current delivery and names a dated revisit after the third real connector supplies evidence, without designing for the uncommitted fourth provider."
+      ]
+    },
+    {
+      "id": "scenario-03",
+      "type": "non-trigger",
+      "prompt": "A team has approved a small user-visible saved-search filter. The stack, module boundaries, data model, and code owner are settled; implementation is routine, and the remaining work is to release it behind a flag to a customer cohort and measure repeated use. Name the primary workflow and describe the limited role, if any, for engineering-for-leverage.",
+      "criteria": [
+        "Does not make engineering-for-leverage primary when there is no technology, architecture, abstraction, complexity, or ownership decision.",
+        "Routes the user-visible artifact, cohort exposure, behavior evidence, and rollout decision to shipping-and-iterating-products.",
+        "Keeps routine implementation, tests, and technical rollback with the existing engineering owner without inventing an architecture project.",
+        "Names a concrete transfer back to engineering-for-leverage only if implementation exposes a binding structural, technology, robustness, or ownership constraint.",
+        "Avoids generic co-ownership and preserves one primary workflow with an ordered handoff."
+      ]
+    },
+    {
+      "id": "scenario-04",
+      "type": "application",
+      "prompt": "A startup has grown to twelve engineers. Checkout, entitlements, invoicing, and lifecycle email share a monolith and three squads regularly edit the same files. Production incidents bounce between squads because each owns a layer but no one owns an end-to-end customer outcome. The CTO wants to split everything into microservices immediately. Redesign the technical ownership and decomposition plan.",
+      "criteria": [
+        "Diagnoses change coupling, unclear end-to-end ownership, shared invariants, and coordination cost before prescribing service boundaries.",
+        "Maps product or data seams and change frequency, then assigns a named owner who can understand, test, operate, and change each coherent end-to-end surface.",
+        "Uses explicit interfaces, invariants, tests, incident responsibility, and a decision log so shared code has accountable ownership rather than layer-based ambiguity.",
+        "Avoids a reflexive full microservice rewrite and makes the smallest reversible boundary or ownership change that can reduce conflicts while preserving product delivery.",
+        "Precommits a review date and measures lead time, cross-team handoffs, conflicting changes, incidents, and recovery to decide whether to keep, redraw, or further separate a boundary."
+      ]
+    },
+    {
+      "id": "scenario-05",
+      "type": "edge",
+      "prompt": "A payroll product ingests employer and bank webhooks before calculating transfers. In testing, partners send duplicate, delayed, reordered, malformed, and occasionally forged events; outages can also interrupt processing midway. Authorization policy is settled, but the internal ingestion design and the first live rollout are not. Assign workflow ownership and propose a technical and release sequence that does not experiment unsafely with payroll funds.",
+      "criteria": [
+        "Makes engineering-for-leverage primary for the internal ingestion architecture and states trust-boundary, authorization, ordering, idempotency, audit, and recovery invariants before choosing components.",
+        "Models adversarial and ordinary failures, validates untrusted input, limits privilege and blast radius, and provides deterministic replay, reconciliation, and interruption recovery rather than relying on the happy path.",
+        "Builds the simplest testable design that meets those invariants, assigns code and incident ownership, and uses simulation, fault injection, and representative replay with precommitted pass or redesign thresholds.",
+        "Treats money movement as high harm, requiring current security, privacy, legal or compliance review and shadow or sandbox assurance before any bounded live exposure.",
+        "Orders composition explicitly: engineering owns machinery and technical rollback; shipping-and-iterating-products owns user-affecting exposure, monitoring, support, rollback gates, incident response, and restitution before broader rollout."
+      ]
+    }
+  ]
+}

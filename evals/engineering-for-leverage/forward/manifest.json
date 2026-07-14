@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "skill_name": "engineering-for-leverage",
+  "phase": "forward",
+  "reviewer_id": "engineering-forward-001",
+  "canonical_agent_task": "/root/engineering_forward_001",
+  "generated_at": "2026-07-14T17:11:20Z",
+  "model_identity": "OpenAI Codex (GPT-5)",
+  "dispatch_prompt": "Use the frozen engineering-for-leverage skill to answer each supplied scenario without evaluation criteria or prior outputs.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "cases_sha256": "8b57b50bc78649fac772fb3231373cc04b73926db43bd5f26bfae7701078979a",
+  "criteria_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "0caf290e03e05e10d7f83b10522e37930deea13f74b7b18d7ccc242be142cbb2"
+  },
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "scenario-01": "8657ad393f73f8cb91173b13ef129df2146e87b82904f01185016afe50979ede",
+    "scenario-02": "8aceccbd242a6bb5e3625cac3222e2a0a029de3af3cbc7cdef04f562db8e80eb",
+    "scenario-03": "392e881813d8f1839851413a218204f40fa16aa926553d0b588fc788dbc50225",
+    "scenario-04": "b5cc287d664e620359705a0d528b4c8707e5b15db30c03b3cf650298600efbd0",
+    "scenario-05": "a25759f9abe6615c50ab39589dd675232a1d727d08725b91124322cbf3c494fd"
+  }
+}

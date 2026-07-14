@@ -728,3 +728,62 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
   skills sequentially beginning with `engineering-for-leverage`; finish the
   cross-skill final review, README catalog, and clean/pushed repository-wide gate.
 - Blockers: none.
+
+## Checkpoint 4 skill 6 verified: `engineering-for-leverage`
+
+- RED froze five no-skill cases before package initialization: a familiar versus
+  unusual runtime choice, stable versus speculative abstraction, a routine shipping
+  non-trigger, coupled code ownership, and high-harm adversarial ingestion. The
+  independent baseline is `3/25` (`0.12`).
+- Three non-overlapping source agents read all `29` assigned essays in full and used
+  both BM25 and semantic QMD retrieval. Their exact combined evidence contains `29`
+  essay records, `47` essay-theme pairs, and `71` audit-contained range occurrences
+  across all `7` owned themes. Generated provenance is byte-current with no gaps,
+  extras, or duplicate pairs.
+- The official initializer created the package. Repeated source, routing, and
+  behavior reviews tightened the global survival and current-condition gates,
+  growth handoff, representative workload, abstraction migration, end-to-end
+  ownership, and high-harm assurance contract. The final `SKILL.md` is exactly
+  `500` words with SHA-256
+  `0caf290e03e05e10d7f83b10522e37930deea13f74b7b18d7ccc242be142cbb2`;
+  official validation and regenerated `agents/openai.yaml` pass.
+- Five blind no-skill microtest controls scored `[0, 0, 0, 0, 0]` (`0.00`). Five
+  distinct final-hash guided contexts scored `[4, 3, 3, 5, 4]` (`0.76`), a `+0.76`
+  normalized improvement. An independent audit reproduced all criterion vectors,
+  means, population variances, prompt and response hashes, and ten unique tasks.
+- The blind forward run is canonically `23/25` (`0.92`), improving `+0.80` over
+  baseline. A first scorer had already announced `22/25` before a schema search
+  exposed the baseline; its files are preserved as contaminated evidence and are
+  not canonical. A path-restricted replacement scorer read no baseline or earlier
+  scores and retained two explicit misses: a shipping handoff and a decision log.
+- The first post-freeze warehouse-robot held-out attempt scored `3/5` FAIL and also
+  exposed trailing whitespace in its frozen response; the complete attempt remains
+  preserved. A genuinely new enterprise factory-edge case then used distinct
+  author, generator, and scorer contexts and scored `5/5` PASS with exact prompt,
+  criteria, case, skill, and response hashes.
+- Final fresh-context source and evaluation audits report `0` Critical and `0`
+  Important findings and `Ready to commit: Yes`. One nonblocking Minor records that
+  non-held-out scorer provenance is stable-ID-bound rather than absolute-task-bound.
+  The source audit independently reports `0` normalized 20/30/40-token matches; the
+  longest source overlap is a seven-token essay title.
+- Verification:
+
+  ```text
+  Skill is valid!
+  skill provenance check: essays=29 themes=7
+  taxonomy validation passed: corpus_files=223 classified=223 relevant_essays=209 uncovered_relevant=0 orphan_skills=0
+  baseline normalized_score=0.12; forward normalized_score=0.92; delta=0.80
+  microtest control=0/25; guided=19/25; normalized_delta=0.76
+  heldout enterprise-factory-edge-foundation=5/5 PASS
+  preserved heldout warehouse-robot-production-control-foundation=3/5 FAIL
+  python3 -m unittest discover -s tests -v
+  Ran 120 tests
+  OK
+  copyright scan: normalized 40-token corpus matches=0
+  git diff --check: passed
+  ```
+
+- Remaining work: publish this verified milestone, then build the remaining `15`
+  skills sequentially beginning with `acquiring-and-growing-users`; finish the
+  cross-skill final review, README catalog, and clean/pushed repository-wide gate.
+- Blockers: none.

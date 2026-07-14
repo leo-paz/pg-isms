@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "skill_name": "engineering-for-leverage",
+  "prompt": "An eight-person logistics SaaS has three paying freight brokers. Its Python/Postgres monolith ingests carrier webhooks. The two live carrier connectors have shared ordering, idempotency, and audit behavior for eight months; a third signed carrier must launch in six weeks, while two more carriers are only sales leads. At projected 40x volume, one load test shows p95 ingestion delay of four seconds against a two-second contract, but no throughput, recovery, reordering, or operability test has run. The team knows the current stack. The CTO proposes Rust plus Kafka, a universal plugin framework, and microservices by connector. Support wants current customer-visible rollout commitments unchanged. Produce a 30-day technical decision, architecture, abstraction, ownership, and release-handoff plan.",
+  "criteria": [
+    "Makes engineering-for-leverage primary for the binding internal structure decision, records company/product state and the measured constraint, and keeps the later user-visible artifact and exposure with shipping-and-iterating-products.",
+    "Compares a capable familiar design with Rust/Kafka on a bounded representative latency, throughput, recovery, reordering, and operability workload, with lifecycle costs, precommitted thresholds, a decision date, branches including neither candidate passing, a portability/fallback seam, and current-condition revalidation.",
+    "Abstracts only the stable ordering, idempotency, and audit protocol needed by the confirmed third connector; keeps provider-specific and speculative sales-lead behavior concrete; and requires conformance/invariant tests, behavior-preserving migration, fallback, and a retreat condition.",
+    "Maps seams, shared invariants, and change frequency before assigning an end-to-end owner able to test, operate, and change the surface; makes the smallest reversible boundary change; preserves delivery; and sets a dated review using lead time, handoffs, conflicts, incidents, and recovery.",
+    "Defines authorization, ordering, idempotency, audit, and recovery invariants; validates hostile and ordinary webhook failures with simulation, fault injection, and representative replay against pass/redesign thresholds; separates engineering machinery and technical rollback from shipping exposure, monitoring, support, rollback gates, and incident response."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "skill_name": "engineering-for-leverage",
+  "case_id": "enterprise-factory-edge-foundation",
+  "authored_by": "/root/engineering_heldout_author_002",
+  "authored_at": "2026-07-14T17:21:11Z",
+  "heldout_after_skill_sha256": "0caf290e03e05e10d7f83b10522e37930deea13f74b7b18d7ccc242be142cbb2",
+  "prompt": "A startup provides production-optimization software to large manufacturers. Its cloud-only prototype works on synthetic data. The first contracted design partner will allow a limited staging-line deployment, but production plants have intermittent connectivity, strict data residency, quarterly maintenance windows, and a six-month security and procurement process. The team is fluent in Docker and Postgres. The CTO wants to commit four engineers for five months to a Kubernetes-based edge control plane and custom synchronization layer that might serve future factories, while a single-node on-premises package with a narrow cloud bridge could support the first deployment. A second prospect has expressed interest but has offered no systems access. Write a decision memo choosing the technical foundation and specifying what evidence would justify keeping, expanding, or reversing the choice.",
+  "criteria": [
+    "Treats this as an enterprise/integration technical-foundation decision owned first by engineering-for-leverage, records or labels assumptions about company, product, and survival state plus the binding constraint and evidence latency, and does not count the synthetic prototype or access-free second prospect as deployed field evidence.",
+    "Compares the capable familiar single-node baseline with the edge-platform candidate on a bounded representative workload that includes intermittent operation, synchronization, recovery, and operability, while counting proficiency, deployment, observability, maintenance, migration, supportability, customer-stack fit, and vendor or exit costs.",
+    "Chooses the smallest reversible foundation that can reach the first field deployment, preserving a portability seam toward a fleet control plane, and expands to the Kubernetes-based design only if measured product-specific leverage exceeds its ecosystem and lifecycle costs.",
+    "Defines a staging-line evidence plan with an accountable owner, decision date, precommitted pass and redesign thresholds, explicit branches for each result, a fallback, and a dated review based on deployed workflow and integration evidence rather than a lab spike alone.",
+    "Requires workflow access and deployment evidence plus procurement, security, support, switching, and migration checks before production exposure, and orders ownership so engineering retains the internal foundation and technical fallback while shipping-and-iterating-products owns user-visible exposure, monitoring, support, and rollout rollback gates."
+  ],
+  "authoring_status": "post-freeze-held-out",
+  "prompt_avoids_skill_recipe": true
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "skill_name": "engineering-for-leverage",
+  "phase": "forward",
+  "reviewer_id": "engineering-forward-scorer-001",
+  "cases_sha256": "8b57b50bc78649fac772fb3231373cc04b73926db43bd5f26bfae7701078979a",
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "score": 3,
+      "max_score": 5,
+      "raw_output": "scenario-01.md",
+      "criteria_results": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "missed_criteria": [
+        1,
+        5
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "score": 5,
+      "max_score": 5,
+      "raw_output": "scenario-02.md",
+      "criteria_results": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "missed_criteria": []
+    },
+    {
+      "case_id": "scenario-03",
+      "score": 5,
+      "max_score": 5,
+      "raw_output": "scenario-03.md",
+      "criteria_results": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "missed_criteria": []
+    },
+    {
+      "case_id": "scenario-04",
+      "score": 4,
+      "max_score": 5,
+      "raw_output": "scenario-04.md",
+      "criteria_results": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "missed_criteria": [
+        3
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "score": 5,
+      "max_score": 5,
+      "raw_output": "scenario-05.md",
+      "criteria_results": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "missed_criteria": []
+    }
+  ],
+  "exact_misses": [
+    {
+      "case_id": "scenario-01",
+      "criteria": [
+        1,
+        5
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "criteria": [
+        3
+      ]
+    }
+  ],
+  "total_score": 22,
+  "total_max_score": 25,
+  "normalized_score": 0.88,
+  "forward_ready": true
+}

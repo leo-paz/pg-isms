@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "variant": "control",
+  "rep": 2,
+  "canonical_agent_task": "/root/engineering_micro_orchestrator/control_2",
+  "model_identity": "GPT-5",
+  "generated_at": "2026-07-14T16:56:57Z",
+  "prompt": "An eight-person logistics SaaS has three paying freight brokers. Its Python/Postgres monolith ingests carrier webhooks. The two live carrier connectors have shared ordering, idempotency, and audit behavior for eight months; a third signed carrier must launch in six weeks, while two more carriers are only sales leads. At projected 40x volume, one load test shows p95 ingestion delay of four seconds against a two-second contract, but no throughput, recovery, reordering, or operability test has run. The team knows the current stack. The CTO proposes Rust plus Kafka, a universal plugin framework, and microservices by connector. Support wants current customer-visible rollout commitments unchanged. Produce a 30-day technical decision, architecture, abstraction, ownership, and release-handoff plan.",
+  "skill_sha256": null,
+  "response_sha256": "4bb64d85b0c9bcd0f1ca6cacda1453031d9afc77c11d05ecace972817ff9b7c5"
+}

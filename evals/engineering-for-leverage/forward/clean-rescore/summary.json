@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "skill_name": "engineering-for-leverage",
+  "phase": "forward",
+  "review_type": "clean-rescore",
+  "reviewer_id": "engineering-forward-rescorer-002",
+  "generated_at": "2026-07-14T17:15:34Z",
+  "cases_sha256": "8b57b50bc78649fac772fb3231373cc04b73926db43bd5f26bfae7701078979a",
+  "skill_sha256": "0caf290e03e05e10d7f83b10522e37930deea13f74b7b18d7ccc242be142cbb2",
+  "criteria_results": [
+    {
+      "case_id": "scenario-01",
+      "criteria": [true, true, true, true, false],
+      "passed_criteria": 4,
+      "total_criteria": 5,
+      "normalized_score": 0.8
+    },
+    {
+      "case_id": "scenario-02",
+      "criteria": [true, true, true, true, true],
+      "passed_criteria": 5,
+      "total_criteria": 5,
+      "normalized_score": 1.0
+    },
+    {
+      "case_id": "scenario-03",
+      "criteria": [true, true, true, true, true],
+      "passed_criteria": 5,
+      "total_criteria": 5,
+      "normalized_score": 1.0
+    },
+    {
+      "case_id": "scenario-04",
+      "criteria": [true, true, false, true, true],
+      "passed_criteria": 4,
+      "total_criteria": 5,
+      "normalized_score": 0.8
+    },
+    {
+      "case_id": "scenario-05",
+      "criteria": [true, true, true, true, true],
+      "passed_criteria": 5,
+      "total_criteria": 5,
+      "normalized_score": 1.0
+    }
+  ],
+  "missed_criteria": [
+    {
+      "case_id": "scenario-01",
+      "criterion_index": 5,
+      "reason": "The response keeps the technical decision with engineering but does not hand a later user-visible artifact, exposure, or rollout experiment to shipping-and-iterating-products."
+    },
+    {
+      "case_id": "scenario-04",
+      "criterion_index": 3,
+      "reason": "The response includes interfaces, invariants, tests, and incident responsibility but never requires a decision log."
+    }
+  ],
+  "exact_misses": [
+    "scenario-01.5",
+    "scenario-04.3"
+  ],
+  "totals": {
+    "passed_criteria": 23,
+    "total_criteria": 25,
+    "missed_criteria": 2
+  },
+  "normalized_score": 0.92
+}

@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "skill_name": "engineering-for-leverage",
+  "phase": "baseline",
+  "reviewer_id": "engineering-baseline-001",
+  "cases_sha256": "8b57b50bc78649fac772fb3231373cc04b73926db43bd5f26bfae7701078979a",
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "score": 0,
+      "max_score": 5,
+      "raw_output": "scenario-01.md",
+      "criteria_results": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "missed_criteria": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "score": 2,
+      "max_score": 5,
+      "raw_output": "scenario-02.md",
+      "criteria_results": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "missed_criteria": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "score": 1,
+      "max_score": 5,
+      "raw_output": "scenario-03.md",
+      "criteria_results": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "missed_criteria": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "score": 0,
+      "max_score": 5,
+      "raw_output": "scenario-04.md",
+      "criteria_results": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "missed_criteria": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "score": 0,
+      "max_score": 5,
+      "raw_output": "scenario-05.md",
+      "criteria_results": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "missed_criteria": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "exact_misses": [
+    {
+      "case_id": "scenario-01",
+      "criteria": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "criteria": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "criteria": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "criteria": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "criteria": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "total_score": 3,
+  "total_max_score": 25,
+  "normalized_score": 0.12,
+  "baseline_ready": true
+}
