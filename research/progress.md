@@ -237,3 +237,12 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
 - The original batch reviewers corrected all eight findings without changing classifications. Targeted re-review approved the wave with `0` Critical, `0` Important, and `0` Minor findings.
 - Remaining work: finish/review batches `07-12`, assemble all `223` records, run the cumulative audit gate, and complete the cross-corpus overlap/gap review.
 - Blockers: none.
+
+## Checkpoint 2 progress: audit wave 3
+
+- Primary coverage: batches `batch-07` through `batch-09`, articles `115-169`, with `55` ordered records and complete per-batch retrieval/full-read proof.
+- Classification counts: `34` core startup, `18` supporting startup, `3` excluded.
+- Independent review found `6` Important and `1` Minor issue, all involving applicability, stage, product-type, adoption-friction, launch-risk, or fundraising-phase conditions; no classification changes were requested.
+- The batch reviewers corrected all seven findings. Targeted re-review approved the wave with `0` Critical, `0` Important, and `0` Minor findings and no new issues.
+- Remaining work: close wave `04`, assemble all `223` records, run the cumulative audit gate, and perform the independent cross-corpus overlap/gap review.
+- Blockers: none.
