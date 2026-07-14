@@ -1,0 +1,1315 @@
+{
+  "schema_version": 1,
+  "skill_name": "choosing-startup-opportunities",
+  "source_reviewers": [
+    "choosing-evidence-a",
+    "choosing-evidence-b",
+    "choosing-evidence-c"
+  ],
+  "records": [
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "014",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Separate the user's real problem from the first formulation: simplify until substance is exposed, then replace an intractable framing with an equivalent one that is easier to solve.",
+          "line_ranges": [
+            "54-72"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "015",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Compare proposed technologies by stating the concrete limitation each one removes, rather than beginning with feature lists or category labels.",
+          "line_ranges": [
+            "10-20"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "021",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "mission-and-user-benefit",
+          "claim": "Prefer work whose effects are real and externally testable; when a group lacks a substantive purpose, status competition can replace contribution as its organizing objective.",
+          "line_ranges": [
+            "98-104",
+            "158-166"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "029",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "mission-and-user-benefit",
+          "claim": "Treat an opportunity as wealth creation only when it produces goods or services people want; effort, money, and value delivered are distinct measures.",
+          "line_ranges": [
+            "22-38",
+            "162-166"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "030",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "A seemingly dull domain can become a strong opportunity when reframed around a more ambitious, learnable problem; avoid work dominated by unrelated little failures that teach no general pattern.",
+          "line_ranges": [
+            "74-80",
+            "90-96"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "033",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-timing-and-transitions",
+          "claim": "Distinguish a genuine transition from its fashionable literal interpretation: important shifts create indirect opportunities on either side of the headline technology, not only in products that resemble it most.",
+          "line_ranges": [
+            "42-50"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "038",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Productive questions emerge through accumulated experience: pursue short, finishable projects driven by genuine curiosity, and let each completed project reveal the next question.",
+          "line_ranges": [
+            "116-136"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "039",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-timing-and-transitions",
+          "claim": "Do not treat first entry as decisive in a differentiable technology market; a later entrant can win when switching is easy and the product is materially better.",
+          "line_ranges": [
+            "188-198"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "041",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Practice choosing problems through owned projects: begin from a need you understand as a user instead of accepting only artificial, predetermined assignments.",
+          "line_ranges": [
+            "92-98"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "044",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "claim": "Counter sunk-cost attachment by periodically comparing the current direction with alternatives and asking whether it is still the thing users are most likely to pay for.",
+          "line_ranges": [
+            "38-50"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "046",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "mission-and-user-benefit",
+          "claim": "Go directly to users when institutions undervalue the builders: users judge whether the product gives them what they want rather than the founders' age or credentials.",
+          "line_ranges": [
+            "38-44"
+          ]
+        },
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "claim": "Favor specific problems people already know they have, and replace a priori theories with observation of how users actually work and what they need.",
+          "line_ranges": [
+            "166-176"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "051",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Begin from an intolerable problem and a conviction that it can be solved; random combinations search too large a space to be a reliable source of opportunities.",
+          "line_ranges": [
+            "94-106"
+          ]
+        },
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "claim": "Treat the initial idea as a question rather than a blueprint, so a wrong or partial answer is useful when it leads to a better, expandable direction.",
+          "line_ranges": [
+            "34-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "052",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-timing-and-transitions",
+          "claim": "Reassess opportunity feasibility when software, hardware, distribution, or development costs change together, because those shifts can sharply reduce the capital and team required to start.",
+          "line_ranges": [
+            "12-24"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "055",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Ask which important problem is worth doing, then approach a frightening large problem through a small component that can grow, successive scale increases, or collaborators.",
+          "line_ranges": [
+            "48-75"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "061",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "claim": "Expect the initial plan to be wrong and stay determined about progress rather than a fixed route; user evidence should drive flexible adaptation without weekly random restarts.",
+          "line_ranges": [
+            "94-98",
+            "120-126"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "064",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-timing-and-transitions",
+          "claim": "New platforms are often dismissed before their potential is explored; early outsiders can exploit a transition while incumbents remain focused on established approaches or existing revenue.",
+          "line_ranges": [
+            "120-134"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "065",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Create conditions for new questions to surface: uninterrupted quiet supports generative thinking, while low-friction note taking frees attention for the next idea.",
+          "line_ranges": [
+            "22-28"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "067",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "mission-and-user-benefit",
+          "claim": "Ground an opportunity in named users, their concrete problem, and the inadequate behavior or expense that already serves as a proxy for demand.",
+          "line_ranges": [
+            "128-136"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "069",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "claim": "Start from an unsolved problem rather than a derivative company concept, and judge pivots by whether they preserve prior learning, progress toward convergence, and excite users.",
+          "line_ranges": [
+            "50-66"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "073",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "A narrow need missing from the founders' own lives is a stronger starting point than a broad hypothetical need, because it supplies direct understanding even when the initial audience looks small.",
+          "line_ranges": [
+            "128-130"
+          ]
+        },
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "claim": "Do not treat the initial direction as a prerequisite or fixed asset: ideas commonly change substantially, so evaluate the builders' making ability and then explore a genuine need.",
+          "line_ranges": [
+            "122-130"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "074",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-timing-and-transitions",
+          "claim": "A dominant incumbent can become strategically weak while remaining profitable when several shifts in product architecture, infrastructure, and user behavior arrive together.",
+          "line_ranges": [
+            "22-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "080",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Keep an early project small and mentally tractable so implementation can change not only the solution but also the problem being solved.",
+          "line_ranges": [
+            "12-16"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "081",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "mission-and-user-benefit",
+          "claim": "When demand looks weak, distinguish no devoted users from a small group with intense love: deepen and expand the latter signal, but change the product and retest when the core is empty.",
+          "line_ranges": [
+            "48-52"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "086",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Seek simple solutions to overlooked needs, identify the part that actually matters, and use an early crude version to learn whether the framing matches reality.",
+          "line_ranges": [
+            "28-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "091",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Search beyond familiar, immediately rewarded tasks for important questions that others have not yet recognized as questions.",
+          "line_ranges": [
+            "118-122"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "093",
+      "reviewer": "choosing-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "mission-and-user-benefit",
+          "claim": "Use concrete user benefit as the decision compass, but require accountable effects rather than benevolent intent alone; early monetization can wait behind making something people genuinely want.",
+          "line_ranges": [
+            "16-20",
+            "94-110",
+            "118-122"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "099",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-timing-and-transitions",
+          "line_ranges": [
+            "18-28",
+            "46-52"
+          ],
+          "claim": "For a time-sensitive technology opportunity, weigh the founder and technical window more heavily than macro sentiment; a recession changes capital and competition but does not stop technical progress."
+        },
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "line_ranges": [
+            "26-28"
+          ],
+          "claim": "Treat future ideas as replaceable, but do not use that fact to delay a specific technical opportunity whose window may close."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "101",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-timing-and-transitions",
+          "line_ranges": [
+            "18-30"
+          ],
+          "claim": "When technology changes the rules quickly, re-evaluate inherited scale assumptions because the speed of small autonomous groups can overtake the advantages of size."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "105",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "mission-and-user-benefit",
+          "line_ranges": [
+            "32-38",
+            "72-76"
+          ],
+          "claim": "Evaluate an opportunity by how much it can improve users' lives, and begin with a narrow group whose needs the founders can understand deeply enough to earn genuine love."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "108",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-timing-and-transitions",
+          "line_ranges": [
+            "14-18",
+            "32-36",
+            "48-50"
+          ],
+          "claim": "Treat an open, rapidly improving platform that already alarms incumbents as an active replacement opportunity, then design for its new cost and distribution structure rather than the legacy format."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "111",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "mission-and-user-benefit",
+          "line_ranges": [
+            "34-40"
+          ],
+          "claim": "Prefer an opportunity that can make a small initial group love the product over one that wins broad but weak approval."
+        },
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "line_ranges": [
+            "20-24",
+            "44-48"
+          ],
+          "claim": "Frame consequential product and strategy questions by treating design as core, discarding obsolete assumptions pragmatically, and using explicit decision exemplars."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "118",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "line_ranges": [
+            "20-22",
+            "38-44"
+          ],
+          "claim": "Treat the initial direction as provisional: launch, listen, iterate, and follow evidence into a materially different idea when the current one is wrong."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "123",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "line_ranges": [
+            "188-206"
+          ],
+          "claim": "Keep the startup idea as a hypothesis, search problem-space as well as solution-space, and pair determination with rapid directional flexibility rather than rigid persistence."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "125",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-user-product-and-domain-fit",
+          "line_ranges": [
+            "14-24",
+            "34-36",
+            "42-42"
+          ],
+          "claim": "Prefer problems the founders experience directly, especially newly fixable gaps at a technological edge; if the users are unfamiliar, become one or reproduce their workflow closely."
+        },
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "line_ranges": [
+            "22-36"
+          ],
+          "claim": "Fix broken things before forcing them to look like companies, and preserve useful projects that outsiders dismiss as toys when real use suggests broader value."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "127",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "line_ranges": [
+            "22-30"
+          ],
+          "claim": "Audit whether fundraising, acquisition talk, or another critical dependency has displaced the product problem from the team's ambient thought, and restructure the dependency when it has."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "134",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "originality-and-idea-development",
+          "line_ranges": [
+            "28-32"
+          ],
+          "claim": "Value imaginative judgment that produces surprising ideas on the viable side of crazy, because obviously good startup ideas are likely already occupied."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "135",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-timing-and-transitions",
+          "line_ranges": [
+            "16-22"
+          ],
+          "claim": "Look for jobs whose economics change when a general programmable platform can replace a special-purpose object, turning previously physical opportunities into software."
+        },
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "line_ranges": [
+            "20-26"
+          ],
+          "claim": "Generate directions by scanning newly software-replaceable objects and by asking what versatile capabilities an open platform lets outside developers use in unforeseen ways."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "140",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-user-product-and-domain-fit",
+          "line_ranges": [
+            "40-40"
+          ],
+          "claim": "Use the product across its complete workflow so the founders directly experience the same constraints and failures as users."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "141",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "line_ranges": [
+            "14-20",
+            "24-34"
+          ],
+          "claim": "Audit for valuable problems hidden by aversion to operational work, then ask what difficult problem the founder wishes someone else would solve without confusing necessary effort with pain as a goal."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "143",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "line_ranges": [
+            "14-24",
+            "94-106",
+            "112-122"
+          ],
+          "claim": "Treat fear and identity threat as filters that can hide ambitious problems, then examine ideas just on the feasible side of impossible and ways present practice will look backward in the future."
+        },
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "line_ranges": [
+            "126-132",
+            "138-144"
+          ],
+          "claim": "Approach a large outcome through a deceptively small working wedge, keep the distant vision blurry, and expand from demonstrated traction instead of enforcing the initial blueprint."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "146",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "originality-and-idea-development",
+          "line_ranges": [
+            "12-24"
+          ],
+          "claim": "Use writing when the task is to develop ideas, because subject command, sentence-level thought, and revision contribute more to discovery than polished live delivery."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "150",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-timing-and-transitions",
+          "line_ranges": [
+            "14-22"
+          ],
+          "claim": "Re-evaluate a formerly unattractive category when several enabling costs and channels change together, and treat investor aversion as a lagging signal rather than proof the window is closed."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "151",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-user-product-and-domain-fit",
+          "line_ranges": [
+            "14-24",
+            "62-82",
+            "166-182"
+          ],
+          "claim": "Prefer problems the founders want, can build for, and understand from direct or deliberately acquired domain experience; distrust judgment in domains where they cannot recognize quality."
+        },
+        {
+          "canonical_theme": "market-timing-and-transitions",
+          "line_ranges": [
+            "62-72",
+            "196-200"
+          ],
+          "claim": "Develop timing judgment by living at a changing field's edge, where external shifts and falling costs make newly missing products visible before consensus catches up."
+        },
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "line_ranges": [
+            "84-114",
+            "146-150",
+            "178-190"
+          ],
+          "claim": "Notice missing, annoying, or tedious problems without initially filtering for company size, and deliberately inspect gaps hidden by schlep, status, or incumbent-replacement framing."
+        },
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "line_ranges": [
+            "14-24",
+            "52-56",
+            "158-182",
+            "240-244"
+          ],
+          "claim": "Prefer organic discovery, but when a pivot is necessary search within real expertise, preserve needs learned from the prior direction, and use attempted sales or one-user consulting to uncover an adjacent real problem."
+        },
+        {
+          "canonical_theme": "urgency-and-demand-intensity",
+          "line_ranges": [
+            "34-46",
+            "132-136",
+            "212-212"
+          ],
+          "claim": "Require a specific initial group that needs even a crude version enough to overcome its actual adoption energy, with stronger evidence when switching or enterprise channels raise that barrier."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "154",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-user-product-and-domain-fit",
+          "line_ranges": [
+            "38-42"
+          ],
+          "claim": "Demand enough domain command to evaluate the opportunity truthfully and answer detailed market questions rather than substituting confidence for expertise."
+        },
+        {
+          "canonical_theme": "market-timing-and-transitions",
+          "line_ranges": [
+            "62-70"
+          ],
+          "claim": "Build a plausible path from a capturable initial segment to a large market and identify the specific external change that answers why this opportunity is timely now."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "155",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "urgency-and-demand-intensity",
+          "line_ranges": [
+            "28-32"
+          ],
+          "claim": "Use a competing process as urgency only when it creates a real deadline, state the timing without exaggeration, and preserve the other party's confidentiality."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "157",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-user-product-and-domain-fit",
+          "line_ranges": [
+            "38-44",
+            "108-132"
+          ],
+          "claim": "Become expert in users and their problem rather than in startup theater, and build opportunity judgment through demanding work at the edge of a consequential domain."
+        },
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "line_ranges": [
+            "106-134"
+          ],
+          "claim": "Prepare indirectly through learning, interesting problems, and trusted collaborators; let an outlier side project reveal the company, and introduce the startup objective late."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "158",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "mission-and-user-benefit",
+          "line_ranges": [
+            "28-34"
+          ],
+          "claim": "Favor a nonfinancial purpose and value-creating mission that can sustain founders past acquisition offers and direct effort toward building better things rather than zero-sum conflict."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "161",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-user-product-and-domain-fit",
+          "line_ranges": [
+            "26-38"
+          ],
+          "claim": "Give extra weight to odd questions from people with deep domain contact and to earnest, energetic, independent-minded founders when the idea itself remains difficult to judge."
+        },
+        {
+          "canonical_theme": "originality-and-idea-development",
+          "line_ranges": [
+            "26-28"
+          ],
+          "claim": "Develop new ideas by solving real problems and preserving weird hunches that arise during the work rather than demanding novelty on command."
+        },
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "line_ranges": [
+            "12-24"
+          ],
+          "claim": "Treat judgments in changing domains as working hypotheses, actively look for shifts that make formerly bad ideas good, and keep forecasts from hardening into identity."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "166",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "market-timing-and-transitions",
+          "line_ranges": [
+            "16-22"
+          ],
+          "claim": "Ask which much larger future company a small, strange-looking wedge could become, while accepting that founders near the transition may sense the missing product before they can articulate the full path."
+        },
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "line_ranges": [
+            "12-20"
+          ],
+          "claim": "Reframe a lame-sounding startup as a puzzle about its possible larger role before dismissing it, while retaining the possibility that made-up ideas have no convincing answer."
+        },
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "line_ranges": [
+            "16-22"
+          ],
+          "claim": "When several plausible expansion paths survive, follow the one most immediately compelling to the domain-close founders instead of demanding an exact prediction of final scale."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "174",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "mission-and-user-benefit",
+          "line_ranges": [
+            "94-96"
+          ],
+          "claim": "Use determination mainly as a survival signal, while recognizing that sustained mission matters more to the largest outcomes and cannot be inferred reliably from initial posture."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "175",
+      "reviewer": "choosing-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "mission-and-user-benefit",
+          "line_ranges": [
+            "36-40",
+            "46-60"
+          ],
+          "claim": "Choose work by what will still matter later, act promptly on those durable aims, and prune activities that consume scarce time without serving them."
+        },
+        {
+          "canonical_theme": "urgency-and-demand-intensity",
+          "line_ranges": [
+            "40-40",
+            "46-48"
+          ],
+          "claim": "Distinguish sharp but short-lived urgency from durable importance, then cultivate impatience about the consequential work whose window can actually close."
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "176",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "claim": "Prefer specific technical problems and interesting side projects over generic innovation programs; startup directions emerge more reliably from builders making concrete things than from aiming at entrepreneurship in the abstract.",
+          "line_ranges": [
+            "56-64"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "177",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "originality-and-idea-development",
+          "claim": "Judge exploratory directions by what was knowable when the bet was made, not by the hindsight created by the winner; apparently similar discovery bets can produce radically different outcomes.",
+          "line_ranges": [
+            "12-18"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "179",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "originality-and-idea-development",
+          "claim": "Develop insights by adding generality to a narrow observation or a small true novelty to a general idea, then keep iterating because modest deltas can generate larger follow-on ideas.",
+          "line_ranges": [
+            "12-24"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "180",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "originality-and-idea-development",
+          "claim": "Genuine interest can reveal overlooked paths because it sustains exploration even when a direction looks unpromising to conventionally ambitious observers; favor creating, personal tractability, and meaningful difficulty as filters.",
+          "line_ranges": [
+            "30-42"
+          ]
+        },
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "When a conventionally important problem stalls, use an intrinsically interesting side direction as a discovery probe rather than assuming the consensus problem list is complete.",
+          "line_ranges": [
+            "64-66"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "181",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "originality-and-idea-development",
+          "claim": "Search for valuable non-obvious ideas in the unexplored dead zones surrounding cherished but mistaken assumptions, while expecting discoveries there to contradict the protected belief.",
+          "line_ranges": [
+            "12-20"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "184",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Map how fashion has concentrated effort into a narrow part of a field, then look for a new entry into a large area others assume is exhausted; genuine interest helps sustain the search.",
+          "line_ranges": [
+            "12-18"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "185",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Choose the questions that matter to the work independently instead of inheriting an ideological menu or midpoint; when a technical question intersects politics, evaluate the underlying claim on its own evidence.",
+          "line_ranges": [
+            "18-26"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "193",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "originality-and-idea-development",
+          "claim": "Evaluate an ambitious early direction by imagining paths on which it could work and weighting judgment by potential outcome, rather than treating its unfinished first form as a finished product.",
+          "line_ranges": [
+            "18-28"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "194",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "originality-and-idea-development",
+          "claim": "Treat accepted claims as puzzles, calibrate belief rather than forcing certainty, and let curiosity search the gaps and unfashionable areas exposed by broken assumptions.",
+          "line_ranges": [
+            "54-60",
+            "80-96"
+          ]
+        },
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "claim": "A startup direction needs a non-consensus insight: it should sound bad to most people while the founders possess concrete reasons it is not, rather than merely receiving broad approval.",
+          "line_ranges": [
+            "12-16"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "195",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-user-product-and-domain-fit",
+          "claim": "First-hand experience as initial users gave the founders conviction despite weak growth; fieldwork in the hottest market then deepened their understanding of hosts and exposed an urgent rent-driven need.",
+          "line_ranges": [
+            "24-28",
+            "30-36"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "196",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-user-product-and-domain-fit",
+          "claim": "The strongest fit combines founders at the leading edge of change with a product they and their peers want; where that ideal is absent, deep first-hand knowledge of a specific user group can still ground the opportunity.",
+          "line_ranges": [
+            "40-56"
+          ]
+        },
+        {
+          "canonical_theme": "urgency-and-demand-intensity",
+          "claim": "Require a real seed group that wants the product now strongly enough to tolerate bugs and an unknown supplier, and demand a concrete account of who those users are and how the founders know.",
+          "line_ranges": [
+            "44-48"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "197",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-user-product-and-domain-fit",
+          "claim": "Assess founder-domain fit through both capability and genuine interest in the problem: intrinsic care increases effort and persistence, and fields where that care improves outcomes are better matches than status-driven ones.",
+          "line_ranges": [
+            "12-28"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "198",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "claim": "When the initial customer hypothesis fails, inspect what the current technology already enables for an adjacent market and build the smallest prototype that tests the new delivery model before committing further.",
+          "line_ranges": [
+            "116-128"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "204",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-user-product-and-domain-fit",
+          "claim": "Give an implausible opportunity more weight when its proposer is both reasonable and deeply expert in the relevant domain, because that combination makes hidden knowledge a better explanation than incompetence.",
+          "line_ranges": [
+            "12-24"
+          ]
+        },
+        {
+          "canonical_theme": "originality-and-idea-development",
+          "claim": "Replace immediate dismissal of a credible but strange idea with questions that locate the model disagreement, then study unfinished historical ideas and present experts to recalibrate how new ideas initially look.",
+          "line_ranges": [
+            "22-24",
+            "26-46"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "205",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Channel independent technical impatience through ambitious hard projects; otherwise unused drive can turn into reflexive dismissal of other people's new ideas.",
+          "line_ranges": [
+            "20-34"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "207",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Aim at the actual important core rather than the consensus one, prefer problems where ability or interest creates unusual leverage, and keep reassessing the field when sustained effort does not yield strong enough results.",
+          "line_ranges": [
+            "68-74",
+            "76-86"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "209",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "originality-and-idea-development",
+          "claim": "Evaluate people and practices by the important new ideas they produce, then cultivate output through deep interest, independent judgment, owned projects, hard work, restorative conditions, strong colleagues, and written exploration.",
+          "line_ranges": [
+            "12-26",
+            "30-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "213",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Do not accept the founder's stated problem at face value: diagnose the underlying company and product, rank issues by survival impact, and work first on the one that could kill the startup.",
+          "line_ranges": [
+            "34-46"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "216",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Write through a complicated, ill-defined problem to expose missing structure and new ideas; conversation can develop the question but does not replace the written discovery pass.",
+          "line_ranges": [
+            "18-24"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "217",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "originality-and-idea-development",
+          "claim": "New ideas arise by noticing anomalies that remain visible at a knowledge frontier, where apparently smooth understanding resolves into specific gaps.",
+          "line_ranges": [
+            "14-16"
+          ]
+        },
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Search explicitly for what seems strange, missing, or broken, especially after enough domain learning to see the unresolved gaps at the frontier.",
+          "line_ranges": [
+            "14-16"
+          ]
+        },
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "claim": "Use domain depth and concrete frontier anomalies to generate startup directions.",
+          "line_ranges": [
+            "14-16"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "218",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "originality-and-idea-development",
+          "claim": "Original ideas emerge more reliably while building or understanding something slightly too difficult; writing, topic breadth, and cross-domain analogies then create more surfaces for useful connections.",
+          "line_ranges": [
+            "190-200"
+          ]
+        },
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Choose work at the intersection of aptitude and deep interest, reach a knowledge frontier, notice its gaps, and explore an ignored outlier only when expertise supports a precise account of what others miss.",
+          "line_ranges": [
+            "18-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "220",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "originality-and-idea-development",
+          "claim": "Commit an incomplete response to words, reread strictly, follow branches with the strongest novelty and generality, and backtrack quickly when a branch fails rather than protecting sunk effort.",
+          "line_ranges": [
+            "38-58"
+          ]
+        },
+        {
+          "canonical_theme": "problem-discovery-and-framing",
+          "claim": "Start from a puzzling question or a gap where you have some edge; a seemingly minor question can be worth exploring because its importance is often unknowable before pulling the thread.",
+          "line_ranges": [
+            "28-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "221",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-user-product-and-domain-fit",
+          "claim": "For young technical founders, domain skill makes missing and broken things visible; build for themselves and nearby peers, then test whether those peers would be genuinely upset to lose the result.",
+          "line_ranges": [
+            "48-68"
+          ]
+        },
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "claim": "Let a useful owned project become a company after real demand appears instead of starting from an abstract company idea or premature monetization plan.",
+          "line_ranges": [
+            "48-68"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "222",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-user-product-and-domain-fit",
+          "claim": "Look for founder traits that naturally reinforce the product's mechanism and culture, such as broad curiosity for a discovery product and skepticism toward centralized editorial control.",
+          "line_ranges": [
+            "28-32"
+          ]
+        },
+        {
+          "canonical_theme": "startup-idea-selection-and-pivots",
+          "claim": "Reject an idea whose launch depends on too many unavailable partners without discarding a strong team; pivot toward a nearby need supported by observed user behavior or traffic evidence.",
+          "line_ranges": [
+            "14-24"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "choosing-startup-opportunities",
+      "article_no": "223",
+      "reviewer": "choosing-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "mission-and-user-benefit",
+          "claim": "Hold the mission-level goal more firmly than the first implementation, changing lower-level tactics as evidence shifts; scope the goal narrowly enough to direct action but broadly enough to admit adjacent discoveries.",
+          "line_ranges": [
+            "28-32",
+            "62-66"
+          ]
+        }
+      ]
+    }
+  ]
+}

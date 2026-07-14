@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_name": "choosing-startup-opportunities",
+  "case_id": "offshore-inspection-pivot-transfer",
+  "generator_id": "choosing-heldout-generator-001",
+  "canonical_agent_task": "/root/choosing_heldout_generator_001",
+  "generated_at": "2026-07-14T13:43:55Z",
+  "model_identity": "Codex (GPT-5)",
+  "criteria_visible_before_generation": false,
+  "response_frozen_before_scoring": true,
+  "skill_sha256": "9c0a4b40025c646bbb494d4159fbf8b4b3e2861a6361f498544f435baacfa49a",
+  "prompt_sha256": "59aeee4e123275531fde1a56cf9c99fecb72b4e4de60e94e77d93d578b763019",
+  "response_sha256": "a6ef339e06062c55b97f8d7eef077d6667122530a1bd9904a758ee1750b49152"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Choosing Startup Opportunities"
+  short_description: "Find, compare, and pivot startup directions"
+  default_prompt: "Use $choosing-startup-opportunities to compare startup directions and define the next evidence gate."

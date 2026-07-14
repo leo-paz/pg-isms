@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "skill_name": "choosing-startup-opportunities",
+  "phase": "forward",
+  "reviewer_id": "choosing-forward-001",
+  "canonical_agent_task": "/root/choosing_forward_001",
+  "generated_at": "2026-07-14T06:37:24-07:00",
+  "model_identity": "OpenAI GPT-5.4 Codex",
+  "dispatch_prompt": "Generate five complete responses from case IDs and prompts only using the frozen skill and direct provenance; do not inspect evaluation criteria, intended answers, cases.json, or other evaluation artifacts before freezing the outputs.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "9c0a4b40025c646bbb494d4159fbf8b4b3e2861a6361f498544f435baacfa49a"
+  },
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "fashionable-idea-menu": "91f0b849d59fcfc84ae4bd7885594bfde069527c8f251360fc01df4638d944b2",
+    "selected-direction-interviews": "bd7eab909e52a0b67433536d7338d37e2fbc6819d77e5bde910c5e3f0f9c1164",
+    "weak-demand-pivot": "ac0bc81ac9fef4869fa91fdf3dc4ff241dd132408e7763cfa607e0e11bef0a20",
+    "ambition-versus-urgency": "3034d4b77c1b6e3666303cfe9d1a4f3e70e631ba8d92ebbe6fcc83737f0e3e68",
+    "opportunity-learning-growth-composition": "fef8745a56c5331280bb6a6d3f12f162a0b9f68c76075f5f6c9304bb5f4284ad"
+  }
+}

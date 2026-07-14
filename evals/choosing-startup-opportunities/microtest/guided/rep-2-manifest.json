@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "condition": "guided",
+  "repetition": 2,
+  "agent_task": "/root/choosing_micro_guided_2",
+  "model": "gpt-5",
+  "generated_at": "2026-07-14T13:33:37Z",
+  "skill_sha256": "9c0a4b40025c646bbb494d4159fbf8b4b3e2861a6361f498544f435baacfa49a",
+  "prompt": "Three engineers must choose a startup direction. Option A is an AI meal planner copied from funding news, with no observed user problem. Option B is a radiology-triage idea one founder heard at a conference; they have no hospital access, and a wrong output could harm a patient. Option C is invoice reconciliation that two founders handled at a logistics company; eleven controllers still do it weekly, and four will pay for a pilot. The CEO proposes spending $30,000 on ads and letting clicks choose the company. Give a two-week opportunity decision plan and the ordered next handoff.",
+  "response_file": "guided/rep-2.md",
+  "response_sha256": "abe6ee92670e6d1b5e8afa00931d852c97a1d9ff9f40ceb60754b847b40e6d04"
+}

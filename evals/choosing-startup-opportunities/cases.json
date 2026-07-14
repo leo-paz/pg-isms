@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "skill_name": "choosing-startup-opportunities",
+  "cases": [
+    {
+      "id": "fashionable-idea-menu",
+      "type": "trigger",
+      "prompt": "A first-time founder has five fashionable startup ideas copied from recent funding news: an AI assistant, a creator marketplace, a crypto loyalty product, a vertical SaaS dashboard, and a social app. She has not observed anyone struggling with the underlying problems, but she wants you to rank the ideas and choose one this week. Decide what job should be done and give a two-week opportunity-search plan.",
+      "criteria": [
+        "Treats this as opportunity discovery and comparison rather than ranking fashionable solution labels.",
+        "Searches inside the founder's genuine expertise, lived work, or directly observed gaps before choosing a direction.",
+        "Looks for a narrow group with an urgent problem, existing workaround, and willingness to try a crude solution.",
+        "Defines cheap, discriminating tests for problem intensity and founder access instead of polishing market-size stories.",
+        "Returns a dated comparison record and a stop, deepen, or discard decision for each candidate problem."
+      ]
+    },
+    {
+      "id": "selected-direction-interviews",
+      "type": "non-trigger",
+      "prompt": "A two-person team has already selected late-payment reconciliation for independent property managers after watching twelve managers do it manually and receiving three paid design-partner commitments. They now want an interview guide and sampling plan to learn the exact workflow. Name the primary skill route and the handoff condition back to opportunity choice, if any.",
+      "criteria": [
+        "Does not reopen a direction that already has direct workflow observation and paid commitments by default.",
+        "Routes the primary task to learning-from-users rather than opportunity choice.",
+        "Defines the interview hypothesis, sample, and evidence standard as the learning workflow's responsibility.",
+        "Keeps growth or broad market optimization out of scope while the workflow is still being learned.",
+        "Returns to opportunity choice only if evidence invalidates the problem, segment, founder access, or viable direction."
+      ]
+    },
+    {
+      "id": "weak-demand-pivot",
+      "type": "application",
+      "prompt": "A team built a general meeting recorder. Three hundred people signed up, but only twelve use it weekly. Six compliance teams use it every day because its audit export replaces a painful manual process, and two offered to pay for retention controls. Decide whether to persist broadly, narrow, or pivot, and specify the next decision artifact.",
+      "criteria": [
+        "Treats daily compliance use and payment offers as stronger opportunity evidence than broad signup volume.",
+        "Narrows or pivots toward the urgent compliance problem instead of persisting with a generic meeting-recorder thesis.",
+        "Preserves learned constraints, users, and product capabilities rather than restarting from an unrelated slogan.",
+        "Names the founder/domain-access, regulatory, market-timing, and expansion assumptions that still need testing.",
+        "Defines a bounded validation gate using actual use, payment, or an equally discriminating commitment."
+      ]
+    },
+    {
+      "id": "ambition-versus-urgency",
+      "type": "condition",
+      "prompt": "Two founders must choose between (A) a theoretically huge consumer wellness market where no one has tried their prototype and (B) fourteen machine shops that share error-prone inventory spreadsheets, six of which will pilot an ugly tool next month. The founders worked in manufacturing software and can reach more shops. Choose the opportunity and state the condition under which that choice would be wrong.",
+      "criteria": [
+        "Prefers the narrow machine-shop problem because user intensity and founder access are evidenced.",
+        "Does not treat a huge theoretical market as demand evidence.",
+        "Uses the founders' manufacturing knowledge and reach as a concrete founder-market-fit advantage.",
+        "Tests whether the urgent wedge has a credible expansion path without requiring a detailed distant blueprint.",
+        "States a falsifiable condition that would overturn the choice, such as failed pilots, no repeat use, or no payment."
+      ]
+    },
+    {
+      "id": "opportunity-learning-growth-composition",
+      "type": "edge",
+      "prompt": "A pre-product team has three unrelated directions and no evidence that any target user needs them. The CEO asks the growth lead to spend $100,000 on ads, compare click-through rates, optimize CAC, and let the cheapest channel choose the startup. Give the correct ordered composition of startup workflows and a release gate for growth work.",
+      "criteria": [
+        "Makes choosing-startup-opportunities primary for framing and comparing the three directions.",
+        "Hands each plausible problem hypothesis to learning-from-users for the sample, evidence standard, and interpretation.",
+        "Allows growth before validation only to recruit the defined sample or seed a narrow learning beachhead.",
+        "Rejects click-through rate, cheap traffic, CAC optimization, or channel fit as substitutes for problem validation.",
+        "Moves primary ownership to acquiring-and-growing-users only after one segment shows real use, payment, or a predefined equally discriminating commitment."
+      ]
+    }
+  ]
+}

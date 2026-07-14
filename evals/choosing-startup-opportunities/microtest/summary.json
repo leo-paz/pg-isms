@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "skill_name": "choosing-startup-opportunities",
+  "scorer_id": "choosing-micro-scorer-001",
+  "skill_sha256": "9c0a4b40025c646bbb494d4159fbf8b4b3e2861a6361f498544f435baacfa49a",
+  "repetitions_per_variant": 5,
+  "control": [
+    {
+      "rep": 1,
+      "score": 3,
+      "max_score": 5,
+      "criteria_passed": [
+        1,
+        3,
+        4
+      ],
+      "response_path": "evals/choosing-startup-opportunities/microtest/control/rep-1.md",
+      "scorecard_path": "evals/choosing-startup-opportunities/microtest/scorecards/control/rep-1.md"
+    },
+    {
+      "rep": 2,
+      "score": 2,
+      "max_score": 5,
+      "criteria_passed": [
+        1,
+        4
+      ],
+      "response_path": "evals/choosing-startup-opportunities/microtest/control/rep-2.md",
+      "scorecard_path": "evals/choosing-startup-opportunities/microtest/scorecards/control/rep-2.md"
+    },
+    {
+      "rep": 3,
+      "score": 2,
+      "max_score": 5,
+      "criteria_passed": [
+        1,
+        4
+      ],
+      "response_path": "evals/choosing-startup-opportunities/microtest/control/rep-3.md",
+      "scorecard_path": "evals/choosing-startup-opportunities/microtest/scorecards/control/rep-3.md"
+    },
+    {
+      "rep": 4,
+      "score": 2,
+      "max_score": 5,
+      "criteria_passed": [
+        1,
+        4
+      ],
+      "response_path": "evals/choosing-startup-opportunities/microtest/control/rep-4.md",
+      "scorecard_path": "evals/choosing-startup-opportunities/microtest/scorecards/control/rep-4.md"
+    },
+    {
+      "rep": 5,
+      "score": 2,
+      "max_score": 5,
+      "criteria_passed": [
+        1,
+        4
+      ],
+      "response_path": "evals/choosing-startup-opportunities/microtest/control/rep-5.md",
+      "scorecard_path": "evals/choosing-startup-opportunities/microtest/scorecards/control/rep-5.md"
+    }
+  ],
+  "guided": [
+    {
+      "rep": 1,
+      "score": 4,
+      "max_score": 5,
+      "criteria_passed": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "response_path": "evals/choosing-startup-opportunities/microtest/guided/rep-1.md",
+      "scorecard_path": "evals/choosing-startup-opportunities/microtest/scorecards/guided/rep-1.md"
+    },
+    {
+      "rep": 2,
+      "score": 4,
+      "max_score": 5,
+      "criteria_passed": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "response_path": "evals/choosing-startup-opportunities/microtest/guided/rep-2.md",
+      "scorecard_path": "evals/choosing-startup-opportunities/microtest/scorecards/guided/rep-2.md"
+    },
+    {
+      "rep": 3,
+      "score": 4,
+      "max_score": 5,
+      "criteria_passed": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "response_path": "evals/choosing-startup-opportunities/microtest/guided/rep-3.md",
+      "scorecard_path": "evals/choosing-startup-opportunities/microtest/scorecards/guided/rep-3.md"
+    },
+    {
+      "rep": 4,
+      "score": 4,
+      "max_score": 5,
+      "criteria_passed": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "response_path": "evals/choosing-startup-opportunities/microtest/guided/rep-4.md",
+      "scorecard_path": "evals/choosing-startup-opportunities/microtest/scorecards/guided/rep-4.md"
+    },
+    {
+      "rep": 5,
+      "score": 5,
+      "max_score": 5,
+      "criteria_passed": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "response_path": "evals/choosing-startup-opportunities/microtest/guided/rep-5.md",
+      "scorecard_path": "evals/choosing-startup-opportunities/microtest/scorecards/guided/rep-5.md"
+    }
+  ],
+  "control_metrics": {
+    "mean_score": 2.2,
+    "population_score_variance": 0.16,
+    "normalized_score": 0.44,
+    "all_criteria_pass_rate": 0.0,
+    "criterion_pass_rates": [
+      1.0,
+      0.0,
+      0.2,
+      1.0,
+      0.0
+    ]
+  },
+  "guided_metrics": {
+    "mean_score": 4.2,
+    "population_score_variance": 0.16,
+    "normalized_score": 0.84,
+    "all_criteria_pass_rate": 0.2,
+    "criterion_pass_rates": [
+      1.0,
+      0.2,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "guided_minus_control_normalized_delta": 0.4,
+  "integrity_checks": {
+    "exact_response_and_manifest_sets": true,
+    "control_count": 5,
+    "guided_count": 5,
+    "rep_numbers_cover_one_through_five": true,
+    "manifests_have_task_model_and_timestamp": true,
+    "unique_canonical_agent_tasks": 10,
+    "unique_response_hashes": 10,
+    "duplicate_responses": false,
+    "identical_prompt": true,
+    "prompt_matches_rubric": true,
+    "control_skill_hashes_null": true,
+    "guided_skill_hashes_current": true,
+    "skill_file_hash_matches_summary": true,
+    "response_hashes_match": true,
+    "artifact_json_parses": true,
+    "response_files_have_no_trailing_whitespace": true,
+    "response_files_have_valid_boundary_whitespace": true
+  }
+}

@@ -556,3 +556,54 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
   skills sequentially beginning with `choosing-startup-opportunities`; finish the
   cross-skill final review, README catalog, and clean/pushed repository-wide gate.
 - Blockers: none.
+
+## Checkpoint 4 skill 3 verified: `choosing-startup-opportunities`
+
+- RED froze five no-skill cases before initialization: fashionable idea search, a
+  selected-direction non-trigger, a weak-demand pivot, ambition versus urgency, and
+  the required opportunity-to-learning-to-growth composition. Independent scoring
+  reports `20/25` (`0.80`), leaving a demanding `0.90` forward threshold.
+- Three non-overlapping source agents read all `76` assigned essays in full and used
+  both BM25 and semantic QMD retrieval. Their exact combined evidence contains `76`
+  records and `105` owned essay-theme pairs across all `7` themes. Generated
+  provenance is byte-current and all ranges remain audit-contained.
+- The official initializer created the package. Routing and source reviews corrected
+  channel ownership, the residual calibrated-decision route, product-type evidence,
+  and four overbroad source claims. The final `SKILL.md` is `498` words with SHA-256
+  `9c0a4b40025c646bbb494d4159fbf8b4b3e2861a6361f498544f435baacfa49a`;
+  official validation and regenerated `agents/openai.yaml` pass.
+- Five blind wording controls scored `[3, 2, 2, 2, 2]` (`0.44`). Five distinct
+  guided contexts at the frozen hash scored `[4, 4, 4, 4, 5]` (`0.84`), a `+0.40`
+  improvement with ten unique tasks and exact response hashes. Four guided answers
+  fully documented only the chosen candidate; that disclosed residual is retained
+  as a regression target.
+- The blind five-case forward run scored `23/25` (`0.92`), improving `+0.12` over
+  the high baseline. Points were withheld for an implicit rather than explicit
+  learning-stage growth boundary and for omitting a concrete market-timing
+  hypothesis in the pivot record.
+- A new offshore-wind hardware pivot case was authored after the final skill hash,
+  generated blind, and independently scored `4/5` PASS. It preserves prior learning
+  and correct workflow ownership; the missing complete bench-to-onshore-to-offshore
+  sequence and resource cap remain failed.
+- Independent final review reports `0` Critical, `0` Important, three documented
+  Minor residuals, and `Ready to commit: Yes`.
+- Verification:
+
+  ```text
+  Skill is valid!
+  skill provenance check: essays=76 themes=7
+  taxonomy validation passed: corpus_files=223 classified=223 relevant_essays=209 uncovered_relevant=0 orphan_skills=0
+  baseline normalized_score=0.80; forward normalized_score=0.92
+  microtest control=11/25; guided=21/25; normalized_delta=0.40
+  heldout offshore-inspection-pivot-transfer=4/5 PASS
+  python3 -m unittest discover -s tests
+  Ran 120 tests
+  OK
+  copyright scan: normalized 40-token corpus matches=0
+  git diff --check: passed
+  ```
+
+- Remaining work: publish this verified milestone, then build the remaining `18`
+  skills sequentially beginning with `learning-from-users`; finish the cross-skill
+  final review, README catalog, and clean/pushed repository-wide gate.
+- Blockers: none.

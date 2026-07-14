@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "skill_name": "choosing-startup-opportunities",
+  "phase": "baseline",
+  "reviewer_id": "choosing-baseline-001",
+  "canonical_agent_task": "/root/choosing_baseline_001",
+  "generated_at": "2026-07-14T13:18:13Z",
+  "model_identity": "OpenAI GPT-5 Codex",
+  "dispatch_prompt": "Generate independent no-skill responses from the five projected case identifiers and prompts without viewing criteria or intended answers.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "no-skill",
+    "skill_sha256": null
+  },
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "ambition-versus-urgency": "12da88d4c0180610f02b0bd924740623ba454a2896c68d7f3d3623ae439edc65",
+    "fashionable-idea-menu": "f755992adaef68e5421cb6ea055d36c82ffe9a78fd96b3f91f89e16a3dcb45e9",
+    "opportunity-learning-growth-composition": "b0611cad388720ca23da7ae17267a062674dbea89665f43f0e0aabe9c8509561",
+    "selected-direction-interviews": "7ab5d0764ed4f9b8d258f3fca1c2d939588ede4c60faa06d9230f83aaeff7843",
+    "weak-demand-pivot": "e624a0a5a670bc0e692c928e39ab0be9bfc7371043c99e2abdfec775ff00e649"
+  }
+}

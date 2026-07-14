@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "skill_name": "choosing-startup-opportunities",
+  "phase": "forward",
+  "reviewer_id": "choosing-forward-001",
+  "case_results": [
+    {
+      "case_id": "fashionable-idea-menu",
+      "score": 5,
+      "max_score": 5,
+      "raw_output": "fashionable-idea-menu.md"
+    },
+    {
+      "case_id": "selected-direction-interviews",
+      "score": 4,
+      "max_score": 5,
+      "raw_output": "selected-direction-interviews.md"
+    },
+    {
+      "case_id": "weak-demand-pivot",
+      "score": 4,
+      "max_score": 5,
+      "raw_output": "weak-demand-pivot.md"
+    },
+    {
+      "case_id": "ambition-versus-urgency",
+      "score": 5,
+      "max_score": 5,
+      "raw_output": "ambition-versus-urgency.md"
+    },
+    {
+      "case_id": "opportunity-learning-growth-composition",
+      "score": 5,
+      "max_score": 5,
+      "raw_output": "opportunity-learning-growth-composition.md"
+    }
+  ]
+}

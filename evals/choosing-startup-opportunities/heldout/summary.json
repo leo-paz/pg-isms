@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "skill_name": "choosing-startup-opportunities",
+  "case_id": "offshore-inspection-pivot-transfer",
+  "scorer_id": "choosing-heldout-scorer-001",
+  "score": 4,
+  "max_score": 5,
+  "pass": true,
+  "skill_sha256": "9c0a4b40025c646bbb494d4159fbf8b4b3e2861a6361f498544f435baacfa49a",
+  "heldout_after_skill_sha256": "9c0a4b40025c646bbb494d4159fbf8b4b3e2861a6361f498544f435baacfa49a",
+  "response_sha256": "a6ef339e06062c55b97f8d7eef077d6667122530a1bd9904a758ee1750b49152",
+  "integrity_checks": {
+    "skill_hash_matches": true,
+    "case_authored_after_skill_freeze": true,
+    "canonical_tasks_distinct": true,
+    "criteria_hidden_during_generation": true,
+    "response_frozen_before_scoring": true,
+    "response_hash_matches": true,
+    "response_header_valid": true,
+    "response_whitespace_valid": true
+  }
+}
