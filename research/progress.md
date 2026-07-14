@@ -217,3 +217,14 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
 - Published branch: `origin/codex/pg-isms-library`.
 - Remaining work: complete all 12 audit batches, independent overlap/gap review, evidence-led taxonomy, sequential skill RED-GREEN-REFACTOR loops, final independent review, README, and final repository gate.
 - Blockers: none.
+
+## Checkpoint 2 progress: audit wave 1
+
+- Primary coverage: batches `batch-01` through `batch-03`, articles `001-057`, with `57` ordered audit records and one full-document read per essay.
+- Retrieval proof: every batch includes both BM25 and semantic QMD queries plus full-document evidence; no classification was made from snippets alone.
+- Corrected classification counts: `14` core startup, `37` supporting startup, `6` excluded.
+- Independent full-source review initially found `8` Important issues and no Critical issues. The batch reviewers corrected one core/supporting classification, one technical over-inclusion, and six missing/overstated evidence conditions. Re-review approved the wave with `0` Critical, `0` Important, and `0` Minor findings.
+- Source limitation: article `004` is substantively stored on source line `10`; exact provenance is necessarily `10-10` and is documented in `research/batches/source-limitations-batch-01.md` without redistributing source text.
+- Assembly infrastructure: `scripts/assemble_audit.py` was developed RED-GREEN and rejects article-set mismatches, reviewer/batch inconsistencies, missing BM25/vector evidence, or incomplete full-document coverage. It writes canonical outputs only when all 12 assignments exist.
+- Remaining work: finish and review batches `04-12`, assemble the canonical audit, run the cumulative audit gate, and complete the cross-corpus overlap/gap review.
+- Blockers: none.
