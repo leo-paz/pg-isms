@@ -256,3 +256,25 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
 - Primary audit status: all `223` essays have now been read in full, explicitly classified in non-overlapping batches, and independently wave-reviewed.
 - Remaining work: assemble the canonical audit/retrieval records, run the cumulative audit gate, and perform the separate full-corpus overlap/gap review for suspicious exclusions, inconsistent themes, and missed principles.
 - Blockers: none.
+
+## Checkpoint 2 progress: full-corpus reconciliation
+
+- Canonical assembly covers all `12` non-overlapping batches and all `223` essays, with per-batch BM25, semantic, and full-document proof. A second assembly produced byte-identical canonical audit, reviewer, and retrieval artifacts.
+- Independent classification-boundary review re-read every exclusion and challenged adjacent classifications. Five source-verified corrections were applied: `003`, `162`, and `208` moved from excluded to supporting; `060` moved from supporting to excluded; and `201` moved from supporting to core. Final counts are `84` core startup, `120` supporting startup, and `19` excluded.
+- Independent theme/workflow review found ten article-level or cross-source issues (`I2-I8`, `M1-M3`). The original batch reviewers corrected all ten, preserving error-cost, evidence-latency, spending-state, luck, investor-truth, historical, product-type, and venture-type conditions. Fresh re-review reports `0` open article-level findings.
+- Strict source-grounding follow-up also trimmed unsupported composition language from `003` and separated the editorial legal-freshness guardrail from the source-derived workflow for `162`.
+- Current audit measures: `204` relevant essays, `712` candidate workflows, `616` evidence ranges, `1,041` raw theme assignments, `947` distinct raw theme labels, and `876` singleton labels.
+- Verification:
+
+  ```text
+  audit assembly passed: batches=12 essays=223 bm25_batches=12 vector_batches=12 full_documents=223
+  audit validation passed: corpus_files=223 manifest_essays=223 unique_assignments=223 batches=12 gaps=0 overlaps=0 classified=223 unaudited=0 audit_duplicates=0 core_startup=84 supporting_startup=120 excluded=19
+  python3 -m unittest discover -s tests -v
+  Ran 37 tests
+  OK
+  ```
+
+- Independent boundary verdict: pass, with no remaining relabeling or source-grounding finding.
+- Independent article-level theme verdict: pass for `I2-I8` and `M1-M3`; the sole remaining audit-phase blocker is `I1`, controlled normalization of the fragmented raw theme vocabulary before taxonomy synthesis.
+- Remaining work in Checkpoint 2: complete and independently review the non-destructive raw-to-canonical theme normalization, then run the separate full-corpus identity/retrieval/copyright integrity pass.
+- Blockers: none.

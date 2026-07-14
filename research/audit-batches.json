@@ -27,7 +27,7 @@
         "018",
         "019"
       ],
-      "reviewer": null
+      "reviewer": "audit-agent-batch-01"
     },
     {
       "batch_id": "batch-02",
@@ -54,7 +54,7 @@
         "037",
         "038"
       ],
-      "reviewer": null
+      "reviewer": "audit-agent-batch-02"
     },
     {
       "batch_id": "batch-03",
@@ -81,7 +81,7 @@
         "056",
         "057"
       ],
-      "reviewer": null
+      "reviewer": "audit-agent-batch-03"
     },
     {
       "batch_id": "batch-04",
@@ -108,7 +108,7 @@
         "075",
         "076"
       ],
-      "reviewer": null
+      "reviewer": "audit-agent-batch-04"
     },
     {
       "batch_id": "batch-05",
@@ -135,7 +135,7 @@
         "094",
         "095"
       ],
-      "reviewer": null
+      "reviewer": "audit-agent-batch-05"
     },
     {
       "batch_id": "batch-06",
@@ -162,7 +162,7 @@
         "113",
         "114"
       ],
-      "reviewer": null
+      "reviewer": "audit-agent-batch-06"
     },
     {
       "batch_id": "batch-07",
@@ -189,7 +189,7 @@
         "132",
         "133"
       ],
-      "reviewer": null
+      "reviewer": "audit-agent-batch-07"
     },
     {
       "batch_id": "batch-08",
@@ -215,7 +215,7 @@
         "150",
         "151"
       ],
-      "reviewer": null
+      "reviewer": "audit-agent-batch-08"
     },
     {
       "batch_id": "batch-09",
@@ -241,7 +241,7 @@
         "168",
         "169"
       ],
-      "reviewer": null
+      "reviewer": "audit-agent-batch-09"
     },
     {
       "batch_id": "batch-10",
@@ -267,7 +267,7 @@
         "186",
         "187"
       ],
-      "reviewer": null
+      "reviewer": "audit-agent-batch-10"
     },
     {
       "batch_id": "batch-11",
@@ -293,7 +293,7 @@
         "204",
         "205"
       ],
-      "reviewer": null
+      "reviewer": "audit-agent-batch-11"
     },
     {
       "batch_id": "batch-12",
@@ -319,7 +319,7 @@
         "222",
         "223"
       ],
-      "reviewer": null
+      "reviewer": "audit-agent-batch-12"
     }
   ]
 }
