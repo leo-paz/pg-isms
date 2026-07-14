@@ -277,6 +277,18 @@ class ValidateRepositoryTests(unittest.TestCase):
 
         self.assert_invalid(fixture, "final", "invalid YAML|frontmatter")
 
+    def test_rejects_unquoted_skill_scalar_containing_colon_space(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        skill = fixture.repo / "skills/test-startup-judgment/SKILL.md"
+        skill.write_text(
+            "---\nname: test-startup-judgment\ndescription: Use when comparing: choices.\n---\n\n"
+            "# Test Startup Judgment\n\nCompare evidence.\n"
+        )
+
+        self.assert_invalid(fixture, "final", "invalid YAML|quote.*colon")
+
     def test_rejects_malformed_openai_yaml(self) -> None:
         temp_dir, fixture = self.fixture()
         self.addCleanup(temp_dir.cleanup)
@@ -287,6 +299,20 @@ class ValidateRepositoryTests(unittest.TestCase):
         )
 
         self.assert_invalid(fixture, "final", "invalid.*openai.yaml|openai.yaml.*invalid")
+
+    def test_rejects_single_quoted_scalar_with_unescaped_apostrophe(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        metadata = fixture.repo / "skills/test-startup-judgment/agents/openai.yaml"
+        metadata.write_text(
+            "interface:\n"
+            "  display_name: 'Founder's Choice'\n"
+            "  short_description: \"Compare consequential startup choices\"\n"
+            "  default_prompt: \"Use $test-startup-judgment to compare these choices.\"\n"
+        )
+
+        self.assert_invalid(fixture, "final", "invalid YAML|unescaped.*apostrophe")
 
     def test_rejects_missing_evaluation_evidence(self) -> None:
         temp_dir, fixture = self.fixture()
@@ -331,6 +357,24 @@ class ValidateRepositoryTests(unittest.TestCase):
         summary_path.write_text(json.dumps(summary))
 
         self.assert_invalid(fixture, "final", "raw output")
+
+    def test_rejects_unsupported_extra_evaluation_case_type(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        cases_path = fixture.repo / "evals/test-startup-judgment/cases.json"
+        cases = json.loads(cases_path.read_text())
+        cases["cases"].append(
+            {
+                "id": "unsupported",
+                "type": "surprise",
+                "prompt": "Run an unsupported evaluation type.",
+                "criteria": ["This type must be rejected."],
+            }
+        )
+        cases_path.write_text(json.dumps(cases))
+
+        self.assert_invalid(fixture, "final", "unsupported evaluation case type|invalid.*case type")
 
     def test_rejects_incomplete_final_review_categories(self) -> None:
         temp_dir, fixture = self.fixture()

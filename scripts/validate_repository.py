@@ -41,6 +41,7 @@ FINAL_REVIEW_CATEGORIES = {
     "triggering quality",
     "copyright hygiene",
 }
+EVALUATION_CASE_TYPES = {"trigger", "non-trigger", "application", "condition", "edge"}
 
 
 class ValidationError(ValueError):
@@ -336,9 +337,21 @@ def _yaml_scalar(value: str, path: Path, line_number: int, *, require_quoted: bo
         return parsed
     if value.startswith("'"):
         _require(len(value) >= 2 and value.endswith("'"), f"invalid YAML scalar in {path}:{line_number}")
-        return value[1:-1].replace("''", "'")
+        inner = value[1:-1]
+        index = 0
+        while index < len(inner):
+            if inner[index] == "'":
+                _require(
+                    index + 1 < len(inner) and inner[index + 1] == "'",
+                    f"invalid YAML scalar in {path}:{line_number}: unescaped apostrophe",
+                )
+                index += 2
+            else:
+                index += 1
+        return inner.replace("''", "'")
     _require(not require_quoted, f"invalid YAML in {path}:{line_number}: string values must be quoted")
     _require(value[0] not in "[{&*!|>@`", f"invalid YAML scalar in {path}:{line_number}")
+    _require(re.search(r":\s", value) is None, f"invalid YAML scalar in {path}:{line_number}: quote colon-space values")
     return value
 
 
@@ -405,12 +418,15 @@ def _evaluation_cases(path: Path, skill_name: str) -> Set[str]:
         _require(isinstance(case.get("prompt"), str) and case["prompt"].strip(), f"evaluation case {case_id} has no prompt")
         _require(_string_list(case.get("criteria"), allow_empty=False), f"evaluation case {case_id} has no scoring criteria")
         _require(isinstance(case.get("type"), str), f"evaluation case {case_id} has no type")
+        _require(
+            case["type"] in EVALUATION_CASE_TYPES,
+            f"unsupported evaluation case type for {case_id}: {case['type']!r}",
+        )
         case_ids.append(case_id)
         case_types.add(case["type"])
     duplicates = _duplicates(case_ids)
     _require(not duplicates, f"duplicate evaluation case ids for {skill_name}: {sorted(duplicates)}")
-    required_types = {"trigger", "non-trigger", "application", "condition", "edge"}
-    _require(required_types <= case_types, f"evaluation cases for {skill_name} are incomplete")
+    _require(EVALUATION_CASE_TYPES <= case_types, f"evaluation cases for {skill_name} are incomplete")
     return set(case_ids)
 
 

@@ -141,3 +141,29 @@ $ python3 -m unittest discover -s tests -v
 Ran 23 tests
 OK
 ```
+
+### Checkpoint 1 second review remediation
+
+The second review found two remaining schema-boundary gaps. Three focused tests were added first: an unquoted frontmatter value containing colon-space, a single-quoted interface string with an unescaped apostrophe, and an unsupported evaluation type added alongside all five required types.
+
+Focused RED:
+
+```text
+$ python3 -m unittest -v \
+  tests.test_validate_repository.ValidateRepositoryTests.test_rejects_unquoted_skill_scalar_containing_colon_space \
+  tests.test_validate_repository.ValidateRepositoryTests.test_rejects_single_quoted_scalar_with_unescaped_apostrophe \
+  tests.test_validate_repository.ValidateRepositoryTests.test_rejects_unsupported_extra_evaluation_case_type
+Ran 3 tests
+FAILED (failures=3)
+```
+
+The first two failed because no `ValidationError` was raised. The third exposed only a later summary/case mismatch rather than rejecting the unsupported type at the cases schema boundary.
+
+Focused GREEN:
+
+```text
+Ran 4 tests
+OK
+```
+
+The GREEN run included the three regressions plus the valid final fixture, proving canonical generated `agents/openai.yaml` and valid plain SKILL frontmatter still pass. The accepted standard-library scalar subset and closed case-type vocabulary are now explicit in the implementation plan.
