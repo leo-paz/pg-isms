@@ -277,6 +277,42 @@ class ValidateRepositoryTests(unittest.TestCase):
 
         self.assert_invalid(fixture, "final", "invalid YAML|frontmatter")
 
+    def test_rejects_indented_opening_frontmatter_delimiter(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        skill = fixture.repo / "skills/test-startup-judgment/SKILL.md"
+        skill.write_text(
+            "  ---\nname: test-startup-judgment\ndescription: Use when comparing choices.\n---\n\n"
+            "# Test Startup Judgment\n\nCompare evidence.\n"
+        )
+
+        self.assert_invalid(fixture, "final", "frontmatter|opening delimiter")
+
+    def test_rejects_indented_closing_frontmatter_delimiter(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        skill = fixture.repo / "skills/test-startup-judgment/SKILL.md"
+        skill.write_text(
+            "---\nname: test-startup-judgment\ndescription: Use when comparing choices.\n  ---\n\n"
+            "# Test Startup Judgment\n\nCompare evidence.\n"
+        )
+
+        self.assert_invalid(fixture, "final", "frontmatter|closing delimiter")
+
+    def test_rejects_internal_tab_in_plain_skill_scalar(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        skill = fixture.repo / "skills/test-startup-judgment/SKILL.md"
+        skill.write_text(
+            "---\nname: test-startup-judgment\ndescription: Use when comparing\tchoices.\n---\n\n"
+            "# Test Startup Judgment\n\nCompare evidence.\n"
+        )
+
+        self.assert_invalid(fixture, "final", "tab|non-printable|invalid YAML")
+
     def test_rejects_unquoted_skill_scalar_containing_colon_space(self) -> None:
         temp_dir, fixture = self.fixture()
         self.addCleanup(temp_dir.cleanup)
@@ -325,6 +361,20 @@ class ValidateRepositoryTests(unittest.TestCase):
         )
 
         self.assert_invalid(fixture, "final", "invalid YAML|unescaped.*apostrophe")
+
+    def test_rejects_non_printable_control_character_in_quoted_scalar(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        metadata = fixture.repo / "skills/test-startup-judgment/agents/openai.yaml"
+        metadata.write_text(
+            "interface:\n"
+            "  display_name: 'Founder\x01Choice'\n"
+            "  short_description: \"Compare consequential startup choices\"\n"
+            "  default_prompt: \"Use $test-startup-judgment to compare these choices.\"\n"
+        )
+
+        self.assert_invalid(fixture, "final", "non-printable|control character|invalid YAML")
 
     def test_rejects_missing_evaluation_evidence(self) -> None:
         temp_dir, fixture = self.fixture()

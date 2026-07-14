@@ -325,7 +325,21 @@ def _validate_taxonomy(repo: Path, audit: List[Dict[str, Any]], proof: Dict[str,
     return entries
 
 
+def _yaml_printable(value: str) -> bool:
+    return all(
+        character == "\t"
+        or 0x20 <= ord(character) <= 0x7E
+        or ord(character) == 0x85
+        or 0xA0 <= ord(character) <= 0xD7FF
+        or 0xE000 <= ord(character) <= 0xFFFD
+        or 0x10000 <= ord(character) <= 0x10FFFF
+        for character in value
+    )
+
+
 def _yaml_scalar(value: str, path: Path, line_number: int, *, require_quoted: bool = False) -> str:
+    _require(_yaml_printable(value), f"invalid YAML scalar in {path}:{line_number}: non-printable control character")
+    _require("\t" not in value, f"invalid YAML scalar in {path}:{line_number}: tab characters are not supported")
     value = value.strip()
     _require(bool(value), f"invalid YAML scalar in {path}:{line_number}")
     if value.startswith('"'):
@@ -334,6 +348,7 @@ def _yaml_scalar(value: str, path: Path, line_number: int, *, require_quoted: bo
         except json.JSONDecodeError as exc:
             raise ValidationError(f"invalid YAML scalar in {path}:{line_number}: {exc}") from exc
         _require(isinstance(parsed, str), f"invalid YAML scalar in {path}:{line_number}")
+        _require(_yaml_printable(parsed), f"invalid YAML scalar in {path}:{line_number}: non-printable control character")
         return parsed
     if value.startswith("'"):
         _require(len(value) >= 2 and value.endswith("'"), f"invalid YAML scalar in {path}:{line_number}")
@@ -360,11 +375,11 @@ def _yaml_scalar(value: str, path: Path, line_number: int, *, require_quoted: bo
 
 def _frontmatter(text: str, path: Path) -> Dict[str, str]:
     lines = text.splitlines()
-    _require(lines and lines[0].strip() == "---", f"{path} has invalid YAML frontmatter")
+    _require(lines and lines[0] == "---", f"{path} has invalid YAML frontmatter opening delimiter")
     metadata: Dict[str, str] = {}
     closing_index: Optional[int] = None
     for line_number, line in enumerate(lines[1:], start=2):
-        if line.strip() == "---":
+        if line == "---":
             closing_index = line_number - 1
             break
         if not line.strip():

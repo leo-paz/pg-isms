@@ -188,3 +188,23 @@ OK
 ```
 
 Full discovery then reported `Ran 27 tests` and `OK`.
+
+### Checkpoint 1 canonical boundary remediation
+
+Comparison with the official `quick_validate.py` frontmatter matcher exposed four remaining boundary cases. Focused tests were written first for indented opening and closing delimiters, an internal tab in a plain description, and a non-printable control character in a quoted interface scalar.
+
+```text
+$ python3 -m unittest -v <four focused canonical-boundary tests>
+Ran 4 tests
+FAILED (failures=4)
+AssertionError: ValidationError not raised
+```
+
+The local final gate now requires exact column-zero delimiters and YAML-printable scalar characters, with literal tabs outside the accepted canonical subset. The same four regressions plus the valid final fixture then passed:
+
+```text
+Ran 5 tests
+OK
+```
+
+Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifest gate, and `git diff --check` also passed.
