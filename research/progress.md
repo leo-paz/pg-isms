@@ -218,6 +218,30 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
 - Remaining work: complete all 12 audit batches, independent overlap/gap review, evidence-led taxonomy, sequential skill RED-GREEN-REFACTOR loops, final independent review, README, and final repository gate.
 - Blockers: none.
 
+## Checkpoint 2 progress: controlled theme normalization
+
+- RED: the initial 17 focused projection tests all failed before
+  `scripts/build_theme_projection.py` existed; later focused regressions also exposed
+  nonstring projection identity handling and the `True == 1` schema-version bug.
+- GREEN: 36 focused standard-library tests now cover exact schemas, strict types,
+  complete raw-theme coverage, mapping arity/targets, deterministic projection,
+  malformed/stale/missing/extra/duplicate/unsorted records, and byte-current
+  read-only `--check` behavior.
+- Two independent non-overlapping semantic partitions supplied exact mappings:
+  `473` distinct labels for essays `001-112` and `499` for essays `113-223`, with
+  `25` overlapping raw labels explicitly reconciled into `947` global mappings.
+- Projection proof: `1,041` raw assignments, `947` distinct raw labels, `876`
+  singleton raw labels, `112` canonical research themes, and `204` relevant essays.
+  Raw audit labels remain unchanged, and the canonical vocabulary is explicitly not
+  a skill taxonomy.
+- Verification: default generation and `--check` both passed; full discovery
+  reported `Ran 78 tests` and `OK`; Python compilation and `git diff --check` exited
+  `0`.
+- Remaining work in Checkpoint 2: independent semantic over/under-merge and compound/
+  condition-loss re-review of the frozen map, followed by the full-corpus identity,
+  retrieval, and copyright integrity pass.
+- Blockers: none.
+
 ## Checkpoint 2 progress: audit wave 1
 
 - Primary coverage: batches `batch-01` through `batch-03`, articles `001-057`, with `57` ordered audit records and one full-document read per essay.
@@ -277,4 +301,75 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
 - Independent boundary verdict: pass, with no remaining relabeling or source-grounding finding.
 - Independent article-level theme verdict: pass for `I2-I8` and `M1-M3`; the sole remaining audit-phase blocker is `I1`, controlled normalization of the fragmented raw theme vocabulary before taxonomy synthesis.
 - Remaining work in Checkpoint 2: complete and independently review the non-destructive raw-to-canonical theme normalization, then run the separate full-corpus identity/retrieval/copyright integrity pass.
+- Blockers: none.
+
+## Checkpoint 2 progress: override-aware semantic remediation
+
+- Override RED: six focused tests failed against the old global-only mapping schema
+  (`Ran 6 tests`, `FAILED (failures=11)`). GREEN passed all six after implementing
+  replacement article overrides; the complete focused projection suite now reports
+  `48` passing tests.
+- The non-destructive schema now permits a sorted article override only for a relevant
+  essay that actually contains the raw label. Exact fields, reviewer, one-to-three
+  targets, target sorting/uniqueness/definition, duplicate articles, deterministic
+  replacement, override-inclusive canonical usage, and stale byte checks are enforced.
+- Every exact finding in the integrated review and semantic red team was applied,
+  including originality/writing boundaries, peer/team/maker concepts, bias and trust,
+  investor direction, source-specific launch safety, venture/scaling semantics,
+  urgency, historical qualifiers, role/adjective collisions, and evidence latency.
+- Twelve article overrides disambiguate five recurrent labels: `talent attraction`,
+  `founder support`, `owned projects`, `incentive alignment`, and `intellectual
+  honesty`. Raw audit labels and the exact one-row-per-raw invariant are unchanged.
+- Current proof: `1,041` assignments, `947` distinct raw labels, `876` singletons,
+  `118` canonical research themes, `12` overrides, and `204` relevant essay
+  projections. Default generation and `--check` pass with stable normalization hash
+  `17628b5e...d9adcbb` and projection hash `470149c4...de88c13`.
+- Full verification: `90` tests passed; Python compilation, audit validation, and
+  `git diff --check` exited `0`.
+- A fresh red-team pass narrowed its hold to nine rows. Updated production semantic
+  expectations failed all nine old mappings before the exact source-specific repairs;
+  the focused suite returned to `48` passing tests and full discovery returned to
+  `90` passing tests. No other semantic mappings changed in this residual pass.
+- Final re-review: both independent semantic reviewers approved the hash-pinned
+  artifact with no open findings. The independent integrity reviewer separately
+  reconfirmed corpus/audit/batch identity, retrieval/full-read proof, evidence-line
+  validity, deterministic assembly/projection, override mechanics, and copyright
+  hygiene.
+- Remaining work: publish Checkpoint 2, then synthesize and independently challenge
+  the minimal workflow taxonomy before authoring any skill.
+- Blockers: none.
+
+## Checkpoint 2 verified
+
+- Corpus audit: `223` exact essays, `84` core startup, `120` supporting startup,
+  `19` specifically excluded, `0` gaps or overlaps, and `223` recorded full reads.
+- Retrieval: all `12` batches have successful BM25 and semantic QMD evidence; every
+  assigned essay has a full-document retrieval record.
+- Evidence: `616` relevant line ranges were independently checked against source
+  bounds; canonical assembly is byte-idempotent.
+- Normalization: `1,041` assignments, `947` exact raw labels, `876` singletons,
+  `118` canonical research themes, `12` article overrides across five homonyms, and
+  `204` relevant projections with `0` excluded projections.
+- Stable hashes: normalization
+  `17628b5e5349c93e22219807e44374121f5237c7988cae819232b7d07d9adcbb`;
+  projection `470149c4a26eacd92ebf0bae344df664b668a407271744d023730fc54de88c13`.
+- Review: the classification boundary, article-level theme/workflow corrections,
+  integrated normalization, semantic red team, and non-semantic integrity checks
+  all pass. The final semantic reviewers found no remaining over/under merge,
+  compound loss, condition loss, or taxonomy leakage.
+- Verification:
+
+  ```text
+  theme projection check passed: raw_assignments=1041 distinct_raw=947 singleton_raw=876 canonical=118 article_overrides=12 relevant_essays=204
+  python3 -m unittest discover -s tests -v
+  Ran 90 tests
+  OK
+  audit validation passed: corpus_files=223 manifest_essays=223 unique_assignments=223 batches=12 gaps=0 overlaps=0 classified=223 unaudited=0 audit_duplicates=0 core_startup=84 supporting_startup=120 excluded=19
+  ```
+
+- Copyright hygiene: independent broad and validator-style 40-token scans found
+  `0` corpus matches in publishable repository artifacts.
+- Remaining work: derive and review the minimal complete taxonomy, then execute the
+  sequential per-skill RED-GREEN-REFACTOR, metadata, validation, forward-test,
+  commit, and push loop.
 - Blockers: none.

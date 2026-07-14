@@ -183,34 +183,44 @@
 ### Task 3: Synthesize Themes and Freeze the Minimal Taxonomy
 
 **Files:**
+- Create: `research/theme-normalization.json`
+- Create: `research/essay-theme-map.jsonl`
 - Create: `research/theme-synthesis.md`
 - Create: `research/taxonomy.json`
+- Create: `scripts/build_theme_projection.py`
+- Create: `tests/test_build_theme_projection.py`
 - Modify: `research/essay-audit.jsonl`
 - Modify: `research/progress.md`
 
 **Interfaces:**
 - Taxonomy records contain `skill_name`, `purpose`, `triggers`, `non_triggers`, `themes`, `essay_ids`, `stage_conditions`, `tensions`, and `candidate_eval_cases`.
 - Every core/supporting audit record maps to one or more synthesized themes and final skill names.
+- The normalization map preserves raw labels and maps every distinct raw theme exactly once to one to three defined canonical research themes; it is not a skill taxonomy.
+- The derived essay-theme projection is deterministic, contains every relevant essay exactly once, and is empty for excluded essays by omission.
 - Theme coverage uses normalized exact labels: case-fold each label, replace punctuation/underscores with spaces, and collapse whitespace. Every normalized audited theme for a relevant essay must occur in the taxonomy themes of at least one of that essay's mapped `final_skills`; unrelated nonempty placeholders do not count.
 - Every final skill must represent an actionable workflow, decision, or mental model distinct from its neighbors.
 
-- [ ] **Step 1: Use brainstorming to cluster audited evidence without preset categories**
+- [ ] **Step 1: Normalize the audited theme vocabulary without choosing skills**
+
+  Write failing standard-library tests for unmapped/duplicate raw themes, undefined or unused canonical themes, invalid multi-target mappings, and stale essay projections. Implement `build_theme_projection.py`, create the complete reviewed normalization map, generate `essay-theme-map.jsonl`, and run a fresh-context review for over-merging, under-merging, compound-label loss, and taxonomy leakage.
+
+- [ ] **Step 2: Use brainstorming to cluster audited evidence without preset skill categories**
 
   Cluster all relevant essay themes and candidate workflows, merge synonyms, identify stage/product/urgency conditions, and preserve genuine tensions. Use BM25 and semantic queries to challenge each cluster, then retrieve full passages before changing evidence.
 
-- [ ] **Step 2: Draft the minimal taxonomy and coverage map**
+- [ ] **Step 3: Draft the minimal taxonomy and coverage map**
 
   For each proposed skill, state a distinct job, realistic trigger prompts, non-trigger counterexamples, covered themes/essays, stage conditions, and overlap boundary. Reject essay-summary-only categories and mechanically enforce that every relevant essay is covered.
 
-- [ ] **Step 3: Dispatch independent fresh-context taxonomy critics**
+- [ ] **Step 4: Dispatch independent fresh-context taxonomy critics**
 
   Assign separate critics to: missing principles/wrong exclusions; overlap/merge opportunities; contradictions/stage conditions; and trigger/non-trigger quality. Give only the audit, synthesis, taxonomy, and corpus/QMD access—not intended conclusions.
 
-- [ ] **Step 4: Verify findings against full passages and revise**
+- [ ] **Step 5: Verify findings against full passages and revise**
 
   Record accepted and rejected findings with evidence. Update `final_skills` in the canonical audit and numeric-sort deterministically.
 
-- [ ] **Step 5: Run the taxonomy gate and publish checkpoint 3**
+- [ ] **Step 6: Run the taxonomy gate and publish checkpoint 3**
 
   Run:
 

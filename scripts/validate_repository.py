@@ -14,8 +14,10 @@ from typing import Any, Dict, Iterable, List, Mapping, Optional, Sequence, Set, 
 
 try:
     from .build_research_scaffold import AUDIT_FIELDS, read_corpus
+    from .build_theme_projection import ProjectionError, build as check_theme_projection
 except ImportError:  # Direct script execution.
     from build_research_scaffold import AUDIT_FIELDS, read_corpus
+    from build_theme_projection import ProjectionError, build as check_theme_projection
 
 
 PHASES = ("manifest", "audit", "taxonomy", "final")
@@ -266,7 +268,20 @@ def _normalized_theme(value: str) -> str:
     return " ".join(re.sub(r"[\W_]+", " ", value.casefold()).split())
 
 
+def _load_current_theme_projection(repo: Path) -> List[Dict[str, Any]]:
+    """Require the deterministic theme projection to match its current inputs."""
+    projection_path = repo / "research/essay-theme-map.jsonl"
+    _require(projection_path.is_file(), f"theme projection missing: {projection_path}")
+    try:
+        check_theme_projection(repo, check=True)
+    except ProjectionError as exc:
+        raise ValidationError(f"theme projection validation failed: {exc}") from exc
+    return _load_jsonl(projection_path)
+
+
 def _validate_taxonomy(repo: Path, audit: List[Dict[str, Any]], proof: Dict[str, int]) -> List[Dict[str, Any]]:
+    projection = _load_current_theme_projection(repo)
+    projection_by_id = {record["article_no"]: record for record in projection}
     synthesis = repo / "research/theme-synthesis.md"
     _require(synthesis.is_file() and len(synthesis.read_text(encoding="utf-8").split()) >= 5, "missing theme synthesis")
     entries = _taxonomy_entries(_load_json(repo / "research/taxonomy.json"))
@@ -310,18 +325,26 @@ def _validate_taxonomy(repo: Path, audit: List[Dict[str, Any]], proof: Dict[str,
         _require(not missing_pairings, f"taxonomy does not reciprocally cover essay {article_no}")
         taxonomy_only = {name for paired_id, name in pairings if paired_id == article_no} - final_skills
         _require(not taxonomy_only, f"audit does not reciprocally map essay {article_no}: {sorted(taxonomy_only)}")
-        audited_themes = {_normalized_theme(theme) for theme in audit_by_id[article_no]["themes"]}
+        canonical_themes = {
+            _normalized_theme(theme) for theme in projection_by_id[article_no]["canonical_themes"]
+        }
         mapped_themes = {
             _normalized_theme(theme)
             for skill_name in final_skills
             for theme in taxonomy_by_name[skill_name]["themes"]
         }
-        missing_themes = audited_themes - mapped_themes
+        missing_themes = canonical_themes - mapped_themes
         _require(
             not missing_themes,
-            f"taxonomy theme coverage for essay {article_no} omits audited themes: {sorted(missing_themes)}",
+            f"taxonomy theme coverage for essay {article_no} omits canonical themes: {sorted(missing_themes)}",
         )
-    proof.update(skills=len(entries), relevant_essays=len(relevant_ids), uncovered_relevant=len(uncovered), orphan_skills=0)
+    proof.update(
+        skills=len(entries),
+        relevant_essays=len(relevant_ids),
+        projected_essays=len(projection),
+        uncovered_relevant=len(uncovered),
+        orphan_skills=0,
+    )
     return entries
 
 

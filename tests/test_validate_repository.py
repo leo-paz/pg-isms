@@ -3,6 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from scripts.build_theme_projection import build as build_theme_projection
 from scripts.build_research_scaffold import build_research_scaffold
 from scripts.validate_repository import ValidationError, validate_repository
 
@@ -78,6 +79,29 @@ class RepositoryFixture:
 
     def add_valid_taxonomy(self) -> None:
         self.add_valid_audit()
+        normalization = {
+            "schema_version": 1,
+            "method_notes": [
+                "Raw audit labels remain intact while taxonomy uses canonical research themes."
+            ],
+            "canonical_themes": [
+                {
+                    "name": "startup judgment",
+                    "definition": "Evidence-guided judgment for consequential startup choices.",
+                }
+            ],
+            "mappings": [
+                {
+                    "raw_theme": "testing startup judgment",
+                    "canonical_themes": ["startup judgment"],
+                    "reviewer": "normalization-reviewer",
+                }
+            ],
+        }
+        (self.repo / "research/theme-normalization.json").write_text(
+            json.dumps(normalization, indent=2) + "\n", encoding="utf-8"
+        )
+        build_theme_projection(self.repo)
         taxonomy = {
             "skills": [
                 {
@@ -85,7 +109,7 @@ class RepositoryFixture:
                     "purpose": "Apply evidence to a startup decision.",
                     "triggers": ["Choose between startup approaches."],
                     "non_triggers": ["Summarize an unrelated essay."],
-                    "themes": ["testing startup judgment"],
+                    "themes": ["startup judgment"],
                     "essay_ids": ["001"],
                     "stage_conditions": ["Use before committing scarce resources."],
                     "tensions": ["Speed versus confidence."],
@@ -236,6 +260,16 @@ class ValidateRepositoryTests(unittest.TestCase):
 
         self.assert_invalid(fixture, "audit", "themes.*evidence|evidence.*themes")
 
+    def test_audit_phase_does_not_require_theme_projection(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_audit()
+
+        proof = validate_repository(fixture.repo, fixture.corpus, "audit")
+
+        self.assertEqual(223, proof["classified"])
+        self.assertFalse((fixture.repo / "research/essay-theme-map.jsonl").exists())
+
     def test_rejects_taxonomy_coverage_gap(self) -> None:
         temp_dir, fixture = self.fixture()
         self.addCleanup(temp_dir.cleanup)
@@ -247,7 +281,16 @@ class ValidateRepositoryTests(unittest.TestCase):
 
         self.assert_invalid(fixture, "taxonomy", "coverage gap|not covered")
 
-    def test_rejects_taxonomy_themes_unrelated_to_audited_themes(self) -> None:
+    def test_taxonomy_uses_canonical_projection_themes_instead_of_raw_audit_labels(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_taxonomy()
+
+        proof = validate_repository(fixture.repo, fixture.corpus, "taxonomy")
+
+        self.assertEqual(1, proof["skills"])
+
+    def test_rejects_taxonomy_themes_missing_a_canonical_projection_theme(self) -> None:
         temp_dir, fixture = self.fixture()
         self.addCleanup(temp_dir.cleanup)
         fixture.add_valid_taxonomy()
@@ -256,7 +299,35 @@ class ValidateRepositoryTests(unittest.TestCase):
         taxonomy["skills"][0]["themes"] = ["unrelated placeholder"]
         taxonomy_path.write_text(json.dumps(taxonomy))
 
-        self.assert_invalid(fixture, "taxonomy", "audited themes|theme coverage")
+        self.assert_invalid(fixture, "taxonomy", "canonical themes|theme coverage")
+
+    def test_rejects_taxonomy_when_theme_projection_is_absent(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_taxonomy()
+        (fixture.repo / "research/essay-theme-map.jsonl").unlink()
+
+        self.assert_invalid(fixture, "taxonomy", "theme projection.*missing|missing.*essay-theme-map")
+
+    def test_rejects_taxonomy_when_theme_projection_is_stale(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_taxonomy()
+        normalization_path = fixture.repo / "research/theme-normalization.json"
+        normalization = json.loads(normalization_path.read_text())
+        normalization["canonical_themes"][0]["name"] = "startup decision quality"
+        normalization["mappings"][0]["canonical_themes"] = ["startup decision quality"]
+        normalization_path.write_text(json.dumps(normalization, indent=2) + "\n")
+
+        self.assert_invalid(fixture, "taxonomy", "theme projection.*stale|stale.*projection")
+
+    def test_rejects_taxonomy_when_theme_projection_is_corrupt(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_taxonomy()
+        (fixture.repo / "research/essay-theme-map.jsonl").write_text("{not-json}\n")
+
+        self.assert_invalid(fixture, "taxonomy", "theme projection.*invalid|invalid JSONL")
 
     def test_rejects_missing_skill_package_metadata(self) -> None:
         temp_dir, fixture = self.fixture()
