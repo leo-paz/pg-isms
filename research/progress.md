@@ -167,3 +167,24 @@ OK
 ```
 
 The GREEN run included the three regressions plus the valid final fixture, proving canonical generated `agents/openai.yaml` and valid plain SKILL frontmatter still pass. The accepted standard-library scalar subset and closed case-type vocabulary are now explicit in the implementation plan.
+
+### Checkpoint 1 third review remediation
+
+A focused regression proved the plain-scalar parser still accepted a colon at end-of-string:
+
+```text
+$ python3 -m unittest -v \
+  tests.test_validate_repository.ValidateRepositoryTests.test_rejects_unquoted_skill_scalar_ending_in_colon
+Ran 1 test
+FAILED (failures=1)
+AssertionError: ValidationError not raised
+```
+
+The delimiter rule now rejects colon followed by whitespace or end-of-string. The focused GREEN run included the new regression, the existing colon-space regression, and the canonical valid final fixture:
+
+```text
+Ran 3 tests
+OK
+```
+
+Full discovery then reported `Ran 27 tests` and `OK`.

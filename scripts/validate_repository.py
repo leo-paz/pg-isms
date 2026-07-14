@@ -351,7 +351,10 @@ def _yaml_scalar(value: str, path: Path, line_number: int, *, require_quoted: bo
         return inner.replace("''", "'")
     _require(not require_quoted, f"invalid YAML in {path}:{line_number}: string values must be quoted")
     _require(value[0] not in "[{&*!|>@`", f"invalid YAML scalar in {path}:{line_number}")
-    _require(re.search(r":\s", value) is None, f"invalid YAML scalar in {path}:{line_number}: quote colon-space values")
+    _require(
+        re.search(r":(?:\s|$)", value) is None,
+        f"invalid YAML scalar in {path}:{line_number}: quote colon-delimited values",
+    )
     return value
 
 

@@ -289,6 +289,18 @@ class ValidateRepositoryTests(unittest.TestCase):
 
         self.assert_invalid(fixture, "final", "invalid YAML|quote.*colon")
 
+    def test_rejects_unquoted_skill_scalar_ending_in_colon(self) -> None:
+        temp_dir, fixture = self.fixture()
+        self.addCleanup(temp_dir.cleanup)
+        fixture.add_valid_final()
+        skill = fixture.repo / "skills/test-startup-judgment/SKILL.md"
+        skill.write_text(
+            "---\nname: test-startup-judgment\ndescription: Use when comparing:\n---\n\n"
+            "# Test Startup Judgment\n\nCompare evidence.\n"
+        )
+
+        self.assert_invalid(fixture, "final", "invalid YAML|quote.*colon")
+
     def test_rejects_malformed_openai_yaml(self) -> None:
         temp_dir, fixture = self.fixture()
         self.addCleanup(temp_dir.cleanup)

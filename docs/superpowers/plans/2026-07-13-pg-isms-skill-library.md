@@ -238,7 +238,7 @@
 - The order is the stable order in `research/taxonomy.json`; do not scaffold the next package until the current package is committed and pushed.
 - Official tools live under `/Users/leopaz/.codex/skills/.system/skill-creator/scripts/`.
 - Every package contains only `SKILL.md`, `agents/openai.yaml`, and directly useful one-level resources such as `references/provenance.md`.
-- The repository validator supports the canonical generated metadata subset: a flat `SKILL.md` frontmatter mapping containing only `name` and `description`, plus an `agents/openai.yaml` `interface` mapping with quoted `display_name`, `short_description`, and `default_prompt` strings. Double-quoted strings use JSON-compatible escapes; single-quoted strings double internal apostrophes (`''`); SKILL frontmatter may also use a plain scalar when it has no YAML-reserved prefix or colon followed by whitespace. Agent interface strings must be quoted. Malformed quoting, indentation, duplicate keys, or unsupported structure fails the final gate.
+- The repository validator supports the canonical generated metadata subset: a flat `SKILL.md` frontmatter mapping containing only `name` and `description`, plus an `agents/openai.yaml` `interface` mapping with quoted `display_name`, `short_description`, and `default_prompt` strings. Double-quoted strings use JSON-compatible escapes; single-quoted strings double internal apostrophes (`''`); SKILL frontmatter may also use a plain scalar when it has no YAML-reserved prefix or colon followed by whitespace or end-of-string. Agent interface strings must be quoted. Malformed quoting, indentation, duplicate keys, or unsupported structure fails the final gate.
 
 **Evaluation artifact schema v1:**
 
