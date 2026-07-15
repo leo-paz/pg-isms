@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "attempt": 13,
+  "scorer_session": "019f63e8-0a93-7cf3-b76e-2ebef8cb930d",
+  "authorized_input_hashes_bytes": {
+    "rubric.json": {
+      "sha256": "43d31e9720b0784a5df24f0227ed024fe60e3caac713bb53faf68fe070b94017",
+      "bytes": 2825
+    },
+    "generation-plan.json": {
+      "sha256": "98520da519286e9c32510afdb68592b66cdecb43b5a77589e2957ea5b4d75901",
+      "bytes": 2080
+    },
+    "generation-attestation.json": {
+      "sha256": "ad2d97b6ec201d04c42404412cc7fa7d6bcf2985291365925ee3ecdb15887c52",
+      "bytes": 6017
+    },
+    "control/rep-1.md": {
+      "sha256": "05d64d4986296a4e1e303f52377f860937dd23cea664689bdf6654ed814fa37a",
+      "bytes": 2354
+    },
+    "control/rep-2.md": {
+      "sha256": "cc1f41ae62b519d74dee3b4c3623c2e28beec44e00529e700c5ea46b683bdb15",
+      "bytes": 1900
+    },
+    "control/rep-3.md": {
+      "sha256": "4de0795daab4355b27cfe952eda7c220e7e2418f076e745b44de4ad126d27875",
+      "bytes": 2337
+    },
+    "control/rep-4.md": {
+      "sha256": "97df59ac9c6ca8980696d2f7791e61b9133a3dbb60fcd100d794ec8434fffc44",
+      "bytes": 1953
+    },
+    "control/rep-5.md": {
+      "sha256": "d991d30365d13a29c93e832d9e68d8347e0507205a089b8a392790c460722e38",
+      "bytes": 2304
+    },
+    "guided/rep-1.md": {
+      "sha256": "784c17c6c1f352b52f74a1195e045170b174b4918d79a427a1cad711ca7695a6",
+      "bytes": 13653
+    },
+    "guided/rep-2.md": {
+      "sha256": "80c1027d0ea0a6ba0e2b4aaff520aafb7bd3d141b48c4dedf6e57e47c451f01e",
+      "bytes": 20405
+    },
+    "guided/rep-3.md": {
+      "sha256": "a957ea186a06c062a7f7cf1cf4b6d7599540aa363084d7f4179ab32526d38d7d",
+      "bytes": 16028
+    },
+    "guided/rep-4.md": {
+      "sha256": "1f4fc8c991e8f1e18d3713e5a9ce14499e614f6ecb264ce1a6b36333993776ab",
+      "bytes": 18554
+    },
+    "guided/rep-5.md": {
+      "sha256": "47b33f7af7a22430cf1b4b746a557aad5caf37580cbb47e35bcf505f5c566513",
+      "bytes": 14184
+    }
+  },
+  "integrity": {
+    "overall": true,
+    "rubric_hash_matches_plan_and_attestation": true,
+    "generation_plan_hash_matches_attestation": true,
+    "prompt_hash_matches_decoded_prompt_bytes": true,
+    "criteria_hash_matches_compact_json_bytes": true,
+    "response_hashes_and_bytes_match_attestation": true,
+    "ten_unique_tasks": true,
+    "ten_unique_sessions": true,
+    "ten_unique_response_hashes": true,
+    "ten_unique_response_bodies": true,
+    "planned_tasks_match_attested_tasks": true,
+    "boundaries_match_plan_and_attestation": true,
+    "criteria_hidden_from_generators": true,
+    "prior_outputs_hidden_from_generators": true,
+    "control_skill_absent": true,
+    "guided_current_skill_and_runtime_only": true,
+    "plan_frozen_before_generation": true,
+    "responses_frozen_before_scoring": true,
+    "chronology_valid": true,
+    "chronology": {
+      "plan_created_at": "2026-07-15T03:49:55Z",
+      "generation_completed_at": "2026-07-15T03:52:11Z"
+    },
+    "headers_valid": true,
+    "no_trailing_whitespace": true,
+    "exactly_one_final_lf": true,
+    "frozen_inputs_modified": false
+  },
+  "vectors": {
+    "control": {
+      "rep-1": [0, 0, 0, 0, 0],
+      "rep-2": [0, 0, 0, 0, 0],
+      "rep-3": [0, 0, 0, 0, 0],
+      "rep-4": [0, 0, 0, 0, 0],
+      "rep-5": [0, 0, 0, 0, 0]
+    },
+    "guided": {
+      "rep-1": [1, 1, 1, 1, 1],
+      "rep-2": [1, 1, 1, 1, 1],
+      "rep-3": [1, 1, 1, 1, 1],
+      "rep-4": [1, 1, 1, 1, 1],
+      "rep-5": [1, 0, 1, 1, 1]
+    }
+  },
+  "means": {
+    "control_rep_means": [0.0, 0.0, 0.0, 0.0, 0.0],
+    "guided_rep_means": [1.0, 1.0, 1.0, 1.0, 0.8],
+    "control_criterion_means": [0.0, 0.0, 0.0, 0.0, 0.0],
+    "guided_criterion_means": [1.0, 0.8, 1.0, 1.0, 1.0],
+    "control": 0.0,
+    "guided": 0.96
+  },
+  "guided_minus_control_effect": 0.96,
+  "threshold": 0.2,
+  "material": true,
+  "verdict": "material positive guided effect",
+  "exact_misses": {
+    "control/rep-1.md": {
+      "C1": "No primary skill owner, ordered named-skill handoffs, or specialist ownership map.",
+      "C2": "No material manual/status-quo alternative and no explicit observed-fact/inference separation.",
+      "C3": "No complete causal advantage chain or incumbent/distribution/legacy/response/durability test.",
+      "C4": "No complete dependency record or bounded voluntary builder loop with exposure limits and executed rollback.",
+      "C5": "No required branch selections or complete dated, guarded, owned outcome commitments."
+    },
+    "control/rep-2.md": {
+      "C1": "No primary skill owner, ordered named-skill handoffs, or specialist ownership map.",
+      "C2": "No material manual/status-quo alternative and no explicit observed-fact/inference separation.",
+      "C3": "No complete causal advantage chain or incumbent legacy/response/durability test.",
+      "C4": "No complete dependency record or bounded voluntary builder loop with rollback verification.",
+      "C5": "No required branch selections or complete dated, guarded, owned outcome commitments."
+    },
+    "control/rep-3.md": {
+      "C1": "No primary skill owner, ordered named-skill handoffs, or specialist ownership map.",
+      "C2": "No material manual/status-quo alternative and no explicit observed-fact/inference separation.",
+      "C3": "No complete causal advantage chain or incumbent ability/incentive/legacy/response/durability test.",
+      "C4": "No complete dependency record or revocable builder-loop exposure with executed rollback.",
+      "C5": "No required branch selections or complete thresholds, guardrails, disconfirmation, options, and owners."
+    },
+    "control/rep-4.md": {
+      "C1": "No primary skill owner, ordered named-skill handoffs, or specialist ownership map.",
+      "C2": "No material manual/status-quo alternative and no verified-fact/inference boundary.",
+      "C3": "No evidenced causal chain or full incumbent and durability test; defensibility is asserted.",
+      "C4": "No complete dependency record or voluntary builder-user loop with limits and rollback proof.",
+      "C5": "No required branch selections or complete dated, guarded, owned outcome commitments."
+    },
+    "control/rep-5.md": {
+      "C1": "No primary skill owner, ordered named-skill handoffs, or specialist ownership map.",
+      "C2": "No material manual/status-quo alternative and no explicit observed-fact/inference separation.",
+      "C3": "No full mechanism-to-refresh chain or incumbent distribution/ability/incentive/legacy/response test.",
+      "C4": "No complete dependency record or bounded voluntary builder loop with rollback verification.",
+      "C5": "No required branch selections or complete thresholds, guardrails, disconfirmation, options, and owners."
+    },
+    "guided/rep-1.md": {},
+    "guided/rep-2.md": {},
+    "guided/rep-3.md": {},
+    "guided/rep-4.md": {},
+    "guided/rep-5.md": {
+      "C2": "No material manual/status-quo alternative is mapped; the criterion is conjunctive."
+    }
+  }
+}

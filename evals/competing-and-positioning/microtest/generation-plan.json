@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "skill_name": "competing-and-positioning",
+  "phase": "microtest",
+  "attempt": 13,
+  "created_at": "2026-07-15T03:49:55Z",
+  "generator_backend": "codex exec 0.144.4",
+  "generator_model": "Codex CLI (GPT-5)",
+  "plan_frozen_before_generation": true,
+  "rubric_sha256": "43d31e9720b0784a5df24f0227ed024fe60e3caac713bb53faf68fe070b94017",
+  "prompt_projection": "decoded prompt only",
+  "prompt_sha256": "bd8c739ed91d02c7217c1baa53f9c0ae3b948fae072c867e9f56758deaac0913",
+  "prompt_projection_sha256": "3ded3e260b959533c0f4a6d59d478a8bf0bb462babeeae605f91c472543594d9",
+  "criteria_sha256": "7094901960c2cff832fb99ff23d31e79f23f265888c170dfacc3b92b8786572d",
+  "criteria_visible_before_generation": false,
+  "criteria_visible_during_generation": false,
+  "criteria_hidden_during_generation": true,
+  "prior_outputs_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "working_root": "/tmp",
+  "user_config_ignored": true,
+  "pre_freeze_wrapper_normalization": "remove only trailing SP/TAB from each line, then retain exactly one final LF; no other byte may change",
+  "control_skill_sha256": null,
+  "guided_skill_sha256": "e26c7880d81927bacdf441847e9b14d755616fad14ac3128430974800840ed53",
+  "guided_runtime_sha256": "6cdcae095af252b4e7a294224c53a0813276354fe6c9f08c2a49d02d4de7a398",
+  "read_boundaries": {
+    "control": ["decoded prompt"],
+    "guided": ["decoded prompt", "skills/competing-and-positioning/SKILL.md", "skills/competing-and-positioning/references/runtime-contract.md"]
+  },
+  "planned_tasks": [
+    "/codex-exec/positioning-micro-013-control-1",
+    "/codex-exec/positioning-micro-013-control-2",
+    "/codex-exec/positioning-micro-013-control-3",
+    "/codex-exec/positioning-micro-013-control-4",
+    "/codex-exec/positioning-micro-013-control-5",
+    "/codex-exec/positioning-micro-013-guided-1",
+    "/codex-exec/positioning-micro-013-guided-2",
+    "/codex-exec/positioning-micro-013-guided-3",
+    "/codex-exec/positioning-micro-013-guided-4",
+    "/codex-exec/positioning-micro-013-guided-5"
+  ]
+}

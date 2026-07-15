@@ -1,0 +1,562 @@
+{
+  "schema_version": 1,
+  "skill_name": "competing-and-positioning",
+  "source_reviewers": [
+    "positioning-evidence-a",
+    "positioning-evidence-b",
+    "positioning-evidence-c"
+  ],
+  "records": [
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "006",
+      "reviewer": "positioning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "competitive-strategy",
+          "claim": "Treat an unconventional technology as a falsifiable competitive hypothesis: it must improve delivery speed, unique product capability, team size, cost, and user-visible value; preserve surprise where useful and assess rivals through working products and specific hiring signals rather than promotional copy.",
+          "line_ranges": [
+            "50-66",
+            "110-128"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "009",
+      "reviewer": "positioning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "platform-and-ecosystem-strategy",
+          "claim": "Let a real application, preferably one solving a new problem, drive platform abstractions and support throwaway-scale programs because that is often the larval stage of serious software.",
+          "line_ranges": [
+            "94-104"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "015",
+      "reviewer": "positioning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-positioning-and-comparison",
+          "claim": "Compare technical products by naming the predecessor problem each fixes, then distinguish variants that remove technical limitations from variants motivated by vendor control or competitive pressure.",
+          "line_ranges": [
+            "10-10",
+            "38-42"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "017",
+      "reviewer": "positioning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "competitive-strategy",
+          "claim": "Match technical advantage to problem difficulty, system control, library fit, and realistic hiring scale; for a hard contested application, favor tools whose abstraction advantage compounds into user value instead of choosing orthodoxy for managerial, investor, or acquirer comfort.",
+          "line_ranges": [
+            "116-144",
+            "148-178"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "023",
+      "reviewer": "positioning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "technology-ecosystem-adoption",
+          "claim": "Treat ecosystem popularity as a self-reinforcing adoption mechanism driven by libraries, interoperability, and hiring replaceability, not as proof of tool quality; compare those adoption benefits with intrinsic product capability.",
+          "line_ranges": [
+            "22-34"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "024",
+      "reviewer": "positioning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "competitive-strategy",
+          "claim": "Seek design competition in a new market before an incumbent's platform or monopoly fortifications dominate, and exploit the startup's ability to let the same small group make bold design choices and implement them coherently.",
+          "line_ranges": [
+            "64-74"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "028",
+      "reviewer": "positioning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "defensibility-and-moats",
+          "claim": "Build defensibility by choosing valuable technical terrain where small-team speed and unorthodox methods make duplication disproportionately hard; require a concrete account of that difficulty, treat patents as limited protection against large firms, and keep extending the technical barrier.",
+          "line_ranges": [
+            "166-188"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "043",
+      "reviewer": "positioning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "platform-and-ecosystem-strategy",
+          "claim": "A platform attracts valuable complements when capable developers personally choose it and create applications that pull demand for the underlying product; openness is insufficient unless the platform is also good enough to use.",
+          "line_ranges": [
+            "38-40"
+          ]
+        },
+        {
+          "canonical_theme": "technology-ecosystem-adoption",
+          "claim": "Use voluntary adoption by unusually capable technical users as a leading indicator of broader technology adoption because their practices and applications can diffuse outward, while treating the historical forecast horizon as a hypothesis rather than current proof.",
+          "line_ranges": [
+            "30-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "050",
+      "reviewer": "positioning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "competitive-strategy",
+          "claim": "In one 2005 cohort of eight very early software startups, competitor count and founder fear were weaker signals than who led and could develop fastest; the author expected mundane internal under-delivery, not dramatic external threats, to kill any eventual failures.",
+          "line_ranges": [
+            "54-68",
+            "88-90"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "054",
+      "reviewer": "positioning-evidence-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "platform-and-ecosystem-strategy",
+          "claim": "Validate a platform shift through spontaneous builder adoption and useful complements rather than conference labels or promotion, and adapt product strategy to the medium's native affordances instead of forcing the prior channel's model onto it.",
+          "line_ranges": [
+            "98-110",
+            "118-122"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "058",
+      "reviewer": "positioning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-positioning-and-comparison",
+          "claim": "Position a ranking or recommendation around the observable user outcome it improves, not a vague relevance claim; when an incumbent ignores the improvement, test whether its current revenue model makes the better outcome economically unattractive before treating indifference as a product verdict.",
+          "line_ranges": [
+            "14-20",
+            "22-24"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "059",
+      "reviewer": "positioning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "defensibility-and-moats",
+          "claim": "In early software, treat product quality, user growth, integrated design, and the many execution details a copier will miss as primary defenses; patents become a supporting instrument only when scale, reciprocal protection, or acquisition creates a specific reason for them.",
+          "line_ranges": [
+            "64-72",
+            "82-92",
+            "136-140"
+          ]
+        },
+        {
+          "canonical_theme": "product-positioning-and-comparison",
+          "claim": "Do not attack an incumbent by reproducing its established product head-on; position around a new paradigm that transcends the old category, where the incumbent's denial and legacy commitments keep the startup in a strategic blind spot.",
+          "line_ranges": [
+            "94-96"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "064",
+      "reviewer": "positioning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "platform-and-ecosystem-strategy",
+          "claim": "Explore a cheap, popular new platform while insiders still dismiss it as unfit for serious work; combine that early platform position with direct online distribution so an outsider can build an audience without the former gatekeepers.",
+          "line_ranges": [
+            "124-130",
+            "166-178",
+            "182-190"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "067",
+      "reviewer": "positioning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-positioning-and-comparison",
+          "claim": "For a brief presentation of a very early startup to investors, lead with what the product is and why users want it, show the problem-to-solution path, and start with a narrow intelligible description; mention only the main alternatives briefly after the product is clear, then use one descriptive phrase to aid recall.",
+          "line_ranges": [
+            "26-38",
+            "46-58",
+            "66-68",
+            "138-146"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "069",
+      "reviewer": "positioning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "platform-and-ecosystem-strategy",
+          "claim": "Treat platform choice as a structural dependency that both enables and limits the company: a conventionally respectable option can still destroy the startup, so test real scaling constraints and use strong technical judgment rather than reputation alone.",
+          "line_ranges": [
+            "78-88"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "074",
+      "reviewer": "positioning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "competitive-strategy",
+          "claim": "Treat the essay's 2007 founder reaction to Microsoft as one dated signal that inherited reputation may lag present competitive danger; combine such reactions with current distribution, capability, incentives, and observed response before acting.",
+          "line_ranges": [
+            "12-20"
+          ]
+        },
+        {
+          "canonical_theme": "incumbent-dynamics",
+          "claim": "Diagnose incumbent decline from converging signals—a new category leader, a product breakthrough that changes expectations, enabling infrastructure, and demanding builders moving away—then test whether legacy culture can preserve acquired innovation or will neutralize it.",
+          "line_ranges": [
+            "22-40",
+            "42-48"
+          ]
+        },
+        {
+          "canonical_theme": "platform-and-ecosystem-strategy",
+          "claim": "Track a platform shift through applications moving to the new substrate, open tooling repairing incumbent-controlled bottlenecks, infrastructure removing old constraints, and technically demanding users changing their default tools.",
+          "line_ranges": [
+            "26-36"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "084",
+      "reviewer": "positioning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "competitive-strategy",
+          "claim": "When falling startup costs increase the number of rivals, act on a good idea instead of waiting; startups can compound this speed advantage because threatening innovations are often hard for large companies to recognize or develop quickly.",
+          "line_ranges": [
+            "128-146"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "108",
+      "reviewer": "positioning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "competitive-strategy",
+          "claim": "Define competition by the scarce user resource and newly possible substitutes, not the old industry's labels: direct entrants and products that consume the same leisure time can both displace the incumbent, while lower entry thresholds lengthen the market tail.",
+          "line_ranges": [
+            "48-54"
+          ]
+        },
+        {
+          "canonical_theme": "incumbent-dynamics",
+          "claim": "When a new medium is strong enough to alarm incumbents, delayed partial adoption is dangerous: legacy affiliates, identity, and revenue constraints can make them force old user habits instead of accepting that the new medium removed synchronicity, locality, and gatekeeping.",
+          "line_ranges": [
+            "32-44"
+          ]
+        },
+        {
+          "canonical_theme": "platform-and-ecosystem-strategy",
+          "claim": "An open platform can win because outside builders experiment at maker speed while increasing bandwidth and strong user behaviors broaden adoption; once creators can distribute directly, the former gatekeeper may be reduced to a service provider.",
+          "line_ranges": [
+            "14-28",
+            "48-54"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "113",
+      "reviewer": "positioning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "platform-and-ecosystem-strategy",
+          "claim": "Recognize a protocol-like product as a platform shape whose value depends on becoming a shared default, while making the tension between private ownership and ecosystem-wide use explicit.",
+          "line_ranges": [
+            "12-16"
+          ]
+        },
+        {
+          "canonical_theme": "technology-ecosystem-adoption",
+          "claim": "Test whether lighter control and delayed monetization help a privately owned protocol spread by making participants experience it as shared infrastructure; treat this as a product-specific adoption hypothesis rather than a universal free-growth rule.",
+          "line_ranges": [
+            "12-16"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "121",
+      "reviewer": "positioning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "technology-transitions-and-disruption",
+          "claim": "When technology removes the scarcity of a medium or controlled channel, separate the old industry's user value from the mechanism that enabled charging; favor entrants that use the new technology to deliver a previously unavailable benefit over incumbents that mainly preserve an existing revenue source.",
+          "line_ranges": [
+            "12-24",
+            "34-40",
+            "48-68"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "124",
+      "reviewer": "positioning-evidence-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "platform-and-ecosystem-strategy",
+          "claim": "Treat developers as platform users and distribution partners: policies that interpose between builders and end users or delay software iteration degrade product quality and trust, while builders' tendency to create for platforms they personally use creates an opening for a less restrictive rival.",
+          "line_ranges": [
+            "14-18",
+            "22-40",
+            "62-66",
+            "76-88"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "135",
+      "reviewer": "positioning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "platform-and-ecosystem-strategy",
+          "claim": "Compete with a powerful device vendor on extensibility: expose versatile hardware and software capabilities so developers can create valuable uses that the platform maker cannot predict.",
+          "line_ranges": [
+            "24-26"
+          ]
+        },
+        {
+          "canonical_theme": "technology-transitions-and-disruption",
+          "claim": "Treat software substitution as a transition mechanism: a general programmable device can replace many special-purpose objects when the reuse advantages of software dominate.",
+          "line_ranges": [
+            "16-22"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "144",
+      "reviewer": "positioning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "incumbent-dynamics",
+          "claim": "Bonus-linked incumbent managers may protect current revenue instead of investing for long-term equity value, causing them to fight a technological transition rather than exploit it.",
+          "line_ranges": [
+            "24-26"
+          ]
+        },
+        {
+          "canonical_theme": "technology-transitions-and-disruption",
+          "claim": "When networks change what can be distributed and enforced, preserving a value-capture model built for physical scarcity may require distorting law or society; accelerating technical change raises the value of adapting gracefully instead of forcing an obsolete model.",
+          "line_ranges": [
+            "22-24",
+            "28-38",
+            "44-48"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "150",
+      "reviewer": "positioning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "technology-transitions-and-disruption",
+          "claim": "Reassess a hardware category when crowdfunding, controllers, components, connectivity, prototyping, manufacturing, and online retail improve together; investor aversion may lag the changed operating economics.",
+          "line_ranges": [
+            "14-22"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "151",
+      "reviewer": "positioning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "competitive-strategy",
+          "claim": "Do not reject a strong idea merely because rivals exist. Test urgent user need and switching lock-in, require a precise thesis about what incumbents overlook, and learn about competitors primarily through users.",
+          "line_ranges": [
+            "132-142",
+            "230-230"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "158",
+      "reviewer": "positioning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "competitive-strategy",
+          "claim": "Direct effort toward the general product problem and new ideas instead of situation-specific attacks; startups usually win by racing ahead rather than stopping to fight.",
+          "line_ranges": [
+            "22-24",
+            "32-36"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "167",
+      "reviewer": "positioning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "product-positioning-and-comparison",
+          "claim": "Treat the essay's 2015 US-startup claim about matching .com ownership as a dated positioning signal, not a timeless rule: it may imply weakness even when discovery is unaffected, except when an established company's reputation already precedes it.",
+          "line_ranges": [
+            "12-14"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "173",
+      "reviewer": "positioning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "competitive-strategy",
+          "claim": "In a new category, look for a side component that can become the standard and own the customer relationship; a dominant firm's inherited assumptions can make that flank look harmless.",
+          "line_ranges": [
+            "80-84"
+          ]
+        },
+        {
+          "canonical_theme": "incumbent-dynamics",
+          "claim": "Global markets and technical innovation can flip incumbent scale from advantage to liability, while confidence earned in the old category can hide a new entrant or supplier that captures the standard.",
+          "line_ranges": [
+            "72-84"
+          ]
+        },
+        {
+          "canonical_theme": "technology-transitions-and-disruption",
+          "claim": "Decomposition becomes viable only after specialist supplier networks mature and coordination technology lowers transaction costs; computing can then accelerate both fragmentation and startup formation.",
+          "line_ranges": [
+            "74-76",
+            "96-96"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "184",
+      "reviewer": "positioning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "competitive-strategy",
+          "claim": "Do not equate many participants with an exhausted field: herding can leave most possibilities unexplored, so seek a new entry into a large but apparently played-out area.",
+          "line_ranges": [
+            "12-16"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "198",
+      "reviewer": "positioning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "technology-transitions-and-disruption",
+          "claim": "Treat entry-level positioning as a transition strategy: the low end can improve until it compresses the high end against the ceiling, making prestige a possible warning rather than a moat.",
+          "line_ranges": [
+            "90-98"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "competing-and-positioning",
+      "article_no": "201",
+      "reviewer": "positioning-evidence-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "competitive-strategy",
+          "claim": "Distinguish technical advantage from dealmaking as a mode of competition, and look for new technology that lets an entrant punch directly into an incumbent-controlled sector.",
+          "line_ranges": [
+            "28-30",
+            "48-50"
+          ]
+        },
+        {
+          "canonical_theme": "incumbent-dynamics",
+          "claim": "Oligopoly barriers can suppress startups, but incumbent senescence, removal of protective policy, and external technical pressure can weaken the structure enough for direct displacement.",
+          "line_ranges": [
+            "40-50"
+          ]
+        },
+        {
+          "canonical_theme": "technology-transitions-and-disruption",
+          "claim": "Falling product-building and customer-acquisition costs lower the threshold for company formation, while faster building and distribution increase the pace and value of successful entrants.",
+          "line_ranges": [
+            "52-60"
+          ]
+        }
+      ]
+    }
+  ]
+}

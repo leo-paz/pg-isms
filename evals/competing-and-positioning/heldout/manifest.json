@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "package_type": "heldout-evaluation-score",
+  "case_id": "positioning-heldout-018",
+  "attempt": 18,
+  "created_at": "2026-07-15T04:47:06Z",
+  "scorer": {
+    "task": "/codex-exec/positioning-heldout-scorer-018",
+    "session_id": "019f6417-d47b-7961-b97e-899a9f307c74"
+  },
+  "hash_algorithm": "sha256",
+  "hash_scope": "exact whole-file bytes unless a scoped hash explicitly states otherwise",
+  "input_hashes": {
+    "/Users/leopaz/.agents/skills/verification-before-completion/SKILL.md": "ea52d15aabaf72bc6b558efe2c126f161b53961090ddcd712000273bfe8c7b6c",
+    "/Users/leopaz/dev/opensource/pg-isms/evals/competing-and-positioning/heldout/skill-freeze.json": "90c8c7ad45cb3b1b112df2a5ea298805befe233d8b9cff4d57641d18b3899177",
+    "/Users/leopaz/dev/opensource/pg-isms/evals/competing-and-positioning/heldout/case.json": "ac671cce204db26310861333160df12212a76886ca355c6d09e12c3f99c50917",
+    "/Users/leopaz/dev/opensource/pg-isms/evals/competing-and-positioning/heldout/generation-plan.json": "d81f7b086488b5f107dda2af201d0dbefc9f609dd2d967ec03df0b5df36a563e",
+    "/Users/leopaz/dev/opensource/pg-isms/evals/competing-and-positioning/heldout/generation-manifest.json": "8082f7c7f7e1dbb00eca36d00ed50382e4ec7920a15c875725e64ad710090753",
+    "/Users/leopaz/dev/opensource/pg-isms/evals/competing-and-positioning/heldout/response.md": "e071c34cc50d09ad8291538621868134ee9037db9907241df567881e634a814e"
+  },
+  "scoped_hashes": {
+    "decoded_prompt_utf8_without_trailing_lf": "025fed746e5b3f809f90344df1be887514ec77554eccebfc08f8dc3e799f7753",
+    "hidden_criteria_jq_cS_with_one_final_lf": "13a0fe11120616f13335f5fd0650d9845ec14b6a93b045f6a23b11051b5185df"
+  },
+  "frozen_asset_hashes": {
+    "skill_name": "competing-and-positioning",
+    "skill_sha256": "e26c7880d81927bacdf441847e9b14d755616fad14ac3128430974800840ed53",
+    "runtime_sha256": "6cdcae095af252b4e7a294224c53a0813276354fe6c9f08c2a49d02d4de7a398"
+  },
+  "output_hashes": {
+    "/Users/leopaz/dev/opensource/pg-isms/evals/competing-and-positioning/heldout/scorecard.md": "84b31b1957f5d025db96c7a7f989cea9a090bf191aa36a44f292065ebe729089",
+    "/Users/leopaz/dev/opensource/pg-isms/evals/competing-and-positioning/heldout/summary.json": "2d25aa85ce12ab098949addfc4324488be1564313a9142bb3cbb8df8c1e3630d",
+    "/Users/leopaz/dev/opensource/pg-isms/evals/competing-and-positioning/heldout/review.md": "a43d42bae92ad2e964f9c02d09eb1ff5da1750faa19b24bd90b89934dc2bad1b"
+  },
+  "manifest_self_hash": {
+    "included": false,
+    "reason": "A whole-file manifest hash cannot be embedded in the file it hashes; verify this file externally after write."
+  },
+  "integrity_pass": true,
+  "five_boolean_vector": [
+    true,
+    true,
+    true,
+    false,
+    true
+  ],
+  "score": 4,
+  "maximum_score": 5,
+  "required_score": 4,
+  "threshold_met": true,
+  "prompt_natural": true,
+  "recipe_leakage": false,
+  "transfer": true,
+  "verdict": "PASS",
+  "manifest_written_last": true
+}

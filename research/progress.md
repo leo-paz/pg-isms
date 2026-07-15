@@ -916,3 +916,67 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
   skills sequentially beginning with `competing-and-positioning`; finish the
   cross-skill final review, README catalog, and clean/pushed repository-wide gate.
 - Blockers: none.
+
+## Checkpoint 4 skill 9 verified: `competing-and-positioning`
+
+- RED froze five no-skill cases before package initialization: an unvalidated AI
+  demo distracted by funded rivals, an incumbent-suite bundle, a platform
+  dependency, a community-governance non-trigger, and open-model commoditization.
+  The independently scored baseline is `10/25` (`0.40`).
+- Three non-overlapping source agents read all `31` assigned essays in full and used
+  both BM25 and semantic QMD retrieval. Their exact combined evidence contains `31`
+  essay records, `44` unique essay-theme pairs, and `70` audit-contained range
+  occurrences across all `7` owned themes. Independent overlap and source reviews
+  verified every range, generated provenance, current-condition qualifier, tension,
+  and routing boundary with zero gaps or extras.
+- The official initializer created the package. Repeated behavior, routing, source,
+  and contract reviews tightened the user and outcome gates, wedge test, direct and
+  adjacent substitute comparison, mechanism analysis, switching constraints,
+  distribution leverage, stop/keep/learn decision record, and specialist handoffs.
+  The final `SKILL.md` is exactly `500` words with SHA-256
+  `e26c7880d81927bacdf441847e9b14d755616fad14ac3128430974800840ed53`;
+  official validation and regenerated `agents/openai.yaml` pass.
+- The canonical blind forward run scored `19/25` (`0.76`), improving `+0.36` over
+  baseline. Its six retained misses concern competitor-scan mechanism and timing,
+  an installed-base hypothesis, platform incentives and billing portability,
+  enforcement proportionality and due process, and entrant/incumbent incentives;
+  none is inferred or silently upgraded. Five isolated generation sessions and a
+  separate strict scorer session are recorded with exact response hashes.
+- The canonical microtest used ten unique fresh tasks. Blind controls scored
+  `[0, 0, 0, 0, 0]` (`0.00`); final-hash guided responses scored
+  `[5, 5, 5, 5, 4]` (`0.96`), a `+0.96` normalized improvement. Its integrity audit
+  reproduces all vectors, sessions, prompt projections, and response hashes.
+- Earlier forward and held-out attempts remain archived with their failure reasons,
+  including behavior-hash invalidation, prompt leakage, mixed-rubric failure, and a
+  held-out prompt that supplied the option taxonomy it was meant to elicit. The
+  canonical post-freeze held-out case instead uses a natural vendor-security review
+  prompt authored after the final skill hash, with distinct author, generator, and
+  scorer contexts. It scored `4/5` PASS with exact case, prompt, response, skill,
+  runtime, and manifest hashes; the sole retained miss is exact outcome-precedence
+  wording.
+- Final fresh-context source, behavior, and evaluation-contract reviews report `0`
+  Critical, `0` Important, and `0` Minor findings and `Ready to commit: Yes`. The
+  evaluation reviewer confirms that direct parsing succeeds, all five scorecards
+  meet the literal schema, and repository final validation advances through every
+  skill 9 artifact before stopping at the intentionally future independent final
+  repository review.
+- Verification:
+
+  ```text
+  Skill is valid!
+  skill provenance check: essays=31 themes=7
+  taxonomy validation passed: corpus_files=223 classified=223 relevant_essays=209 uncovered_relevant=0 orphan_skills=0
+  baseline normalized_score=0.40; forward normalized_score=0.76; delta=0.36
+  microtest control=0/25; guided=24/25; normalized_delta=0.96
+  heldout positioning-heldout-018=4/5 PASS integrity=PASS
+  python3 -m unittest discover -s tests -p 'test_*.py'
+  Ran 120 tests
+  OK
+  copyright scan: normalized 20/30/40-token corpus matches=0/0/0
+  git diff --check: passed
+  ```
+
+- Remaining work: publish this verified milestone, then build the remaining `12`
+  skills sequentially beginning with `forming-founder-partnerships`; finish the
+  cross-skill final review, README catalog, and clean/pushed repository-wide gate.
+- Blockers: none.

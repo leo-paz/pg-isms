@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "case_id": "positioning-heldout-018",
+  "attempt": 18,
+  "scorer": {
+    "task": "/codex-exec/positioning-heldout-scorer-018",
+    "session_id": "019f6417-d47b-7961-b97e-899a9f307c74"
+  },
+  "integrity": {
+    "pass": true,
+    "prompt_natural": true,
+    "recipe_leakage": false
+  },
+  "criteria": [
+    {
+      "id": "criterion-1",
+      "pass": true
+    },
+    {
+      "id": "criterion-2",
+      "pass": true
+    },
+    {
+      "id": "criterion-3",
+      "pass": true
+    },
+    {
+      "id": "criterion-4",
+      "pass": false,
+      "miss": "The ordered stop predicate fires on absent recurring complement value without excepting an already validated core-owned need, so it preempts the later keep-integrated branch and violates the required exact precedence."
+    },
+    {
+      "id": "criterion-5",
+      "pass": true
+    }
+  ],
+  "five_boolean_vector": [
+    true,
+    true,
+    true,
+    false,
+    true
+  ],
+  "score": 4,
+  "maximum_score": 5,
+  "required_score": 4,
+  "threshold_met": true,
+  "transfer": true,
+  "verdict": "PASS"
+}

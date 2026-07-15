@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "skill_name": "competing-and-positioning",
+  "phase": "baseline",
+  "reviewer_id": "positioning-baseline-002",
+  "scorer_id": "positioning-baseline-scorer-002",
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "raw_output": "scenario-01.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "max_score": 1
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "max_score": 1
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "max_score": 1
+        },
+        {
+          "criterion": 4,
+          "score": 0,
+          "max_score": 1
+        },
+        {
+          "criterion": 5,
+          "score": 0,
+          "max_score": 1
+        }
+      ],
+      "missed_criteria": [
+        4,
+        5
+      ],
+      "score": 3,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-02",
+      "raw_output": "scenario-02.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "max_score": 1
+        },
+        {
+          "criterion": 2,
+          "score": 0,
+          "max_score": 1
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "max_score": 1
+        },
+        {
+          "criterion": 4,
+          "score": 0,
+          "max_score": 1
+        },
+        {
+          "criterion": 5,
+          "score": 0,
+          "max_score": 1
+        }
+      ],
+      "missed_criteria": [
+        2,
+        4,
+        5
+      ],
+      "score": 2,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-03",
+      "raw_output": "scenario-03.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 0,
+          "max_score": 1
+        },
+        {
+          "criterion": 2,
+          "score": 0,
+          "max_score": 1
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "max_score": 1
+        },
+        {
+          "criterion": 4,
+          "score": 0,
+          "max_score": 1
+        },
+        {
+          "criterion": 5,
+          "score": 0,
+          "max_score": 1
+        }
+      ],
+      "missed_criteria": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "score": 1,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-04",
+      "raw_output": "scenario-04.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "max_score": 1
+        },
+        {
+          "criterion": 2,
+          "score": 0,
+          "max_score": 1
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "max_score": 1
+        },
+        {
+          "criterion": 4,
+          "score": 0,
+          "max_score": 1
+        },
+        {
+          "criterion": 5,
+          "score": 1,
+          "max_score": 1
+        }
+      ],
+      "missed_criteria": [
+        2,
+        4
+      ],
+      "score": 3,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-05",
+      "raw_output": "scenario-05.md",
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "max_score": 1
+        },
+        {
+          "criterion": 2,
+          "score": 0,
+          "max_score": 1
+        },
+        {
+          "criterion": 3,
+          "score": 0,
+          "max_score": 1
+        },
+        {
+          "criterion": 4,
+          "score": 0,
+          "max_score": 1
+        },
+        {
+          "criterion": 5,
+          "score": 0,
+          "max_score": 1
+        }
+      ],
+      "missed_criteria": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "score": 1,
+      "max_score": 5
+    }
+  ],
+  "exact_misses": [
+    {
+      "case_id": "scenario-01",
+      "criterion": 4,
+      "miss": "The response rejects parity work and bounds the current scan, but does not explicitly defer a detailed comparison until user evidence identifies a consequential comparison or require the later scan to cover mechanism and tradeoff."
+    },
+    {
+      "case_id": "scenario-01",
+      "criterion": 5,
+      "miss": "The response supplies dated activity and a final gate but does not assign evidence collection, prototype exposure, alternative mapping, and later differentiation to the required named workflows."
+    },
+    {
+      "case_id": "scenario-02",
+      "criterion": 2,
+      "miss": "The response tests deployment and approval claims but does not explicitly examine incumbent incentives or installed-base advantage, and it does not distinguish observed evidence from inference."
+    },
+    {
+      "case_id": "scenario-02",
+      "criterion": 4,
+      "miss": "The response protects and tests the wedge and gives escalation triggers, but it does not precommit explicit keep, adapt, reposition, and stop branches with thresholds."
+    },
+    {
+      "case_id": "scenario-02",
+      "criterion": 5,
+      "miss": "The response does not route differentiation, interviews, product experiments, channel execution, and pricing decisions to the required named workflows."
+    },
+    {
+      "case_id": "scenario-03",
+      "criterion": 1,
+      "miss": "The response covers partner, supplier, competitor, policy, native-product, revenue-share, access, and user-relationship concerns but does not explicitly examine the platform's incentives as a testable hypothesis."
+    },
+    {
+      "case_id": "scenario-03",
+      "criterion": 2,
+      "miss": "The response does not create a complete dependency register spanning switching cost and observed-versus-inferred status in addition to acquisition, APIs, identity, billing, portability, and timing."
+    },
+    {
+      "case_id": "scenario-03",
+      "criterion": 4,
+      "miss": "The response gives dated decisions and several metrics but does not precommit all double-down, diversify, redesign, migrate, and stop branches or a concentration threshold."
+    },
+    {
+      "case_id": "scenario-03",
+      "criterion": 5,
+      "miss": "The response does not route platform strategy, channel experiments, architecture, product migration, and pricing consequences to the required named workflows."
+    },
+    {
+      "case_id": "scenario-04",
+      "criterion": 2,
+      "miss": "The response routes work to trust and safety or community governance but does not name governing-platforms-and-communities or explicitly cover enforcement proportionality."
+    },
+    {
+      "case_id": "scenario-04",
+      "criterion": 4,
+      "miss": "The response mentions communications review and process-controlled publication but does not route publication to communicating-clearly or explicitly bar communications from rewriting the governance outcome."
+    },
+    {
+      "case_id": "scenario-05",
+      "criterion": 2,
+      "miss": "The response discusses transition risks and several durable assets but does not explicitly examine buyer switching cost, entrant and incumbent incentives, or the durability of distribution and learning loops."
+    },
+    {
+      "case_id": "scenario-05",
+      "criterion": 3,
+      "miss": "The response proposes bounded cost, quality, and workflow tests plus renewal and loss analysis but omits an explicit willingness-to-switch experiment and affected-segment usage evidence."
+    },
+    {
+      "case_id": "scenario-05",
+      "criterion": 4,
+      "miss": "The response gives dated integration and repositioning work plus a conditional training reconsideration, but it does not precommit the full integrate, reposition, rebuild, partner, and pivot branch set with adoption and defensibility thresholds."
+    },
+    {
+      "case_id": "scenario-05",
+      "criterion": 5,
+      "miss": "The response does not route transition interpretation, customer evidence, implementation, and economic-model changes to the required named workflows."
+    }
+  ],
+  "total_score": 10,
+  "total_max_score": 25,
+  "normalized_score": 0.4,
+  "baseline_ready": true
+}

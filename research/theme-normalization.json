@@ -6,7 +6,8 @@
     "Close synonyms share a base target and genuine compounds map to at most three targets; optional article-scoped overrides disambiguate recurrent homonyms without changing raw audit labels.",
     "Launch safety, survival state, evidence latency, investor truth, user acquisition versus company acquisition, urgency, stage, product type, and historical context remain distinct.",
     "Canonical themes support later evidence retrieval only and must not be treated as final skill names or runtime instructions.",
-    "Checkpoint 3 semantic routing review split broad equity, adversarial, network-effect, and policy labels by actor or mechanism and added mappings for five reopened essays."
+    "Checkpoint 3 semantic routing review split broad equity, adversarial, network-effect, and policy labels by actor or mechanism and added mappings for five reopened essays.",
+    "Skill 9 source review added an article-scoped override so essay 084's YC process standardization evidence remains market-structure evidence rather than being misrouted as startup platform strategy."
   ],
   "canonical_themes": [
     {
@@ -6761,7 +6762,16 @@
         "market-structure-and-cost-curves",
         "platform-and-ecosystem-strategy"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "084",
+          "canonical_themes": [
+            "market-structure-and-cost-curves"
+          ],
+          "reviewer": "skill9-final-source-review-remediation"
+        }
+      ]
     },
     {
       "raw_theme": "standardized financing",

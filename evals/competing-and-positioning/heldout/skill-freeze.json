@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "skill_name": "competing-and-positioning",
+  "attempt": 18,
+  "freeze_status": "pre-author",
+  "created_at": "2026-07-15T04:37:30Z",
+  "created_by": "/root",
+  "skill_path": "skills/competing-and-positioning/SKILL.md",
+  "skill_sha256": "e26c7880d81927bacdf441847e9b14d755616fad14ac3128430974800840ed53",
+  "runtime_path": "skills/competing-and-positioning/references/runtime-contract.md",
+  "runtime_sha256": "6cdcae095af252b4e7a294224c53a0813276354fe6c9f08c2a49d02d4de7a398"
+}

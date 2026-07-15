@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "skill_name": "competing-and-positioning",
+  "phase": "baseline",
+  "reviewer_id": "positioning-baseline-002",
+  "canonical_agent_task": "/root/positioning_baseline_002",
+  "generated_at": "2026-07-14T22:39:02Z",
+  "model_identity": "Codex (GPT-5)",
+  "dispatch_prompt": "Answer every projected prompt independently using only the facts in that prompt and ordinary reasoning, without opening any skill, evidence, criteria, intended answer, prior attempt, prior response, or review artifact.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "no-skill",
+    "skill_sha256": null
+  },
+  "response_hash_algorithm": "sha256",
+  "cases_sha256": "ccaf269056f8e1edb7aacb753bbfc66e0b6f5e3303aed59ba3298dea4f35ddc2",
+  "projection_sha256": "761b36abc3aa760abb7d1bae5426feb5f259285a73a4ad135eff12e0a15adc01",
+  "response_hashes": {
+    "scenario-01": "39a6e382776652fd337895a6961946c5701a5da61be1b43c08e3a5b1bfadc7b6",
+    "scenario-02": "36bc9140de3154a2436854e376a99ed2d1c1674af7b1d062c78f6d507159ce36",
+    "scenario-03": "0a2ff6e1970a772a9e6f8150b50f4ebb6fa34a5d01afd3c6282f29ef31ee84ba",
+    "scenario-04": "4e9cd4a9ba4b6961455076abf78164406ab393b892972640073abed3acb81b8b",
+    "scenario-05": "72a8f12344a3625f7d0705d1cd6316673294d91a202f90a99a49f5d48400df54"
+  }
+}

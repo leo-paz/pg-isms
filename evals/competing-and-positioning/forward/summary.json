@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "skill_name": "competing-and-positioning",
+  "phase": "forward",
+  "reviewer_id": "positioning-forward-012",
+  "scorer_id": "positioning-forward-scorer-012",
+  "scorer_session": "019f63e2-4d1e-74f3-97de-0247aa59c31e",
+  "canonical_agent_task": "/codex-exec/positioning-forward-scorer-012",
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "raw_output": "scenario-01.md",
+      "criteria_vector": [true, true, true, false, true],
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1},
+        {"criterion": 2, "score": 1, "max_score": 1},
+        {"criterion": 3, "score": 1, "max_score": 1},
+        {"criterion": 4, "score": 0, "max_score": 1},
+        {"criterion": 5, "score": 1, "max_score": 1}
+      ],
+      "missed_criteria": [4],
+      "score": 4,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-02",
+      "raw_output": "scenario-02.md",
+      "criteria_vector": [true, false, true, true, true],
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1},
+        {"criterion": 2, "score": 0, "max_score": 1},
+        {"criterion": 3, "score": 1, "max_score": 1},
+        {"criterion": 4, "score": 1, "max_score": 1},
+        {"criterion": 5, "score": 1, "max_score": 1}
+      ],
+      "missed_criteria": [2],
+      "score": 4,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-03",
+      "raw_output": "scenario-03.md",
+      "criteria_vector": [false, false, true, true, true],
+      "criteria_results": [
+        {"criterion": 1, "score": 0, "max_score": 1},
+        {"criterion": 2, "score": 0, "max_score": 1},
+        {"criterion": 3, "score": 1, "max_score": 1},
+        {"criterion": 4, "score": 1, "max_score": 1},
+        {"criterion": 5, "score": 1, "max_score": 1}
+      ],
+      "missed_criteria": [1, 2],
+      "score": 3,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-04",
+      "raw_output": "scenario-04.md",
+      "criteria_vector": [true, false, true, true, true],
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1},
+        {"criterion": 2, "score": 0, "max_score": 1},
+        {"criterion": 3, "score": 1, "max_score": 1},
+        {"criterion": 4, "score": 1, "max_score": 1},
+        {"criterion": 5, "score": 1, "max_score": 1}
+      ],
+      "missed_criteria": [2],
+      "score": 4,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-05",
+      "raw_output": "scenario-05.md",
+      "criteria_vector": [true, false, true, true, true],
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1},
+        {"criterion": 2, "score": 0, "max_score": 1},
+        {"criterion": 3, "score": 1, "max_score": 1},
+        {"criterion": 4, "score": 1, "max_score": 1},
+        {"criterion": 5, "score": 1, "max_score": 1}
+      ],
+      "missed_criteria": [2],
+      "score": 4,
+      "max_score": 5
+    }
+  ],
+  "exact_misses": [
+    {
+      "case_id": "scenario-01",
+      "criterion": 4,
+      "miss": "The response defers comparison until the user gate and covers outcomes, switching constraints, tradeoffs, and distribution, but it does not time-box the later competitor scan or explicitly require mechanism analysis."
+    },
+    {
+      "case_id": "scenario-02",
+      "criterion": 2,
+      "miss": "The response separates verified facts, inferences, and unknowns and tests central-control constraints, but it does not formulate or test the incumbent's installed-base advantage."
+    },
+    {
+      "case_id": "scenario-03",
+      "criterion": 1,
+      "miss": "The response models distribution control, native competition, policy, data access, revenue share, and complementary value, but it does not explicitly examine the platform's incentives as a testable hypothesis."
+    },
+    {
+      "case_id": "scenario-03",
+      "criterion": 2,
+      "miss": "The response registers acquisition, APIs, identity, portability, switching cost, and timing with observed-versus-inferred status, but it does not separately register billing dependence or its portability."
+    },
+    {
+      "case_id": "scenario-04",
+      "criterion": 2,
+      "miss": "The response assigns rules, sanctions, appeals, and adjudication to governing-platforms-and-communities, but it does not explicitly assign enforcement proportionality and due-process design."
+    },
+    {
+      "case_id": "scenario-05",
+      "criterion": 2,
+      "miss": "The response examines timing, adoption constraints, switching cost, and several potentially durable assets without claiming a moat, but it does not examine entrant and incumbent incentives."
+    }
+  ],
+  "total_score": 19,
+  "total_max_score": 25,
+  "normalized_score": 0.76,
+  "baseline_score": 10,
+  "baseline_max_score": 25,
+  "baseline_normalized_score": 0.4,
+  "absolute_delta": 0.36,
+  "material_improvement_threshold": 0.2,
+  "material_improvement": true,
+  "hashes": {
+    "cases_sha256": "ccaf269056f8e1edb7aacb753bbfc66e0b6f5e3303aed59ba3298dea4f35ddc2",
+    "projection_sha256": "761b36abc3aa760abb7d1bae5426feb5f259285a73a4ad135eff12e0a15adc01",
+    "baseline_manifest_sha256": "0de356ecf97279ef3e0c7c763f023469aa0325b6e892ccf1627a026fd3fdcbda",
+    "baseline_summary_sha256": "1e7985157bef703477efb6c5807346eeea3d61c9a14bc82cf660f5feb425c6f2",
+    "forward_manifest_sha256": "f3c6c91a662091bbf9b90fe952b78b9069a68c508ca3a15d4450d516c38586f1",
+    "response_hashes": {
+      "scenario-01": "f9d8886765eae170bf3247def629891f32eda3de965acd5d976082ec64365679",
+      "scenario-02": "2e3d9e7be106ec3aaf7281f4e9472e12ed2fc2d95ef9c70db83efd52f2421fba",
+      "scenario-03": "d7acb8adc66393d0a0c9a02b73a951b126a14fde7729cb7243c13027360ad95e",
+      "scenario-04": "6fd399a90a64f6b991f68c124f00fc2182baa51fcb57ee6b56838ff21236e447",
+      "scenario-05": "2edbdccc76a6586f52ea0ea0cce49c26abd92b4ab6a69a0c9bc88a43039afc26"
+    }
+  },
+  "integrity": {
+    "passed": true,
+    "cases_hash_verified": true,
+    "projection_hash_verified": true,
+    "cases_and_projection_match_baseline": true,
+    "response_hashes_match_manifest": true,
+    "required_headers_match": true,
+    "generation_sessions_present_and_unique": true,
+    "no_trailing_spaces_or_tabs": true,
+    "exactly_one_final_lf_per_forward_input": true
+  },
+  "readiness": {
+    "ready": true,
+    "reason": "Integrity passed and the normalized score improved by 0.36, exceeding the required 0.20 delta."
+  }
+}

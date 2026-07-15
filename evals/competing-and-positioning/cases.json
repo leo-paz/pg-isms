@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "skill_name": "competing-and-positioning",
+  "cases": [
+    {
+      "id": "scenario-01",
+      "type": "condition",
+      "prompt": "Two founders are six weeks into an AI spreadsheet startup. They have a polished demo, no observed user workflows, no interviews with people who tried to solve the problem, and no usage or commitment evidence. Three funded rivals advertise similar natural-language formulas. An investor asks for a feature matrix, so the founders propose spending the next two weeks monitoring every rival release and matching missing features. Diagnose the workflow and design the next two weeks.",
+      "criteria": [
+        "Makes learning-from-users primary at this earliest stage because the unknown is a real user and urgent problem, while limiting competing-and-positioning to a bounded record of current alternatives rather than continuous surveillance.",
+        "Treats rival products, manual workarounds, and the status quo as hypotheses about alternatives rather than as proof of demand or a substitute for observing user behavior.",
+        "Defines a narrow user/problem hypothesis and runs direct workflow observation plus a small prototype or commitment test with predeclared evidence that would support, revise, or reject it.",
+        "Defers a detailed feature matrix and copying until user evidence identifies a consequential comparison, then time-boxes any competitor scan around mechanism, target user, tradeoff, and distribution rather than feature parity.",
+        "Sets a dated gate and named ownership: learning-from-users owns evidence collection, shipping-and-iterating-products owns prototype exposure, and competing-and-positioning owns only the alternative map and later differentiation decision."
+      ]
+    },
+    {
+      "id": "scenario-02",
+      "type": "application",
+      "prompt": "A 14-person incident-response startup has 36 paying mid-market customers. Users choose it because one operator can resolve cloud permission failures in minutes without waiting for a central security team; 73% of new deals come from practitioners recommending it. A large security suite now bundles a free dashboard with a visually similar permission-fix button, but it still requires central approval and a two-day deployment. The CEO wants to copy the suite's navigation, cut price to zero, and announce feature parity. Design the next 30 days of competitive response.",
+      "criteria": [
+        "Frames competition around the causal choice—target practitioner, urgent job, approval latency, deployment friction, trust, price, and distribution—not visual similarity or a generic feature checklist.",
+        "Uses the incumbent's incentives, installed-base advantage, central-control model, and likely constraints as testable hypotheses while distinguishing direct evidence from inference.",
+        "Uses the rival launch as a probe into customer alternatives without copying its navigation or price reflexively, and collects loss, win, usage, and switching evidence from affected accounts.",
+        "Protects and tests the startup's wedge through practitioner autonomy, fast deployment, direct user learning, and recommendation; defines explicit keep, adapt, reposition, and stop thresholds instead of declaring a moat from aspiration.",
+        "Keeps differentiation and competitor interpretation with competing-and-positioning, routes customer interviews to learning-from-users, product experiments to shipping-and-iterating-products, channel execution to acquiring-and-growing-users, and any price-model change to designing-business-models."
+      ]
+    },
+    {
+      "id": "scenario-03",
+      "type": "trigger",
+      "prompt": "A profitable scheduling app gets 81% of new teams from a major workplace platform's marketplace and uses six of its APIs. The platform now requires a 20% revenue share, will restrict two APIs in 90 days, and has released a basic native scheduler. Marketplace users retain better than direct-web users, but no one has measured how many would follow the app outside the platform. Growth wants to spend the full acquisition budget on marketplace ads because conversion is still excellent. Decide the platform strategy for the next 90 days.",
+      "criteria": [
+        "Models the platform as both distribution partner and potential competitor by examining its incentives, native-product direction, policy control, user ownership, data access, revenue share, and the app's complementary value.",
+        "Builds a dependency register covering acquisition concentration, API criticality, identity, billing, data portability, switching cost, policy timing, and which assumptions are observed versus inferred.",
+        "Preserves near-term platform leverage while running bounded portability, direct-relationship, alternate-channel, and restricted-API tests before committing the full budget or attempting a premature exit.",
+        "Precommits dated double-down, diversify, redesign, migrate, and stop branches using retention, portable demand, unit economics after revenue share, API replacement feasibility, and concentration thresholds.",
+        "Keeps platform positioning and dependency strategy with competing-and-positioning, routes channel experiments to acquiring-and-growing-users, architecture work to engineering-for-leverage, product migration to shipping-and-iterating-products, and pricing consequences to designing-business-models."
+      ]
+    },
+    {
+      "id": "scenario-04",
+      "type": "non-trigger",
+      "prompt": "A private founder community has repeated targeted harassment, coordinated dogpiling, and appeals over account suspensions. Its product positioning, membership audience, and competitive alternatives are already settled. The team asks competing-and-positioning to write enforcement rules, decide sanctions, adjudicate the open cases, and publish the decision. Name the primary workflow and the limited role, if any, for positioning.",
+      "criteria": [
+        "Does not make competing-and-positioning primary for behavioral rules, sanctions, appeals, or case adjudication inside the startup's own community.",
+        "Routes policy design, enforcement proportionality, due process, appeals, and case handling to governing-platforms-and-communities.",
+        "Limits competing-and-positioning to checking whether a settled community promise or audience boundary has material implications, without using brand differentiation to decide guilt or punishment.",
+        "Routes publication of the settled policy and decision to communicating-clearly without letting communications rewrite the governance outcome.",
+        "Produces an ordered handoff with named decision owners and evidence instead of generic co-ownership or a shadow moderation policy."
+      ]
+    },
+    {
+      "id": "scenario-05",
+      "type": "edge",
+      "prompt": "A contract-review startup earns $4 million in annual recurring revenue from procurement teams. Customers renew because its workflow captures company playbooks, routes exceptions to the right approver, and records an audit trail; clause extraction is only one step. A new open model now matches the startup's extraction benchmark at one-tenth the inference cost, but it has no workflow, integrations, or compliance history. The board says the core technology is commoditized and demands an immediate pivot into model training. Decide whether this is a complement, substitute, or transition threat and design the next eight weeks.",
+      "criteria": [
+        "Decomposes the customer outcome and value chain to test whether the model substitutes for extraction, complements the workflow, or changes the basis of competition, rather than equating one benchmark with the whole product.",
+        "Examines transition timing, adoption constraints, buyer switching cost, entrant and incumbent incentives, and the durability of workflow data, integrations, trust, distribution, and learning loops without labeling any of them an automatic moat.",
+        "Uses the cheaper model in bounded cost, quality, workflow, and willingness-to-switch experiments while collecting renewal, loss, and usage evidence from the affected customer segments.",
+        "Precommits dated integrate, reposition, rebuild, partner, and pivot branches with thresholds for end-to-end outcome quality, economics, adoption, and defensibility; avoids an identity-driven model-training pivot.",
+        "Keeps transition interpretation and positioning with competing-and-positioning, routes customer evidence to learning-from-users, implementation to engineering-for-leverage and shipping-and-iterating-products, and economic-model changes to designing-business-models."
+      ]
+    }
+  ]
+}

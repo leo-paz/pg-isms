@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competing and Positioning"
+  short_description: "Position against rivals, shifts, and platforms"
+  default_prompt: "Use $competing-and-positioning to analyze alternatives, causal differentiation, incumbent or transition response, and platform creation or dependency."

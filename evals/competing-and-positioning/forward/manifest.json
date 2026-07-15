@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "skill_name": "competing-and-positioning",
+  "phase": "forward",
+  "reviewer_id": "positioning-forward-012",
+  "canonical_agent_task": "/codex-exec/positioning-forward-012/five-isolated-response-sessions",
+  "generated_at": "2026-07-15T03:46:21Z",
+  "model_identity": "Codex CLI (GPT-5)",
+  "dispatch_prompt": "You are a fresh response generator for {case_id}. Write only the final answer. Begin exactly with: Case ID: {case_id}; Reviewer ID: positioning-forward-012. Answer the scenario using only its facts and the supplied frozen skill and runtime contract. Do not inspect the repository, evaluation criteria, prior responses, or score artifacts. The exact prompt and full frozen skill/runtime followed.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "e26c7880d81927bacdf441847e9b14d755616fad14ac3128430974800840ed53",
+    "runtime_sha256": "6cdcae095af252b4e7a294224c53a0813276354fe6c9f08c2a49d02d4de7a398"
+  },
+  "response_hash_algorithm": "sha256",
+  "cases_sha256": "ccaf269056f8e1edb7aacb753bbfc66e0b6f5e3303aed59ba3298dea4f35ddc2",
+  "projection_sha256": "761b36abc3aa760abb7d1bae5426feb5f259285a73a4ad135eff12e0a15adc01",
+  "generation_sessions": {
+    "scenario-01": "019f63df-ac90-78b0-b8bd-30ab332cedc2",
+    "scenario-02": "019f63df-ac7a-7821-8bca-35afee56e534",
+    "scenario-03": "019f63df-ad52-7120-bafa-6f1b80ae7f7f",
+    "scenario-04": "019f63df-ac62-7b73-9586-516564e16f7a",
+    "scenario-05": "019f63df-ac6d-7622-a9ac-70691257436f"
+  },
+  "prefreeze_normalization": "Removed trailing spaces and tabs, then retained one final LF.",
+  "response_hashes": {
+    "scenario-01": "f9d8886765eae170bf3247def629891f32eda3de965acd5d976082ec64365679",
+    "scenario-02": "2e3d9e7be106ec3aaf7281f4e9472e12ed2fc2d95ef9c70db83efd52f2421fba",
+    "scenario-03": "d7acb8adc66393d0a0c9a02b73a951b126a14fde7729cb7243c13027360ad95e",
+    "scenario-04": "6fd399a90a64f6b991f68c124f00fc2182baa51fcb57ee6b56838ff21236e447",
+    "scenario-05": "2edbdccc76a6586f52ea0ea0cce49c26abd92b4ab6a69a0c9bc88a43039afc26"
+  }
+}

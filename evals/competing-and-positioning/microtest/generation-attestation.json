@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "skill_name": "competing-and-positioning",
+  "phase": "microtest-generation",
+  "attempt": 13,
+  "completed_at": "2026-07-15T03:52:11Z",
+  "generator_backend": "codex exec 0.144.4",
+  "generator_model": "Codex CLI (GPT-5)",
+  "generation_plan_sha256": "98520da519286e9c32510afdb68592b66cdecb43b5a77589e2957ea5b4d75901",
+  "rubric_sha256": "43d31e9720b0784a5df24f0227ed024fe60e3caac713bb53faf68fe070b94017",
+  "prompt_sha256": "bd8c739ed91d02c7217c1baa53f9c0ae3b948fae072c867e9f56758deaac0913",
+  "prompt_projection_sha256": "3ded3e260b959533c0f4a6d59d478a8bf0bb462babeeae605f91c472543594d9",
+  "criteria_sha256": "7094901960c2cff832fb99ff23d31e79f23f265888c170dfacc3b92b8786572d",
+  "guided_skill_sha256": "e26c7880d81927bacdf441847e9b14d755616fad14ac3128430974800840ed53",
+  "guided_runtime_sha256": "6cdcae095af252b4e7a294224c53a0813276354fe6c9f08c2a49d02d4de7a398",
+  "criteria_visible_before_generation": false,
+  "criteria_visible_during_generation": false,
+  "criteria_hidden_during_generation": true,
+  "prior_outputs_visible_during_generation": false,
+  "pre_freeze_normalization": "removed only trailing SP/TAB per line, then retained exactly one final LF",
+  "responses_frozen_before_scoring": true,
+  "responses": [
+    {
+      "arm": "control",
+      "rep": 1,
+      "task": "/codex-exec/positioning-micro-013-control-1",
+      "session_id": "019f63e5-8ecf-7eb0-a45e-9c6dcb4b5454",
+      "path": "evals/competing-and-positioning/microtest/control/rep-1.md",
+      "sha256": "05d64d4986296a4e1e303f52377f860937dd23cea664689bdf6654ed814fa37a",
+      "bytes": 2354,
+      "materials_supplied": ["decoded prompt"]
+    },
+    {
+      "arm": "control",
+      "rep": 2,
+      "task": "/codex-exec/positioning-micro-013-control-2",
+      "session_id": "019f63e5-8e9e-7fd2-b97b-3f697368b0df",
+      "path": "evals/competing-and-positioning/microtest/control/rep-2.md",
+      "sha256": "cc1f41ae62b519d74dee3b4c3623c2e28beec44e00529e700c5ea46b683bdb15",
+      "bytes": 1900,
+      "materials_supplied": ["decoded prompt"]
+    },
+    {
+      "arm": "control",
+      "rep": 3,
+      "task": "/codex-exec/positioning-micro-013-control-3",
+      "session_id": "019f63e5-8e8f-7303-91de-433564690aaf",
+      "path": "evals/competing-and-positioning/microtest/control/rep-3.md",
+      "sha256": "4de0795daab4355b27cfe952eda7c220e7e2418f076e745b44de4ad126d27875",
+      "bytes": 2337,
+      "materials_supplied": ["decoded prompt"]
+    },
+    {
+      "arm": "control",
+      "rep": 4,
+      "task": "/codex-exec/positioning-micro-013-control-4",
+      "session_id": "019f63e5-8e80-7561-b027-7b7b788ca062",
+      "path": "evals/competing-and-positioning/microtest/control/rep-4.md",
+      "sha256": "97df59ac9c6ca8980696d2f7791e61b9133a3dbb60fcd100d794ec8434fffc44",
+      "bytes": 1953,
+      "materials_supplied": ["decoded prompt"]
+    },
+    {
+      "arm": "control",
+      "rep": 5,
+      "task": "/codex-exec/positioning-micro-013-control-5",
+      "session_id": "019f63e5-8e77-7ce0-9c24-27d8bde06d14",
+      "path": "evals/competing-and-positioning/microtest/control/rep-5.md",
+      "sha256": "d991d30365d13a29c93e832d9e68d8347e0507205a089b8a392790c460722e38",
+      "bytes": 2304,
+      "materials_supplied": ["decoded prompt"]
+    },
+    {
+      "arm": "guided",
+      "rep": 1,
+      "task": "/codex-exec/positioning-micro-013-guided-1",
+      "session_id": "019f63e5-8e80-7f91-ace1-b3fe0f3673cc",
+      "path": "evals/competing-and-positioning/microtest/guided/rep-1.md",
+      "sha256": "784c17c6c1f352b52f74a1195e045170b174b4918d79a427a1cad711ca7695a6",
+      "bytes": 13653,
+      "materials_supplied": ["decoded prompt", "frozen SKILL.md", "frozen runtime-contract.md"]
+    },
+    {
+      "arm": "guided",
+      "rep": 2,
+      "task": "/codex-exec/positioning-micro-013-guided-2",
+      "session_id": "019f63e5-8e7e-7d91-b64c-95ed31e57e51",
+      "path": "evals/competing-and-positioning/microtest/guided/rep-2.md",
+      "sha256": "80c1027d0ea0a6ba0e2b4aaff520aafb7bd3d141b48c4dedf6e57e47c451f01e",
+      "bytes": 20405,
+      "materials_supplied": ["decoded prompt", "frozen SKILL.md", "frozen runtime-contract.md"]
+    },
+    {
+      "arm": "guided",
+      "rep": 3,
+      "task": "/codex-exec/positioning-micro-013-guided-3",
+      "session_id": "019f63e5-8e9e-7592-844f-bcbef7175d54",
+      "path": "evals/competing-and-positioning/microtest/guided/rep-3.md",
+      "sha256": "a957ea186a06c062a7f7cf1cf4b6d7599540aa363084d7f4179ab32526d38d7d",
+      "bytes": 16028,
+      "materials_supplied": ["decoded prompt", "frozen SKILL.md", "frozen runtime-contract.md"]
+    },
+    {
+      "arm": "guided",
+      "rep": 4,
+      "task": "/codex-exec/positioning-micro-013-guided-4",
+      "session_id": "019f63e5-8ed9-76d1-a1d7-5a84a84e3416",
+      "path": "evals/competing-and-positioning/microtest/guided/rep-4.md",
+      "sha256": "1f4fc8c991e8f1e18d3713e5a9ce14499e614f6ecb264ce1a6b36333993776ab",
+      "bytes": 18554,
+      "materials_supplied": ["decoded prompt", "frozen SKILL.md", "frozen runtime-contract.md"]
+    },
+    {
+      "arm": "guided",
+      "rep": 5,
+      "task": "/codex-exec/positioning-micro-013-guided-5",
+      "session_id": "019f63e5-8e9e-7f03-bdb4-e3c4a60a4911",
+      "path": "evals/competing-and-positioning/microtest/guided/rep-5.md",
+      "sha256": "47b33f7af7a22430cf1b4b746a557aad5caf37580cbb47e35bcf505f5c566513",
+      "bytes": 14184,
+      "materials_supplied": ["decoded prompt", "frozen SKILL.md", "frozen runtime-contract.md"]
+    }
+  ],
+  "integrity": {
+    "ten_unique_tasks": true,
+    "ten_unique_sessions": true,
+    "ten_unique_response_hashes": true,
+    "ten_unique_response_bodies": true,
+    "criteria_hidden_from_generators": true,
+    "prior_outputs_hidden_from_generators": true,
+    "control_skill_absent": true,
+    "guided_current_skill_and_runtime_only": true,
+    "predeclared_normalization_only": true,
+    "no_trailing_whitespace": true,
+    "exactly_one_final_lf": true,
+    "responses_frozen_before_scoring": true
+  }
+}
