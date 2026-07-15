@@ -1,0 +1,15 @@
+# Raw evaluation output
+
+Case ID: scenario-05
+
+Reviewer ID: founder-partnership-baseline-002
+
+Aisha should not appoint a cofounder now to improve a fundraising story. The clinics create a real operating deadline, while neither candidate has earned founder-level trust. Adding the wrong cofounder would consume the time and attention needed to retain the customers and would be much harder to reverse than hiring temporary implementation capacity.
+
+In the next 48 hours, Aisha should make one rollout plan for all six clinics: required onboarding and workflow changes, clinic-by-clinic owners, dependencies, weekly milestones, and the earliest date each clinic could be at risk. She should use Jo for the two rollouts Jo can cover, reserve her own time for the highest-leverage product and customer decisions, and immediately seek an additional experienced contractor or implementation lead for the remaining work. With nine months of runway, she should price the cost of enough temporary capacity against the much larger cost of failed renewals. If any commitment cannot be met safely, she should reset that clinic's expectations early with a specific recovery plan rather than surprise it on August 31.
+
+Bo should be offered a bounded working trial, not a title. A paid four-to-six-week project could require him to produce a credible enterprise sales plan, make several permissioned buyer introductions, participate in customer discovery, and own a concrete implementation or sales deliverable. Aisha should verify the claimed network and operating history through references and observable outcomes. Before the trial, they should document confidentiality, IP ownership, compensation, authority, and that no founder role or equity is promised. If Bo refuses to contribute until he receives the title, Aisha should stop the process.
+
+Omar's record is materially worse than an untested relationship: missed commitments plus a concealed outside client during a launch. His description of that as a one-off is not enough to restore trust. Aisha should not put him on the clinic-critical path or make him a cofounder. If she considers any involvement later, it should follow independent references and complete disclosure of other commitments and begin with a narrow, noncritical engagement whose milestones can be verified.
+
+After the clinic work is staffed, Aisha can recruit for the actual gaps rather than combine them into a premature founder role. Strategy challenge can come from an adviser or board member, enterprise selling from an experienced sales leader or trial project, and implementation from employees or contractors. Over time, someone who repeatedly shares risk, delivers difficult work, handles conflict candidly, and wants the same long-term company may become a credible cofounder candidate. Until then, Aisha can fundraise as the sole founder using the paid pilots, renewals, expansion letters, and a concrete delivery plan. The mentor's preference is an input, not a reason to transfer title and ownership before trust exists.

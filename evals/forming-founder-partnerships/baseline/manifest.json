@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "skill_name": "forming-founder-partnerships",
+  "phase": "baseline",
+  "reviewer_id": "founder-partnership-baseline-002",
+  "canonical_agent_task": "/root/founder_baseline_generator_002",
+  "generated_at": "2026-07-15T05:44:16Z",
+  "model_identity": "Codex (GPT-5)",
+  "dispatch_prompt": "Answer each projected prompt independently using only the facts in that prompt and ordinary reasoning, without opening repository guidance, source material, criteria, intended answers, skills, prior or rejected evaluations, reviews, or git metadata.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "no-skill",
+    "skill_sha256": null
+  },
+  "response_hash_algorithm": "sha256",
+  "cases_sha256": "d3db98aaad816b55986056563960501744fa24c05497fc715c437413797030bc",
+  "projection_sha256": "7ebb02f816d11ff38cdf43d78e7fa631837ff9c35e82698597f8b60e61dda3e7",
+  "response_hashes": {
+    "scenario-01": "7509805f00f3c3f71580f5877638d9b1de5823497416cf82d8e6d96b08c4ecd1",
+    "scenario-02": "f578d0c272146f58bca03617fa4e58515687abc2cb20f74013c363569bbd89b7",
+    "scenario-03": "ecdaa28fce507c1934c00a96259636190d1c924bb4b2b85e6cd71c832fefcef4",
+    "scenario-04": "4810de0628542d5342ae1b4ac2be3c12ba169d8c644b18dc4c43fdff74765a0b",
+    "scenario-05": "12a0af42156b423da6d89128d3b40c9a52f9bba486fab733b32e7d6f747bfa60"
+  }
+}
