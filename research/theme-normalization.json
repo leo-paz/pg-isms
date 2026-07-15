@@ -7,7 +7,8 @@
     "Launch safety, survival state, evidence latency, investor truth, user acquisition versus company acquisition, urgency, stage, product type, and historical context remain distinct.",
     "Canonical themes support later evidence retrieval only and must not be treated as final skill names or runtime instructions.",
     "Checkpoint 3 semantic routing review split broad equity, adversarial, network-effect, and policy labels by actor or mechanism and added mappings for five reopened essays.",
-    "Skill 9 source review added an article-scoped override so essay 084's YC process standardization evidence remains market-structure evidence rather than being misrouted as startup platform strategy."
+    "Skill 9 source review added an article-scoped override so essay 084's YC process standardization evidence remains market-structure evidence rather than being misrouted as startup platform strategy.",
+    "Skill 10 source and overlap review added article-scoped cofounder mappings for essays 039, 123, and 134 while preserving founder evaluation and avoiding a global remap of broader founder-selection or durability labels."
   ],
   "canonical_themes": [
     {
@@ -1375,7 +1376,25 @@
       "canonical_themes": [
         "cofounder-relationships-and-durability"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "123",
+          "canonical_themes": [
+            "cofounder-formation-and-selection",
+            "cofounder-relationships-and-durability"
+          ],
+          "reviewer": "skill10-overlap-gap-review"
+        },
+        {
+          "article_no": "134",
+          "canonical_themes": [
+            "cofounder-formation-and-selection",
+            "cofounder-relationships-and-durability"
+          ],
+          "reviewer": "skill10-overlap-gap-review"
+        }
+      ]
     },
     {
       "raw_theme": "cofounder formation",
@@ -3201,7 +3220,18 @@
       "canonical_themes": [
         "founder-evaluation-and-potential"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "039",
+          "canonical_themes": [
+            "cofounder-formation-and-selection",
+            "cofounder-relationships-and-durability",
+            "founder-evaluation-and-potential"
+          ],
+          "reviewer": "skill10-overlap-gap-review"
+        }
+      ]
     },
     {
       "raw_theme": "founder signals",
