@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "case_id": "founder-partnerships-heldout-attempt-028",
+  "attempt": 28,
+  "reviewer": "/root/founder_heldout_independent_review_028",
+  "reviewed_at_utc": "2026-07-15T14:02:43Z",
+  "blind_record_fixed_before_score_access": true,
+  "inspection_scope": {
+    "stage_a_read_files": [
+      "evals/forming-founder-partnerships/heldout/skill-freeze.json",
+      "evals/forming-founder-partnerships/heldout/case.json",
+      "evals/forming-founder-partnerships/heldout/generation-plan.json",
+      "evals/forming-founder-partnerships/heldout/response.md",
+      "skills/forming-founder-partnerships/SKILL.md",
+      "skills/forming-founder-partnerships/references/runtime-contract.md"
+    ],
+    "stage_b_read_files": [
+      "evals/forming-founder-partnerships/heldout/score.json",
+      "evals/forming-founder-partnerships/heldout/scorecard.md",
+      ".superpowers/sdd/founder-partnerships-heldout-attempt-028-draft/prompt-review.json"
+    ],
+    "prior_attempt_baseline_forward_microtest_or_unrelated_eval_inspected": false,
+    "status": "PASS"
+  },
+  "hashes": {
+    "whole_files": {
+      "skill_freeze": {
+        "bytes": 791,
+        "sha256": "3412d690deb77e9d2033408516669908a040a7a2d6a61b36095690e8995978b2"
+      },
+      "case": {
+        "bytes": 7018,
+        "sha256": "402133067e51bea31fb5fca46694f3ff1d341463a1ca852b6d5f07f9d8c0ea1a"
+      },
+      "generation_plan": {
+        "bytes": 5520,
+        "sha256": "24ab506c8fad2ca77b182e9293f5eb18dbde9b5d54e128558951e3e06d4d86e8"
+      },
+      "response": {
+        "bytes": 14767,
+        "sha256": "b863b61d340af302b745be460b404fa99ca67f3b45c5ad9c6f15a0af8f94471f"
+      },
+      "skill": {
+        "bytes": 3762,
+        "sha256": "a1bd8c331837d5e8a1177ab774b7d4f3e6a7a6d2d11b4293333fed445d77d584"
+      },
+      "runtime_contract": {
+        "bytes": 11011,
+        "sha256": "9fef3fe9b7e3ef19dba864698046322b50cdf83aa61178934e5476aa17fb3a38"
+      },
+      "score": {
+        "bytes": 9737,
+        "sha256": "ec7e9fbc1023dbd29e3f4e429e3ff495c5af5c628232a10b730878c65adec0c4"
+      },
+      "scorecard": {
+        "bytes": 7264,
+        "sha256": "d1514d688c6d8759310e62774815dc47d69807e30aa9fc1c0d2899b603817eab"
+      },
+      "prompt_review": {
+        "bytes": 5254,
+        "sha256": "cbd7fb98d3308734faea6cfd9e0d2b9cff26685394cc082cdf5deeb0ca9a62c5"
+      }
+    },
+    "scoped_domains": {
+      "decoded_prompt_without_added_terminal_lf": {
+        "bytes": 2058,
+        "sha256": "77e5827ab9a60917f8d7ce35611060760c9e638e7f7f863e7512aa2421fa9a8c"
+      },
+      "canonical_hidden_criteria": {
+        "bytes": 3938,
+        "sha256": "28836b4f6f6c4b39a54869afe1c95964a874bb05fd67bcd44ea5ba80bbefcd07"
+      },
+      "assembled_context": {
+        "bytes": 16879,
+        "sha256": "dae9317209d2ee9fdc25cd1349fbfcc17c612a172d525f6aa87ed94a754b239d"
+      },
+      "response_body_without_terminal_lf": {
+        "bytes": 14458,
+        "sha256": "097f68fa0629c54f74bd1b2b56b0aa016e7e4c793747476bf67ab4787c9d54fa"
+      }
+    },
+    "all_reproduced_values_match": true
+  },
+  "response_contract": {
+    "header_count": 8,
+    "header_order_exact": true,
+    "fixed_values_exact": true,
+    "one_empty_line_between_headers_and_body": true,
+    "body_leading_blank_lines": 0,
+    "body_trailing_blank_lines": 0,
+    "lines_with_trailing_spaces_or_tabs": 0,
+    "file_final_lf_count": 1,
+    "verdict": "PASS"
+  },
+  "chronology": {
+    "pre_author_skill_freeze": "2026-07-15T13:46:31Z",
+    "case_authored": "2026-07-15T13:46:49Z",
+    "prompt_reviewed": "2026-07-15T13:48:25Z",
+    "generation_plan_frozen": "2026-07-15T13:49:06Z",
+    "generation_dispatched": "2026-07-15T13:49:49Z",
+    "generation_completed": "2026-07-15T13:53:47Z",
+    "strict_scoring_completed": "2026-07-15T13:55:53Z",
+    "independent_review_completed": "2026-07-15T14:02:43Z",
+    "monotonic": true,
+    "verdict": "PASS"
+  },
+  "identity_separation": {
+    "case_author": "/root",
+    "prompt_reviewer": "/root/founder_heldout_prompt_gate_028",
+    "generator": "/root/founder_heldout_generator_028",
+    "scorer": "/root/founder_heldout_scorer_028",
+    "independent_reviewer": "/root/founder_heldout_independent_review_028",
+    "required_roles_distinct": true,
+    "verdict": "PASS"
+  },
+  "stage_a": {
+    "prompt_naturalness_and_no_leakage": "PASS",
+    "integrity": "PASS",
+    "criteria": {
+      "C1": {
+        "bit": 1,
+        "verdict": "PASS"
+      },
+      "C2": {
+        "bit": 1,
+        "verdict": "PASS"
+      },
+      "C3": {
+        "bit": 1,
+        "verdict": "PASS"
+      },
+      "C4": {
+        "bit": 1,
+        "verdict": "PASS"
+      },
+      "C5": {
+        "bit": 0,
+        "verdict": "FAIL",
+        "miss": "The response states the debt fee only as $36,000 and omits the required 2% term."
+      }
+    },
+    "vector": [1, 1, 1, 1, 0],
+    "positive_bits": 4,
+    "total_bits": 5,
+    "minimum_positive_bits": 4,
+    "criteria_threshold_met": true,
+    "held_out_transfer_verdict": "PASS"
+  },
+  "stage_b_comparison": {
+    "score_integrity_and_hashes_match_stage_a": true,
+    "score_envelope_and_whitespace_match_stage_a": true,
+    "score_vector_matches_stage_a": true,
+    "criterion_verdicts_and_rationales_match_stage_a": true,
+    "auxiliary_verdicts_and_threshold_match_stage_a": true,
+    "scorecard_matches_score_and_stage_a": true,
+    "prompt_review_hash_matches_generation_plan": true,
+    "prompt_review_all_checks_pass_with_no_blockers": true,
+    "prompt_review_rationales_and_chronology_match": true,
+    "any_disagreement_or_integrity_problem": false,
+    "verdict": "PASS"
+  },
+  "score": {
+    "vector": [1, 1, 1, 1, 0],
+    "positive_bits": 4,
+    "total_bits": 5,
+    "minimum_positive_bits": 4,
+    "criteria_threshold_met": true,
+    "integrity_required": "PASS",
+    "integrity_actual": "PASS",
+    "prompt_naturalness_and_no_leakage_required": "PASS",
+    "prompt_naturalness_and_no_leakage_actual": "PASS",
+    "held_out_transfer_verdict": "PASS"
+  },
+  "final_independent_verdict": "PASS"
+}

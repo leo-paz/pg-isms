@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "artifact_type": "canonical_independent_review_closeout",
+  "attempt": 17,
+  "case_id": "founder-partnerships-microtest-attempt-017",
+  "reviewer": {
+    "identity": "/root/founder_micro_prompt_review_008/founder_micro_independent_review_017",
+    "role": "blind Stage A reviewer, Stage B challenger, and post-amendment independent verifier"
+  },
+  "timestamps": {
+    "closeout_started_at_utc": "2026-07-15T18:38:32.213Z",
+    "closeout_completed_at_utc": "2026-07-15T18:39:42.890Z"
+  },
+  "review_lineage": {
+    "stage_a": {
+      "path": ".superpowers/sdd/founder-partnerships-microtest-attempt-017-independent-stage-a.json",
+      "canonical_task": "/root/founder_micro_prompt_review_008/founder_micro_independent_review_017",
+      "bytes": 36224,
+      "sha256": "1c134c2a31bcbeec0b21f7c3509c769c6959f41541cffbb56ad9d1ea2f7b0edc",
+      "identity": "frozen blind Stage A"
+    },
+    "stage_b_json": {
+      "path": ".superpowers/sdd/founder-partnerships-microtest-attempt-017-independent-stage-b.json",
+      "bytes": 9864,
+      "sha256": "b960e158d04f069ecb50b9723db630f145d6893772e4e4f46dee53818c8b3579",
+      "identity": "official-package comparison and adjudication"
+    },
+    "stage_b_markdown": {
+      "path": ".superpowers/sdd/founder-partnerships-microtest-attempt-017-independent-stage-b.md",
+      "bytes": 4221,
+      "sha256": "674489eec7e5381bc68cc98901061e8bba2cb4ecefdf5819c08f36df9def060d",
+      "identity": "human-readable Stage B report"
+    },
+    "lineage_hashes_unchanged": true
+  },
+  "sustained_challenge": {
+    "count": 1,
+    "sample_id": "founder_micro_guided_4_017",
+    "criterion": "C2",
+    "pre_amendment_official_bit": 1,
+    "stage_a_bit": 0,
+    "amended_official_bit": 0,
+    "exact_conjunct": "make no inference about motive, deception, or harmful conduct",
+    "response_quote": "Respect and candor appear intact enough to run the reset, but the June 27 records and each founder’s response to them remain the relevant evidence check. No broader personality or character conclusion is supported.",
+    "adjudication": "Candor denotes honesty/open truthfulness. The sentence affirmatively inferred truthfulness while the retained sources were unreviewed; the broader-character disclaimer did not retract the narrower inference. Under the strict all-conjunct rule, C2 is 0.",
+    "official_amendment_sustains_stage_a": true
+  },
+  "amended_official_artifacts": {
+    "authorized_change_set": [
+      {
+        "path": "evals/forming-founder-partnerships/microtest/summary.json",
+        "pre_amendment_bytes": 17913,
+        "pre_amendment_sha256": "c943cc2dcda67fbf6658cac4590c17f2704fd4f203ba7e604594c407aef7cd9d",
+        "final_bytes": 18634,
+        "final_sha256": "37db40da151714622af92cb4682adc4f1ef33b37cb3120931d6aff12356a6f04"
+      },
+      {
+        "path": "evals/forming-founder-partnerships/microtest/scorecards/founder_micro_guided_4_017.md",
+        "pre_amendment_bytes": 1911,
+        "pre_amendment_sha256": "053fe6570676900fd7f864d96e4aadb8e69b0e421e0a1f9e7309bee6805f9793",
+        "final_bytes": 2527,
+        "final_sha256": "59cba77c45d6176eb751c1f7a71aa83aca343cf6c6b643c63051a560adcc558c"
+      },
+      {
+        "path": "evals/forming-founder-partnerships/microtest/scorer-report.md",
+        "pre_amendment_bytes": 3939,
+        "pre_amendment_sha256": "7b900d5c3e03a089a40b5e355f81c9e9facab13fec364e5ba489190b97498b2e",
+        "final_bytes": 4508,
+        "final_sha256": "b9114c4e07701498dc924c2decdfb05b3459cc0652b68dbe2ecd12f6063b647a"
+      }
+    ],
+    "unchanged_other_scorecards": [
+      {"sample_id":"founder_micro_control_1_017","sha256":"9c0d42145f4a5bbeb180e9f2e6dad021575f9e8d689a9355326027ed90921279"},
+      {"sample_id":"founder_micro_control_2_017","sha256":"250eaaf5f8cee04d941c52b2cf85175deb9cc5152ce565bda4326a01a92018f4"},
+      {"sample_id":"founder_micro_control_3_017","sha256":"84faa438be7529e0eb5bb09dac65202e977ca5f9ef2fec08bedd82b17cf20416"},
+      {"sample_id":"founder_micro_control_4_017","sha256":"614423b211f4bcb4addf9a449d0d2894da1cf77935feefe4faaa809e193bb659"},
+      {"sample_id":"founder_micro_control_5_017","sha256":"f64e0ce89e61ee363048e4bc61d3359dfd640da987bbb077fcb94d90f3b5887d"},
+      {"sample_id":"founder_micro_guided_1_017","sha256":"881aa2da75fcb9b2d9dc16f4c4402f708d9170e1b45445788a88cd3e0c9eb1ed"},
+      {"sample_id":"founder_micro_guided_2_017","sha256":"574b4b33fb02aea5f784f0e2ed83a3d0bfb89eca93d01eaa5196e3794084bc84"},
+      {"sample_id":"founder_micro_guided_3_017","sha256":"91ebc984b377f22413a708b00a5d4535de9d97b847d5b6b0a54516694c030f2c"},
+      {"sample_id":"founder_micro_guided_5_017","sha256":"659fe4ded80791d779e871d34e60fb75d14bed4a608e14a6fc319bb12d2d9178"}
+    ],
+    "unrelated_official_scorer_artifact_change_detected": false,
+    "underlying_frozen_generation_response_and_trace_artifact_change_detected": false
+  },
+  "exact_agreement": {
+    "status": "PASS",
+    "bits_compared": 50,
+    "bit_disagreements_after_amendment": 0,
+    "official_and_stage_a_flat_vector": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0,1,0,1,0,0,1,1,1,0,0],
+    "control_response_vectors": [[1,0,0,0,0],[1,0,0,0,0],[1,0,0,0,0],[1,0,0,0,0],[1,0,0,0,0]],
+    "guided_response_vectors": [[1,1,1,0,0],[1,1,1,0,0],[1,1,1,0,0],[1,0,1,0,0],[1,1,1,0,0]],
+    "all_ten_summary_vectors_match_stage_a": true,
+    "all_ten_scorecard_vectors_match_summary_and_stage_a": true,
+    "all_ten_normalized_scores_match_summary_and_stage_a": true,
+    "every_summary_zero_rationale_key_exactly_matches_a_zero_bit": true,
+    "every_scorecard_contains_a_nonempty_rationale_for_each_zero_bit": true,
+    "guided_4_corrected_zero_rationale_matches_sustained_challenge": true
+  },
+  "arithmetic": {
+    "control_normalized_vector": [0.2,0.2,0.2,0.2,0.2],
+    "control_mean": 0.2,
+    "control_population_variance": 0,
+    "guided_normalized_vector": [0.6,0.6,0.6,0.4,0.6],
+    "guided_mean": 0.56,
+    "guided_population_variance": 0.0064,
+    "guided_minus_control_effect": 0.36,
+    "threshold": 0.2,
+    "comparison": ">=",
+    "threshold_met": true,
+    "arithmetic_reproduced": true
+  },
+  "integrity_recheck": {
+    "status": "PASS",
+    "frozen_rubric_prompt_criteria_skill_runtime_and_plan_hashes_match": true,
+    "control_context": {"bytes":3623,"sha256":"29c3476f4f19d99e19ad5d1c9aa2fefe7a8fcc962c137c0dd8119f6d88a3b500","terminal_lf":false},
+    "guided_context": {"bytes":18443,"sha256":"a87ebb086526d063fab2b46e52c495d2d8602d5d219288f627a11a8a4561edc5","terminal_lf":false},
+    "all_ten_response_file_hashes_match_stage_a": true,
+    "all_ten_trace_file_hashes_match_stage_a": true,
+    "all_ten_exact_response_envelopes_match": true,
+    "all_ten_task_sample_context_arm_identities_match": true,
+    "unique_canonical_tasks_sample_ids_context_ids_thread_ids_and_body_hashes": 10,
+    "chronology_and_sequential_dispatch_match": true,
+    "all_trace_gates_pass_with_zero_forbidden_events": true,
+    "diagnostic_records_ordered_hashed_and_process_only": true,
+    "guided_preflight_retry_zero_threads_events_messages_and_responses": true
+  },
+  "semantic_recheck": {
+    "route_legitimacy": {
+      "status":"PASS",
+      "evidence":"Existing-team partnership-primary is the legitimate current route for continuation under a material prospective founder capacity/responsibility change; survival and ownership are not current primary branches and the shared-work history excludes candidate mode."
+    },
+    "criterion_isolation": {
+      "status":"PASS",
+      "evidence":"The five criteria remain isolated by their explicit require/do-not-score clauses. The sustained challenge is entirely within C2's no-inference conjunct."
+    },
+    "harness_and_repository_leakage": {
+      "status":"PASS",
+      "harness_rubric_microtest_prior_attempt_or_repository_mentions_in_responses":false,
+      "control_exact_runtime_taxonomy_mentions":false,
+      "guided_runtime_material_within_permitted_arm":true,
+      "opposite_arm_or_other_repository_only_material_detected":false
+    },
+    "unsupported_claim_handling": {
+      "status":"PASS_AFTER_AMENDMENT",
+      "evidence":"The sole score-changing unsupported inference identified in Stage A—guided sample 4's pre-check candor clearance—is now scored as a C2 failure."
+    }
+  },
+  "final_verdict": {
+    "integrity": "PASS",
+    "semantic_review": "PASS",
+    "official_stage_a_exact_agreement": "PASS",
+    "effect": 0.36,
+    "threshold_met": true,
+    "verdict": "PASS"
+  }
+}

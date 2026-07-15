@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "skill_name": "forming-founder-partnerships",
+  "phase": "forward",
+  "reviewer_id": "founder-partnership-forward-001",
+  "canonical_agent_task": "/root/founder_forward_case_01_001",
+  "canonical_agent_tasks": [
+    "/root/founder_forward_case_01_001",
+    "/root/founder_forward_case_02_001",
+    "/root/founder_forward_case_03_001",
+    "/root/founder_forward_case_04_001",
+    "/root/founder_forward_case_05_001"
+  ],
+  "generated_at": "2026-07-15T06:27:26Z",
+  "model_identity": "Codex (GPT-5)",
+  "dispatch_prompt": "Generate one fresh response for one assigned frozen prompt using only that prompt plus the final frozen SKILL.md and runtime contract, without criteria, baseline outputs or scores, reviews, evidence, provenance, research, other skills, rejected attempts, or git metadata.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "a1bd8c331837d5e8a1177ab774b7d4f3e6a7a6d2d11b4293333fed445d77d584",
+    "runtime_sha256": "9fef3fe9b7e3ef19dba864698046322b50cdf83aa61178934e5476aa17fb3a38"
+  },
+  "response_hash_algorithm": "sha256",
+  "cases_sha256": "d3db98aaad816b55986056563960501744fa24c05497fc715c437413797030bc",
+  "projection_sha256": "7ebb02f816d11ff38cdf43d78e7fa631837ff9c35e82698597f8b60e61dda3e7",
+  "response_hashes": {
+    "scenario-01": "6dc37b1848fad90b9f45c66211bba0321c2b3b9d0c93d2bf9c20b0b7c3190de6",
+    "scenario-02": "eb670a627add94d8ceaf66c943e2c85b7b7621be32168bed9415cac7da8c1eb6",
+    "scenario-03": "05efa3613e14ad964346b9cd8b9ea1afb553c2d46f6afc8a275300b7f33735e1",
+    "scenario-04": "cf11ac8bdc8b2c15da607b73624e5f700de78c6849dba382ec6c65043c6960c2",
+    "scenario-05": "ad7aa583e914bcf2b80a99a4ea6f00c105136bd1d0ec75e65e77412e2a095805"
+  }
+}

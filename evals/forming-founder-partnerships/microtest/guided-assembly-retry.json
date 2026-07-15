@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "attempt": 17,
+  "sample_id": "founder_micro_guided_1_017",
+  "failed_dispatch_at": "2026-07-15T17:59:02.430Z",
+  "failed_completion_at": "2026-07-15T17:59:02.752Z",
+  "failure_manifest": ".superpowers/sdd/founder-partnerships-microtest-attempt-017-runtime-failure/founder_micro_guided_1_017/manifest.json",
+  "failure_reason": "The local builder retained two terminal LFs, failed the frozen context byte/hash assertion, and piped no prompt to Codex.",
+  "codex_thread_count": 0,
+  "json_event_count": 0,
+  "final_agent_message_count": 0,
+  "response_present": false,
+  "raw_diagnostic": "No prompt provided via stdin.",
+  "not_a_resample": "The frozen no-resampling rule begins after a final agent message. No model thread or response existed.",
+  "corrected_builder": "Require one terminal LF on each frozen source and remove it with slice(0, -1), avoiding regex escaping.",
+  "preflight_context_sha256": "a87ebb086526d063fab2b46e52c495d2d8602d5d219288f627a11a8a4561edc5",
+  "preflight_context_bytes": 18443,
+  "preflight_final_byte_decimal": 46,
+  "matches_frozen_plan": true,
+  "retry_authorized": true
+}

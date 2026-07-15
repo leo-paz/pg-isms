@@ -1369,7 +1369,18 @@
         "cofounder-formation-and-selection",
         "hiring-and-talent"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "069",
+          "canonical_themes": [
+            "cofounder-formation-and-selection",
+            "cofounder-relationships-and-durability",
+            "hiring-and-talent"
+          ],
+          "reviewer": "forming-founder-partnerships-task-5-remediation"
+        }
+      ]
     },
     {
       "raw_theme": "cofounder durability",

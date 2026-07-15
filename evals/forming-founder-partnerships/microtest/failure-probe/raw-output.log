@@ -1,0 +1,6 @@
+FIXTURE_DIAGNOSTIC cache snapshot unavailable
+{"type":"thread.started","thread_id":"fixture-thread-016"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"fixture-answer","type":"agent_message","text":"FIXTURE_RESPONSE"}}
+{"type":"item.completed","item":{"id":"fixture-forbidden","type":"command_execution","command":"fixture-only"}}
+{"type":"turn.completed","usage":{"input_tokens":1,"output_tokens":1}}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "attempt": 17,
+  "created_at_utc": "2026-07-15T17:42:40Z",
+  "sources": {
+    "attempt_16": ".superpowers/sdd/founder-partnerships-microtest-attempt-016-whitespace-envelope-failed/rubric.json",
+    "attempt_17": ".superpowers/sdd/founder-partnerships-microtest-attempt-017-draft/rubric.json"
+  },
+  "criteria": {
+    "attempt_16_sha256": "60c31765fc62aa3e8572dc3889853f1790e27920d56119ee3b0241f6a610b3ab",
+    "attempt_17_sha256": "60c31765fc62aa3e8572dc3889853f1790e27920d56119ee3b0241f6a610b3ab",
+    "bytes": 6782,
+    "exact_equal": true
+  },
+  "prompt": {
+    "attempt_16_sha256": "c06bc0ab69abc583e41140b856c7b382a9e5967fa1d78c1736fdc61cbae27ef0",
+    "attempt_17_sha256": "c06bc0ab69abc583e41140b856c7b382a9e5967fa1d78c1736fdc61cbae27ef0",
+    "bytes": 3230,
+    "exact_equal": true
+  },
+  "criterion_ids": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+  ]
+}

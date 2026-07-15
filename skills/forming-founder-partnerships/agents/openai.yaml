@@ -1,0 +1,4 @@
+interface:
+  display_name: "Forming Founder Partnerships"
+  short_description: "Form, repair, or unwind founding teams"
+  default_prompt: "Use $forming-founder-partnerships to decide an unsettled founder-to-founder relationship, run a bounded work trial, reset commitments, or plan a trust-breach separation."

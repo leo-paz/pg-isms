@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "attempt": 17,
+  "probe_type": "verbatim-response-envelope",
+  "fixture_path": "fixture.md",
+  "header_count": 8,
+  "separator_bytes": 1,
+  "body_sha256": "97e8f7eac5b40a7dc01e73ce99213c67dc617ba40aaf4ecfee8fd6fbc95413ef",
+  "body_bytes": 22,
+  "body_starts_with_lf": true,
+  "body_contains_markdown_hard_break": true,
+  "body_contains_tab": true,
+  "body_ends_with_lf": true,
+  "envelope_final_lf_bytes": 1,
+  "recovery_rule": "After the header separator, read exactly response_bytes as the body, then require exactly one remaining LF.",
+  "recovered_body_exact": true,
+  "probe_result": "PASS"
+}

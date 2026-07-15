@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "attempt": 17,
+  "authored_at_utc": "2026-07-15T17:42:18Z",
+  "author": "/root",
+  "purpose": "Prevent workspace, skill-discovery, prior-turn, tool, partial-output, and failure-path contamination while preserving every nonempty final-answer byte verbatim.",
+  "shared_harness": "# Isolation harness\n\nYou are generating one benchmark response from only the supplied material.\nDo not use tools, browse, inspect files, read repository or workspace state, invoke skills, retrieve sources, or rely on information outside this message.\nTreat everything after `# Input` as the complete user context.\nReturn only the answer to that context. Do not mention this harness.\n\n# Input\n\n",
+  "control_assembly": "<shared_harness><decoded prompt with no added LF>",
+  "guided_assembly": "<shared_harness># Skill\n\n<skill without final LF>\n\n# Runtime contract\n\n<runtime without final LF>\n\n# User request\n\n<decoded prompt with no added LF>",
+  "terminal_lf": false,
+  "executor": {
+    "kind": "fresh ephemeral codex exec process per sample",
+    "executable": "/Users/leopaz/.nvm/versions/node/v22.23.0/bin/codex",
+    "required_version": "codex-cli 0.144.4",
+    "working_directory": "/tmp/pg-isms-eval-empty",
+    "repository_visible_as_working_root": false,
+    "required_flags": [
+      "--ignore-user-config",
+      "--ignore-rules",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--sandbox read-only",
+      "--json"
+    ],
+    "stdin": "Exact assembled arm-context bytes and no final LF",
+    "session_reuse": false
+  },
+  "pre_generation_probe": {
+    "required": true,
+    "input": "<shared_harness>Reply with exactly ISOLATION_OK.",
+    "expected_final_answer": "ISOLATION_OK",
+    "must_use_exact_executable_flags_and_working_directory": true,
+    "must_pass_trace_gate": true
+  },
+  "trace_gate": {
+    "require_fresh_thread_id": true,
+    "require_exact_input_hash": true,
+    "forbid_tool_or_command_events": true,
+    "forbid_web_or_file_events": true,
+    "allow_only_reasoning_and_final_answer_content": true,
+    "reject_instead_of_sanitize": true
+  },
+  "polling_driver": {
+    "initial_yield_ms": 1000,
+    "retain_initial_output_chunk": true,
+    "on_live_session": "Poll the same session with empty stdin in at most 30000 ms intervals, append every returned chunk in memory, and continue until an exit code is returned.",
+    "cell_lifetime": "The orchestration cell remains live across tool yields; do not return, discard state, or start another process while polling.",
+    "write_rule": "Write response and summarized trace only after process exit and complete accumulated-output validation.",
+    "live_session_is_not_error": true,
+    "driver_probe_required": true,
+    "failure_probe_required": true,
+    "batch_mode": "Sequential samples only; do not run concurrent Codex processes.",
+    "diagnostic_policy": "Parse JSONL task events separately from non-JSON stderr. Only JSON task events can establish model tool, command, file, web, MCP, image, or other task activity. Hash, count, and classify every stderr diagnostic, but do not misclassify process warnings as model actions.",
+    "failure_persistence": "After every process exit and before every failure return, regardless of exit code, parse success, lifecycle completeness, forbidden events, or presence of a final agent message, persist under a rejected-attempt path: the exact complete accumulated raw merged-output bytes; exact non-JSON diagnostic lines in original order with per-line hashes and classes; exact JSON event lines in original order plus their parsed projection; dispatch and completion timestamps; process and session metadata; and the exact response body if present. Never discard any generated or diagnostic byte.",
+    "write_order": "After process exit: parse and hash complete accumulated output. If any validation fails, persist the complete rejected-path evidence before returning the error. If validation passes, persist the accepted response and trace as the next operation. Only then run cross-sample uniqueness and repository checks.",
+    "resampling": "Never regenerate a sample after any final agent message, regardless of whitespace, presentation, answer quality, or later driver failure."
+  },
+  "response_body_contract": {
+    "acceptance": "Accept exactly one nonempty final agent_message. Do not reject, trim, normalize, or regenerate for leading, trailing, or interior whitespace.",
+    "hash_domain": "SHA-256 and response_bytes cover the exact UTF-8 final agent_message bytes, including every space, tab, CR, or LF if present.",
+    "file_envelope": "Write the eight ordered headers, one empty separator line, the exact body bytes, then exactly one additional envelope LF. The body is recovered as exactly response_bytes after the separator; the remaining final byte must be the envelope LF.",
+    "resampling": "Never regenerate for presentation or answer quality."
+  }
+}

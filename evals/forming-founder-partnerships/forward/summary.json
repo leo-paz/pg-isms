@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "skill_name": "forming-founder-partnerships",
+  "phase": "forward",
+  "reviewer_id": "founder-partnership-forward-001",
+  "scorer_id": "founder-partnership-forward-scorer-001",
+  "integrity_passed": true,
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "raw_output": "scenario-01.md",
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1},
+        {"criterion": 2, "score": 1, "max_score": 1},
+        {"criterion": 3, "score": 1, "max_score": 1},
+        {"criterion": 4, "score": 1, "max_score": 1},
+        {"criterion": 5, "score": 1, "max_score": 1}
+      ],
+      "missed_criteria": [],
+      "score": 5,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-02",
+      "raw_output": "scenario-02.md",
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1},
+        {"criterion": 2, "score": 0, "max_score": 1},
+        {"criterion": 3, "score": 1, "max_score": 1},
+        {"criterion": 4, "score": 1, "max_score": 1},
+        {"criterion": 5, "score": 0, "max_score": 1}
+      ],
+      "missed_criteria": [2, 5],
+      "score": 3,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-03",
+      "raw_output": "scenario-03.md",
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1},
+        {"criterion": 2, "score": 1, "max_score": 1},
+        {"criterion": 3, "score": 1, "max_score": 1},
+        {"criterion": 4, "score": 1, "max_score": 1},
+        {"criterion": 5, "score": 0, "max_score": 1}
+      ],
+      "missed_criteria": [5],
+      "score": 4,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-04",
+      "raw_output": "scenario-04.md",
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1},
+        {"criterion": 2, "score": 0, "max_score": 1},
+        {"criterion": 3, "score": 0, "max_score": 1},
+        {"criterion": 4, "score": 1, "max_score": 1},
+        {"criterion": 5, "score": 0, "max_score": 1}
+      ],
+      "missed_criteria": [2, 3, 5],
+      "score": 2,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-05",
+      "raw_output": "scenario-05.md",
+      "criteria_results": [
+        {"criterion": 1, "score": 1, "max_score": 1},
+        {"criterion": 2, "score": 0, "max_score": 1},
+        {"criterion": 3, "score": 1, "max_score": 1},
+        {"criterion": 4, "score": 1, "max_score": 1},
+        {"criterion": 5, "score": 1, "max_score": 1}
+      ],
+      "missed_criteria": [2],
+      "score": 4,
+      "max_score": 5
+    }
+  ],
+  "exact_misses": [
+    {
+      "case_id": "scenario-02",
+      "criterion": 2,
+      "miss": "The response marks enterprise uncertainty, but never explicitly marks the caregiving constraint's duration, partnership repairability, and sustainable role fit as unknown."
+    },
+    {
+      "case_id": "scenario-02",
+      "criterion": 5,
+      "miss": "The response sets the gate on August 13 rather than August 14, makes Lina the single partnership-process owner, and assigns Mateo no explicit reliable support handoff."
+    },
+    {
+      "case_id": "scenario-03",
+      "criterion": 5,
+      "miss": "The response makes Elena accountable for the partnership and interim founder-process decisions; Nia is assigned only ordinary company leadership outside the independent matter, not the founder decision."
+    },
+    {
+      "case_id": "scenario-04",
+      "criterion": 2,
+      "miss": "The response never explicitly classifies Rowan's collaboration with both Priya and Sam, in-company hiring execution, and role evolution as unknown."
+    },
+    {
+      "case_id": "scenario-04",
+      "criterion": 3,
+      "miss": "The July 31 gate declares only Hire and No hire/continue search; scope adjustment appears as a process option but has no explicit third gate branch and predicate."
+    },
+    {
+      "case_id": "scenario-04",
+      "criterion": 5,
+      "miss": "The response sets the evidence review on July 30 rather than the required July 31 and does not fully assign ownership for technical and working-relationship evidence."
+    },
+    {
+      "case_id": "scenario-05",
+      "criterion": 2,
+      "miss": "The response does not explicitly classify Bo's adaptability and shared-work behavior as unknown; adaptability appears only as evidence to observe during a future passing trial."
+    }
+  ],
+  "scores": [5, 3, 4, 2, 4],
+  "total_score": 18,
+  "total_max_score": 25,
+  "normalized_score": 0.72,
+  "forward_ready": true
+}

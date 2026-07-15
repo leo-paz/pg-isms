@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "sample_id": "founder_micro_guided_2_017",
+  "canonical_task": "/codex-exec/founder_micro_guided_2_017",
+  "arm": "guided",
+  "context_id": "founder_micro_guided_context_2_017",
+  "dispatched_at": "2026-07-15T18:02:58.350Z",
+  "completed_at": "2026-07-15T18:04:31.664Z",
+  "executable": "/Users/leopaz/.nvm/versions/node/v22.23.0/bin/codex",
+  "executable_version": "codex-cli 0.144.4",
+  "working_directory": "/tmp/pg-isms-eval-empty",
+  "flags": [
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "--sandbox read-only",
+    "--json"
+  ],
+  "context_sha256": "a87ebb086526d063fab2b46e52c495d2d8602d5d219288f627a11a8a4561edc5",
+  "context_bytes": 18443,
+  "terminal_lf": false,
+  "initial_yield_ms": 1000,
+  "poll_count": 4,
+  "live_session_observed": true,
+  "exit_code": 0,
+  "thread_id": "019f66f2-3c44-72f0-ae48-74ea99a76b6d",
+  "raw_merged_output_sha256": "c81642769e1fe374b62525f7c8f009644c07d94ad592f721e440d242ccb2a8da",
+  "raw_merged_output_bytes": 23403,
+  "event_records": [
+    {
+      "index": 1,
+      "type": "thread.started",
+      "item_type": null,
+      "sha256": "799ebef47a011c813bb6d8e4698b93ce876d077b5e758cedeb16c7a6a84175c2",
+      "bytes": 76
+    },
+    {
+      "index": 2,
+      "type": "turn.started",
+      "item_type": null,
+      "sha256": "7306b54975174c6eb5111d663a47de795d167520e43cf66ee2923218b19fdb75",
+      "bytes": 23
+    },
+    {
+      "index": 3,
+      "type": "item.completed",
+      "item_type": "agent_message",
+      "sha256": "baf0d17cf71d8b0e8ac788b5877bf3a575a1de586d9d20f90c31484005e9db26",
+      "bytes": 20069
+    },
+    {
+      "index": 4,
+      "type": "turn.completed",
+      "item_type": null,
+      "sha256": "89d2e490eb69b529c51b20e5625b39b64dcb51b9e94c98253939723b4f9e6955",
+      "bytes": 134
+    }
+  ],
+  "diagnostic_records": [
+    {
+      "index": 1,
+      "class": "state-db-fallback-warning",
+      "sha256": "51e6d1411498aa0a3abf7c4755077e4944e9423e18ecf62148fc6430f0b66d98",
+      "bytes": 133
+    },
+    {
+      "index": 2,
+      "class": "state-db-fallback-warning",
+      "sha256": "8e247e67551d4d91786c70e1a84451729994fa083e4861775e82a380a99b3859",
+      "bytes": 133
+    },
+    {
+      "index": 3,
+      "class": "state-db-fallback-warning",
+      "sha256": "92dcf7aacfdc9e00060e9252808ac5a0840ffece87358eaa3a44bfa05fa3d45b",
+      "bytes": 133
+    },
+    {
+      "index": 4,
+      "class": "state-db-fallback-warning",
+      "sha256": "16577f1935133bb5e6cbd0b9b1d4ac16c565bf60b2916f212687447898efeae4",
+      "bytes": 133
+    },
+    {
+      "index": 5,
+      "class": "state-db-fallback-warning",
+      "sha256": "c36a043c56bf80ebe1df4592c5350de723f20aec60916ba54d440ae42fd0da1f",
+      "bytes": 133
+    },
+    {
+      "index": 6,
+      "class": "state-db-fallback-warning",
+      "sha256": "53ebd2fc43b672800011c8c707e31253dd079370ce428f40f6d7820dbe504be0",
+      "bytes": 133
+    },
+    {
+      "index": 7,
+      "class": "state-db-fallback-warning",
+      "sha256": "a55c891f42bd71b482763ad0940e5d723f26dfe00d9250ed6e7ca34151c4043a",
+      "bytes": 133
+    },
+    {
+      "index": 8,
+      "class": "state-db-fallback-warning",
+      "sha256": "ecc60814933973800417ce6abf5b0e8e0e9546a81e20b80dd4e7b642d89cd6c1",
+      "bytes": 133
+    },
+    {
+      "index": 9,
+      "class": "state-db-fallback-warning",
+      "sha256": "7f5a0454e61186e0686b667738d064943bf173e771f232b13afc9146102d629e",
+      "bytes": 133
+    },
+    {
+      "index": 10,
+      "class": "state-db-fallback-warning",
+      "sha256": "1d6f488f2951eeaab3f2a6d083df805cec987d4acabd037228a5338a21e6434c",
+      "bytes": 133
+    },
+    {
+      "index": 11,
+      "class": "state-db-fallback-warning",
+      "sha256": "577d8a17f222c3dabf5d1ae1403f566a2b7d914e41fb3e2ae94294820f25c6cd",
+      "bytes": 133
+    },
+    {
+      "index": 12,
+      "class": "state-db-fallback-warning",
+      "sha256": "28fabe86687cfab44df019075699f18776657865bbdca74e19e0b2485df201d2",
+      "bytes": 133
+    },
+    {
+      "index": 13,
+      "class": "state-db-fallback-warning",
+      "sha256": "9f08a1bd4dece04c124d2590827bacb8cf333b5d508dac47f4596564d6d62fb4",
+      "bytes": 133
+    },
+    {
+      "index": 14,
+      "class": "state-db-fallback-warning",
+      "sha256": "afde5f3cc3e89f89702a7b54025992ea4ba56dd0132c7187bcdfa710c198a373",
+      "bytes": 133
+    },
+    {
+      "index": 15,
+      "class": "state-db-fallback-warning",
+      "sha256": "6d03e12651d2ffb9114b931bfad55e6005966e18ae50cf1f308407daf02a4895",
+      "bytes": 133
+    },
+    {
+      "index": 16,
+      "class": "state-db-fallback-warning",
+      "sha256": "63e738d8e1ba776604027f0451f07a0f06452f47b48b25f6310c26641d071100",
+      "bytes": 133
+    },
+    {
+      "index": 17,
+      "class": "state-db-fallback-warning",
+      "sha256": "32cee71bae1fc01c18eaff84fcf1d267e83f0dc68d4508e618a46bb83ed3b391",
+      "bytes": 133
+    },
+    {
+      "index": 18,
+      "class": "state-db-fallback-warning",
+      "sha256": "c08658f43cb199a47bf40c2901d8e86a7c5784322323efedb2b7a42c03a4794e",
+      "bytes": 133
+    },
+    {
+      "index": 19,
+      "class": "state-db-fallback-warning",
+      "sha256": "2075753651accbaf856d300e95e3b1d56c4a75d14c844ef790df754cfcb7d016",
+      "bytes": 133
+    },
+    {
+      "index": 20,
+      "class": "state-db-fallback-warning",
+      "sha256": "14e72585e809fd1071013d9bd9de275a1906f7b4960c5c1c16fe5436546baac1",
+      "bytes": 133
+    },
+    {
+      "index": 21,
+      "class": "state-db-fallback-warning",
+      "sha256": "38d8429805203030eca7539e07b87f65a7cc7e41d6cd626af4110e4473954d9b",
+      "bytes": 133
+    },
+    {
+      "index": 22,
+      "class": "shell-snapshot-diagnostic",
+      "sha256": "3d078d3cc1c5ea5a6430116b0e9241750073eb211f2dda01eb17a43371baf542",
+      "bytes": 282
+    }
+  ],
+  "forbidden_event_count": 0,
+  "final_agent_message_count": 1,
+  "response_sha256": "80088b08792b888e2d8b2b5380a0ba6b33ff4247e10cd221d37d2acb2fd48180",
+  "response_bytes": 19799,
+  "usage": {
+    "input_tokens": 19386,
+    "cached_input_tokens": 8960,
+    "output_tokens": 4454,
+    "reasoning_output_tokens": 516
+  },
+  "trace_gate": "PASS"
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "case_id": "founder-partnerships-heldout-attempt-028",
+    "authored_at_utc": "2026-07-15T13:46:49Z",
+    "prompt_word_count": 340,
+    "freeze_path": "evals/forming-founder-partnerships/heldout/skill-freeze.json",
+    "freeze_sha256": "3412d690deb77e9d2033408516669908a040a7a2d6a61b36095690e8995978b2",
+    "freeze_created_at_utc": "2026-07-15T13:46:31Z",
+    "skill_path": "skills/forming-founder-partnerships/SKILL.md",
+    "skill_sha256": "a1bd8c331837d5e8a1177ab774b7d4f3e6a7a6d2d11b4293333fed445d77d584",
+    "skill_bytes": 3762,
+    "runtime_path": "skills/forming-founder-partnerships/references/runtime-contract.md",
+    "runtime_sha256": "9fef3fe9b7e3ef19dba864698046322b50cdf83aa61178934e5476aa17fb3a38",
+    "runtime_bytes": 11011,
+    "passing_threshold": 4,
+    "criteria_count": 5
+  },
+  "prompt": "Today is July 15, 2026. I’m CEO Nadia Shah; Luis Romero is CTO/cofounder. On July 11, Luis and I signed a short operating note confirming that we will remain CEO and CTO through June 30, 2028, keep our current founder-to-founder control split and ownership intent, and neither plans to leave. Neither of us raised a trust or commitment dispute.\n\nCFO Erin Lee completed our financing model on July 14. Erin owns the financing process. She scheduled a management review for July 17; it remains pending. We have $3.6 million cash, a $180,000 monthly burn, and 20 months of runway. Declining both remains an option. Our ownership and board remain unchanged unless we accept financing.\n\nThe equity offer is $4.5 million at an $18 million pre-money and $22.5 million post-money valuation, for 20% dilution. Erin’s model shows it adds 25 months of gross runway and 45 months total. The post-close board would have five seats, including exactly one investor seat. Investor consent would cover a sale, senior securities, and debt above $1 million. The offer expires July 24.\n\nThe debt offer is $1.8 million for 24 months at 10%, with annual interest of $180,000, plus a 2% fee ($36,000), a 1% fully diluted warrant, and a $1 million minimum-cash covenant. It adds no board seat. Erin’s model shows 10 gross months and 30 total months before costs. The offer expires July 25. Her memo also records one static illustration: $5.4 million post-funding cash, $4.32 million of 24-month operating burn, $360,000 of two-year interest, and $684,000 remaining after that burn, interest, and the stated fee but before principal repayment.\n\nPriya Desai, our qualified current outside corporate and securities counsel, will review the documents and advise on legal effect and actual terms on July 18; that review is pending. I alone will decide on July 21. Erin will test cash on November 28; if cash is below $1.7 million, Erin reopens external financing on December 1. Nadia and Luis jointly review financing on September 1.\n\nHow should I choose and govern this financing?",
+  "criteria": [
+    {
+      "id": "C1",
+      "pass_condition": "The response makes `raising-and-governing-capital` the primary route for the exact financing decision, treats the current founder relationship as settled, and fills no candidate, existing-team, ownership, trust-repair, exit, or work-trial partnership branch. It states a semantically correct future partnership switch: reopen partnership analysis only if founder status, founder-to-founder control, departure, trust, commitment, ownership intent, or a founder-to-founder role agreement affecting continuation becomes genuinely unsettled. Any otherwise supported financing outcome can pass. This criterion does not require a full handoff, process or authority assignments, dates, the preserved declining-both option, a nonfounder financing switch, evidence labels, or economics."
+    },
+    {
+      "id": "C2",
+      "pass_condition": "The response records that Erin completed the financing model on July 14 and that the July 17 management review and Priya’s July 18 document, legal-effect, and actual-terms review are scheduled and pending, with their results still unknown. These facts may appear anywhere, in any order, and in any readable format; no section, heading, or placement relative to comparison or recommendation is required, and repetition is allowed. Omitting them from a later passage does not fail this criterion. Do not score routing, option economics, downstream execution dates, decision authority, preserved options, or the final recommendation here."
+    },
+    {
+      "id": "C3",
+      "pass_condition": "The response names Erin as financing-process owner; gives July 21 as the decision date without requiring the decision owner under this criterion; preserves the equity and debt expiries of July 24 and July 25 respectively; assigns Erin the November 28 cash test and the rule that cash below $1.7 million causes Erin to reopen external financing on December 1; and records Nadia and Luis’s joint financing review on September 1. These facts may appear anywhere, in any order, and in any readable format; no execution section, accountability section, or heading is required. Do not score the July 14/17/18 evidence status, legal-versus-business authority, detailed economics, evidence labels, routing, or the selected outcome here."
+    },
+    {
+      "id": "C4",
+      "pass_condition": "The response keeps business decision authority with Nadia alone and limits Priya Desai, as qualified current outside corporate and securities counsel, to reviewing the documents and advising on legal effect and actual terms. It does not make Priya, Erin, or Luis the financing decision maker, and it does not make Nadia the owner of counsel’s legal review. Dates, routing, economics, and the recommendation are outside this criterion."
+    },
+    {
+      "id": "C5",
+      "pass_condition": "The response accurately carries all stated economics, control terms, and model outputs: current $3.6 million cash, $180,000 monthly burn, and 20 months runway; declining both remains live and leaves ownership and board unchanged; equity is $4.5 million at $18 million pre-money/$22.5 million post-money for 20%, adds 25 gross and 45 total months, produces five board seats including exactly one investor seat, and requires investor consent for a sale, senior securities, and debt above $1 million; debt is $1.8 million for 24 months at 10% with $180,000 annual interest, a 2%/$36,000 fee, a 1% fully diluted warrant, a $1 million minimum-cash covenant, no board seat, and 10 gross/30 total months before costs; and the supplied static debt illustration is $5.4 million post-funding cash, $4.32 million of 24-month operating burn, $360,000 of two-year interest, and $684,000 remaining after that burn, interest, and the stated fee but before principal. It introduces at most two additional derived economic calculations and neither builds nor demands an exhaustive replacement model. Do not score routing, evidence labels, schedule dates, process ownership, legal authority, or offer expiries here."
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "attempt": 17,
+  "plan_id": "founder-partnerships-microtest-attempt-017",
+  "scorer": "/root/founder_final_source_review/founder_micro_scorer_017",
+  "verdict": "PASS",
+  "revision": {
+    "source": "attempt-017 Stage-B challenge",
+    "sample_id": "founder_micro_guided_4_017",
+    "criterion": "C2",
+    "prior_bit": 1,
+    "corrected_bit": 0,
+    "note": "The pre-check statement that respect and candor appear intact affirmatively infers honesty/truthfulness while the retained June 27 sources remain unreviewed. The broader-character disclaimer does not retract that narrower inference, so the strict no-inference conjunct fails."
+  },
+  "criterion_order": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+  ],
+  "criterion_rule": "A bit is 1 only if every conjunct of that criterion is present; otherwise it is 0. Unstated satisfaction is not inferred.",
+  "criteria_isolation": {
+    "result": "PASS",
+    "C1": "Current founder-decision route, existing-team mode, and survival/ownership branch exclusions only.",
+    "C2": "Non-commitment evidence statuses, source/result splits, and narrow reversible trust check only.",
+    "C3": "Supplied founder commitment map, current existing-team outcome, and founder work-trial decision only.",
+    "C4": "Conditional current operating terms, decision domains, coverage, cadence, repair actions, and indicators only.",
+    "C5": "Future replacement predicates, precedence, breach containment, safety ownership, safeguards, and actual separation-term ownership only."
+  },
+  "integrity": {
+    "result": "PASS",
+    "independent_check_count": 34,
+    "frozen_hashes": {
+      "rubric": {
+        "sha256": "1a8dd7ef11f676b635bc144cacd55c61ede3dd50bd454dba2b7965600fa1da7b",
+        "bytes": 11026
+      },
+      "decoded_prompt": {
+        "sha256": "c06bc0ab69abc583e41140b856c7b382a9e5967fa1d78c1736fdc61cbae27ef0",
+        "bytes": 3230
+      },
+      "canonical_criteria": {
+        "sha256": "60c31765fc62aa3e8572dc3889853f1790e27920d56119ee3b0241f6a610b3ab",
+        "bytes": 6782
+      },
+      "skill": {
+        "sha256": "a1bd8c331837d5e8a1177ab774b7d4f3e6a7a6d2d11b4293333fed445d77d584",
+        "bytes": 3762
+      },
+      "runtime_contract": {
+        "sha256": "9fef3fe9b7e3ef19dba864698046322b50cdf83aa61178934e5476aa17fb3a38",
+        "bytes": 11011
+      },
+      "shared_harness": {
+        "sha256": "e9a187859bccd47c8f4cbfb859a65d090b9461411dff9f46e365c565dd3bae03",
+        "bytes": 393
+      },
+      "harness_contract_json": {
+        "sha256": "4954e69190120572d5f073267aac0595cb2b03f70f7400fdf97265a870ef7c56",
+        "bytes": 4941
+      },
+      "harness_probe_json": {
+        "sha256": "d661aedc476253246070a18dbb7e4e1f09db717633a61da6cb46283df55badee",
+        "bytes": 1486
+      },
+      "driver_probe_json": {
+        "sha256": "62d2ebb267232ac809404e92afc71a3ed97ba08a5ffc6e29460d73d086a7d5aa",
+        "bytes": 1309
+      },
+      "criteria_equivalence_json": {
+        "sha256": "9802bb77a940a53b2ea43113c170282f38f1312ae89c1d3e03365c1559024001",
+        "bytes": 898,
+        "verification": "hash-and-size only; body not inspected"
+      },
+      "failure_probe_manifest_json": {
+        "sha256": "785426208143c5c61da91a840914421a899658c58e81fdec7d040fa03d2b2351",
+        "bytes": 1526
+      },
+      "response_envelope_probe_manifest_json": {
+        "sha256": "a25848ae644cae2e4264e2993718b4e08dc89e715220ab5bde5a02b6099910ef",
+        "bytes": 625
+      },
+      "response_envelope_probe_fixture_md": {
+        "sha256": "6380e1dd2ce1280c28981549084d98f62b26e7ac811604f626dc938a3a26e1d4",
+        "bytes": 355
+      },
+      "generation_plan": {
+        "sha256": "6bfac486d269aa3c75f63d468ebf66384343b873922a66b27fd84cdd29d9a36a",
+        "bytes": 20693
+      },
+      "skill_freeze": {
+        "sha256": "a59c976fa0ddc64827322439e8b45a993c3f0e4d590910a3847f2cc7b6963798",
+        "bytes": 754
+      },
+      "guided_assembly_retry": {
+        "sha256": "9a9a9993fcfa1f53878beb05d30b961615c813de7f3192d15e48c83d4d1bfd54",
+        "bytes": 1136
+      }
+    },
+    "arm_contexts": {
+      "control": {
+        "sha256": "29c3476f4f19d99e19ad5d1c9aa2fefe7a8fcc962c137c0dd8119f6d88a3b500",
+        "bytes": 3623,
+        "terminal_lf": false
+      },
+      "guided": {
+        "sha256": "a87ebb086526d063fab2b46e52c495d2d8602d5d219288f627a11a8a4561edc5",
+        "bytes": 18443,
+        "terminal_lf": false
+      }
+    },
+    "exact_response_envelopes": "PASS: all ten have the exact eight headers, one separator LF, exactly response_bytes of body, a reproduced body SHA-256, and one remaining envelope LF.",
+    "task_context_arm_identities": "PASS: every response and trace matches planned canonical_task, sample_id, context_id, arm, and arm context hash/size.",
+    "chronology": "PASS: all RFC 3339 completion times follow dispatch, and accepted dispatch order is strictly sequential.",
+    "uniqueness": {
+      "canonical_tasks": 10,
+      "sample_ids": 10,
+      "context_ids": 10,
+      "thread_ids": 10,
+      "response_body_hashes": 10,
+      "result": "PASS"
+    },
+    "trace_events_and_diagnostics": "PASS: each trace has one final agent_message, allowed lifecycle events only, zero forbidden events, ordered diagnostic hashes and sizes, exit 0, and trace gate PASS.",
+    "guided_retry": {
+      "codex_thread_count": 0,
+      "json_event_count": 0,
+      "final_agent_message_count": 0,
+      "response_present": false,
+      "failed_dispatch_at": "2026-07-15T17:59:02.430Z",
+      "failed_completion_at": "2026-07-15T17:59:02.752Z",
+      "accepted_guided_dispatch_at": "2026-07-15T18:00:07.969Z",
+      "result": "PASS"
+    },
+    "responses": [
+      {
+        "sample_id": "founder_micro_control_1_017",
+        "response_sha256": "9f2aeebfd21197bd18d25d7984e33fac84fb3ce84719238bd63bb79bcb3370d7",
+        "response_bytes": 8693,
+        "thread_id": "019f66e6-aa27-7ab1-abc9-afce9ca036a9",
+        "diagnostic_count": 21,
+        "forbidden_event_count": 0
+      },
+      {
+        "sample_id": "founder_micro_control_2_017",
+        "response_sha256": "8278722b23c9310dd7ed13ab6cb2cc6183daf8275c9f5edc09e43ed67ff6f60e",
+        "response_bytes": 9837,
+        "thread_id": "019f66e7-883d-7ee3-95d4-7b55f02ddaf6",
+        "diagnostic_count": 21,
+        "forbidden_event_count": 0
+      },
+      {
+        "sample_id": "founder_micro_control_3_017",
+        "response_sha256": "99ee93580cee4a2d75292012503b04e135e7e79cf46ebdda7b867f4d4858e3fa",
+        "response_bytes": 7800,
+        "thread_id": "019f66e9-af32-7ac0-916e-2b55969cbb1e",
+        "diagnostic_count": 21,
+        "forbidden_event_count": 0
+      },
+      {
+        "sample_id": "founder_micro_control_4_017",
+        "response_sha256": "4ca7a1b36640a3b26ad5b1dc2fb0c411d8ff3128806c42917b5a87a88fbe3fc4",
+        "response_bytes": 10836,
+        "thread_id": "019f66eb-4f42-7bd1-8b85-bf66d988e3e7",
+        "diagnostic_count": 21,
+        "forbidden_event_count": 0
+      },
+      {
+        "sample_id": "founder_micro_control_5_017",
+        "response_sha256": "65e840b9fb976f404fb52446175e2f95042a906b801ea73d926ffb72423d036b",
+        "response_bytes": 9658,
+        "thread_id": "019f66ec-f9f8-76b0-ad10-50f2b62acbef",
+        "diagnostic_count": 21,
+        "forbidden_event_count": 0
+      },
+      {
+        "sample_id": "founder_micro_guided_1_017",
+        "response_sha256": "53776bfb18840c21c01d381fe260fe1bfb90e518b667d55e3fcd72fb3f06e2af",
+        "response_bytes": 17892,
+        "thread_id": "019f66ef-a2f3-7761-92e4-ad3fff06524b",
+        "diagnostic_count": 21,
+        "forbidden_event_count": 0
+      },
+      {
+        "sample_id": "founder_micro_guided_2_017",
+        "response_sha256": "80088b08792b888e2d8b2b5380a0ba6b33ff4247e10cd221d37d2acb2fd48180",
+        "response_bytes": 19799,
+        "thread_id": "019f66f2-3c44-72f0-ae48-74ea99a76b6d",
+        "diagnostic_count": 22,
+        "forbidden_event_count": 0
+      },
+      {
+        "sample_id": "founder_micro_guided_3_017",
+        "response_sha256": "659212b51a261bd6c87d28fa5ad069c772ee3c85e6f5e3d3ff835ab0885be6d8",
+        "response_bytes": 20197,
+        "thread_id": "019f66f3-c49a-7572-bf0f-26c9276d856a",
+        "diagnostic_count": 21,
+        "forbidden_event_count": 0
+      },
+      {
+        "sample_id": "founder_micro_guided_4_017",
+        "response_sha256": "94ef11d54048ae33fe5f245b36d848029805f97cb46149ad1ae3bb6797b93d56",
+        "response_bytes": 19826,
+        "thread_id": "019f66f6-3ae9-7070-b955-b774d90dab48",
+        "diagnostic_count": 21,
+        "forbidden_event_count": 0
+      },
+      {
+        "sample_id": "founder_micro_guided_5_017",
+        "response_sha256": "7cbd549a8dc0b76346832ed7e7b073aa249a4c89886302dc9d065be60c7aab74",
+        "response_bytes": 18519,
+        "thread_id": "019f66f9-1b61-75e2-8088-15c0cf153f69",
+        "diagnostic_count": 21,
+        "forbidden_event_count": 0
+      }
+    ]
+  },
+  "all_50_bits": {
+    "count": 50,
+    "order": "planned response order, then C1 through C5",
+    "values": [
+      1, 0, 0, 0, 0,
+      1, 0, 0, 0, 0,
+      1, 0, 0, 0, 0,
+      1, 0, 0, 0, 0,
+      1, 0, 0, 0, 0,
+      1, 1, 1, 0, 0,
+      1, 1, 1, 0, 0,
+      1, 1, 1, 0, 0,
+      1, 0, 1, 0, 0,
+      1, 1, 1, 0, 0
+    ]
+  },
+  "responses": [
+    {
+      "index": 1,
+      "sample_id": "founder_micro_control_1_017",
+      "arm": "control",
+      "vector": [1, 0, 0, 0, 0],
+      "bits": {"C1": 1, "C2": 0, "C3": 0, "C4": 0, "C5": 0},
+      "normalized_score": 0.2,
+      "zero_rationales": {
+        "C2": "No finite complete status ledger: stall durations and both attributed June 27 accounts are missing, the source contents are not expressly unknown, the check is jointly rather than singly owned, and Northstar/CloudRelay source-result statuses are incomplete.",
+        "C3": "No complete two-founder commitment map and no express rejection of a new shared-work trial solely because the four-year record is sufficient.",
+        "C4": "No numeric weekly minimums, bounded separately assented terms, reciprocal repair actions, named evidence owner, or named current after-hours coverage owner through September 30.",
+        "C5": "No four ordered future replacement predicates or complete independently controlled breach-safeguard and separation-terms package."
+      }
+    },
+    {
+      "index": 2,
+      "sample_id": "founder_micro_control_2_017",
+      "arm": "control",
+      "vector": [1, 0, 0, 0, 0],
+      "bits": {"C1": 1, "C2": 0, "C3": 0, "C4": 0, "C5": 0},
+      "normalized_score": 0.2,
+      "zero_rationales": {
+        "C2": "No finite classified ledger; the 18- and 24-day stalls and both attributed recollections are missing, retained contents are not explicitly unknown, and the required Northstar/CloudRelay splits are incomplete.",
+        "C3": "The proposal omits multiple supplied commitment dimensions and does not expressly decline a founder shared-work trial because four years already provide the evidence.",
+        "C4": "The stated hours are ceilings rather than minima; the support-lead domain remains joint; no reciprocal repair/evidence owner is supplied; and current through-September after-hours ownership is unnamed.",
+        "C5": "The closing contingencies are not the four complete precedence-ordered replacements and do not include the full breach safety and counsel-owned terms requirements."
+      }
+    },
+    {
+      "index": 3,
+      "sample_id": "founder_micro_control_3_017",
+      "arm": "control",
+      "vector": [1, 0, 0, 0, 0],
+      "bits": {"C1": 1, "C2": 0, "C3": 0, "C4": 0, "C5": 0},
+      "normalized_score": 0.2,
+      "zero_rationales": {
+        "C2": "No complete evidence ledger, no stall durations or attributed recollections, no single owner for the source check, and incomplete Northstar/CloudRelay status splits.",
+        "C3": "No complete commitment map and no express four-year-shared-work reason for declining a founder trial.",
+        "C4": "No numeric minima, no reciprocal repair/evidence owner, and no named current after-hours coverage owner through September 30.",
+        "C5": "Only a general exit contingency appears; the four ordered predicates and complete breach safeguards are absent."
+      }
+    },
+    {
+      "index": 4,
+      "sample_id": "founder_micro_control_4_017",
+      "arm": "control",
+      "vector": [1, 0, 0, 0, 0],
+      "bits": {"C1": 1, "C2": 0, "C3": 0, "C4": 0, "C5": 0},
+      "normalized_score": 0.2,
+      "zero_rationales": {
+        "C2": "No complete classified ledger; the disputed accounts, single evidence owner, and full financial/stall/Northstar/CloudRelay source-result statuses are absent.",
+        "C3": "No complete commitment map, and the response proposes an experiment without expressly declining a founder shared-work trial based solely on the sufficient four-year record.",
+        "C4": "No numeric weekly minima, reciprocal repair actions, primary evidence owner, or one current after-hours owner through September 30.",
+        "C5": "Review checkpoints do not supply the four replacement predicates or the complete independently controlled breach and legal-terms package."
+      }
+    },
+    {
+      "index": 5,
+      "sample_id": "founder_micro_control_5_017",
+      "arm": "control",
+      "vector": [1, 0, 0, 0, 0],
+      "bits": {"C1": 1, "C2": 0, "C3": 0, "C4": 0, "C5": 0},
+      "normalized_score": 0.2,
+      "zero_rationales": {
+        "C2": "No finite classified ledger, both attributed recollections and source-content unknown are absent, no single check owner is named, and required status splits are incomplete.",
+        "C3": "No complete founder commitment map and no express rejection of a shared-work trial solely because four years of consequential work suffice.",
+        "C4": "The hours are ceilings, decision ownership and current coverage ownership remain incomplete, and reciprocal repair plus a primary evidence owner are absent.",
+        "C5": "General later choices do not provide all four precedence-ordered future replacements or the full breach-safeguard requirements."
+      }
+    },
+    {
+      "index": 6,
+      "sample_id": "founder_micro_guided_1_017",
+      "arm": "guided",
+      "vector": [1, 1, 1, 0, 0],
+      "bits": {"C1": 1, "C2": 1, "C3": 1, "C4": 0, "C5": 0},
+      "normalized_score": 0.6,
+      "zero_rationales": {
+        "C4": "No numeric weekly minimum for Leila, Omar's 26 hours are a ceiling, senior hiring has only an unnamed sponsor, and no current deployments/incidents/after-hours owner is named through September 30.",
+        "C5": "The breach branch omits the full express preservation/safety/non-retaliation bundle and counsel ownership of actual separation terms; the ordinary-role predicate also omits changed company needs."
+      }
+    },
+    {
+      "index": 7,
+      "sample_id": "founder_micro_guided_2_017",
+      "arm": "guided",
+      "vector": [1, 1, 1, 0, 0],
+      "bits": {"C1": 1, "C2": 1, "C3": 1, "C4": 0, "C5": 0},
+      "normalized_score": 0.6,
+      "zero_rationales": {
+        "C4": "Omar's stated value is a maximum, not a weekly minimum; support-lead hiring remains jointly owned; and the non-Omar coverage owner is a placeholder rather than a named current owner through September 30.",
+        "C5": "The relationship-repair replacement never states that commitments later align, and the breach package does not expressly preserve assets; every conjunct is therefore not present."
+      }
+    },
+    {
+      "index": 8,
+      "sample_id": "founder_micro_guided_3_017",
+      "arm": "guided",
+      "vector": [1, 1, 1, 0, 0],
+      "bits": {"C1": 1, "C2": 1, "C3": 1, "C4": 0, "C5": 0},
+      "normalized_score": 0.6,
+      "zero_rationales": {
+        "C4": "No numeric minimum for both founders and no single current owner for deployments, incidents, and after-hours gaps continuously through September 30.",
+        "C5": "The answer does not state all four replacements: relationship repair is only a subordinate subplan, later ordinary-role replacement is absent, and counsel ownership of actual separation terms is not stated."
+      }
+    },
+    {
+      "index": 9,
+      "sample_id": "founder_micro_guided_4_017",
+      "arm": "guided",
+      "vector": [1, 0, 1, 0, 0],
+      "bits": {"C1": 1, "C2": 0, "C3": 1, "C4": 0, "C5": 0},
+      "normalized_score": 0.4,
+      "zero_rationales": {
+        "C2": "The pre-check statement that respect and candor appear intact affirmatively infers honesty/truthfulness while the June 27 sources remain unreviewed; the broader-character disclaimer does not retract that narrower inference.",
+        "C4": "The agreement states a capacity and a maximum, not numeric weekly minimum commitments for each founder.",
+        "C5": "The future relationship-repair replacement is absent, and the breach branch does not state the full safeguard bundle or Elena's ownership of actual separation terms."
+      }
+    },
+    {
+      "index": 10,
+      "sample_id": "founder_micro_guided_5_017",
+      "arm": "guided",
+      "vector": [1, 1, 1, 0, 0],
+      "bits": {"C1": 1, "C2": 1, "C3": 1, "C4": 0, "C5": 0},
+      "normalized_score": 0.6,
+      "zero_rationales": {
+        "C4": "No numeric weekly minima are stated; senior hiring has a deadlock breaker rather than one primary domain owner; and the future non-Omar owner is not actually named.",
+        "C5": "The required future relationship-repair replacement is missing, and the breach branch does not expressly combine every required safeguard with qualified current counsel owning actual separation terms."
+      }
+    }
+  ],
+  "arms": {
+    "control": {
+      "response_vectors": [
+        [1, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0]
+      ],
+      "normalized_response_vector": [0.2, 0.2, 0.2, 0.2, 0.2],
+      "mean": 0.2,
+      "population_variance": 0
+    },
+    "guided": {
+      "response_vectors": [
+        [1, 1, 1, 0, 0],
+        [1, 1, 1, 0, 0],
+        [1, 1, 1, 0, 0],
+        [1, 0, 1, 0, 0],
+        [1, 1, 1, 0, 0]
+      ],
+      "normalized_response_vector": [0.6, 0.6, 0.6, 0.4, 0.6],
+      "mean": 0.56,
+      "population_variance": 0.0064
+    }
+  },
+  "effect": {
+    "definition": "guided mean minus control mean",
+    "guided_mean": 0.56,
+    "control_mean": 0.2,
+    "value": 0.36,
+    "threshold": 0.2,
+    "comparison": ">=",
+    "threshold_met": true,
+    "decision": "PASS"
+  },
+  "verdict_rule": "PASS only if integrity passes and guided-minus-control effect is at least 0.20.",
+  "verdict_inputs": {
+    "integrity_pass": true,
+    "effect_threshold_met": true
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "plan_id": "founder-partnerships-microtest-attempt-017",
+  "created_at": "2026-07-15T17:49:11Z",
+  "freeze": {
+    "state": "frozen-before-response-generation",
+    "frozen_at": "2026-07-15T17:49:11Z",
+    "response_generation_started": false,
+    "no_response_directory_or_files_existed_at_freeze": true,
+    "mutation_rule": "Do not change this plan, the rubric, the prompt, the criteria, the skill, the runtime contract, task order, context identities, or arm inputs after the first generator is dispatched."
+  },
+  "pre_freeze_provenance": {
+    "author": {
+      "canonical_task": "/root",
+      "draft_path": ".superpowers/sdd/founder-partnerships-microtest-attempt-017-draft/rubric.json"
+    },
+    "prompt_review": {
+      "canonical_task": "/root/founder_micro_prompt_review_008/founder_micro_prompt_gate_017",
+      "path": ".superpowers/sdd/founder-partnerships-microtest-attempt-017-draft/prompt-review.json",
+      "sha256": "f7e6f27e81c740c8d43bbaf5f8763a16212ceb2a4730e58b1e467c3dea425c17",
+      "bytes": 20583,
+      "result": "PASS",
+      "findings": []
+    }
+  },
+  "frozen_artifacts": {
+    "hash_algorithm": "sha256",
+    "rubric": {
+      "path": "evals/forming-founder-partnerships/microtest/rubric.json",
+      "sha256": "1a8dd7ef11f676b635bc144cacd55c61ede3dd50bd454dba2b7965600fa1da7b",
+      "bytes": 11026
+    },
+    "prompt": {
+      "source": "Decoded rubric .prompt",
+      "sha256": "c06bc0ab69abc583e41140b856c7b382a9e5967fa1d78c1736fdc61cbae27ef0",
+      "bytes": 3230
+    },
+    "criteria": {
+      "source": "Canonical sorted compact rubric .criteria",
+      "sha256": "60c31765fc62aa3e8572dc3889853f1790e27920d56119ee3b0241f6a610b3ab",
+      "bytes": 6782
+    },
+    "skill": {
+      "path": "skills/forming-founder-partnerships/SKILL.md",
+      "sha256": "a1bd8c331837d5e8a1177ab774b7d4f3e6a7a6d2d11b4293333fed445d77d584",
+      "bytes": 3762
+    },
+    "runtime_contract": {
+      "path": "skills/forming-founder-partnerships/references/runtime-contract.md",
+      "sha256": "9fef3fe9b7e3ef19dba864698046322b50cdf83aa61178934e5476aa17fb3a38",
+      "bytes": 11011
+    },
+    "shared_harness": {
+      "source": "Decoded harness .shared_harness",
+      "sha256": "e9a187859bccd47c8f4cbfb859a65d090b9461411dff9f46e365c565dd3bae03",
+      "bytes": 393
+    },
+    "harness_contract_json": {
+      "path": "evals/forming-founder-partnerships/microtest/harness-contract.json",
+      "sha256": "4954e69190120572d5f073267aac0595cb2b03f70f7400fdf97265a870ef7c56",
+      "bytes": 4941
+    },
+    "harness_probe_json": {
+      "path": "evals/forming-founder-partnerships/microtest/harness-probe.json",
+      "sha256": "d661aedc476253246070a18dbb7e4e1f09db717633a61da6cb46283df55badee",
+      "bytes": 1486
+    },
+    "driver_probe_json": {
+      "path": "evals/forming-founder-partnerships/microtest/driver-probe.json",
+      "sha256": "62d2ebb267232ac809404e92afc71a3ed97ba08a5ffc6e29460d73d086a7d5aa",
+      "bytes": 1309
+    },
+    "criteria_equivalence_json": {
+      "path": "evals/forming-founder-partnerships/microtest/criteria-equivalence.json",
+      "sha256": "9802bb77a940a53b2ea43113c170282f38f1312ae89c1d3e03365c1559024001",
+      "bytes": 898
+    },
+    "failure_probe_manifest_json": {
+      "path": "evals/forming-founder-partnerships/microtest/failure-probe/manifest.json",
+      "sha256": "785426208143c5c61da91a840914421a899658c58e81fdec7d040fa03d2b2351",
+      "bytes": 1526
+    },
+    "response_envelope_probe_manifest_json": {
+      "path": "evals/forming-founder-partnerships/microtest/response-envelope-probe/manifest.json",
+      "sha256": "a25848ae644cae2e4264e2993718b4e08dc89e715220ab5bde5a02b6099910ef",
+      "bytes": 625
+    },
+    "response_envelope_probe_fixture_md": {
+      "path": "evals/forming-founder-partnerships/microtest/response-envelope-probe/fixture.md",
+      "sha256": "6380e1dd2ce1280c28981549084d98f62b26e7ac811604f626dc938a3a26e1d4",
+      "bytes": 355
+    }
+  },
+  "context_contract": {
+    "shared": {
+      "fresh_context_per_sample": true,
+      "fresh_ephemeral_process_per_sample": true,
+      "session_reuse": false,
+      "exact_shared_harness_prefix": true,
+      "working_directory": "/tmp/pg-isms-eval-empty",
+      "working_directory_must_be_empty": true,
+      "repository_working_root": false,
+      "executable": "/Users/leopaz/.nvm/versions/node/v22.23.0/bin/codex",
+      "required_version": "codex-cli 0.144.4",
+      "required_flags": [
+        "--ignore-user-config",
+        "--ignore-rules",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "--sandbox read-only",
+        "--json"
+      ],
+      "input_encoding": "UTF-8",
+      "terminal_lf": false,
+      "polling_driver": {
+        "initial_yield_ms": 1000,
+        "retain_initial_output_chunk": true,
+        "on_live_session": "Poll the same session with empty stdin in at most 30000 ms intervals, append every returned chunk in memory, and continue until an exit code is returned.",
+        "cell_lifetime": "The orchestration cell remains live across tool yields; do not return, discard state, or start another process while polling.",
+        "write_rule": "Write response and summarized trace only after process exit and complete accumulated-output validation.",
+        "live_session_is_not_error": true,
+        "driver_probe_required": true,
+        "failure_probe_required": true,
+        "batch_mode": "Sequential samples only; do not run concurrent Codex processes.",
+        "diagnostic_policy": "Parse JSONL task events separately from non-JSON stderr. Only JSON task events can establish model tool, command, file, web, MCP, image, or other task activity. Hash, count, and classify every stderr diagnostic, but do not misclassify process warnings as model actions.",
+        "failure_persistence": "After every process exit and before every failure return, regardless of exit code, parse success, lifecycle completeness, forbidden events, or presence of a final agent message, persist under a rejected-attempt path: the exact complete accumulated raw merged-output bytes; exact non-JSON diagnostic lines in original order with per-line hashes and classes; exact JSON event lines in original order plus their parsed projection; dispatch and completion timestamps; process and session metadata; and the exact response body if present. Never discard any generated or diagnostic byte.",
+        "write_order": "After process exit: parse and hash complete accumulated output. If any validation fails, persist the complete rejected-path evidence before returning the error. If validation passes, persist the accepted response and trace as the next operation. Only then run cross-sample uniqueness and repository checks.",
+        "resampling": "Never regenerate a sample after any final agent message, regardless of answer quality or later driver failure."
+      },
+      "trace_gate": {
+        "require_unique_thread_id": true,
+        "forbid_tool_command_file_web_events": true,
+        "allow_event_types": [
+          "thread.started",
+          "turn.started",
+          "item.started",
+          "item.completed",
+          "turn.completed"
+        ],
+        "allow_item_types": [
+          "reasoning",
+          "agent_message"
+        ],
+        "reject_instead_of_sanitize": true
+      },
+      "diagnostic_policy": "Non-JSON process diagnostics are never model task events. Preserve their order, SHA-256, byte counts, and classes in each trace; do not let them consume or hide JSON lines.",
+      "forbidden_context": [
+        "Rubric metadata, criteria text, scoring rules, prior attempts/responses/scores/reviews, another sample output, opposite-arm-only material"
+      ],
+      "response_body_contract": {
+        "acceptance": "Accept exactly one nonempty final agent_message. Do not reject, trim, normalize, or regenerate for leading, trailing, or interior whitespace.",
+        "hash_domain": "SHA-256 and response_bytes cover the exact UTF-8 final agent_message bytes, including every space, tab, CR, or LF if present.",
+        "file_envelope": "Write the eight ordered headers, one empty separator line, the exact body bytes, then exactly one additional envelope LF. The body is recovered as exactly response_bytes after the separator; the remaining final byte must be the envelope LF.",
+        "resampling": "Never regenerate for presentation or answer quality."
+      }
+    },
+    "control": {
+      "allowed_input": "Exact shared isolation harness followed by decoded canonical prompt.",
+      "context_sha256": "29c3476f4f19d99e19ad5d1c9aa2fefe7a8fcc962c137c0dd8119f6d88a3b500",
+      "context_bytes": 3623,
+      "terminal_lf": false,
+      "forbidden_in_addition_to_shared": [
+        "Skill",
+        "Runtime contract",
+        "Any skill/runtime paraphrase"
+      ]
+    },
+    "guided": {
+      "allowed_input": "Exact shared isolation harness followed by frozen skill, runtime, and decoded prompt.",
+      "assembly_template": "<shared_harness># Skill\\n\\n<skill without final LF>\\n\\n# Runtime contract\\n\\n<runtime without final LF>\\n\\n# User request\\n\\n<prompt>",
+      "context_sha256": "a87ebb086526d063fab2b46e52c495d2d8602d5d219288f627a11a8a4561edc5",
+      "context_bytes": 18443,
+      "terminal_lf": false,
+      "forbidden_in_addition_to_shared": [
+        "Control output/trace",
+        "Any other skill/runtime version"
+      ]
+    }
+  },
+  "response_contract": {
+    "planned_directory": "evals/forming-founder-partnerships/microtest/responses",
+    "exact_header_order": [
+      "canonical_task",
+      "sample_id",
+      "arm",
+      "context_id",
+      "dispatched_at",
+      "completed_at",
+      "response_sha256",
+      "response_bytes"
+    ],
+    "header_format": "<header>: <value>",
+    "file_layout": "Exactly eight header lines, one empty separator line, exactly response_bytes verbatim body bytes, then exactly one additional envelope LF.",
+    "chronology": "dispatched_at and completed_at are UTC RFC 3339 timestamps recorded from actual events; completed_at must not precede dispatched_at, and dispatch chronology must follow planned_order.",
+    "body_hash": "response_sha256 is SHA-256 over exactly response_bytes UTF-8 final agent_message bytes, including all leading, trailing, and interior whitespace.",
+    "body_bytes": "response_bytes is the exact UTF-8 length of the final agent_message. Recover exactly that many bytes after the separator; require one remaining envelope LF.",
+    "whitespace": "Preserve every body byte verbatim. Never trim, normalize, reject, or regenerate for whitespace or presentation.",
+    "uniqueness": "Every canonical_task, sample_id, context_id, thread_id, and response body hash must be unique across ten samples.",
+    "empty_body": "Exactly one nonempty final agent_message is required."
+  },
+  "planned_order": [
+    {
+      "index": 1,
+      "canonical_task": "/codex-exec/founder_micro_control_1_017",
+      "sample_id": "founder_micro_control_1_017",
+      "arm": "control",
+      "context_id": "founder_micro_control_context_1_017",
+      "fresh_context": true,
+      "response_path": "evals/forming-founder-partnerships/microtest/responses/founder_micro_control_1_017.md",
+      "trace_path": "evals/forming-founder-partnerships/microtest/traces/founder_micro_control_1_017.json"
+    },
+    {
+      "index": 2,
+      "canonical_task": "/codex-exec/founder_micro_control_2_017",
+      "sample_id": "founder_micro_control_2_017",
+      "arm": "control",
+      "context_id": "founder_micro_control_context_2_017",
+      "fresh_context": true,
+      "response_path": "evals/forming-founder-partnerships/microtest/responses/founder_micro_control_2_017.md",
+      "trace_path": "evals/forming-founder-partnerships/microtest/traces/founder_micro_control_2_017.json"
+    },
+    {
+      "index": 3,
+      "canonical_task": "/codex-exec/founder_micro_control_3_017",
+      "sample_id": "founder_micro_control_3_017",
+      "arm": "control",
+      "context_id": "founder_micro_control_context_3_017",
+      "fresh_context": true,
+      "response_path": "evals/forming-founder-partnerships/microtest/responses/founder_micro_control_3_017.md",
+      "trace_path": "evals/forming-founder-partnerships/microtest/traces/founder_micro_control_3_017.json"
+    },
+    {
+      "index": 4,
+      "canonical_task": "/codex-exec/founder_micro_control_4_017",
+      "sample_id": "founder_micro_control_4_017",
+      "arm": "control",
+      "context_id": "founder_micro_control_context_4_017",
+      "fresh_context": true,
+      "response_path": "evals/forming-founder-partnerships/microtest/responses/founder_micro_control_4_017.md",
+      "trace_path": "evals/forming-founder-partnerships/microtest/traces/founder_micro_control_4_017.json"
+    },
+    {
+      "index": 5,
+      "canonical_task": "/codex-exec/founder_micro_control_5_017",
+      "sample_id": "founder_micro_control_5_017",
+      "arm": "control",
+      "context_id": "founder_micro_control_context_5_017",
+      "fresh_context": true,
+      "response_path": "evals/forming-founder-partnerships/microtest/responses/founder_micro_control_5_017.md",
+      "trace_path": "evals/forming-founder-partnerships/microtest/traces/founder_micro_control_5_017.json"
+    },
+    {
+      "index": 6,
+      "canonical_task": "/codex-exec/founder_micro_guided_1_017",
+      "sample_id": "founder_micro_guided_1_017",
+      "arm": "guided",
+      "context_id": "founder_micro_guided_context_1_017",
+      "fresh_context": true,
+      "response_path": "evals/forming-founder-partnerships/microtest/responses/founder_micro_guided_1_017.md",
+      "trace_path": "evals/forming-founder-partnerships/microtest/traces/founder_micro_guided_1_017.json"
+    },
+    {
+      "index": 7,
+      "canonical_task": "/codex-exec/founder_micro_guided_2_017",
+      "sample_id": "founder_micro_guided_2_017",
+      "arm": "guided",
+      "context_id": "founder_micro_guided_context_2_017",
+      "fresh_context": true,
+      "response_path": "evals/forming-founder-partnerships/microtest/responses/founder_micro_guided_2_017.md",
+      "trace_path": "evals/forming-founder-partnerships/microtest/traces/founder_micro_guided_2_017.json"
+    },
+    {
+      "index": 8,
+      "canonical_task": "/codex-exec/founder_micro_guided_3_017",
+      "sample_id": "founder_micro_guided_3_017",
+      "arm": "guided",
+      "context_id": "founder_micro_guided_context_3_017",
+      "fresh_context": true,
+      "response_path": "evals/forming-founder-partnerships/microtest/responses/founder_micro_guided_3_017.md",
+      "trace_path": "evals/forming-founder-partnerships/microtest/traces/founder_micro_guided_3_017.json"
+    },
+    {
+      "index": 9,
+      "canonical_task": "/codex-exec/founder_micro_guided_4_017",
+      "sample_id": "founder_micro_guided_4_017",
+      "arm": "guided",
+      "context_id": "founder_micro_guided_context_4_017",
+      "fresh_context": true,
+      "response_path": "evals/forming-founder-partnerships/microtest/responses/founder_micro_guided_4_017.md",
+      "trace_path": "evals/forming-founder-partnerships/microtest/traces/founder_micro_guided_4_017.json"
+    },
+    {
+      "index": 10,
+      "canonical_task": "/codex-exec/founder_micro_guided_5_017",
+      "sample_id": "founder_micro_guided_5_017",
+      "arm": "guided",
+      "context_id": "founder_micro_guided_context_5_017",
+      "fresh_context": true,
+      "response_path": "evals/forming-founder-partnerships/microtest/responses/founder_micro_guided_5_017.md",
+      "trace_path": "evals/forming-founder-partnerships/microtest/traces/founder_micro_guided_5_017.json"
+    }
+  ],
+  "scoring_contract": {
+    "scorer": {
+      "canonical_task": "/root/founder_final_source_review/founder_micro_scorer_017",
+      "must_be_distinct_from": [
+        "/root",
+        "/root/founder_micro_prompt_review_008/founder_micro_prompt_gate_017",
+        "/codex-exec/founder_micro_control_1_017",
+        "/codex-exec/founder_micro_control_2_017",
+        "/codex-exec/founder_micro_control_3_017",
+        "/codex-exec/founder_micro_control_4_017",
+        "/codex-exec/founder_micro_control_5_017",
+        "/codex-exec/founder_micro_guided_1_017",
+        "/codex-exec/founder_micro_guided_2_017",
+        "/codex-exec/founder_micro_guided_3_017",
+        "/codex-exec/founder_micro_guided_4_017",
+        "/codex-exec/founder_micro_guided_5_017",
+        "/root/founder_micro_prompt_review_008/founder_micro_independent_review_017"
+      ]
+    },
+    "binary_bits": 50,
+    "bit_order": "planned_order response order, then C1 through C5 for each response",
+    "criterion_rule": "Each bit is 1 only when every conjunct of that criterion is satisfied; otherwise it is 0.",
+    "response_score": "For response i, s_i = (C1 + C2 + C3 + C4 + C5) / 5.",
+    "arm_vectors": "Control vector is s_1 through s_5; guided vector is s_6 through s_10.",
+    "arm_mean": "Arithmetic mean of the five normalized response scores in that arm.",
+    "population_variance": "For each arm, sum((s_i - arm_mean)^2) / 5.",
+    "effect": "guided arm mean minus control arm mean.",
+    "passing_effect": "effect >= 0.20",
+    "integrity_check": "Before scoring, reproduce every response-body byte count and SHA-256, verify all eight exact headers and timestamps, verify canonical task/context/sample identities and planned chronology, and verify the frozen rubric, prompt, criteria, skill, and runtime hashes."
+  },
+  "independent_review_contract": {
+    "canonical_task": "/root/founder_micro_prompt_review_008/founder_micro_independent_review_017",
+    "must_be_distinct_from": [
+      "/root",
+      "/root/founder_micro_prompt_review_008/founder_micro_prompt_gate_017",
+      "/root/founder_final_source_review/founder_micro_scorer_017",
+      "/codex-exec/founder_micro_control_1_017",
+      "/codex-exec/founder_micro_control_2_017",
+      "/codex-exec/founder_micro_control_3_017",
+      "/codex-exec/founder_micro_control_4_017",
+      "/codex-exec/founder_micro_control_5_017",
+      "/codex-exec/founder_micro_guided_1_017",
+      "/codex-exec/founder_micro_guided_2_017",
+      "/codex-exec/founder_micro_guided_3_017",
+      "/codex-exec/founder_micro_guided_4_017",
+      "/codex-exec/founder_micro_guided_5_017"
+    ],
+    "reproduce": [
+      "Authorship and pre-freeze chronology",
+      "Frozen artifact hashes and prompt/criteria canonicalization",
+      "All response hashes, byte counts, exact headers, unique identities, arm boundaries, and chronology",
+      "All 50 binary bits and five-bit response vectors",
+      "Both arm vectors, means, and population variances",
+      "Guided-minus-control effect and whether it is at least 0.20",
+      "Semantic route legitimacy, runtime support, and strict criterion isolation in the final canonical rubric",
+      "Pinned executable version, exact arm-context hashes, unique ephemeral thread ids, and zero forbidden trace events for all samples"
+    ],
+    "verdict_rule": "PASS only if integrity holds, scoring reproduces exactly, and guided-minus-control effect is at least 0.20."
+  },
+  "generation_execution": {
+    "executor": "/Users/leopaz/.nvm/versions/node/v22.23.0/bin/codex",
+    "version": "codex-cli 0.144.4",
+    "batch_mode": "Sequential only",
+    "method": "For each independent process, retain initial and all poll chunks in one live orchestration cell until exit. Parse JSON events separately from diagnostics. Immediately persist accepted response and trace; on any failure, first persist exact raw output, diagnostics, events, parsed projection, response if present, and metadata under a rejected path.",
+    "initial_yield_ms": 1000,
+    "poll_interval_max_ms": 30000,
+    "diagnostic_policy": "Parse JSONL task events separately from non-JSON stderr. Only JSON task events can establish model tool, command, file, web, MCP, image, or other task activity. Hash, count, and classify every stderr diagnostic, but do not misclassify process warnings as model actions.",
+    "failure_persistence": "After every process exit and before every failure return, regardless of exit code, parse success, lifecycle completeness, forbidden events, or presence of a final agent message, persist under a rejected-attempt path: the exact complete accumulated raw merged-output bytes; exact non-JSON diagnostic lines in original order with per-line hashes and classes; exact JSON event lines in original order plus their parsed projection; dispatch and completion timestamps; process and session metadata; and the exact response body if present. Never discard any generated or diagnostic byte.",
+    "resampling": "Never regenerate a sample after any final agent message, regardless of answer quality or later driver failure."
+  }
+}

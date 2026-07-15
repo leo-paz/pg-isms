@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_name": "forming-founder-partnerships",
+  "attempt": 17,
+  "status": "pre-author",
+  "created_at_utc": "2026-07-15T17:41:52Z",
+  "created_by": "/root",
+  "behavior_change_after_freeze": false,
+  "skill_path": "skills/forming-founder-partnerships/SKILL.md",
+  "skill_sha256": "a1bd8c331837d5e8a1177ab774b7d4f3e6a7a6d2d11b4293333fed445d77d584",
+  "skill_bytes": 3762,
+  "runtime_path": "skills/forming-founder-partnerships/references/runtime-contract.md",
+  "runtime_sha256": "9fef3fe9b7e3ef19dba864698046322b50cdf83aa61178934e5476aa17fb3a38",
+  "runtime_bytes": 11011,
+  "scope": "Freeze behavior before authoring the verbatim-whitespace isolated paired microtest. No response, score, or review may change these bytes."
+}

@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "skill_name": "forming-founder-partnerships",
+  "source_reviewers": [
+    "founder-partnerships-source-a",
+    "founder-partnerships-source-b",
+    "founder-partnerships-source-c"
+  ],
+  "records": [
+    {
+      "skill_name": "forming-founder-partnerships",
+      "article_no": "039",
+      "reviewer": "founder-partnerships-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "cofounder-formation-and-selection",
+          "claim": "Use known collaboration and real project execution to judge ability and working compatibility instead of relying on interview impressions alone.",
+          "line_ranges": [
+            "60-66"
+          ]
+        },
+        {
+          "canonical_theme": "cofounder-relationships-and-durability",
+          "claim": "Surface founder identity, contribution and commitment differences, exclusivity, and prior intellectual-property obligations before ownership and company formation harden.",
+          "line_ranges": [
+            "140-146",
+            "150-158"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "forming-founder-partnerships",
+      "article_no": "068",
+      "reviewer": "founder-partnerships-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "cofounder-formation-and-selection",
+          "claim": "Prefer people already observed on comparable work, recurring builders, and collaborators genuinely liked over candidates who are merely impressive on the surface.",
+          "line_ranges": [
+            "74-88",
+            "160-160"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "forming-founder-partnerships",
+      "article_no": "069",
+      "reviewer": "founder-partnerships-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "cofounder-formation-and-selection",
+          "claim": "Investigate persistent misgivings before formation and do not accept a disliked candidate merely to obtain a scarce complementary skill.",
+          "line_ranges": [
+            "196-196"
+          ]
+        },
+        {
+          "canonical_theme": "cofounder-relationships-and-durability",
+          "claim": "Support founder resilience through mutual challenge and morale, plan for orderly departure and critical-skill continuity, and surface unequal commitment before a side project quietly decays.",
+          "line_ranges": [
+            "20-28",
+            "190-194",
+            "198-210"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "forming-founder-partnerships",
+      "article_no": "073",
+      "reviewer": "founder-partnerships-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "cofounder-formation-and-selection",
+          "claim": "Work with a candidate before choosing them as a cofounder because introductions and conferences provide weak evidence of actual working fit.",
+          "line_ranges": [
+            "106-118"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "forming-founder-partnerships",
+      "article_no": "099",
+      "reviewer": "founder-partnerships-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "cofounder-formation-and-selection",
+          "claim": "When macroeconomic timing is debated, give founder quality and the available cofounder team more weight than broad economic sentiment.",
+          "line_ranges": [
+            "18-26"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "forming-founder-partnerships",
+      "article_no": "105",
+      "reviewer": "founder-partnerships-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "cofounder-formation-and-selection",
+          "claim": "Treat cofounder choice as unusually hard to reverse and give founder quality high weight before formalizing the relationship.",
+          "line_ranges": [
+            "20-22"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "forming-founder-partnerships",
+      "article_no": "110",
+      "reviewer": "founder-partnerships-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "cofounder-formation-and-selection",
+          "claim": "Assess prospective cofounders for determined adaptability: preserve the goal while trying new approaches against unfamiliar external obstacles.",
+          "line_ranges": [
+            "20-24",
+            "38-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "forming-founder-partnerships",
+      "article_no": "123",
+      "reviewer": "founder-partnerships-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "cofounder-formation-and-selection",
+          "claim": "Prioritize character, commitment, and demonstrated working knowledge over choosing a stranger for marginally higher output or ability.",
+          "line_ranges": [
+            "30-44"
+          ]
+        },
+        {
+          "canonical_theme": "cofounder-relationships-and-durability",
+          "claim": "Maintain the founder relationship deliberately because early startup stress makes it more intense than an ordinary coworker relationship and foundational to the company.",
+          "line_ranges": [
+            "46-50"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "forming-founder-partnerships",
+      "article_no": "134",
+      "reviewer": "founder-partnerships-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "cofounder-formation-and-selection",
+          "claim": "Choose cofounders who genuinely like one another and already work well together rather than assuming general founder quality establishes partnership fit.",
+          "line_ranges": [
+            "40-44"
+          ]
+        },
+        {
+          "canonical_theme": "cofounder-relationships-and-durability",
+          "claim": "Treat unresolved tension as a durability warning because startup pressure can pull apart a relationship that is already weak.",
+          "line_ranges": [
+            "40-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "forming-founder-partnerships",
+      "article_no": "157",
+      "reviewer": "founder-partnerships-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "cofounder-formation-and-selection",
+          "claim": "Let cofounders emerge through demanding work on interesting problems with people already liked and respected.",
+          "line_ranges": [
+            "108-118"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "forming-founder-partnerships",
+      "article_no": "196",
+      "reviewer": "founder-partnerships-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "cofounder-relationships-and-durability",
+          "claim": "Use concrete shared execution under constraint as relationship evidence and treat exploitation of cofounders as a foundational trust risk.",
+          "line_ranges": [
+            "72-74",
+            "84-86"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "forming-founder-partnerships",
+      "article_no": "221",
+      "reviewer": "founder-partnerships-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "cofounder-formation-and-selection",
+          "claim": "Judge both competence and working compatibility by completing real projects together before choosing a cofounder.",
+          "line_ranges": [
+            "70-70"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-07-15T13:49:06Z",
+  "frozen_at_utc": "2026-07-15T13:49:06Z",
+  "freeze_state": "frozen-before-response",
+  "authorship": {
+    "case_author": "/root",
+    "case_authored_at_utc": "2026-07-15T13:46:49Z",
+    "case_authorship_order": "after-pre-author-skill-freeze",
+    "prompt_reviewer": {
+      "task": "/root/founder_heldout_prompt_gate_028",
+      "verdict": "PASS",
+      "reviewed_at_utc": "2026-07-15T13:48:25Z",
+      "review_artifact_sha256": "cbd7fb98d3308734faea6cfd9e0d2b9cff26685394cc082cdf5deeb0ca9a62c5",
+      "findings": []
+    }
+  },
+  "frozen_inputs": {
+    "skill_freeze_path": "evals/forming-founder-partnerships/heldout/skill-freeze.json",
+    "skill_freeze_sha256": "3412d690deb77e9d2033408516669908a040a7a2d6a61b36095690e8995978b2",
+    "skill_freeze_bytes": 791,
+    "skill_freeze_created_at_utc": "2026-07-15T13:46:31Z",
+    "skill_freeze_status": "pre-author",
+    "case_path": "evals/forming-founder-partnerships/heldout/case.json",
+    "case_source_path": ".superpowers/sdd/founder-partnerships-heldout-attempt-028-draft/case.json",
+    "case_source_equality": "byte-identical",
+    "case_sha256": "402133067e51bea31fb5fca46694f3ff1d341463a1ca852b6d5f07f9d8c0ea1a",
+    "case_bytes": 7018,
+    "prompt_sha256": "77e5827ab9a60917f8d7ce35611060760c9e638e7f7f863e7512aa2421fa9a8c",
+    "prompt_bytes": 2058,
+    "prompt_hash_domain": "decoded prompt UTF-8 bytes, with no added terminal LF",
+    "hidden_criteria_sha256": "28836b4f6f6c4b39a54869afe1c95964a874bb05fd67bcd44ea5ba80bbefcd07",
+    "hidden_criteria_bytes": 3938,
+    "hidden_criteria_canonicalization": "compact JSON of the hidden criteria array at case.json $.criteria; object keys recursively sorted; array order preserved; no terminal LF",
+    "skill_path": "skills/forming-founder-partnerships/SKILL.md",
+    "skill_sha256": "a1bd8c331837d5e8a1177ab774b7d4f3e6a7a6d2d11b4293333fed445d77d584",
+    "skill_bytes": 3762,
+    "runtime_path": "skills/forming-founder-partnerships/references/runtime-contract.md",
+    "runtime_sha256": "9fef3fe9b7e3ef19dba864698046322b50cdf83aa61178934e5476aa17fb3a38",
+    "runtime_bytes": 11011
+  },
+  "generation": {
+    "arm": "guided",
+    "generator": "/root/founder_heldout_generator_028",
+    "canonical_task": "founder_partnerships_heldout_028",
+    "sample_id": "founder_heldout_028",
+    "context_id": "founder_heldout_context_028",
+    "response_path": "evals/forming-founder-partnerships/heldout/response.md",
+    "context_assembly": "# Skill\n\n<skill without final LF>\n\n# Runtime contract\n\n<runtime without final LF>\n\n# User request\n\n<prompt>\n",
+    "context_sha256": "dae9317209d2ee9fdc25cd1349fbfcc17c612a172d525f6aa87ed94a754b239d",
+    "context_bytes": 16879,
+    "generator_allowed_input": "only the exact assembled context identified by context_sha256 and context_bytes",
+    "generator_forbidden_inputs": [
+      "hidden criteria",
+      "author commentary",
+      "prior attempts",
+      "eval artifacts other than the exact assembled context",
+      "prior responses",
+      "scores",
+      "reviews"
+    ]
+  },
+  "response_contract": {
+    "ordered_header_keys": [
+      "canonical_task",
+      "sample_id",
+      "arm",
+      "context_id",
+      "dispatched_at",
+      "completed_at",
+      "response_sha256",
+      "response_bytes"
+    ],
+    "header_format": "<key>: <value>",
+    "fixed_header_values": {
+      "canonical_task": "founder_partnerships_heldout_028",
+      "sample_id": "founder_heldout_028",
+      "arm": "guided",
+      "context_id": "founder_heldout_context_028"
+    },
+    "dynamic_header_values": {
+      "dispatched_at": "UTC RFC3339 timestamp recorded at dispatch",
+      "completed_at": "UTC RFC3339 timestamp recorded at completion",
+      "response_sha256": "lowercase SHA-256 of the response-body hash domain",
+      "response_bytes": "decimal byte count of the response-body hash domain"
+    },
+    "file_layout": "exactly eight header lines in the specified order, one empty line, the response body, and exactly one file-final LF",
+    "body_hash_domain": "UTF-8 response-body bytes only, excluding all headers, the separating empty line, and the file-final LF; the domain has no terminal LF",
+    "body_whitespace": {
+      "leading_blank_lines": 0,
+      "trailing_blank_lines": 0,
+      "trailing_spaces_or_tabs_on_any_line": 0,
+      "file_final_lf_count": 1
+    }
+  },
+  "scoring": {
+    "scorer": "/root/founder_heldout_scorer_028",
+    "strict_binary_bits": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "minimum_positive_bits": 4,
+    "total_bits": 5,
+    "required_verdicts": {
+      "integrity": "PASS",
+      "prompt_naturalness_and_no_leakage": "PASS"
+    },
+    "provenance_requirement": "record criterion-specific response evidence for every strict bit and the exact frozen hashes used for scoring",
+    "score_only_after": "response envelope and body hash are frozen and independently integrity-checked"
+  },
+  "independent_review": {
+    "reviewer": "/root/founder_heldout_independent_review_028",
+    "reproduce": [
+      "case authorship, prompt-review PASS with no findings, plan freeze, generation, scoring, and final-review chronology",
+      "skill-freeze, case, decoded prompt, canonical hidden-criteria, skill, runtime, assembled-context, and response-body hashes and byte counts",
+      "five-bit score and threshold verdict",
+      "integrity and prompt-naturalness/no-leakage verdicts",
+      "held-out transfer verdict"
+    ]
+  }
+}

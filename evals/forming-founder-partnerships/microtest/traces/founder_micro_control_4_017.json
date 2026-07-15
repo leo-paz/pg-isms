@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "sample_id": "founder_micro_control_4_017",
+  "canonical_task": "/codex-exec/founder_micro_control_4_017",
+  "arm": "control",
+  "context_id": "founder_micro_control_context_4_017",
+  "dispatched_at": "2026-07-15T17:55:24.509Z",
+  "completed_at": "2026-07-15T17:57:07.385Z",
+  "executable": "/Users/leopaz/.nvm/versions/node/v22.23.0/bin/codex",
+  "executable_version": "codex-cli 0.144.4",
+  "working_directory": "/tmp/pg-isms-eval-empty",
+  "flags": [
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "--sandbox read-only",
+    "--json"
+  ],
+  "context_sha256": "29c3476f4f19d99e19ad5d1c9aa2fefe7a8fcc962c137c0dd8119f6d88a3b500",
+  "context_bytes": 3623,
+  "terminal_lf": false,
+  "initial_yield_ms": 1000,
+  "poll_count": 4,
+  "live_session_observed": true,
+  "exit_code": 0,
+  "thread_id": "019f66eb-4f42-7bd1-8b85-bf66d988e3e7",
+  "raw_merged_output_sha256": "c413f8515237421fd517e1595d5d70f375b90ac5a4ee70e0eb8f0b244a000669",
+  "raw_merged_output_bytes": 14145,
+  "event_records": [
+    {
+      "index": 1,
+      "type": "thread.started",
+      "item_type": null,
+      "sha256": "d72c3dd67f86601c221696fad15d9f4137ea92956f1551de734706275d4a2367",
+      "bytes": 76
+    },
+    {
+      "index": 2,
+      "type": "turn.started",
+      "item_type": null,
+      "sha256": "7306b54975174c6eb5111d663a47de795d167520e43cf66ee2923218b19fdb75",
+      "bytes": 23
+    },
+    {
+      "index": 3,
+      "type": "item.completed",
+      "item_type": "agent_message",
+      "sha256": "4980d55662ef3124a1abae141bf32ad0a01a7ff72d8964ee64fb7ef699339c8a",
+      "bytes": 11094
+    },
+    {
+      "index": 4,
+      "type": "turn.completed",
+      "item_type": null,
+      "sha256": "49aa9522643641c36496fa29005c055c5c44963c2e370e71b8ed4a96d1092839",
+      "bytes": 134
+    }
+  ],
+  "diagnostic_records": [
+    {
+      "index": 1,
+      "class": "state-db-fallback-warning",
+      "sha256": "333c5d938a2a99d504d84e8fd471113a85f9e8524aeb038f9b4b91727c779839",
+      "bytes": 133
+    },
+    {
+      "index": 2,
+      "class": "state-db-fallback-warning",
+      "sha256": "55f9972b6c9671407e2b913e43319a635c9b893104e7a94ff7af8cbee5ea1cff",
+      "bytes": 133
+    },
+    {
+      "index": 3,
+      "class": "state-db-fallback-warning",
+      "sha256": "77534f74d9a2299051e3e2a492dbe4f2902177b27818c09e93343d1a4a2d1ce5",
+      "bytes": 133
+    },
+    {
+      "index": 4,
+      "class": "state-db-fallback-warning",
+      "sha256": "be7521a1772a2051df12aca95baf78337605033c24a0805d47c0f006e713442b",
+      "bytes": 133
+    },
+    {
+      "index": 5,
+      "class": "state-db-fallback-warning",
+      "sha256": "d25d15e62dd7be530149972b083f5401f3dc539a5d92376c9d919ec97cee7203",
+      "bytes": 133
+    },
+    {
+      "index": 6,
+      "class": "state-db-fallback-warning",
+      "sha256": "9ff91bfad1d77b672e95a26ee24ef7359dbc039dff6aff4c882830d6f16e09bb",
+      "bytes": 133
+    },
+    {
+      "index": 7,
+      "class": "state-db-fallback-warning",
+      "sha256": "e818b8ad048e9eb91499bf93efc06620796cfb50a33de2d0dcce6f9d2dac5514",
+      "bytes": 133
+    },
+    {
+      "index": 8,
+      "class": "state-db-fallback-warning",
+      "sha256": "2526cc239d44a46e93315b37ba6f292ee747378e1f2a1bbe533a9c0c41f3c9d2",
+      "bytes": 133
+    },
+    {
+      "index": 9,
+      "class": "state-db-fallback-warning",
+      "sha256": "bc8efc6c421f169889fc0e373001484c94886fa0f8e958e785eeee0f04f7b76c",
+      "bytes": 133
+    },
+    {
+      "index": 10,
+      "class": "state-db-fallback-warning",
+      "sha256": "ae03dce2f46de8c1bbc06191937a34b7f8046c61bcf0ec3bf2f4fc122b498e79",
+      "bytes": 133
+    },
+    {
+      "index": 11,
+      "class": "state-db-fallback-warning",
+      "sha256": "3ca903d91165d853e615803b6435f307648674dc4c1c40655d14ab514b856392",
+      "bytes": 133
+    },
+    {
+      "index": 12,
+      "class": "state-db-fallback-warning",
+      "sha256": "9959a2d7c60e93861c6d488682d48ef18163760aa71016c9ddd4bcd93c38c5ed",
+      "bytes": 133
+    },
+    {
+      "index": 13,
+      "class": "state-db-fallback-warning",
+      "sha256": "10f636c38d9e47e7ad4960882cb9e922e215df665c340ea9ede7a1bc14f305e9",
+      "bytes": 133
+    },
+    {
+      "index": 14,
+      "class": "state-db-fallback-warning",
+      "sha256": "174a235c29ba34f387bc030182122299f245a83b589f37ca9e338244892e41c2",
+      "bytes": 133
+    },
+    {
+      "index": 15,
+      "class": "state-db-fallback-warning",
+      "sha256": "43e4679c71599dc355c7cec84c33f8f92a69e6af637f948aec6582124505cbc8",
+      "bytes": 133
+    },
+    {
+      "index": 16,
+      "class": "state-db-fallback-warning",
+      "sha256": "936f8e50fc5d786b8b1c53a508d48e4ace661ba0883ef89f9cf21932e5b85a27",
+      "bytes": 133
+    },
+    {
+      "index": 17,
+      "class": "state-db-fallback-warning",
+      "sha256": "c1c131c1e2851ac1d168a677b3eed2a74bb0abdcbf5e8681c95acd777799756d",
+      "bytes": 133
+    },
+    {
+      "index": 18,
+      "class": "state-db-fallback-warning",
+      "sha256": "e50b63cb88dbd4a2ba0137cf18caa0b9d69426709abdb123895c48bfc2a5e5ff",
+      "bytes": 133
+    },
+    {
+      "index": 19,
+      "class": "state-db-fallback-warning",
+      "sha256": "f17486578063f2282ee31ced9767c8d42059a3f5e22394d049b2c80b7165b1e8",
+      "bytes": 133
+    },
+    {
+      "index": 20,
+      "class": "state-db-fallback-warning",
+      "sha256": "5e6cd28965f85b56e997807533c6c4e935fa64ac2be9cfd65df42df120c68a41",
+      "bytes": 133
+    },
+    {
+      "index": 21,
+      "class": "state-db-fallback-warning",
+      "sha256": "16a5568e342acfe689091559ca75f2f9ed6efd3bc7633b1f7b50d3489fa629ff",
+      "bytes": 133
+    }
+  ],
+  "forbidden_event_count": 0,
+  "final_agent_message_count": 1,
+  "response_sha256": "4ca7a1b36640a3b26ad5b1dc2fb0c411d8ff3128806c42917b5a87a88fbe3fc4",
+  "response_bytes": 10836,
+  "usage": {
+    "input_tokens": 16580,
+    "cached_input_tokens": 8960,
+    "output_tokens": 2576,
+    "reasoning_output_tokens": 516
+  },
+  "trace_gate": "PASS"
+}

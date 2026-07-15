@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "sample_id": "founder_micro_control_2_017",
+  "canonical_task": "/codex-exec/founder_micro_control_2_017",
+  "arm": "control",
+  "context_id": "founder_micro_control_context_2_017",
+  "dispatched_at": "2026-07-15T17:51:16.881Z",
+  "completed_at": "2026-07-15T17:53:30.793Z",
+  "executable": "/Users/leopaz/.nvm/versions/node/v22.23.0/bin/codex",
+  "executable_version": "codex-cli 0.144.4",
+  "working_directory": "/tmp/pg-isms-eval-empty",
+  "flags": [
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "--sandbox read-only",
+    "--json"
+  ],
+  "context_sha256": "29c3476f4f19d99e19ad5d1c9aa2fefe7a8fcc962c137c0dd8119f6d88a3b500",
+  "context_bytes": 3623,
+  "terminal_lf": false,
+  "initial_yield_ms": 1000,
+  "poll_count": 5,
+  "live_session_observed": true,
+  "exit_code": 0,
+  "thread_id": "019f66e7-883d-7ee3-95d4-7b55f02ddaf6",
+  "raw_merged_output_sha256": "f9a4910f0ab03ab5080c9286ffe976df6dbe99b1f8881dc54f6172dfde617be9",
+  "raw_merged_output_bytes": 13230,
+  "event_records": [
+    {
+      "index": 1,
+      "type": "thread.started",
+      "item_type": null,
+      "sha256": "0599de44c1b29807e6de228c8d56008d66839ad3a2c67af8e7b74123926fca02",
+      "bytes": 76
+    },
+    {
+      "index": 2,
+      "type": "turn.started",
+      "item_type": null,
+      "sha256": "7306b54975174c6eb5111d663a47de795d167520e43cf66ee2923218b19fdb75",
+      "bytes": 23
+    },
+    {
+      "index": 3,
+      "type": "item.completed",
+      "item_type": "agent_message",
+      "sha256": "f29962ec283a948f433e56abddf48f0d3b34f18de6a68902b87c5b5486b0c17c",
+      "bytes": 10029
+    },
+    {
+      "index": 4,
+      "type": "turn.completed",
+      "item_type": null,
+      "sha256": "30f60cfa9aec1e95d4287a235a0227664200fa18f2386119af016ddfb1d19f1e",
+      "bytes": 135
+    }
+  ],
+  "diagnostic_records": [
+    {
+      "index": 1,
+      "class": "state-db-fallback-warning",
+      "sha256": "b1240f78f2643e0e89a5695e7cb7a96c2ec9ef7698673bf44928614946ea1883",
+      "bytes": 133
+    },
+    {
+      "index": 2,
+      "class": "state-db-fallback-warning",
+      "sha256": "6928669af6eaa82f4e1a8f64cc673cc1a62d15f44a1c62842a1f77a70ac7d557",
+      "bytes": 133
+    },
+    {
+      "index": 3,
+      "class": "state-db-fallback-warning",
+      "sha256": "274470ee393c59b37b66b66befd68d97c866ac4c23f185578389e199debd1ce2",
+      "bytes": 133
+    },
+    {
+      "index": 4,
+      "class": "state-db-fallback-warning",
+      "sha256": "35d6ad1f8451fe829ffb92aefd09ee10fef476dba3d97f9b9fb90535764abf00",
+      "bytes": 133
+    },
+    {
+      "index": 5,
+      "class": "state-db-fallback-warning",
+      "sha256": "f88b78f2fe8ac46339f523a3f420a92f880a9023c9e7999198602c197f439792",
+      "bytes": 133
+    },
+    {
+      "index": 6,
+      "class": "state-db-fallback-warning",
+      "sha256": "4737b0dee9688146c5eada7a24feb4e3db27620952feb6bb52c0eaa4a349f8d6",
+      "bytes": 133
+    },
+    {
+      "index": 7,
+      "class": "state-db-fallback-warning",
+      "sha256": "d3bcb9475df12911cdd359892022eb3c98d9664ebbf9200520eeca690aa3aea5",
+      "bytes": 133
+    },
+    {
+      "index": 8,
+      "class": "state-db-fallback-warning",
+      "sha256": "bd7f501c2dc08896f0005576a42e5cb48d19c53cd59944f8b626308fe593759b",
+      "bytes": 133
+    },
+    {
+      "index": 9,
+      "class": "state-db-fallback-warning",
+      "sha256": "a6a73eb7e63f8b137716ec379338f2ee65ee4b140b87892281bb13eaeefb8289",
+      "bytes": 133
+    },
+    {
+      "index": 10,
+      "class": "state-db-fallback-warning",
+      "sha256": "c2f59138e7ff737282b1a3b8b407dc5aa34a6015f9086a8f7292b5857f89c5e4",
+      "bytes": 133
+    },
+    {
+      "index": 11,
+      "class": "state-db-fallback-warning",
+      "sha256": "cb367b6fee8360b771681c54eec777248b6f1923794fadd56b943d89d14b4003",
+      "bytes": 133
+    },
+    {
+      "index": 12,
+      "class": "state-db-fallback-warning",
+      "sha256": "ed25a4ffc36a22b33fdb9c947fc2e4e60febfd13babbdd8b1317ad669bedfb17",
+      "bytes": 133
+    },
+    {
+      "index": 13,
+      "class": "state-db-fallback-warning",
+      "sha256": "df895abc6bf437be7e97e76b28e66edac1394fc3625fd6898f3517bb85d62469",
+      "bytes": 133
+    },
+    {
+      "index": 14,
+      "class": "state-db-fallback-warning",
+      "sha256": "dffc22ced01a73d6ada351bab1c7fbb8c029eaca05e9f88ee2ca66e4eaba31b8",
+      "bytes": 133
+    },
+    {
+      "index": 15,
+      "class": "state-db-fallback-warning",
+      "sha256": "629b673a30a13a06b1e797f7d1a00bcaeda95416332e96435affe80e0796595c",
+      "bytes": 133
+    },
+    {
+      "index": 16,
+      "class": "state-db-fallback-warning",
+      "sha256": "97155af65858cff22cfe0f0220a7610d124b85b58adb50e59e6ddf6a7386fe01",
+      "bytes": 133
+    },
+    {
+      "index": 17,
+      "class": "state-db-fallback-warning",
+      "sha256": "635005be6eab9fadd2a582ad3ffc9dfd684bffa34ee0b78ecfe6a45900192050",
+      "bytes": 133
+    },
+    {
+      "index": 18,
+      "class": "state-db-fallback-warning",
+      "sha256": "a7dce66d1e49b97d3af73a307e21a608c20388b264e1362067052d4d5e98560c",
+      "bytes": 133
+    },
+    {
+      "index": 19,
+      "class": "state-db-fallback-warning",
+      "sha256": "f8ee28c91e40bf8d6e3f2db11f03ee05c5388f67ad6da973cf53e06e4cf68487",
+      "bytes": 133
+    },
+    {
+      "index": 20,
+      "class": "state-db-fallback-warning",
+      "sha256": "fa20cd6801201243b4883326a9cd4107abeb3335fece9ac9eb29c5569458a69c",
+      "bytes": 133
+    },
+    {
+      "index": 21,
+      "class": "shell-snapshot-diagnostic",
+      "sha256": "dcda896bd6dbdf6a0923c2c72b564ee26bc97e9c2ddd3e551325ce2f03505210",
+      "bytes": 282
+    }
+  ],
+  "forbidden_event_count": 0,
+  "final_agent_message_count": 1,
+  "response_sha256": "8278722b23c9310dd7ed13ab6cb2cc6183daf8275c9f5edc09e43ed67ff6f60e",
+  "response_bytes": 9837,
+  "usage": {
+    "input_tokens": 15431,
+    "cached_input_tokens": 8960,
+    "output_tokens": 3977,
+    "reasoning_output_tokens": 2022
+  },
+  "trace_gate": "PASS"
+}

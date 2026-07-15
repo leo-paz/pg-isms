@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "attempt": 17,
+  "executed_at_utc": "2026-07-15T15:17:56Z",
+  "executable": "/Users/leopaz/.nvm/versions/node/v22.23.0/bin/codex",
+  "executable_version": "codex-cli 0.144.4",
+  "working_directory": "/tmp/pg-isms-eval-empty",
+  "working_directory_was_empty": true,
+  "flags": [
+    "exec",
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "--sandbox read-only",
+    "--json"
+  ],
+  "input_sha256": "b56fa01dda1b6363bdd24a2cee9dc3f465317de4ed49131145f4e6f6b8991053",
+  "input_bytes": 425,
+  "input_final_byte_decimal": 46,
+  "exit_code": 0,
+  "thread_id": "019f665b-2255-7a80-aab5-e89a09ced3a3",
+  "events": [
+    {
+      "type": "thread.started"
+    },
+    {
+      "type": "turn.started"
+    },
+    {
+      "type": "item.completed",
+      "item_type": "agent_message",
+      "text": "ISOLATION_OK"
+    },
+    {
+      "type": "turn.completed",
+      "input_tokens": 15620,
+      "cached_input_tokens": 8960,
+      "output_tokens": 8,
+      "reasoning_output_tokens": 0
+    }
+  ],
+  "non_json_stderr": "Repeated codex_rollout state-db fallback warnings; no task content, command, file, web, or tool event.",
+  "forbidden_event_count": 0,
+  "final_answer": "ISOLATION_OK",
+  "trace_gate": "PASS",
+  "reused_from_attempt": 16,
+  "reuse_reason": "The exact isolation, executable, polling, event-boundary, and durability mechanics are unchanged; attempt 17 changes only the response-file whitespace envelope."
+}

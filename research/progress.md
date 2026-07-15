@@ -980,3 +980,66 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
   skills sequentially beginning with `forming-founder-partnerships`; finish the
   cross-skill final review, README catalog, and clean/pushed repository-wide gate.
 - Blockers: none.
+
+## Checkpoint 4 skill 10 verified: `forming-founder-partnerships`
+
+- RED froze and independently scored five no-skill cases before package
+  initialization: founder selection under weak prior collaboration, an ownership
+  request before contribution evidence, an existing-team trust break, a role-only
+  organization non-trigger, and a safety-sensitive separation. The baseline scored
+  `6/25` (`0.24`).
+- Independent source review read all `12` assigned essays in full, checked every
+  cited range in context, and used both BM25 and semantic QMD retrieval to test for
+  missing principles. The generated provenance covers exactly `12` essays and both
+  owned themes; the article `069` relationship-durability override projects
+  correctly, and no source, mapping, or copyright gap remains.
+- The official initializer created the package. Repeated behavior, routing, source,
+  and evaluation reviews tightened route precedence, candidate versus existing-team
+  modes, observation-versus-claim labels, reversible trials, trust and safety gates,
+  ownership restraint, and current legal handoff. The final `SKILL.md` is `474`
+  words with SHA-256
+  `a1bd8c331837d5e8a1177ab774b7d4f3e6a7a6d2d11b4293333fed445d77d584`;
+  official validation and regenerated `agents/openai.yaml` pass.
+- The blind forward run scored `18/25` (`0.72`), improving `+0.48` over baseline.
+  Its seven retained misses remain explicit rather than inferred, including complete
+  evidence classification, sharper branch ownership, and scenario-specific safety,
+  legal, or decision-threshold fields.
+- The accepted paired microtest is attempt `017`. Five isolated controls scored
+  `[1, 1, 1, 1, 1]` (`0.20`); five distinct final-hash guided contexts scored
+  `[3, 3, 3, 2, 3]` (`0.56`), a `+0.36` normalized improvement. A blind Stage A
+  reviewer challenged one inferred guided bit; Stage B sustained the challenge, and
+  the official scorer amended only that bit before the final exact-agreement review.
+  All ten envelopes, traces, hashes, identities, lifecycle events, and forbidden-event
+  checks reproduce. Earlier contract-invalid, contaminated, driver-failed, stderr,
+  and envelope-invalid attempts remain archived outside the canonical evaluation.
+- The post-freeze held-out case used distinct author, prompt reviewer, generator,
+  scorer, and final reviewer contexts. It scored `[1, 1, 1, 1, 0]` (`4/5`) PASS with
+  integrity and naturalness both PASS; the retained miss is the final continuity
+  condition, not an inferred success.
+- Fresh final source, behavior, and evaluation-integrity reviews each report `0`
+  Critical, `0` Important, and `0` Minor findings and `Ready to commit: Yes`. The
+  evaluation reviewer independently reproduced `280/280` assertions with zero
+  failures.
+- Verification:
+
+  ```text
+  Skill is valid!
+  skill provenance check: essays=12 themes=2
+  theme projection check: canonical=122 article_overrides=17 relevant_essays=209
+  taxonomy sync check: skills=21 themes=122 relevant_essays=209 essay_skill_pairings=832
+  taxonomy validation passed: corpus_files=223 classified=223 relevant_essays=209 uncovered_relevant=0 orphan_skills=0
+  baseline normalized_score=0.24; forward normalized_score=0.72; delta=0.48
+  microtest control=5/25; guided=14/25; normalized_delta=0.36
+  heldout founder-partnerships-heldout-attempt-028=4/5 PASS integrity=PASS
+  python3 -m unittest discover -s tests -p 'test_*.py'
+  Ran 120 tests
+  OK
+  copyright scan: normalized 20/30/40-token corpus matches=0/0/0
+  git diff --check outside immutable microtest byte fixtures/responses: passed
+  immutable microtest files retain hash-bound trailing-space and EOF probes
+  ```
+
+- Remaining work: publish this verified milestone, then build the remaining `11`
+  skills sequentially beginning with `building-and-evolving-organizations`; finish
+  the cross-skill final review, README catalog, and clean/pushed repository-wide gate.
+- Blockers: none.

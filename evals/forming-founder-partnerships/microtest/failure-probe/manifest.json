@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "attempt": 16,
+  "probe_type": "deterministic-post-final-failure",
+  "dispatched_at": "2026-07-15T15:57:35.035Z",
+  "completed_at": "2026-07-15T15:57:35.268Z",
+  "poll_count": 0,
+  "exit_code": 0,
+  "raw_output": {
+    "path": "raw-output.log",
+    "sha256": "4e955d34228a9de4debebb95ce48bd509713d32b6e0757ff7c19c46e81c8406d",
+    "bytes": 418
+  },
+  "events": {
+    "path": "events.jsonl",
+    "sha256": "80397b077f37d3b176a658c886b93bb056e7a00cf2495aab0485b87e8b94247c",
+    "bytes": 372,
+    "count": 5,
+    "types": [
+      "thread.started",
+      "turn.started",
+      "item.completed",
+      "item.completed",
+      "turn.completed"
+    ],
+    "item_types": [
+      "agent_message",
+      "command_execution"
+    ]
+  },
+  "diagnostics": {
+    "path": "diagnostics.log",
+    "sha256": "198238fa5274416117866d75016d5ea6668ac7942d82f5c5ab90ce251701b7a3",
+    "bytes": 46,
+    "count": 1,
+    "records": [
+      {
+        "index": 1,
+        "class": "fixture-process-diagnostic",
+        "sha256": "e25e3a70a0359ca36c1ef374e4abe807bbfbc7bc554b6b86fbb52382d6b9a2cf",
+        "bytes": 45
+      }
+    ]
+  },
+  "response": {
+    "path": "response.md",
+    "sha256": "8689f86abdba7682ccc5bfcbe252c37a2b020c5aef732a6084c45e3a6a2ae5c2",
+    "bytes": 16,
+    "present": true
+  },
+  "expected_forbidden_event_count": 1,
+  "observed_forbidden_event_count": 1,
+  "expected_gate_result": "REJECT",
+  "observed_gate_result": "REJECT",
+  "persistence_completed_before_return": true,
+  "probe_result": "PASS"
+}

@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "sample_id": "founder_micro_guided_5_017",
+  "canonical_task": "/codex-exec/founder_micro_guided_5_017",
+  "arm": "guided",
+  "context_id": "founder_micro_guided_context_5_017",
+  "dispatched_at": "2026-07-15T18:10:28.423Z",
+  "completed_at": "2026-07-15T18:12:15.593Z",
+  "executable": "/Users/leopaz/.nvm/versions/node/v22.23.0/bin/codex",
+  "executable_version": "codex-cli 0.144.4",
+  "working_directory": "/tmp/pg-isms-eval-empty",
+  "flags": [
+    "--ignore-user-config",
+    "--ignore-rules",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "--sandbox read-only",
+    "--json"
+  ],
+  "context_sha256": "a87ebb086526d063fab2b46e52c495d2d8602d5d219288f627a11a8a4561edc5",
+  "context_bytes": 18443,
+  "terminal_lf": false,
+  "initial_yield_ms": 1000,
+  "poll_count": 4,
+  "live_session_observed": true,
+  "exit_code": 0,
+  "thread_id": "019f66f9-1b61-75e2-8088-15c0cf153f69",
+  "raw_merged_output_sha256": "eca7bb53e741718af6be815fb82f7636e7ba285b3df4dc4c4912168db442a6e0",
+  "raw_merged_output_bytes": 21836,
+  "event_records": [
+    {
+      "index": 1,
+      "type": "thread.started",
+      "item_type": null,
+      "sha256": "d153aa6d2829fb919b74d081021c1618cf803222ae6a76fb6cba94d687c3fccd",
+      "bytes": 76
+    },
+    {
+      "index": 2,
+      "type": "turn.started",
+      "item_type": null,
+      "sha256": "7306b54975174c6eb5111d663a47de795d167520e43cf66ee2923218b19fdb75",
+      "bytes": 23
+    },
+    {
+      "index": 3,
+      "type": "item.completed",
+      "item_type": "agent_message",
+      "sha256": "4bf5f1c7d02af10894b197bc81c9a0920bd436be7654f2f2ebef84c1eede2df1",
+      "bytes": 18785
+    },
+    {
+      "index": 4,
+      "type": "turn.completed",
+      "item_type": null,
+      "sha256": "964c0e0ca738ab9b8d127ca0e12ff5a54b3af363de1309ab58c070da7209bd40",
+      "bytes": 134
+    }
+  ],
+  "diagnostic_records": [
+    {
+      "index": 1,
+      "class": "state-db-fallback-warning",
+      "sha256": "b3658d0317e18e576e2124416be12a6d5d027c870dd69934417becbf8eacca50",
+      "bytes": 133
+    },
+    {
+      "index": 2,
+      "class": "state-db-fallback-warning",
+      "sha256": "3d91e8c31764445acf4418e59f7651077fa5e214c2254f9b4427068f1ad99590",
+      "bytes": 133
+    },
+    {
+      "index": 3,
+      "class": "state-db-fallback-warning",
+      "sha256": "a49b6882d766fd0d87975324e3cf97ec7407fc528b38579dfa379ad38111bc25",
+      "bytes": 133
+    },
+    {
+      "index": 4,
+      "class": "state-db-fallback-warning",
+      "sha256": "13d3b761e201a97e5851e7b75b5ccdc4c62f8820c4c3283ae2d856a5951910f4",
+      "bytes": 133
+    },
+    {
+      "index": 5,
+      "class": "state-db-fallback-warning",
+      "sha256": "c95c383ee87293b8ec1873bcf12f24cf1705e63c693d110d7227ced49335895e",
+      "bytes": 133
+    },
+    {
+      "index": 6,
+      "class": "state-db-fallback-warning",
+      "sha256": "7c2147523b8753ce84f8e12931fa293e5f8459788efd8fe8422c4b9da2b92e87",
+      "bytes": 133
+    },
+    {
+      "index": 7,
+      "class": "state-db-fallback-warning",
+      "sha256": "0089165e7312ec61093123ca17f1daef0af605efb86f12f80f7f964c08f84f9b",
+      "bytes": 133
+    },
+    {
+      "index": 8,
+      "class": "state-db-fallback-warning",
+      "sha256": "383d3b33a3705b28c2f5d07d4795ca194669ead3ddd93cf1d99bb9a5bc50f9be",
+      "bytes": 133
+    },
+    {
+      "index": 9,
+      "class": "state-db-fallback-warning",
+      "sha256": "2ef33816cd479c5a8469f4d25ef368d3ea7bd59caefd368e4625ad5633717916",
+      "bytes": 133
+    },
+    {
+      "index": 10,
+      "class": "state-db-fallback-warning",
+      "sha256": "c6e11e70097db9bc0b9eacbc0769f6ba86aa70e20ab82c8b3499c5cc8e9e3d5b",
+      "bytes": 133
+    },
+    {
+      "index": 11,
+      "class": "state-db-fallback-warning",
+      "sha256": "ceec6144311fe1a8dd0b78820d5f001f4eac7aa193ead4d2552df2a4533c940f",
+      "bytes": 133
+    },
+    {
+      "index": 12,
+      "class": "state-db-fallback-warning",
+      "sha256": "24be219f6c80ba80baadbaf6210a551c55e89e67d8bdb38ab196094497069c4c",
+      "bytes": 133
+    },
+    {
+      "index": 13,
+      "class": "state-db-fallback-warning",
+      "sha256": "799a75ca46d33962c4658a42999bbb097952d7c59e8e29ea929549387c23f9fc",
+      "bytes": 133
+    },
+    {
+      "index": 14,
+      "class": "state-db-fallback-warning",
+      "sha256": "32fa62d173fdc910cbe373b5072d8fe226e11f3f05cb4b22b04a0d85facf5bd7",
+      "bytes": 133
+    },
+    {
+      "index": 15,
+      "class": "state-db-fallback-warning",
+      "sha256": "0714dc1509d0f94526e08b7ed1eed2e1926d67295f9f4bfcba5f9c50e7a6b064",
+      "bytes": 133
+    },
+    {
+      "index": 16,
+      "class": "state-db-fallback-warning",
+      "sha256": "f760a1d3245ce94f664982a7774d8eb97adc4e199a16934200e0b9c81905c0fd",
+      "bytes": 133
+    },
+    {
+      "index": 17,
+      "class": "state-db-fallback-warning",
+      "sha256": "86fac40512232926f35657ba2847f686a94dcb4001880598e15c952367256685",
+      "bytes": 133
+    },
+    {
+      "index": 18,
+      "class": "state-db-fallback-warning",
+      "sha256": "be3b56d3a68996c2740ea4e54d857562bc0b669ca5b87010fb3e4d34386d65d8",
+      "bytes": 133
+    },
+    {
+      "index": 19,
+      "class": "state-db-fallback-warning",
+      "sha256": "6a6f7ac0de60990741ab6c1f7ee3fb6377f83010d2f0b6f43c3060d4ebc9a84c",
+      "bytes": 133
+    },
+    {
+      "index": 20,
+      "class": "state-db-fallback-warning",
+      "sha256": "8f78253f82a00569e66449ca2ed607cd44a230874e19c8ee8b0e995257e922e1",
+      "bytes": 133
+    },
+    {
+      "index": 21,
+      "class": "state-db-fallback-warning",
+      "sha256": "a9170ed65b4dda89dd519b8b21d85f4971f8edfd290a1357117d0215a64e9809",
+      "bytes": 133
+    }
+  ],
+  "forbidden_event_count": 0,
+  "final_agent_message_count": 1,
+  "response_sha256": "7cbd549a8dc0b76346832ed7e7b073aa249a4c89886302dc9d065be60c7aab74",
+  "response_bytes": 18519,
+  "usage": {
+    "input_tokens": 19386,
+    "cached_input_tokens": 8960,
+    "output_tokens": 3927,
+    "reasoning_output_tokens": 294
+  },
+  "trace_gate": "PASS"
+}
