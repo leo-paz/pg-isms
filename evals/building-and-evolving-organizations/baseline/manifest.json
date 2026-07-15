@@ -24,8 +24,18 @@
     "skill_sha256": null
   },
   "response_hash_algorithm": "sha256",
-  "cases_sha256": "30d0d4a6aee6e1b9aa86275ed7438eecfbcc02adb63133b0191664a74f35d6d3",
+  "cases_sha256": "afae81309f8a6eaf1b0a41ae15df850ac1479a5ad1d7c857918e957d00f6b7e9",
   "projection_sha256": "e7b1a613d6ac218b52097ecd88b02da6bc1e1f914a0c79e62297f10ebcdc68f9",
+  "criteria_only_remediation": {
+    "performed_after_generation": true,
+    "previous_cases_sha256": "30d0d4a6aee6e1b9aa86275ed7438eecfbcc02adb63133b0191664a74f35d6d3",
+    "prompt_projection_unchanged": true,
+    "responses_regenerated": false,
+    "responses_byte_preserved": true,
+    "fresh_blind_rescore_required": false,
+    "fresh_blind_rescore_completed": true,
+    "fresh_blind_rescorer_id": "org-baseline-rescore"
+  },
   "response_hashes": {
     "scenario-01": "1ecd19711e48765536645e8f6a19896a0fdbaed80946ea169aca10a3b7bc8385",
     "scenario-02": "2bb834d9f7791d306cc1fed74b6ec91f0050d80349fcd14125dbcd1385f327b5",

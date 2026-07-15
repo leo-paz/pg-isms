@@ -6,16 +6,16 @@ Phase: baseline
 
 Reviewer ID: organization-baseline-generator-001
 
-Scorer ID: organization-baseline-scorer-001
+Scorer ID: org-baseline-rescore
 
-Criterion 1: 1 — The response correctly makes solvency primary and explicitly rejects distracting organizational additions.
+Criterion 1: 0 — It makes solvency primary and rejects the proposed distractions, but omits `route-away`, the exact `managing-runway-and-survival` identifier, and an explicit default-dead classification.
 
-Criterion 2: 1 — It uses the stated financial, timing, financing, and organizational facts without assuming unsigned financing or delayed revenue will rescue the company.
+Criterion 2: 1 — It uses the stated cash, obligations, gross profit, certification delay, payroll timing, unsigned financing, and settled organization without treating financing or delayed revenue as a rescue assumption.
 
-Criterion 3: 0 — It omits current legal and HR review before irreversible employment or contractual actions.
+Criterion 3: 0 — It protects certification, but omits a qualified current HR/counsel owner, essential customer continuity, and replacement protection for any material control change.
 
-Criterion 4: 1 — It limits organizational work to survival-related ownership, authority, communication, and cadence while rejecting unsupported structures.
+Criterion 4: 0 — It limits immediate organization work and rejects unsupported structures, but does not make that work explicitly conditional on first choosing the survival envelope and essential outcomes.
 
-Criterion 5: 0 — It does not name the survival owner or state a later organizational trigger.
+Criterion 5: 0 — It lacks the dated `route-away` handoff, exact ordered skill identifiers, named survival owner, settled-facts record, later trigger, safeguards, preserved option, and switch condition.
 
-Score: 3/5
+Score: 1/5
