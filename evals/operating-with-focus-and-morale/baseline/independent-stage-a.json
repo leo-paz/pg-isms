@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "review": "operating-with-focus-and-morale RED baseline independent Stage A",
+  "created_at_utc": "2026-07-15T22:57:55Z",
+  "blind_boundary": {
+    "stage": "A",
+    "read_before_freeze": [
+      ".superpowers/sdd/focus-red-draft/cases.json",
+      "evals/operating-with-focus-and-morale/cases.json",
+      "evals/operating-with-focus-and-morale/baseline/generation-plan.json",
+      "evals/operating-with-focus-and-morale/baseline/generation-attestation.json",
+      "evals/operating-with-focus-and-morale/baseline/manifest.json",
+      "evals/operating-with-focus-and-morale/baseline/prompts/scenario-01.txt through scenario-06.txt",
+      "evals/operating-with-focus-and-morale/baseline/scenario-01.md through scenario-06.md"
+    ],
+    "not_read_before_freeze": [
+      ".superpowers/sdd/focus-baseline-score.json",
+      ".superpowers/sdd/focus-baseline-score.md",
+      "skill package",
+      "taxonomy artifacts",
+      "source evidence artifacts",
+      "prior score or review artifacts"
+    ],
+    "attestation": "All 30 bits and rationales below were adjudicated before either scorer artifact was opened."
+  },
+  "scoring_contract": {
+    "binary": true,
+    "strict_conjunctive": true,
+    "no_inference": true,
+    "rule": "A criterion receives 1 only when the response explicitly satisfies every material clause. Nearby or plausible prose is not used to supply an omitted element."
+  },
+  "integrity_reproduction": {
+    "result": "pass",
+    "canonical_cases": {
+      "reviewed_path": ".superpowers/sdd/focus-red-draft/cases.json",
+      "reviewed_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+      "manifest_path": "evals/operating-with-focus-and-morale/cases.json",
+      "manifest_path_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+      "byte_identical": true,
+      "case_count": 6,
+      "criterion_count": 30
+    },
+    "generation_plan_sha256": "f84f0b565b617ea6e99b873edf7fdba8e171f2d178de0c649209f90ce414a8f9",
+    "generation_attestation_sha256": "107c8cdf8aa0b3d9a09571fb2a70ec22b5063d939a32ae0382a13d4dbcdc5d96",
+    "manifest_sha256": "4d3af3395f316b5303188166821d053340ba0669495ecc4df0edee2b6a96802f",
+    "prompt_projection": {
+      "recomputed_sha256": "5dcc5d515b9453ae4261017e10afd382ac03013cb7a9ab1061014c502d9d9a72",
+      "matches_plan_attestation_and_manifest": true,
+      "all_six_prompt_files_byte_match_canonical_prompt_plus_final_lf": true,
+      "prompt_count": 6
+    },
+    "responses": {
+      "response_count": 6,
+      "unique_response_hash_count": 6,
+      "word_limit": 1200,
+      "maximum_words": 1015,
+      "all_within_word_limit": true,
+      "all_birth_epochs_equal_mtime_epochs": true,
+      "entries": [
+        {
+          "case_id": "scenario-01",
+          "sha256": "7a9188ee7dfd44861cec31cf01b68f3ac8ffc6063eaf96699a734c48d92c1f14",
+          "bytes": 6758,
+          "words": 1015,
+          "birth_epoch": 1784155406,
+          "mtime_epoch": 1784155406
+        },
+        {
+          "case_id": "scenario-02",
+          "sha256": "27805971e0593239d2d5bad66fce58961704cfdae1c7e24849948f7146ec50fa",
+          "bytes": 5360,
+          "words": 809,
+          "birth_epoch": 1784155413,
+          "mtime_epoch": 1784155413
+        },
+        {
+          "case_id": "scenario-03",
+          "sha256": "b97ef2b64f8f6cfd9ac1a707ed532579fcd58e3f573fa1568889093d58e6d625",
+          "bytes": 5284,
+          "words": 804,
+          "birth_epoch": 1784155453,
+          "mtime_epoch": 1784155453
+        },
+        {
+          "case_id": "scenario-04",
+          "sha256": "37d38d3a2151a786985fc5563d86a2837eed1acb68ed9b9d568bc755b1750f4a",
+          "bytes": 3967,
+          "words": 578,
+          "birth_epoch": 1784155466,
+          "mtime_epoch": 1784155466
+        },
+        {
+          "case_id": "scenario-05",
+          "sha256": "5ab8c95d267a53734af40599d9c94d96fd62aa134f76e41f5ddaebfc8e93128e",
+          "bytes": 6244,
+          "words": 911,
+          "birth_epoch": 1784155499,
+          "mtime_epoch": 1784155499
+        },
+        {
+          "case_id": "scenario-06",
+          "sha256": "3d6ffae0e37236382a0fdac3222ba3aea590f99d015656bae14b325b61da61c5",
+          "bytes": 5564,
+          "words": 824,
+          "birth_epoch": 1784155516,
+          "mtime_epoch": 1784155516
+        }
+      ]
+    },
+    "generation_contract_consistency": {
+      "six_unique_planned_tasks": true,
+      "criteria_hidden_attested": true,
+      "no_skill_attested": true,
+      "fresh_context_attested": true,
+      "first_completion_frozen_attested": true,
+      "quality_resampling_false": true,
+      "responses_frozen_before_scoring": true,
+      "skill_package_absent_at_freeze_attested": true
+    }
+  },
+  "adjudications": [
+    {
+      "case_id": "scenario-01",
+      "vector": [1, 0, 0, 0, 0],
+      "score": 1,
+      "criteria": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "The response explicitly calls founder attention the immediate constraint, makes customer/product execution the default, preserves existing decision rights, and uses fourteen months of runway plus no active fundraise to reject investor activity as the lead workflow."
+        },
+        {
+          "criterion": 2,
+          "bit": 0,
+          "rationale": "The response uses many prompt facts and seeks customer-impact evidence, but it never records the defect's three-week age and does not explicitly preserve defect severity/retention impact and each external obligation's value as unresolved rather than supplying operational filters. The full fact/assertion/unknown partition is therefore incomplete."
+        },
+        {
+          "criterion": 3,
+          "bit": 0,
+          "rationale": "The response explicitly declares two company priorities for the month, not one state-changing customer/product outcome. The required stop/defer clauses are strong, but the single-priority conjunct is not met."
+        },
+        {
+          "criterion": 4,
+          "bit": 0,
+          "rationale": "It protects direct retailer contact and three company-work days and retains only essential obligations, but caps only external activity. No total weekly workload or recovery boundary prevents the reset from being layered onto additional nights or hours."
+        },
+        {
+          "criterion": 5,
+          "bit": 0,
+          "rationale": "It names technical/customer owners and weekly measures, but omits explicit baselines for founder time and completed retailer contacts and does not end with a dated continue/revise/replace decision on the chosen priority."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "vector": [1, 1, 0, 0, 0],
+      "score": 2,
+      "criteria": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "The response persists with the customer outcome, treats the competitor and team opinions as non-evidence, rejects unchanged execution and more hours, and bounds the learning cycle to 30 days."
+        },
+        {
+          "criterion": 2,
+          "bit": 1,
+          "rationale": "It explicitly separates observed clinic, procurement, usage, no-show, demo, and pilot evidence from internal conclusions, calls the evidence mixed and incomplete, and schedules evidence gathering on causal conditions, workflow friction, segment repeatability, and procurement/qualification bottlenecks."
+        },
+        {
+          "criterion": 3,
+          "bit": 0,
+          "rationale": "Although the month has a bounded customer objective and unrelated features/broad selling are paused, the response elevates two barriers and four workstreams rather than choosing one primary 30-day tactic aimed at a single highest-leverage unknown."
+        },
+        {
+          "criterion": 4,
+          "bit": 0,
+          "rationale": "It rejects mandatory nights and restores a normal workweek, but it does not schedule protected build periods or a recurring clinic-user contact cadence; discrete interviews, prototype tests, and monitoring do not supply those omitted safeguards."
+        },
+        {
+          "criterion": 5,
+          "bit": 0,
+          "rationale": "Role owners, day ranges, a 22%-to-50% example, and a month-end decision are present, but target measures and tactic-switch branches remain materially vague ('material', 'credible') and the response does not precommit a distinct keep/change rule for the primary tactic."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "vector": [1, 0, 0, 0, 0],
+      "score": 1,
+      "criteria": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "The response explicitly says to stop treating the conference as an emergency, ties sustained overload to degraded output and judgment, and contrasts the push with sixteen months of runway, no fundraise, and no payroll threat."
+        },
+        {
+          "criterion": 2,
+          "bit": 0,
+          "rationale": "It uses most facts and investigates rollback causes, but does not preserve minimum viable conference value and recoverable decision capacity as unknowns; it directly prescribes both. It also omits the exact ten-week/78-hour fact from its fact partition."
+        },
+        {
+          "criterion": 3,
+          "bit": 0,
+          "rationale": "Conference narrowing, delegated approvals, and paused releases are explicit, but the response never selects one stabilizing outcome; its stated success condition combines conference presentation, production stability, customer contact, and non-heroic operation."
+        },
+        {
+          "criterion": 4,
+          "bit": 0,
+          "rationale": "The immediate two-day recovery, 45-50 hour cap, day off, daytime authority, and backups are concrete, but no recurring protected CEO maker period or protected user-contact period is established."
+        },
+        {
+          "criterion": 5,
+          "bit": 0,
+          "rationale": "Owners, weekly measures, a 24-hour reset, and some intervention conditions are present, but the response lacks complete explicit baselines and never conditions closure on a dated review that demonstrates sustained recovery rather than simply stating end-of-month success."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "vector": [1, 0, 1, 0, 1],
+      "score": 3,
+      "criteria": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "The response leads with solvency through the next eight weeks, values unsigned/late proceeds as unavailable, and explicitly postpones ordinary calendar and morale work until an executable survival plan exists."
+        },
+        {
+          "criterion": 2,
+          "bit": 0,
+          "rationale": "It correctly uses the cash, obligation, gross-profit, payroll, renewal, and bridge facts and limits immediate unknowns to cash/legal/financing decisions, but never acknowledges clear product ownership as a known fact. Strict conjunction therefore fails."
+        },
+        {
+          "criterion": 3,
+          "bit": 1,
+          "rationale": "The first decision is an executable survival envelope, with board branches and fixed triggers; speculative features, broad strategy, internal process, calendar redesign, and non-cash work are explicitly frozen or paused."
+        },
+        {
+          "criterion": 4,
+          "bit": 0,
+          "rationale": "Payroll, statutory duties, customers, essential product reliability, and an orderly process are protected, but no decision backup and no explicit humane hours/recovery boundary are provided for the crisis cadence."
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "rationale": "The CEO and functional evidence owners are named, the board checkpoint is tomorrow, branches use signed/funded trigger dates and wind-down escalation, and the handoff condition is an executable funded survival plan."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "vector": [1, 0, 0, 0, 0],
+      "score": 1,
+      "criteria": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "The response explicitly diagnoses a one-approver operating system and unwritten authority, then places calendar/prioritization help after decision-rights design as a supporting week-two action."
+        },
+        {
+          "criterion": 2,
+          "bit": 0,
+          "rationale": "It uses the queues, commitments, incidents, approval domains, and department leads, but omits runway/fundraising from the fact partition and never explicitly identifies residual CEO capacity as unknown to test."
+        },
+        {
+          "criterion": 3,
+          "bit": 0,
+          "rationale": "Decision rights and an operating owner are clear, but the response permits calendar pruning, a productivity system, and protected mornings as week-two supporting actions without an evidence gate, and does not explicitly defer unrelated changes."
+        },
+        {
+          "criterion": 4,
+          "bit": 0,
+          "rationale": "It stages authority with escalation/default rules and protects incident/customer continuity, but it does not reserve sustainable CEO user time or an explicit workload/recovery boundary from measured released capacity."
+        },
+        {
+          "criterion": 5,
+          "bit": 0,
+          "rationale": "The scorecard and week-four/week-six reviews cover most required signals, but no explicit baseline for CEO load is established and keep/revise/expand/rollback conditions are not all precommitted as observable branches before institutionalization."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-06",
+      "vector": [1, 0, 1, 1, 1],
+      "score": 4,
+      "criteria": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "The response explicitly leads with the live financing decision for two weeks and makes product/customer cadence primary again after the deadline, with morale work only as a bounded follow-on."
+        },
+        {
+          "criterion": 2,
+          "bit": 0,
+          "rationale": "It challenges the momentum claim and tests fit, terms, diligence, and references, but omits several required known facts (55 customers, twenty months of runway, $3 million size, and three-week process age) and never explicitly treats close probability as unresolved."
+        },
+        {
+          "criterion": 3,
+          "bit": 1,
+          "rationale": "The overarching state change is a financing decision through the two qualified live paths; most introductions, low-value partnerships, nonessential product work, and a general redesign are explicitly deferred."
+        },
+        {
+          "criterion": 4,
+          "bit": 1,
+          "rationale": "The two-week cadence is bounded, product/support/release coverage is named, requests are batched into daytime, evenings have a hard cutoff, exceptional escalation is explicit, and compensatory recovery follows."
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "rationale": "The CEO, coordinator, counsel, product lead, and supporting evidence owners are explicit; Friday, the day-before-expiry gate, deadline aftermath, and two-week close are dated; accept/extend/decline and proceed/limit/end branches reset the round and hand control back."
+        }
+      ]
+    }
+  ],
+  "stage_a_result": {
+    "vectors": {
+      "scenario-01": [1, 0, 0, 0, 0],
+      "scenario-02": [1, 1, 0, 0, 0],
+      "scenario-03": [1, 0, 0, 0, 0],
+      "scenario-04": [1, 0, 1, 0, 1],
+      "scenario-05": [1, 0, 0, 0, 0],
+      "scenario-06": [1, 0, 1, 1, 1]
+    },
+    "passed_criteria": 12,
+    "total_criteria": 30,
+    "normalized_score": 0.4,
+    "failed_criteria": 18
+  }
+}

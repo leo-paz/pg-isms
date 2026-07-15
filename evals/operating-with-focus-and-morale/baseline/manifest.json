@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "phase": "no-skill-baseline",
+  "frozen_before_scoring": true,
+  "frozen_at_utc": "2026-07-15T22:46:31Z",
+  "generation_plan": {
+    "path": "evals/operating-with-focus-and-morale/baseline/generation-plan.json",
+    "sha256": "f84f0b565b617ea6e99b873edf7fdba8e171f2d178de0c649209f90ce414a8f9"
+  },
+  "canonical_cases": {
+    "path": "evals/operating-with-focus-and-morale/cases.json",
+    "sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5"
+  },
+  "prompt_only_aggregate_projection": {
+    "sha256": "5dcc5d515b9453ae4261017e10afd382ac03013cb7a9ab1061014c502d9d9a72"
+  },
+  "entries": [
+    {
+      "case_id": "scenario-01",
+      "task_id": "/root/focus_baseline_1",
+      "prompt": {
+        "path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-01.txt",
+        "sha256": "03683bea5648f32808d9ef74ffbfd2f5d7a1c7384787a686d12eea967229d69d",
+        "bytes": 725,
+        "words": 107
+      },
+      "response": {
+        "path": "evals/operating-with-focus-and-morale/baseline/scenario-01.md",
+        "sha256": "7a9188ee7dfd44861cec31cf01b68f3ac8ffc6063eaf96699a734c48d92c1f14",
+        "bytes": 6758,
+        "words": 1015,
+        "filesystem_birth_epoch": 1784155406,
+        "filesystem_mtime_epoch": 1784155406
+      },
+      "generation": {
+        "criteria_hidden": true,
+        "no_skill": true,
+        "fresh_context": true,
+        "first_completion_frozen": true,
+        "quality_resampling": false,
+        "response_regenerated": false
+      }
+    },
+    {
+      "case_id": "scenario-02",
+      "task_id": "/root/focus_baseline_2",
+      "prompt": {
+        "path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-02.txt",
+        "sha256": "0d226d30df64e609232f428c0095ee8852a87c337567f9baa0a83d4a4ec5f1e0",
+        "bytes": 789,
+        "words": 129
+      },
+      "response": {
+        "path": "evals/operating-with-focus-and-morale/baseline/scenario-02.md",
+        "sha256": "27805971e0593239d2d5bad66fce58961704cfdae1c7e24849948f7146ec50fa",
+        "bytes": 5360,
+        "words": 809,
+        "filesystem_birth_epoch": 1784155413,
+        "filesystem_mtime_epoch": 1784155413
+      },
+      "generation": {
+        "criteria_hidden": true,
+        "no_skill": true,
+        "fresh_context": true,
+        "first_completion_frozen": true,
+        "quality_resampling": false,
+        "response_regenerated": false
+      }
+    },
+    {
+      "case_id": "scenario-03",
+      "task_id": "/root/focus_baseline_3",
+      "prompt": {
+        "path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-03.txt",
+        "sha256": "947f3990da647929ca60f35391857c1c269a561d04c650b35abfd67fc9a0a58f",
+        "bytes": 704,
+        "words": 114
+      },
+      "response": {
+        "path": "evals/operating-with-focus-and-morale/baseline/scenario-03.md",
+        "sha256": "b97ef2b64f8f6cfd9ac1a707ed532579fcd58e3f573fa1568889093d58e6d625",
+        "bytes": 5284,
+        "words": 804,
+        "filesystem_birth_epoch": 1784155453,
+        "filesystem_mtime_epoch": 1784155453
+      },
+      "generation": {
+        "criteria_hidden": true,
+        "no_skill": true,
+        "fresh_context": true,
+        "first_completion_frozen": true,
+        "quality_resampling": false,
+        "response_regenerated": false
+      }
+    },
+    {
+      "case_id": "scenario-04",
+      "task_id": "/root/focus_baseline_4",
+      "prompt": {
+        "path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-04.txt",
+        "sha256": "75d69c97edd7342491ba44c83a55286e646d1505fb747d9b5e05cc4d87ad1ca2",
+        "bytes": 589,
+        "words": 100
+      },
+      "response": {
+        "path": "evals/operating-with-focus-and-morale/baseline/scenario-04.md",
+        "sha256": "37d38d3a2151a786985fc5563d86a2837eed1acb68ed9b9d568bc755b1750f4a",
+        "bytes": 3967,
+        "words": 578,
+        "filesystem_birth_epoch": 1784155466,
+        "filesystem_mtime_epoch": 1784155466
+      },
+      "generation": {
+        "criteria_hidden": true,
+        "no_skill": true,
+        "fresh_context": true,
+        "first_completion_frozen": true,
+        "quality_resampling": false,
+        "response_regenerated": false
+      }
+    },
+    {
+      "case_id": "scenario-05",
+      "task_id": "/root/focus_baseline_5",
+      "prompt": {
+        "path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-05.txt",
+        "sha256": "c985b4d1559807bffa7c8bb2a45487891e03acbc2c0d4f88ce326866ad8da7b5",
+        "bytes": 767,
+        "words": 114
+      },
+      "response": {
+        "path": "evals/operating-with-focus-and-morale/baseline/scenario-05.md",
+        "sha256": "5ab8c95d267a53734af40599d9c94d96fd62aa134f76e41f5ddaebfc8e93128e",
+        "bytes": 6244,
+        "words": 911,
+        "filesystem_birth_epoch": 1784155499,
+        "filesystem_mtime_epoch": 1784155499
+      },
+      "generation": {
+        "criteria_hidden": true,
+        "no_skill": true,
+        "fresh_context": true,
+        "first_completion_frozen": true,
+        "quality_resampling": false,
+        "response_regenerated": false
+      }
+    },
+    {
+      "case_id": "scenario-06",
+      "task_id": "/root/focus_baseline_6",
+      "prompt": {
+        "path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-06.txt",
+        "sha256": "40282e8290610fa5d127f85228ab24e6900e27995a7dce7e352920e547123ddb",
+        "bytes": 826,
+        "words": 135
+      },
+      "response": {
+        "path": "evals/operating-with-focus-and-morale/baseline/scenario-06.md",
+        "sha256": "3d6ffae0e37236382a0fdac3222ba3aea590f99d015656bae14b325b61da61c5",
+        "bytes": 5564,
+        "words": 824,
+        "filesystem_birth_epoch": 1784155516,
+        "filesystem_mtime_epoch": 1784155516
+      },
+      "generation": {
+        "criteria_hidden": true,
+        "no_skill": true,
+        "fresh_context": true,
+        "first_completion_frozen": true,
+        "quality_resampling": false,
+        "response_regenerated": false
+      }
+    }
+  ],
+  "integrity": {
+    "prompt_count": 6,
+    "response_count": 6,
+    "unique_task_count": 6,
+    "unique_response_body_count": 6,
+    "response_word_limit": 1200,
+    "maximum_response_words": 1015,
+    "all_responses_within_word_limit": true,
+    "prompt_projections_match_frozen_cases_projection": true,
+    "no_response_regenerated": true,
+    "skill_package_exists": false
+  },
+  "scoring": {
+    "scorer_dispatched": false,
+    "scoring_started": false,
+    "scorer_not_yet_dispatched": true,
+    "distinct_scorer_required": true,
+    "response_hashes_frozen_before_scorer_dispatch": true
+  }
+}

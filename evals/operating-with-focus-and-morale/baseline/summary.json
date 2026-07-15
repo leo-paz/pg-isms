@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "phase": "no-skill-baseline",
+  "status": "accepted-red-baseline",
+  "scoring_contract": {
+    "binary": true,
+    "strict_conjunctive": true,
+    "criteria_per_case": 5,
+    "rule": "A criterion passes only when every material conjunct is explicit; omitted routing, evidence classes, unknowns, deferrals, owners, safeguards, measures, dates, switch conditions, and handoffs are not inferred."
+  },
+  "provenance": {
+    "blind_scorer_task": "/root/focus_baseline_scorer",
+    "blind_scorer_json_sha256": "854d42b449fa785b22a9d563bbcf612715288cc7cf4965ff71ab72b8f69d221a",
+    "blind_scorer_markdown_sha256": "2f0b8a3a87c7c63bb7dfee1543791c402320f5ce4855dac0eab60935ad256b35",
+    "independent_stage_a_sha256": "c0c5b3dabb5cd9a018cd451c708b53ae0e9925db8f48f0a53ba41b475502844f",
+    "independent_review_sha256": "e7729eb8f66920e0ce625e53703361f7be2c17d20ba0ee5d610ba58b53c14c5d",
+    "stage_a_bit_agreements": 28,
+    "stage_a_bit_disagreements": 2,
+    "stage_a_corrections": [
+      {
+        "case_id": "scenario-02",
+        "criterion": 4,
+        "stage_a": 0,
+        "final": 1,
+        "reason": "Days 6-15 schedule build/test work, unrelated work is frozen, clinic-user contact recurs across the plan, and the normal-workweek/no-nights rule supplies the recovery cadence."
+      },
+      {
+        "case_id": "scenario-02",
+        "criterion": 5,
+        "stage_a": 0,
+        "final": 1,
+        "reason": "Functional owners, Days 1-5 baselines, the 22%-to-50% target, twice-weekly and end-week checkpoints, Days 26-30 decision, and continue/adjust/pivot conditions satisfy the criterion."
+      }
+    ]
+  },
+  "integrity": {
+    "verdict": "pass",
+    "canonical_cases_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+    "generation_plan_sha256": "f84f0b565b617ea6e99b873edf7fdba8e171f2d178de0c649209f90ce414a8f9",
+    "generation_attestation_sha256": "107c8cdf8aa0b3d9a09571fb2a70ec22b5063d939a32ae0382a13d4dbcdc5d96",
+    "manifest_sha256": "4d3af3395f316b5303188166821d053340ba0669495ecc4df0edee2b6a96802f",
+    "prompt_only_aggregate_projection_sha256": "5dcc5d515b9453ae4261017e10afd382ac03013cb7a9ab1061014c502d9d9a72",
+    "case_count": 6,
+    "criteria_count": 30,
+    "prompt_count": 6,
+    "response_count": 6,
+    "unique_response_body_count": 6,
+    "maximum_response_words": 1015,
+    "response_word_limit": 1200,
+    "criteria_hidden_attested": true,
+    "no_skill_attested": true,
+    "fresh_context_attested": true,
+    "first_completion_frozen_attested": true,
+    "quality_resampling": false,
+    "response_regenerated": false,
+    "responses_frozen_before_scoring": true,
+    "skill_package_absent_at_freeze_and_scoring": true,
+    "scorer_distinct_from_generators": true
+  },
+  "result": {
+    "vectors": {
+      "scenario-01": "10000",
+      "scenario-02": "11011",
+      "scenario-03": "10000",
+      "scenario-04": "10101",
+      "scenario-05": "10000",
+      "scenario-06": "10111"
+    },
+    "passes": 14,
+    "criteria_total": 30,
+    "misses": 16,
+    "normalized_score": 0.466667,
+    "exact_misses": {
+      "scenario-01": [2, 3, 4, 5],
+      "scenario-02": [3],
+      "scenario-03": [2, 3, 4, 5],
+      "scenario-04": [2, 4],
+      "scenario-05": [2, 3, 4, 5],
+      "scenario-06": [2]
+    },
+    "red_valid": true,
+    "red_validity_reason": "Every case misses at least one strict conjunctive criterion."
+  },
+  "cases": [
+    {
+      "case_id": "scenario-01",
+      "response_path": "evals/operating-with-focus-and-morale/baseline/scenario-01.md",
+      "response_sha256": "7a9188ee7dfd44861cec31cf01b68f3ac8ffc6063eaf96699a734c48d92c1f14",
+      "scorecard_path": "evals/operating-with-focus-and-morale/baseline/scorecards/scenario-01.md",
+      "vector": "10000",
+      "passes": 1,
+      "misses": [2, 3, 4, 5],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "Founder attention and reliable service explicitly lead the four-week plan; runway, no fundraise, and retained decision rights keep survival, capital, and authority redesign secondary."
+        },
+        {
+          "criterion": 2,
+          "bit": 0,
+          "rationale": "The fact/assertion/unknown partition is incomplete: the 31-hour use and three-week defect age are not explicitly inventoried, both founder claims are not separately classified, and retention impact and each obligation's value are not named unknowns."
+        },
+        {
+          "criterion": 3,
+          "bit": 0,
+          "rationale": "The response explicitly declares two company priorities rather than one state-changing sync outcome, despite strong deferrals."
+        },
+        {
+          "criterion": 4,
+          "bit": 0,
+          "rationale": "Customer and company time are protected and external activity is capped, but no total-hours or recovery boundary prevents workload expansion."
+        },
+        {
+          "criterion": 5,
+          "bit": 0,
+          "rationale": "Complete baselines, calendar-dated weekly reviews, explicit switch evidence, and a dated continue/revise/replace close are absent."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "response_path": "evals/operating-with-focus-and-morale/baseline/scenario-02.md",
+      "response_sha256": "27805971e0593239d2d5bad66fce58961704cfdae1c7e24849948f7146ec50fa",
+      "scorecard_path": "evals/operating-with-focus-and-morale/baseline/scorecards/scenario-02.md",
+      "vector": "11011",
+      "passes": 4,
+      "misses": [3],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "Customer behavior leads, competitor and team conclusions are treated as non-evidence, and both abandonment and unchanged overwork are rejected."
+        },
+        {
+          "criterion": 2,
+          "bit": 1,
+          "rationale": "Observed clinic, adoption, procurement, feedback, demo, and pilot evidence is separated from conclusions, with causality, repeatability, friction, qualification, and launch bottlenecks tested."
+        },
+        {
+          "criterion": 3,
+          "bit": 0,
+          "rationale": "One objective is stated, but workflow changes, launch/procurement, qualification, and measurement remain parallel primary tactics rather than one tactic aimed at one highest-leverage unknown."
+        },
+        {
+          "criterion": 4,
+          "bit": 1,
+          "rationale": "Days 6-15 schedule build/test work, unrelated work is frozen, clinic-user contact recurs across the plan, and a normal workweek with no mandatory nights restores sustainable cadence."
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "rationale": "Functional owners, Days 1-5 baselines, the 22%-to-50% target, twice-weekly and end-week checkpoints, Days 26-30 decision, and continue/adjust/pivot conditions complete the cycle."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "response_path": "evals/operating-with-focus-and-morale/baseline/scenario-03.md",
+      "response_sha256": "b97ef2b64f8f6cfd9ac1a707ed532579fcd58e3f573fa1568889093d58e6d625",
+      "scorecard_path": "evals/operating-with-focus-and-morale/baseline/scorecards/scenario-03.md",
+      "vector": "10000",
+      "passes": 1,
+      "misses": [2, 3, 4, 5],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "The conference is explicitly rejected as an emergency, and sustained overload is tied to degraded decisions and output under non-survival conditions."
+        },
+        {
+          "criterion": 2,
+          "bit": 0,
+          "rationale": "The exact 78-hour baseline is omitted and minimum conference value and recoverable decision capacity are not named as evidence-seeking unknowns."
+        },
+        {
+          "criterion": 3,
+          "bit": 0,
+          "rationale": "Conference delivery, approval redesign, release stabilization, customer contact, and workload recovery remain co-primary rather than one stabilizing monthly outcome."
+        },
+        {
+          "criterion": 4,
+          "bit": 0,
+          "rationale": "Recovery, delegation, and user-contact safeguards are concrete, but no recurring protected maker-time period is established."
+        },
+        {
+          "criterion": 5,
+          "bit": 0,
+          "rationale": "Complete baselines, precise switch thresholds, and a dated close contingent on sustained recovery evidence are absent."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "response_path": "evals/operating-with-focus-and-morale/baseline/scenario-04.md",
+      "response_sha256": "37d38d3a2151a786985fc5563d86a2837eed1acb68ed9b9d568bc755b1750f4a",
+      "scorecard_path": "evals/operating-with-focus-and-morale/baseline/scorecards/scenario-04.md",
+      "vector": "10101",
+      "passes": 3,
+      "misses": [2, 4],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "Solvency and payroll survival explicitly precede calendar and morale work until an executable survival envelope exists."
+        },
+        {
+          "criterion": 2,
+          "bit": 0,
+          "rationale": "Cash, obligations, gross profit, payroll, renewal, and bridge uncertainty are handled correctly, but clear product ownership is omitted from the explicit known-fact inventory."
+        },
+        {
+          "criterion": 3,
+          "bit": 1,
+          "rationale": "A viable survival decision is primary, while calendar redesign, morale programming, speculative features, broad strategy, and unrelated spend are deferred."
+        },
+        {
+          "criterion": 4,
+          "bit": 0,
+          "rationale": "Essential payroll, legal, customer, and product continuity is protected, but backup decision coverage and crisis-team workload/recovery safeguards are absent."
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "rationale": "Decision and evidence owners, tomorrow's checkpoint, measurable survival branches, escalation, closure, and the funded-or-executable focus handoff are explicit."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "response_path": "evals/operating-with-focus-and-morale/baseline/scenario-05.md",
+      "response_sha256": "5ab8c95d267a53734af40599d9c94d96fd62aa134f76e41f5ddaebfc8e93128e",
+      "scorecard_path": "evals/operating-with-focus-and-morale/baseline/scorecards/scenario-05.md",
+      "vector": "10000",
+      "passes": 1,
+      "misses": [2, 3, 4, 5],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "Authority redesign is explicitly the root workflow and personal focus is placed after decision-rights definition as a supporting action."
+        },
+        {
+          "criterion": 2,
+          "bit": 0,
+          "rationale": "The exact runway and no-fundraise facts are omitted, and retained authority limits and residual CEO capacity are not explicitly classified as unknowns to test."
+        },
+        {
+          "criterion": 3,
+          "bit": 0,
+          "rationale": "Productivity tooling is allowed in week two, while broad meeting cancellation and unrelated changes are not explicitly deferred behind an evidence condition."
+        },
+        {
+          "criterion": 4,
+          "bit": 0,
+          "rationale": "Transfers, escalation, incident command, commitment gates, and backup delegation are staged, but sustainable CEO user time and an explicit released-capacity workload boundary are absent."
+        },
+        {
+          "criterion": 5,
+          "bit": 0,
+          "rationale": "Full baselines, explicit keep/expand/rollback conditions, and a specific later-focus handoff after authority closure are incomplete."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-06",
+      "response_path": "evals/operating-with-focus-and-morale/baseline/scenario-06.md",
+      "response_sha256": "3d6ffae0e37236382a0fdac3222ba3aea590f99d015656bae14b325b61da61c5",
+      "scorecard_path": "evals/operating-with-focus-and-morale/baseline/scorecards/scenario-06.md",
+      "vector": "10111",
+      "passes": 4,
+      "misses": [2],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "The live financing decision explicitly leads for two weeks, with product/customer cadence and morale work resuming after resolution or reset."
+        },
+        {
+          "criterion": 2,
+          "bit": 0,
+          "rationale": "The customer count, runway, round size, and process age are omitted from the explicit fact inventory, and close probability is not named as an unknown."
+        },
+        {
+          "criterion": 3,
+          "bit": 1,
+          "rationale": "The two qualified paths serve one financing decision, while low-fit introductions and optional partnership, product, productivity, and morale work are deferred."
+        },
+        {
+          "criterion": 4,
+          "bit": 1,
+          "rationale": "Named-role coverage, daytime batching, evening cutoff, controlled exceptions, and compensatory recovery bound the two-week sprint."
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "rationale": "Owners, deadline gates, accept/extend/decline branches, live-round reset, and the dated handoff back to product/customer cadence complete the cycle."
+        }
+      ]
+    }
+  ]
+}

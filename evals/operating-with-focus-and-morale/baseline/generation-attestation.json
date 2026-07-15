@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "phase": "no-skill-baseline",
+  "attested_at_utc": "2026-07-15T22:46:31Z",
+  "frozen_before_scoring": true,
+  "frozen_inputs": {
+    "generation_plan_path": "evals/operating-with-focus-and-morale/baseline/generation-plan.json",
+    "generation_plan_sha256": "f84f0b565b617ea6e99b873edf7fdba8e171f2d178de0c649209f90ce414a8f9",
+    "canonical_cases_path": "evals/operating-with-focus-and-morale/cases.json",
+    "canonical_cases_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+    "prompt_only_aggregate_projection_sha256": "5dcc5d515b9453ae4261017e10afd382ac03013cb7a9ab1061014c502d9d9a72"
+  },
+  "generation_conditions": {
+    "criteria_hidden": true,
+    "no_skill": true,
+    "fresh_context": true,
+    "first_completion_frozen": true,
+    "quality_resampling": false,
+    "response_regenerated": false
+  },
+  "verification": {
+    "planned_task_count": 6,
+    "unique_task_count": 6,
+    "prompt_count": 6,
+    "prompts_match_generation_plan": true,
+    "prompt_projection_matches_frozen_cases_projection": true,
+    "response_count": 6,
+    "unique_response_body_count": 6,
+    "response_word_limit": 1200,
+    "maximum_response_words": 1015,
+    "all_responses_within_word_limit": true,
+    "exactly_one_response_file_per_planned_task": true,
+    "all_response_birth_epochs_equal_mtime_epochs": true,
+    "no_response_regenerated": true,
+    "skill_package_exists": false,
+    "integrity_result": "pass"
+  },
+  "scoring_state": {
+    "scorer_dispatched": false,
+    "scoring_started": false,
+    "scorer_not_yet_dispatched": true,
+    "distinct_scorer_required": true,
+    "scoring_allowed_only_after_response_hash_freeze": true
+  }
+}

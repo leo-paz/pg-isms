@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "phase": "no-skill-baseline",
+  "frozen_before_response": true,
+  "freeze": {
+    "frozen_at_utc": "2026-07-15T22:41:04Z",
+    "canonical_cases_path": "evals/operating-with-focus-and-morale/cases.json",
+    "canonical_cases_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+    "case_count": 6,
+    "response_files_existed_at_freeze": false,
+    "skill_package_existed_at_freeze": false
+  },
+  "prompt_only_aggregate_projection": {
+    "definition": "SHA-256 of the UTF-8 bytes emitted by jq -S -c '[.cases[].prompt]', excluding its final LF",
+    "sha256": "5dcc5d515b9453ae4261017e10afd382ac03013cb7a9ab1061014c502d9d9a72"
+  },
+  "prompts": [
+    {
+      "case_id": "scenario-01",
+      "path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-01.txt",
+      "sha256": "03683bea5648f32808d9ef74ffbfd2f5d7a1c7384787a686d12eea967229d69d",
+      "bytes": 725,
+      "words": 107
+    },
+    {
+      "case_id": "scenario-02",
+      "path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-02.txt",
+      "sha256": "0d226d30df64e609232f428c0095ee8852a87c337567f9baa0a83d4a4ec5f1e0",
+      "bytes": 789,
+      "words": 129
+    },
+    {
+      "case_id": "scenario-03",
+      "path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-03.txt",
+      "sha256": "947f3990da647929ca60f35391857c1c269a561d04c650b35abfd67fc9a0a58f",
+      "bytes": 704,
+      "words": 114
+    },
+    {
+      "case_id": "scenario-04",
+      "path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-04.txt",
+      "sha256": "75d69c97edd7342491ba44c83a55286e646d1505fb747d9b5e05cc4d87ad1ca2",
+      "bytes": 589,
+      "words": 100
+    },
+    {
+      "case_id": "scenario-05",
+      "path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-05.txt",
+      "sha256": "c985b4d1559807bffa7c8bb2a45487891e03acbc2c0d4f88ce326866ad8da7b5",
+      "bytes": 767,
+      "words": 114
+    },
+    {
+      "case_id": "scenario-06",
+      "path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-06.txt",
+      "sha256": "40282e8290610fa5d127f85228ab24e6900e27995a7dce7e352920e547123ddb",
+      "bytes": 826,
+      "words": 135
+    }
+  ],
+  "dispatch": {
+    "task_count": 6,
+    "tasks_unique": true,
+    "fresh_context_required": true,
+    "planned": [
+      {
+        "case_id": "scenario-01",
+        "task_path": "/root/focus_baseline_1",
+        "prompt_path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-01.txt",
+        "response_path": "evals/operating-with-focus-and-morale/baseline/scenario-01.md"
+      },
+      {
+        "case_id": "scenario-02",
+        "task_path": "/root/focus_baseline_2",
+        "prompt_path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-02.txt",
+        "response_path": "evals/operating-with-focus-and-morale/baseline/scenario-02.md"
+      },
+      {
+        "case_id": "scenario-03",
+        "task_path": "/root/focus_baseline_3",
+        "prompt_path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-03.txt",
+        "response_path": "evals/operating-with-focus-and-morale/baseline/scenario-03.md"
+      },
+      {
+        "case_id": "scenario-04",
+        "task_path": "/root/focus_baseline_4",
+        "prompt_path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-04.txt",
+        "response_path": "evals/operating-with-focus-and-morale/baseline/scenario-04.md"
+      },
+      {
+        "case_id": "scenario-05",
+        "task_path": "/root/focus_baseline_5",
+        "prompt_path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-05.txt",
+        "response_path": "evals/operating-with-focus-and-morale/baseline/scenario-05.md"
+      },
+      {
+        "case_id": "scenario-06",
+        "task_path": "/root/focus_baseline_6",
+        "prompt_path": "evals/operating-with-focus-and-morale/baseline/prompts/scenario-06.txt",
+        "response_path": "evals/operating-with-focus-and-morale/baseline/scenario-06.md"
+      }
+    ],
+    "context_contract": {
+      "allowed_input": "Exact assigned prompt text supplied by the dispatcher",
+      "criteria_hidden": true,
+      "skill_files_allowed": false,
+      "source_evidence_allowed": false,
+      "prior_outputs_allowed": false,
+      "repository_files_allowed": false
+    },
+    "capture_contract": {
+      "first_completion_is_frozen_response": true,
+      "quality_resampling_allowed": false,
+      "retry_policy": "No retry or replacement for quality; retry only if no completion was produced because of a transport or tool failure"
+    },
+    "scoring_contract": {
+      "scorer_must_be_distinct_from_generators": true,
+      "scoring_may_start_only_after_all_response_hashes_are_frozen": true
+    }
+  }
+}

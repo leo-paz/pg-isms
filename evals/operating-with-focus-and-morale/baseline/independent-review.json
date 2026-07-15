@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "review": "operating-with-focus-and-morale RED baseline independent two-stage review",
+  "completed_at_utc": "2026-07-15T23:00:02Z",
+  "protocol": {
+    "stage_a_frozen_before_scorer_open": true,
+    "stage_a_path": ".superpowers/sdd/focus-baseline-independent-stage-a.json",
+    "stage_a_sha256_at_freeze": "c0c5b3dabb5cd9a018cd451c708b53ae0e9925db8f48f0a53ba41b475502844f",
+    "scorer_opened_only_after_stage_a_hash": true,
+    "scorer_json_path": ".superpowers/sdd/focus-baseline-score.json",
+    "scorer_json_sha256": "854d42b449fa785b22a9d563bbcf612715288cc7cf4965ff71ab72b8f69d221a",
+    "scorer_markdown_path": ".superpowers/sdd/focus-baseline-score.md",
+    "scorer_markdown_sha256": "2f0b8a3a87c7c63bb7dfee1543791c402320f5ce4855dac0eab60935ad256b35"
+  },
+  "integrity": {
+    "verdict": "pass",
+    "canonical_cases_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+    "generation_plan_sha256": "f84f0b565b617ea6e99b873edf7fdba8e171f2d178de0c649209f90ce414a8f9",
+    "generation_attestation_sha256": "107c8cdf8aa0b3d9a09571fb2a70ec22b5063d939a32ae0382a13d4dbcdc5d96",
+    "manifest_sha256": "4d3af3395f316b5303188166821d053340ba0669495ecc4df0edee2b6a96802f",
+    "prompt_only_aggregate_projection_sha256": "5dcc5d515b9453ae4261017e10afd382ac03013cb7a9ab1061014c502d9d9a72",
+    "canonical_copy_byte_identical": true,
+    "all_prompt_projections_byte_match": true,
+    "case_count": 6,
+    "criteria_count": 30,
+    "prompt_count": 6,
+    "response_count": 6,
+    "unique_response_bodies": 6,
+    "maximum_response_words": 1015,
+    "response_word_limit": 1200,
+    "all_response_birth_epochs_equal_mtime_epochs": true,
+    "skill_package_absent_at_freeze_and_scoring": true,
+    "scorer_distinct_from_six_generator_tasks": true,
+    "generation_contract_consistent_across_plan_attestation_manifest": true,
+    "provenance_limit": "Fresh context, criteria hiding, first-completion capture, and lack of resampling are execution facts attested by the frozen records; file inspection can reproduce their consistency and lack of contradiction, not independently replay the historical sessions."
+  },
+  "comparison": {
+    "stage_a_vectors": {
+      "scenario-01": "10000",
+      "scenario-02": "11000",
+      "scenario-03": "10000",
+      "scenario-04": "10101",
+      "scenario-05": "10000",
+      "scenario-06": "10111"
+    },
+    "scorer_vectors": {
+      "scenario-01": "10000",
+      "scenario-02": "11011",
+      "scenario-03": "10000",
+      "scenario-04": "10101",
+      "scenario-05": "10000",
+      "scenario-06": "10111"
+    },
+    "stage_a_total": 12,
+    "scorer_total": 14,
+    "bit_agreements": 28,
+    "bit_disagreements": 2,
+    "rationale_comparison": [
+      {"case_id": "scenario-01", "criterion": 1, "stage_a": 1, "scorer": 1, "final": 1, "comparison": "Aligned: founder attention/reliable service leads; runway, no fundraise, and retained rights exclude alternative lead workflows."},
+      {"case_id": "scenario-01", "criterion": 2, "stage_a": 0, "scorer": 0, "final": 0, "comparison": "Aligned: incomplete fact/assertion/unknown partition. The scorer additionally names the omitted 31-hour baseline and separate founder-claim classifications."},
+      {"case_id": "scenario-01", "criterion": 3, "stage_a": 0, "scorer": 0, "final": 0, "comparison": "Aligned: the response explicitly chooses two priorities, defeating the single-outcome conjunct despite strong deferrals."},
+      {"case_id": "scenario-01", "criterion": 4, "stage_a": 0, "scorer": 0, "final": 0, "comparison": "Aligned: external-time and company-time allocation do not impose a total-hours/recovery boundary."},
+      {"case_id": "scenario-01", "criterion": 5, "stage_a": 0, "scorer": 0, "final": 0, "comparison": "Aligned: baselines and dated close/switch cycle are incomplete; scorer supplies additional examples without changing adjudication."},
+
+      {"case_id": "scenario-02", "criterion": 1, "stage_a": 1, "scorer": 1, "final": 1, "comparison": "Aligned: customer evidence leads and both abandonment and unchanged overwork are rejected."},
+      {"case_id": "scenario-02", "criterion": 2, "stage_a": 1, "scorer": 1, "final": 1, "comparison": "Aligned: observed evidence is separated from conclusions and the causal, friction, repeatability, procurement, qualification, and launch questions are tested."},
+      {"case_id": "scenario-02", "criterion": 3, "stage_a": 0, "scorer": 0, "final": 0, "comparison": "Aligned: one objective is stated, but several co-primary 30-day tactics remain."},
+      {"case_id": "scenario-02", "criterion": 4, "stage_a": 0, "scorer": 1, "final": 1, "comparison": "Stage A was too narrow. Days 6-15 explicitly schedule build/test work, unrelated work is frozen, user contact recurs across Days 1-5, 6-15, and 16-25, and line 48 supplies a normal-workweek/no-nights recovery rule. No omitted conjunct needs inference."},
+      {"case_id": "scenario-02", "criterion": 5, "stage_a": 0, "scorer": 1, "final": 1, "comparison": "Stage A over-required numeric precision. Functional owners, Days 1-5 baselines, the explicit 22%-to-50% target, twice-weekly/end-week checkpoints, Days 26-30 decision, and line-44 continue/adjust/pivot conditions collectively satisfy the criterion as written."},
+
+      {"case_id": "scenario-03", "criterion": 1, "stage_a": 1, "scorer": 1, "final": 1, "comparison": "Aligned: conference urgency is rejected and overload is tied to degraded operating evidence under non-survival conditions."},
+      {"case_id": "scenario-03", "criterion": 2, "stage_a": 0, "scorer": 0, "final": 0, "comparison": "Aligned: the 78-hour baseline and required conference-value/decision-capacity unknowns are not explicitly preserved."},
+      {"case_id": "scenario-03", "criterion": 3, "stage_a": 0, "scorer": 0, "final": 0, "comparison": "Aligned: several stabilizing outcomes run in parallel instead of one monthly outcome."},
+      {"case_id": "scenario-03", "criterion": 4, "stage_a": 0, "scorer": 0, "final": 0, "comparison": "Aligned: recovery/delegation/user safeguards are strong, but protected maker time is absent."},
+      {"case_id": "scenario-03", "criterion": 5, "stage_a": 0, "scorer": 0, "final": 0, "comparison": "Aligned: complete baselines, precise switch thresholds, and sustained-evidence closure are absent."},
+
+      {"case_id": "scenario-04", "criterion": 1, "stage_a": 1, "scorer": 1, "final": 1, "comparison": "Aligned: solvency/payroll survival precedes calendar and morale work."},
+      {"case_id": "scenario-04", "criterion": 2, "stage_a": 0, "scorer": 0, "final": 0, "comparison": "Aligned: clear product ownership is omitted from the explicit known-fact handling."},
+      {"case_id": "scenario-04", "criterion": 3, "stage_a": 1, "scorer": 1, "final": 1, "comparison": "Aligned: a viable survival decision is primary and non-survival work is explicitly deferred."},
+      {"case_id": "scenario-04", "criterion": 4, "stage_a": 0, "scorer": 0, "final": 0, "comparison": "Aligned: essential continuity is protected, but backup decision coverage and crisis workload/recovery safeguards are absent."},
+      {"case_id": "scenario-04", "criterion": 5, "stage_a": 1, "scorer": 1, "final": 1, "comparison": "Aligned: owners, tomorrow checkpoint, measurable branches, escalation, close, and focus handoff are explicit."},
+
+      {"case_id": "scenario-05", "criterion": 1, "stage_a": 1, "scorer": 1, "final": 1, "comparison": "Aligned: authority redesign leads and personal focus is supporting."},
+      {"case_id": "scenario-05", "criterion": 2, "stage_a": 0, "scorer": 0, "final": 0, "comparison": "Aligned: runway/no-fundraise and retained-authority/residual-capacity classifications are incomplete."},
+      {"case_id": "scenario-05", "criterion": 3, "stage_a": 0, "scorer": 0, "final": 0, "comparison": "Aligned: productivity/calendar changes are allowed without the required evidence gate and unrelated changes are not explicitly deferred."},
+      {"case_id": "scenario-05", "criterion": 4, "stage_a": 0, "scorer": 0, "final": 0, "comparison": "Aligned: no sustainable CEO user-contact reserve or explicit capacity-released boundary."},
+      {"case_id": "scenario-05", "criterion": 5, "stage_a": 0, "scorer": 0, "final": 0, "comparison": "Aligned: full baselines, keep/expand/rollback branches, and a specific later-focus handoff are incomplete."},
+
+      {"case_id": "scenario-06", "criterion": 1, "stage_a": 1, "scorer": 1, "final": 1, "comparison": "Aligned: live financing leads for two weeks, then product/customer cadence resumes."},
+      {"case_id": "scenario-06", "criterion": 2, "stage_a": 0, "scorer": 0, "final": 0, "comparison": "Aligned: customer count, runway, round size, process age, and close probability are omitted from the explicit fact/unknown partition."},
+      {"case_id": "scenario-06", "criterion": 3, "stage_a": 1, "scorer": 1, "final": 1, "comparison": "Aligned: the two live paths serve one financing decision and optional activity is deferred."},
+      {"case_id": "scenario-06", "criterion": 4, "stage_a": 1, "scorer": 1, "final": 1, "comparison": "Aligned: named coverage, daytime batching, evening cutoff, controlled exceptions, and recovery bound the sprint."},
+      {"case_id": "scenario-06", "criterion": 5, "stage_a": 1, "scorer": 1, "final": 1, "comparison": "Aligned: owners, deadline gates, decision branches, round reset, and dated handoff complete the cycle."}
+    ],
+    "corrections": [
+      {
+        "case_id": "scenario-02",
+        "criterion": 4,
+        "stage_a": 0,
+        "scorer": 1,
+        "final": 1,
+        "decision": "correct Stage A",
+        "basis": "The staged days, unrelated-work freeze, repeated clinic-user touchpoints, and explicit normal-workweek/no-nights rule satisfy all four conjuncts."
+      },
+      {
+        "case_id": "scenario-02",
+        "criterion": 5,
+        "stage_a": 0,
+        "scorer": 1,
+        "final": 1,
+        "decision": "correct Stage A",
+        "basis": "The response supplies functional owners, explicit baseline work, a numeric target, relative-dated weekly reviews, observable decision branches, and a Days 26-30 continue/adjust/stop decision."
+      }
+    ]
+  },
+  "final_result": {
+    "vectors": {
+      "scenario-01": "10000",
+      "scenario-02": "11011",
+      "scenario-03": "10000",
+      "scenario-04": "10101",
+      "scenario-05": "10000",
+      "scenario-06": "10111"
+    },
+    "passes": 14,
+    "criteria_total": 30,
+    "misses": 16,
+    "normalized_score": 0.466667,
+    "red_valid": true,
+    "red_validity_reason": "Every case misses at least one strict conjunctive criterion; per-case passes are 1, 4, 1, 3, 1, and 4."
+  },
+  "fairness_and_leakage": {
+    "verdict": "pass",
+    "criteria_hidden_from_generators_attested": true,
+    "prompt_files_are_exact_canonical_prompt_projections": true,
+    "prompt_files_contain_no_criterion_rubric_or_skill_workflow_names": true,
+    "no_source_or_skill_content_present_in_prompts": true,
+    "contract_fair": true,
+    "fairness_basis": [
+      "Each criterion is answerable from the scenario facts and the requested operating-plan decision; no external source fact is required.",
+      "Literal taxonomy names are not required: semantic routing receives credit in all six criterion-1 adjudications.",
+      "Role owners and relative day/week dates receive credit, avoiding requirements for names or calendar dates the prompt does not supply.",
+      "The strict fact/unknown, single-priority, safeguard, measurement, switch, and handoff clauses are observable response behaviors applied consistently across cases."
+    ]
+  },
+  "findings": [
+    {
+      "severity": "none",
+      "finding": "No integrity, leakage, fairness, or scorer-total defect invalidates the RED baseline."
+    },
+    {
+      "severity": "correction",
+      "finding": "Independent Stage A undercalled scenario-02 criteria 4 and 5; both are corrected to 1 after line-level re-adjudication."
+    },
+    {
+      "severity": "note",
+      "finding": "The scorer JSON, scorer Markdown, per-case vectors, per-criterion bits, total 14/30, normalized 0.466667, and RED-valid verdict are mutually consistent."
+    }
+  ]
+}
