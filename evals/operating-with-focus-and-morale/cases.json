@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "cases": [
+    {
+      "id": "scenario-01",
+      "type": "trigger",
+      "prompt": "On July 15, 2026, a six-person inventory-software startup has 38 paying retailers, fourteen months of runway, clear team decision rights, and no active fundraise. Its founder-CEO spent 31 hours last week in accelerator events, investor coffees, podcasts, conference planning, and internal status meetings. She rescheduled six retailer calls for the second time, and a data-sync defect affecting nine customers has remained behind a partially finished reporting redesign for three weeks. She says the external activity is building credibility and that every commitment is important. The team asks what the founder should do over the next four weeks without dropping essential company obligations. Give them an operating plan.",
+      "criteria": [
+        "Makes operating-with-focus-and-morale the primary workflow because attention allocation, rather than cash survival, fundraising, or unclear organizational authority, is the current constraint.",
+        "Distinguishes the calendar use, rescheduled calls, nine affected customers, defect age, runway, governance, and fundraising state as known facts; treats the credibility benefit and universal importance of the commitments as assertions; and leaves the severity and operational or retention impact of the defect and the actual value of each external obligation unresolved until evidence is gathered.",
+        "Commits the next four weeks to one state-changing customer or product outcome related to the sync failure, and explicitly cancels, delegates, or defers the reporting redesign and named categories of optional external and internal activity.",
+        "Protects recurring founder maker time and direct retailer contact while retaining only essential obligations, and sets a sustainable weekly boundary that prevents the recovery plan from becoming an open-ended increase in working hours.",
+        "Assigns owners and baselines for the chosen outcome, founder time allocation, completed retailer contacts, and customer impact; uses dated weekly reviews; defines evidence that would change the tactic or end the cycle; and closes on a dated decision to continue, revise, or replace the priority."
+      ]
+    },
+    {
+      "id": "scenario-02",
+      "type": "condition",
+      "prompt": "A ten-person clinic-scheduling startup exists to reduce missed appointments. After eight months, three clinics have piloted its reminder workflow. One clinic used it daily and reduced no-shows by 18%; a second signed but has not launched because procurement stalled; at the third, staff opened only 22% of alerts and report that double entry makes the workflow hard to use. Fourteen recent sales demos produced two paid pilots. Last week a well-funded competitor announced a similar product, two engineers said the market clearly does not care, and the product lead argued that the team should keep the current plan and simply work nights until it succeeds. Morale is low. Decide what the company should persist with, what it should change, and how it should operate for the next 30 days.",
+      "criteria": [
+        "Uses operating-with-focus-and-morale as the primary workflow, treats low morale and the competitor announcement as context rather than proof about demand, and rejects both immediate abandonment of the goal and indefinite persistence with the unchanged tactic.",
+        "Separates pilot use, no-show change, procurement state, alert use, staff feedback, demos, and paid pilots from the engineers' and product lead's conclusions; identifies adoption causality, segment repeatability, workflow friction, and the next sales bottleneck as unknowns requiring evidence.",
+        "Keeps the customer outcome as the bounded goal, chooses one primary 30-day tactic aimed at the highest-leverage unknown, and names competing product, segment, sales, or expansion work that will be stopped or deferred during the test.",
+        "Schedules protected build time and recurring contact with clinic users, restores a sustainable work and recovery cadence, and does not use compulsory nights or raw hours as a proxy for determination.",
+        "Gives named owners, baseline and target measures, and dated weekly checkpoints for the tactic; precommits observable conditions for keeping or changing the tactic and for reopening the goal itself; and ends with a dated continue, adapt, or stop decision."
+      ]
+    },
+    {
+      "id": "scenario-03",
+      "type": "edge",
+      "prompt": "A twelve-person API company with 70 paying customers and sixteen months of runway is preparing for a major industry conference. For ten weeks the CEO has worked roughly 78 hours a week, including most nights. During the last month she reversed three release decisions after implementation, the team rolled back three production changes, and nine scheduled user calls were skipped. Two engineering leads now wait for late-night approvals, while the CEO says another four-week push is the only way to show the company is serious. There is no active fundraise and no immediate payroll risk. Advise the company how to handle the conference deadline, the CEO's workload, and the next month of operating work.",
+      "criteria": [
+        "Makes operating-with-focus-and-morale primary, recognizes sustained overload and degraded judgment as the operative risk, and does not treat the conference or visible intensity as an acute survival constraint.",
+        "Uses the hours, decision reversals, rollbacks, skipped calls, approval waits, runway, and financing state as facts; treats the claim that another push proves seriousness as unsupported; and identifies the causes of the rollbacks, minimum viable conference value, and recoverable decision capacity as unknown.",
+        "Selects one stabilizing outcome for the month and explicitly drops, narrows, delegates, or postpones lower-value conference scope, late approval work, and other tasks that compete with that outcome.",
+        "Immediately establishes concrete recovery and workload safeguards, backup decision coverage, and protected maker and user-contact periods; the plan includes a bounded crisis duration and prevents nights or continuous availability from remaining the default.",
+        "Assigns owners and baselines for release quality, decision latency or reversals, user contact, and workload health; checks acute risk within days and progress weekly; states pause or tactic-switch thresholds; and closes the recovery cycle only after a dated review of sustained operating evidence."
+      ]
+    },
+    {
+      "id": "scenario-04",
+      "type": "non-trigger",
+      "prompt": "On July 15, 2026, a nine-person hardware startup has $320,000 in cash, fixed monthly obligations of $210,000, and dependable monthly gross profit of $25,000. Payroll is due in twelve days. A bridge round is being discussed but nothing is signed, and an enterprise renewal that might bring $180,000 cannot close for at least eight weeks. The CEO says the team has lost focus and asks for a better calendar, fewer meetings, and a morale reset. Product ownership is clear, but the board expects a plan tomorrow morning. What should be decided first, and what focus work, if any, belongs now?",
+      "criteria": [
+        "Routes first to managing-runway-and-survival because the stated cash and payroll facts create an acute survival constraint, and postpones operating-with-focus-and-morale as a primary workflow until a viable survival envelope has been chosen.",
+        "Treats cash, obligations, dependable gross profit, payroll timing, renewal timing, unsigned financing, and clear ownership as known; treats bridge and renewal proceeds as uncertain rather than available cash; and identifies only decision-relevant cash, obligation, and financing gaps as unknowns to resolve immediately.",
+        "Sets one state-changing survival priority for the next decision window and explicitly defers generic calendar optimization, morale programming, optional product work, and other activities that do not change cash survival or preserve essential value.",
+        "Protects essential customer, product, payroll, and legal or fiduciary continuity while bounding the crisis cadence with decision backups and humane workload safeguards instead of prescribing unending founder heroics.",
+        "Names the survival decision owner, evidence owners, next-day checkpoint, and measurable branches for acting; defines when the survival decision is closed or must escalate; and states the observable condition for handing operating cadence and morale work back to operating-with-focus-and-morale."
+      ]
+    },
+    {
+      "id": "scenario-05",
+      "type": "application",
+      "prompt": "A 48-person logistics-software company has seventeen months of runway and is not fundraising. The CEO personally approves pricing exceptions, enterprise delivery promises, incident priorities, roadmap changes, and senior hiring. In the last six weeks, 18 decisions waited more than four business days for her, five signed customer commitments reached product teams after the fact, and two incidents had multiple responders but no single decision owner. Department leads exist, but decision rights are unwritten. The CEO believes her real problem is a crowded calendar and proposes canceling recurring meetings, buying a productivity system, and blocking two mornings for deep work. Design the next six weeks of action and explain where a personal focus plan belongs.",
+      "criteria": [
+        "Makes building-and-evolving-organizations the primary workflow for the repeated authority queues and unowned decisions, and uses operating-with-focus-and-morale only after or within that redesign rather than presenting personal time blocking as the root fix.",
+        "Treats decision waits, late customer commitments, incident ownership, current approval domains, runway, fundraising state, existing leads, and unwritten rights as known; treats the CEO's calendar diagnosis as a claim; and identifies the right authority limits, retained decisions, and residual CEO capacity as unknowns to test.",
+        "Chooses one state-changing organizational priority centered on explicit decision rights, with a named accountable owner, and explicitly defers the proposed productivity tooling, broad meeting cancellation, and unrelated changes unless evidence makes one necessary.",
+        "Stages transfers with backups and escalation paths that protect customer and incident continuity, then reserves sustainable CEO maker and user time from the capacity actually released rather than adding focus blocks on top of the same approval load.",
+        "Assigns owners and baseline measures for decision latency, unowned work, the count or rate of signed customer commitments reaching product teams only after agreement, incidents, and CEO load; reviews at dated intermediate and six-week checkpoints; defines keep, revise, expand, and rollback conditions; and closes with a documented authority decision plus a specific handoff into the later focus cadence."
+      ]
+    },
+    {
+      "id": "scenario-06",
+      "type": "non-trigger",
+      "prompt": "An eight-person operations-software startup has 55 paying customers, twenty months of runway, and a product lead who owns weekly releases and customer support. Three weeks ago the CEO opened a $3 million Series A process. Two partnership meetings are scheduled within ten days, one fund wants a data room and customer references by Friday, and another has offered a term sheet that expires next Wednesday while its governance and liquidation terms remain unresolved. The CEO has also accepted 25 introductory investor calls and says taking every meeting is the only way to preserve momentum. User calls are slipping, the team is tired of late-night diligence requests, and the CEO asks for a general focus and morale reset. Decide what workflow should lead for the next two weeks and how the company should operate around it.",
+      "criteria": [
+        "Routes first to raising-and-governing-capital because a live financing process with dated investor decisions is the current state constraint, and makes operating-with-focus-and-morale a later or supporting workflow rather than the primary one.",
+        "Treats the customer count, runway, product ownership, round size, process age, scheduled meetings, diligence request, term-sheet expiry, unresolved terms, and accepted calls as known; treats the CEO's momentum claim as an assertion; and identifies investor fit, acceptable terms, close probability, and necessary diligence or reference work as unknown until tested.",
+        "Sets one state-changing priority for the live round, aimed at reaching a financing decision with the qualified current paths, and explicitly defers low-probability introductions, optional company initiatives, and a general calendar or morale redesign that does not advance or safely conclude that decision.",
+        "Bounds the two-week financing cadence, preserves product and customer continuity through named coverage, and adds concrete recovery, availability, and escalation safeguards so diligence does not require continuous late-night work from the CEO or team.",
+        "Names capital and evidence owners, dated checkpoints no later than the diligence and term-sheet deadlines, and measurable proceed, negotiate, pause, or end conditions; closes or explicitly resets the live-round state; and gives a dated observable handoff back to operating-with-focus-and-morale."
+      ]
+    }
+  ]
+}

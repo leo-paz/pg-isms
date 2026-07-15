@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "gate_name": "focus-red-gate-v2",
+  "skill_name": "operating-with-focus-and-morale",
+  "reviewed_at_utc": "2026-07-15T22:36:42Z",
+  "verdict": "PASS",
+  "freeze_safe": true,
+  "finding_counts": {
+    "critical": 0,
+    "important": 0,
+    "minor": 0
+  },
+  "summary": "All four v1 findings are resolved. The revised six-case, thirty-criterion contract is natural, feasible, construct-independent, free of hidden-answer demands, and ready to freeze before the RED baseline.",
+  "preconditions": {
+    "skills/operating-with-focus-and-morale_absent": true,
+    "evals/operating-with-focus-and-morale_absent": true,
+    "canonical_files_edited": false,
+    "v2_json_ignored": true,
+    "v2_markdown_ignored": true
+  },
+  "original_gate_preservation": {
+    "json_sha256": "8f115e1e24793146ae0ac6c35e95967cda3be13cc6f2dcb947b0f2475009f541",
+    "markdown_sha256": "9cf55f283b664eada1022a6156acf84a01e6d34f016fa8ed64f77be60aaa25bd",
+    "unchanged_from_v1": true
+  },
+  "mechanical_checks": {
+    "json_valid": true,
+    "schema_version_matches": true,
+    "skill_name_matches": true,
+    "case_count": 6,
+    "criteria_count": 30,
+    "criteria_per_case": {
+      "scenario-01": 5,
+      "scenario-02": 5,
+      "scenario-03": 5,
+      "scenario-04": 5,
+      "scenario-05": 5,
+      "scenario-06": 5
+    },
+    "type_counts": {
+      "trigger": 1,
+      "condition": 1,
+      "edge": 1,
+      "application": 1,
+      "non-trigger": 2
+    },
+    "unique_case_ids": "6/6",
+    "unique_normalized_prompts": "6/6",
+    "unique_normalized_criteria": "30/30",
+    "empty_prompts": 0,
+    "empty_criteria": 0
+  },
+  "hashes": {
+    "source_cases_json_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+    "contract_projection_sha256": "28c2819a6d2e6efb3348e16e2c350e4b1d4bcd4ba97f068fe401443164dc4a42",
+    "flattened_criterion_projection_sha256": "45949d0c7f21569fb6b0cbcfc4d93dc296f537ecc1399fb8d06b8003157710ec",
+    "contract_projection_definition": "jq -S -c '{schema_version,skill_name,cases:[.cases[]|{id,type,prompt,criteria}]}'",
+    "flattened_criterion_projection_definition": "jq -S -c '[.cases[] as $case | range(0; ($case.criteria|length)) as $i | {case_id:$case.id,case_type:$case.type,prompt:$case.prompt,criterion_number:($i+1),criterion:$case.criteria[$i]}]'"
+  },
+  "remediation_checks": [
+    {
+      "v1_finding": "C1 missing active-fundraising precedence",
+      "status": "RESOLVED",
+      "evidence": "Scenario-06 independently routes a live, dated Series A process to raising-and-governing-capital while twenty months of runway and explicit product/support ownership remove survival and authority confounders."
+    },
+    {
+      "v1_finding": "I1 scenario-01 criterion 2 customer-effect ambiguity",
+      "status": "RESOLVED",
+      "evidence": "The criterion now makes nine affected customers known and separately leaves severity and operational or retention impact unresolved."
+    },
+    {
+      "v1_finding": "I2 scenario-05 criterion 3 hidden unproposed options",
+      "status": "RESOLVED",
+      "evidence": "The criterion now defers only proposed productivity tooling, proposed broad meeting cancellation, and unrelated changes; hierarchy and broad-reorganization boilerplate are gone."
+    },
+    {
+      "v1_finding": "I3 scenario-05 criterion 5 vague commitment-quality proxy",
+      "status": "RESOLVED",
+      "evidence": "The criterion now measures the count or rate of signed commitments reaching product teams only after agreement, directly grounded in the prompt."
+    }
+  ],
+  "scenario_06_review": {
+    "naturalness": "PASS. The financing deadlines, diligence request, expiring term sheet, excessive introductions, slipping user calls, and tired team form a plausible founder request rather than a quiz.",
+    "feasibility": "PASS. The prompt supplies enough facts to route, choose a financing decision window, protect product and customer continuity, and define dated branches without inventing cash or authority distress.",
+    "construct_independence": "PASS. Twenty months of runway excludes acute survival; explicit product/support ownership excludes an authority queue; no incident or product emergency competes with the live financing constraint.",
+    "answer_leakage": "PASS. The prompt exposes the business situation and asks which workflow leads, but does not name the required capital workflow or prescribe the five-part plan.",
+    "cross_criterion_leakage": "PASS. Its criteria separately score routing, epistemics, priority/deferrals, cadence/continuity, and measurement/closure."
+  },
+  "prompt_reviews": {
+    "scenario-01": "PASS: natural attention-allocation trigger with no workflow answer disclosed.",
+    "scenario-02": "PASS: natural morale and persistence condition with mixed evidence and no forced tactic.",
+    "scenario-03": "PASS: natural overload edge case with measurable judgment and workload effects.",
+    "scenario-04": "PASS: isolated survival non-trigger with focus framing but deterministic cash precedence.",
+    "scenario-05": "PASS: isolated authority non-trigger whose prompt-supported alternatives now match the rubric.",
+    "scenario-06": "PASS: isolated fundraising non-trigger; natural, feasible, and independent."
+  },
+  "criterion_reviews": [
+    {"criterion_id": "scenario-01#1", "status": "PASS", "construct": "attention-first routing"},
+    {"criterion_id": "scenario-01#2", "status": "PASS", "construct": "facts, claims, and impact unknowns"},
+    {"criterion_id": "scenario-01#3", "status": "PASS", "construct": "one sync-related outcome and explicit deferrals"},
+    {"criterion_id": "scenario-01#4", "status": "PASS", "construct": "maker/user cadence and sustainable boundary"},
+    {"criterion_id": "scenario-01#5", "status": "PASS", "construct": "owners, measures, branches, and close"},
+
+    {"criterion_id": "scenario-02#1", "status": "PASS", "construct": "morale routing without demand overclaim"},
+    {"criterion_id": "scenario-02#2", "status": "PASS", "construct": "facts, conclusions, and causal unknowns"},
+    {"criterion_id": "scenario-02#3", "status": "PASS", "construct": "persistent goal and flexible bounded tactic"},
+    {"criterion_id": "scenario-02#4", "status": "PASS", "construct": "build/user cadence without nights theater"},
+    {"criterion_id": "scenario-02#5", "status": "PASS", "construct": "targets, tactic branches, and goal reopening"},
+
+    {"criterion_id": "scenario-03#1", "status": "PASS", "construct": "overload and degraded-judgment routing"},
+    {"criterion_id": "scenario-03#2", "status": "PASS", "construct": "operating facts and recovery unknowns"},
+    {"criterion_id": "scenario-03#3", "status": "PASS", "construct": "stabilizing outcome and conference scope removal"},
+    {"criterion_id": "scenario-03#4", "status": "PASS", "construct": "recovery, coverage, and bounded crisis"},
+    {"criterion_id": "scenario-03#5", "status": "PASS", "construct": "acute check, weekly evidence, and sustained close"},
+
+    {"criterion_id": "scenario-04#1", "status": "PASS", "construct": "survival precedence"},
+    {"criterion_id": "scenario-04#2", "status": "PASS", "construct": "cash facts versus uncertain proceeds"},
+    {"criterion_id": "scenario-04#3", "status": "PASS", "construct": "state-changing survival priority"},
+    {"criterion_id": "scenario-04#4", "status": "PASS", "construct": "essential continuity and humane safeguards"},
+    {"criterion_id": "scenario-04#5", "status": "PASS", "construct": "next-day branches and focus handoff"},
+
+    {"criterion_id": "scenario-05#1", "status": "PASS", "construct": "organization precedence"},
+    {"criterion_id": "scenario-05#2", "status": "PASS", "construct": "authority facts versus calendar claim"},
+    {"criterion_id": "scenario-05#3", "status": "PASS", "construct": "decision-rights priority and prompt-grounded deferrals"},
+    {"criterion_id": "scenario-05#4", "status": "PASS", "construct": "safe transfer before released-capacity focus"},
+    {"criterion_id": "scenario-05#5", "status": "PASS", "construct": "observable authority measures and handoff"},
+
+    {"criterion_id": "scenario-06#1", "status": "PASS", "construct": "capital precedence"},
+    {"criterion_id": "scenario-06#2", "status": "PASS", "construct": "financing facts, assertion, and decision unknowns"},
+    {"criterion_id": "scenario-06#3", "status": "PASS", "construct": "one live-round decision and deferrals"},
+    {"criterion_id": "scenario-06#4", "status": "PASS", "construct": "bounded diligence cadence and operating continuity"},
+    {"criterion_id": "scenario-06#5", "status": "PASS", "construct": "capital owners, dated branches, close, and handoff"}
+  ],
+  "criterion_review_totals": {
+    "pass": 30,
+    "repair": 0,
+    "reviewed": 30
+  },
+  "leakage_and_measurement": {
+    "hidden_answer_demands": 0,
+    "cross_criterion_construct_leaks": 0,
+    "prompt_answer_leaks": 0,
+    "generic_advice_escape_routes": 0,
+    "forward_improvement_measurable_without_criteria_repair": true,
+    "note": "General stop-work categories such as optional initiatives do not prescribe a hidden solution; they operationalize the explicit requirement to narrow work around the selected state-changing constraint."
+  }
+}
