@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "identity": {
+    "scorer": "/root/org_heldout2_scorer",
+    "attempt": "org-heldout-attempt-002",
+    "scored_at_utc": "2026-07-15T21:05:58Z",
+    "mode": "fresh strict held-out scorer",
+    "inference_policy": "Every pass-condition conjunct must be explicit; no generous inference."
+  },
+  "scope": {
+    "read_only": [
+      "evals/building-and-evolving-organizations/heldout/skill-freeze.json",
+      "evals/building-and-evolving-organizations/heldout/case.json",
+      "evals/building-and-evolving-organizations/heldout/generation-plan.json",
+      "evals/building-and-evolving-organizations/heldout/prompt.txt",
+      "evals/building-and-evolving-organizations/heldout/response.md"
+    ],
+    "excluded_and_not_inspected": [
+      "attempt-001",
+      "skill and runtime contents",
+      "baseline, forward, and microtest artifacts",
+      "sources and provenance",
+      "other skills",
+      "author and prompt-review notes",
+      "existing score and review files",
+      "git history and diffs",
+      "intended answers"
+    ],
+    "canonical_files_edited": false,
+    "only_outputs_written": [
+      ".superpowers/sdd/org-heldout2-score.json",
+      ".superpowers/sdd/org-heldout2-score.md"
+    ]
+  },
+  "integrity": {
+    "status": "PASS",
+    "whole_files": {
+      "skill-freeze.json": {
+        "sha256": "e542c6c6851be2a658bf52e93153324ef7d772f2ecc00f20a99053bdd4ed1cc1",
+        "bytes": 747,
+        "declared_hash_and_bytes_match": true
+      },
+      "case.json": {
+        "sha256": "905f08d79020052395cc8c97f037078ed8710042a953cb78fed701dce6e305fc",
+        "bytes": 9485,
+        "declared_hash_and_bytes_match": true
+      },
+      "generation-plan.json": {
+        "sha256": "3081252bde4374020e22b30bf87b438efcabf44cd64a7824d8fb4c9fbe66f088",
+        "bytes": 4025,
+        "note": "Observed whole-file value; no self-hash was declared in the authorized evidence."
+      },
+      "prompt.txt": {
+        "sha256": "0bbf1d70b9dd670c9ca23b7495da58b0144275933c289b7638133da4bc55299f",
+        "bytes": 4509,
+        "declared_hash_and_bytes_match": true
+      },
+      "response.md": {
+        "sha256": "56876ecb2325a221b76d228fe2573caded5e5a4a72e27e915eabc61a86146885",
+        "bytes": 22353,
+        "hash_domain": "whole response file"
+      }
+    },
+    "scoped_values": {
+      "decoded_prompt": {
+        "sha256": "6ddde934d4f7d12994ffea10121f675e7826780d15208794e0787adba85fc457",
+        "bytes": 4508,
+        "words": 720,
+        "declared_values_match": true
+      },
+      "hidden_criteria_minified_json": {
+        "sha256": "b86eeacc7d30787429808c76e0a17fc7b3c64290afc216a40669bdcfc9cf6dc8",
+        "bytes": 3963,
+        "declared_values_match": true
+      },
+      "prompt_projection": {
+        "domain": "decoded case prompt followed by exactly one LF",
+        "byte_identical_to_prompt_txt": true,
+        "sha256": "0bbf1d70b9dd670c9ca23b7495da58b0144275933c289b7638133da4bc55299f",
+        "bytes": 4509
+      },
+      "skill_declaration": {
+        "sha256": "2a1e0a27562aa3cfac61ce280a833bd538e4ad633267e238d8cf7bed695e572a",
+        "bytes": 3718,
+        "consistent_across_authorized_freeze_case_and_plan": true,
+        "canonical_content_verified": false,
+        "reason": "Skill contents were excluded from scorer scope."
+      },
+      "runtime_declaration": {
+        "sha256": "6fc8f66eb3b3aea79b1bab9b67602887e0bbb17a00e302e6982fb48378e7bd5b",
+        "bytes": 12033,
+        "consistent_across_authorized_freeze_case_and_plan": true,
+        "canonical_content_verified": false,
+        "reason": "Runtime contents were excluded from scorer scope."
+      }
+    },
+    "response_contract": {
+      "required_header_lines_exact": true,
+      "header_lines": [
+        "Case ID: org-heldout-attempt-002",
+        "Reviewer ID: org-heldout2-generator"
+      ],
+      "trailing_spaces_or_tabs": 0,
+      "carriage_returns": 0,
+      "exactly_one_file_final_lf": true,
+      "last_two_bytes_hex": "2e0a"
+    },
+    "chronology": {
+      "freeze_before_response": true,
+      "declared_skill_freeze_created_at_utc": "2026-07-15T20:40:32Z",
+      "declared_case_authored_at_utc": "2026-07-15T20:48:17Z",
+      "declared_generation_frozen_at_utc": "2026-07-15T20:55:33Z",
+      "filesystem_mtime_epoch_order": [
+        1784148039,
+        1784148924,
+        1784148970,
+        1784148981,
+        1784149399
+      ],
+      "filesystem_order_labels": [
+        "skill-freeze.json",
+        "case.json",
+        "prompt.txt",
+        "generation-plan.json",
+        "response.md"
+      ],
+      "response_birth_and_mtime_utc": "2026-07-15T21:03:19Z"
+    }
+  },
+  "score": {
+    "criterion_order": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "vector": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "positive_bits": 1,
+    "total_bits": 5,
+    "passing_threshold": 4,
+    "threshold_met": false,
+    "verdict": "FAIL",
+    "transfer_verdict": "FAIL"
+  },
+  "criteria": {
+    "C1": {
+      "bit": 1,
+      "verdict": "PASS",
+      "evidence": [
+        "Response lines 9-11 make Leah's leader-role evolution the primary job, prescribe a July 20-September 13 eight-week pilot, and defer both proposed searches.",
+        "Line 18 explicitly says cash survival does not bind this decision.",
+        "Lines 48 and 70 reject stage/investor precedent and coach-or-leave as causal or primary decision routes."
+      ],
+      "missing_subchecks": []
+    },
+    "C2": {
+      "bit": 0,
+      "verdict": "FAIL",
+      "evidence": [
+        "Lines 18-19 and 29-42 separate dated records from claims and unknowns, including finance, span/time, coaching, dependency delay, recruiting, rollback, and the prior May changes.",
+        "Lines 35-36 correctly treat survey explanations and the Leah/COO/CEO/investor views as claims rather than causes.",
+        "Lines 37-42 give several unknowns owners, artifacts, dates, thresholds, and decision effects."
+      ],
+      "missing_subchecks": [
+        "Candidate ability/fit is explicitly left unknown at line 40 until a later structured selection process, but it has no explicit evidence owner, due date by the final September review, observable threshold, and decision effect as a complete unknown contract.",
+        "The residual full-time gap/correct-role row at line 40 dates the decision September 21, while line 76 states the final pre-release review is September 14 and uses the September 18 release afterward. This does not meet the requirement that each decision-relevant unknown be due no later than the final September review."
+      ]
+    },
+    "C3": {
+      "bit": 0,
+      "verdict": "FAIL",
+      "evidence": [
+        "Lines 56-66 preserve Leah as sole outcome owner, retain explicit engineering/customer decisions and design-partner contact, delegate coherent squad/dependency/review/rollback work, and define escalation, backup, absence, and information artifacts.",
+        "Lines 62 and 70 prohibit adding management authority or a title merely for the pilot.",
+        "Line 68 reduces coding/review and incident work and increases coaching and planning bands."
+      ],
+      "missing_subchecks": [
+        "The required allocation must materially increase recruiting as well as coaching, planning, and information flow. The observed recruiting allocation is 5% at line 29, while line 68 keeps recruiting at or below 5%; it does not increase it."
+      ]
+    },
+    "C4": {
+      "bit": 0,
+      "verdict": "FAIL",
+      "evidence": [
+        "Lines 9-11 and 74-76 supply one bounded test, hypothesis and rival, start, intermediate review, pre-release final review, owners, evidence windows, and confounder handling.",
+        "Lines 82-86 directly measure coaching reliability, dependencies, Leah's allocation, and release continuity against baselines in lines 29-34.",
+        "Lines 78-103 define keep, one-boundary revise, residual-gap/full-cost add-capacity, and stop outcomes."
+      ],
+      "missing_subchecks": [
+        "Recruiting latency has a 13-day historical baseline at line 32, but the pilot supplies no forward recruiting-latency artifact, target, or directly observable success/failure threshold in the keep, revise, add-capacity, or stop decision rules. A baseline alone is not a measure of pilot performance."
+      ]
+    },
+    "C5": {
+      "bit": 0,
+      "verdict": "FAIL",
+      "evidence": [
+        "Lines 13, 42, 65, and 103 preserve current access and continuity protections until qualified review, drills, and approval establish a safe replacement.",
+        "Lines 13, 41, 97, 105, and 109 assign qualified HR/employment review before affected employment, title, compensation, classification, accessibility, and role consequences.",
+        "Line 99 requires a frozen job-relevant scorecard, structured questions and accessible work sample, and independent written ratings; line 23 rejects pedigree and charisma."
+      ],
+      "missing_subchecks": [
+        "A later search does not explicitly require a bias review.",
+        "The selection rule does not explicitly prohibit polish or protected-trait proxies; general fairness language and rejection of pedigree/charisma do not satisfy those separate conjuncts."
+      ]
+    }
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "schema_version": "1.0",
+  "audit": {
+    "name": "building-and-evolving-organizations frozen paired microtest blind score",
+    "scorer_task": "/root/org_micro_scorer",
+    "scored_on": "2026-07-15",
+    "method": "Manual semantic grading. Each criterion is one bit; a bit passes only when every stated conjunct is explicit. No partial credit and no inference of omitted owners, limits, dates, caveats, actions, or semantic roles.",
+    "read_scope": {
+      "manifest_files": [
+        "evals/building-and-evolving-organizations/microtest/rubric.json",
+        "evals/building-and-evolving-organizations/microtest/generation-plan.json",
+        "evals/building-and-evolving-organizations/microtest/generation-attestation.json",
+        "evals/building-and-evolving-organizations/microtest/skill-freeze.json"
+      ],
+      "responses": "Exactly the ten response paths declared in generation-attestation.json",
+      "excluded": "SKILL.md, runtime-contract.md, prompt.txt as a separate file, source evidence, prior evals, prior agent messages, and all other repository files were not opened. Prompt and criteria metadata were independently derived from rubric.json. Skill/runtime hashes are reproduced from skill-freeze.json but their target files were deliberately not opened."
+    }
+  },
+  "integrity": {
+    "status": "PASS",
+    "blockers": [],
+    "word_cap": 1500,
+    "actual_sample_count": 10,
+    "actual_control_count": 5,
+    "actual_guided_count": 5,
+    "actual_unique_task_count": 10,
+    "actual_unique_sample_id_count": 10,
+    "actual_unique_path_count": 10,
+    "actual_unique_response_sha256_count": 10,
+    "all_actual_responses_under_word_cap": true,
+    "max_actual_response_words": 1450,
+    "checks": {
+      "actual_response_hash_bytes_words_match_attestation": true,
+      "plan_and_attestation_task_arm_path_mappings_match": true,
+      "indices_are_exactly_1_through_10": true,
+      "generation_plan_hash_matches_attestation": true,
+      "rubric_hash_and_bytes_match_plan": true,
+      "criteria_hash_bytes_and_count_match_plan": true,
+      "prompt_derived_from_rubric_hash_bytes_and_words_match_plan": true,
+      "generation_plan_state_is_frozen_before_response_generation": true,
+      "generation_plan_response_generation_started_is_false": true,
+      "fresh_context_per_sample_declared": true,
+      "criteria_hidden_from_generators_declared": true,
+      "prior_outputs_hidden_from_generators_declared": true,
+      "opposite_arm_hidden_from_generators_declared": true,
+      "outputs_frozen_on_first_completion_declared": true,
+      "resampling_for_response_quality_forbidden": true,
+      "manual_semantic_grading_declared": true,
+      "post_generation_revision_declared_false": true,
+      "pass_threshold_is_0_20": true,
+      "skill_freeze_path_matches_plan": true
+    },
+    "plan_and_freeze_metadata": {
+      "plan_id": "building-and-evolving-organizations-microtest-001",
+      "plan_frozen_at": "2026-07-15T21:47:05Z",
+      "outputs_frozen_at": "2026-07-15T21:53:09Z",
+      "design_review_declared_verdict": "PASS",
+      "design_review_declared_sha256": "edb7af84b4467f18c4fb55d97fa6337ec6a3df016386f9fe63702d270d04894e",
+      "mutation_rule_present": true
+    },
+    "files": [
+      {
+        "role": "rubric",
+        "path": "evals/building-and-evolving-organizations/microtest/rubric.json",
+        "sha256": "637702d2cc20c2c1a20cd1c190b9a1f7fac43e020732e6682873a7f43fd6aa75",
+        "bytes": 4824,
+        "verification": "independently recomputed"
+      },
+      {
+        "role": "generation_plan",
+        "path": "evals/building-and-evolving-organizations/microtest/generation-plan.json",
+        "sha256": "7eb719689e1cc8e48bc016ac9f8d44e1b7b9ac2bd4f18faae0ea9fca0aac2aa8",
+        "bytes": 4450,
+        "verification": "independently recomputed; hash matches attestation"
+      },
+      {
+        "role": "generation_attestation",
+        "path": "evals/building-and-evolving-organizations/microtest/generation-attestation.json",
+        "sha256": "7ccc01f23977e98d25ea418c733e85d34da0e884d7d0a796b17a744449444370",
+        "bytes": 3711,
+        "verification": "independently recomputed"
+      },
+      {
+        "role": "skill_freeze_manifest",
+        "path": "evals/building-and-evolving-organizations/microtest/skill-freeze.json",
+        "sha256": "3279de5df5e64258374bf513e6eab62ff9931ffd8a2482d661b89aa2bc28149e",
+        "bytes": 583,
+        "verification": "independently recomputed"
+      },
+      {
+        "role": "prompt",
+        "path": "evals/building-and-evolving-organizations/microtest/prompt.txt",
+        "sha256": "375c5d6d4c905177150b206e7c65fb960cde374c99cb22f7ac4abd49662fa4be",
+        "bytes": 2317,
+        "words": 365,
+        "verification": "independently reproduced from rubric.json prompt plus trailing LF; separate prompt file not opened"
+      },
+      {
+        "role": "criteria",
+        "source": "jq -c .criteria plus trailing LF",
+        "sha256": "5a12e2133053c6b53f2d0bd1a3771ddaf2b21e8d1f24ed886647154634d4ce19",
+        "bytes": 2356,
+        "count": 5,
+        "verification": "independently reproduced from rubric.json"
+      },
+      {
+        "role": "frozen_skill",
+        "path": "skills/building-and-evolving-organizations/SKILL.md",
+        "sha256": "2a1e0a27562aa3cfac61ce280a833bd538e4ad633267e238d8cf7bed695e572a",
+        "bytes": 3718,
+        "verification": "reproduced from skill-freeze.json only; target file not opened under blind-scoring restriction"
+      },
+      {
+        "role": "frozen_runtime_contract",
+        "path": "skills/building-and-evolving-organizations/references/runtime-contract.md",
+        "sha256": "6fc8f66eb3b3aea79b1bab9b67602887e0bbb17a00e302e6982fb48378e7bd5b",
+        "bytes": 12033,
+        "verification": "reproduced from skill-freeze.json only; target file not opened under blind-scoring restriction"
+      }
+    ],
+    "samples": [
+      {"index": 1, "canonical_task": "/root/org_micro_control_1", "sample_id": "org_micro_control_1", "arm": "control", "path": "evals/building-and-evolving-organizations/microtest/control/rep-1.md", "sha256": "70c2466612b88e545868f62d1777409acf758080bc01e9e843b004f056f1287e", "bytes": 7174, "words": 1042},
+      {"index": 2, "canonical_task": "/root/org_micro_control_2", "sample_id": "org_micro_control_2", "arm": "control", "path": "evals/building-and-evolving-organizations/microtest/control/rep-2.md", "sha256": "8d04d6b64af9b71cdc2b7867981dbf500c3a7f43e955de668293ea6f9d765249", "bytes": 8213, "words": 1197},
+      {"index": 3, "canonical_task": "/root/org_micro_control_3", "sample_id": "org_micro_control_3", "arm": "control", "path": "evals/building-and-evolving-organizations/microtest/control/rep-3.md", "sha256": "73a1c60241c70c25daa78d9b8e82061b81af41747658f0378222b458e406bbd7", "bytes": 6994, "words": 1014},
+      {"index": 4, "canonical_task": "/root/org_micro_control_4", "sample_id": "org_micro_control_4", "arm": "control", "path": "evals/building-and-evolving-organizations/microtest/control/rep-4.md", "sha256": "cbe8ca7cd186fb66df4011f483b64ee576a1b1e22e616f0d57f4f558119e1d3b", "bytes": 7579, "words": 1120},
+      {"index": 5, "canonical_task": "/root/org_micro_control_5", "sample_id": "org_micro_control_5", "arm": "control", "path": "evals/building-and-evolving-organizations/microtest/control/rep-5.md", "sha256": "7d49f0a678c97d26cd439689ca7fd59c79669319d83a466d48b7c60e4c11f9a0", "bytes": 7123, "words": 1066},
+      {"index": 6, "canonical_task": "/root/org_micro_guided_1", "sample_id": "org_micro_guided_1", "arm": "guided", "path": "evals/building-and-evolving-organizations/microtest/guided/rep-1.md", "sha256": "d2b94ae8c97f631e43af06a29dbd5459342191914a67d80a98e9f7fae8dcc542", "bytes": 9322, "words": 1370},
+      {"index": 7, "canonical_task": "/root/org_micro_guided_2", "sample_id": "org_micro_guided_2", "arm": "guided", "path": "evals/building-and-evolving-organizations/microtest/guided/rep-2.md", "sha256": "fd23f66dca751d0abc6bc6b00047955e7a2ba8c135cf33279b7d89898813c9ca", "bytes": 9692, "words": 1393},
+      {"index": 8, "canonical_task": "/root/org_micro_guided_3", "sample_id": "org_micro_guided_3", "arm": "guided", "path": "evals/building-and-evolving-organizations/microtest/guided/rep-3.md", "sha256": "10fe768e24b1a98c9f3690df9c34f3c3882ec77414b1182ab8c0bca7a0fd1618", "bytes": 9405, "words": 1388},
+      {"index": 9, "canonical_task": "/root/org_micro_guided_4", "sample_id": "org_micro_guided_4", "arm": "guided", "path": "evals/building-and-evolving-organizations/microtest/guided/rep-4.md", "sha256": "55f6a5234d16aed297192a7191b555bcc63192e2f6443483f5f4a12ccfeaef9e", "bytes": 9952, "words": 1450},
+      {"index": 10, "canonical_task": "/root/org_micro_guided_5", "sample_id": "org_micro_guided_5", "arm": "guided", "path": "evals/building-and-evolving-organizations/microtest/guided/rep-5.md", "sha256": "281d168cd6ce1eb65acdd07f26bcb2aa9b945e6c97d3c9085ce094174888d536", "bytes": 9939, "words": 1422}
+    ]
+  },
+  "scoring": {
+    "criterion_order": [
+      "C1 primary problem, chosen decision-rights intervention, and explicit deferrals/rejections",
+      "C2 observations/claims/unknowns, required classifications, and causal rival",
+      "C3 complete operating design",
+      "C4 complete reversible pilot",
+      "C5 complete closure and four required result branches"
+    ],
+    "samples": [
+      {
+        "sample_id": "org_micro_control_1",
+        "arm": "control",
+        "vector": [0, 0, 0, 0, 0],
+        "score": 0,
+        "bits": [
+          {"criterion": 1, "pass": false, "rationale": "It makes decision latency/ambiguity primary and rejects the COO and council, but it rejects broad or informal delegation, not broad reorganization; that required disposition is not explicit."},
+          {"criterion": 2, "pass": false, "rationale": "It does not explicitly separate observations, stakeholder claims, and unknowns, nor explicitly place boundary quality and future effects among the unknowns."},
+          {"criterion": 3, "pass": false, "rationale": "It names the Head as routine decision owner but not one end-to-end implementation/go-live outcome owner; it also lacks a named absence backup and names only a generic customer-facing owner."},
+          {"criterion": 4, "pass": false, "rationale": "The six-week test has scope, records, measures, and safeguards, but no named evidence owner and no explicit dated intermediate checkpoint."},
+          {"criterion": 5, "pass": false, "rationale": "The closure lacks the required add-capacity result and does not name a next owner/action for every result branch."}
+        ]
+      },
+      {
+        "sample_id": "org_micro_control_2",
+        "arm": "control",
+        "vector": [0, 0, 0, 0, 0],
+        "score": 0,
+        "bits": [
+          {"criterion": 1, "pass": false, "rationale": "It correctly targets decision latency/ambiguity and defers the COO and approval council/new layer, but never explicitly rejects or defers a broad reorganization."},
+          {"criterion": 2, "pass": false, "rationale": "The memo discusses evidence and caveats but does not explicitly classify the required observations, stakeholder statements as claims, and all required unknown types."},
+          {"criterion": 3, "pass": false, "rationale": "The Head owns routine exceptions, not an explicitly end-to-end implementation/go-live outcome; customer continuity is split, so the required single outcome-owner role is absent."},
+          {"criterion": 4, "pass": false, "rationale": "Although reversible and measured, the trial never names an evidence owner for the tracker/dashboard."},
+          {"criterion": 5, "pass": false, "rationale": "It offers only three qualitative outcomes, not the four required measurable branches, and omits branch-specific next owners/actions."}
+        ]
+      },
+      {
+        "sample_id": "org_micro_control_3",
+        "arm": "control",
+        "vector": [0, 0, 0, 0, 0],
+        "score": 0,
+        "bits": [
+          {"criterion": 1, "pass": false, "rationale": "It selects decision rights and rejects the COO/council, but does not explicitly reject or defer broad reorganization."},
+          {"criterion": 2, "pass": false, "rationale": "No explicit observations/claims/unknowns separation is provided, and the required stakeholder statements and unknown categories are not all classified."},
+          {"criterion": 3, "pass": false, "rationale": "It assigns decision and communication responsibilities but does not name one accountable end-to-end go-live outcome owner."},
+          {"criterion": 4, "pass": false, "rationale": "The pilot is bounded and measured, but no role explicitly owns the evidence record/dashboard."},
+          {"criterion": 5, "pass": false, "rationale": "The closure has continuation, narrowing, and expansion language but lacks the required four complete branches, exact one-variable revision, full-cost capacity gate, and next owners for each."}
+        ]
+      },
+      {
+        "sample_id": "org_micro_control_4",
+        "arm": "control",
+        "vector": [0, 0, 0, 1, 0],
+        "score": 1,
+        "bits": [
+          {"criterion": 1, "pass": false, "rationale": "It makes the queue the primary problem and rejects the COO/council and undifferentiated broad delegation, but does not explicitly reject or defer broad reorganization."},
+          {"criterion": 2, "pass": false, "rationale": "It has a caveat section but no explicit observations/claims/unknowns ledger and does not classify stakeholder statements as claims."},
+          {"criterion": 3, "pass": false, "rationale": "The Head owns delegated decisions and their record, not the end-to-end implementation/go-live outcome, and no actual absence backup is designated."},
+          {"criterion": 4, "pass": true, "rationale": "The reversible May 4-June 12 pilot names the CEO/Head as change owners and the Head as record owner, uses derivable intermediate reviews, defines scope and January-March baseline, preserves a register, measures outcome/harm, and includes continuity, promise, specialist-review, suspension, and traceability safeguards."},
+          {"criterion": 5, "pass": false, "rationale": "The closure omits the required add-capacity branch and branch-specific owner/action assignments."}
+        ]
+      },
+      {
+        "sample_id": "org_micro_control_5",
+        "arm": "control",
+        "vector": [0, 0, 0, 1, 0],
+        "score": 1,
+        "bits": [
+          {"criterion": 1, "pass": false, "rationale": "It selects bounded decision rights and rejects the COO/council, but explicitly rejects broad delegation rather than broad reorganization."},
+          {"criterion": 2, "pass": false, "rationale": "It never explicitly separates observations, claims, and unknowns or classifies all required stakeholder claims and unknown types."},
+          {"criterion": 3, "pass": false, "rationale": "The Head is the accountable decision maker and Customer Success owns communication, but no one role is explicitly accountable for the end-to-end implementation/go-live outcome."},
+          {"criterion": 4, "pass": true, "rationale": "The May 5-June 15 reversible trial names change owners and Implementation as log-evidence owner, has derivable installation and weekly checkpoints, uses the January-March baseline and specified artifacts/measures, and covers continuity, unauthorized promises, specialist review, temporary narrowing, and retained evidence."},
+          {"criterion": 5, "pass": false, "rationale": "The mixed-result branch does not require exactly one revision once; the capacity branch lacks a benefit-above-full-role-cost threshold; and every branch does not name its next owner/action."}
+        ]
+      },
+      {
+        "sample_id": "org_micro_guided_1",
+        "arm": "guided",
+        "vector": [1, 0, 1, 1, 0],
+        "score": 3,
+        "bits": [
+          {"criterion": 1, "pass": true, "rationale": "It explicitly identifies the decision queue/interface as primary, selects bounded decision rights, rejects the council, defers the COO/capacity layer for lack of evidence, keeps the organization flat, and restores the prior model by domain rather than by broad reorganization."},
+          {"criterion": 2, "pass": false, "rationale": "The observed/claimed/unknown ledger and causal rival are explicit, but it does not explicitly identify the quality of the proposed exception boundary or the pilot's future effects as unknown; those semantic roles cannot be inferred from a generic 'full mix and quality' caveat."},
+          {"criterion": 3, "pass": true, "rationale": "The Head owns end-to-end implementation decisions and one go-live date; the design provides domains and observable limits, specialist consultation, notice, clocks and escalation destinations, interface expectations, absence coverage, a decision register, Head-owned continuity, and retained security/contract review."},
+          {"criterion": 4, "pass": true, "rationale": "The reversible May 5-June 15 pilot names change/evidence owners, May 18 and June 1 checkpoints, scope, baseline/artifacts, measurable outcomes/harms, and explicit continuity, promise, qualified-review, rollback, and evidence-preservation safeguards."},
+          {"criterion": 5, "pass": false, "rationale": "The capacity switch does not require the residual gap's value or relief to exceed the full role cost, so the required add-capacity result is incomplete."}
+        ]
+      },
+      {
+        "sample_id": "org_micro_guided_2",
+        "arm": "guided",
+        "vector": [0, 1, 1, 1, 0],
+        "score": 3,
+        "bits": [
+          {"criterion": 1, "pass": false, "rationale": "It identifies the correct primary mechanism and rejects the COO, council, and another layer, but does not explicitly dispose of broad reorganization as a separate option."},
+          {"criterion": 2, "pass": true, "rationale": "It explicitly separates observed facts, stakeholder claims, and unknowns; treats tracker/shadow/utilization/runway as state or observations; makes live sustainability, boundary safety, causal attribution, and future residual effects uncertain; and names multiple causal rivals."},
+          {"criterion": 3, "pass": true, "rationale": "The Head owns on-time supportable go-lives and continuity, with complete decision domains/limits, consultation, notification, escalation destinations and clocks, interface service levels, CEO/absence backup, decision log, customer communication ownership, and qualified security/contract review."},
+          {"criterion": 4, "pass": true, "rationale": "The six-week reversible test names owners and evidence roles, May 6 start, May 18/June 1 checkpoints and June 15 close, affected scope, baseline/log, outcome and harm measures, plus all required safeguards and record-preserving rollback."},
+          {"criterion": 5, "pass": false, "rationale": "The revision branch says to name an owner later instead of naming the next owner now; keep and capacity actions also rely on global ownership rather than naming each branch's next owner, so the every-result owner/action conjunct fails."}
+        ]
+      },
+      {
+        "sample_id": "org_micro_guided_3",
+        "arm": "guided",
+        "vector": [0, 1, 1, 1, 0],
+        "score": 3,
+        "bits": [
+          {"criterion": 1, "pass": false, "rationale": "The memo correctly targets centralized routine approval and ambiguity and rejects the COO/council, but never explicitly rejects or defers broad reorganization."},
+          {"criterion": 2, "pass": true, "rationale": "The ledger expressly separates observations, claims, and unknowns; includes the required source categories; treats accepted-pattern completeness, sustainable live workload, hidden future effects, and causal attribution as uncertain; and states a capacity/judgment rival."},
+          {"criterion": 3, "pass": true, "rationale": "It gives the Head the correct on-time outcome, defines domains/limits and specialist review, supplies same-day notice and escalation clocks/destinations, sets interface service expectations, names CEO and implementation backup coverage, requires an auditable log, assigns continuity communication, and retains security/contract protection."},
+          {"criterion": 4, "pass": true, "rationale": "The dated six-week reversible test has named change/evidence owners, May 6/7 installation, May 18 and June 1 reviews, June 15 close, explicit scope/baseline/artifacts/measures, and every required safeguard including pause and record preservation."},
+          {"criterion": 5, "pass": false, "rationale": "The add-capacity branch never requires benefit to exceed full role cost, and the revise branch defers naming its owner instead of naming one; therefore the four-result closure is incomplete."}
+        ]
+      },
+      {
+        "sample_id": "org_micro_guided_4",
+        "arm": "guided",
+        "vector": [0, 1, 1, 1, 1],
+        "score": 4,
+        "bits": [
+          {"criterion": 1, "pass": false, "rationale": "It clearly selects the right intervention and rejects the COO/council plus headcount, title, committee, and compensation changes, but broad reorganization itself is not explicitly rejected or deferred; a reporting-line or responsibility reorganization is not excluded by that list."},
+          {"criterion": 2, "pass": true, "rationale": "It explicitly classifies observations, stakeholder claims, and unknowns; treats tracker/shadow/utilization/reported runway as evidence/state, and live outcomes, sustainable load, prior-pattern correctness, causal attribution, and future benefit/cost as uncertain; it also names a capacity/complexity rival."},
+          {"criterion": 3, "pass": true, "rationale": "The Head owns each implementation through go-live and the design explicitly covers domains and limits, Customer Success consultation/notice, destination and escalation clocks, interface expectations, owner and CEO backups, a complete audit register, continuity ownership, and unchanged qualified security/contract review."},
+          {"criterion": 4, "pass": true, "rationale": "The May 5-June 15/16 reversible pilot names change and evidence owners, May 25 review, scope, January-March baseline, register, direct outcome/harm measures, and explicit safeguards for continuity, promises, qualified review, rollback, and evidence preservation."},
+          {"criterion": 5, "pass": true, "rationale": "The memo states the current decision and unknowns, preserves domain-specific CEO preapproval, and supplies measurable Keep, one-variable/one-time Revise, full-cost-gated Add-capacity, and harm-triggered Rollback results. The header and branch text name the CEO/Head/qualified reviewers as next owners and give each an action."}
+        ]
+      },
+      {
+        "sample_id": "org_micro_guided_5",
+        "arm": "guided",
+        "vector": [0, 1, 1, 1, 0],
+        "score": 3,
+        "bits": [
+          {"criterion": 1, "pass": false, "rationale": "It makes the recurring queue and ambiguous authority primary, chooses decision rights, and rejects the COO/council, but does not explicitly reject or defer broad reorganization."},
+          {"criterion": 2, "pass": true, "rationale": "It separates observations, claims, and unknowns; includes tracker, shadow, utilization and reported runway as evidence/state; marks sustainable load, customer effects, boundary quality, missing-record cause, and future needs unknown; and names hidden complexity/rework as a rival."},
+          {"criterion": 3, "pass": true, "rationale": "The Head owns the end-to-end implementation outcome, and the design includes routine domains/limits, consultation/review, notice, escalation triggers/destinations/deadlines, service expectations, owner backups, the decision log, Customer Success continuity communication, and security/contract review."},
+          {"criterion": 4, "pass": true, "rationale": "The six-week reversible test has named change/evidence owners, May 4-8 installation, May 25 interim and June 15 final review, scope, baseline/log, observable outcome/harm measures, and safeguards for continuity, unauthorized promises, specialist review, rollback, and evidence retention."},
+          {"criterion": 5, "pass": false, "rationale": "The add-capacity branch requires decision latency to meet target but does not explicitly require interface causes to be addressed, and the keep/revise/capacity branches do not each name their next owner; both omissions fail the all-conjunct closure."}
+        ]
+      }
+    ],
+    "arm_totals": {
+      "control": {
+        "passed_bits": 2,
+        "possible_bits": 25,
+        "normalized_score": 0.08
+      },
+      "guided": {
+        "passed_bits": 16,
+        "possible_bits": 25,
+        "normalized_score": 0.64
+      }
+    },
+    "effect": {
+      "guided_minus_control_passed_bits": 14,
+      "guided_minus_control_normalized": 0.56,
+      "predeclared_threshold": 0.2,
+      "comparison": ">=",
+      "gate_passed": true,
+      "verdict": "PASS"
+    }
+  },
+  "findings": [
+    "The frozen generation and response integrity checks reproduced without a blocker.",
+    "Control earned only the pilot-design bit in reps 4 and 5; its dominant failures were missing explicit evidence taxonomy, missing end-to-end outcome ownership, and incomplete four-branch closure.",
+    "All guided responses passed the complete operating-design and pilot-design criteria.",
+    "Only guided rep 1 explicitly disposed of broad reorganization; the other guided responses rejected narrower structural changes but did not state that semantic role.",
+    "Only guided rep 4 completed the strict four-result closure, including full-cost capacity gating and branch ownership/action.",
+    "The normalized guided-minus-control effect is +0.56, exceeding the predeclared +0.20 gate by +0.36."
+  ]
+}

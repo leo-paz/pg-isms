@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "gate": "building-and-evolving-organizations-paired-microtest-design",
+  "reviewed_at": "2026-07-15",
+  "review_mode": "blind independent design review",
+  "verdict": "PASS",
+  "blockers": [],
+  "authorized_inputs": [
+    {
+      "path": ".superpowers/sdd/org-micro-draft/rubric.json",
+      "sha256": "637702d2cc20c2c1a20cd1c190b9a1f7fac43e020732e6682873a7f43fd6aa75"
+    },
+    {
+      "path": "skills/building-and-evolving-organizations/SKILL.md",
+      "sha256": "2a1e0a27562aa3cfac61ce280a833bd538e4ad633267e238d8cf7bed695e572a"
+    },
+    {
+      "path": "skills/building-and-evolving-organizations/references/runtime-contract.md",
+      "sha256": "6fc8f66eb3b3aea79b1bab9b67602887e0bbb17a00e302e6982fb48378e7bd5b"
+    }
+  ],
+  "derived_fingerprints": {
+    "prompt_sha256_jq_raw_with_trailing_lf": "375c5d6d4c905177150b206e7c65fb960cde374c99cb22f7ac4abd49662fa4be",
+    "criteria_sha256_jq_compact_with_trailing_lf": "5a12e2133053c6b53f2d0bd1a3771ddaf2b21e8d1f24ed886647154634d4ce19"
+  },
+  "mechanical": {
+    "json_valid": true,
+    "schema_version": "1.0",
+    "skill_name_matches": true,
+    "prompt_word_count_method": "jq -r .prompt piped to awk whitespace-field count",
+    "prompt_word_count_expected": 365,
+    "prompt_word_count_actual": 365,
+    "criteria_expected": 5,
+    "criteria_actual": 5,
+    "criteria_all_nonempty_strings": true
+  },
+  "checks": [
+    {
+      "id": "json-and-hashes",
+      "status": "PASS",
+      "finding": "The rubric parses, has the expected top-level types and five criteria, and stable SHA-256 fingerprints are recorded for every authorized input. No external digest manifest was part of the authorized evidence, so the hashes bind this verdict to the reviewed snapshots rather than compare against an unseen expected digest."
+    },
+    {
+      "id": "prompt-length",
+      "status": "PASS",
+      "finding": "The decoded prompt is exactly 365 whitespace-delimited words."
+    },
+    {
+      "id": "criterion-count",
+      "status": "PASS",
+      "finding": "There are exactly five nonempty pass/fail criteria."
+    },
+    {
+      "id": "prompt-naturalness-and-leakage",
+      "status": "PASS",
+      "finding": "The prompt reads as a plausible executive decision-memo request. Its requests for a current decision, a six-week operating period, deferred alternatives, and a later decision are natural deliverables, not rubric language. It does not expose the branch label, evidence-classification requirement, operating-contract checklist, four-result closure taxonomy, scoring threshold, or intended answer."
+    },
+    {
+      "id": "chronology-and-arithmetic",
+      "status": "PASS",
+      "finding": "The January 1-March 31 tracker, March queue attempt, April 6-17 shadow exercise, and May 4 memo date are ordered consistently. The delayed-request partition reconciles (15 routine + 4 security/contract + 1 unusable record = 20), as does the shadow result (16 matches + 2 differences = 18). The other counts can overlap without contradiction, and a six-week period after May 4 is date-derivable."
+    },
+    {
+      "id": "construct-feasibility-and-alignment",
+      "status": "PASS",
+      "finding": "The task supplies enough dated operating evidence to diagnose a recurring decision queue, compare the proposed structural alternatives, define bounded authority, and design a reversible test without inventing historical facts. A concise memo can satisfy the five constructs within 1,500 words. The criteria trace to the skill and runtime contract: selected branch, evidence discipline, ownership/interface design, bounded test, and decision closure."
+    },
+    {
+      "id": "evidence-taxonomy",
+      "status": "PASS",
+      "finding": "Criterion 2 correctly distinguishes recorded tracker/shadow/utilization/runway facts from stakeholder claims and from unverified causes, boundary quality, sustainability, and future effects. Requiring a causal rival prevents the scenario's correlations from being graded as proved causation."
+    },
+    {
+      "id": "criterion-independence",
+      "status": "PASS",
+      "finding": "The five criteria score distinct constructs: present diagnosis/choice, epistemic classification, target operating contract, pilot execution, and end-of-pilot branching. Continuity and security/contract concepts recur where the runtime contract requires them, but they play different roles: ownership/review in criterion 3 and pilot safeguards in criterion 4. Semantic grading must require the scope-specific role rather than award both criteria for a context-free mention. Outcome/harm measures in criterion 4 establish the test; criterion 5 separately requires thresholds, owners, and actions for each result."
+    },
+    {
+      "id": "semantic-grading",
+      "status": "PASS",
+      "finding": "The rubric explicitly accepts semantic equivalents and omits exact-label requirements where appropriate. It grades decision content, observable limits, safeguards, thresholds, owners, and actions rather than heading names, phrase matches, or stylistic mimicry."
+    },
+    {
+      "id": "generic-advice-resistance",
+      "status": "PASS",
+      "finding": "Generic delegation or hiring advice cannot pass. The conjunctive criteria require company-specific evidence classification, bounded decision domains, escalation mechanics, interface service expectations, absence coverage, an audit artifact, dated pilot ownership, measurable safeguards, and four distinct thresholded closure actions."
+    },
+    {
+      "id": "predeclared-design",
+      "status": "PASS",
+      "finding": "Five independent no-skill responses and five independent guided responses meet the minimum five-repetition wording-test standard while limiting cross-sample contamination. Using the identical prompt isolates the guidance condition; hiding criteria from generators prevents answer coaching. With five binary criteria per response, a normalized mean improvement of at least 0.20 equals five net criterion passes across the 25 criterion decisions in an arm, or one additional criterion per response on average. This is a clear, material, predeclared microtest threshold."
+    }
+  ],
+  "grading_guardrails": [
+    "Generate each response in fresh context and do not expose rubric criteria or prior outputs.",
+    "Grade semantically against the supplied memo only; do not reward exact labels or infer omitted elements.",
+    "Read every response and every criterion decision manually; do not substitute keyword counts.",
+    "Score criterion 3 on the operating contract, criterion 4 on pilot execution and safeguards, and criterion 5 on result-specific closure thresholds, owners, and actions.",
+    "Compute each response as criteria_passed / 5, compare arm means as guided minus no-skill, and pass the effect gate only at a difference of at least 0.20."
+  ],
+  "nonblocking_cautions": [
+    "Five repetitions per arm are appropriate for a wording microtest but do not estimate a precise population effect; preserve all raw outputs and per-criterion judgments for variance review.",
+    "Because the criteria are deliberately conjunctive, graders must not infer missing owners, dates, limits, or actions from otherwise sensible prose.",
+    "Recurring continuity and qualified-review language is not double scoring when the grader enforces its distinct operating-design and pilot-safeguard roles."
+  ]
+}

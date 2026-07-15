@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "case_id": "org-heldout-attempt-002",
+  "author": "/root/org_heldout2_author",
+  "prompt_reviewer": "/root/org_heldout2_prompt_gate",
+  "generator": "/root/org_heldout2_generator",
+  "scorer": "/root/org_heldout2_scorer",
+  "vector": [1, 0, 0, 0, 0],
+  "positive_bits": 1,
+  "total_bits": 5,
+  "minimum_positive_bits": 4,
+  "criteria_threshold_met": false,
+  "integrity": "PASS",
+  "prompt_naturalness_and_no_leakage": "PASS",
+  "held_out_transfer_verdict": "FAIL",
+  "preserved_failure": true,
+  "response_sha256": "56876ecb2325a221b76d228fe2573caded5e5a4a72e27e915eabc61a86146885"
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_name": "building-and-evolving-organizations",
+  "attempt": 2,
+  "freeze_status": "pre-author",
+  "created_at_utc": "2026-07-15T20:40:32Z",
+  "created_by": "/root",
+  "behavior_change_after_freeze": false,
+  "skill_path": "skills/building-and-evolving-organizations/SKILL.md",
+  "skill_sha256": "2a1e0a27562aa3cfac61ce280a833bd538e4ad633267e238d8cf7bed695e572a",
+  "skill_bytes": 3718,
+  "runtime_path": "skills/building-and-evolving-organizations/references/runtime-contract.md",
+  "runtime_sha256": "6fc8f66eb3b3aea79b1bab9b67602887e0bbb17a00e302e6982fb48378e7bd5b",
+  "runtime_bytes": 12033,
+  "scope": "Attempt 002 uses the unchanged final behavior contract, frozen before a genuinely new case is authored."
+}

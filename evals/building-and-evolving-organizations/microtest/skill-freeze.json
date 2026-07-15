@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-07-15T21:47:05Z",
+  "skill": {
+    "path": "skills/building-and-evolving-organizations/SKILL.md",
+    "sha256": "2a1e0a27562aa3cfac61ce280a833bd538e4ad633267e238d8cf7bed695e572a",
+    "bytes": 3718
+  },
+  "runtime_contract": {
+    "path": "skills/building-and-evolving-organizations/references/runtime-contract.md",
+    "sha256": "6fc8f66eb3b3aea79b1bab9b67602887e0bbb17a00e302e6982fb48378e7bd5b",
+    "bytes": 12033
+  },
+  "mutation_rule": "Do not change either frozen file until all ten responses are generated, frozen, and scored."
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "skill_name": "building-and-evolving-organizations",
+  "phase": "forward",
+  "reviewer_id": "org-forward-case-01",
+  "canonical_agent_task": "/root/org_forward_case_01",
+  "canonical_agent_tasks": [
+    "/root/org_forward_case_01",
+    "/root/org_forward_case_02",
+    "/root/org_forward_case_03",
+    "/root/org_forward_case_04",
+    "/root/org_forward_case_05"
+  ],
+  "generated_at": "2026-07-15T20:12:45Z",
+  "model_identity": "Codex (GPT-5)",
+  "dispatch_prompt": "Generate one fresh response for one assigned frozen prompt using only that prompt plus the final frozen SKILL.md and runtime contract, without criteria, baseline or forward outputs or scores, reviews, evidence, provenance, research, other skills, or git metadata.",
+  "cases_projection": "one-id-and-prompt-only-per-generator",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "2a1e0a27562aa3cfac61ce280a833bd538e4ad633267e238d8cf7bed695e572a",
+    "runtime_sha256": "6fc8f66eb3b3aea79b1bab9b67602887e0bbb17a00e302e6982fb48378e7bd5b"
+  },
+  "response_hash_algorithm": "sha256",
+  "cases_sha256": "afae81309f8a6eaf1b0a41ae15df850ac1479a5ad1d7c857918e957d00f6b7e9",
+  "projection_sha256": "e7b1a613d6ac218b52097ecd88b02da6bc1e1f914a0c79e62297f10ebcdc68f9",
+  "response_hashes": {
+    "scenario-01": "605582e6435702dabd1276a6d2ad5a712c4ad29d5567934ef39375e3cdb2a87c",
+    "scenario-02": "566cd480157086a3f7af09e8bec39911925cf774e97947a11b4ec47254899c5a",
+    "scenario-03": "a45b6c12fe04a311bc0c7729a47d06ca3062ae0f7f4c89991140b2b3ce168537",
+    "scenario-04": "c81dc2c663e4ee4a12199a28f65067a5fb6e80004a16e53bf789831af2facb0e",
+    "scenario-05": "3cf6ba7e9660b9e9bfe0f0dcf96a376beba7da76b52ed01f06a66f73d294ec05"
+  }
+}

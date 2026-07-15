@@ -1,0 +1,4 @@
+interface:
+  display_name: "Building and Evolving Organizations"
+  short_description: "Evolve startup roles, hiring, and ownership"
+  default_prompt: "Use $building-and-evolving-organizations to diagnose this startup organization decision and return a stage-aware operating record."

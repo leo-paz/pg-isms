@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "purpose": "Resolve current locations of immutable failed held-out artifacts without changing their historical frozen path declarations.",
+  "path_semantics": {
+    "historical_root": "At generation time, each attempt occupied evals/building-and-evolving-organizations/heldout/.",
+    "current_root": "The accepted attempt 003 now occupies the canonical heldout root.",
+    "preservation_rule": "Attempts 001 and 002 were moved byte-for-byte into attempt-N directories after failing. Embedded root paths are historical declarations and must not be edited to look current."
+  },
+  "attempts": [
+    {
+      "case_id": "org-heldout-attempt-001",
+      "vector": [0, 0, 1, 1, 1],
+      "integrity": "PASS",
+      "transfer": "FAIL",
+      "current_directory": "evals/building-and-evolving-organizations/heldout/attempt-001",
+      "artifacts": [
+        {"path": "attempt-001/case.json", "sha256": "b2aa55d28c2d3f657896da59ccf9dc99d6e9cb390ae153dc06293e50251ceea9", "bytes": 5716},
+        {"path": "attempt-001/generation-plan.json", "sha256": "017c6ad5d03bcdf3328b5d8df90194806a558dc52ce34b7dc279d1b8741eca9a", "bytes": 3989},
+        {"path": "attempt-001/response.md", "sha256": "9c30c0cc1ccb4d8fc4783381f668aea0244a7d0b4640d451fa52e398d44a2020", "bytes": 19914},
+        {"path": "attempt-001/review.md", "sha256": "1a8fa35f06cfbf1afbb5e8b41751d73af711411250bc7ed0d9cbe34945bbc7ee", "bytes": 1061},
+        {"path": "attempt-001/score.json", "sha256": "23222d3b3c5b0099b00cfa84b3178fe366a08179c46933a1a86df66771a2bd3c", "bytes": 8653},
+        {"path": "attempt-001/scorecard.md", "sha256": "2fa7c02335a35906df0bf30691fd5a587ed96f81ecfe09f549a3f5de451d3e98", "bytes": 5623},
+        {"path": "attempt-001/skill-freeze.json", "sha256": "bcb1ca3b52709df747a76055d0d5c553930ce5c4a84d60d52482ab78e340c3e2", "bytes": 806},
+        {"path": "attempt-001/summary.json", "sha256": "b940e099296cee73604628197b8335e0c25920e7d162ea458132c9efb4ab3259", "bytes": 608}
+      ]
+    },
+    {
+      "case_id": "org-heldout-attempt-002",
+      "vector": [1, 0, 0, 0, 0],
+      "integrity": "PASS",
+      "transfer": "FAIL",
+      "current_directory": "evals/building-and-evolving-organizations/heldout/attempt-002",
+      "artifacts": [
+        {"path": "attempt-002/case.json", "sha256": "905f08d79020052395cc8c97f037078ed8710042a953cb78fed701dce6e305fc", "bytes": 9485},
+        {"path": "attempt-002/generation-plan.json", "sha256": "3081252bde4374020e22b30bf87b438efcabf44cd64a7824d8fb4c9fbe66f088", "bytes": 4025},
+        {"path": "attempt-002/prompt.txt", "sha256": "0bbf1d70b9dd670c9ca23b7495da58b0144275933c289b7638133da4bc55299f", "bytes": 4509},
+        {"path": "attempt-002/response.md", "sha256": "56876ecb2325a221b76d228fe2573caded5e5a4a72e27e915eabc61a86146885", "bytes": 22353},
+        {"path": "attempt-002/review.md", "sha256": "5caba4c251a91ce4c40420734cfa6aa48c1ef71b77d169b9b59ed74bc3ebe294", "bytes": 903},
+        {"path": "attempt-002/score.json", "sha256": "93c81cf6496d97e6814f06a583946f784222ff9a7ab883cc05ab3f7b73fc254e", "bytes": 9247},
+        {"path": "attempt-002/scorecard.md", "sha256": "d6512be891b1e0030d271188ed0b719ec80ef8bc2eaf9fbe6675ac1acf6196f3", "bytes": 4144},
+        {"path": "attempt-002/skill-freeze.json", "sha256": "e542c6c6851be2a658bf52e93153324ef7d772f2ecc00f20a99053bdd4ed1cc1", "bytes": 747},
+        {"path": "attempt-002/summary.json", "sha256": "83553ae6bdfa0c093f8b85e8b15346aaeeab9befb38e45656517668d53f420d4", "bytes": 612}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "plan_id": "building-and-evolving-organizations-microtest-001",
+  "outputs_frozen_at": "2026-07-15T21:53:09Z",
+  "generation_plan": {
+    "sha256": "7eb719689e1cc8e48bc016ac9f8d44e1b7b9ac2bd4f18faae0ea9fca0aac2aa8",
+    "state_at_dispatch": "frozen-before-response-generation"
+  },
+  "integrity": {
+    "sample_count": 10,
+    "control_count": 5,
+    "guided_count": 5,
+    "unique_task_count": 10,
+    "unique_response_sha256_count": 10,
+    "all_under_1500_words": true,
+    "post_generation_revision": false,
+    "criteria_hidden_from_generators": true,
+    "prior_outputs_hidden_from_generators": true
+  },
+  "responses": [
+    {"index": 1, "canonical_task": "/root/org_micro_control_1", "sample_id": "org_micro_control_1", "arm": "control", "path": "evals/building-and-evolving-organizations/microtest/control/rep-1.md", "sha256": "70c2466612b88e545868f62d1777409acf758080bc01e9e843b004f056f1287e", "bytes": 7174, "words": 1042},
+    {"index": 2, "canonical_task": "/root/org_micro_control_2", "sample_id": "org_micro_control_2", "arm": "control", "path": "evals/building-and-evolving-organizations/microtest/control/rep-2.md", "sha256": "8d04d6b64af9b71cdc2b7867981dbf500c3a7f43e955de668293ea6f9d765249", "bytes": 8213, "words": 1197},
+    {"index": 3, "canonical_task": "/root/org_micro_control_3", "sample_id": "org_micro_control_3", "arm": "control", "path": "evals/building-and-evolving-organizations/microtest/control/rep-3.md", "sha256": "73a1c60241c70c25daa78d9b8e82061b81af41747658f0378222b458e406bbd7", "bytes": 6994, "words": 1014},
+    {"index": 4, "canonical_task": "/root/org_micro_control_4", "sample_id": "org_micro_control_4", "arm": "control", "path": "evals/building-and-evolving-organizations/microtest/control/rep-4.md", "sha256": "cbe8ca7cd186fb66df4011f483b64ee576a1b1e22e616f0d57f4f558119e1d3b", "bytes": 7579, "words": 1120},
+    {"index": 5, "canonical_task": "/root/org_micro_control_5", "sample_id": "org_micro_control_5", "arm": "control", "path": "evals/building-and-evolving-organizations/microtest/control/rep-5.md", "sha256": "7d49f0a678c97d26cd439689ca7fd59c79669319d83a466d48b7c60e4c11f9a0", "bytes": 7123, "words": 1066},
+    {"index": 6, "canonical_task": "/root/org_micro_guided_1", "sample_id": "org_micro_guided_1", "arm": "guided", "path": "evals/building-and-evolving-organizations/microtest/guided/rep-1.md", "sha256": "d2b94ae8c97f631e43af06a29dbd5459342191914a67d80a98e9f7fae8dcc542", "bytes": 9322, "words": 1370},
+    {"index": 7, "canonical_task": "/root/org_micro_guided_2", "sample_id": "org_micro_guided_2", "arm": "guided", "path": "evals/building-and-evolving-organizations/microtest/guided/rep-2.md", "sha256": "fd23f66dca751d0abc6bc6b00047955e7a2ba8c135cf33279b7d89898813c9ca", "bytes": 9692, "words": 1393},
+    {"index": 8, "canonical_task": "/root/org_micro_guided_3", "sample_id": "org_micro_guided_3", "arm": "guided", "path": "evals/building-and-evolving-organizations/microtest/guided/rep-3.md", "sha256": "10fe768e24b1a98c9f3690df9c34f3c3882ec77414b1182ab8c0bca7a0fd1618", "bytes": 9405, "words": 1388},
+    {"index": 9, "canonical_task": "/root/org_micro_guided_4", "sample_id": "org_micro_guided_4", "arm": "guided", "path": "evals/building-and-evolving-organizations/microtest/guided/rep-4.md", "sha256": "55f6a5234d16aed297192a7191b555bcc63192e2f6443483f5f4a12ccfeaef9e", "bytes": 9952, "words": 1450},
+    {"index": 10, "canonical_task": "/root/org_micro_guided_5", "sample_id": "org_micro_guided_5", "arm": "guided", "path": "evals/building-and-evolving-organizations/microtest/guided/rep-5.md", "sha256": "281d168cd6ce1eb65acdd07f26bcb2aa9b945e6c97d3c9085ce094174888d536", "bytes": 9939, "words": 1422}
+  ]
+}

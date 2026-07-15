@@ -1,0 +1,1187 @@
+{
+  "schema_version": 1,
+  "skill_name": "building-and-evolving-organizations",
+  "source_reviewers": [
+    "organization-source-a",
+    "organization-source-supplemental",
+    "organization-source-b",
+    "organization-source-c"
+  ],
+  "records": [
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "002",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "small-team-advantage",
+          "claim": "Reduce components and interconnections with high-leverage abstractions so a small team can control a larger technical system with less coordination loss.",
+          "line_ranges": [
+            "20-30",
+            "35-37"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "007",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "incentives-and-behavior",
+          "claim": "Treat sponsor motives, forced adoption, committee governance, and hype as hypotheses about adoption; verify quality directly instead of judging technology by those signals.",
+          "line_ranges": [
+            "20-52"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "011",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "small-team-advantage",
+          "claim": "Keep a team small enough for direct interaction, because every added relationship creates negotiation time and unforeseen coordination failures.",
+          "line_ranges": [
+            "152-156"
+          ]
+        },
+        {
+          "canonical_theme": "team-structure-and-ownership",
+          "claim": "Give trusted makers definite release ownership and keep live operations close to the people changing the product so feedback and accountability remain direct.",
+          "line_ranges": [
+            "138-148",
+            "158-160"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "014",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "Build access to strong peer communities, because talented practitioners working on related problems can inspire and develop one another.",
+          "line_ranges": [
+            "158-166"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "017",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "small-team-advantage",
+          "claim": "When the complete ecosystem fits, a high-leverage technical stack can let a capable small team deliver with fewer hiring and coordination demands.",
+          "line_ranges": [
+            "128-138"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "019",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "team-structure-and-ownership",
+          "claim": "For decisions requiring one coherent design, gather trusted advice but leave final authority with one accountable owner.",
+          "line_ranges": [
+            "78-88"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "021",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "incentives-and-behavior",
+          "claim": "Use consequential external work to redirect attention from local status games toward getting the work right.",
+          "line_ranges": [
+            "98-104",
+            "158-166"
+          ]
+        },
+        {
+          "canonical_theme": "performance-selection-and-credentials",
+          "claim": "Use meaningful external tests of skill instead of social rank so expertise can be recognized without internal political contests.",
+          "line_ranges": [
+            "158-166"
+          ]
+        },
+        {
+          "canonical_theme": "team-culture-and-cohesion",
+          "claim": "Give the group a consequential shared purpose so members cooperate against an external challenge instead of making one another the opponent.",
+          "line_ranges": [
+            "98-104",
+            "158-166"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "024",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "team-structure-and-ownership",
+          "claim": "Divide shared software into sharply defined modules with definite owners and deliberately designed interfaces, avoiding code that nobody truly owns.",
+          "line_ranges": [
+            "132-136"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "025",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "incentives-and-behavior",
+          "claim": "Before changing an adversarial system's incentives, model how volume and costs rebound, then add user control, human verification, and safeguards against abuse.",
+          "line_ranges": [
+            "16-30",
+            "38-46"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "027",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "team-culture-and-cohesion",
+          "claim": "Protect principled rule-questioning and attempts at difficult problems, while distinguishing productive dissent from performative hostility that slows innovation.",
+          "line_ranges": [
+            "14-28"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "028",
+      "reviewer": "organization-source-supplemental",
+      "theme_evidence": [
+        {
+          "canonical_theme": "incentives-and-behavior",
+          "claim": "Large organizations blur individual contribution, weakening the link between effort, measurement, and reward.",
+          "line_ranges": [
+            "114-128"
+          ]
+        },
+        {
+          "canonical_theme": "small-team-advantage",
+          "claim": "A small selective group makes contribution visible and peer effort consequential.",
+          "line_ranges": [
+            "142-164"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "029",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "performance-selection-and-credentials",
+          "claim": "Evaluate delivered value rather than effort alone, and recognize that some concentrated judgments cannot be reproduced by aggregating average contributions.",
+          "line_ranges": [
+            "46-48",
+            "162-166"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "030",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "Attract strong technical candidates with meaningful work, effective tools, autonomy, quiet focus, high standards, and strong peers; evaluate them through relevant work together.",
+          "line_ranges": [
+            "40-58",
+            "62-88",
+            "106-118",
+            "122-140"
+          ]
+        },
+        {
+          "canonical_theme": "performance-selection-and-credentials",
+          "claim": "Prefer observed work quality and informed peer evidence over resumes, fame, self-report, or polished conversational signals when judging technical performance.",
+          "line_ranges": [
+            "122-140"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "031",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "Self-directed mastery of a tool chosen for genuine interest can signal intrinsic technical motivation beyond direct career optimization.",
+          "line_ranges": [
+            "12-24"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "033",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "incentives-and-behavior",
+          "claim": "Treat equity incentives as causal hypotheses: they can increase effort but may reward short-term market appearances instead of durable company value.",
+          "line_ranges": [
+            "98-110"
+          ]
+        },
+        {
+          "canonical_theme": "small-team-advantage",
+          "claim": "Before adding headcount, count the communication friction and productivity loss that accompany a larger group, not only whether salaries are affordable.",
+          "line_ranges": [
+            "136-144"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "037",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "team-structure-and-ownership",
+          "claim": "Keep final product authority with people who have direct design judgment, using focus-group input as evidence rather than as the decision-maker.",
+          "line_ranges": [
+            "50-60"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "039",
+      "reviewer": "organization-source-supplemental",
+      "theme_evidence": [
+        {
+          "canonical_theme": "organizational-scale-and-overhead",
+          "claim": "Headcount adds recurring cost and meeting coordination; add a role for missing work, not a speculative org chart.",
+          "line_ranges": [
+            "230-238"
+          ]
+        },
+        {
+          "canonical_theme": "small-team-advantage",
+          "claim": "Slow growth kept founders across functions and close to users, preserving adaptability before scale.",
+          "line_ranges": [
+            "200-212"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "045",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "incentives-and-behavior",
+          "claim": "Trace motives, timing, and shared source material before treating repeated favorable coverage or definite narratives as independent evidence.",
+          "line_ranges": [
+            "22-40",
+            "46-66"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "046",
+      "reviewer": "organization-source-supplemental",
+      "theme_evidence": [
+        {
+          "canonical_theme": "organizational-leadership-and-role-evolution",
+          "claim": "Lower capital needs can let founders retain engineering authority while adding an operator for other functions.",
+          "line_ranges": [
+            "90-102"
+          ]
+        },
+        {
+          "canonical_theme": "team-structure-and-ownership",
+          "claim": "Keeping a proven team intact preserves working relationships and reduces defects at code-ownership boundaries.",
+          "line_ranges": [
+            "82-84"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "047",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "incentives-and-behavior",
+          "claim": "Design roles around meaningful work and observable results, because money, professional identity, and attendance are incomplete proxies for motivation and output.",
+          "line_ranges": [
+            "28-40",
+            "74-80"
+          ]
+        },
+        {
+          "canonical_theme": "team-structure-and-ownership",
+          "claim": "Let ideas and quality evidence rise from makers, and pair creative autonomy with real economic ownership when structuring entrepreneurial work.",
+          "line_ranges": [
+            "100-118",
+            "124-156"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "049",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "incentives-and-behavior",
+          "claim": "Match meaningful upside to unusually risky commitments, because capped rewards weaken willingness to invest time and ideas in low-probability ventures.",
+          "line_ranges": [
+            "46-66"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "054",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "performance-selection-and-credentials",
+          "claim": "To surface exceptional outliers, widen the contribution pool and add effective quality selection instead of relying only on centralized editors that damp extremes.",
+          "line_ranges": [
+            "62-70"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "063",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "Strengthen talent access through dense peer networks and lawful cross-border recruiting; low-redundancy startups must evaluate every hire for reliable role performance.",
+          "line_ranges": [
+            "50-58",
+            "60-70",
+            "168-186"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "064",
+      "reviewer": "organization-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "performance-selection-and-credentials",
+          "claim": "Inspect what every selection test actually rewards, because credentials, politics, or test-hacking can displace the performance the test claims to measure.",
+          "line_ranges": [
+            "50-78"
+          ]
+        },
+        {
+          "canonical_theme": "small-team-advantage",
+          "claim": "Use small, inexpensive projects to move without committee overhead, finish quickly, and learn through faster cycles before institutional stakes harden.",
+          "line_ranges": [
+            "138-150"
+          ]
+        },
+        {
+          "canonical_theme": "team-structure-and-ownership",
+          "claim": "Preserve direct contact with the medium and an end-to-end vertical slice while it remains manageable, because delegation can remove critical design feedback.",
+          "line_ranges": [
+            "94-116"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "069",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "Keep technical judgment in the hiring loop because nontechnical selectors may mistake credentials for programming ability.",
+          "line_ranges": [
+            "68-76"
+          ]
+        },
+        {
+          "canonical_theme": "team-structure-and-ownership",
+          "claim": "Assign one technical founder explicit responsibility for early sales, partnerships, or user acquisition instead of leaving commercial work ownerless.",
+          "line_ranges": [
+            "178-188"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "071",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "organizational-scale-and-overhead",
+          "claim": "Remove corporate-looking rituals when they consume energy without improving the work.",
+          "line_ranges": [
+            "16-22"
+          ]
+        },
+        {
+          "canonical_theme": "performance-selection-and-credentials",
+          "claim": "Judge early startup productivity by substantive output rather than professional appearance.",
+          "line_ranges": [
+            "16-22"
+          ]
+        },
+        {
+          "canonical_theme": "small-team-advantage",
+          "claim": "Use the unusually productive three- or four-person stage as the benchmark for preserving individual decision scope.",
+          "line_ranges": [
+            "24-28"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "075",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "performance-selection-and-credentials",
+          "claim": "Treat hiring decisions near a crowded cutoff as noisy selection outcomes, not precise estimates of individual ability.",
+          "line_ranges": [
+            "18-28"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "076",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "incentives-and-behavior",
+          "claim": "Map governance incentives separately because founders optimize one company while diversified investors may optimize portfolio-wide resolution.",
+          "line_ranges": [
+            "174-180"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "078",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "employee-equity-and-compensation",
+          "claim": "Estimate an employee grant from expected outcome improvement, then subtract salary, overhead, and a company margin.",
+          "line_ranges": [
+            "34-48"
+          ]
+        },
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "Make a hire only when expected outcome improvement exceeds salary, overhead, equity, and the company's required margin.",
+          "line_ranges": [
+            "34-48"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "080",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "small-team-advantage",
+          "claim": "Keep rapidly changing program work in small groups so integrated redesign remains possible.",
+          "line_ranges": [
+            "46-46"
+          ]
+        },
+        {
+          "canonical_theme": "team-structure-and-ownership",
+          "claim": "Give each evolving component one clear owner instead of multiple people editing the same fast-moving core.",
+          "line_ranges": [
+            "48-55"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "082",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "performance-selection-and-credentials",
+          "claim": "Calibrate pedigree signals against visible later outcomes and trust direct individual assessment when prestige conflicts with observation.",
+          "line_ranges": [
+            "20-28",
+            "44-46"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "084",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "performance-selection-and-credentials",
+          "claim": "Prefer a working company's observable performance over presentation polish and business plans when startup costs make that evidence available.",
+          "line_ranges": [
+            "70-78"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "087",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "incentives-and-behavior",
+          "claim": "Shape conduct through face-to-face norms, peer correction, and visible reputation consequences before destructive behavior selects the community.",
+          "line_ranges": [
+            "22-30",
+            "32-36"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "089",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "Keep headcount as small as each stage permits because mediocre hires reduce output and require more coordination.",
+          "line_ranges": [
+            "76-82"
+          ]
+        },
+        {
+          "canonical_theme": "organizational-scale-and-overhead",
+          "claim": "Treat hierarchy as a constraint tree whose coordination layers reduce each person's freedom to act.",
+          "line_ranges": [
+            "26-38"
+          ]
+        },
+        {
+          "canonical_theme": "small-team-advantage",
+          "claim": "When scale is necessary, favor genuinely independent small units and otherwise keep the technology company lean.",
+          "line_ranges": [
+            "76-82"
+          ]
+        },
+        {
+          "canonical_theme": "team-structure-and-ownership",
+          "claim": "Protect invention work from cross-group interface drag by giving units real independence over their components.",
+          "line_ranges": [
+            "62-70",
+            "76-80"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "094",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "incentives-and-behavior",
+          "claim": "Question confident rules that preserve authority or simplify group management, then consciously retest inherited assumptions before enforcing them.",
+          "line_ranges": [
+            "114-148",
+            "164-176"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "097",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "organizational-scale-and-overhead",
+          "claim": "Delegate management only after sufficient scale and founder preference justify it, while protecting against key-person and irreversible-handoff risk.",
+          "line_ranges": [
+            "16-26",
+            "30-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "100",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "Count excessive release friction as a talent cost because strong programmers may leave organizations that prevent shipping.",
+          "line_ranges": [
+            "36-54"
+          ]
+        },
+        {
+          "canonical_theme": "organizational-scale-and-overhead",
+          "claim": "Require each proposed control to account for direct, delay, supplier-exclusion, and opportunity costs alongside prevented harm.",
+          "line_ranges": [
+            "12-22",
+            "24-34"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "101",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "organizational-scale-and-overhead",
+          "claim": "Choose organizational size against change speed; large disciplined structures lose advantage when the rules change quickly.",
+          "line_ranges": [
+            "18-30"
+          ]
+        },
+        {
+          "canonical_theme": "performance-selection-and-credentials",
+          "claim": "Evaluate autonomous groups through individually measured performance rather than inherited assumptions that bigger organizations are better.",
+          "line_ranges": [
+            "30-30",
+            "48-48"
+          ]
+        },
+        {
+          "canonical_theme": "small-team-advantage",
+          "claim": "Use smaller independent groups when rapid technological change makes speed outweigh economies of scale.",
+          "line_ranges": [
+            "18-22",
+            "48-48"
+          ]
+        },
+        {
+          "canonical_theme": "team-structure-and-ownership",
+          "claim": "Structure work as a network of autonomous units whose performance is measured independently.",
+          "line_ranges": [
+            "48-48"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "103",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "Hire for demonstrable ability when relevant performance can be measured instead of treating graduation or pedigree as decisive.",
+          "line_ranges": [
+            "60-64",
+            "68-74"
+          ]
+        },
+        {
+          "canonical_theme": "incentives-and-behavior",
+          "claim": "Pay and retain people by current performance and market alternatives rather than seniority or uncertain deferred rewards.",
+          "line_ranges": [
+            "78-96"
+          ]
+        },
+        {
+          "canonical_theme": "performance-selection-and-credentials",
+          "claim": "Treat credentials as prediction proxies and replace them with actual performance whenever measurement is cheap and timely.",
+          "line_ranges": [
+            "58-64"
+          ]
+        },
+        {
+          "canonical_theme": "small-team-advantage",
+          "claim": "Use small organizations to expose weak performance sooner and develop new ideas faster than large organizations.",
+          "line_ranges": [
+            "64-64",
+            "68-74",
+            "78-78"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "104",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "team-structure-and-ownership",
+          "claim": "Reduce factional team disputes by minimizing identity labels and making evidence-following the durable shared commitment.",
+          "line_ranges": [
+            "24-34",
+            "38-42"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "106",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "incentives-and-behavior",
+          "claim": "Shape culture through visible expectations and local norms, and remove status signals that divide a previously cohesive group.",
+          "line_ranges": [
+            "32-44",
+            "68-78"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "107",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "incentives-and-behavior",
+          "claim": "Expect avoidable restrictions to adverse-select for candidates with fewer alternatives rather than the strongest candidates.",
+          "line_ranges": [
+            "16-24"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "111",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "At the initial technical stage, prioritize capable hackers working on a problem whose success can be measured.",
+          "line_ranges": [
+            "28-32"
+          ]
+        },
+        {
+          "canonical_theme": "small-team-advantage",
+          "claim": "Keep the initial team concentrated on capable hackers before adding surrounding business machinery.",
+          "line_ranges": [
+            "28-32"
+          ]
+        },
+        {
+          "canonical_theme": "team-structure-and-ownership",
+          "claim": "Center early responsibility on builders directly accountable to a measurable technical problem.",
+          "line_ranges": [
+            "28-32"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "112",
+      "reviewer": "organization-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "performance-selection-and-credentials",
+          "claim": "Use specialist market selection as a testable eligibility proxy when a generalist institution cannot evaluate candidates directly.",
+          "line_ranges": [
+            "20-24"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "123",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "organizational-leadership-and-role-evolution",
+          "claim": "Revisit the technical founder's responsibilities as growth replaces coding with planning, hiring, management, and preparation for the next constraint.",
+          "line_ranges": [
+            "340-342"
+          ]
+        },
+        {
+          "canonical_theme": "organizational-scale-and-overhead",
+          "claim": "Expect organizational growth to add employee management and forward planning, reducing the founder's available coding time.",
+          "line_ranges": [
+            "340-346"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "124",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "Treat external reputation and how power is used as recruiting inputs because high-optionality programmers can avoid employers they distrust.",
+          "line_ranges": [
+            "48-54"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "130",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "Protect technical talent density because strong programmers seek strong peers and uneven hiring can compound into weaker recruiting.",
+          "line_ranges": [
+            "60-64"
+          ]
+        },
+        {
+          "canonical_theme": "team-culture-and-cohesion",
+          "claim": "When software is strategic, preserve a builder-centered culture where programmers reason about product problems instead of merely translating specifications.",
+          "line_ranges": [
+            "58-70"
+          ]
+        },
+        {
+          "canonical_theme": "team-structure-and-ownership",
+          "claim": "Give programmers product reasoning and decision scope rather than limiting them to code execution under centrally defined specifications.",
+          "line_ranges": [
+            "58-70"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "132",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "team-culture-and-cohesion",
+          "claim": "For co-located early teams, evaluate whether office surroundings support voluntary shared meals, informal discussion, and return to implementation.",
+          "line_ranges": [
+            "24-28"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "145",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "organizational-leadership-and-role-evolution",
+          "claim": "Retain a new organizational structure only after observing that the initial time-boxed cohort worked well.",
+          "line_ranges": [
+            "32-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "158",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "Treat habitual meanness as a recruiting risk because strong candidates with alternatives can decline leaders who impose that cost.",
+          "line_ranges": [
+            "18-27"
+          ]
+        },
+        {
+          "canonical_theme": "team-culture-and-cohesion",
+          "claim": "Build a culture that races ahead through new ideas instead of spending scarce attention on local fights.",
+          "line_ranges": [
+            "22-24"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "162",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "When rare invention is truly the bottleneck, distinguish it from ordinary capacity and widen the technical search beyond one country.",
+          "line_ranges": [
+            "14-20"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "167",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "When a necessary skill is orthogonal to founder strengths, source someone who has it instead of accepting the capability gap.",
+          "line_ranges": [
+            "24-30"
+          ]
+        },
+        {
+          "canonical_theme": "organizational-leadership-and-role-evolution",
+          "claim": "Acknowledge founder skill gaps and hand off orthogonal work rather than letting identity attachment preserve a weak decision.",
+          "line_ranges": [
+            "20-32"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "169",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "organizational-scale-and-overhead",
+          "claim": "Treat headcount as an effect of validated growth, not a cause; early overhiring raises burn and makes fundamental product evolution harder.",
+          "line_ranges": [
+            "34-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "172",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "organizational-leadership-and-role-evolution",
+          "claim": "Make final responsibility explicit for decisions spanning funding, public communication, partnerships, and hiring.",
+          "line_ranges": [
+            "18-20"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "173",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "organizational-scale-and-overhead",
+          "claim": "Treat integrated scale as contingent: supplier maturity and lower coordination costs can make focused specialist networks more efficient than one large organization.",
+          "line_ranges": [
+            "72-78"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "176",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "Include current candidate location preferences in hiring strategy because talent access can override founders' preferred office location.",
+          "line_ranges": [
+            "24-28"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "178",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "organizational-leadership-and-role-evolution",
+          "claim": "Do not treat criticism alone as proof a builder-type chief executive is wrong for the role; power and low charisma can produce dislike.",
+          "line_ranges": [
+            "12-14"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "181",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "team-culture-and-cohesion",
+          "claim": "Protect good-faith challenges to cherished assumptions because suppressing direct contradiction also blocks related novel ideas.",
+          "line_ranges": [
+            "14-18"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "191",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "team-culture-and-cohesion",
+          "claim": "Protect discussion of apparently bad ideas with margin for evaluation error, because topic restrictions also suppress connected discoveries.",
+          "line_ranges": [
+            "40-54"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "194",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "organizational-scale-and-overhead",
+          "claim": "Explore revenue growth through automation or external suppliers when adding permanent roles would unnecessarily dilute the organization.",
+          "line_ranges": [
+            "104-112"
+          ]
+        },
+        {
+          "canonical_theme": "team-culture-and-cohesion",
+          "claim": "Treat culture dilution during growth as an open problem and test selective hiring or bounded spaces that protect independent thought.",
+          "line_ranges": [
+            "104-108"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "198",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "organizational-leadership-and-role-evolution",
+          "claim": "When a durable institution consumes all leadership attention, choose a successor, transfer operations gradually, and separate control from founders when longevity requires it.",
+          "line_ranges": [
+            "256-268"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "201",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "When discussing startup roles, state only that rare early employees appear among extreme-tail equity fortunes; do not imply a typical recruiting outcome.",
+          "line_ranges": [
+            "18-22"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "205",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "hiring-and-talent",
+          "claim": "Do not infer low technical drive from social diffidence; some quiet builders show fierce competitiveness and independent problem-solving.",
+          "line_ranges": [
+            "12-24"
+          ]
+        },
+        {
+          "canonical_theme": "team-culture-and-cohesion",
+          "claim": "Give intense technical ambition a hard constructive problem before unused drive turns into bitterness and reflexive idea-shooting.",
+          "line_ranges": [
+            "32-34"
+          ]
+        },
+        {
+          "canonical_theme": "team-structure-and-ownership",
+          "claim": "Place highly driven technical people in small groups with hard problems where correct answers matter, while requiring control of avoidable abrasion.",
+          "line_ranges": [
+            "42-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "building-and-evolving-organizations",
+      "article_no": "206",
+      "reviewer": "organization-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "team-structure-and-ownership",
+          "claim": "Preserve ownership inside collaboration by giving strong makers high-level outcomes and autonomy over details, or by fitting separately owned components together.",
+          "line_ranges": [
+            "38-50"
+          ]
+        }
+      ]
+    }
+  ]
+}

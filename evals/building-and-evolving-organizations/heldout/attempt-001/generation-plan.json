@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-07-15T20:30:42Z",
+  "frozen_at_utc": "2026-07-15T20:30:42Z",
+  "freeze_state": "frozen-before-response",
+  "authorship": {
+    "case_author": "/root/org_heldout_author",
+    "case_authorship_order": "after-pre-author-skill-freeze",
+    "prompt_reviewer": {
+      "task": "/root/org_heldout_prompt_gate",
+      "verdict": "PASS",
+      "reviewed_at_utc": "2026-07-15T20:28:45Z",
+      "review_artifact_sha256": "9e6e3c91b431921211e84f37d8801da4eb9bf5f38a4daa47f9798518e1f56002",
+      "findings": []
+    }
+  },
+  "frozen_inputs": {
+    "skill_freeze_path": "evals/building-and-evolving-organizations/heldout/skill-freeze.json",
+    "skill_freeze_sha256": "bcb1ca3b52709df747a76055d0d5c553930ce5c4a84d60d52482ab78e340c3e2",
+    "skill_freeze_bytes": 806,
+    "case_path": "evals/building-and-evolving-organizations/heldout/case.json",
+    "case_source_path": ".superpowers/sdd/org-heldout-draft/case.json",
+    "case_source_equality": "byte-identical",
+    "case_sha256": "b2aa55d28c2d3f657896da59ccf9dc99d6e9cb390ae153dc06293e50251ceea9",
+    "case_bytes": 5716,
+    "prompt_sha256": "97cd9558af2c7793c752ad09eb039609124c198ce75d07f86a4efb1e65ec93a5",
+    "prompt_bytes": 2189,
+    "prompt_hash_domain": "decoded prompt UTF-8 bytes with no added terminal LF",
+    "hidden_criteria_sha256": "661921dd17cee33481c0dcac2f4bbf309297cd0290b779827ca583e2ea9f9242",
+    "hidden_criteria_bytes": 2556,
+    "hidden_criteria_canonicalization": "compact JSON of case criteria with recursively sorted object keys, array order preserved, and no terminal LF",
+    "skill_path": "skills/building-and-evolving-organizations/SKILL.md",
+    "skill_sha256": "2a1e0a27562aa3cfac61ce280a833bd538e4ad633267e238d8cf7bed695e572a",
+    "skill_bytes": 3718,
+    "runtime_path": "skills/building-and-evolving-organizations/references/runtime-contract.md",
+    "runtime_sha256": "6fc8f66eb3b3aea79b1bab9b67602887e0bbb17a00e302e6982fb48378e7bd5b",
+    "runtime_bytes": 12033
+  },
+  "generation": {
+    "arm": "guided",
+    "generator": "/root/org_heldout_generator",
+    "canonical_task": "org_heldout_001",
+    "sample_id": "org-heldout-attempt-001",
+    "context_id": "org-heldout-context-001",
+    "response_path": "evals/building-and-evolving-organizations/heldout/response.md",
+    "context_assembly": "# Skill\\n\\n<skill without final LF>\\n\\n# Runtime contract\\n\\n<runtime without final LF>\\n\\n# User request\\n\\n<prompt>\\n",
+    "context_sha256": "690a3e0b755bc5860600e851e10b022cab0482a242fc0cfabd5a9b081b6a1279",
+    "context_bytes": 17988,
+    "generator_allowed_input": "only the exact frozen skill, runtime contract, and decoded prompt identified above, plus the response-file path and header contract",
+    "generator_forbidden_inputs": [
+      "hidden criteria",
+      "case metadata",
+      "author or prompt-review commentary",
+      "baseline or forward artifacts",
+      "prior responses, scores, or reviews",
+      "evidence, provenance, research, other skills, or git metadata"
+    ]
+  },
+  "response_contract": {
+    "required_header_lines": [
+      "Case ID: org-heldout-attempt-001",
+      "Reviewer ID: org-heldout-generator"
+    ],
+    "body_requirement": "a filled, dated organization decision record grounded only in the prompt and frozen package",
+    "whitespace": "no trailing spaces or tabs and exactly one file-final LF",
+    "hash_domain": "whole response file"
+  },
+  "scoring": {
+    "scorer": "/root/org_heldout_scorer",
+    "strict_binary_bits": ["C1", "C2", "C3", "C4", "C5"],
+    "minimum_positive_bits": 4,
+    "total_bits": 5,
+    "criteria_visible_during_generation": false,
+    "score_only_after": "response is frozen and whole-file hash verified"
+  },
+  "independent_review": {
+    "reviewer": "/root/org_heldout_independent_review",
+    "required_verdicts": [
+      "integrity PASS",
+      "prompt naturalness and no leakage PASS",
+      "at least four strict bits PASS",
+      "held-out transfer PASS"
+    ]
+  }
+}

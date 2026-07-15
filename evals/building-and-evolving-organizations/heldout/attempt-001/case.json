@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "case_id": "org-heldout-attempt-001",
+    "authored_at_utc": "2026-07-15T20:22:55Z",
+    "prompt_word_count": 352,
+    "freeze_path": "evals/building-and-evolving-organizations/heldout/skill-freeze.json",
+    "freeze_sha256": "bcb1ca3b52709df747a76055d0d5c553930ce5c4a84d60d52482ab78e340c3e2",
+    "skill_path": "skills/building-and-evolving-organizations/SKILL.md",
+    "skill_sha256": "2a1e0a27562aa3cfac61ce280a833bd538e4ad633267e238d8cf7bed695e572a",
+    "skill_bytes": 3718,
+    "runtime_path": "skills/building-and-evolving-organizations/references/runtime-contract.md",
+    "runtime_sha256": "6fc8f66eb3b3aea79b1bab9b67602887e0bbb17a00e302e6982fb48378e7bd5b",
+    "runtime_bytes": 12033,
+    "passing_threshold": 4,
+    "criteria_count": 5
+  },
+  "prompt": "Today is July 15, 2026. I run a 22-person seed-stage company that flies commercial drones for electric-utility inspections. I need a decision for our July 18 leadership meeting: for the next 45 days, should we hire a COO, create a weekly launch committee, or delegate more mission-change authority to our operations lead?\n\nFrom April 1 through June 30, 8 of 18 contracted inspection campaigns started more than two business days late. Our dated incident reviews attribute six late starts to changes waiting in my approval queue, two to weather, and none to a shortage of pilots. Four customers complained; a $180,000 annual renewal due September 30 is flagged at risk. The operations lead owns the customer schedule and report handoff but cannot approve a substitute vendor, a same-site time-window change, or a route adjustment. I average nine hours a week on those requests.\n\nThe flight-safety lead independently owns flight go/no-go, and the security lead owns customer-data access; either can stop a mission. Those controls were tightened after a documented December 2025 near miss. Our aviation adviser and counsel must review any change to those protections. From May 20 through June 15, we let the operations lead approve seven scheduling changes that stayed inside an already approved flight plan. Six cleared the same day, with no safety incident or access-control breach. The written boundary did not cover vendor substitutions and was ambiguous about weather-window changes. Whether the operations lead can sustain the extra load is unknown.\n\nOn July 10, our lead investor said an experienced COO would make us look ready for a Series A. A recruiter estimates a four-month search, $240,000 annual cash compensation plus equity, and a four-month ramp. The finance lead's June 30 model shows 16 months of runway at current burn and monthly cash-flow break-even in month 11, but that forecast has not been stress-tested.\n\nGive me a practical decision record for the meeting: choose the move now, state what we deliberately will not change, and specify the dated evidence that would make us continue, adjust, add capacity, or reverse course. Do not assume facts I have not provided.",
+  "criteria": [
+    {
+      "id": "C1",
+      "pass_condition": "Pass only if the response selects building-and-evolving-organizations with decision-rights as the primary route and branch, does not declare a survival emergency from the unstress-tested forecast, and names finance-owned verification of forecast robustness plus the result or switch condition that would make managing-runway-and-survival primary. Otherwise fail."
+    },
+    {
+      "id": "C2",
+      "pass_condition": "Pass only if the diagnosis explicitly separates observed, claimed, and unknown evidence; places the dated delay and delegation records in observed; places the investor's Series A assertion, the recruiter estimates, and the finance lead's runway and break-even forecast in claimed; places forecast robustness or stress-test result, whether survival binds, and sustainable operations-lead load in unknown; and concludes that the present evidence supports an approval-queue mechanism rather than a pilot-capacity gap while retaining weather or another credible rival. Otherwise fail."
+    },
+    {
+      "id": "C3",
+      "pass_condition": "Pass only if the selected change preserves one named end-to-end owner for the customer inspection outcome and gives the operations lead bounded authority over specified routine mission changes while defining founder exceptions, notification and time-bounded escalation, a backup, succession or absence coverage, and customer continuity; keeps flight-safety and security as independently owned, non-bypassable vetoes; and requires qualified aviation-adviser and counsel review before changing those protections. Otherwise fail."
+    },
+    {
+      "id": "C4",
+      "pass_condition": "Pass only if the response defines a bounded decision-rights test no longer than 45 days with start, intermediate, and final dates, named evidence artifacts and owners, baseline-linked measures, and directly observable thresholds for keep, revise, add-capacity, and rollback-or-stop; add-capacity must require a sustained residual capability or capacity gap after the queue mechanism is addressed, and rollback-or-stop must trigger on a protection bypass, material harm, continuity failure, or orphaned accountability. Otherwise fail."
+    },
+    {
+      "id": "C5",
+      "pass_condition": "Pass only if the record rejects both an immediate COO search based on the missing current capacity case and a weekly launch committee based on added coordination or unclear ownership, preserves the option to open a prewritten role charter if the residual-gap threshold is met, and closes with unresolved unknowns, a switch condition, and a named next owner for each test result. Otherwise fail."
+    }
+  ]
+}

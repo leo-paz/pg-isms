@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "scored_at_utc": "2026-07-15T20:38:06Z",
+  "identity": {
+    "scorer": "/root/org_heldout_scorer",
+    "role": "fresh strict held-out scorer",
+    "case_id": "org-heldout-attempt-001"
+  },
+  "scope": {
+    "allowed_inputs": [
+      "evals/building-and-evolving-organizations/heldout/skill-freeze.json",
+      "evals/building-and-evolving-organizations/heldout/case.json",
+      "evals/building-and-evolving-organizations/heldout/generation-plan.json",
+      "evals/building-and-evolving-organizations/heldout/response.md"
+    ],
+    "excluded_inputs_not_inspected": [
+      "skill and runtime contents",
+      "baseline, forward, and microtest artifacts",
+      "sources and provenance",
+      "other skills",
+      "author and prompt-review notes",
+      "existing score and review files",
+      "git history and diff",
+      "intended answers"
+    ],
+    "scoring_rule": "Strict binary scoring: a criterion passes only when every conjunct of its pass_condition appears in the response; no generous inference."
+  },
+  "integrity": {
+    "verdict": "PASS",
+    "files": {
+      "skill-freeze.json": {
+        "sha256": "bcb1ca3b52709df747a76055d0d5c553930ce5c4a84d60d52482ab78e340c3e2",
+        "bytes": 806,
+        "mtime_utc": "2026-07-15T20:20:22Z"
+      },
+      "case.json": {
+        "sha256": "b2aa55d28c2d3f657896da59ccf9dc99d6e9cb390ae153dc06293e50251ceea9",
+        "bytes": 5716,
+        "mtime_utc": "2026-07-15T20:30:14Z"
+      },
+      "generation-plan.json": {
+        "sha256": "017c6ad5d03bcdf3328b5d8df90194806a558dc52ce34b7dc279d1b8741eca9a",
+        "bytes": 3989,
+        "mtime_utc": "2026-07-15T20:31:11Z"
+      },
+      "response.md": {
+        "sha256": "9c30c0cc1ccb4d8fc4783381f668aea0244a7d0b4640d451fa52e398d44a2020",
+        "bytes": 19914,
+        "mtime_utc": "2026-07-15T20:36:04Z"
+      }
+    },
+    "json_parse": "PASS",
+    "cross_declarations": {
+      "skill_freeze_whole_file": "PASS: computed hash and bytes match case.json and generation-plan.json declarations.",
+      "case_whole_file": "PASS: computed hash and bytes match generation-plan.json declarations.",
+      "prompt": "PASS: decoded UTF-8 prompt recomputes to sha256 97cd9558af2c7793c752ad09eb039609124c198ce75d07f86a4efb1e65ec93a5 and 2189 bytes; wc -w is 352; all match declarations.",
+      "criteria": "PASS: recursively key-sorted compact JSON, array order preserved, no final LF recomputes to sha256 661921dd17cee33481c0dcac2f4bbf309297cd0290b779827ca583e2ea9f9242 and 2556 bytes; count is 5; all match declarations.",
+      "skill_runtime": "Scoped declaration check only: skill and runtime hashes and byte counts agree among skill-freeze.json, case.json, and generation-plan.json. Their contents were forbidden and were not independently hashed.",
+      "context": "Scoped declaration check only: generation-plan.json declares guided context sha256 690a3e0b755bc5860600e851e10b022cab0482a242fc0cfabd5a9b081b6a1279 and 17988 bytes, generator input limits, forbidden inputs, and criteria_visible_during_generation=false. Context bytes cannot be independently recomputed without the forbidden skill/runtime contents."
+    },
+    "response_contract": {
+      "required_headers": "PASS: the first two lines exactly match Case ID: org-heldout-attempt-001 and Reviewer ID: org-heldout-generator.",
+      "no_trailing_spaces_or_tabs": "PASS",
+      "exactly_one_final_lf": "PASS: the final two bytes are 0x2e 0x0a."
+    },
+    "chronology": {
+      "verdict": "PASS",
+      "evidence": "The declared sequence is skill freeze 2026-07-15T20:20:15Z, case authorship 2026-07-15T20:22:55Z, generation freeze 2026-07-15T20:30:42Z, then response mtime 2026-07-15T20:36:04Z. Whole-file mtimes are consistent: skill freeze 20:20:22Z, case 20:30:14Z, generation plan 20:31:11Z, response 20:36:04Z."
+    }
+  },
+  "score": {
+    "vector_order": ["C1", "C2", "C3", "C4", "C5"],
+    "vector": [0, 0, 1, 1, 1],
+    "criteria": {
+      "C1": {
+        "bit": 0,
+        "evidence_present": [
+          "The decision header explicitly selects Building and evolving organizations; decision-rights as the primary route and branch.",
+          "The survival state says survival is not established and does not treat the unstress-tested forecast as an emergency.",
+          "The finance lead owns an August 18 downside stress test."
+        ],
+        "missing_subchecks": [
+          "No finance-test result or explicit switch condition states when managing-runway-and-survival would become the primary route. The response only says the uncertainty blocks a COO commitment and makes the finance test a prerequisite for later capacity decisions."
+        ],
+        "verdict": "FAIL"
+      },
+      "C2": {
+        "bit": 0,
+        "evidence_present": [
+          "The evidence ledger explicitly separates Observed, Claimed, and Unknown.",
+          "Observed contains the April 1-June 30 delay record and the May 20-June 15 delegation record.",
+          "Claimed contains the July 10 investor assertion, recruiter estimates, and June 30 finance forecast.",
+          "Unknown contains sustainable operations-lead load.",
+          "The bottleneck conclusion supports an approval-queue mechanism, rejects a pilot-capacity gap on current evidence, and retains weather, rework, unclear interfaces, and workload as rivals."
+        ],
+        "missing_subchecks": [
+          "The explicit Unknown rows do not place forecast robustness or the stress-test result in Unknown.",
+          "The explicit Unknown rows do not place whether survival binds in Unknown."
+        ],
+        "verdict": "FAIL"
+      },
+      "C3": {
+        "bit": 1,
+        "evidence_present": [
+          "The operations lead is the named end-to-end owner for each contracted campaign's customer schedule and report handoff.",
+          "The written matrix gives bounded authority for inside-approved-plan same-site time-window changes and inside-preapproved-envelope route changes, while preserving founder-owned exceptions and next-business-day escalation.",
+          "Pre-execution logging and notifications, absence fallback to the founder, backup training, succession documentation, and customer-continuity handling are specified.",
+          "Flight-safety go/no-go and security data-access/stop authority remain independently owned and non-bypassable.",
+          "Aviation-adviser and counsel review is required before go-live and before protection-affecting changes."
+        ],
+        "missing_subchecks": [],
+        "verdict": "PASS"
+      },
+      "C4": {
+        "bit": 1,
+        "evidence_present": [
+          "The test runs July 19-September 1, 2026, explicitly 45 calendar days, with August 4 and August 18 intermediate reviews and a September 2 final review.",
+          "The record names evidence artifacts, measures, owners, and the April 1-June 30 baseline.",
+          "Continue, Adjust, Add capacity, and Reverse each have directly observable thresholds and named actions/owners.",
+          "Add capacity requires a sustained three-week residual workload plus a schedule/handoff miss or greater-than-10-percent request latency after authority and interface fixes.",
+          "Immediate reversal covers safety/access harm, stop-authority bypass, out-of-scope decisions, missing accountability evidence, review withdrawal, and continuity-impacting mishandled delays."
+        ],
+        "missing_subchecks": [],
+        "verdict": "PASS"
+      },
+      "C5": {
+        "bit": 1,
+        "evidence_present": [
+          "The response rejects an immediate COO search because the present mechanism is approval latency, no distinct current executive gap is established, and a hire cannot relieve the 45-day bottleneck.",
+          "It rejects a weekly launch committee because that adds a recurring handoff and meeting without fixing the missing decision right.",
+          "It preserves a fully costed/prewritten role-charter decision if a sustained residual gap survives authority and interface fixes, while explicitly not defaulting to a COO.",
+          "The record retains unresolved workload, boundary, outcome, finance, renewal, and executive-gap questions; gives switch/eligibility conditions; and assigns next owners for every Continue, Adjust, Add-capacity, and Reverse result."
+        ],
+        "missing_subchecks": [],
+        "verdict": "PASS"
+      }
+    },
+    "positive_bits": 3,
+    "total_bits": 5,
+    "minimum_positive_bits": 4,
+    "threshold_verdict": "FAIL",
+    "held_out_transfer_verdict": "FAIL"
+  },
+  "response_sha256": "9c30c0cc1ccb4d8fc4783381f668aea0244a7d0b4640d451fa52e398d44a2020",
+  "response_bytes": 19914
+}

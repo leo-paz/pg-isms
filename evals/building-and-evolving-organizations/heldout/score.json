@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "score_id": "org-heldout-attempt-003-strict",
+  "scorer": "/root/org_heldout3_scorer",
+  "scope": {
+    "authorized_inputs_only": [
+      "evals/building-and-evolving-organizations/heldout/skill-freeze.json",
+      "evals/building-and-evolving-organizations/heldout/case.json",
+      "evals/building-and-evolving-organizations/heldout/generation-plan.json",
+      "evals/building-and-evolving-organizations/heldout/prompt.txt",
+      "evals/building-and-evolving-organizations/heldout/response.md"
+    ],
+    "excluded_material_not_inspected": "Attempts 001/002; skill/runtime contents; baseline, forward, and microtest artifacts; sources/provenance; other skills; author and prompt-review artifacts; existing scores/reviews; git history/diff; intended answers."
+  },
+  "integrity": {
+    "verdict": "PASS",
+    "files": {
+      "skill-freeze.json": {"sha256": "fe54d93f10fb312605bf9941d1eae332644627cfd20de9add6d6a21d9cd3855f", "bytes": 747},
+      "case.json": {"sha256": "ed27fedc01c45cd216da18e51acc93e605ec6e6bae09fdf0f11be224aebc288d", "bytes": 6213},
+      "generation-plan.json": {"sha256": "0059317f524b04b0a3eca8b7c3c4b292ae63c5d1ce27a8cfb7a7c12b52a5c04c", "bytes": 3932},
+      "prompt.txt": {"sha256": "f4c6639c8e83c19eed3bc80fbeca02a474eb48bf4173c05242ec0f39ab62dfaa", "bytes": 2588},
+      "response.md": {"sha256": "3d00c301836f75e3c0602597778e6f0d77b3cd350fa2a71a82dee9f135c734a3", "bytes": 16979}
+    },
+    "manifest_checks": {
+      "freeze_file_matches_case_and_plan": true,
+      "case_file_matches_plan": true,
+      "case_prompt_sha256": "fe641bbb3e2fbc1febd8c8f6272fbb86991a08e5dfd2666b74311ec27712dab6",
+      "case_prompt_bytes": 2587,
+      "case_prompt_words": 406,
+      "prompt_projection_equals_case_prompt_plus_one_final_lf": true,
+      "hidden_criteria_tojson_sha256": "35ae3f9e0667353edb9b0aff63493be64c6746b81dc8714200dce46e2ccd451b",
+      "hidden_criteria_tojson_bytes": 2655,
+      "skill_hash_and_bytes_cross_manifest_consistent": true,
+      "runtime_hash_and_bytes_cross_manifest_consistent": true
+    },
+    "response_contract": {
+      "header_line_1_exact": true,
+      "header_line_2_exact": true,
+      "dated_filled_record": true,
+      "trailing_space_or_tab_lines": 0,
+      "exactly_one_file_final_lf": true,
+      "whole_file_hash_verified_after_response_existed": true
+    },
+    "chronology": {
+      "skill_freeze_created_at_utc": "2026-07-15T21:09:16Z",
+      "case_authored_at_utc": "2026-07-15T21:10:16Z",
+      "plan_frozen_at_utc": "2026-07-15T21:16:47Z",
+      "response_birth_and_mtime_utc": "2026-07-15T21:25:00Z",
+      "freeze_to_case_seconds": 60,
+      "case_to_plan_seconds": 391,
+      "plan_to_response_seconds": 493,
+      "freeze_before_response": true
+    },
+    "not_recomputed_by_scope": [
+      "case-source byte equality and prompt-review artifact hash",
+      "skill and runtime content hashes/bytes",
+      "assembled generation-context hash/bytes"
+    ]
+  },
+  "scoring": {
+    "strict_binary_vector": [1, 1, 1, 1, 1],
+    "positive_bits": 5,
+    "total_bits": 5,
+    "minimum_positive_bits": 4,
+    "threshold_verdict": "PASS",
+    "criteria": [
+      {
+        "id": "C1",
+        "bit": 1,
+        "evidence": ["response.md:6 selects process-or-control as the primary branch.", "response.md:10 and 47-54 reject Head of QA, universal executive sign-off, a management layer, and headcount as unsupported."],
+        "missing_subchecks": []
+      },
+      {
+        "id": "C2",
+        "bit": 1,
+        "evidence": ["response.md:27-39 is a case-specific evidence ledger separating observed, claimed, and unknown inputs.", "response.md:34 and 37-39 assign owners, replay/pilot methods, dates, thresholds or linked threshold gates, and decision effects for decision-relevant unknowns; response.md:68-72 supplies the numeric gates."],
+        "missing_subchecks": []
+      },
+      {
+        "id": "C3",
+        "bit": 1,
+        "evidence": ["response.md:10, 58-60 defines unit/range validation plus risk-triggered independent checking and the auditable release record.", "response.md:12, 14, and 62-64 name Ravi, retain Elena's end-to-end ownership, set a 15-minute urgent target, immediate escalation/containment, and an August 14 review."],
+        "missing_subchecks": []
+      },
+      {
+        "id": "C4",
+        "bit": 1,
+        "evidence": ["response.md:68-72 defines the reversible four-site July 20-August 14 test, July 22 replay, owners, baseline comparisons, and observable thresholds.", "response.md:74-79 contains exactly four final branches: keep, revise one boundary with an August 28 final review, expand to the next four sites, and rollback-or-stop to the prior path.", "response.md:78 and 81 exclude hiring as success and condition role analysis on a sustained residual capacity gap after process revision."],
+        "missing_subchecks": []
+      },
+      {
+        "id": "C5",
+        "bit": 1,
+        "evidence": ["response.md:10, 21-23, 62, and 70 preserve all-site 24/7 contact coverage, the 18-site current path, operator/interlock/override authority, incident evidence, and rollback while rejecting removal of high-harm safeguards.", "response.md:76-79 and 85 name next owners for every final branch, preserve the prior safe path, reject broad rollout before evidence, and state observable safety, mechanism, and post-process capacity switches."],
+        "missing_subchecks": []
+      }
+    ]
+  },
+  "transfer": {
+    "verdict": "PASS",
+    "basis": "A pre-author frozen behavior contract preceded a genuinely new case and the response by the verified chronology, and the response passes all five strict held-out criteria without relying on out-of-scope evidence."
+  }
+}

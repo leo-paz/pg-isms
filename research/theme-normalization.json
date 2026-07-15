@@ -1191,7 +1191,18 @@
       "canonical_themes": [
         "capital-efficiency-and-runway"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "039",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "organizational-scale-and-overhead",
+            "small-team-advantage"
+          ],
+          "reviewer": "organization-source-union-remediation"
+        }
+      ]
     },
     {
       "raw_theme": "capital fit",
@@ -2988,7 +2999,18 @@
       "canonical_themes": [
         "founder-autonomy-and-control"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "046",
+          "canonical_themes": [
+            "founder-autonomy-and-control",
+            "organizational-leadership-and-role-evolution",
+            "team-structure-and-ownership"
+          ],
+          "reviewer": "organization-source-union-remediation"
+        }
+      ]
     },
     {
       "raw_theme": "founder conviction",
@@ -4835,10 +4857,11 @@
     {
       "raw_theme": "measurement and leverage",
       "canonical_themes": [
+        "incentives-and-behavior",
         "measurement-and-evaluation",
-        "startup-economics-and-risk"
+        "small-team-advantage"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "organization-source-union-remediation"
     },
     {
       "raw_theme": "measurement incentives",

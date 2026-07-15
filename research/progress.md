@@ -1043,3 +1043,70 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
   skills sequentially beginning with `building-and-evolving-organizations`; finish
   the cross-skill final review, README catalog, and clean/pushed repository-wide gate.
 - Blockers: none.
+
+## Checkpoint 4 skill 11 verified: `building-and-evolving-organizations`
+
+- RED froze five no-skill cases before package initialization: a premature
+  management layer, ambiguous decision rights, a measurement-side-effects case, a
+  continuity-sensitive role transition, and a specialist-routing non-trigger. A
+  criteria-only remediation preserved every prompt and response byte and received a
+  fresh blind rescore. The canonical baseline is `1/25` (`0.04`); an additive note
+  corrects the historical manifest's contradictory rescore-required flag without
+  mutating the committed RED evidence.
+- Independent source agents read all `64` assigned essays in full and used both BM25
+  and semantic QMD retrieval. The exact evidence contains `64` essay records, `100`
+  theme entries, and `127` audit-contained ranges across all `9` owned themes.
+  Generated provenance and the narrow 028/039/046 supplemental mappings reproduce
+  exactly, with no uncovered source or theme.
+- The official initializer created the package. Repeated source, behavior, routing,
+  and contract reviews tightened branch selection, observation/claim/unknown
+  discipline, ownership and interface design, reversible operating tests, capacity
+  gates, continuity, and specialist handoffs. The final `SKILL.md` is `431` words
+  with SHA-256
+  `2a1e0a27562aa3cfac61ce280a833bd538e4ad633267e238d8cf7bed695e572a`;
+  official validation and regenerated `agents/openai.yaml` pass.
+- Five isolated blind forward responses scored `14/25` (`0.56`), improving `+0.52`
+  over baseline. The retained misses remain explicit rather than inferred, including
+  route rejection, evidence-ledger completeness, operating-contract coverage, and
+  result-specific closure ownership.
+- The paired microtest froze its natural 365-word prompt, five strict criteria,
+  package hashes, ten unique task identities, and the `+0.20` gate before generation.
+  Five controls scored `2/25` (`0.08`); five guided responses scored `15/25`
+  (`0.60`), a `+0.52` effect. A two-stage independent review corrected guided rep 4
+  C5 from 1 to 0 because its Keep branch omitted the next owner. The initial score,
+  immutable Stage A judgment, correction, and final score are all preserved with
+  exact hashes; no response was edited or regenerated.
+- Held-out attempts 001 and 002 scored `3/5` and `1/5` and remain byte-preserved as
+  integrity-clean failures. Attempt 003 used another distinct author, prompt
+  reviewer, generator, scorer, and final reviewer set and scored `5/5` PASS. An
+  additive preservation index resolves the failed attempts' historical root paths
+  without rewriting their frozen manifests.
+- Fresh final package/source review reports `0` Critical, `0` Important, and one
+  accepted Minor concerning conflicting upstream date metadata that no package
+  chronology claim uses. The remediated final evaluation review reports `0`
+  Critical, `0` Important, and `0` Minor findings and `Ready to commit: Yes`.
+- Verification:
+
+  ```text
+  Skill is valid!
+  skill provenance check: essays=64 themes=9
+  theme projection check: canonical=122 article_overrides=19 relevant_essays=209
+  taxonomy sync check: skills=21 themes=122 relevant_essays=209 essay_skill_pairings=835
+  taxonomy validation passed: corpus_files=223 classified=223 relevant_essays=209 uncovered_relevant=0 orphan_skills=0
+  baseline normalized_score=0.04; forward normalized_score=0.56; delta=0.52
+  microtest control=2/25; guided=15/25; normalized_delta=0.52
+  heldout org-heldout-attempt-003=5/5 PASS integrity=PASS
+  preserved org-heldout-attempt-001=3/5 FAIL integrity=PASS
+  preserved org-heldout-attempt-002=1/5 FAIL integrity=PASS
+  python3 -m unittest discover -s tests -p 'test_*.py'
+  Ran 120 tests
+  OK
+  copyright scan: normalized 20/30/40-token corpus matches=0/0/0
+  git diff --cached --check outside hash-bound generated/review Markdown: passed
+  allowlisted generated/review Markdown retains exact response or review hashes and intentional CommonMark hard breaks
+  ```
+
+- Remaining work: publish this verified milestone, then build the remaining `10`
+  skills sequentially beginning with `operating-with-focus-and-morale`; finish the
+  cross-skill final review, README catalog, and clean/pushed repository-wide gate.
+- Blockers: none.

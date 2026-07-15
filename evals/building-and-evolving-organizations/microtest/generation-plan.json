@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "plan_id": "building-and-evolving-organizations-microtest-001",
+  "frozen_at": "2026-07-15T21:47:05Z",
+  "state": "frozen-before-response-generation",
+  "response_generation_started": false,
+  "design_review": {
+    "reviewer": "/root/org_micro_gate",
+    "verdict": "PASS",
+    "review_sha256": "edb7af84b4467f18c4fb55d97fa6337ec6a3df016386f9fe63702d270d04894e",
+    "blockers": []
+  },
+  "frozen_artifacts": {
+    "rubric": {
+      "path": "evals/building-and-evolving-organizations/microtest/rubric.json",
+      "sha256": "637702d2cc20c2c1a20cd1c190b9a1f7fac43e020732e6682873a7f43fd6aa75",
+      "bytes": 4824
+    },
+    "prompt": {
+      "path": "evals/building-and-evolving-organizations/microtest/prompt.txt",
+      "sha256": "375c5d6d4c905177150b206e7c65fb960cde374c99cb22f7ac4abd49662fa4be",
+      "bytes": 2317,
+      "words": 365
+    },
+    "criteria": {
+      "source": "jq -c .criteria plus trailing LF",
+      "sha256": "5a12e2133053c6b53f2d0bd1a3771ddaf2b21e8d1f24ed886647154634d4ce19",
+      "bytes": 2356,
+      "count": 5
+    },
+    "skill_freeze": "evals/building-and-evolving-organizations/microtest/skill-freeze.json"
+  },
+  "generation_contract": {
+    "fresh_context_per_sample": true,
+    "criteria_hidden_from_generators": true,
+    "prior_outputs_hidden_from_generators": true,
+    "opposite_arm_hidden_from_generators": true,
+    "outputs_are_frozen_on_first_completion": true,
+    "resampling": "Never regenerate for response quality.",
+    "control_allowed_inputs": [
+      "evals/building-and-evolving-organizations/microtest/prompt.txt"
+    ],
+    "guided_allowed_inputs": [
+      "evals/building-and-evolving-organizations/microtest/prompt.txt",
+      "skills/building-and-evolving-organizations/SKILL.md",
+      "skills/building-and-evolving-organizations/references/runtime-contract.md"
+    ]
+  },
+  "scoring_contract": {
+    "criterion_rule": "A bit is 1 only if every conjunct is satisfied; omitted elements are not inferred.",
+    "arm_score": "sum of 25 binary criterion decisions divided by 25",
+    "effect": "guided arm score minus control arm score",
+    "pass_threshold": 0.2,
+    "manual_semantic_grading": true
+  },
+  "planned_samples": [
+    {"index": 1, "canonical_task": "/root/org_micro_control_1", "sample_id": "org_micro_control_1", "arm": "control", "response_path": "evals/building-and-evolving-organizations/microtest/control/rep-1.md"},
+    {"index": 2, "canonical_task": "/root/org_micro_control_2", "sample_id": "org_micro_control_2", "arm": "control", "response_path": "evals/building-and-evolving-organizations/microtest/control/rep-2.md"},
+    {"index": 3, "canonical_task": "/root/org_micro_control_3", "sample_id": "org_micro_control_3", "arm": "control", "response_path": "evals/building-and-evolving-organizations/microtest/control/rep-3.md"},
+    {"index": 4, "canonical_task": "/root/org_micro_control_4", "sample_id": "org_micro_control_4", "arm": "control", "response_path": "evals/building-and-evolving-organizations/microtest/control/rep-4.md"},
+    {"index": 5, "canonical_task": "/root/org_micro_control_5", "sample_id": "org_micro_control_5", "arm": "control", "response_path": "evals/building-and-evolving-organizations/microtest/control/rep-5.md"},
+    {"index": 6, "canonical_task": "/root/org_micro_guided_1", "sample_id": "org_micro_guided_1", "arm": "guided", "response_path": "evals/building-and-evolving-organizations/microtest/guided/rep-1.md"},
+    {"index": 7, "canonical_task": "/root/org_micro_guided_2", "sample_id": "org_micro_guided_2", "arm": "guided", "response_path": "evals/building-and-evolving-organizations/microtest/guided/rep-2.md"},
+    {"index": 8, "canonical_task": "/root/org_micro_guided_3", "sample_id": "org_micro_guided_3", "arm": "guided", "response_path": "evals/building-and-evolving-organizations/microtest/guided/rep-3.md"},
+    {"index": 9, "canonical_task": "/root/org_micro_guided_4", "sample_id": "org_micro_guided_4", "arm": "guided", "response_path": "evals/building-and-evolving-organizations/microtest/guided/rep-4.md"},
+    {"index": 10, "canonical_task": "/root/org_micro_guided_5", "sample_id": "org_micro_guided_5", "arm": "guided", "response_path": "evals/building-and-evolving-organizations/microtest/guided/rep-5.md"}
+  ],
+  "mutation_rule": "Do not change the rubric, prompt, criteria, skill, runtime contract, sample identities, arm inputs, or threshold after dispatching the first generator."
+}

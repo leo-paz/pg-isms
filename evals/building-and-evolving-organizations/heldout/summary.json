@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "skill_name": "building-and-evolving-organizations",
+  "canonical_case_id": "org-heldout-attempt-003",
+  "attempt": 3,
+  "author": "/root/org_heldout3_author",
+  "prompt_reviewer": "/root/org_heldout3_prompt_gate",
+  "generator": "/root/org_heldout3_generator",
+  "scorer": "/root/org_heldout3_scorer",
+  "independent_reviewer": "/root/org_heldout3_independent_review",
+  "vector": [1, 1, 1, 1, 1],
+  "positive_bits": 5,
+  "total_bits": 5,
+  "minimum_positive_bits": 4,
+  "criteria_threshold_met": true,
+  "integrity": "PASS",
+  "prompt_naturalness_and_no_leakage": "PASS",
+  "held_out_transfer_verdict": "PASS",
+  "final_independent_verdict": "PASS",
+  "response_sha256": "3d00c301836f75e3c0602597778e6f0d77b3cd350fa2a71a82dee9f135c734a3",
+  "response_bytes": 16979,
+  "preserved_attempts": [
+    {
+      "case_id": "org-heldout-attempt-001",
+      "vector": [0, 0, 1, 1, 1],
+      "integrity": "PASS",
+      "transfer": "FAIL"
+    },
+    {
+      "case_id": "org-heldout-attempt-002",
+      "vector": [1, 0, 0, 0, 0],
+      "integrity": "PASS",
+      "transfer": "FAIL"
+    }
+  ]
+}

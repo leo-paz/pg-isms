@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "review_id": "org-micro-independent-review",
+  "completed_at": "2026-07-15T22:09:45Z",
+  "stage_a": {
+    "path": ".superpowers/sdd/org-micro-independent-stage-a.json",
+    "sha256": "e453fe3c5bfc5030ccd1cb8e62dbe57e87169e34261c7debd41a900ce9574f4d",
+    "bytes": 17311,
+    "immutable_after_freeze": true,
+    "canonical_artifacts_opened_before_freeze": false,
+    "control_vectors": ["10000", "10000", "10000", "10010", "10010"],
+    "guided_vectors": ["11110", "11110", "11110", "11111", "11111"],
+    "control_total": 7,
+    "guided_total": 22,
+    "control_score": 0.28,
+    "guided_score": 0.88,
+    "effect": 0.60,
+    "gate_verdict": "PASS"
+  },
+  "canonical_at_first_open": {
+    "control_vectors": ["00000", "00000", "00000", "00010", "00010"],
+    "guided_vectors": ["10110", "01110", "01110", "01111", "01110"],
+    "control_total": 2,
+    "guided_total": 16,
+    "control_score": 0.08,
+    "guided_score": 0.64,
+    "effect": 0.56,
+    "margin": 0.36,
+    "gate_verdict": "PASS"
+  },
+  "canonical_after_independent_correction": {
+    "control_vectors": ["00000", "00000", "00000", "00010", "00010"],
+    "guided_vectors": ["10110", "01110", "01110", "01110", "01110"],
+    "control_total": 2,
+    "guided_total": 15,
+    "control_score": 0.08,
+    "guided_score": 0.60,
+    "effect": 0.52,
+    "margin": 0.32,
+    "gate_verdict": "PASS"
+  },
+  "bit_and_rationale_comparison": {
+    "stage_a_vs_canonical_at_first_open_agreement_count": 39,
+    "stage_a_vs_canonical_at_first_open_disagreement_count": 11,
+    "stage_a_vs_corrected_canonical_agreement_count": 38,
+    "stage_a_vs_corrected_canonical_disagreement_count": 12,
+    "initial_shared_error_count": 1,
+    "samples": [
+      {
+        "sample_id": "org_micro_control_1",
+        "stage_a_vector": "10000",
+        "canonical_vector": "00000",
+        "final_vector": "00000",
+        "criteria": {
+          "c1": {"stage_a":1,"canonical":0,"final":0,"status":"disagree_stage_a_corrected_to_canonical","rationale_comparison":"Stage A treated rejection of broad/informal delegation as enough. Canonical correctly requires the separate explicit rejection or deferral of broad reorganization."},
+          "c2": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both fail it for the missing explicit observations/claims/unknowns separation and incomplete unknown treatment."},
+          "c3": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both identify missing end-to-end outcome ownership, with backup and continuity ownership also incomplete."},
+          "c4": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both identify the absent named evidence owner; canonical also notes the missing explicit dated intermediate checkpoint."},
+          "c5": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both identify the absent complete four-result closure and per-result owner/action coverage."}
+        }
+      },
+      {
+        "sample_id": "org_micro_control_2",
+        "stage_a_vector": "10000",
+        "canonical_vector": "00000",
+        "final_vector": "00000",
+        "criteria": {
+          "c1": {"stage_a":1,"canonical":0,"final":0,"status":"disagree_stage_a_corrected_to_canonical","rationale_comparison":"The memo rejects the COO, council, and broad delegation, but never separately disposes of broad reorganization; canonical is strict and correct."},
+          "c2": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both fail the absent explicit evidence taxonomy and complete required classifications."},
+          "c3": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both distinguish routine exception ownership from the required end-to-end implementation/go-live outcome ownership."},
+          "c4": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both identify the missing named evidence-record owner."},
+          "c5": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both identify only three qualitative outcomes and missing branch-specific owners/actions."}
+        }
+      },
+      {
+        "sample_id": "org_micro_control_3",
+        "stage_a_vector": "10000",
+        "canonical_vector": "00000",
+        "final_vector": "00000",
+        "criteria": {
+          "c1": {"stage_a":1,"canonical":0,"final":0,"status":"disagree_stage_a_corrected_to_canonical","rationale_comparison":"Rejecting the COO, council, Slack queue, and broad authority does not explicitly reject broad reorganization; canonical is correct."},
+          "c2": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both fail the missing complete observations/claims/unknowns ledger."},
+          "c3": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both find decision/communication roles without one end-to-end go-live outcome owner."},
+          "c4": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both find no named owner for the complete pilot evidence record/dashboard."},
+          "c5": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both find the four results, exact-one revision, full-cost capacity gate, and branch ownership incomplete."}
+        }
+      },
+      {
+        "sample_id": "org_micro_control_4",
+        "stage_a_vector": "10010",
+        "canonical_vector": "00010",
+        "final_vector": "00010",
+        "criteria": {
+          "c1": {"stage_a":1,"canonical":0,"final":0,"status":"disagree_stage_a_corrected_to_canonical","rationale_comparison":"The response rejects undifferentiated broad delegation but not broad reorganization as a separate structural option; canonical is correct."},
+          "c2": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both hold that caveats do not satisfy the explicit evidence ledger and claim classification."},
+          "c3": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both find ownership of decisions/record rather than the end-to-end go-live outcome; canonical additionally notes no actual backup."},
+          "c4": {"stage_a":1,"canonical":1,"final":1,"status":"agree_correct","rationale_comparison":"Both pass the named owners, derivable checkpoints, scope, baseline, artifact, measures, continuity, specialist, suspension, and traceability safeguards."},
+          "c5": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both fail the absent add-capacity branch and incomplete per-result ownership/actions."}
+        }
+      },
+      {
+        "sample_id": "org_micro_control_5",
+        "stage_a_vector": "10010",
+        "canonical_vector": "00010",
+        "final_vector": "00010",
+        "criteria": {
+          "c1": {"stage_a":1,"canonical":0,"final":0,"status":"disagree_stage_a_corrected_to_canonical","rationale_comparison":"The response rejects broad delegation rather than explicitly rejecting or deferring broad reorganization; canonical is correct."},
+          "c2": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both fail the absent explicit evidence taxonomy and complete classifications."},
+          "c3": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both find decision accountability but not one explicit end-to-end implementation/go-live outcome owner."},
+          "c4": {"stage_a":1,"canonical":1,"final":1,"status":"agree_correct","rationale_comparison":"Both pass the owned, dated, scoped, baselined, instrumented, and safeguarded reversible pilot."},
+          "c5": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both find the revision, full-cost capacity, and branch-owner/action conjuncts incomplete."}
+        }
+      },
+      {
+        "sample_id": "org_micro_guided_1",
+        "stage_a_vector": "11110",
+        "canonical_vector": "10110",
+        "final_vector": "10110",
+        "criteria": {
+          "c1": {"stage_a":1,"canonical":1,"final":1,"status":"agree_correct","rationale_comparison":"Both pass the queue/interface diagnosis, decision-rights intervention, structural deferrals, flat-organization statement, and prior-model preservation."},
+          "c2": {"stage_a":1,"canonical":0,"final":0,"status":"disagree_stage_a_corrected_to_canonical","rationale_comparison":"Stage A overread hidden rework/customer dissatisfaction and future evidence as explicit coverage. Canonical correctly notes that proposed-boundary quality and future pilot effects are not explicitly categorized as unknown, so the all-conjunct bit fails."},
+          "c3": {"stage_a":1,"canonical":1,"final":1,"status":"agree_correct","rationale_comparison":"Both pass end-to-end ownership, limits, consultation, notice, clocks/destinations, interfaces, backups, audit register, continuity, and qualified review."},
+          "c4": {"stage_a":1,"canonical":1,"final":1,"status":"agree_correct","rationale_comparison":"Both pass named owners, dates/checkpoints, scope, baseline/artifacts/measures, and every required safeguard."},
+          "c5": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both find that costing a role is not the required relief/value-exceeds-full-role-cost gate."}
+        }
+      },
+      {
+        "sample_id": "org_micro_guided_2",
+        "stage_a_vector": "11110",
+        "canonical_vector": "01110",
+        "final_vector": "01110",
+        "criteria": {
+          "c1": {"stage_a":1,"canonical":0,"final":0,"status":"disagree_stage_a_corrected_to_canonical","rationale_comparison":"Rejecting the COO, council, and another layer does not explicitly dispose of broad reorganization; canonical is correct."},
+          "c2": {"stage_a":1,"canonical":1,"final":1,"status":"agree_correct","rationale_comparison":"Both pass the complete taxonomy, required source treatments and unknowns, and causal rivals."},
+          "c3": {"stage_a":1,"canonical":1,"final":1,"status":"agree_correct","rationale_comparison":"Both pass full outcome ownership and all operating-design conjuncts."},
+          "c4": {"stage_a":1,"canonical":1,"final":1,"status":"agree_correct","rationale_comparison":"Both pass the reversible, owned, dated, scoped, baselined, measured, safeguarded pilot."},
+          "c5": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both find that saying an owner will be named later is not naming it now and not every result has a next owner/action."}
+        }
+      },
+      {
+        "sample_id": "org_micro_guided_3",
+        "stage_a_vector": "11110",
+        "canonical_vector": "01110",
+        "final_vector": "01110",
+        "criteria": {
+          "c1": {"stage_a":1,"canonical":0,"final":0,"status":"disagree_stage_a_corrected_to_canonical","rationale_comparison":"The right mechanism and COO/council rejection do not separately reject broad reorganization; canonical is correct."},
+          "c2": {"stage_a":1,"canonical":1,"final":1,"status":"agree_correct","rationale_comparison":"Both pass the complete evidence ledger, required unknowns, and capacity/judgment rival."},
+          "c3": {"stage_a":1,"canonical":1,"final":1,"status":"agree_correct","rationale_comparison":"Both pass the complete end-to-end ownership and operating contract."},
+          "c4": {"stage_a":1,"canonical":1,"final":1,"status":"agree_correct","rationale_comparison":"Both pass named owners, checkpoints, baseline/artifacts/measures, pause safeguards, and evidence retention."},
+          "c5": {"stage_a":0,"canonical":0,"final":0,"status":"agree_correct","rationale_comparison":"Both find no benefit-above-full-role-cost gate; canonical also notes the deferred revision owner."}
+        }
+      },
+      {
+        "sample_id": "org_micro_guided_4",
+        "stage_a_vector": "11111",
+        "canonical_vector": "01111",
+        "final_vector": "01110",
+        "criteria": {
+          "c1": {"stage_a":1,"canonical":0,"final":0,"status":"disagree_stage_a_corrected_to_canonical","rationale_comparison":"Forbidding headcount, title, committee, and compensation changes does not explicitly reject/defer all broad reorganization, including reporting-line or responsibility changes; canonical is correct."},
+          "c2": {"stage_a":1,"canonical":1,"final":1,"status":"agree_correct","rationale_comparison":"Both pass the complete evidence taxonomy, required unknowns, and capacity/complexity rival."},
+          "c3": {"stage_a":1,"canonical":1,"final":1,"status":"agree_correct","rationale_comparison":"Both pass end-to-end ownership and every operating-design conjunct."},
+          "c4": {"stage_a":1,"canonical":1,"final":1,"status":"agree_correct","rationale_comparison":"Both pass the owned, dated, baselined, measured, and fully safeguarded reversible pilot."},
+          "c5": {"stage_a":1,"canonical_at_first_open":1,"canonical_after_correction":0,"final":0,"status":"agree_initially_then_canonical_corrected","rationale_comparison":"Both initial scorings inferred branch ownership too generously. The Keep result names an action but no next owner; 'leadership applies' and the global accountable-owner header cannot be imported into each branch under the no-inference rule. Because every result must name its next owner and action, the bit is 0. The canonical summary, report, and guided-4 scorecard now reflect this correction."}
+        }
+      },
+      {
+        "sample_id": "org_micro_guided_5",
+        "stage_a_vector": "11111",
+        "canonical_vector": "01110",
+        "final_vector": "01110",
+        "criteria": {
+          "c1": {"stage_a":1,"canonical":0,"final":0,"status":"disagree_stage_a_corrected_to_canonical","rationale_comparison":"The memo rejects the COO/council and preserves the prior path, but does not explicitly dispose of broad reorganization; canonical is correct."},
+          "c2": {"stage_a":1,"canonical":1,"final":1,"status":"agree_correct","rationale_comparison":"Both pass the complete evidence taxonomy, source treatment, unknowns, and hidden-complexity/rework rival."},
+          "c3": {"stage_a":1,"canonical":1,"final":1,"status":"agree_correct","rationale_comparison":"Both pass the complete end-to-end owner and operating design."},
+          "c4": {"stage_a":1,"canonical":1,"final":1,"status":"agree_correct","rationale_comparison":"Both pass the owned, dated, measured, and safeguarded reversible pilot."},
+          "c5": {"stage_a":1,"canonical":0,"final":0,"status":"disagree_stage_a_corrected_to_canonical","rationale_comparison":"Stage A inferred interface correction and branch ownership. Canonical correctly requires explicit interface-cause correction in the capacity branch and an explicit next owner for Keep, Revise, and Capacity."}
+        }
+      }
+    ]
+  },
+  "integrity_and_artifact_comparison": {
+    "verdict": "PASS",
+    "canonical_claim_disagreements": [],
+    "reproduced_claims": [
+      "10 samples split 5 control/5 guided; unique task, sample-id, path, and response-hash counts are all 10; indices are 1 through 10.",
+      "All response hashes, byte counts, and word counts match generation-attestation.json; maximum is 1450 words and all are below 1500.",
+      "Plan/attestation task, arm, path, and index mappings align.",
+      "generation-plan SHA-256 is 7eb719689e1cc8e48bc016ac9f8d44e1b7b9ac2bd4f18faae0ea9fca0aac2aa8 and size is 4450 bytes.",
+      "rubric SHA-256/bytes are 637702d2cc20c2c1a20cd1c190b9a1f7fac43e020732e6682873a7f43fd6aa75/4824.",
+      "The rubric-derived prompt SHA-256/bytes/words are 375c5d6d4c905177150b206e7c65fb960cde374c99cb22f7ac4abd49662fa4be/2317/365.",
+      "The compact rubric-derived criteria SHA-256/bytes/count are 5a12e2133053c6b53f2d0bd1a3771ddaf2b21e8d1f24ed886647154634d4ce19/2356/5.",
+      "generation-attestation SHA-256/bytes are 7ccc01f23977e98d25ea418c733e85d34da0e884d7d0a796b17a744449444370/3711; skill-freeze SHA-256/bytes are 3279de5df5e64258374bf513e6eab62ff9931ffd8a2482d661b89aa2bc28149e/583.",
+      "Frozen skill and runtime hashes and sizes reproduce exactly without opening their contents: 2a1e0a27562aa3cfac61ce280a833bd538e4ad633267e238d8cf7bed695e572a/3718 and 6fc8f66eb3b3aea79b1bab9b67602887e0bbb17a00e302e6982fb48378e7bd5b/12033.",
+      "The scorer's ignored audit artifacts reproduce by hash and size without content inspection: JSON 1a0c97962b55df20df4ffe613b947be51302b964c6abe3d0b4e817d470a8db61/25836 and Markdown bd6fc97e4045ac24f867901e8b5c4e594f970f55b83abe0d165089b6a73c2394/14169.",
+      "The plan is frozen-before-response-generation with response_generation_started false; the attestation declares post_generation_revision false.",
+      "Summary and report integrity claims agree with each other and with the reproduced file state."
+    ],
+    "attestational_only_claims": [
+      "Fresh context per sample, hidden criteria/prior/opposite-arm inputs, first-completion freezing, and forbidden quality resampling are generation-process declarations. The frozen plan and attestation are consistent and non-contradictory, but the historical process is not independently observable from final files.",
+      "The canonical scorer's blind-read boundary is a declaration. The named ignored-audit hashes reproduce and no contradiction was found, but internal file-open history cannot be reconstructed from repository state."
+    ],
+    "canonical_artifact_hashes": {
+      "summary.json": "0e00f619aad1819e544e8ed4b4a30811ee7c504abe0fb6539e5c11d2cd8bf897",
+      "scorer-report.md": "f6c566dca7987383b1bd00b9f7ece16260c04dd917ed6a3c3932a3ba9acbe7cc",
+      "org_micro_control_1.md": "d43d59d6f268c3abfc39206f4ae9198844b9de78d2a75d32621ad82bbcf94230",
+      "org_micro_control_2.md": "c91e2afc7bdc3e191c974f7af77c613345f7e6730ec4d10f62ade2a1629fa8c9",
+      "org_micro_control_3.md": "01b266155b205f66870c3066ba80a438c1637e4831eabb29b28ddb1297cd72c3",
+      "org_micro_control_4.md": "b063525e9ada343fba1d86e0885d64d69cf99319dc324c5b54b35fe7353cc90e",
+      "org_micro_control_5.md": "2e01fd48220af0e5fad6b1704686b8bbca9d3070944afcab42c387b0f5a81fa5",
+      "org_micro_guided_1.md": "df25d2cbcb909eaea92d92db152d8747256d3cc5f702d4709189852eaa510bd0",
+      "org_micro_guided_2.md": "c383a45178b1ac54f2f05f3ec4645d59132f601b9d98fbbe6a89caf27620d235",
+      "org_micro_guided_3.md": "9bafd4e3ec4e5127916dd2fe1ce63a2ed0d36dbe9244d969be4ddd2e0e0d566b",
+      "org_micro_guided_4.md": "23364c17213f5698df6ebec8fe4fa322af52c635ce7ffb1700f98b0a6541a2e0",
+      "org_micro_guided_5.md": "69536e2311178ed44d6c486bcc0a3848e9a295922749e4e98bd5c92201931ec1"
+    }
+  },
+  "corrections": {
+    "stage_a_bit_corrections": 12,
+    "canonical_bit_corrections": 1,
+    "canonical_correction_applied": [
+      "org_micro_guided_4 C5: 1 -> 0.",
+      "org_micro_guided_4 vector: 01111 -> 01110; sample score: 4 -> 3.",
+      "Guided C5 pass count: 1 -> 0; guided total: 16 -> 15; guided normalized score: 0.64 -> 0.60.",
+      "Guided-minus-control passed-bit difference: 14 -> 13; normalized effect: 0.56 -> 0.52; gate margin: 0.36 -> 0.32.",
+      "summary.json, scorer-report.md, and scorecards/org_micro_guided_4.md were updated consistently and independently reverified."
+    ],
+    "canonical_files_modified_by_this_reviewer": false,
+    "canonical_files_corrected_during_review_by_authorized_peer": true,
+    "corrected_canonical_artifacts_verified": true
+  },
+  "final_adjudicated_result": {
+    "control_vectors": ["00000", "00000", "00000", "00010", "00010"],
+    "guided_vectors": ["10110", "01110", "01110", "01110", "01110"],
+    "control_criterion_pass_counts": {"c1":0,"c2":0,"c3":0,"c4":2,"c5":0},
+    "guided_criterion_pass_counts": {"c1":1,"c2":4,"c3":5,"c4":5,"c5":0},
+    "control_total": 2,
+    "guided_total": 15,
+    "control_score": 0.08,
+    "guided_score": 0.60,
+    "effect": 0.52,
+    "threshold": 0.20,
+    "margin": 0.32,
+    "microtest_gate_verdict": "PASS",
+    "canonical_artifact_verdict": "PASS_AFTER_CORRECTION",
+    "final_pass_fail": "PASS"
+  }
+}

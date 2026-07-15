@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "review_id": "org-micro-independent-stage-a",
+  "frozen_at": "2026-07-15T22:06:56Z",
+  "stage": "A",
+  "scope_protocol": {
+    "permitted_content_inputs": [
+      "evals/building-and-evolving-organizations/microtest/rubric.json",
+      "evals/building-and-evolving-organizations/microtest/generation-plan.json",
+      "evals/building-and-evolving-organizations/microtest/generation-attestation.json",
+      "evals/building-and-evolving-organizations/microtest/skill-freeze.json",
+      "evals/building-and-evolving-organizations/microtest/control/rep-1.md",
+      "evals/building-and-evolving-organizations/microtest/control/rep-2.md",
+      "evals/building-and-evolving-organizations/microtest/control/rep-3.md",
+      "evals/building-and-evolving-organizations/microtest/control/rep-4.md",
+      "evals/building-and-evolving-organizations/microtest/control/rep-5.md",
+      "evals/building-and-evolving-organizations/microtest/guided/rep-1.md",
+      "evals/building-and-evolving-organizations/microtest/guided/rep-2.md",
+      "evals/building-and-evolving-organizations/microtest/guided/rep-3.md",
+      "evals/building-and-evolving-organizations/microtest/guided/rep-4.md",
+      "evals/building-and-evolving-organizations/microtest/guided/rep-5.md"
+    ],
+    "skill_and_runtime_inspection": "hash-only; contents not opened",
+    "canonical_or_prior_scoring_artifacts_opened": false,
+    "note": "The prompt was evaluated from the rubric's embedded prompt. No canonical summary, scorer report, scorecard, SKILL.md content, runtime-contract.md content, source evidence, or prior evaluation was read before this freeze."
+  },
+  "scoring_rule": "A bit is 1 only if every conjunct in the corresponding rubric criterion is explicitly satisfied; omissions are not inferred.",
+  "integrity": {
+    "verdict": "PASS",
+    "rubric": {
+      "sha256": "637702d2cc20c2c1a20cd1c190b9a1f7fac43e020732e6682873a7f43fd6aa75",
+      "bytes": 4824,
+      "matches_generation_plan": true
+    },
+    "criteria": {
+      "count": 5,
+      "canonicalized_as": "jq -c .criteria plus trailing LF",
+      "sha256": "5a12e2133053c6b53f2d0bd1a3771ddaf2b21e8d1f24ed886647154634d4ce19",
+      "bytes": 2356,
+      "matches_generation_plan": true
+    },
+    "generation_plan": {
+      "sha256": "7eb719689e1cc8e48bc016ac9f8d44e1b7b9ac2bd4f18faae0ea9fca0aac2aa8",
+      "matches_generation_attestation": true,
+      "state_at_dispatch": "frozen-before-response-generation",
+      "planned_samples": 10,
+      "planned_control": 5,
+      "planned_guided": 5
+    },
+    "generation_attestation": {
+      "sha256": "7ccc01f23977e98d25ea418c733e85d34da0e884d7d0a796b17a744449444370",
+      "sample_identity_and_path_alignment_with_plan": true,
+      "unique_task_count": 10,
+      "unique_response_sha256_count": 10,
+      "all_responses_under_1500_words": true,
+      "all_response_hashes_bytes_and_words_reproduced": true
+    },
+    "skill_freeze": {
+      "manifest_sha256": "3279de5df5e64258374bf513e6eab62ff9931ffd8a2482d661b89aa2bc28149e",
+      "skill_sha256_observed": "2a1e0a27562aa3cfac61ce280a833bd538e4ad633267e238d8cf7bed695e572a",
+      "skill_sha256_matches": true,
+      "skill_bytes_observed": 3718,
+      "runtime_sha256_observed": "6fc8f66eb3b3aea79b1bab9b67602887e0bbb17a00e302e6982fb48378e7bd5b",
+      "runtime_sha256_matches": true,
+      "runtime_bytes_observed": 12033,
+      "contents_opened": false
+    },
+    "responses": [
+      {"sample_id":"org_micro_control_1","arm":"control","sha256":"70c2466612b88e545868f62d1777409acf758080bc01e9e843b004f056f1287e","bytes":7174,"words":1042,"attestation_match":true},
+      {"sample_id":"org_micro_control_2","arm":"control","sha256":"8d04d6b64af9b71cdc2b7867981dbf500c3a7f43e955de668293ea6f9d765249","bytes":8213,"words":1197,"attestation_match":true},
+      {"sample_id":"org_micro_control_3","arm":"control","sha256":"73a1c60241c70c25daa78d9b8e82061b81af41747658f0378222b458e406bbd7","bytes":6994,"words":1014,"attestation_match":true},
+      {"sample_id":"org_micro_control_4","arm":"control","sha256":"cbe8ca7cd186fb66df4011f483b64ee576a1b1e22e616f0d57f4f558119e1d3b","bytes":7579,"words":1120,"attestation_match":true},
+      {"sample_id":"org_micro_control_5","arm":"control","sha256":"7d49f0a678c97d26cd439689ca7fd59c79669319d83a466d48b7c60e4c11f9a0","bytes":7123,"words":1066,"attestation_match":true},
+      {"sample_id":"org_micro_guided_1","arm":"guided","sha256":"d2b94ae8c97f631e43af06a29dbd5459342191914a67d80a98e9f7fae8dcc542","bytes":9322,"words":1370,"attestation_match":true},
+      {"sample_id":"org_micro_guided_2","arm":"guided","sha256":"fd23f66dca751d0abc6bc6b00047955e7a2ba8c135cf33279b7d89898813c9ca","bytes":9692,"words":1393,"attestation_match":true},
+      {"sample_id":"org_micro_guided_3","arm":"guided","sha256":"10fe768e24b1a98c9f3690df9c34f3c3882ec77414b1182ab8c0bca7a0fd1618","bytes":9405,"words":1388,"attestation_match":true},
+      {"sample_id":"org_micro_guided_4","arm":"guided","sha256":"55f6a5234d16aed297192a7191b555bcc63192e2f6443483f5f4a12ccfeaef9e","bytes":9952,"words":1450,"attestation_match":true},
+      {"sample_id":"org_micro_guided_5","arm":"guided","sha256":"281d168cd6ce1eb65acdd07f26bcb2aa9b945e6c97d3c9085ce094174888d536","bytes":9939,"words":1422,"attestation_match":true}
+    ]
+  },
+  "scores": [
+    {
+      "sample_id": "org_micro_control_1",
+      "arm": "control",
+      "vector": [1, 0, 0, 0, 0],
+      "total": 1,
+      "rationales": [
+        "Pass: makes the recurring routine queue and ambiguous authority primary, chooses bounded decision rights, and rejects/defer the COO, approval council, broad delegation, and Slack-queue substitute.",
+        "Fail: does not explicitly classify the CEO, Head, Customer Success, and investor statements as claims or comprehensively separate observations from unknowns, despite caveats and a limited causal inference.",
+        "Fail: the Head owns eligible decisions, not an explicitly end-to-end implementation or go-live outcome; customer-continuity ownership is not assigned to a named role and no backup/absence coverage is specified.",
+        "Fail: the pilot has dates, scope, artifacts, measures, and safeguards, but no named evidence owner for the tracker/dashboard.",
+        "Fail: closure lacks the required four distinct thresholded results, exact-one/once revision rule, full-cost residual-capacity gate, and next owner/action for each result."
+      ]
+    },
+    {
+      "sample_id": "org_micro_control_2",
+      "arm": "control",
+      "vector": [1, 0, 0, 0, 0],
+      "total": 1,
+      "rationales": [
+        "Pass: centers decision latency and ambiguity, selects a bounded decision-rights trial, and explicitly defers/rejects the COO, council, broad delegation, and Slack mechanism.",
+        "Fail: evidence is discussed cautiously but the required observation/claim/unknown ledger is absent; leadership and investor statements are not treated explicitly as claims.",
+        "Fail: the Head owns routine exception decisions rather than a named end-to-end go-live outcome; the customer-facing record does not cure that missing ownership conjunct.",
+        "Fail: a reversible dated trial, scope, baseline, record, measures, and safeguards are present, but no named evidence owner is assigned.",
+        "Fail: only three qualitative result branches are supplied, without the exact-one revision, full-cost capacity, four-result thresholds, or per-result next-owner requirements."
+      ]
+    },
+    {
+      "sample_id": "org_micro_control_3",
+      "arm": "control",
+      "vector": [1, 0, 0, 0, 0],
+      "total": 1,
+      "rationales": [
+        "Pass: diagnoses decision ownership as the constraint, uses bounded authority, and rejects the COO, council, broad authority, and failed queue.",
+        "Fail: observations and caveats appear, but CEO/team/investor statements are not explicitly classified as claims and the required unknown set is not separated.",
+        "Fail: naming an owner for each exception and giving Implementation decision ownership does not name one Head as accountable end-to-end for the implementation or go-live outcome.",
+        "Fail: the test is reversible and instrumented, but the complete evidence record/dashboard has no named evidence owner.",
+        "Fail: the June closure has three broad outcomes and lacks the required exact-one revision, residual-gap/full-cost capacity branch, and next owner/action for every result."
+      ]
+    },
+    {
+      "sample_id": "org_micro_control_4",
+      "arm": "control",
+      "vector": [1, 0, 0, 1, 0],
+      "total": 2,
+      "rationales": [
+        "Pass: treats the narrow recurring queue/ownership issue as primary, delegates routine decisions, and rejects the COO, council, broad delegation, and Slack queue.",
+        "Fail: it distinguishes limitations but does not explicitly separate stakeholder claims from observed data and unknowns as required.",
+        "Fail: the Head owns delegated decisions and their record, while Customer Success owns communication; no one role is named accountable end-to-end for implementation or go-live outcome.",
+        "Pass: names the Head as change and record owner, supplies May 4/first-two-weeks/June 12 timing, narrow scope, baseline/register, observable measures, continuity and protected-domain safeguards, audit, and rollback.",
+        "Fail: the closure omits the required full-cost residual-capacity outcome and per-result owners/actions, and does not enforce exactly one revision once."
+      ]
+    },
+    {
+      "sample_id": "org_micro_control_5",
+      "arm": "control",
+      "vector": [1, 0, 0, 1, 0],
+      "total": 2,
+      "rationales": [
+        "Pass: makes decision rights and ambiguity primary, selects narrow delegation, and explicitly rejects/defer the COO, approval council, broad authority, and Slack remedy.",
+        "Fail: observations and material caveats are present, but the CEO/team/investor statements are not explicitly separated as claims and the required unknowns are not organized as such.",
+        "Fail: the Head is the accountable decision maker, not explicitly the accountable end-to-end implementation or go-live outcome owner.",
+        "Pass: the Head/CEO own the change and Implementation owns log completeness; May 5, first-three-business-day, weekly, and June 15 timing, scope, baseline, artifact, measures, safeguards, audit, and rollback are all present.",
+        "Fail: closure lacks four measurable result gates, the exact-one/once revision constraint, a benefit-exceeds-full-cost capacity gate, and a named next owner/action for every branch."
+      ]
+    },
+    {
+      "sample_id": "org_micro_guided_1",
+      "arm": "guided",
+      "vector": [1, 1, 1, 1, 0],
+      "total": 4,
+      "rationales": [
+        "Pass: explicitly selects the decision-rights branch for the queue/ambiguity problem and rejects the COO, council, new layer, and broad authority.",
+        "Pass: explicitly labels observed, claimed, and unknown material, including the required data and stakeholder statements, names a rival mechanism, and keeps sustainability, boundary effects, and future outcomes open to test.",
+        "Pass: names the Head accountable end-to-end; supplies observable limits, consultations/audit, notification, destinations and clocks, interface expectations, CEO/Head absence coverage, register, continuity owner, and qualified review.",
+        "Pass: names change/evidence owners; supplies May 5, May 18, June 1, and June 15 timing, scope, baseline/artifacts, measurable outcomes/harms, continuity, promise, specialist, rollback, and evidence safeguards.",
+        "Fail: the capacity switch requires costing the role but never requires the residual gap's benefit to exceed the full role cost, an explicit conjunct of the four-result closure."
+      ]
+    },
+    {
+      "sample_id": "org_micro_guided_2",
+      "arm": "guided",
+      "vector": [1, 1, 1, 1, 0],
+      "total": 4,
+      "rationales": [
+        "Pass: identifies centralized routine authority and ambiguous ownership, chooses bounded delegation, and rejects/defer the COO, council, broad delegation, and unprotected promises.",
+        "Pass: the observed/claimed/unknown ledger handles tracker, shadow, utilization/runway, stakeholder statements, live sustainability, boundary quality, future effects, and rival explanations explicitly.",
+        "Pass: the Head owns on-time supportable go-lives and continuity; domains/limits, consultation, notices, escalation destinations/clocks, interface service, backups, log/audit, customer continuity, and qualified review are specified.",
+        "Pass: named owners, May 4/6, May 18, June 1, June 15 dates, scope, baseline/log, numeric outcomes/harms, protected domains, rollback, and evidence preservation satisfy all pilot conjuncts.",
+        "Fail: although the four required result types and full-cost capacity gate exist, the revise branch says to name an owner later rather than naming the next owner now; keep and capacity actions likewise lack explicit per-result next ownership."
+      ]
+    },
+    {
+      "sample_id": "org_micro_guided_3",
+      "arm": "guided",
+      "vector": [1, 1, 1, 1, 0],
+      "total": 4,
+      "rationales": [
+        "Pass: makes centralized routine approval and interface ambiguity primary, delegates narrowly, and rejects/defer the COO, council, broad reorganization, and Slack control.",
+        "Pass: clearly separates observed, claimed, and unknown material, treats the required sources correctly, names capacity/judgment as a rival, and defines a falsifier and future evidence.",
+        "Pass: explicitly assigns the Head the correct on-time implementation outcome and supplies bounded domains, consultation/audit, notification, destinations/deadlines, interface terms, backups, register, continuity, and specialist review.",
+        "Pass: names the Head as test/evidence owner with CEO and Customer Success roles; supplies start/intermediate/final dates, scope, baseline/log, measurable outcomes/harms, continuity, promise, specialist, rollback, and preservation safeguards.",
+        "Fail: its capacity-study threshold does not require the documented gap's benefit to exceed full role cost; commissioning a costed charter is not that gate."
+      ]
+    },
+    {
+      "sample_id": "org_micro_guided_4",
+      "arm": "guided",
+      "vector": [1, 1, 1, 1, 1],
+      "total": 5,
+      "rationales": [
+        "Pass: explicitly diagnoses the recurring queue and ambiguous interface, uses bounded decision rights, and rejects/defer the COO, council, broad changes, and Slack-as-system.",
+        "Pass: observed/claimed/unknown sections correctly classify the required evidence, maintain sustainability/boundary/future uncertainty, and name and test a capacity/complexity rival.",
+        "Pass: the Head owns each implementation through go-live; all routine limits, role interfaces, notices, escalation destinations/clocks, backups, register/audit, continuity, and qualified review are explicit.",
+        "Pass: named change/evidence owners, May 5/12/25 and June 15/16 milestones, narrow scope, baseline/register, numeric outcome/harm measures, continuity, promise, specialist, rollback, and evidence safeguards are explicit.",
+        "Pass: the memo states the current decision, unknowns, prior protected path, and switch; separately thresholds keep, exactly-one revise once, residual capacity only after authority/interface correction and benefit above full cost, and rollback, with Head/CEO/qualified next ownership and actions."
+      ]
+    },
+    {
+      "sample_id": "org_micro_guided_5",
+      "arm": "guided",
+      "vector": [1, 1, 1, 1, 1],
+      "total": 5,
+      "rationales": [
+        "Pass: centers CEO preapproval and ambiguous authority, selects the smallest bounded decision-rights change, and rejects/defer the COO, council, broad authority, and Slack solution.",
+        "Pass: explicitly separates observed, claimed, and unknown inputs, including tracker/shadow/utilization/runway and stakeholder statements; names a rival and retains sustainability, boundary, and future effects as unknown.",
+        "Pass: the Head owns the end-to-end implementation outcome; routine limits, consultation/audit, notices, destinations/clocks, interface expectations, backups, log, continuity, and qualified security/contract review are all present.",
+        "Pass: named change/evidence owners, May 4-8, May 25, and June 15 dates, scope, historical baseline/log, observable outcomes/harms, continuity, promise, qualified-review, rollback, and evidence safeguards satisfy every conjunct.",
+        "Pass: current decision, unknowns, preserved CEO/qualified path, and switch are stated; keep, exact-one revise once, residual capacity after corrected latency with benefit above full cost, and rollback have measurable gates, actions, and Head/CEO/qualified ownership."
+      ]
+    }
+  ],
+  "aggregate": {
+    "control_vectors": [[1,0,0,0,0],[1,0,0,0,0],[1,0,0,0,0],[1,0,0,1,0],[1,0,0,1,0]],
+    "guided_vectors": [[1,1,1,1,0],[1,1,1,1,0],[1,1,1,1,0],[1,1,1,1,1],[1,1,1,1,1]],
+    "control_total": 7,
+    "guided_total": 22,
+    "control_score": 0.28,
+    "guided_score": 0.88,
+    "effect": 0.60,
+    "pass_threshold": 0.20,
+    "effect_threshold_result": "PASS"
+  }
+}

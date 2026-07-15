@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-07-15T20:55:33Z",
+  "frozen_at_utc": "2026-07-15T20:55:33Z",
+  "freeze_state": "frozen-before-response",
+  "authorship": {
+    "case_author": "/root/org_heldout2_author",
+    "case_authored_at_utc": "2026-07-15T20:48:17Z",
+    "prompt_reviewer": {
+      "task": "/root/org_heldout2_prompt_gate",
+      "verdict": "PASS",
+      "reviewed_at_utc": "2026-07-15T20:53:55Z",
+      "review_artifact_sha256": "784e5179970b864078c2d436472b1472bf1d864188dd9cce29019ec744dd1e2a",
+      "findings": []
+    }
+  },
+  "frozen_inputs": {
+    "skill_freeze_path": "evals/building-and-evolving-organizations/heldout/skill-freeze.json",
+    "skill_freeze_sha256": "e542c6c6851be2a658bf52e93153324ef7d772f2ecc00f20a99053bdd4ed1cc1",
+    "skill_freeze_bytes": 747,
+    "case_path": "evals/building-and-evolving-organizations/heldout/case.json",
+    "case_source_path": ".superpowers/sdd/org-heldout2-draft/case.json",
+    "case_source_equality": "byte-identical",
+    "case_sha256": "905f08d79020052395cc8c97f037078ed8710042a953cb78fed701dce6e305fc",
+    "case_bytes": 9485,
+    "prompt_sha256": "6ddde934d4f7d12994ffea10121f675e7826780d15208794e0787adba85fc457",
+    "prompt_bytes": 4508,
+    "prompt_words": 720,
+    "prompt_projection_path": "evals/building-and-evolving-organizations/heldout/prompt.txt",
+    "prompt_projection_sha256": "0bbf1d70b9dd670c9ca23b7495da58b0144275933c289b7638133da4bc55299f",
+    "prompt_projection_bytes": 4509,
+    "prompt_projection_domain": "decoded prompt followed by exactly one LF",
+    "hidden_criteria_sha256": "b86eeacc7d30787429808c76e0a17fc7b3c64290afc216a40669bdcfc9cf6dc8",
+    "hidden_criteria_bytes": 3963,
+    "skill_path": "skills/building-and-evolving-organizations/SKILL.md",
+    "skill_sha256": "2a1e0a27562aa3cfac61ce280a833bd538e4ad633267e238d8cf7bed695e572a",
+    "skill_bytes": 3718,
+    "runtime_path": "skills/building-and-evolving-organizations/references/runtime-contract.md",
+    "runtime_sha256": "6fc8f66eb3b3aea79b1bab9b67602887e0bbb17a00e302e6982fb48378e7bd5b",
+    "runtime_bytes": 12033
+  },
+  "generation": {
+    "arm": "guided",
+    "generator": "/root/org_heldout2_generator",
+    "canonical_task": "org_heldout_002",
+    "sample_id": "org-heldout-attempt-002",
+    "context_id": "org-heldout-context-002",
+    "response_path": "evals/building-and-evolving-organizations/heldout/response.md",
+    "context_assembly": "# Skill\\n\\n<skill without final LF>\\n\\n# Runtime contract\\n\\n<runtime without final LF>\\n\\n# User request\\n\\n<prompt>\\n",
+    "context_sha256": "ad188e5c01356c91782dc8a68786e7ed665147bf7be0f29197375facfa0b652b",
+    "context_bytes": 20307,
+    "generator_allowed_input": "only the exact frozen skill, runtime contract, and prompt projection identified above, plus the response path and header contract",
+    "generator_forbidden_inputs": [
+      "hidden criteria or case metadata",
+      "attempt-001 or any baseline, forward, or microtest artifact",
+      "author or prompt-review commentary",
+      "sources, provenance, research, other skills, scores, reviews, or git metadata"
+    ]
+  },
+  "response_contract": {
+    "required_header_lines": [
+      "Case ID: org-heldout-attempt-002",
+      "Reviewer ID: org-heldout2-generator"
+    ],
+    "body_requirement": "filled dated organization decision record grounded only in the prompt and frozen package",
+    "whitespace": "no trailing spaces or tabs and exactly one file-final LF",
+    "hash_domain": "whole response file"
+  },
+  "scoring": {
+    "scorer": "/root/org_heldout2_scorer",
+    "strict_binary_bits": ["C1", "C2", "C3", "C4", "C5"],
+    "minimum_positive_bits": 4,
+    "total_bits": 5,
+    "criteria_visible_during_generation": false,
+    "score_only_after": "response is frozen and whole-file hash verified"
+  },
+  "independent_review": {
+    "reviewer": "/root/org_heldout2_independent_review",
+    "required_verdicts": ["integrity PASS", "naturalness/no-leakage PASS", "at least four strict bits PASS", "transfer PASS"]
+  }
+}

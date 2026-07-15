@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "case_id": "org-heldout-attempt-003",
+    "authored_at_utc": "2026-07-15T21:10:16Z",
+    "prompt_word_count": 406,
+    "freeze_path": "evals/building-and-evolving-organizations/heldout/skill-freeze.json",
+    "freeze_sha256": "fe54d93f10fb312605bf9941d1eae332644627cfd20de9add6d6a21d9cd3855f",
+    "skill_path": "skills/building-and-evolving-organizations/SKILL.md",
+    "skill_sha256": "2a1e0a27562aa3cfac61ce280a833bd538e4ad633267e238d8cf7bed695e572a",
+    "skill_bytes": 3718,
+    "runtime_path": "skills/building-and-evolving-organizations/references/runtime-contract.md",
+    "runtime_sha256": "6fc8f66eb3b3aea79b1bab9b67602887e0bbb17a00e302e6982fb48378e7bd5b",
+    "runtime_bytes": 12033,
+    "passing_threshold": 4,
+    "criteria_count": 5
+  },
+  "prompt": "It is July 15, 2026. I run Northstar Thermal, a 13-person startup whose software sends energy-optimization configurations to refrigeration controllers at 22 cold-storage sites. I need a decision by July 18 on how to make configuration releases safer without slowing customer response. Please give me a concrete organization decision, not a general list of management practices.\n\nThe deployment log for June 2-July 11 shows 38 production configuration changes. Six needed correction within 24 hours; four were wrong unit conversions or copied site limits. On June 27, a bad compressor staging value ran for 19 minutes before the site operator used the physical override. No food was lost, but the incident ticket records a 7°C excursion in one zone and a two-hour customer investigation. Median request-to-release time was 5.5 hours; the three urgent changes took 44, 71, and 93 minutes. In 11 of 38 changes, the author requested a second engineer in Slack; none of those 11 needed correction. The other 27 had no recorded check.\n\nElena, deployment lead, currently owns each site change from customer request through verified operation. Ravi, a senior controls engineer, maintains the deployment script and is secondary on-call. Each customer's licensed facility operator owns physical safety approval and can disable our software. Hardware interlocks, operator release approval, and the incident log are current controls. Customer contracts require a named 24/7 contact, and operations cannot pause during an experiment.\n\nRavi believes a unit-aware validator plus a short risk-triggered check would have caught five of the six corrections, but that is his reconstruction, not a tested result. Our CEO thinks enterprise buyers will trust us only if we hire a Head of QA and require that person to sign every release. No customer has asked for that title. Cash covers 17 months at current spend, and Elena reports sustainable workload; we have not measured whether a required check would delay urgent recovery.\n\nWe can pilot with four named sites from July 20 through August 14. Historical configs and the six corrections are available for replay by July 22. Those sites have 26 scheduled changes in the next four weeks, enough to compare correction rate, check coverage, urgent latency, overrides, and incidents. The other 18 sites must keep their current release path. Tell me what to do now, what evidence would change the decision, the smallest workable control and ownership design, and the dated test and follow-through—including what we do under each materially different result.",
+  "criteria": [
+    {
+      "id": "C1",
+      "pass_condition": "Selects `process-or-control` as the single primary branch for stable repeated configuration work with material operational risk, and explicitly rejects a Head of QA, mandatory executive sign-off, a new layer, or new headcount as unsupported by the observed record. Merely proposing generic process improvement without the route and structural rejection fails."
+    },
+    {
+      "id": "C2",
+      "pass_condition": "Produces a case-specific evidence ledger that keeps dated log and incident facts observed, Ravi's catch-rate reconstruction and the CEO's buyer-trust theory claimed, and future validator/check performance and urgent-release delay unknown; for only the decision-relevant unknowns, assigns an evidence owner, replay or pilot artifact/method, due date, threshold, and stated decision effect. Treating claims as facts, listing many low-value questions, or omitting evidence contracts fails."
+    },
+    {
+      "id": "C3",
+      "pass_condition": "Defines the smallest control around unit/range validation plus a risk-triggered human check, naming the harm prevented, Ravi as one control owner, a concrete response-time expectation for urgent work, an exception with escalation destination/deadline, an auditable release artifact, and an August 14 expiry/review; Elena remains the single end-to-end owner from request through verified operation. A blanket sign-off queue, split outcome ownership, or a control lacking any required operating field fails."
+    },
+    {
+      "id": "C4",
+      "pass_condition": "Specifies the four-site July 20-August 14 reversible test, names change and evidence owners, uses the July 22 replay and relevant baseline measures, and sets numeric or directly observable thresholds for exactly four result branches: keep at current scope, revise one boundary with one final date, expand the proven control to a named next scope, and rollback-or-stop to the prior safe path. Hiring/add-capacity is not a success branch and is considered only if a sustained residual capacity gap remains after the process cause is addressed. Vague outcomes such as 'if it works' fail."
+    },
+    {
+      "id": "C5",
+      "pass_condition": "Preserves 24/7 coverage on all 22 sites and the 18-site current path during the pilot; retains hardware interlocks, licensed-operator approval, physical override, incident evidence, and safe rollback, replacing any altered protection before removal. It rejects removing high-harm safeguards and company-wide rollout before evidence, then closes with a named next owner for each final result, the preserved prior path, and an observable switch condition for revisiting structure or capacity. Generic safety language or closure without owners and a switch fails."
+    }
+  ]
+}

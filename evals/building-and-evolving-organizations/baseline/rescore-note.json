@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "note_type": "additive-metadata-correction",
+  "historical_manifest": {
+    "path": "evals/building-and-evolving-organizations/baseline/manifest.json",
+    "sha256": "29fdca3fba521bd395be5d5684cb0db837408ca0fa40592dcf267a498a00aaf5",
+    "bytes": 2179,
+    "preserved_unchanged": true
+  },
+  "correction": {
+    "field": "criteria_only_remediation.fresh_blind_rescore_required",
+    "historical_value": false,
+    "correct_value_at_the_time_of_criteria_remediation": true,
+    "reason": "Criteria changed after response generation, so a fresh blind rescore was required even though prompts and response bytes were unchanged."
+  },
+  "completion_evidence": {
+    "fresh_blind_rescore_completed": true,
+    "fresh_blind_rescorer_id": "org-baseline-rescore",
+    "responses_regenerated": false,
+    "responses_byte_preserved": true,
+    "canonical_vectors": [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 0, 0, 0]],
+    "total": 1,
+    "possible": 25,
+    "normalized_score": 0.04,
+    "summary_path": "evals/building-and-evolving-organizations/baseline/summary.json",
+    "summary_sha256": "2b0dbb432ac72b0041f54b117c6ff5d50ff8f88fb4538ce834c240a0f33c2605"
+  },
+  "history": {
+    "cases_commit": "b1efed3",
+    "baseline_commit": "310de6c",
+    "criteria_remediation_and_blind_rescore_commit": "a565cf5"
+  }
+}

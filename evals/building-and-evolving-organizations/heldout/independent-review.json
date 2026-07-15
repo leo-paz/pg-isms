@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "review_id": "org-heldout3-independent-final",
+  "reviewer": "/root/org_heldout3_independent_review",
+  "reviewed_at_utc": "2026-07-15T21:33:47Z",
+  "stage_a_lock": {
+    "path": ".superpowers/sdd/org-heldout3-independent-stage-a.json",
+    "bytes": 7084,
+    "sha256": "df73e58bae3f6af69ced58593c1ca15c479e5b261bb8a1e227164e6859754e4f",
+    "created_before_stage_b": true,
+    "locked_vector": [1, 1, 1, 1, 1],
+    "locked_integrity_verdict": "PASS",
+    "locked_naturalness_no_leakage_verdict": "PASS",
+    "locked_transfer_verdict": "PASS"
+  },
+  "stage_b_artifacts": {
+    "evals/building-and-evolving-organizations/heldout/score.json": {
+      "bytes": 5708,
+      "sha256": "40d81613ff991a7304685217361d5c24056d01a8dac502e6f580ca74b3cfba22"
+    },
+    "evals/building-and-evolving-organizations/heldout/scorecard.md": {
+      "bytes": 4076,
+      "sha256": "3036e8a14e49d6d04499e4223260700b6390f410906b185968fce24c114359c6"
+    },
+    ".superpowers/sdd/org-heldout3-prompt-review.json": {
+      "bytes": 5406,
+      "sha256": "3173e3963dc26e16722584ddf56a1b1db2978b0ee3662f0b5658e7e9169ac774"
+    },
+    "evals/building-and-evolving-organizations/heldout/attempt-001/summary.json": {
+      "bytes": 608,
+      "sha256": "b940e099296cee73604628197b8335e0c25920e7d162ea458132c9efb4ab3259"
+    },
+    "evals/building-and-evolving-organizations/heldout/attempt-001/review.md": {
+      "bytes": 1061,
+      "sha256": "1a8fa35f06cfbf1afbb5e8b41751d73af711411250bc7ed0d9cbe34945bbc7ee"
+    },
+    "evals/building-and-evolving-organizations/heldout/attempt-002/summary.json": {
+      "bytes": 612,
+      "sha256": "83553ae6bdfa0c093f8b85e8b15346aaeeab9befb38e45656517668d53f420d4"
+    },
+    "evals/building-and-evolving-organizations/heldout/attempt-002/review.md": {
+      "bytes": 903,
+      "sha256": "5caba4c251a91ce4c40420734cfa6aa48c1ef71b77d169b9b59ed74bc3ebe294"
+    }
+  },
+  "comparison": {
+    "vector": {
+      "stage_a": [1, 1, 1, 1, 1],
+      "score_json": [1, 1, 1, 1, 1],
+      "scorecard_md": [1, 1, 1, 1, 1],
+      "agreement": "EXACT"
+    },
+    "rationales": {
+      "agreement": "SUBSTANTIVE_EXACT",
+      "wording_identical": false,
+      "note": "The independent Stage A rationales were written before the score artifacts were opened. Their wording is independently composed, but the bit, required conjuncts, and absence of missing subchecks agree criterion by criterion.",
+      "criteria": [
+        {
+          "id": "C1",
+          "stage_a_bit": 1,
+          "score_bit": 1,
+          "agreement": "EXACT",
+          "shared_basis": "Primary process-or-control route; explicit rejection of Head of QA, universal executive sign-off, a new layer/title, and headcount now."
+        },
+        {
+          "id": "C2",
+          "stage_a_bit": 1,
+          "score_bit": 1,
+          "agreement": "EXACT",
+          "shared_basis": "Observed dated facts, claimed Ravi/CEO theories, unknown future control and latency effects, plus owner/method/date/threshold/decision-effect evidence contracts."
+        },
+        {
+          "id": "C3",
+          "stage_a_bit": 1,
+          "score_bit": 1,
+          "agreement": "EXACT",
+          "shared_basis": "Unit/range validator plus risk-triggered check, Ravi control ownership, urgent target, immediate exception/escalation, auditable record, August 14 review, and intact Elena end-to-end ownership."
+        },
+        {
+          "id": "C4",
+          "stage_a_bit": 1,
+          "score_bit": 1,
+          "agreement": "EXACT",
+          "shared_basis": "Four-site July 20-August 14 pilot, July 22 replay, owners, baselines, numeric/observable gates, and exactly keep/revise/expand/rollback-or-stop with capacity only after a sustained residual gap."
+        },
+        {
+          "id": "C5",
+          "stage_a_bit": 1,
+          "score_bit": 1,
+          "agreement": "EXACT",
+          "shared_basis": "All-site 24/7 continuity, unchanged 18-site path, retained high-harm safeguards and evidence, no premature broad rollout, final-result owners, preserved safe path, and observable switches."
+        }
+      ]
+    },
+    "hashes_and_bytes": {
+      "agreement": "EXACT",
+      "whole_files_shared_with_score": [
+        {
+          "file": "skill-freeze.json",
+          "bytes": 747,
+          "sha256": "fe54d93f10fb312605bf9941d1eae332644627cfd20de9add6d6a21d9cd3855f"
+        },
+        {
+          "file": "case.json",
+          "bytes": 6213,
+          "sha256": "ed27fedc01c45cd216da18e51acc93e605ec6e6bae09fdf0f11be224aebc288d"
+        },
+        {
+          "file": "generation-plan.json",
+          "bytes": 3932,
+          "sha256": "0059317f524b04b0a3eca8b7c3c4b292ae63c5d1ce27a8cfb7a7c12b52a5c04c"
+        },
+        {
+          "file": "prompt.txt",
+          "bytes": 2588,
+          "sha256": "f4c6639c8e83c19eed3bc80fbeca02a474eb48bf4173c05242ec0f39ab62dfaa"
+        },
+        {
+          "file": "response.md",
+          "bytes": 16979,
+          "sha256": "3d00c301836f75e3c0602597778e6f0d77b3cd350fa2a71a82dee9f135c734a3"
+        }
+      ],
+      "scoped_shared_with_score": {
+        "case_prompt": {
+          "bytes": 2587,
+          "sha256": "fe641bbb3e2fbc1febd8c8f6272fbb86991a08e5dfd2666b74311ec27712dab6"
+        },
+        "criteria_compact_json": {
+          "bytes": 2655,
+          "sha256": "35ae3f9e0667353edb9b0aff63493be64c6746b81dc8714200dce46e2ccd451b"
+        }
+      },
+      "stage_a_extended_recomputation": {
+        "skill": {
+          "bytes": 3718,
+          "sha256": "2a1e0a27562aa3cfac61ce280a833bd538e4ad633267e238d8cf7bed695e572a"
+        },
+        "runtime": {
+          "bytes": 12033,
+          "sha256": "6fc8f66eb3b3aea79b1bab9b67602887e0bbb17a00e302e6982fb48378e7bd5b"
+        },
+        "assembled_context": {
+          "bytes": 18386,
+          "sha256": "6013d7961ed5cd6a0d26654850588d806fa46e6dfa91681c577d703c94de4379"
+        },
+        "agreement_with_generation_plan": "EXACT",
+        "agreement_with_prompt_review_for_skill_runtime": "EXACT"
+      },
+      "prompt_review_artifact_hash_matches_generation_plan": true
+    },
+    "chronology": {
+      "agreement": "EXACT",
+      "skill_and_runtime_mtime_utc": "2026-07-15T19:47:32Z",
+      "freeze_created_at_utc": "2026-07-15T21:09:16Z",
+      "case_authored_at_utc": "2026-07-15T21:10:16Z",
+      "prompt_reviewed_at_utc": "2026-07-15T21:13:53Z",
+      "plan_frozen_at_utc": "2026-07-15T21:16:47Z",
+      "response_birth_and_mtime_utc": "2026-07-15T21:25:00Z",
+      "freeze_to_case_seconds": 60,
+      "case_to_plan_seconds": 391,
+      "plan_to_response_seconds": 493,
+      "ordered": true
+    },
+    "response_contract": {
+      "agreement": "EXACT",
+      "headers": "PASS",
+      "filled_dated_record": "PASS",
+      "trailing_horizontal_whitespace": "PASS",
+      "exactly_one_final_lf": "PASS",
+      "whole_file_hash_after_response": "PASS"
+    },
+    "prompt_gate": {
+      "stage_a": "PASS",
+      "generation_plan_record": "PASS",
+      "prompt_review_artifact": "PASS",
+      "naturalness": "PASS",
+      "no_leakage": "PASS",
+      "review_artifact_sha256": "3173e3963dc26e16722584ddf56a1b1db2978b0ee3662f0b5658e7e9169ac774",
+      "blockers": [],
+      "agreement": "EXACT"
+    },
+    "threshold": {
+      "case": 4,
+      "generation_plan": 4,
+      "score_json": 4,
+      "scorecard_md": 4,
+      "stage_a": 4,
+      "agreement": "EXACT",
+      "attempt_003_positive_bits": 5,
+      "attempt_003_threshold_verdict": "PASS"
+    },
+    "roles": {
+      "attempt_003": {
+        "author": "/root/org_heldout3_author",
+        "prompt_reviewer": "/root/org_heldout3_prompt_gate",
+        "generator": "/root/org_heldout3_generator",
+        "scorer": "/root/org_heldout3_scorer",
+        "independent_reviewer": "/root/org_heldout3_independent_review",
+        "all_pairwise_distinct": true,
+        "generation_plan_and_score_identity_agreement": "EXACT"
+      },
+      "attempt_001": {
+        "author": "/root/org_heldout_author",
+        "prompt_reviewer": "/root/org_heldout_prompt_gate",
+        "generator": "/root/org_heldout_generator",
+        "scorer": "/root/org_heldout_scorer",
+        "listed_roles_pairwise_distinct": true
+      },
+      "attempt_002": {
+        "author": "/root/org_heldout2_author",
+        "prompt_reviewer": "/root/org_heldout2_prompt_gate",
+        "generator": "/root/org_heldout2_generator",
+        "scorer": "/root/org_heldout2_scorer",
+        "listed_roles_pairwise_distinct": true
+      },
+      "cross_attempt_role_ids_distinct": true
+    },
+    "prior_failure_preservation": {
+      "verdict": "PASS",
+      "attempt_001": {
+        "vector": [0, 0, 1, 1, 1],
+        "positive_bits": 3,
+        "threshold": 4,
+        "criteria_threshold_met": false,
+        "integrity": "PASS",
+        "naturalness_no_leakage": "PASS",
+        "transfer": "FAIL",
+        "preserved_failure": true,
+        "response_sha256": "9c30c0cc1ccb4d8fc4783381f668aea0244a7d0b4640d451fa52e398d44a2020",
+        "failure_rationale": "C1 missed the explicit survival-routing switch; C2 omitted forecast-robustness and survival-binding unknown ledger rows. C3-C5 remained passes."
+      },
+      "attempt_002": {
+        "vector": [1, 0, 0, 0, 0],
+        "positive_bits": 1,
+        "threshold": 4,
+        "criteria_threshold_met": false,
+        "integrity": "PASS",
+        "naturalness_no_leakage": "PASS",
+        "transfer": "FAIL",
+        "preserved_failure": true,
+        "response_sha256": "56876ecb2325a221b76d228fe2573caded5e5a4a72e27e915eabc61a86146885",
+        "failure_rationale": "Routing passed; strict misses remained for candidate/role-fit unknown timing, increased recruiting allocation, forward recruiting-latency measurement, and explicit bias/proxy safeguards."
+      },
+      "scope_note": "Under the authorized Stage B scope, the canonical summaries and reviews attest immutability and integrity; raw prior response artifacts were intentionally not opened or recomputed. Their current summary/review hashes are fixed above."
+    },
+    "attempt_003_distinctness": {
+      "verdict": "PASS",
+      "new_case_id": "org-heldout-attempt-003",
+      "new_role_set": true,
+      "new_primary_mechanism": "process-or-control",
+      "prior_described_mechanisms": ["survival-routing/decision-rights", "leader-role-evolution"],
+      "attempt_003_response_sha256": "3d00c301836f75e3c0602597778e6f0d77b3cd350fa2a71a82dee9f135c734a3",
+      "response_hash_differs_from_attempt_001": true,
+      "response_hash_differs_from_attempt_002": true,
+      "pre_author_freeze_and_new_case_chronology": "PASS",
+      "rationale": "Attempt 003 uses a new case identity, new author/reviewer/generator/scorer identities, a distinct operational process-control scenario, and a distinct response hash. It does not reinterpret or repair either prior frozen response."
+    },
+    "scope_differences_not_disagreements": [
+      "The scorer intentionally recomputed integrity only over five authorized held-out files; Stage A was expressly authorized to inspect the frozen skill/runtime and therefore additionally verified their contents and the assembled context.",
+      "The prompt reviewer inspected the draft case path, while Stage A inspected the canonical case; their whole-file hashes are identical, matching the generation plan's byte-identical source claim.",
+      "Stage A rationale wording is not copied from the scorer, but its criterion bits and all required conjunct conclusions agree."
+    ],
+    "disagreements": []
+  },
+  "required_verdicts": {
+    "integrity": "PASS",
+    "naturalness_no_leakage": "PASS",
+    "strict_bits": "PASS: 5/5, threshold 4/5",
+    "transfer": "PASS",
+    "role_separation": "PASS",
+    "prior_failure_preservation": "PASS",
+    "attempt_003_distinctness": "PASS"
+  },
+  "final_verdict": "PASS",
+  "findings": []
+}

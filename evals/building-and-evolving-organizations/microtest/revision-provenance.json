@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "revision_type": "independent-strict-score-correction",
+  "initial_blind_score": {
+    "scorer_task": "/root/org_micro_scorer",
+    "audit_json_path": "evals/building-and-evolving-organizations/microtest/initial-score-audit.json",
+    "audit_json_sha256": "1a0c97962b55df20df4ffe613b947be51302b964c6abe3d0b4e817d470a8db61",
+    "audit_markdown_path": "evals/building-and-evolving-organizations/microtest/initial-score-audit.md",
+    "audit_markdown_sha256": "bd6fc97e4045ac24f867901e8b5c4e594f970f55b83abe0d165089b6a73c2394",
+    "guided_rep_4_c5": 1,
+    "guided_total": 16,
+    "effect": 0.56
+  },
+  "independent_review": {
+    "reviewer_task": "/root/org_micro_independent_review",
+    "stage_a_path": "evals/building-and-evolving-organizations/microtest/independent-stage-a.json",
+    "stage_a_sha256": "e453fe3c5bfc5030ccd1cb8e62dbe57e87169e34261c7debd41a900ce9574f4d",
+    "final_json_path": "evals/building-and-evolving-organizations/microtest/independent-review.json",
+    "final_json_sha256": "21f962969ae097a2f34b2c2336bc08bbe4f150538bad584b469438b5607b0f5a",
+    "final_markdown_path": "evals/building-and-evolving-organizations/microtest/independent-review.md",
+    "final_markdown_sha256": "f1b388d8923850a3bf9b6ba276550ec743584d1ad1c073ed9204adece3723ba7"
+  },
+  "correction": {
+    "sample_id": "org_micro_guided_4",
+    "criterion": "C5",
+    "prior_bit": 1,
+    "corrected_bit": 0,
+    "reason": "The Keep result gives an action but no explicit next owner; the global header and leadership text cannot be inferred into each result under the every-result owner/action conjunct.",
+    "responses_regenerated_or_edited": false
+  },
+  "corrected_canonical": {
+    "summary_path": "evals/building-and-evolving-organizations/microtest/summary.json",
+    "summary_sha256": "0e00f619aad1819e544e8ed4b4a30811ee7c504abe0fb6539e5c11d2cd8bf897",
+    "scorer_report_path": "evals/building-and-evolving-organizations/microtest/scorer-report.md",
+    "scorer_report_sha256": "f6c566dca7987383b1bd00b9f7ece16260c04dd917ed6a3c3932a3ba9acbe7cc",
+    "guided_rep_4_scorecard_path": "evals/building-and-evolving-organizations/microtest/scorecards/org_micro_guided_4.md",
+    "guided_rep_4_scorecard_sha256": "23364c17213f5698df6ebec8fe4fa322af52c635ce7ffb1700f98b0a6541a2e0",
+    "control_total": 2,
+    "guided_total": 15,
+    "possible_per_arm": 25,
+    "control_normalized": 0.08,
+    "guided_normalized": 0.6,
+    "effect": 0.52,
+    "threshold": 0.2,
+    "verdict": "PASS"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "skill_name": "building-and-evolving-organizations",
+  "phase": "forward",
+  "generator_ids": [
+    "org-forward-case-01",
+    "org-forward-case-02",
+    "org-forward-case-03",
+    "org-forward-case-04",
+    "org-forward-case-05"
+  ],
+  "scorer_id": "org-forward-scorer",
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "raw_output": "scenario-01.md",
+      "criteria_results": [
+        { "criterion": 1, "score": 1, "max_score": 1 },
+        { "criterion": 2, "score": 0, "max_score": 1 },
+        { "criterion": 3, "score": 1, "max_score": 1 },
+        { "criterion": 4, "score": 0, "max_score": 1 },
+        { "criterion": 5, "score": 1, "max_score": 1 }
+      ],
+      "missed_criteria": [2, 4],
+      "score": 3,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-02",
+      "raw_output": "scenario-02.md",
+      "criteria_results": [
+        { "criterion": 1, "score": 0, "max_score": 1 },
+        { "criterion": 2, "score": 1, "max_score": 1 },
+        { "criterion": 3, "score": 1, "max_score": 1 },
+        { "criterion": 4, "score": 0, "max_score": 1 },
+        { "criterion": 5, "score": 1, "max_score": 1 }
+      ],
+      "missed_criteria": [1, 4],
+      "score": 3,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-03",
+      "raw_output": "scenario-03.md",
+      "criteria_results": [
+        { "criterion": 1, "score": 0, "max_score": 1 },
+        { "criterion": 2, "score": 0, "max_score": 1 },
+        { "criterion": 3, "score": 1, "max_score": 1 },
+        { "criterion": 4, "score": 1, "max_score": 1 },
+        { "criterion": 5, "score": 1, "max_score": 1 }
+      ],
+      "missed_criteria": [1, 2],
+      "score": 3,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-04",
+      "raw_output": "scenario-04.md",
+      "criteria_results": [
+        { "criterion": 1, "score": 1, "max_score": 1 },
+        { "criterion": 2, "score": 0, "max_score": 1 },
+        { "criterion": 3, "score": 0, "max_score": 1 },
+        { "criterion": 4, "score": 1, "max_score": 1 },
+        { "criterion": 5, "score": 1, "max_score": 1 }
+      ],
+      "missed_criteria": [2, 3],
+      "score": 3,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-05",
+      "raw_output": "scenario-05.md",
+      "criteria_results": [
+        { "criterion": 1, "score": 0, "max_score": 1 },
+        { "criterion": 2, "score": 0, "max_score": 1 },
+        { "criterion": 3, "score": 1, "max_score": 1 },
+        { "criterion": 4, "score": 1, "max_score": 1 },
+        { "criterion": 5, "score": 0, "max_score": 1 }
+      ],
+      "missed_criteria": [1, 2, 5],
+      "score": 2,
+      "max_score": 5
+    }
+  ],
+  "exact_misses": [
+    "scenario-01 criterion 2",
+    "scenario-01 criterion 4",
+    "scenario-02 criterion 1",
+    "scenario-02 criterion 4",
+    "scenario-03 criterion 1",
+    "scenario-03 criterion 2",
+    "scenario-04 criterion 2",
+    "scenario-04 criterion 3",
+    "scenario-05 criterion 1",
+    "scenario-05 criterion 2",
+    "scenario-05 criterion 5"
+  ],
+  "total_score": 14,
+  "total_max_score": 25,
+  "normalized_score": 0.56,
+  "baseline_normalized_score": 0.04,
+  "normalized_delta": 0.52,
+  "required_normalized_delta": 0.1,
+  "material_improvement": true,
+  "forward_ready": true
+}
