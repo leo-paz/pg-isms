@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "skill_name": "building-and-evolving-organizations",
+  "phase": "baseline",
+  "reviewer_id": "organization-baseline-generator-001",
+  "canonical_agent_task": "/external/codex-exec/019f6728-585f-7b01-b398-bec51a6bf316",
+  "generated_at": "2026-07-15T19:02:53Z",
+  "model_identity": "Codex gpt-5.6-sol",
+  "dispatch_prompt": "Answer each projected prompt independently using only the facts in that prompt and ordinary reasoning, without inspecting files, using tools, searching, invoking skills, or seeing criteria or intended answers.",
+  "cases_projection": "id-and-prompt-only",
+  "projection_serialization": "jq -c '[.cases[] | {id,prompt}]' with one final LF",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "generation_environment": {
+    "working_directory": "/tmp",
+    "sandbox": "read-only",
+    "ephemeral": true,
+    "repository_available": false,
+    "requested_tool_calls": 0,
+    "successful_tool_calls": 0
+  },
+  "skill_state": {
+    "mode": "no-skill",
+    "skill_sha256": null
+  },
+  "response_hash_algorithm": "sha256",
+  "cases_sha256": "30d0d4a6aee6e1b9aa86275ed7438eecfbcc02adb63133b0191664a74f35d6d3",
+  "projection_sha256": "e7b1a613d6ac218b52097ecd88b02da6bc1e1f914a0c79e62297f10ebcdc68f9",
+  "response_hashes": {
+    "scenario-01": "1ecd19711e48765536645e8f6a19896a0fdbaed80946ea169aca10a3b7bc8385",
+    "scenario-02": "2bb834d9f7791d306cc1fed74b6ec91f0050d80349fcd14125dbcd1385f327b5",
+    "scenario-03": "8b3ba95809741ab98d825061e445ed08e060e7abeb85d09468e0cd98ce84fb88",
+    "scenario-04": "4f12899747d2d20a7ed23115c05bf8de366b628c11d906953a65c6abbcf5d795",
+    "scenario-05": "eead35ad710e35ed0756ce7675501526e6a2cda7658b01e6f1f766dc1ce22c9c"
+  }
+}
