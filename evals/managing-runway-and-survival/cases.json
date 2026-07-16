@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "skill_name": "managing-runway-and-survival",
+  "cases": [
+    {
+      "id": "scenario-01",
+      "type": "trigger",
+      "prompt": "On July 20, 2026, a 12-person workflow-software company has $960,000 cash, no debt covenant, and average monthly cash outflow of $310,000 against $165,000 of collected cash receipts. The net burn has been $145,000 for four months. MRR grew from $118,000 to $126,000 over those four months; gross margin is 78%; monthly logo churn is 3.2%. Payroll and taxes are current. The board-approved plan adds four hires on September 1, increasing monthly outflow by $82,000. The CEO says an unsigned seed extension will probably close in November and asks whether to keep hiring. The lead investor says the company should cut all product work, double sales commissions, and begin fundraising immediately. Two renewals worth $19,000 MRR decide by August 15, and a founder-led expansion test can reach 20 existing accounts by August 31. No safety, legal, misconduct, or acquisition issue is reported. Produce a dated survival decision through December 31, 2026.",
+      "criteria": [
+        "Selects `managing-runway-and-survival` as primary because the company is default-dead on the observed trend; treats any fundraising as a secondary composed branch after a survival envelope and switch date, and does not count the unsigned extension as cash.",
+        "Builds an observed-input cash model that distinguishes cash, collected receipts, outflow, net burn, growth, gross margin, churn, current obligations, and the planned hiring step; states the approximately 6.6-month static runway before new hires, shows that hiring shortens it, and labels projections or unprovided collections timing as assumptions or unknowns rather than facts.",
+        "Creates dated downside, base, and upside scenarios through December 31 with explicit monthly cash or time-to-zero consequences; gives each consequential unknown an owner, source or artifact, due date, threshold, and decision effect; and states a dated default-alive test rather than equating runway extension with default alive.",
+        "Pauses the four hires unless an evidence-backed, absorbable return predicate is met; sequences the renewals and existing-account expansion test before broad commission changes; names protected customer/product obligations; and gives every cut, collection, revenue action, or bounded spend an owner, effective date, cash effect or cap, safeguard, and review date.",
+        "Returns explicit `continue`, `adapt`, `plan-B`, and `shutdown-or-orderly-wind-down` branches with non-overlapping thresholds, owners, dates, preserved options, and handoffs; triggers current qualified finance, tax, employment, or legal owners before irreversible obligations are missed or changed."
+      ]
+    },
+    {
+      "id": "scenario-02",
+      "type": "edge",
+      "prompt": "A bootstrapped seven-person compliance-training company has $2.4 million in cash, no debt, $310,000 monthly collected revenue, $205,000 monthly total cash expense, 86% gross margin, and 1.1% monthly revenue churn. Those figures have been stable or improving for ten months. Over the last three cohorts, an outbound channel spent $18,000 per month and produced $72,000 of new annualized gross profit per cohort; cash payback was under four months and support response stayed within target. The founder refuses to spend more than $18,000 because ‘real startups stay frugal’ and has frozen a second salesperson and a $12,000 channel expansion. The sales lead proposes doubling channel spend for three months and hiring one salesperson only if the first month reproduces the payback. No fundraising, buyer, safety, legal, or team-authority issue exists. On July 20, 2026, decide the next 90 days.",
+      "criteria": [
+        "Diagnoses the company as default alive from sufficient observed operating history and rejects emergency austerity, rescue fundraising, or cash-hoarding as the primary response; distinguishes disciplined investment from indiscriminate spending.",
+        "Uses the supplied revenue, expense, margin, churn, channel cost, gross-profit result, payback, cash, and service level as observations; verifies or flags cohort comparability, saturation, sales capacity, and marginal payback as consequential unknowns with owners, artifacts, due dates, thresholds, and decision effects.",
+        "Defines a reversible 90-day investment test with a stated spend cap, preserved cash or runway floor, affected segment, owner, mechanism, rival explanation, weekly or cohort evidence cadence, and a falsifier; does not automatically approve the salesperson before the precommitted first-stage evidence gate.",
+        "Separates the proven engine from the proposed expansion step; protects support quality and core product obligations; includes company outcome, customer continuity, and cash-risk measures; and states exactly what spend pauses, continues, or expands at each review.",
+        "Returns distinct `expand`, `hold`, `adapt`, and `stop-expansion` branches with observable non-overlapping thresholds, dates, owners, and resulting route; preserves the option to resume the prior spend level and does not invent financing, legal, or crisis facts."
+      ]
+    },
+    {
+      "id": "scenario-03",
+      "type": "condition",
+      "prompt": "On July 20, 2026, a pre-revenue medical-device startup has $1.8 million cash. Current fixed monthly cash expense is $240,000 and current prototype, lab, and regulatory work averages another $90,000 per month. The team has only two months at this staffing level. A pivotal study can begin no earlier than January 2027 and is estimated to require $650,000 to $950,000; regulatory clearance is estimated for April through October 2027. Three hospitals have signed nonbinding pilot letters, but no deposits or purchase commitments exist. The company can delay a $420,000 manufacturing-tool order until December without changing the study start; canceling after order placement forfeits 60%. Management proposes using the current two-month trend to declare the company default alive, placing the tooling order now, and hiring five people because a Series A should close within six months. No term sheet is signed. Design the survival and milestone plan through January 31, 2027 without giving medical, regulatory, legal, or investment advice.",
+      "criteria": [
+        "Rejects a default-alive extrapolation from two pre-revenue months and selects scenario planning for a capital-heavy, regulated product; does not apply software ramen-profitability assumptions or count nonbinding pilot letters or an unsigned Series A as cash.",
+        "Builds a dated calendar cash model with the current approximately $330,000 monthly spend, about 5.5 months of static runway, study-cost range, clearance range, tooling decision and forfeiture, payroll or essential obligations, and downside/base/upside cases; explicitly marks unprovided timing and cost variance as unknown.",
+        "Defines the January study start and evidence needed before it as staged technical, regulatory, customer, and financing milestones with qualified domain owners; assigns each consequential unknown an owner, artifact, due date, quantitative or directly observable threshold, and decision effect.",
+        "Defers the tooling order until its latest safe evidence date and pauses the five hires unless milestone capacity and funded runway justify them; compares delay, partner, scope, cost-reduction, revenue or deposit, and bounded financing options while protecting study validity, compliance, data integrity, and critical capability.",
+        "Returns dated `fund-and-proceed`, `reduce-or-stage`, `delay-milestone`, and `orderly-stop` branches with non-overlapping predicates, owners, cash consequences, preserved options, and handoff dates; routes any financing execution after the survival envelope to `raising-and-governing-capital`."
+      ]
+    },
+    {
+      "id": "scenario-04",
+      "type": "non-trigger",
+      "prompt": "A nine-person analytics company has $3.2 million cash, $2.4 million ARR, 82% gross margin, $320,000 monthly collected revenue, $440,000 monthly cash expense, and 1.0% monthly revenue churn. For nine months, net new ARR has averaged $170,000 monthly and collected revenue has risen each month. There is no planned hiring step, debt covenant, late obligation, or customer concentration above 9%. The founders want to raise a Series A to accelerate an already repeatable enterprise channel; they have no signed offer and want advice on round size, investor selection, dilution, governance, and process timing. They also ask whether the cash position makes this a survival problem. On July 20, 2026, choose the primary workflow and define the runway work, if any, that should precede it.",
+      "criteria": [
+        "Selects `raising-and-governing-capital` as the primary workflow and treats `managing-runway-and-survival` only as a bounded input or guardrail because the supplied history supports default alive and time-to-zero is not binding.",
+        "Uses cash, receipts, expense, gross margin, churn, net-new ARR history, concentration, and current obligations as observed; computes approximately 26.7 months of static runway at the current $120,000 net burn without presenting the static calculation as the default-alive proof by itself.",
+        "States the evidence-backed default-alive rationale and verifies or assigns owners for forecast sensitivity, channel saturation, collection timing, and financing budget; does not invent a round, valuation, investor demand, or legal conclusion.",
+        "Defines a dated runway floor, financing budget or maximum distraction envelope, plan-B switch date, and operating safeguards that the capital process must preserve; routes current terms, dilution, control, investor selection, and process design to the financing workflow.",
+        "Returns an explicit route-away record with the exact primary skill identifier, decision owner, handoff date, runway facts, guardrails, unknowns, preserved company-building option, and switch-back condition that would make survival primary."
+      ]
+    },
+    {
+      "id": "scenario-05",
+      "type": "application",
+      "prompt": "On July 20, 2026, a 19-person logistics marketplace has $620,000 cash. Payroll, taxes, insurance, and hosting due during the next 30 days total $290,000. Other committed cash payments during that period total $115,000. Current monthly collected gross profit is $78,000; other recurring monthly cash expense is $235,000. Two solvent enterprise customers owe $180,000 on accepted invoices due August 5 and August 18, but no cash has arrived. A claimed $1.5 million pipeline has no signed contracts. The marketplace serves 46 active shippers; disrupting dispatch could strand time-sensitive loads. The CEO wants to wait for the pipeline, continue all hiring, and start a broad rebrand. The controller can produce a daily cash report, the operations lead owns dispatch continuity, and current employment, tax, insurance, customer-contract, and insolvency questions can be handled by named qualified advisers. Produce the immediate plan and dated branches through September 30, 2026.",
+      "criteria": [
+        "Treats near-term cash availability and essential obligations as the binding survival state; selects `managing-runway-and-survival` before growth, brand, hiring, or rescue-financing optimization; treats invoiced receivables as timed uncertain collections and the unsigned pipeline as a claim, not cash.",
+        "Builds a daily or weekly 13-week cash calendar beginning with $620,000 and separately records the $290,000 essential obligations, $115,000 other commitments, $180,000 receivables with due dates, $78,000 monthly gross profit, and $235,000 other recurring expense; names timing assumptions and reconciliation controls.",
+        "Sequences cash collection, obligation protection, hiring freeze, rebrand stop, contract or vendor review, focused revenue, and reversible cost actions; gives each action an owner, deadline, expected cash effect or cap, evidence artifact, continuity safeguard, and next review; protects dispatch and active shippers.",
+        "Requires the named qualified finance, tax, employment, insurance, contract, or insolvency advisers before deferring, changing, or missing obligations or making irreversible workforce and shutdown decisions; invents no legal priority, collection certainty, financing, or customer fact.",
+        "Returns non-overlapping dated `stabilize`, `adapt`, `plan-B`, and `orderly-wind-down` branches tied to actual cleared cash and forecast thresholds, with owners, switch dates, preserved options, dispatch handoff, and unresolved unknowns through September 30."
+      ]
+    }
+  ]
+}

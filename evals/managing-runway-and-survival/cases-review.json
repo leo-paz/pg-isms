@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "runway-cases-review-001",
+  "skill_name": "managing-runway-and-survival",
+  "reviewed_at_utc": "2026-07-16T03:29:01Z",
+  "review_mode": "fresh-independent-no-target-skill",
+  "verdict": "PASS",
+  "ready_for_baseline": true,
+  "source": {
+    "path": "evals/managing-runway-and-survival/cases.json",
+    "sha256": "45f0b96edcfed3562ee2d6338db0bc1270d7c8a5a5dcdb8dc48e2f8a764739cd"
+  },
+  "preconditions": {
+    "ag_agents_read": true,
+    "project_brief_read": true,
+    "taxonomy_entry_read": true,
+    "global_invariants_read": true,
+    "routing_rules_read": true,
+    "decision_branches_read": true,
+    "evaluation_branch_contract_read": true,
+    "product_type_matrix_read": true,
+    "target_skill_absent": true,
+    "baseline_absent": true,
+    "cases_json_edited": false
+  },
+  "exact_counts": {
+    "cases": 5,
+    "criteria": 25,
+    "criteria_per_case": {
+      "scenario-01": 5,
+      "scenario-02": 5,
+      "scenario-03": 5,
+      "scenario-04": 5,
+      "scenario-05": 5
+    },
+    "case_types": {
+      "trigger": 1,
+      "edge": 1,
+      "condition": 1,
+      "non-trigger": 1,
+      "application": 1
+    },
+    "unique_case_ids": 5,
+    "unique_normalized_prompts": 5,
+    "unique_normalized_criteria": 25,
+    "empty_prompts": 0,
+    "empty_criteria": 0
+  },
+  "finding_counts": {
+    "critical": 0,
+    "important": 0,
+    "minor": 0
+  },
+  "findings": {
+    "critical": [],
+    "important": [],
+    "minor": []
+  },
+  "review_checks": {
+    "prompt_sufficiency": "PASS",
+    "arithmetic": "PASS",
+    "factual_consistency": "PASS",
+    "feasible_within_1200_response_words": "PASS",
+    "criterion_independence_and_non_overlap": "PASS",
+    "conjunctive_strictness": "PASS",
+    "routing_balance": "PASS",
+    "non_trigger_coverage": "PASS",
+    "hidden_requirements_unsupported_by_prompt": 0,
+    "current_web_dependencies": 0,
+    "behavior_criteria": 25,
+    "prose_only_criteria": 0
+  },
+  "case_results": {
+    "scenario-01": "PASS",
+    "scenario-02": "PASS",
+    "scenario-03": "PASS",
+    "scenario-04": "PASS",
+    "scenario-05": "PASS"
+  },
+  "notes": [
+    "The suite covers both sides of the named runway tensions and preserves survival-before-capital routing precedence.",
+    "The five case types are balanced, including one isolated non-trigger and product- or stage-conditioned counterexamples.",
+    "Criteria remain behavior-oriented: routing, evidence handling, models, gates, actions, safeguards, branches, ownership, and handoffs.",
+    "This review records no intended answer text beyond the existing criteria."
+  ]
+}
