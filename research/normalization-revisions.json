@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "review": "Checkpoint 3 taxonomy semantic routing red-team remediation",
-  "date": "2026-07-14",
+  "review": "Checkpoint 3 taxonomy remediation plus verified skill 13 and 14 source-union revisions",
+  "date": "2026-07-16",
   "remove_canonical_themes": [
     "adversarial-robustness-and-abuse",
     "equity-and-ownership",
@@ -43,129 +43,1540 @@
     }
   ],
   "replace_mappings": [
-    {"raw_theme":"adoption activation energy","canonical_themes":["market-timing-and-transitions"]},
-    {"raw_theme":"adversarial robustness","canonical_themes":["adversarial-system-robustness"]},
-    {"raw_theme":"asymmetric error costs","canonical_themes":["adversarial-system-robustness","risk-and-error-management"]},
-    {"raw_theme":"asymmetric-error design","canonical_themes":["adversarial-system-robustness","risk-and-error-management"]},
-    {"raw_theme":"career flexibility","canonical_themes":["career-choice-and-optionality"]},
-    {"raw_theme":"control versus adoption","canonical_themes":["platform-and-ecosystem-strategy","technology-ecosystem-adoption"]},
-    {"raw_theme":"critical mass","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
-    {"raw_theme":"developer ecosystems","canonical_themes":["platform-and-ecosystem-strategy","technology-ecosystem-adoption"]},
-    {"raw_theme":"distributed human review","canonical_themes":["abuse-and-moderation-controls","community-moderation-and-reputation"]},
-    {"raw_theme":"ecosystem flywheels","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
-    {"raw_theme":"employee equity","canonical_themes":["employee-equity-and-compensation","hiring-and-talent"]},
-    {"raw_theme":"equity dilution","canonical_themes":["deal-mechanics-and-terms","financing-terms-equity-and-control"]},
-    {"raw_theme":"founder immigration","canonical_themes":["location-and-mobility","regulatory-and-legal-constraints"]},
-    {"raw_theme":"founder liquidity","canonical_themes":["financing-terms-equity-and-control","strategic-optionality"]},
-    {"raw_theme":"founder-friendly policy","canonical_themes":["ecosystem-policy-and-institutions","startup-ecosystems-and-hubs"]},
-    {"raw_theme":"founder-investor density","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
-    {"raw_theme":"fundraising tradeoffs","canonical_themes":["financing-terms-equity-and-control","fundraising-strategy-and-process"]},
-    {"raw_theme":"historical adversarial-incentive hypothesis","canonical_themes":["adversarial-system-robustness","historical-and-source-context","incentives-and-behavior"]},
-    {"raw_theme":"hub effects","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
-    {"raw_theme":"hub network effects","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
-    {"raw_theme":"immigration-constrained recruiting","canonical_themes":["hiring-and-talent","regulatory-and-legal-constraints"]},
-    {"raw_theme":"market-based eligibility","canonical_themes":["performance-selection-and-credentials","regulatory-and-legal-constraints"]},
-    {"raw_theme":"narrative propagation","canonical_themes":["distribution-and-growth","media-pr-and-narrative"]},
-    {"raw_theme":"organic expertise growth","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
-    {"raw_theme":"outcome-adjusted ownership","canonical_themes":["financing-terms-equity-and-control","measurement-and-evaluation"]},
-    {"raw_theme":"ownership liquidity","canonical_themes":["financing-terms-equity-and-control","strategic-optionality"]},
-    {"raw_theme":"patent ethics","canonical_themes":["integrity-truth-and-calibration","regulatory-and-legal-constraints"]},
-    {"raw_theme":"peer and audience density","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
-    {"raw_theme":"peer motivation","canonical_themes":["collaboration-and-peer-support","motivation-and-morale"]},
-    {"raw_theme":"personalized learning","canonical_themes":["adversarial-system-robustness","architecture-and-technical-fit"]},
-    {"raw_theme":"policy experiments","canonical_themes":["ecosystem-policy-and-institutions","prototyping-and-experimentation"]},
-    {"raw_theme":"popularity network effects","canonical_themes":["technology-ecosystem-adoption","technology-selection"]},
-    {"raw_theme":"program incentives","canonical_themes":["ecosystem-policy-and-institutions","incentives-and-behavior"]},
-    {"raw_theme":"public product validation","canonical_themes":["user-demand-discovery-and-validation"]},
-    {"raw_theme":"referral networks","canonical_themes":["investor-incentives-and-selection","portfolio-investing"]},
-    {"raw_theme":"regulatory friction","canonical_themes":["regulatory-and-legal-constraints","risk-and-error-management"]},
-    {"raw_theme":"small-company protection","canonical_themes":["historical-and-source-context","integrity-truth-and-calibration","regulatory-and-legal-constraints"]},
-    {"raw_theme":"social adoption","canonical_themes":["product-network-effects-and-critical-mass","user-demand-discovery-and-validation"]},
-    {"raw_theme":"social norms","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
-    {"raw_theme":"startup ecosystem policy","canonical_themes":["ecosystem-policy-and-institutions","startup-ecosystems-and-hubs"]},
-    {"raw_theme":"startup formation policy","canonical_themes":["ecosystem-policy-and-institutions","startup-ecosystems-and-hubs"]},
-    {"raw_theme":"startup-hub effects","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
-    {"raw_theme":"startup-hub formation","canonical_themes":["regional-ecosystem-density","startup-ecosystems-and-hubs"]},
-    {"raw_theme":"talent clusters","canonical_themes":["hiring-and-talent","regional-ecosystem-density","startup-ecosystems-and-hubs"]},
-    {"raw_theme":"threshold markets","canonical_themes":["beachheads-and-market-expansion","product-network-effects-and-critical-mass"]},
-    {"raw_theme":"troll prevention","canonical_themes":["abuse-and-moderation-controls","community-moderation-and-reputation"]},
-    {"raw_theme":"university role","canonical_themes":["ecosystem-policy-and-institutions","startup-ecosystems-and-hubs"]},
-    {"raw_theme":"user-controlled abuse response","canonical_themes":["abuse-and-moderation-controls","user-empathy-and-respect"]}
+    {
+      "raw_theme": "adoption activation energy",
+      "canonical_themes": [
+        "market-timing-and-transitions"
+      ]
+    },
+    {
+      "raw_theme": "adversarial robustness",
+      "canonical_themes": [
+        "adversarial-system-robustness"
+      ]
+    },
+    {
+      "raw_theme": "asymmetric error costs",
+      "canonical_themes": [
+        "adversarial-system-robustness",
+        "risk-and-error-management"
+      ]
+    },
+    {
+      "raw_theme": "asymmetric-error design",
+      "canonical_themes": [
+        "adversarial-system-robustness",
+        "risk-and-error-management"
+      ]
+    },
+    {
+      "raw_theme": "career flexibility",
+      "canonical_themes": [
+        "career-choice-and-optionality"
+      ]
+    },
+    {
+      "raw_theme": "control versus adoption",
+      "canonical_themes": [
+        "platform-and-ecosystem-strategy",
+        "technology-ecosystem-adoption"
+      ]
+    },
+    {
+      "raw_theme": "critical mass",
+      "canonical_themes": [
+        "regional-ecosystem-density",
+        "startup-ecosystems-and-hubs"
+      ]
+    },
+    {
+      "raw_theme": "developer ecosystems",
+      "canonical_themes": [
+        "platform-and-ecosystem-strategy",
+        "technology-ecosystem-adoption"
+      ]
+    },
+    {
+      "raw_theme": "distributed human review",
+      "canonical_themes": [
+        "abuse-and-moderation-controls",
+        "community-moderation-and-reputation"
+      ]
+    },
+    {
+      "raw_theme": "ecosystem flywheels",
+      "canonical_themes": [
+        "regional-ecosystem-density",
+        "startup-ecosystems-and-hubs"
+      ]
+    },
+    {
+      "raw_theme": "employee equity",
+      "canonical_themes": [
+        "employee-equity-and-compensation",
+        "hiring-and-talent"
+      ]
+    },
+    {
+      "raw_theme": "equity dilution",
+      "canonical_themes": [
+        "deal-mechanics-and-terms",
+        "financing-terms-equity-and-control"
+      ]
+    },
+    {
+      "raw_theme": "founder immigration",
+      "canonical_themes": [
+        "location-and-mobility",
+        "regulatory-and-legal-constraints"
+      ]
+    },
+    {
+      "raw_theme": "founder liquidity",
+      "canonical_themes": [
+        "financing-terms-equity-and-control",
+        "strategic-optionality"
+      ]
+    },
+    {
+      "raw_theme": "founder-friendly policy",
+      "canonical_themes": [
+        "ecosystem-policy-and-institutions",
+        "startup-ecosystems-and-hubs"
+      ]
+    },
+    {
+      "raw_theme": "founder-investor density",
+      "canonical_themes": [
+        "regional-ecosystem-density",
+        "startup-ecosystems-and-hubs"
+      ]
+    },
+    {
+      "raw_theme": "fundraising tradeoffs",
+      "canonical_themes": [
+        "financing-terms-equity-and-control",
+        "fundraising-strategy-and-process"
+      ]
+    },
+    {
+      "raw_theme": "historical adversarial-incentive hypothesis",
+      "canonical_themes": [
+        "adversarial-system-robustness",
+        "historical-and-source-context",
+        "incentives-and-behavior"
+      ]
+    },
+    {
+      "raw_theme": "hub effects",
+      "canonical_themes": [
+        "regional-ecosystem-density",
+        "startup-ecosystems-and-hubs"
+      ]
+    },
+    {
+      "raw_theme": "hub network effects",
+      "canonical_themes": [
+        "regional-ecosystem-density",
+        "startup-ecosystems-and-hubs"
+      ]
+    },
+    {
+      "raw_theme": "immigration-constrained recruiting",
+      "canonical_themes": [
+        "hiring-and-talent",
+        "regulatory-and-legal-constraints"
+      ]
+    },
+    {
+      "raw_theme": "market-based eligibility",
+      "canonical_themes": [
+        "performance-selection-and-credentials",
+        "regulatory-and-legal-constraints"
+      ]
+    },
+    {
+      "raw_theme": "narrative propagation",
+      "canonical_themes": [
+        "distribution-and-growth",
+        "media-pr-and-narrative"
+      ]
+    },
+    {
+      "raw_theme": "organic expertise growth",
+      "canonical_themes": [
+        "regional-ecosystem-density",
+        "startup-ecosystems-and-hubs"
+      ]
+    },
+    {
+      "raw_theme": "outcome-adjusted ownership",
+      "canonical_themes": [
+        "financing-terms-equity-and-control",
+        "measurement-and-evaluation"
+      ]
+    },
+    {
+      "raw_theme": "ownership liquidity",
+      "canonical_themes": [
+        "financing-terms-equity-and-control",
+        "strategic-optionality"
+      ]
+    },
+    {
+      "raw_theme": "patent ethics",
+      "canonical_themes": [
+        "integrity-truth-and-calibration",
+        "regulatory-and-legal-constraints"
+      ]
+    },
+    {
+      "raw_theme": "peer and audience density",
+      "canonical_themes": [
+        "regional-ecosystem-density",
+        "startup-ecosystems-and-hubs"
+      ]
+    },
+    {
+      "raw_theme": "peer motivation",
+      "canonical_themes": [
+        "collaboration-and-peer-support",
+        "motivation-and-morale"
+      ]
+    },
+    {
+      "raw_theme": "personalized learning",
+      "canonical_themes": [
+        "adversarial-system-robustness",
+        "architecture-and-technical-fit"
+      ]
+    },
+    {
+      "raw_theme": "policy experiments",
+      "canonical_themes": [
+        "ecosystem-policy-and-institutions",
+        "prototyping-and-experimentation"
+      ]
+    },
+    {
+      "raw_theme": "popularity network effects",
+      "canonical_themes": [
+        "technology-ecosystem-adoption",
+        "technology-selection"
+      ]
+    },
+    {
+      "raw_theme": "program incentives",
+      "canonical_themes": [
+        "ecosystem-policy-and-institutions",
+        "incentives-and-behavior"
+      ]
+    },
+    {
+      "raw_theme": "public product validation",
+      "canonical_themes": [
+        "user-demand-discovery-and-validation"
+      ]
+    },
+    {
+      "raw_theme": "referral networks",
+      "canonical_themes": [
+        "investor-incentives-and-selection",
+        "portfolio-investing"
+      ]
+    },
+    {
+      "raw_theme": "regulatory friction",
+      "canonical_themes": [
+        "regulatory-and-legal-constraints",
+        "risk-and-error-management"
+      ]
+    },
+    {
+      "raw_theme": "small-company protection",
+      "canonical_themes": [
+        "historical-and-source-context",
+        "integrity-truth-and-calibration",
+        "regulatory-and-legal-constraints"
+      ]
+    },
+    {
+      "raw_theme": "social adoption",
+      "canonical_themes": [
+        "product-network-effects-and-critical-mass",
+        "user-demand-discovery-and-validation"
+      ]
+    },
+    {
+      "raw_theme": "social norms",
+      "canonical_themes": [
+        "regional-ecosystem-density",
+        "startup-ecosystems-and-hubs"
+      ]
+    },
+    {
+      "raw_theme": "startup ecosystem policy",
+      "canonical_themes": [
+        "ecosystem-policy-and-institutions",
+        "startup-ecosystems-and-hubs"
+      ]
+    },
+    {
+      "raw_theme": "startup formation policy",
+      "canonical_themes": [
+        "ecosystem-policy-and-institutions",
+        "startup-ecosystems-and-hubs"
+      ]
+    },
+    {
+      "raw_theme": "startup-hub effects",
+      "canonical_themes": [
+        "regional-ecosystem-density",
+        "startup-ecosystems-and-hubs"
+      ]
+    },
+    {
+      "raw_theme": "startup-hub formation",
+      "canonical_themes": [
+        "regional-ecosystem-density",
+        "startup-ecosystems-and-hubs"
+      ]
+    },
+    {
+      "raw_theme": "talent clusters",
+      "canonical_themes": [
+        "hiring-and-talent",
+        "regional-ecosystem-density",
+        "startup-ecosystems-and-hubs"
+      ]
+    },
+    {
+      "raw_theme": "threshold markets",
+      "canonical_themes": [
+        "beachheads-and-market-expansion",
+        "product-network-effects-and-critical-mass"
+      ]
+    },
+    {
+      "raw_theme": "troll prevention",
+      "canonical_themes": [
+        "abuse-and-moderation-controls",
+        "community-moderation-and-reputation"
+      ]
+    },
+    {
+      "raw_theme": "university role",
+      "canonical_themes": [
+        "ecosystem-policy-and-institutions",
+        "startup-ecosystems-and-hubs"
+      ]
+    },
+    {
+      "raw_theme": "user-controlled abuse response",
+      "canonical_themes": [
+        "abuse-and-moderation-controls",
+        "user-empathy-and-respect"
+      ]
+    }
   ],
   "replace_article_overrides": [
-    {"raw_theme":"incentive alignment","article_no":"033","canonical_themes":["financing-terms-equity-and-control","incentives-and-behavior"]},
-    {"raw_theme":"capital efficiency","article_no":"039","canonical_themes":["capital-efficiency-and-runway","organizational-scale-and-overhead","small-team-advantage"]},
-    {"raw_theme":"survival revenue","article_no":"116","canonical_themes":["growth-and-monetization-tradeoffs","motivation-and-morale","runway-survival-and-profitability"]}
+    {
+      "raw_theme": "capital efficiency",
+      "article_no": "039",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "organizational-scale-and-overhead",
+        "small-team-advantage"
+      ],
+      "reviewer": "organization-source-union-remediation"
+    },
+    {
+      "raw_theme": "capital-light software applicability",
+      "article_no": "129",
+      "canonical_themes": [
+        "funding-stage-fit",
+        "startup-economics-and-risk",
+        "venture-type-and-capital-model"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "deal uncertainty",
+      "article_no": "105",
+      "canonical_themes": [
+        "fundraising-strategy-and-process",
+        "risk-and-error-management",
+        "startup-survival-and-failure"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "founder runway",
+      "article_no": "116",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "founder-autonomy-and-control",
+        "runway-survival-and-profitability"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "incentive alignment",
+      "article_no": "033",
+      "canonical_themes": [
+        "incentives-and-behavior"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "round size and terms",
+      "article_no": "201",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "deal-mechanics-and-terms",
+        "valuation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "survival revenue",
+      "article_no": "116",
+      "canonical_themes": [
+        "growth-and-monetization-tradeoffs",
+        "motivation-and-morale",
+        "runway-survival-and-profitability"
+      ],
+      "reviewer": "focus-source-union-remediation"
+    }
   ],
   "remove_article_overrides": [
-    {"raw_theme":"frugal launch","article_no":"011"},
-    {"raw_theme":"founder-led customer work","article_no":"069"},
-    {"raw_theme":"falling product and customer-acquisition costs","article_no":"201"}
+    {
+      "raw_theme": "falling product and customer-acquisition costs",
+      "article_no": "201"
+    },
+    {
+      "raw_theme": "founder-led customer work",
+      "article_no": "069"
+    },
+    {
+      "raw_theme": "frugal launch",
+      "article_no": "011"
+    }
   ],
   "add_article_overrides": [
-    {"raw_theme":"continuous deployment","article_no":"011","canonical_themes":["release-and-deployment","risk-and-error-management"],"reviewer":"runway-source-union"},
-    {"raw_theme":"hosted-service stress","article_no":"011","canonical_themes":["customer-service-and-support","runway-survival-and-profitability","startup-survival-and-failure"],"reviewer":"runway-source-union"},
-    {"raw_theme":"low-friction sales","article_no":"011","canonical_themes":["activation-and-conversion","revenue-and-profitability","sales-and-monetization"],"reviewer":"runway-source-union"},
-    {"raw_theme":"startup outcome risk","article_no":"028","canonical_themes":["risk-and-error-management","startup-economics-and-risk","startup-survival-and-failure"],"reviewer":"runway-source-union"},
-    {"raw_theme":"technological leverage","article_no":"029","canonical_themes":["technical-leverage-and-productivity"],"reviewer":"runway-source-union"},
-    {"raw_theme":"fundraising strategy","article_no":"039","canonical_themes":["fundraising-strategy-and-process","revenue-and-profitability","state-conditioned-spending-and-hiring"],"reviewer":"runway-source-union"},
-    {"raw_theme":"user-driven product development","article_no":"039","canonical_themes":["product-iteration-and-redesign","startup-survival-and-failure","user-feedback-and-observation"],"reviewer":"runway-source-union"},
-    {"raw_theme":"capital absorption","article_no":"040","canonical_themes":["capital-efficiency-and-runway","market-structure-and-cost-curves","state-conditioned-spending-and-hiring"],"reviewer":"runway-source-union"},
-    {"raw_theme":"valuation risk","article_no":"040","canonical_themes":["risk-and-error-management","startup-economics-and-risk","valuation"],"reviewer":"runway-source-union"},
-    {"raw_theme":"hidden job-security value","article_no":"048","canonical_themes":["career-choice-and-optionality"],"reviewer":"runway-source-union"},
-    {"raw_theme":"asymmetric risk and reward","article_no":"049","canonical_themes":["startup-economics-and-risk","startup-survival-and-failure"],"reviewer":"runway-source-union"},
-    {"raw_theme":"capital efficiency","article_no":"052","canonical_themes":["capital-efficiency-and-runway","state-conditioned-spending-and-hiring"],"reviewer":"runway-source-union"},
-    {"raw_theme":"fundraising stages","article_no":"053","canonical_themes":["funding-stage-fit","fundraising-strategy-and-process","state-conditioned-spending-and-hiring"],"reviewer":"runway-source-union"},
-    {"raw_theme":"runway management","article_no":"053","canonical_themes":["capital-efficiency-and-runway","runway-survival-and-profitability","startup-survival-and-failure"],"reviewer":"runway-source-union"},
-    {"raw_theme":"low burn","article_no":"068","canonical_themes":["capital-efficiency-and-runway","startup-survival-and-failure","state-conditioned-spending-and-hiring"],"reviewer":"runway-source-union"},
-    {"raw_theme":"runway and funding","article_no":"069","canonical_themes":["capital-efficiency-and-runway","runway-survival-and-profitability","state-conditioned-spending-and-hiring"],"reviewer":"runway-source-union"},
-    {"raw_theme":"startup failure prevention","article_no":"069","canonical_themes":["revenue-and-profitability","risk-and-error-management","startup-survival-and-failure"],"reviewer":"runway-source-union"},
-    {"raw_theme":"backup plans","article_no":"076","canonical_themes":["risk-and-error-management","startup-survival-and-failure","strategic-optionality"],"reviewer":"runway-source-union"},
-    {"raw_theme":"bottleneck spending","article_no":"077","canonical_themes":["capital-efficiency-and-runway","prioritization-and-focus","state-conditioned-spending-and-hiring"],"reviewer":"runway-source-union"},
-    {"raw_theme":"lean hiring","article_no":"089","canonical_themes":["hiring-and-talent","stage-and-state-conditions"],"reviewer":"runway-source-union"},
-    {"raw_theme":"profitability and optionality","article_no":"097","canonical_themes":["revenue-and-profitability","runway-survival-and-profitability","strategic-optionality"],"reviewer":"runway-source-union"},
-    {"raw_theme":"flexible round sizing","article_no":"098","canonical_themes":["deal-mechanics-and-terms","funding-stage-fit","state-conditioned-spending-and-hiring"],"reviewer":"runway-source-union"},
-    {"raw_theme":"funding independence","article_no":"098","canonical_themes":["capital-efficiency-and-runway","revenue-and-profitability","runway-survival-and-profitability"],"reviewer":"runway-source-union"},
-    {"raw_theme":"fundraising survival","article_no":"098","canonical_themes":["fundraising-strategy-and-process","motivation-and-morale","startup-survival-and-failure"],"reviewer":"runway-source-union"},
-    {"raw_theme":"macroeconomic uncertainty","article_no":"099","canonical_themes":["market-timing-and-transitions","risk-and-error-management","startup-economics-and-risk"],"reviewer":"runway-source-union"},
-    {"raw_theme":"runway discipline","article_no":"099","canonical_themes":["capital-efficiency-and-runway","startup-survival-and-failure","state-conditioned-spending-and-hiring"],"reviewer":"runway-source-union"},
-    {"raw_theme":"funding independence","article_no":"102","canonical_themes":["capital-efficiency-and-runway","startup-economics-and-risk","strategic-optionality"],"reviewer":"runway-source-union"},
-    {"raw_theme":"ramen profitability","article_no":"102","canonical_themes":["capital-efficiency-and-runway","revenue-and-profitability","runway-survival-and-profitability"],"reviewer":"runway-source-union"},
-    {"raw_theme":"runway","article_no":"102","canonical_themes":["capital-efficiency-and-runway","state-conditioned-spending-and-hiring"],"reviewer":"runway-source-union"},
-    {"raw_theme":"deal uncertainty","article_no":"105","canonical_themes":["deal-mechanics-and-terms","risk-and-error-management","startup-survival-and-failure"],"reviewer":"runway-source-union"},
-    {"raw_theme":"ramen profitability","article_no":"105","canonical_themes":["capital-efficiency-and-runway","revenue-and-profitability","runway-survival-and-profitability"],"reviewer":"runway-source-union"},
-    {"raw_theme":"founder runway","article_no":"116","canonical_themes":["capital-efficiency-and-runway","runway-survival-and-profitability"],"reviewer":"runway-source-union"},
-    {"raw_theme":"monetization timing","article_no":"116","canonical_themes":["growth-and-monetization-tradeoffs","revenue-and-profitability","startup-survival-and-failure"],"reviewer":"runway-source-union"},
-    {"raw_theme":"capital-induced isolation","article_no":"117","canonical_themes":["user-demand-discovery-and-validation"],"reviewer":"runway-source-union"},
-    {"raw_theme":"capital-light software applicability","article_no":"129","canonical_themes":["startup-economics-and-risk","venture-type-and-capital-model"],"reviewer":"runway-source-union"},
-    {"raw_theme":"capital planning","article_no":"156","canonical_themes":["capital-efficiency-and-runway","runway-survival-and-profitability","state-conditioned-spending-and-hiring"],"reviewer":"runway-source-union"},
-    {"raw_theme":"runway and profitability","article_no":"156","canonical_themes":["revenue-and-profitability","runway-survival-and-profitability"],"reviewer":"runway-source-union"},
-    {"raw_theme":"burn reduction","article_no":"159","canonical_themes":["capital-efficiency-and-runway","runway-survival-and-profitability","state-conditioned-spending-and-hiring"],"reviewer":"runway-source-union"},
-    {"raw_theme":"revenue rescue","article_no":"159","canonical_themes":["growth-and-monetization-tradeoffs","revenue-and-profitability","startup-survival-and-failure"],"reviewer":"runway-source-union"},
-    {"raw_theme":"monetization tradeoffs","article_no":"168","canonical_themes":["growth-and-monetization-tradeoffs","revenue-and-profitability"],"reviewer":"runway-source-union"},
-    {"raw_theme":"default-alive analysis","article_no":"169","canonical_themes":["runway-survival-and-profitability","startup-survival-and-failure","state-conditioned-spending-and-hiring"],"reviewer":"runway-source-union"},
-    {"raw_theme":"hiring restraint","article_no":"169","canonical_themes":["capital-efficiency-and-runway","runway-survival-and-profitability","state-conditioned-spending-and-hiring"],"reviewer":"runway-source-union"},
-    {"raw_theme":"persistence from lived insight","article_no":"195","canonical_themes":["founder-user-product-and-domain-fit","persistence-and-adaptation","startup-survival-and-failure"],"reviewer":"runway-source-union"},
-    {"raw_theme":"ramen profitability","article_no":"195","canonical_themes":["capital-efficiency-and-runway","revenue-and-profitability","runway-survival-and-profitability"],"reviewer":"runway-source-union"},
-    {"raw_theme":"round size and terms","article_no":"201","canonical_themes":["capital-efficiency-and-runway","financing-terms-equity-and-control"],"reviewer":"runway-source-union"}
+    {
+      "raw_theme": "allocator-operator trust",
+      "article_no": "199",
+      "canonical_themes": [
+        "decision-quality-and-noise"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "asymmetric candor",
+      "article_no": "199",
+      "canonical_themes": [
+        "integrity-truth-and-calibration"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "asymmetric risk and reward",
+      "article_no": "049",
+      "canonical_themes": [
+        "startup-economics-and-risk",
+        "startup-survival-and-failure"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "backup plans",
+      "article_no": "076",
+      "canonical_themes": [
+        "risk-and-error-management",
+        "startup-survival-and-failure",
+        "strategic-optionality"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "board control",
+      "article_no": "136",
+      "canonical_themes": [
+        "financing-terms-equity-and-control",
+        "founder-autonomy-and-control"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "bottleneck spending",
+      "article_no": "077",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "prioritization-and-focus",
+        "state-conditioned-spending-and-hiring"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "burn reduction",
+      "article_no": "159",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "runway-survival-and-profitability",
+        "state-conditioned-spending-and-hiring"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "candid risk communication",
+      "article_no": "196",
+      "canonical_themes": [
+        "funding-stage-fit",
+        "fundraising-readiness-and-investor-communication",
+        "investor-truth-trust-and-reputation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "capital absorption",
+      "article_no": "040",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "market-structure-and-cost-curves",
+        "state-conditioned-spending-and-hiring"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "capital efficiency",
+      "article_no": "052",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "state-conditioned-spending-and-hiring"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "capital fit",
+      "article_no": "152",
+      "canonical_themes": [
+        "financing-terms-equity-and-control",
+        "valuation",
+        "venture-type-and-capital-model"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "capital planning",
+      "article_no": "156",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "runway-survival-and-profitability",
+        "state-conditioned-spending-and-hiring"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "capital-induced isolation",
+      "article_no": "117",
+      "canonical_themes": [
+        "user-demand-discovery-and-validation"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "commitment and independence",
+      "article_no": "073",
+      "canonical_themes": [
+        "founder-readiness-and-commitment"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "commitment verification",
+      "article_no": "156",
+      "canonical_themes": [
+        "deal-mechanics-and-terms",
+        "fundraising-strategy-and-process",
+        "investor-truth-trust-and-reputation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "continuous deployment",
+      "article_no": "011",
+      "canonical_themes": [
+        "release-and-deployment",
+        "risk-and-error-management"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "contrarian startup investing",
+      "article_no": "092",
+      "canonical_themes": [
+        "independent-and-contrarian-judgment",
+        "investor-incentives-and-selection",
+        "portfolio-investing"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "control and dilution",
+      "article_no": "129",
+      "canonical_themes": [
+        "financing-terms-equity-and-control",
+        "valuation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "deal leverage",
+      "article_no": "053",
+      "canonical_themes": [
+        "deal-mechanics-and-terms",
+        "financing-terms-equity-and-control",
+        "founder-autonomy-and-control"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "deal mechanics",
+      "article_no": "109",
+      "canonical_themes": [
+        "deal-mechanics-and-terms",
+        "financing-terms-equity-and-control",
+        "valuation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "deal optionality",
+      "article_no": "061",
+      "canonical_themes": [
+        "deal-mechanics-and-terms",
+        "fundraising-strategy-and-process",
+        "strategic-optionality"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "default-alive analysis",
+      "article_no": "169",
+      "canonical_themes": [
+        "runway-survival-and-profitability",
+        "startup-survival-and-failure",
+        "state-conditioned-spending-and-hiring"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "differentiated terms",
+      "article_no": "131",
+      "canonical_themes": [
+        "financing-terms-equity-and-control",
+        "fundraising-strategy-and-process",
+        "valuation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "dilution and board control",
+      "article_no": "174",
+      "canonical_themes": [
+        "financing-terms-equity-and-control",
+        "founder-autonomy-and-control"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "external dependencies",
+      "article_no": "123",
+      "canonical_themes": [
+        "fundraising-strategy-and-process",
+        "startup-idea-selection-and-pivots"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "flexible round sizing",
+      "article_no": "098",
+      "canonical_themes": [
+        "deal-mechanics-and-terms",
+        "funding-stage-fit",
+        "state-conditioned-spending-and-hiring"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "founder autonomy",
+      "article_no": "089",
+      "canonical_themes": [
+        "small-team-advantage"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "founder credibility",
+      "article_no": "154",
+      "canonical_themes": [
+        "founder-evaluation-and-potential",
+        "fundraising-readiness-and-investor-communication",
+        "investor-incentives-and-selection"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "founder funding norms",
+      "article_no": "102",
+      "canonical_themes": [
+        "funding-market-conditions",
+        "fundraising-strategy-and-process",
+        "market-structure-and-cost-curves"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "founder-centered investing",
+      "article_no": "152",
+      "canonical_themes": [
+        "founder-evaluation-and-potential",
+        "funding-market-conditions",
+        "investor-incentives-and-selection"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "founder-controlled fundraising",
+      "article_no": "129",
+      "canonical_themes": [
+        "financing-terms-equity-and-control",
+        "founder-autonomy-and-control",
+        "fundraising-strategy-and-process"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "founder-investor leverage",
+      "article_no": "152",
+      "canonical_themes": [
+        "financing-terms-equity-and-control",
+        "founder-autonomy-and-control",
+        "funding-market-conditions"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "founder-investor leverage",
+      "article_no": "201",
+      "canonical_themes": [
+        "financing-terms-equity-and-control",
+        "founder-autonomy-and-control",
+        "funding-market-conditions"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "funding dependence",
+      "article_no": "198",
+      "canonical_themes": [
+        "runway-survival-and-profitability"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "funding independence",
+      "article_no": "098",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "revenue-and-profitability",
+        "runway-survival-and-profitability"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "funding independence",
+      "article_no": "102",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "startup-economics-and-risk",
+        "strategic-optionality"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "funding market shifts",
+      "article_no": "152",
+      "canonical_themes": [
+        "funding-market-conditions",
+        "funding-stage-fit"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "funding market structure",
+      "article_no": "052",
+      "canonical_themes": [
+        "funding-market-conditions",
+        "fundraising-strategy-and-process",
+        "market-structure-and-cost-curves"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "funding-stage fit",
+      "article_no": "076",
+      "canonical_themes": [
+        "funding-stage-fit",
+        "fundraising-readiness-and-investor-communication",
+        "stage-and-state-conditions"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "fundraising contingency",
+      "article_no": "169",
+      "canonical_themes": [
+        "runway-survival-and-profitability"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "fundraising dependence",
+      "article_no": "159",
+      "canonical_themes": [
+        "runway-survival-and-profitability"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "fundraising distraction",
+      "article_no": "182",
+      "canonical_themes": [
+        "attention-and-priority-control",
+        "fundraising-readiness-and-investor-communication"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "fundraising phases",
+      "article_no": "156",
+      "canonical_themes": [
+        "funding-market-conditions",
+        "funding-stage-fit",
+        "fundraising-strategy-and-process"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "fundraising readiness",
+      "article_no": "154",
+      "canonical_themes": [
+        "funding-stage-fit",
+        "fundraising-readiness-and-investor-communication"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "fundraising stages",
+      "article_no": "053",
+      "canonical_themes": [
+        "funding-stage-fit",
+        "fundraising-strategy-and-process",
+        "state-conditioned-spending-and-hiring"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "fundraising strategy",
+      "article_no": "039",
+      "canonical_themes": [
+        "fundraising-strategy-and-process",
+        "revenue-and-profitability",
+        "state-conditioned-spending-and-hiring"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "fundraising survival",
+      "article_no": "098",
+      "canonical_themes": [
+        "fundraising-strategy-and-process",
+        "motivation-and-morale",
+        "startup-survival-and-failure"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "fundraising transaction cost",
+      "article_no": "152",
+      "canonical_themes": [
+        "attention-and-priority-control",
+        "deal-mechanics-and-terms",
+        "fundraising-strategy-and-process"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "growth financing",
+      "article_no": "149",
+      "canonical_themes": [
+        "funding-stage-fit",
+        "growth-measurement-and-phases",
+        "investor-incentives-and-selection"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "hidden job-security value",
+      "article_no": "048",
+      "canonical_themes": [
+        "career-choice-and-optionality"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "hiring restraint",
+      "article_no": "169",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "runway-survival-and-profitability",
+        "state-conditioned-spending-and-hiring"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "hosted-service stress",
+      "article_no": "011",
+      "canonical_themes": [
+        "customer-service-and-support",
+        "runway-survival-and-profitability",
+        "startup-survival-and-failure"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "independent investor commitments",
+      "article_no": "129",
+      "canonical_themes": [
+        "deal-mechanics-and-terms",
+        "fundraising-strategy-and-process",
+        "investor-incentives-and-selection"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "investor advocacy",
+      "article_no": "137",
+      "canonical_themes": [
+        "fundraising-readiness-and-investor-communication",
+        "fundraising-strategy-and-process",
+        "investor-truth-trust-and-reputation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "investor communication",
+      "article_no": "067",
+      "canonical_themes": [
+        "communication-and-persuasion",
+        "fundraising-readiness-and-investor-communication",
+        "investor-truth-trust-and-reputation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "investor confidence selection pressure",
+      "article_no": "123",
+      "canonical_themes": [
+        "founder-evaluation-and-potential",
+        "investor-incentives-and-selection",
+        "investor-truth-trust-and-reputation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "investor deadlock",
+      "article_no": "131",
+      "canonical_themes": [
+        "deal-mechanics-and-terms",
+        "fundraising-strategy-and-process",
+        "investor-incentives-and-selection"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "investor decisiveness",
+      "article_no": "109",
+      "canonical_themes": [
+        "deal-mechanics-and-terms",
+        "investor-incentives-and-selection",
+        "investor-truth-trust-and-reputation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "investor diligence",
+      "article_no": "053",
+      "canonical_themes": [
+        "fundraising-readiness-and-investor-communication",
+        "investor-incentives-and-selection",
+        "investor-truth-trust-and-reputation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "investor governance",
+      "article_no": "069",
+      "canonical_themes": [
+        "financing-terms-equity-and-control",
+        "founder-autonomy-and-control",
+        "investor-incentives-and-selection"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "investor incentives",
+      "article_no": "076",
+      "canonical_themes": [
+        "founder-autonomy-and-control",
+        "incentives-and-behavior",
+        "investor-incentives-and-selection"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "investor pipeline management",
+      "article_no": "156",
+      "canonical_themes": [
+        "fundraising-strategy-and-process",
+        "investor-incentives-and-selection"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "investor quality",
+      "article_no": "085",
+      "canonical_themes": [
+        "investor-incentives-and-selection",
+        "investor-truth-trust-and-reputation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "investor selection",
+      "article_no": "133",
+      "canonical_themes": [
+        "funding-market-conditions",
+        "funding-stage-fit",
+        "investor-incentives-and-selection"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "investor social proof",
+      "article_no": "155",
+      "canonical_themes": [
+        "fundraising-strategy-and-process",
+        "investor-incentives-and-selection",
+        "investor-truth-trust-and-reputation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "launch and iteration",
+      "article_no": "084",
+      "canonical_themes": [
+        "fundraising-readiness-and-investor-communication",
+        "launch-strategy",
+        "product-iteration-and-redesign"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "lean hiring",
+      "article_no": "089",
+      "canonical_themes": [
+        "hiring-and-talent",
+        "stage-and-state-conditions"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "local investor networks",
+      "article_no": "176",
+      "canonical_themes": [
+        "funding-market-conditions",
+        "funding-stage-fit",
+        "startup-ecosystems-and-hubs"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "low burn",
+      "article_no": "068",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "startup-survival-and-failure",
+        "state-conditioned-spending-and-hiring"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "low-friction sales",
+      "article_no": "011",
+      "canonical_themes": [
+        "activation-and-conversion",
+        "revenue-and-profitability",
+        "sales-and-monetization"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "macroeconomic uncertainty",
+      "article_no": "099",
+      "canonical_themes": [
+        "market-timing-and-transitions",
+        "risk-and-error-management",
+        "startup-economics-and-risk"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "momentum signaling",
+      "article_no": "076",
+      "canonical_themes": [
+        "communication-and-persuasion",
+        "fundraising-strategy-and-process",
+        "investor-truth-trust-and-reputation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "monetization timing",
+      "article_no": "116",
+      "canonical_themes": [
+        "growth-and-monetization-tradeoffs",
+        "revenue-and-profitability",
+        "startup-survival-and-failure"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "monetization tradeoffs",
+      "article_no": "168",
+      "canonical_themes": [
+        "growth-and-monetization-tradeoffs",
+        "revenue-and-profitability"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "ownership liquidity",
+      "article_no": "048",
+      "canonical_themes": [
+        "strategic-optionality"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "persistence from lived insight",
+      "article_no": "195",
+      "canonical_themes": [
+        "founder-user-product-and-domain-fit",
+        "persistence-and-adaptation",
+        "startup-survival-and-failure"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "profitability and optionality",
+      "article_no": "097",
+      "canonical_themes": [
+        "revenue-and-profitability",
+        "runway-survival-and-profitability",
+        "strategic-optionality"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "ramen profitability",
+      "article_no": "102",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "revenue-and-profitability",
+        "runway-survival-and-profitability"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "ramen profitability",
+      "article_no": "105",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "revenue-and-profitability",
+        "runway-survival-and-profitability"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "ramen profitability",
+      "article_no": "195",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "revenue-and-profitability",
+        "runway-survival-and-profitability"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "referral-based deal flow",
+      "article_no": "165",
+      "canonical_themes": [
+        "investor-incentives-and-selection",
+        "investor-truth-trust-and-reputation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "rejection analysis",
+      "article_no": "098",
+      "canonical_themes": [
+        "decision-quality-and-noise",
+        "fundraising-readiness-and-investor-communication",
+        "fundraising-strategy-and-process"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "rejection learning",
+      "article_no": "154",
+      "canonical_themes": [
+        "fundraising-readiness-and-investor-communication",
+        "fundraising-strategy-and-process",
+        "learning-and-skill-development"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "revenue rescue",
+      "article_no": "159",
+      "canonical_themes": [
+        "growth-and-monetization-tradeoffs",
+        "revenue-and-profitability",
+        "startup-survival-and-failure"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "round structure",
+      "article_no": "133",
+      "canonical_themes": [
+        "financing-terms-equity-and-control",
+        "founder-autonomy-and-control",
+        "valuation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "runway",
+      "article_no": "102",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "state-conditioned-spending-and-hiring"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "runway and funding",
+      "article_no": "069",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "runway-survival-and-profitability",
+        "state-conditioned-spending-and-hiring"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "runway and profitability",
+      "article_no": "156",
+      "canonical_themes": [
+        "revenue-and-profitability",
+        "runway-survival-and-profitability"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "runway discipline",
+      "article_no": "099",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "startup-survival-and-failure",
+        "state-conditioned-spending-and-hiring"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "runway management",
+      "article_no": "053",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "runway-survival-and-profitability",
+        "startup-survival-and-failure"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "scalable startup definition",
+      "article_no": "201",
+      "canonical_themes": [
+        "funding-stage-fit",
+        "startup-economics-and-risk",
+        "venture-type-and-capital-model"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "stage-fit capital",
+      "article_no": "092",
+      "canonical_themes": [
+        "funding-market-conditions",
+        "funding-stage-fit",
+        "stage-and-state-conditions"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "startup cost curves",
+      "article_no": "084",
+      "canonical_themes": [
+        "capital-efficiency-and-runway",
+        "funding-market-conditions",
+        "market-structure-and-cost-curves"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "startup failure prevention",
+      "article_no": "069",
+      "canonical_themes": [
+        "revenue-and-profitability",
+        "risk-and-error-management",
+        "startup-survival-and-failure"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "startup outcome risk",
+      "article_no": "028",
+      "canonical_themes": [
+        "risk-and-error-management",
+        "startup-economics-and-risk",
+        "startup-survival-and-failure"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "technological leverage",
+      "article_no": "029",
+      "canonical_themes": [
+        "technical-leverage-and-productivity"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "term-sheet risk",
+      "article_no": "053",
+      "canonical_themes": [
+        "deal-mechanics-and-terms",
+        "risk-and-error-management",
+        "valuation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "thin and correlated investor market",
+      "article_no": "098",
+      "canonical_themes": [
+        "funding-market-conditions",
+        "market-structure-and-cost-curves",
+        "risk-and-error-management"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "unrestricted capital allocation",
+      "article_no": "199",
+      "canonical_themes": [
+        "accelerators-and-advising"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "user-driven product development",
+      "article_no": "039",
+      "canonical_themes": [
+        "product-iteration-and-redesign",
+        "startup-survival-and-failure",
+        "user-feedback-and-observation"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "valuation discipline",
+      "article_no": "156",
+      "canonical_themes": [
+        "financing-terms-equity-and-control",
+        "fundraising-strategy-and-process",
+        "valuation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "valuation optionality",
+      "article_no": "076",
+      "canonical_themes": [
+        "financing-terms-equity-and-control",
+        "strategic-optionality",
+        "valuation"
+      ],
+      "reviewer": "capital-source-union"
+    },
+    {
+      "raw_theme": "valuation risk",
+      "article_no": "040",
+      "canonical_themes": [
+        "risk-and-error-management",
+        "startup-economics-and-risk",
+        "valuation"
+      ],
+      "reviewer": "runway-source-union"
+    },
+    {
+      "raw_theme": "valuation sequencing",
+      "article_no": "155",
+      "canonical_themes": [
+        "fundraising-strategy-and-process",
+        "valuation"
+      ],
+      "reviewer": "capital-source-union"
+    }
   ],
   "add_mappings": [
-    {"raw_theme":"allocator-operator trust","canonical_themes":["decision-quality-and-noise","investor-truth-trust-and-reputation"]},
-    {"raw_theme":"asymmetric candor","canonical_themes":["integrity-truth-and-calibration","investor-truth-trust-and-reputation"]},
-    {"raw_theme":"audience-response quality","canonical_themes":["product-quality-and-behavioral-feedback","user-feedback-and-observation"]},
-    {"raw_theme":"causal humility","canonical_themes":["assumption-testing-and-epistemics"]},
-    {"raw_theme":"credibility calibration","canonical_themes":["integrity-truth-and-calibration"]},
-    {"raw_theme":"domain-expertise exceptions","canonical_themes":["accelerators-and-advising","decision-quality-and-noise"]},
-    {"raw_theme":"egocentric-bias correction","canonical_themes":["status-prestige-and-bias"]},
-    {"raw_theme":"extraneous-influence control","canonical_themes":["measurement-and-evaluation","status-prestige-and-bias"]},
-    {"raw_theme":"fast falsification","canonical_themes":["assumption-testing-and-epistemics","evidence-latency-and-cadence"]},
-    {"raw_theme":"forecast accountability","canonical_themes":["integrity-truth-and-calibration","measurement-and-evaluation"]},
-    {"raw_theme":"incumbent short-term incentives","canonical_themes":["incumbent-dynamics"]},
-    {"raw_theme":"legal distortion diagnostic","canonical_themes":["integrity-truth-and-calibration","regulatory-and-legal-constraints"]},
-    {"raw_theme":"objective taste","canonical_themes":["product-design-and-taste"]},
-    {"raw_theme":"obsolete business-model enforcement","canonical_themes":["business-models-and-channel-power","incumbent-dynamics"]},
-    {"raw_theme":"randomness-aware attribution","canonical_themes":["decision-quality-and-noise"]},
-    {"raw_theme":"technology-dependent value capture","canonical_themes":["business-models-and-channel-power","technology-transitions-and-disruption"]},
-    {"raw_theme":"unrestricted capital allocation","canonical_themes":["accelerators-and-advising","founder-autonomy-and-control","investor-incentives-and-selection"]}
+    {
+      "raw_theme": "allocator-operator trust",
+      "canonical_themes": [
+        "decision-quality-and-noise",
+        "investor-truth-trust-and-reputation"
+      ]
+    },
+    {
+      "raw_theme": "asymmetric candor",
+      "canonical_themes": [
+        "integrity-truth-and-calibration",
+        "investor-truth-trust-and-reputation"
+      ]
+    },
+    {
+      "raw_theme": "audience-response quality",
+      "canonical_themes": [
+        "product-quality-and-behavioral-feedback",
+        "user-feedback-and-observation"
+      ]
+    },
+    {
+      "raw_theme": "causal humility",
+      "canonical_themes": [
+        "assumption-testing-and-epistemics"
+      ]
+    },
+    {
+      "raw_theme": "credibility calibration",
+      "canonical_themes": [
+        "integrity-truth-and-calibration"
+      ]
+    },
+    {
+      "raw_theme": "domain-expertise exceptions",
+      "canonical_themes": [
+        "accelerators-and-advising",
+        "decision-quality-and-noise"
+      ]
+    },
+    {
+      "raw_theme": "egocentric-bias correction",
+      "canonical_themes": [
+        "status-prestige-and-bias"
+      ]
+    },
+    {
+      "raw_theme": "extraneous-influence control",
+      "canonical_themes": [
+        "measurement-and-evaluation",
+        "status-prestige-and-bias"
+      ]
+    },
+    {
+      "raw_theme": "fast falsification",
+      "canonical_themes": [
+        "assumption-testing-and-epistemics",
+        "evidence-latency-and-cadence"
+      ]
+    },
+    {
+      "raw_theme": "forecast accountability",
+      "canonical_themes": [
+        "integrity-truth-and-calibration",
+        "measurement-and-evaluation"
+      ]
+    },
+    {
+      "raw_theme": "incumbent short-term incentives",
+      "canonical_themes": [
+        "incumbent-dynamics"
+      ]
+    },
+    {
+      "raw_theme": "legal distortion diagnostic",
+      "canonical_themes": [
+        "integrity-truth-and-calibration",
+        "regulatory-and-legal-constraints"
+      ]
+    },
+    {
+      "raw_theme": "objective taste",
+      "canonical_themes": [
+        "product-design-and-taste"
+      ]
+    },
+    {
+      "raw_theme": "obsolete business-model enforcement",
+      "canonical_themes": [
+        "business-models-and-channel-power",
+        "incumbent-dynamics"
+      ]
+    },
+    {
+      "raw_theme": "randomness-aware attribution",
+      "canonical_themes": [
+        "decision-quality-and-noise"
+      ]
+    },
+    {
+      "raw_theme": "technology-dependent value capture",
+      "canonical_themes": [
+        "business-models-and-channel-power",
+        "technology-transitions-and-disruption"
+      ]
+    },
+    {
+      "raw_theme": "unrestricted capital allocation",
+      "canonical_themes": [
+        "accelerators-and-advising",
+        "founder-autonomy-and-control",
+        "investor-incentives-and-selection"
+      ]
+    }
   ]
 }

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "no-skill-baseline",
+  "frozen_before_scoring": true,
+  "frozen_at_utc": "2026-07-16T04:45:04Z",
+  "cases_sha256": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+  "generation_plan_sha256": "256ebd38d3098bda19b0da2aae662ad0a570ea04077c13446822e2ca02eee623",
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "scenario-01": "fc0cba938e2e0ec80a05e2be0f1526abeebd3e343e5e2a7a8f9896ccb8deef3d",
+    "scenario-02": "560366f90aaa5cc2b94d1a49d78807d61a3ce1a9755ec89efe4fc10ed121cc76",
+    "scenario-03": "2216c7fac7b384b4da2ed25fd4bc442a74bea43f40f37739a0891dfbf0fe0dc0",
+    "scenario-04": "d3497cc75f461880dd3cf00941d48c50d9ab31490de7f953a696934ddde36824",
+    "scenario-05": "af9b6e276d442217d1b8618d8e78748595b36d9482a5bc2ec6338ccd43586d5d"
+  },
+  "response_word_counts": {
+    "scenario-01": 1140,
+    "scenario-02": 957,
+    "scenario-03": 1038,
+    "scenario-04": 1067,
+    "scenario-05": 1119
+  },
+  "scoring": {
+    "started": false,
+    "distinct_fresh_scorer_required": true,
+    "responses_may_not_be_edited_or_replaced": true
+  }
+}

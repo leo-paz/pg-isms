@@ -97,6 +97,83 @@ class ApplyNormalizationRevisionsTests(unittest.TestCase):
         with self.assertRaisesRegex(RevisionError, "conflicts"):
             revised(self.normalization(), revision)
 
+    def test_replace_override_uses_item_reviewer_and_is_idempotent(self):
+        revision = self.revision(
+            replace_article_overrides=[
+                {
+                    "raw_theme": "raw-alpha",
+                    "article_no": "001",
+                    "canonical_themes": ["beta", "gamma"],
+                    "reviewer": "source-union",
+                }
+            ]
+        )
+
+        first = revised(self.normalization(), revision)
+        second = revised(first, revision)
+
+        self.assertEqual(first, second)
+        override = next(
+            mapping for mapping in first["mappings"] if mapping["raw_theme"] == "raw-alpha"
+        )["article_overrides"][0]
+        self.assertEqual(override["canonical_themes"], ["beta", "gamma"])
+        self.assertEqual(override["reviewer"], "source-union")
+
+    def test_replace_override_rejects_missing_item_reviewer(self):
+        revision = self.revision(
+            replace_article_overrides=[
+                {
+                    "raw_theme": "raw-alpha",
+                    "article_no": "001",
+                    "canonical_themes": ["gamma"],
+                }
+            ]
+        )
+
+        with self.assertRaisesRegex(RevisionError, "reviewer"):
+            revised(self.normalization(), revision)
+
+    def test_add_mapping_preserves_article_override_from_same_revision(self):
+        normalization = self.normalization()
+        normalization["mappings"].append(
+            {
+                "raw_theme": "raw-new",
+                "canonical_themes": ["alpha"],
+                "reviewer": "taxonomy-semantic-remediation",
+            }
+        )
+        revision = self.revision(
+            add_article_overrides=[
+                {
+                    "raw_theme": "raw-new",
+                    "article_no": "003",
+                    "canonical_themes": ["beta"],
+                    "reviewer": "source-union",
+                }
+            ],
+            add_mappings=[
+                {"raw_theme": "raw-new", "canonical_themes": ["alpha"]}
+            ],
+        )
+
+        first = revised(normalization, revision)
+        second = revised(first, revision)
+
+        self.assertEqual(first, second)
+        mapping = next(
+            item for item in first["mappings"] if item["raw_theme"] == "raw-new"
+        )
+        self.assertEqual(
+            mapping["article_overrides"],
+            [
+                {
+                    "article_no": "003",
+                    "canonical_themes": ["beta"],
+                    "reviewer": "source-union",
+                }
+            ],
+        )
+
     def test_remove_override_is_idempotent_and_drops_empty_array(self):
         revision = self.revision(
             remove_article_overrides=[

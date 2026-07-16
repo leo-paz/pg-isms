@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "baseline",
+  "reviewer_id": "capital-baseline-001",
+  "canonical_agent_task": "/root/capital_baseline_1",
+  "generator_task_ids": [
+    "/root/capital_baseline_1",
+    "/root/capital_baseline_2",
+    "/root/capital_baseline_3",
+    "/root/capital_baseline_4",
+    "/root/capital_baseline_5"
+  ],
+  "generated_at": "2026-07-16T04:40:59Z",
+  "model_identity": "Codex (GPT-5)",
+  "dispatch_prompt": "Generate one complete response for one prompt in fresh context, using prompt facts only, without criteria, target skill, intended answers, other outputs, or review feedback.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "no-skill",
+    "skill_sha256": null
+  },
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "scenario-01": "cfeaa734396887453403af750f6997e634f04b8bcc4ba065d750a452401948f9",
+    "scenario-02": "c633b5af6b33468cd351361f8b90ba3b118067935e64adc431a069d4743f1a11",
+    "scenario-03": "4f88d05420188607f1ba7ef12057fb5cb844cf31d69d027792c2a33b385a2d2a",
+    "scenario-04": "4466467e17e4e2f0fd0a7880576c0d560a21fce7092815d080893587bf570b91",
+    "scenario-05": "e8b1e075960cb1b7ed0ce0131bb8a871370e844a2caff60c12ee3fa533e8b13d"
+  },
+  "response_body_hashes": {
+    "scenario-01": "fc0cba938e2e0ec80a05e2be0f1526abeebd3e343e5e2a7a8f9896ccb8deef3d",
+    "scenario-02": "560366f90aaa5cc2b94d1a49d78807d61a3ce1a9755ec89efe4fc10ed121cc76",
+    "scenario-03": "2216c7fac7b384b4da2ed25fd4bc442a74bea43f40f37739a0891dfbf0fe0dc0",
+    "scenario-04": "d3497cc75f461880dd3cf00941d48c50d9ab31490de7f953a696934ddde36824",
+    "scenario-05": "af9b6e276d442217d1b8618d8e78748595b36d9482a5bc2ec6338ccd43586d5d"
+  },
+  "mechanical_wrapper": {
+    "purpose": "repository-validator metadata only",
+    "location": "appended_after_response_body",
+    "applied_after_scoring_independent_audit_and_adjudication": true,
+    "rendered_block": "Case ID: {case_id}\\nReviewer ID: capital-baseline-001\\n",
+    "body_bytes_unchanged": true
+  }
+}

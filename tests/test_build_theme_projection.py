@@ -682,7 +682,7 @@ class ProductionSemanticRemediationTests(unittest.TestCase):
                 "218": ["motivation-and-work-fit", "owned-projects-and-maker-autonomy"],
             },
             "incentive alignment": {
-                "033": ["financing-terms-equity-and-control", "incentives-and-behavior"],
+                "033": ["incentives-and-behavior"],
                 "052": ["investor-incentives-and-selection", "risk-and-error-management"],
             },
             "intellectual honesty": {
@@ -738,7 +738,7 @@ class ProductionSemanticRemediationTests(unittest.TestCase):
             "060": {"decision-quality-and-noise", "status-prestige-and-bias"},
             "144": {"business-models-and-channel-power", "technology-transitions-and-disruption"},
             "189": {"evidence-latency-and-cadence", "integrity-truth-and-calibration"},
-            "199": {"accelerators-and-advising", "founder-autonomy-and-control"},
+            "199": {"accelerators-and-advising", "decision-quality-and-noise"},
             "210": {"product-design-and-taste", "product-quality-and-behavioral-feedback"},
         }
         for article_no, themes in expected.items():

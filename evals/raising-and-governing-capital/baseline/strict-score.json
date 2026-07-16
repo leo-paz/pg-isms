@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "no-skill-baseline",
+  "scorer_id": "capital-baseline-scorer-001",
+  "reviewer_id": "capital-baseline-scorer-001",
+  "model": "Codex (GPT-5)",
+  "scoring_method": {
+    "scale": "binary",
+    "criterion_values": [0, 1],
+    "conjunctive": true,
+    "rule": "A criterion receives 1 only when every required clause is explicitly satisfied; any missing clause yields 0. No absent detail is inferred and prose quality receives no credit."
+  },
+  "integrity": {
+    "cases_sha256": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+    "generation_plan_sha256": "256ebd38d3098bda19b0da2aae662ad0a570ea04077c13446822e2ca02eee623",
+    "generation_attestation_sha256": "bfb3f993d283f40922d029073fbbd8405f7733ad18c9e7b0125d08af4e95f0dc",
+    "generation_freeze_manifest_sha256": "57a70644dcf8bb8fbbe3985f0a7d83df93e26df13494058c7e7024419d45cb94",
+    "response_word_limit": 1200,
+    "all_prompt_hashes_match": true,
+    "all_prompts_match_id_and_prompt_projection": true,
+    "all_response_hashes_match": true,
+    "all_response_word_counts_match": true,
+    "all_response_byte_counts_match": true,
+    "all_response_file_times_match_attestation": true,
+    "all_responses_within_word_limit": true,
+    "unique_generation_task_count": 5,
+    "unique_response_hash_count": 5,
+    "one_first_completion_per_case": true,
+    "quality_resampling": false,
+    "criteria_hidden_during_generation": true,
+    "target_skill_package_exists": false,
+    "target_skill_package_check": "No skills/raising-and-governing-capital package exists; the only raising-and-governing-capital directory is the evaluation fixture.",
+    "distinct_fresh_scorer": true,
+    "responses_preserved_byte_for_byte": true,
+    "frozen_blind_no_skill_integrity_passes": true
+  },
+  "cases": [
+    {
+      "case_id": "scenario-01",
+      "case_type": "trigger",
+      "response_sha256": "fc0cba938e2e0ec80a05e2be0f1526abeebd3e343e5e2a7a8f9896ccb8deef3d",
+      "response_words": 1140,
+      "vector": [0, 0, 0, 0, 0],
+      "earned": 0,
+      "possible": 5,
+      "normalized": 0.0,
+      "criteria": [
+        {
+          "criterion_index": 1,
+          "score": 0,
+          "evidence": "The response treats financing as a deliberate, time-bounded decision, computes about 23 months of static runway while warning that it is only a baseline, and defines fallback triggers.",
+          "missing": "It never selects `raising-and-governing-capital` by name, never fixes a bounded runway floor, and does not give a complete observable switch-back predicate."
+        },
+        {
+          "criterion_index": 2,
+          "score": 0,
+          "evidence": "It records the major cash, revenue, expense, growth, obligation, conversation, data-request, founder-time, and stakeholder-statement facts in the narrative and tracker design.",
+          "missing": "It does not explicitly classify every supplied item as observed, claimed, or unknown, and consequential unknowns do not each receive an owner, artifact, due date, threshold, and decision effect."
+        },
+        {
+          "criterion_index": 3,
+          "score": 0,
+          "evidence": "The proposed financing brief includes uses, financed and base cases, minimum/target/maximum raise concepts, milestones, contingency, deal boundaries, and a fallback; the runway arithmetic is labeled a baseline.",
+          "missing": "It does not state actual fund-use ranges or an amount range, and it omits explicit current finance and legal verification before the thesis is approved."
+        },
+        {
+          "criterion_index": 4,
+          "score": 0,
+          "evidence": "It gives a batched August-September calendar, an accountable process operator, investor screening, consistent materials, a controlled data room, reference checks, decision dates, and product coverage.",
+          "missing": "It does not provide qualification tiers with a warm-introduction calendar, explicit confidentiality controls, a firm founder-time cap, or an explicit prohibition on fake scarcity and misleading process claims."
+        },
+        {
+          "criterion_index": 5,
+          "score": 0,
+          "evidence": "It supplies launch, progress, proposal, decision, fallback, and stop dates and preserves a base-plan alternative.",
+          "missing": "It does not return distinct non-overlapping `launch`, `continue`, `close-or-counter`, and `pause-or-no-raise` branches with complete owners, routes, preserved options, and handoffs; nor does it require a signed, counsel-reviewed offer meeting all precommitted runway, partner, truth, certainty, economics, and control thresholds."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "case_type": "edge",
+      "response_sha256": "560366f90aaa5cc2b94d1a49d78807d61a3ce1a9755ec89efe4fc10ed121cc76",
+      "response_words": 957,
+      "vector": [0, 0, 0, 0, 0],
+      "earned": 0,
+      "possible": 5,
+      "normalized": 0.0,
+      "criteria": [
+        {
+          "criterion_index": 1,
+          "score": 0,
+          "evidence": "It makes terms the decision focus, records default-alive status and 30 months of static runway, works to the July 27 date, and requires qualified counsel before signing.",
+          "missing": "It does not explicitly record that both term sheets are unsigned, preserve a no-deal branch, or appoint finance or tax owners before interpretation and negotiation."
+        },
+        {
+          "criterion_index": 2,
+          "score": 0,
+          "evidence": "It calculates about 11.11% for A and 11.29% for B, then separately explains option-pool placement, participating preference, anti-dilution, and the need for a fully diluted capitalization table.",
+          "missing": "It does not identify the governing capitalization definitions or explicitly state how those definitions contribute to the headline valuation's inability to prove lower dilution or better economics."
+        },
+        {
+          "criterion_index": 3,
+          "score": 0,
+          "evidence": "It separately discusses amount and milestone fit, preferences, anti-dilution, boards, vetoes, executive and sale control, founder references, and several omitted terms.",
+          "missing": "It gives only one numerical exit illustration rather than downside, base, and upside exit scenarios, does not separately evaluate closing certainty, and does not assign every consequential unknown the full owner, artifact, date, threshold, and decision-effect tuple."
+        },
+        {
+          "criterion_index": 4,
+          "score": 0,
+          "evidence": "It proposes removing B's participation and full ratchet, moving its pool post-money, narrowing vetoes, and examining its board structure.",
+          "missing": "It lacks a complete precommitted counterproposal and walk-away envelope, including information or pro-rata rights and a minimum funding threshold for the milestone."
+        },
+        {
+          "criterion_index": 5,
+          "score": 0,
+          "evidence": "It recommends A and describes conditions under which B would become more acceptable.",
+          "missing": "It does not return non-overlapping `accept-A`, `counter-A-or-B`, `continue-both`, and `decline-or-use-no-deal-plan` branches with owners, dates, signed-document evidence, consequences, preserved options, and a consistent-disclosure rule."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "case_type": "non-trigger",
+      "response_sha256": "2216c7fac7b384b4da2ed25fd4bc442a74bea43f40f37739a0891dfbf0fe0dc0",
+      "response_words": 1038,
+      "vector": [0, 0, 0, 0, 0],
+      "earned": 0,
+      "possible": 5,
+      "normalized": 0.0,
+      "criteria": [
+        {
+          "criterion_index": 1,
+          "score": 0,
+          "evidence": "It makes cash survival and retention primary, calculates about 4.4 months of runway, pauses hires, and excludes the prospective lead and angel soft circles from the base case.",
+          "missing": "It never names `managing-runway-and-survival` or explicitly classifies the company as default-dead, and it allows capital work immediately rather than only after a completed survival envelope."
+        },
+        {
+          "criterion_index": 2,
+          "score": 0,
+          "evidence": "It records cash, receipts, expense, net burn, payroll and tax status, churn, renewal and retention dates, planned hires, and financing claims; it also proposes a 13-week forecast and a September fallback checkpoint.",
+          "missing": "It does not provide a complete route-away handoff, a stated cash floor, explicit downside/base/upside scenarios, a dated default-alive test, or full controls for every consequential unknown."
+        },
+        {
+          "criterion_index": 3,
+          "score": 0,
+          "evidence": "It pauses the three hires, prioritizes the August renewals and retention test, and protects payroll, taxes, renewal work, and retention-critical product and service work.",
+          "missing": "Every immediate survival action does not have the required owner, date, cash effect or cap, artifact, safeguard, and review threshold."
+        },
+        {
+          "criterion_index": 4,
+          "score": 0,
+          "evidence": "It requires truthful materials, tiered investor qualification, consistent updates, and a warning against broad distracting outreach.",
+          "missing": "It permits meetings, diligence, negotiation, and closing before a survival gate, provides no maximum distraction budget, continues valuation and full-process design, and gives no dated handoff predicate back to `raising-and-governing-capital`."
+        },
+        {
+          "criterion_index": 5,
+          "score": 0,
+          "evidence": "It includes renewal-loss, forecast-miss, financing, September checkpoint, deeper-reduction, and orderly-wind-down conditions.",
+          "missing": "It does not return distinct non-overlapping survival `continue`, `adapt`, `plan-B`, and `shutdown-or-orderly-wind-down` branches with owners, preserved options, qualified-adviser gates, and an explicit financing handoff."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "case_type": "condition",
+      "response_sha256": "d3497cc75f461880dd3cf00941d48c50d9ab31490de7f953a696934ddde36824",
+      "response_words": 1067,
+      "vector": [0, 0, 0, 0, 0],
+      "earned": 0,
+      "possible": 5,
+      "normalized": 0.0,
+      "criteria": [
+        {
+          "criterion_index": 1,
+          "score": 0,
+          "evidence": "It centers the capital-heavy pilot milestone, rejects software seed benchmarks and the unsupported next-summer promise, and treats the evaluation letters and strategic discussions as nonbinding rather than funded cash.",
+          "missing": "It never selects `raising-and-governing-capital` by name and does not explicitly refuse ramen-profitability or weekly-evidence defaults or characterize the specialist fund's diligence interest as uncommitted."
+        },
+        {
+          "criterion_index": 2,
+          "score": 0,
+          "evidence": "It uses the $8.4 million cash, $610,000 monthly spend, 13.8-month static runway, $9-$13 million cost range, 12-18 month timeline, contingency, financing timing, and monthly cash scenarios.",
+          "missing": "Working capital is not explicit, and technical, supplier, regulatory or safety, customer, and financing unknowns do not each receive qualified owners, artifacts, dates, thresholds, and decision effects."
+        },
+        {
+          "criterion_index": 3,
+          "score": 0,
+          "evidence": "It makes the August 15 review and quotes the first gate, calls for lower/base/higher scenarios, preserves phase/resize/pause alternatives, and refuses to treat $18 million or next summer as facts.",
+          "missing": "It instructs the company to derive a raise range later but does not itself derive downside/base/upside funding ranges or a complete staged-milestone plan."
+        },
+        {
+          "criterion_index": 4,
+          "score": 0,
+          "evidence": "It separately evaluates the specialist, generalist, strategic, and additional investor groups for milestone fit, capital and follow-on capacity, diligence, timing, conflicts, governance, exclusivity, and references.",
+          "missing": "It does not explicitly compare confidentiality and IP risk across the segments or require qualified review before sharing sensitive material; adviser review is required only for actual strategic terms."
+        },
+        {
+          "criterion_index": 5,
+          "score": 0,
+          "evidence": "It gives dated readiness, launch, lead-identification, comparison, fallback, and final-decision gates and requires truthful communications.",
+          "missing": "It does not return non-overlapping `launch-round`, `stage-or-syndicate`, `delay-and-rework`, and `stop-or-preserve-option` branches with complete technical and financing predicates, owners, cash consequences, routes, preserved options, and current-term verification."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "case_type": "application",
+      "response_sha256": "af9b6e276d442217d1b8618d8e78748595b36d9482a5bc2ec6338ccd43586d5d",
+      "response_words": 1119,
+      "vector": [0, 1, 0, 0, 0],
+      "earned": 1,
+      "possible": 5,
+      "normalized": 0.2,
+      "criteria": [
+        {
+          "criterion_index": 1,
+          "score": 0,
+          "evidence": "It keeps financing as the decision, records the non-rescue state and deadlines, refuses the 48-hour bonus shortcut, and appoints counsel and finance owners before acceptance and closing.",
+          "missing": "It never names `raising-and-governing-capital`, does not record that both offers are signed only by the funds and remain company-unaccepted, and does not record the absence of exclusivity or no-shop."
+        },
+        {
+          "criterion_index": 2,
+          "score": 1,
+          "evidence": "It immediately stops use of 42%, assigns the controller, finance lead, CEO, and counsel to verify 31% and the affected scope, preserves the original deck and calculation trail, sends the same correction and revised deck to both funds before acceptance, requires written responses, replaces the data-room copy, branches on withdrawal or failed review, and forbids delay or manufactured urgency.",
+          "missing": null
+        },
+        {
+          "criterion_index": 3,
+          "score": 0,
+          "evidence": "It covers fully diluted ownership, preferences and omitted terms, board and observer access, references, follow-on and exit pressure, closing conditions, confidentiality, and qualified legal, tax, and accounting review.",
+          "missing": "It does not establish the amount and milestone need, and consequential unknowns do not each have a complete owner, artifact, due date, threshold, and decision effect."
+        },
+        {
+          "criterion_index": 4,
+          "score": 0,
+          "evidence": "It defines an approval memo, preference for X subject to review, additional on-list and company-selected references, document comparison, and fully diluted cap-table analysis.",
+          "missing": "It lacks a precommitted weighted decision matrix covering partner fit, control, truth response, amount/use, economics, and certainty, and it does not protect operating work during the five-day decision window."
+        },
+        {
+          "criterion_index": 5,
+          "score": 0,
+          "evidence": "It describes selecting X, reconsidering Y, seeking revisions, or letting both offers expire, with dates, owners, corrected disclosure, document review, approvals, signatures, and an August 15 closing path.",
+          "missing": "It does not return four distinct non-overlapping `close-X`, `close-Y`, `counter-or-extend`, and `decline-both` branches with a governance/economic consequence and preserved profitable-company option for each branch."
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "vector": [
+      0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0,
+      0, 1, 0, 0, 0
+    ],
+    "earned": 1,
+    "possible": 25,
+    "normalized": 0.04,
+    "percent": 4.0,
+    "case_earned": {
+      "scenario-01": 0,
+      "scenario-02": 0,
+      "scenario-03": 0,
+      "scenario-04": 0,
+      "scenario-05": 1
+    },
+    "cases_with_at_least_one_miss": 5,
+    "case_count": 5
+  },
+  "red_valid": true,
+  "red_valid_basis": "Frozen blind no-skill integrity passes, all five cases contain misses, and 24 of 25 criteria remain unsatisfied, leaving material room for the skill to improve behavior."
+}

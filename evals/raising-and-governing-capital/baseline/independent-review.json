@@ -1,0 +1,492 @@
+{
+  "schema_version": 1,
+  "reviewer": {
+    "id": "capital-baseline-auditor-001",
+    "role": "independent fresh no-skill RED baseline auditor",
+    "independence": "Distinct from all baseline generators and the prior scorer."
+  },
+  "scope": {
+    "skill_name": "raising-and-governing-capital",
+    "phase": "no-skill-baseline",
+    "allowed_inputs_before_vector_freeze": [
+      "evals/raising-and-governing-capital/cases.json",
+      "evals/raising-and-governing-capital/baseline/generation-plan.json",
+      "evals/raising-and-governing-capital/baseline/generation-attestation.json",
+      "evals/raising-and-governing-capital/baseline/generation-freeze-manifest.json",
+      "evals/raising-and-governing-capital/baseline/prompts/scenario-01.txt through scenario-05.txt",
+      "evals/raising-and-governing-capital/baseline/scenario-01.md through scenario-05.md"
+    ],
+    "deferred_inputs_after_vector_freeze": [
+      "evals/raising-and-governing-capital/baseline/strict-score.json",
+      "evals/raising-and-governing-capital/baseline/strict-review.md",
+      "evals/raising-and-governing-capital/baseline/scorecards/scenario-01.md through scenario-05.md"
+    ],
+    "excluded_inputs": [
+      "source essays",
+      "taxonomy",
+      "target skill package",
+      "intended source material",
+      "unrelated skill artifacts"
+    ],
+    "scope_compliance": "pass"
+  },
+  "independent_score_freeze": {
+    "frozen_at_utc": "2026-07-16T04:52:53Z",
+    "pre_comparison_file_sha256": "bc1dc2b374912a9d0dd28c62b33f210c9b10ccbd4a12f6951e314dd793802f40",
+    "prior_scoring_artifacts_opened_before_freeze": false,
+    "scoring_rule": "Each criterion is conjunctive: score 1 only when every required clause is explicitly satisfied; omissions are not inferred.",
+    "vector_order": "scenario-01 criterion 1 through scenario-05 criterion 5",
+    "vector": [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+    "compact_vector": "00000 01000 10000 00000 01000",
+    "score": 3,
+    "possible": 25
+  },
+  "integrity": {
+    "verdict": "pass",
+    "hash_chain": {
+      "cases_sha256_current": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+      "cases_matches_plan_attestation_and_manifest": true,
+      "generation_plan_sha256_current": "256ebd38d3098bda19b0da2aae662ad0a570ea04077c13446822e2ca02eee623",
+      "generation_plan_matches_attestation_and_manifest": true,
+      "generation_attestation_sha256_current": "bfb3f993d283f40922d029073fbbd8405f7733ad18c9e7b0125d08af4e95f0dc",
+      "generation_freeze_manifest_sha256_current": "57a70644dcf8bb8fbbe3985f0a7d83df93e26df13494058c7e7024419d45cb94",
+      "all_prompt_hashes_match_generation_plan": true,
+      "all_response_hashes_match_attestation_and_freeze_manifest": true
+    },
+    "prompt_projections": {
+      "projection": "id-and-prompt-only",
+      "criteria_visible_during_generation": false,
+      "all_five_prompt_files_byte_exact_to_cases_prompt_plus_terminal_newline": true,
+      "comparisons": {
+        "scenario-01": true,
+        "scenario-02": true,
+        "scenario-03": true,
+        "scenario-04": true,
+        "scenario-05": true
+      }
+    },
+    "responses": [
+      {
+        "case_id": "scenario-01",
+        "task_id": "/root/capital_baseline_1",
+        "sha256": "fc0cba938e2e0ec80a05e2be0f1526abeebd3e343e5e2a7a8f9896ccb8deef3d",
+        "words_attested": 1140,
+        "words_current": 1140,
+        "bytes_attested": 7747,
+        "bytes_current": 7747,
+        "birth_epoch": 1784176944,
+        "mtime_epoch": 1784176944,
+        "within_1200_words": true,
+        "frozen_bytes_match": true
+      },
+      {
+        "case_id": "scenario-02",
+        "task_id": "/root/capital_baseline_2",
+        "sha256": "560366f90aaa5cc2b94d1a49d78807d61a3ce1a9755ec89efe4fc10ed121cc76",
+        "words_attested": 957,
+        "words_current": 957,
+        "bytes_attested": 6233,
+        "bytes_current": 6233,
+        "birth_epoch": 1784176944,
+        "mtime_epoch": 1784176944,
+        "within_1200_words": true,
+        "frozen_bytes_match": true
+      },
+      {
+        "case_id": "scenario-03",
+        "task_id": "/root/capital_baseline_3",
+        "sha256": "2216c7fac7b384b4da2ed25fd4bc442a74bea43f40f37739a0891dfbf0fe0dc0",
+        "words_attested": 1038,
+        "words_current": 1038,
+        "bytes_attested": 6961,
+        "bytes_current": 6961,
+        "birth_epoch": 1784177015,
+        "mtime_epoch": 1784177015,
+        "within_1200_words": true,
+        "frozen_bytes_match": true
+      },
+      {
+        "case_id": "scenario-04",
+        "task_id": "/root/capital_baseline_4",
+        "sha256": "d3497cc75f461880dd3cf00941d48c50d9ab31490de7f953a696934ddde36824",
+        "words_attested": 1067,
+        "words_current": 1067,
+        "bytes_attested": 7498,
+        "bytes_current": 7498,
+        "birth_epoch": 1784177028,
+        "mtime_epoch": 1784177048,
+        "birth_equals_mtime_required": false,
+        "within_1200_words": true,
+        "frozen_bytes_match": true
+      },
+      {
+        "case_id": "scenario-05",
+        "task_id": "/root/capital_baseline_5",
+        "sha256": "af9b6e276d442217d1b8618d8e78748595b36d9482a5bc2ec6338ccd43586d5d",
+        "words_attested": 1119,
+        "words_current": 1119,
+        "bytes_attested": 7512,
+        "bytes_current": 7512,
+        "birth_epoch": 1784177088,
+        "mtime_epoch": 1784177088,
+        "within_1200_words": true,
+        "frozen_bytes_match": true
+      }
+    ],
+    "uniqueness": {
+      "response_count": 5,
+      "unique_task_count": 5,
+      "unique_prompt_hash_count": 5,
+      "unique_response_hash_count": 5,
+      "all_response_bodies_pairwise_distinct": true
+    },
+    "chronology_and_separation": {
+      "cases_mtime_utc": "2026-07-16T04:39:56Z",
+      "prompt_projection_birth_utc": "2026-07-16T04:40:54Z",
+      "generation_plan_declared_frozen_at_utc": "2026-07-16T04:40:59Z",
+      "generation_plan_file_birth_utc": "2026-07-16T04:41:18Z",
+      "response_events_utc": {
+        "scenario-01_birth_and_mtime": "2026-07-16T04:42:24Z",
+        "scenario-02_birth_and_mtime": "2026-07-16T04:42:24Z",
+        "scenario-03_birth_and_mtime": "2026-07-16T04:43:35Z",
+        "scenario-04_birth": "2026-07-16T04:43:48Z",
+        "scenario-04_mtime_after_length_only_staging": "2026-07-16T04:44:08Z",
+        "scenario-05_birth_and_mtime": "2026-07-16T04:44:48Z"
+      },
+      "attestation_and_manifest_declared_frozen_at_utc": "2026-07-16T04:45:04Z",
+      "attestation_and_manifest_file_birth_utc": "2026-07-16T04:45:25Z",
+      "prior_scoring_artifacts_file_birth_utc": "2026-07-16T04:49:34Z",
+      "plan_precedes_all_response_births": true,
+      "all_response_final_mtimes_precede_freeze": true,
+      "prior_scoring_artifacts_follow_freeze": true,
+      "attestation_says_scoring_not_started_at_freeze": true,
+      "five_distinct_generator_task_ids": true,
+      "one_first_completion_per_case_attested": true,
+      "quality_resampling_false": true
+    },
+    "scenario_04_exception": {
+      "is_only_birth_mtime_mismatch": true,
+      "attested_explanation": "length-only staging before single canonical move",
+      "handling": "The exception is transparently recorded. Equality is not required for scenario-04; current bytes and SHA-256 are required and both match.",
+      "accepted": true
+    },
+    "target_package_absence": {
+      "generation_plan_says_skill_package_exists": false,
+      "skills_path_absent": true,
+      "singular_skill_path_absent": true,
+      "repository_root_package_path_absent": true,
+      "only_same_named_path_is_the_eval_directory": true
+    },
+    "contract_attestations": {
+      "criteria_hidden": true,
+      "no_skill": true,
+      "one_first_completion_per_case": true,
+      "quality_resampling": false,
+      "frozen_before_scoring": true
+    }
+  },
+  "cases": [
+    {
+      "case_id": "scenario-01",
+      "score": 0,
+      "possible": 5,
+      "criteria": [
+        {
+          "criterion": 1,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Treats static runway as only a baseline", "Does not convert vague investor interest into demand", "Frames financing rather than survival as the active decision"],
+          "missing_or_incomplete": ["No bounded numeric runway floor", "The switch-back conditions are examples rather than one bounded observable predicate", "The primary workflow is not explicitly named"],
+          "rationale": "The criterion is conjunctive; the response's qualitative cash-floor instruction and illustrative reconsideration conditions do not satisfy every required clause."
+        },
+        {
+          "criterion": 2,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Uses supplied operating and investor facts", "Creates several owners, artifacts, and dates"],
+          "missing_or_incomplete": ["Does not classify every supplied fact and statement as observed, claimed, or unknown", "Does not attach owner, artifact, due date, threshold, and decision effect to every consequential unknown"],
+          "rationale": "The response organizes facts but does not provide the exhaustive classification and five-field unknown controls required."
+        },
+        {
+          "criterion": 3,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Requires a financing brief before launch", "Covers uses, min/target/max amount logic, milestones, contingency, dilution/control boundaries, and a no-raise plan", "Labels the burn and static-runway calculations as approximate"],
+          "missing_or_incomplete": ["No actual amount range is defined", "Current finance and legal verification is not explicitly completed or gated before the thesis"],
+          "rationale": "A future brief template is strong preparation but does not explicitly complete every element of the required financing thesis."
+        },
+        {
+          "criterion": 4,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Creates a bounded batched calendar", "Defines qualification criteria, an accountable operator, consistent materials, a controlled data room, reference checks, decision dates, and CEO time protection"],
+          "missing_or_incomplete": ["No explicit warm-introduction calendar", "No explicit confidentiality-access rules", "No explicit ban on fake scarcity"],
+          "rationale": "Several process controls are present, but the missing warm-introduction, confidentiality, and anti-fake-scarcity clauses make the conjunction fail."
+        },
+        {
+          "criterion": 5,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Sets process checkpoints and a September 30 decision date", "Mentions signing only an acceptable financing"],
+          "missing_or_incomplete": ["No distinct launch, continue, close-or-counter, and pause-or-no-raise branches", "No non-overlapping predicates with an owner, date, route, preserved option, and handoff for every branch", "No signed counsel-reviewed offer gate conjunctively testing runway, partner, truth, certainty, economics, and control thresholds"],
+          "rationale": "The prose timeline is not the required complete branch system."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "score": 1,
+      "possible": 5,
+      "criteria": [
+        {
+          "criterion": 1,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Makes term quality rather than survival the decision", "Identifies the July 27 deadline", "Requires qualified counsel before signing"],
+          "missing_or_incomplete": ["Does not expressly record both term sheets as unsigned", "Does not preserve a defined no-deal option", "Does not name a finance or tax owner before interpretation and negotiation"],
+          "rationale": "Counsel alone and an A-first recommendation do not satisfy all preservation and ownership clauses."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "judgment": "pass",
+          "explicitly_satisfied": ["Calculates A at 5/45 = 11.11%", "Calculates B at 7/62 = 11.29%", "Explains post-money versus pre-money pool treatment", "Explains participating preference and full-ratchet downside", "Requires the requested pool size, current pool, and fully diluted capitalization table", "Explicitly rejects the headline valuation as proof of lower dilution or better economics"],
+          "missing_or_incomplete": [],
+          "rationale": "Every clause is explicit, with the arithmetic and the relevant economic and capitalization caveats."
+        },
+        {
+          "criterion": 3,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Compares amount/milestone fit, preference, anti-dilution, board structure, vetoes, executive and sale control, and references"],
+          "missing_or_incomplete": ["Only one illustrative exit value is modeled instead of downside/base/upside scenarios", "Closing certainty and all unprovided terms are not separately compared", "Consequential unknowns do not each have an owner, artifact, date, threshold, and decision effect"],
+          "rationale": "The comparison is substantive but incomplete under the criterion's exhaustive scenario and unknown-control requirements."
+        },
+        {
+          "criterion": 4,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Proposes removing participation, replacing the full ratchet, moving the pool post-money, and narrowing vetoes", "Does not choose solely on price or call terms standard"],
+          "missing_or_incomplete": ["No explicit walk-away envelope", "No complete board/control boundary", "No information-rights or pro-rata boundary", "No precommitted funding-sufficiency threshold"],
+          "rationale": "A list of desired revisions is not a complete counterproposal plus walk-away envelope."
+        },
+        {
+          "criterion": 5,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Recommends A and gives conditions for further B consideration"],
+          "missing_or_incomplete": ["No four non-overlapping accept-A, counter-A-or-B, continue-both, and decline/no-deal branches", "No complete owner/date/signed-evidence/consequence/preserved-option fields", "No explicit same-facts disclosure protocol to both investors"],
+          "rationale": "The single recommendation with a conditional B counter is not the required branch architecture."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "score": 1,
+      "possible": 5,
+      "criteria": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "judgment": "pass",
+          "explicitly_satisfied": ["Selects cash survival and retention as the primary workflow instead of fundraising", "Uses $165,000 monthly net burn, about 4.4 months of runway, six months of flat revenue, and 4.1% churn to establish the default-dead condition", "Makes fundraising a tightly bounded supporting workflow after the July 22 survival forecast and plan", "Excludes the possible lead and soft circles from the base case until legally committed and funded"],
+          "missing_or_incomplete": [],
+          "rationale": "The response explicitly selects the survival workflow, establishes why, sequences the survival envelope before the late-July capital work, and refuses to count nonbinding interest as cash."
+        },
+        {
+          "criterion": 2,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Routes the primary work to survival", "Records major supplied operating facts and claims", "Creates a 13-week forecast and dated plan-B checkpoints"],
+          "missing_or_incomplete": ["No complete consequential-unknown controls", "No bounded numeric cash floor", "No explicit default-alive test", "No complete route-away handoff with every specified field"],
+          "rationale": "The survival plan is directionally correct but lacks the exhaustive handoff and test fields."
+        },
+        {
+          "criterion": 3,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Pauses all three hires", "Prioritizes renewals and the retention test", "Protects payroll, taxes, and customer continuity"],
+          "missing_or_incomplete": ["Not every immediate action has an owner, date, quantified cash effect or cap, artifact, safeguard, and review threshold"],
+          "rationale": "Because the per-action field requirement is universal, partial operational detail cannot pass."
+        },
+        {
+          "criterion": 4,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Requires truthful materials and qualified investor tiers", "Warns against a broad distracting campaign"],
+          "missing_or_incomplete": ["No maximum distraction budget", "Valuation preparation and a full dated capital process are not deferred until a survival gate", "No dated handoff predicate back to raising-and-governing-capital"],
+          "rationale": "The response permits and designs substantial fundraising through September instead of limiting support to the required pre-gate envelope."
+        },
+        {
+          "criterion": 5,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Provides several survival triggers and mentions deeper cuts, strategic paths, and orderly wind-down"],
+          "missing_or_incomplete": ["No distinct non-overlapping continue, adapt, plan-B, and shutdown/wind-down branches", "Branches lack complete owners, dates, preserved options, adviser gates, and financing handoff conditions"],
+          "rationale": "Scattered triggers and alternatives do not form the required four-branch survival control table."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "score": 0,
+      "possible": 5,
+      "criteria": [
+        {
+          "criterion": 1,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Uses a capital-heavy pilot milestone as the financing frame", "Rejects software seed benchmarks", "Does not count evaluation letters, diligence interest, or strategic discussions as funded demand"],
+          "missing_or_incomplete": ["Does not explicitly refuse ramen-profitability defaults", "Does not explicitly refuse weekly-evidence defaults", "Does not explicitly name the primary workflow"],
+          "rationale": "Rejecting one inappropriate default does not satisfy the criterion's complete three-default refusal."
+        },
+        {
+          "criterion": 2,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Uses cash, monthly spend, pilot cost/timing ranges, contingency, current runway, and financing timing in a dated model"],
+          "missing_or_incomplete": ["Working capital is not explicit", "Regulatory and safety unknowns are absent", "Technical, supplier, customer, and financing unknowns do not each receive qualified owners, artifacts, dates, thresholds, and decision effects"],
+          "rationale": "The model instructions omit required categories and exhaustive unknown controls."
+        },
+        {
+          "criterion": 3,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Makes the August 15 review and quotes a gate before fixing amount or date", "Uses lower/base/higher scenario directions", "Rejects the unverified $18 million and next-summer promise", "Mentions phasing, resizing, pausing, and staged financing"],
+          "missing_or_incomplete": ["Does not actually derive downside/base/upside funding ranges", "Does not state a complete no-raise or delay plan with consequences"],
+          "rationale": "Instructions to build ranges later are not derived ranges now, so the conjunction fails."
+        },
+        {
+          "criterion": 4,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Separates specialist, generalist, and strategic tracks", "Covers milestone fit, check size, technical track record, follow-on, conflicts, governance, references, and exclusivity risk", "Requires advisers to review strategic terms"],
+          "missing_or_incomplete": ["No explicit investor time-horizon comparison", "No explicit IP-risk comparison", "No explicit confidentiality criterion across investor types", "No qualified-review gate before sharing sensitive material"],
+          "rationale": "The segmentation is useful but omits several mandatory comparison and pre-sharing safeguards."
+        },
+        {
+          "criterion": 5,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Provides a dated process and several fallback ideas", "Requires truthful investor communication and adviser review of terms"],
+          "missing_or_incomplete": ["No four non-overlapping launch-round, stage-or-syndicate, delay-and-rework, and stop-or-preserve-option branches", "No complete predicates, owners, dates, cash consequences, routes, and preserved options"],
+          "rationale": "The narrative process does not implement the required observable branch system."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "score": 1,
+      "possible": 5,
+      "criteria": [
+        {
+          "criterion": 1,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Keeps capital governance as the decision", "States the company does not need rescue capital", "Rejects the 48-hour bonus and headline valuation as a diligence bypass", "Names counsel and finance owners"],
+          "missing_or_incomplete": ["Does not expressly record both offers as fund-signed but company-unaccepted", "Does not expressly record the absence of exclusivity/no-shop", "Does not fully state both July 25 expiries as a preserved process fact"],
+          "rationale": "The response behaves consistently with those facts but does not explicitly record every required status clause."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "judgment": "pass",
+          "explicitly_satisfied": ["Immediately pauses the incorrect deck", "Requires verification of 31% and review of dependent metrics", "Corrects both funds before acceptance or countersignature", "Preserves the original deck and calculation trail", "Keeps a consistent corrected data room", "Branches on whether offers survive the correction and whether either passes review", "Rejects delayed correction and manufactured urgency"],
+          "missing_or_incomplete": [],
+          "rationale": "Every truth-correction and response-handling clause is explicit."
+        },
+        {
+          "criterion": 3,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Compares amount, headline/fully diluted ownership work, preference and unprovided terms, board/observer access, references, follow-on signaling, exit pressure, certainty, confidentiality, and adviser implications"],
+          "missing_or_incomplete": ["Consequential unknowns do not each have an owner, artifact, due date, threshold, and decision effect"],
+          "rationale": "Broad comparison coverage cannot overcome the missing universal unknown-control fields."
+        },
+        {
+          "criterion": 4,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Weights partner conduct and governance over price", "Requires additional references, document review, and cap-table analysis", "Offers a limited counter to Y"],
+          "missing_or_incomplete": ["No precommitted weighted decision matrix", "No complete counter envelope across all required dimensions", "No explicit protection of operating work during the five-day decision"],
+          "rationale": "The recommendation is reasoned, but the required matrix, envelope, and operating-work safeguard are absent."
+        },
+        {
+          "criterion": 5,
+          "score": 0,
+          "judgment": "fail",
+          "explicitly_satisfied": ["Provides X-preferred, Y-conditional, and decline ideas", "Requires corrected disclosure and reviewed documents before signing"],
+          "missing_or_incomplete": ["No distinct non-overlapping close-X, close-Y, counter-or-extend, and decline-both branches", "No complete owners, dates, signed-document evidence, resulting consequences, and preserved option through August 15"],
+          "rationale": "Conditional prose does not satisfy the complete four-branch requirement."
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "score": 3,
+    "possible": 25,
+    "rate": 0.12,
+    "per_case": {
+      "scenario-01": 0,
+      "scenario-02": 1,
+      "scenario-03": 1,
+      "scenario-04": 0,
+      "scenario-05": 1
+    },
+    "vector": [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+    "compact_vector": "00000 01000 10000 00000 01000"
+  },
+  "prior_comparison": {
+    "compared_at_utc": "2026-07-16T04:55:45Z",
+    "opened_only_after_independent_vector_freeze": true,
+    "prior_scorer_id": "capital-baseline-scorer-001",
+    "artifacts": {
+      "strict_score_sha256": "48a405f16a56aa375516b3c07dfb6d3ac46eda1fa007b3b20f82b81acf7f9d37",
+      "strict_review_sha256": "1c048bafb2208e20db2b0ab35b0accc27c9aa4ae3b9aa4665948af42865f91a1",
+      "scorecard_sha256": {
+        "scenario-01": "955d3a5e1419a4a945f59d79551ceee9524a4410d0b3db99ffd63fcfbfe6e408",
+        "scenario-02": "3ace93a418e4f39f162c7567ca292b07d9066dbdfce2c2e8643d713fd6bffd9e",
+        "scenario-03": "3fc331eb6a05bf81b712b9c4efa59bf7353b124df282b09f1c9d7801af7d3d28",
+        "scenario-04": "51752b66189841018e2cfad0c8820764fd2f4dd2c3c6925c8614f6d1d090e9ec",
+        "scenario-05": "f5f6a15cdb16c1da73c66ee91d5177f9d50fac5d6b0efe2adae185ee0265e6fc"
+      }
+    },
+    "prior_internal_consistency": "pass",
+    "prior_score": 1,
+    "prior_possible": 25,
+    "prior_vector": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+    "prior_compact_vector": "00000 00000 00000 00000 01000",
+    "independent_score": 3,
+    "independent_vector": [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+    "independent_compact_vector": "00000 01000 10000 00000 01000",
+    "changed_bit_count": 2,
+    "unchanged_bit_count": 23,
+    "changed_bits": [
+      {
+        "case_id": "scenario-02",
+        "criterion": 2,
+        "flat_index_zero_based": 6,
+        "independent": 1,
+        "prior": 0,
+        "independent_basis": "The response gives both required ownership calculations, identifies the requested/current pool and fully diluted capitalization table as the capitalization inputs needed for exact ownership, explains pool placement, participation, and anti-dilution, and explicitly says the headline cannot establish lower dilution.",
+        "prior_basis": "The prior scorer requires separately named governing capitalization definitions and a more explicit causal tie from those definitions to both lower dilution and better economics.",
+        "resolution": "Independent frozen bit retained at 1; disagreement recorded without post-comparison rescore."
+      },
+      {
+        "case_id": "scenario-03",
+        "criterion": 1,
+        "flat_index_zero_based": 10,
+        "independent": 1,
+        "prior": 0,
+        "independent_basis": "The response explicitly makes cash survival and retention primary, establishes the default-dead condition with burn, runway, flat revenue, and churn, schedules the survival forecast and plan by July 22 before late-July capital materials, bounds fundraising as supporting work, and excludes nonbinding interest from the base case.",
+        "prior_basis": "The prior scorer requires the exact workflow/default-dead labels and reads the general permission for capital work as allowing it before a completed survival envelope.",
+        "resolution": "Independent frozen bit retained at 1; disagreement recorded without post-comparison rescore."
+      }
+    ],
+    "agreement_summary": "The reviewers agree on 23 of 25 bits, including scenario-05 criterion 2 as a pass and all remaining listed bits as failures. Both totals leave every case with at least one miss and preserve a strong RED baseline."
+  },
+  "red_valid": true,
+  "red_valid_basis": "Frozen blind no-skill integrity passes; the independent score is 3/25, 22 criteria fail, and every case has at least one miss, leaving material room for behavior-shaping improvement.",
+  "ready_to_freeze_red": true,
+  "readiness_basis": "Integrity, chronology, separation, prompt projection, frozen bytes, no-skill status, and independent strict scoring all pass. The two documented scorer disagreements do not change the RED classification or require mutation of frozen responses."
+}

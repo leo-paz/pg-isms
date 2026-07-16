@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "no-skill-baseline",
+  "adjudicator": {
+    "id": "capital-baseline-adjudicator-001",
+    "role": "fresh reviewer for two disputed binary RED-baseline criteria"
+  },
+  "adjudicated_at_utc": "2026-07-16T05:00:25Z",
+  "scope": {
+    "adjudicated_criteria": [
+      {
+        "case_id": "scenario-02",
+        "criterion_index": 2,
+        "flat_index_zero_based": 6
+      },
+      {
+        "case_id": "scenario-03",
+        "criterion_index": 1,
+        "flat_index_zero_based": 10
+      }
+    ],
+    "other_bits": "The remaining 23 bits were identical in the prior strict score and independent review and are preserved unchanged."
+  },
+  "scoring_rule": {
+    "scale": "binary",
+    "criterion_values": [0, 1],
+    "conjunctive": true,
+    "rule": "Score 1 only if every clause is explicitly satisfied. Do not infer missing detail.",
+    "workflow_identifier_rule": "A backticked workflow identifier is an explicit routing requirement; a paraphrase does not satisfy it."
+  },
+  "disputes": [
+    {
+      "case_id": "scenario-02",
+      "criterion_index": 2,
+      "flat_index_zero_based": 6,
+      "prior_score": 0,
+      "independent_score": 1,
+      "adjudicated_score": 0,
+      "judgment": "fail",
+      "clause_findings": [
+        {
+          "clause": "Show about 11.1% ownership for A and 11.3% for B before pool and other fully diluted effects.",
+          "status": "pass",
+          "response_lines": [9],
+          "pinpoint_quotes": ["about 11.11%", "about 11.29%"],
+          "analysis": "The response explicitly supplies both required simple post-money ownership calculations."
+        },
+        {
+          "clause": "Connect option-pool placement to why the headline cannot prove lower dilution.",
+          "status": "pass",
+          "response_lines": [11],
+          "pinpoint_quotes": ["funded post-money", "funded pre-money", "headline does not establish that B is less dilutive"],
+          "analysis": "The response contrasts who bears each pool increase and directly rejects the headline as proof of lower dilution."
+        },
+        {
+          "clause": "Connect participation to why the headline cannot prove better economics.",
+          "status": "pass",
+          "response_lines": [3, 19],
+          "pinpoint_quotes": ["economic downside protections ... materially worse", "reduce what common holders receive"],
+          "analysis": "The response contrasts the higher headline with worse downside protection, then explains that B's participating preference reduces common-holder proceeds."
+        },
+        {
+          "clause": "Connect anti-dilution to why the headline cannot prove lower dilution or better economics.",
+          "status": "pass",
+          "response_lines": [21, 29],
+          "pinpoint_quotes": ["substantial additional dilution", "more important than the difference ... headline"],
+          "analysis": "The response explains the full-ratchet dilution mechanism and expressly ranks that protection above the headline valuation difference."
+        },
+        {
+          "clause": "Connect governing capitalization definitions—not merely a cap-table request—to why the headline cannot prove lower dilution or better economics.",
+          "status": "fail",
+          "response_lines": [11, 33],
+          "pinpoint_quotes": ["fully diluted capitalization table", "complete ... capitalization model"],
+          "analysis": "These lines request inputs and a model, but they do not identify any governing capitalization definition or explain how a definition changes the ownership denominator or economics. Treating a cap-table request as that missing explanation would infer detail the response never states."
+        },
+        {
+          "clause": "State the ultimate headline limitation.",
+          "status": "pass",
+          "response_lines": [3, 11, 29],
+          "pinpoint_quotes": ["does not produce meaningfully less dilution", "does not establish that B is less dilutive", "more important than ... headline"],
+          "analysis": "The response expressly rejects the headline as dispositive of dilution and economics, but the required capitalization-definition reason for that conclusion remains absent."
+        }
+      ],
+      "rationale": "The criterion is conjunctive. Even though the arithmetic, pool placement, participation, anti-dilution, and ultimate headline conclusion are explicit, the response supplies only a cap-table/model request in place of an explicit capitalization-definition analysis. One missing clause requires score 0."
+    },
+    {
+      "case_id": "scenario-03",
+      "criterion_index": 1,
+      "flat_index_zero_based": 10,
+      "prior_score": 0,
+      "independent_score": 1,
+      "adjudicated_score": 0,
+      "judgment": "fail",
+      "clause_findings": [
+        {
+          "clause": "Explicitly select `managing-runway-and-survival` as primary.",
+          "status": "fail",
+          "response_lines": [1, 3],
+          "pinpoint_quotes": ["cash survival and retention, not fundraising"],
+          "analysis": "The response selects a survival concept, but never names the required backticked workflow identifier. Under the explicit-routing rule, the paraphrase cannot satisfy this clause."
+        },
+        {
+          "clause": "Explicitly establish that the company is default-dead from burn, flat revenue, churn, and time-to-zero.",
+          "status": "fail",
+          "response_lines": [5],
+          "pinpoint_quotes": ["only about 4.4 months of runway", "existing base fragile"],
+          "analysis": "The response provides facts from which default-dead could be inferred, but it never explicitly makes the default-dead classification. The strict rule forbids supplying that missing conclusion."
+        },
+        {
+          "clause": "Make the bridge secondary only after a survival envelope.",
+          "status": "fail",
+          "response_lines": [3, 11, 13, 23, 31],
+          "pinpoint_quotes": ["tightly bounded supporting workflow", "may prepare ... negotiate, and close financing", "By late July, finish the deck"],
+          "analysis": "The response makes fundraising secondary and dates a forecast and survival plan for July 22, but it never conditions capital work on completion of that envelope. Line 23 authorizes broad capital work without the required survival-gate predicate, so chronology cannot be inferred into an explicit only-after gate."
+        },
+        {
+          "clause": "Exclude the partner meeting and angel soft circles from cash.",
+          "status": "pass",
+          "response_lines": [5, 23, 31],
+          "pinpoint_quotes": ["Neither belongs in the base case", "not ... count soft circles as cash", "until documents are signed and funds arrive"],
+          "analysis": "The response excludes the unapproved lead and nonbinding angel interest from the base case, forbids treating either as committed cash, and requires signed documents plus funded cash."
+        }
+      ],
+      "rationale": "The criterion is conjunctive. The non-cash treatment passes, but the exact primary workflow route, explicit default-dead conclusion, and only-after-survival-envelope gate are missing. Any one of those omissions requires score 0."
+    }
+  ],
+  "authoritative_result": {
+    "vector_order": "scenario-01 criterion 1 through scenario-05 criterion 5",
+    "vector": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+    "compact_vector": "00000 00000 00000 00000 01000",
+    "score": 1,
+    "possible": 25,
+    "rate": 0.04,
+    "per_case": {
+      "scenario-01": 0,
+      "scenario-02": 0,
+      "scenario-03": 0,
+      "scenario-04": 0,
+      "scenario-05": 1
+    }
+  },
+  "reviewer_comparison": {
+    "prior_strict": {
+      "reviewer_id": "capital-baseline-scorer-001",
+      "disputed_bits": {
+        "scenario-02 criterion 2": 0,
+        "scenario-03 criterion 1": 0
+      },
+      "score": 1,
+      "possible": 25,
+      "vector": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+      "comparison_to_authoritative": "Exact 25-bit match; 0 differing bits."
+    },
+    "independent": {
+      "reviewer_id": "capital-baseline-auditor-001",
+      "disputed_bits": {
+        "scenario-02 criterion 2": 1,
+        "scenario-03 criterion 1": 1
+      },
+      "score": 3,
+      "possible": 25,
+      "vector": [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+      "comparison_to_authoritative": "Differs on the two adjudicated bits only; authoritative score is lower by 2."
+    }
+  },
+  "integrity": {
+    "scope_compliance": "pass",
+    "inspected_repository_inputs": [
+      "evals/raising-and-governing-capital/cases.json",
+      "evals/raising-and-governing-capital/baseline/scenario-02.md",
+      "evals/raising-and-governing-capital/baseline/scenario-03.md",
+      "evals/raising-and-governing-capital/baseline/strict-score.json",
+      "evals/raising-and-governing-capital/baseline/independent-review.json"
+    ],
+    "excluded_repository_inputs_opened": [],
+    "current_sha256": {
+      "cases.json": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+      "scenario-02.md": "560366f90aaa5cc2b94d1a49d78807d61a3ce1a9755ec89efe4fc10ed121cc76",
+      "scenario-03.md": "2216c7fac7b384b4da2ed25fd4bc442a74bea43f40f37739a0891dfbf0fe0dc0",
+      "strict-score.json": "48a405f16a56aa375516b3c07dfb6d3ac46eda1fa007b3b20f82b81acf7f9d37",
+      "independent-review.json": "2e38e065e867056a15cf8474c4508e16b776c084da0c0c89c498cc3cae1ca5f6"
+    },
+    "response_hashes_match_both_reviews": true,
+    "generation_integrity_note": "No separate generation artifact was needed for this two-bit content adjudication. Both allowed reviews report passing frozen blind no-skill integrity, and the current scenario response hashes match the hashes recorded in both reviews.",
+    "existing_files_modified": false,
+    "new_files": [
+      "evals/raising-and-governing-capital/baseline/adjudication.json",
+      "evals/raising-and-governing-capital/baseline/adjudication.md"
+    ]
+  },
+  "red_valid": true,
+  "red_valid_basis": "The authoritative baseline earns 1/25, fails 24/25 criteria, and every scenario retains at least one failure, leaving clear behavior-shaping headroom.",
+  "ready_to_freeze_red": true,
+  "readiness_basis": "The two disputed criteria have been resolved under the exact conjunctive rule, the other 23 agreed bits are unchanged, the frozen response hashes match the reviewed artifacts, and the result remains a valid RED baseline."
+}

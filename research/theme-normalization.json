@@ -10,7 +10,8 @@
     "Skill 9 source review added an article-scoped override so essay 084's YC process standardization evidence remains market-structure evidence rather than being misrouted as startup platform strategy.",
     "Skill 10 source and overlap review added article-scoped cofounder mappings for essays 039, 123, and 134 while preserving founder evaluation and avoiding a global remap of broader founder-selection or durability labels.",
     "Skill 12 source union removed presentation-only message focus from operating priority, added article-scoped focus and morale evidence for essays 116 and 213, preserved essay 116's financing-terms coverage through its capital-light applicability label because each mapping permits at most three targets, retained essay 213's decision-quality coverage through its problem-prioritization label, and added narrow overrides that keep essays 031, 091, 111, 137, and 150 on their approved non-operating routes.",
-    "Skill 13 source union added article-scoped runway and survival assignments, removed four false workflow triggers, and relabeled essay 129 using 45 raw-theme overrides proven to yield the independently reviewed 85-pair source set."
+    "Skill 13 source union added article-scoped runway and survival assignments, removed four false workflow triggers, and relabeled essay 129 using 45 raw-theme overrides proven to yield the independently reviewed 85-pair source set.",
+    "Skill 14 source union reconciled all 49 assigned financing essays, removed seven false workflow triggers, and applied 68 article-scoped actions proven to yield the independently reviewed 42-essay, 146-pair capital source set without implemented-skill collateral."
   ],
   "canonical_themes": [
     {
@@ -735,7 +736,16 @@
         "decision-quality-and-noise",
         "investor-truth-trust-and-reputation"
       ],
-      "reviewer": "taxonomy-semantic-remediation"
+      "reviewer": "taxonomy-semantic-remediation",
+      "article_overrides": [
+        {
+          "article_no": "199",
+          "canonical_themes": [
+            "decision-quality-and-noise"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "ambient thought",
@@ -850,7 +860,16 @@
         "integrity-truth-and-calibration",
         "investor-truth-trust-and-reputation"
       ],
-      "reviewer": "taxonomy-semantic-remediation"
+      "reviewer": "taxonomy-semantic-remediation",
+      "article_overrides": [
+        {
+          "article_no": "199",
+          "canonical_themes": [
+            "integrity-truth-and-calibration"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "asymmetric error costs",
@@ -1072,7 +1091,17 @@
       "canonical_themes": [
         "financing-terms-equity-and-control"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "136",
+          "canonical_themes": [
+            "financing-terms-equity-and-control",
+            "founder-autonomy-and-control"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "bottleneck intervention",
@@ -1221,7 +1250,18 @@
         "fundraising-readiness-and-investor-communication",
         "investor-truth-trust-and-reputation"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "196",
+          "canonical_themes": [
+            "funding-stage-fit",
+            "fundraising-readiness-and-investor-communication",
+            "investor-truth-trust-and-reputation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "capital absorption",
@@ -1274,7 +1314,18 @@
         "financing-terms-equity-and-control",
         "venture-type-and-capital-model"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "152",
+          "canonical_themes": [
+            "financing-terms-equity-and-control",
+            "valuation",
+            "venture-type-and-capital-model"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "capital planning",
@@ -1342,10 +1393,11 @@
         {
           "article_no": "129",
           "canonical_themes": [
+            "funding-stage-fit",
             "startup-economics-and-risk",
             "venture-type-and-capital-model"
           ],
-          "reviewer": "runway-source-union"
+          "reviewer": "capital-source-union"
         }
       ]
     },
@@ -1580,7 +1632,16 @@
         "founder-autonomy-and-control",
         "founder-readiness-and-commitment"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "073",
+          "canonical_themes": [
+            "founder-readiness-and-commitment"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "commitment verification",
@@ -1588,7 +1649,18 @@
         "fundraising-strategy-and-process",
         "investor-truth-trust-and-reputation"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "156",
+          "canonical_themes": [
+            "deal-mechanics-and-terms",
+            "fundraising-strategy-and-process",
+            "investor-truth-trust-and-reputation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "communication accessibility",
@@ -1894,7 +1966,18 @@
         "independent-and-contrarian-judgment",
         "portfolio-investing"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "092",
+          "canonical_themes": [
+            "independent-and-contrarian-judgment",
+            "investor-incentives-and-selection",
+            "portfolio-investing"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "contrarian startup strategy",
@@ -1909,7 +1992,17 @@
       "canonical_themes": [
         "financing-terms-equity-and-control"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "129",
+          "canonical_themes": [
+            "financing-terms-equity-and-control",
+            "valuation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "control versus adoption",
@@ -2123,14 +2216,36 @@
         "deal-mechanics-and-terms",
         "fundraising-strategy-and-process"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "053",
+          "canonical_themes": [
+            "deal-mechanics-and-terms",
+            "financing-terms-equity-and-control",
+            "founder-autonomy-and-control"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "deal mechanics",
       "canonical_themes": [
         "deal-mechanics-and-terms"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "109",
+          "canonical_themes": [
+            "deal-mechanics-and-terms",
+            "financing-terms-equity-and-control",
+            "valuation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "deal optionality",
@@ -2138,7 +2253,18 @@
         "deal-mechanics-and-terms",
         "strategic-optionality"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "061",
+          "canonical_themes": [
+            "deal-mechanics-and-terms",
+            "fundraising-strategy-and-process",
+            "strategic-optionality"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "deal uncertainty",
@@ -2151,11 +2277,11 @@
         {
           "article_no": "105",
           "canonical_themes": [
-            "deal-mechanics-and-terms",
+            "fundraising-strategy-and-process",
             "risk-and-error-management",
             "startup-survival-and-failure"
           ],
-          "reviewer": "runway-source-union"
+          "reviewer": "capital-source-union"
         }
       ]
     },
@@ -2344,14 +2470,35 @@
         "financing-terms-equity-and-control",
         "fundraising-strategy-and-process"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "131",
+          "canonical_themes": [
+            "financing-terms-equity-and-control",
+            "fundraising-strategy-and-process",
+            "valuation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "dilution and board control",
       "canonical_themes": [
         "financing-terms-equity-and-control"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "174",
+          "canonical_themes": [
+            "financing-terms-equity-and-control",
+            "founder-autonomy-and-control"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "dilution and control",
@@ -2914,7 +3061,17 @@
       "canonical_themes": [
         "startup-idea-selection-and-pivots"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "123",
+          "canonical_themes": [
+            "fundraising-strategy-and-process",
+            "startup-idea-selection-and-pivots"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "external obstacles",
@@ -3139,7 +3296,16 @@
       "canonical_themes": [
         "founder-autonomy-and-control"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "089",
+          "canonical_themes": [
+            "small-team-advantage"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "founder capability growth",
@@ -3212,7 +3378,18 @@
         "founder-evaluation-and-potential",
         "fundraising-readiness-and-investor-communication"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "154",
+          "canonical_themes": [
+            "founder-evaluation-and-potential",
+            "fundraising-readiness-and-investor-communication",
+            "investor-incentives-and-selection"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "founder determination",
@@ -3265,7 +3442,18 @@
         "fundraising-strategy-and-process",
         "market-structure-and-cost-curves"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "102",
+          "canonical_themes": [
+            "funding-market-conditions",
+            "fundraising-strategy-and-process",
+            "market-structure-and-cost-curves"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "founder goals",
@@ -3438,9 +3626,10 @@
           "article_no": "116",
           "canonical_themes": [
             "capital-efficiency-and-runway",
+            "founder-autonomy-and-control",
             "runway-survival-and-profitability"
           ],
-          "reviewer": "runway-source-union"
+          "reviewer": "capital-source-union"
         }
       ]
     },
@@ -3505,7 +3694,18 @@
         "founder-evaluation-and-potential",
         "funding-market-conditions"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "152",
+          "canonical_themes": [
+            "founder-evaluation-and-potential",
+            "funding-market-conditions",
+            "investor-incentives-and-selection"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "founder-controlled fundraising",
@@ -3513,7 +3713,18 @@
         "financing-terms-equity-and-control",
         "fundraising-strategy-and-process"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "129",
+          "canonical_themes": [
+            "financing-terms-equity-and-control",
+            "founder-autonomy-and-control",
+            "fundraising-strategy-and-process"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "founder-friendly policy",
@@ -3537,7 +3748,27 @@
         "financing-terms-equity-and-control",
         "funding-market-conditions"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "152",
+          "canonical_themes": [
+            "financing-terms-equity-and-control",
+            "founder-autonomy-and-control",
+            "funding-market-conditions"
+          ],
+          "reviewer": "capital-source-union"
+        },
+        {
+          "article_no": "201",
+          "canonical_themes": [
+            "financing-terms-equity-and-control",
+            "founder-autonomy-and-control",
+            "funding-market-conditions"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "founder-investor risk asymmetry",
@@ -3673,7 +3904,16 @@
         "fundraising-strategy-and-process",
         "runway-survival-and-profitability"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "198",
+          "canonical_themes": [
+            "runway-survival-and-profitability"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "funding independence",
@@ -3708,7 +3948,17 @@
       "canonical_themes": [
         "funding-market-conditions"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "152",
+          "canonical_themes": [
+            "funding-market-conditions",
+            "funding-stage-fit"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "funding market structure",
@@ -3716,7 +3966,18 @@
         "fundraising-strategy-and-process",
         "market-structure-and-cost-curves"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "052",
+          "canonical_themes": [
+            "funding-market-conditions",
+            "fundraising-strategy-and-process",
+            "market-structure-and-cost-curves"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "funding-stage fit",
@@ -3724,7 +3985,18 @@
         "funding-stage-fit",
         "stage-and-state-conditions"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "076",
+          "canonical_themes": [
+            "funding-stage-fit",
+            "fundraising-readiness-and-investor-communication",
+            "stage-and-state-conditions"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "fundraising contingency",
@@ -3732,7 +4004,16 @@
         "fundraising-strategy-and-process",
         "runway-survival-and-profitability"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "169",
+          "canonical_themes": [
+            "runway-survival-and-profitability"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "fundraising cost",
@@ -3748,7 +4029,16 @@
         "fundraising-strategy-and-process",
         "runway-survival-and-profitability"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "159",
+          "canonical_themes": [
+            "runway-survival-and-profitability"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "fundraising distraction",
@@ -3756,7 +4046,17 @@
         "attention-and-priority-control",
         "fundraising-strategy-and-process"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "182",
+          "canonical_themes": [
+            "attention-and-priority-control",
+            "fundraising-readiness-and-investor-communication"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "fundraising feedback",
@@ -3804,14 +4104,35 @@
       "canonical_themes": [
         "fundraising-strategy-and-process"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "156",
+          "canonical_themes": [
+            "funding-market-conditions",
+            "funding-stage-fit",
+            "fundraising-strategy-and-process"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "fundraising readiness",
       "canonical_themes": [
         "fundraising-readiness-and-investor-communication"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "154",
+          "canonical_themes": [
+            "funding-stage-fit",
+            "fundraising-readiness-and-investor-communication"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "fundraising speed",
@@ -3892,7 +4213,18 @@
         "attention-and-priority-control",
         "fundraising-strategy-and-process"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "152",
+          "canonical_themes": [
+            "attention-and-priority-control",
+            "deal-mechanics-and-terms",
+            "fundraising-strategy-and-process"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "future market paths",
@@ -3961,7 +4293,18 @@
         "financing-terms-equity-and-control",
         "growth-measurement-and-phases"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "149",
+          "canonical_themes": [
+            "funding-stage-fit",
+            "growth-measurement-and-phases",
+            "investor-incentives-and-selection"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "growth phases and launchability",
@@ -4315,10 +4658,9 @@
         {
           "article_no": "033",
           "canonical_themes": [
-            "financing-terms-equity-and-control",
             "incentives-and-behavior"
           ],
-          "reviewer": "semantic-remediation-2026-07-14"
+          "reviewer": "capital-source-union"
         },
         {
           "article_no": "052",
@@ -4380,7 +4722,18 @@
       "canonical_themes": [
         "fundraising-strategy-and-process"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "129",
+          "canonical_themes": [
+            "deal-mechanics-and-terms",
+            "fundraising-strategy-and-process",
+            "investor-incentives-and-selection"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "independent judgment",
@@ -4551,7 +4904,18 @@
         "fundraising-strategy-and-process",
         "investor-truth-trust-and-reputation"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "137",
+          "canonical_themes": [
+            "fundraising-readiness-and-investor-communication",
+            "fundraising-strategy-and-process",
+            "investor-truth-trust-and-reputation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "investor communication",
@@ -4559,7 +4923,18 @@
         "communication-and-persuasion",
         "fundraising-strategy-and-process"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "067",
+          "canonical_themes": [
+            "communication-and-persuasion",
+            "fundraising-readiness-and-investor-communication",
+            "investor-truth-trust-and-reputation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "investor confidence selection pressure",
@@ -4567,7 +4942,18 @@
         "founder-evaluation-and-potential",
         "investor-truth-trust-and-reputation"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "123",
+          "canonical_themes": [
+            "founder-evaluation-and-potential",
+            "investor-incentives-and-selection",
+            "investor-truth-trust-and-reputation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "investor confidentiality",
@@ -4581,7 +4967,18 @@
       "canonical_themes": [
         "fundraising-strategy-and-process"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "131",
+          "canonical_themes": [
+            "deal-mechanics-and-terms",
+            "fundraising-strategy-and-process",
+            "investor-incentives-and-selection"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "investor decisiveness",
@@ -4589,14 +4986,36 @@
         "deal-mechanics-and-terms",
         "investor-incentives-and-selection"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "109",
+          "canonical_themes": [
+            "deal-mechanics-and-terms",
+            "investor-incentives-and-selection",
+            "investor-truth-trust-and-reputation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "investor diligence",
       "canonical_themes": [
         "investor-incentives-and-selection"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "053",
+          "canonical_themes": [
+            "fundraising-readiness-and-investor-communication",
+            "investor-incentives-and-selection",
+            "investor-truth-trust-and-reputation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "investor governance",
@@ -4604,7 +5023,18 @@
         "founder-autonomy-and-control",
         "investor-incentives-and-selection"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "069",
+          "canonical_themes": [
+            "financing-terms-equity-and-control",
+            "founder-autonomy-and-control",
+            "investor-incentives-and-selection"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "investor incentives",
@@ -4612,7 +5042,18 @@
         "incentives-and-behavior",
         "investor-incentives-and-selection"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "076",
+          "canonical_themes": [
+            "founder-autonomy-and-control",
+            "incentives-and-behavior",
+            "investor-incentives-and-selection"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "investor intuition",
@@ -4636,7 +5077,17 @@
       "canonical_themes": [
         "fundraising-strategy-and-process"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "156",
+          "canonical_themes": [
+            "fundraising-strategy-and-process",
+            "investor-incentives-and-selection"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "investor qualification",
@@ -4651,7 +5102,17 @@
       "canonical_themes": [
         "investor-incentives-and-selection"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "085",
+          "canonical_themes": [
+            "investor-incentives-and-selection",
+            "investor-truth-trust-and-reputation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "investor reputation",
@@ -4674,7 +5135,18 @@
         "funding-stage-fit",
         "investor-incentives-and-selection"
       ],
-      "reviewer": "semantic-remediation-2026-07-14"
+      "reviewer": "semantic-remediation-2026-07-14",
+      "article_overrides": [
+        {
+          "article_no": "133",
+          "canonical_themes": [
+            "funding-market-conditions",
+            "funding-stage-fit",
+            "investor-incentives-and-selection"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "investor social proof",
@@ -4682,7 +5154,18 @@
         "fundraising-strategy-and-process",
         "investor-truth-trust-and-reputation"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "155",
+          "canonical_themes": [
+            "fundraising-strategy-and-process",
+            "investor-incentives-and-selection",
+            "investor-truth-trust-and-reputation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "investor-founder trust",
@@ -4753,7 +5236,18 @@
         "launch-strategy",
         "product-iteration-and-redesign"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "084",
+          "canonical_themes": [
+            "fundraising-readiness-and-investor-communication",
+            "launch-strategy",
+            "product-iteration-and-redesign"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "launch error-cost gate",
@@ -4852,7 +5346,18 @@
         "funding-market-conditions",
         "startup-ecosystems-and-hubs"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "176",
+          "canonical_themes": [
+            "funding-market-conditions",
+            "funding-stage-fit",
+            "startup-ecosystems-and-hubs"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "localized innovation",
@@ -5318,7 +5823,18 @@
         "communication-and-persuasion",
         "fundraising-strategy-and-process"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "076",
+          "canonical_themes": [
+            "communication-and-persuasion",
+            "fundraising-strategy-and-process",
+            "investor-truth-trust-and-reputation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "monetization and product alignment",
@@ -5774,7 +6290,16 @@
         "financing-terms-equity-and-control",
         "strategic-optionality"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "048",
+          "canonical_themes": [
+            "strategic-optionality"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "paradigm blindness",
@@ -6607,7 +7132,17 @@
         "fundraising-strategy-and-process",
         "investor-truth-trust-and-reputation"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "165",
+          "canonical_themes": [
+            "investor-incentives-and-selection",
+            "investor-truth-trust-and-reputation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "regional startup ecosystems",
@@ -6631,7 +7166,18 @@
         "decision-quality-and-noise",
         "fundraising-strategy-and-process"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "098",
+          "canonical_themes": [
+            "decision-quality-and-noise",
+            "fundraising-readiness-and-investor-communication",
+            "fundraising-strategy-and-process"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "rejection interpretation",
@@ -6647,7 +7193,18 @@
         "fundraising-readiness-and-investor-communication",
         "learning-and-skill-development"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "154",
+          "canonical_themes": [
+            "fundraising-readiness-and-investor-communication",
+            "fundraising-strategy-and-process",
+            "learning-and-skill-development"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "release velocity",
@@ -6807,9 +7364,10 @@
           "article_no": "201",
           "canonical_themes": [
             "capital-efficiency-and-runway",
-            "financing-terms-equity-and-control"
+            "deal-mechanics-and-terms",
+            "valuation"
           ],
-          "reviewer": "runway-source-union"
+          "reviewer": "capital-source-union"
         }
       ]
     },
@@ -6818,7 +7376,18 @@
       "canonical_themes": [
         "financing-terms-equity-and-control"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "133",
+          "canonical_themes": [
+            "financing-terms-equity-and-control",
+            "founder-autonomy-and-control",
+            "valuation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "runway",
@@ -6949,7 +7518,18 @@
         "startup-economics-and-risk",
         "venture-type-and-capital-model"
       ],
-      "reviewer": "semantic-remediation-2026-07-14"
+      "reviewer": "semantic-remediation-2026-07-14",
+      "article_overrides": [
+        {
+          "article_no": "201",
+          "canonical_themes": [
+            "funding-stage-fit",
+            "startup-economics-and-risk",
+            "venture-type-and-capital-model"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "schedule partitioning",
@@ -7309,7 +7889,18 @@
         "funding-stage-fit",
         "stage-and-state-conditions"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "092",
+          "canonical_themes": [
+            "funding-market-conditions",
+            "funding-stage-fit",
+            "stage-and-state-conditions"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "stage-specific financing",
@@ -7359,7 +7950,18 @@
         "capital-efficiency-and-runway",
         "market-structure-and-cost-curves"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "084",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "funding-market-conditions",
+            "market-structure-and-cost-curves"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "startup definition",
@@ -8063,7 +8665,18 @@
         "deal-mechanics-and-terms",
         "risk-and-error-management"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "053",
+          "canonical_themes": [
+            "deal-mechanics-and-terms",
+            "risk-and-error-management",
+            "valuation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "test gaming",
@@ -8088,7 +8701,18 @@
         "market-structure-and-cost-curves",
         "risk-and-error-management"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "098",
+          "canonical_themes": [
+            "funding-market-conditions",
+            "market-structure-and-cost-curves",
+            "risk-and-error-management"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "threshold markets",
@@ -8240,7 +8864,16 @@
         "founder-autonomy-and-control",
         "investor-incentives-and-selection"
       ],
-      "reviewer": "taxonomy-semantic-remediation"
+      "reviewer": "taxonomy-semantic-remediation",
+      "article_overrides": [
+        {
+          "article_no": "199",
+          "canonical_themes": [
+            "accelerators-and-advising"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "unscalable service",
@@ -8498,7 +9131,18 @@
         "financing-terms-equity-and-control",
         "fundraising-strategy-and-process"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "156",
+          "canonical_themes": [
+            "financing-terms-equity-and-control",
+            "fundraising-strategy-and-process",
+            "valuation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "valuation optionality",
@@ -8506,7 +9150,18 @@
         "strategic-optionality",
         "valuation"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "076",
+          "canonical_themes": [
+            "financing-terms-equity-and-control",
+            "strategic-optionality",
+            "valuation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "valuation risk",
@@ -8533,7 +9188,17 @@
         "financing-terms-equity-and-control",
         "fundraising-strategy-and-process"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "155",
+          "canonical_themes": [
+            "fundraising-strategy-and-process",
+            "valuation"
+          ],
+          "reviewer": "capital-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "venture capital optionality",

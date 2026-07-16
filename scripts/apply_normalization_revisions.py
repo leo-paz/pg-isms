@@ -92,6 +92,11 @@ def revised(normalization: Mapping[str, Any], revision: Mapping[str, Any]) -> Di
     for item in override_replacements:
         raw = item.get("raw_theme") if isinstance(item, dict) else None
         article_no = item.get("article_no") if isinstance(item, dict) else None
+        reviewer = item.get("reviewer") if isinstance(item, dict) else None
+        if not isinstance(reviewer, str) or not reviewer.strip():
+            raise RevisionError(
+                f"invalid article override replacement reviewer: {raw}/{article_no}"
+            )
         mapping = mapping_by_raw.get(raw)
         matches = [
             override
@@ -101,6 +106,7 @@ def revised(normalization: Mapping[str, Any], revision: Mapping[str, Any]) -> Di
         if len(matches) != 1:
             raise RevisionError(f"article override replacement is absent or duplicate: {raw}/{article_no}")
         matches[0]["canonical_themes"] = item.get("canonical_themes")
+        matches[0]["reviewer"] = reviewer
     for item in override_additions:
         raw = item.get("raw_theme") if isinstance(item, dict) else None
         article_no = item.get("article_no") if isinstance(item, dict) else None
@@ -142,6 +148,8 @@ def revised(normalization: Mapping[str, Any], revision: Mapping[str, Any]) -> Di
         expected = {"raw_theme": raw, "canonical_themes": item["canonical_themes"], "reviewer": reviewer}
         existing = mapping_by_raw.get(raw)
         if existing is not None and existing.get("reviewer") == reviewer:
+            if existing.get("article_overrides"):
+                expected["article_overrides"] = existing["article_overrides"]
             mapping_by_raw[raw] = expected
         elif existing is not None and existing != expected:
             raise RevisionError(f"added raw mapping conflicts: {raw}")
@@ -185,6 +193,17 @@ def revised(normalization: Mapping[str, Any], revision: Mapping[str, Any]) -> Di
     )
     if (override_additions or override_removals) and runway_note not in notes:
         notes.append(runway_note)
+    capital_note = (
+        "Skill 14 source union reconciled all 49 assigned financing essays, removed seven false "
+        "workflow triggers, and applied 68 article-scoped actions proven to yield the independently "
+        "reviewed 42-essay, 146-pair capital source set without implemented-skill collateral."
+    )
+    capital_reviewed = any(
+        isinstance(item, dict) and item.get("reviewer") == "capital-source-union"
+        for item in [*override_replacements, *override_additions]
+    )
+    if capital_reviewed and capital_note not in notes:
+        notes.append(capital_note)
     return output
 
 
