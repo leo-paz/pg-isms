@@ -1,0 +1,4 @@
+interface:
+  display_name: "Managing Runway and Survival"
+  short_description: "Diagnose runway and choose survival actions"
+  default_prompt: "Use $managing-runway-and-survival to diagnose the company survival state and produce a dated cash, action, and branch plan."

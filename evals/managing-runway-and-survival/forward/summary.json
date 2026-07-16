@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "skill_name": "managing-runway-and-survival",
+  "phase": "forward",
+  "reviewer_id": "runway-forward-001",
+  "scorer_id": "runway-forward-scorer-001",
+  "independent_reviewer_id": "runway-forward-auditor-001",
+  "case_results": [
+    {"case_id":"scenario-01","score":4,"max_score":5,"raw_output":"scenario-01.md","vector":"11011"},
+    {"case_id":"scenario-02","score":2,"max_score":5,"raw_output":"scenario-02.md","vector":"10001"},
+    {"case_id":"scenario-03","score":3,"max_score":5,"raw_output":"scenario-03.md","vector":"11001"},
+    {"case_id":"scenario-04","score":4,"max_score":5,"raw_output":"scenario-04.md","vector":"11011"},
+    {"case_id":"scenario-05","score":5,"max_score":5,"raw_output":"scenario-05.md","vector":"11111"}
+  ],
+  "total_score": 18,
+  "total_max_score": 25,
+  "normalized_score": 0.72,
+  "baseline_normalized_score": 0.2,
+  "normalized_delta": 0.52,
+  "forward_valid": true,
+  "independent_audit": {
+    "integrity": "pass",
+    "bit_changes": 0,
+    "audited_total": 18,
+    "ready_to_freeze": true
+  },
+  "post_generation_source_remediation": {
+    "behavior_files_unchanged": true,
+    "skill_sha256": "4d900b3e4b60b8f75dc4ecddf0be016030227c3c204928b8869931f621809d0d",
+    "runtime_sha256": "f7dd9dcd99144b59a3191c1e2cf2104ce61e66bfd891add83cb911a2ddb52b48",
+    "note": "After response generation, one article-137 provenance paraphrase was narrowed to its exact support; source evidence was excluded from generator context."
+  }
+}

@@ -1,0 +1,864 @@
+{
+  "schema_version": 1,
+  "skill_name": "managing-runway-and-survival",
+  "source_reviewers": [
+    "runway-source-a",
+    "runway-source-b",
+    "runway-source-c",
+    "runway-source-union"
+  ],
+  "records": [
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "011",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "A low-cost larval company can launch, learn, and survive while the gap between spending and revenue stays small.",
+          "line_ranges": [
+            "224-232",
+            "290-294"
+          ]
+        },
+        {
+          "canonical_theme": "revenue-and-profitability",
+          "claim": "Recurring subscription revenue makes operating cash observable rather than hypothetical.",
+          "line_ranges": [
+            "182-186"
+          ]
+        },
+        {
+          "canonical_theme": "runway-survival-and-profitability",
+          "claim": "A low-cost larval company can launch, learn, and survive while the gap between spending and revenue stays small.",
+          "line_ranges": [
+            "224-232",
+            "290-294"
+          ]
+        },
+        {
+          "canonical_theme": "startup-survival-and-failure",
+          "claim": "A low-cost larval company can launch, learn, and survive while the gap between spending and revenue stays small.",
+          "line_ranges": [
+            "224-232",
+            "290-294"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "028",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-economics-and-risk",
+          "claim": "Startup outcomes are highly variable, and even a good product can die when progress is too slow and time or cash expires.",
+          "line_ranges": [
+            "194-202"
+          ]
+        },
+        {
+          "canonical_theme": "startup-survival-and-failure",
+          "claim": "Startup outcomes are highly variable, and even a good product can die when progress is too slow and time or cash expires.",
+          "line_ranges": [
+            "194-202"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "039",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Spend slowly enough to learn, and do not mistake investor cash for customer revenue. Hiring creates recurring burn and coordination cost, so headcount must follow demonstrated need.",
+          "line_ranges": [
+            "188-214",
+            "216-218",
+            "230-238"
+          ]
+        },
+        {
+          "canonical_theme": "revenue-and-profitability",
+          "claim": "Spend slowly enough to learn, and do not mistake investor cash for customer revenue.",
+          "line_ranges": [
+            "188-214",
+            "216-218"
+          ]
+        },
+        {
+          "canonical_theme": "startup-survival-and-failure",
+          "claim": "Lack of user demand is the root failure cause; lack of funding is often only the proximate cause.",
+          "line_ranges": [
+            "86-98"
+          ]
+        },
+        {
+          "canonical_theme": "state-conditioned-spending-and-hiring",
+          "claim": "Hiring creates recurring burn and coordination cost, so headcount must follow demonstrated need.",
+          "line_ranges": [
+            "230-238"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "040",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Gate a large round on specific capital-absorption uses; excess capital can become premature headcount and coordination overhead. A high valuation and large round can narrow viable outcomes and force continued risk-taking.",
+          "line_ranges": [
+            "22-34",
+            "36-36",
+            "38-44"
+          ]
+        },
+        {
+          "canonical_theme": "startup-economics-and-risk",
+          "claim": "A high valuation and large round can narrow viable outcomes and force continued risk-taking.",
+          "line_ranges": [
+            "36-36",
+            "38-44"
+          ]
+        },
+        {
+          "canonical_theme": "state-conditioned-spending-and-hiring",
+          "claim": "Gate a large round on specific capital-absorption uses; excess capital can become premature headcount and coordination overhead.",
+          "line_ranges": [
+            "22-34"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "049",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-economics-and-risk",
+          "claim": "Founders expose concentrated time and ideas to discrete startup-threatening shocks in exchange for asymmetric upside.",
+          "line_ranges": [
+            "36-40",
+            "54-68"
+          ]
+        },
+        {
+          "canonical_theme": "startup-survival-and-failure",
+          "claim": "Founders expose concentrated time and ideas to discrete startup-threatening shocks in exchange for asymmetric upside.",
+          "line_ranges": [
+            "36-40",
+            "54-68"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "052",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Recalculate actual capital need; fund-driven excess capital can induce destructive spending before the company can absorb it.",
+          "line_ranges": [
+            "14-30",
+            "56-60"
+          ]
+        },
+        {
+          "canonical_theme": "state-conditioned-spending-and-hiring",
+          "claim": "Recalculate actual capital need; fund-driven excess capital can induce destructive spending before the company can absorb it.",
+          "line_ranges": [
+            "14-30",
+            "56-60"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "053",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Size stage financing to the next milestone; both underfunding and overfunding can be harmful. Track the runway calendar, fundraise before desperation, and preserve frugality.",
+          "line_ranges": [
+            "14-16",
+            "200-214"
+          ]
+        },
+        {
+          "canonical_theme": "runway-survival-and-profitability",
+          "claim": "Treat pending deals as zero cash and use consulting only as a bounded survival bridge, not a permanent service trap. Track the runway calendar, fundraise before desperation, and preserve frugality.",
+          "line_ranges": [
+            "46-60",
+            "96-102",
+            "200-214",
+            "270-280"
+          ]
+        },
+        {
+          "canonical_theme": "startup-survival-and-failure",
+          "claim": "Treat pending deals as zero cash and use consulting only as a bounded survival bridge, not a permanent service trap.",
+          "line_ranges": [
+            "46-60",
+            "96-102",
+            "270-280"
+          ]
+        },
+        {
+          "canonical_theme": "state-conditioned-spending-and-hiring",
+          "claim": "Size stage financing to the next milestone; both underfunding and overfunding can be harmful.",
+          "line_ranges": [
+            "14-16"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "068",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Low burn extends the number of recovery attempts and must reflect founders' real living obligations. A hire raises burn and a bad early hire can be hard to recover from.",
+          "line_ranges": [
+            "52-64",
+            "156-160"
+          ]
+        },
+        {
+          "canonical_theme": "startup-survival-and-failure",
+          "claim": "Low burn extends the number of recovery attempts and must reflect founders' real living obligations.",
+          "line_ranges": [
+            "52-64"
+          ]
+        },
+        {
+          "canonical_theme": "state-conditioned-spending-and-hiring",
+          "claim": "A hire raises burn and a bad early hire can be hard to recover from.",
+          "line_ranges": [
+            "156-160"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "069",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Relate runway to time required for the next evidence milestone. Hiring raises burn, and excess capital can create headcount rigidity before product evidence.",
+          "line_ranges": [
+            "122-130",
+            "132-154"
+          ]
+        },
+        {
+          "canonical_theme": "revenue-and-profitability",
+          "claim": "Delayed monetization still requires a credible revenue model.",
+          "line_ranges": [
+            "166-176"
+          ]
+        },
+        {
+          "canonical_theme": "runway-survival-and-profitability",
+          "claim": "Relate runway to time required for the next evidence milestone.",
+          "line_ranges": [
+            "122-130"
+          ]
+        },
+        {
+          "canonical_theme": "startup-survival-and-failure",
+          "claim": "No user demand is the central fatal condition. Hiring raises burn, and excess capital can create headcount rigidity before product evidence.",
+          "line_ranges": [
+            "14-18",
+            "132-154"
+          ]
+        },
+        {
+          "canonical_theme": "state-conditioned-spending-and-hiring",
+          "claim": "Hiring raises burn, and excess capital can create headcount rigidity before product evidence.",
+          "line_ranges": [
+            "132-154"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "076",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Fundraising interrupts product work; a cheaper fallback plan can make the company harder to kill.",
+          "line_ranges": [
+            "202-210",
+            "234-246"
+          ]
+        },
+        {
+          "canonical_theme": "startup-survival-and-failure",
+          "claim": "Fundraising interrupts product work; a cheaper fallback plan can make the company harder to kill.",
+          "line_ranges": [
+            "202-210",
+            "234-246"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "077",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Pay to remove a bottleneck only after fast growth is demonstrated, and treat temporary cost norms as state-specific.",
+          "line_ranges": [
+            "16-22",
+            "30-32"
+          ]
+        },
+        {
+          "canonical_theme": "state-conditioned-spending-and-hiring",
+          "claim": "Pay to remove a bottleneck only after fast growth is demonstrated, and treat temporary cost norms as state-specific.",
+          "line_ranges": [
+            "16-22",
+            "30-32"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "081",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-survival-and-failure",
+          "claim": "Use cadence and engagement as early warnings, persist while changing tactics, and distinguish recoverable stagnation from terminal disengagement.",
+          "line_ranges": [
+            "28-42",
+            "44-52",
+            "54-72"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "084",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Lower web-startup cost curves reduce required capital.",
+          "line_ranges": [
+            "16-28"
+          ]
+        },
+        {
+          "canonical_theme": "startup-economics-and-risk",
+          "claim": "Founders bear concentrated risk while small seed checks can buy performance evidence before larger exposure.",
+          "line_ranges": [
+            "62-68",
+            "70-76"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "097",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "revenue-and-profitability",
+          "claim": "Profitability preserves the option to wait; revenue timing should still depend on whether selling improves or obstructs user learning.",
+          "line_ranges": [
+            "48-56"
+          ]
+        },
+        {
+          "canonical_theme": "runway-survival-and-profitability",
+          "claim": "Profitability preserves the option to wait; revenue timing should still depend on whether selling improves or obstructs user learning.",
+          "line_ranges": [
+            "48-56"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "098",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "As conditions worsen, maintain viable plans at several capital levels, lower expenses, and cross the smallest sustainable revenue threshold.",
+          "line_ranges": [
+            "82-118"
+          ]
+        },
+        {
+          "canonical_theme": "revenue-and-profitability",
+          "claim": "As conditions worsen, maintain viable plans at several capital levels, lower expenses, and cross the smallest sustainable revenue threshold.",
+          "line_ranges": [
+            "82-118"
+          ]
+        },
+        {
+          "canonical_theme": "runway-survival-and-profitability",
+          "claim": "Model time to break-even; consulting may finance the gap but can impose a fatal delay. Use consulting only as a bounded emergency downshift with a protected product boundary.",
+          "line_ranges": [
+            "40-52",
+            "142-150"
+          ]
+        },
+        {
+          "canonical_theme": "startup-survival-and-failure",
+          "claim": "Treat unclosed deals as absent and keep product, users, and sales moving while fundraising.",
+          "line_ranges": [
+            "58-78"
+          ]
+        },
+        {
+          "canonical_theme": "state-conditioned-spending-and-hiring",
+          "claim": "As conditions worsen, maintain viable plans at several capital levels, lower expenses, and cross the smallest sustainable revenue threshold.",
+          "line_ranges": [
+            "82-118"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "099",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Adapt cost and customer value to the economy; lower burn extends the number of attempts.",
+          "line_ranges": [
+            "30-40"
+          ]
+        },
+        {
+          "canonical_theme": "startup-economics-and-risk",
+          "claim": "Separate macro timing risk from team and product risk.",
+          "line_ranges": [
+            "18-28"
+          ]
+        },
+        {
+          "canonical_theme": "startup-survival-and-failure",
+          "claim": "Adapt cost and customer value to the economy; lower burn extends the number of attempts.",
+          "line_ranges": [
+            "30-40"
+          ]
+        },
+        {
+          "canonical_theme": "state-conditioned-spending-and-hiring",
+          "claim": "Adapt cost and customer value to the economy; lower burn extends the number of attempts.",
+          "line_ranges": [
+            "30-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "102",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "A capital-light startup whose recurring revenue covers expenses can remove the immediate funding deadline. After a failed round, postpone hiring and lower founder costs while moving toward profitability.",
+          "line_ranges": [
+            "18-24",
+            "28-34"
+          ]
+        },
+        {
+          "canonical_theme": "revenue-and-profitability",
+          "claim": "A capital-light startup whose recurring revenue covers expenses can remove the immediate funding deadline. After a failed round, postpone hiring and lower founder costs while moving toward profitability.",
+          "line_ranges": [
+            "18-24",
+            "28-34"
+          ]
+        },
+        {
+          "canonical_theme": "runway-survival-and-profitability",
+          "claim": "A capital-light startup whose recurring revenue covers expenses can remove the immediate funding deadline.",
+          "line_ranges": [
+            "18-24"
+          ]
+        },
+        {
+          "canonical_theme": "startup-economics-and-risk",
+          "claim": "A capital-light startup whose recurring revenue covers expenses can remove the immediate funding deadline.",
+          "line_ranges": [
+            "18-24"
+          ]
+        },
+        {
+          "canonical_theme": "state-conditioned-spending-and-hiring",
+          "claim": "After a failed round, postpone hiring and lower founder costs while moving toward profitability.",
+          "line_ranges": [
+            "28-34"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "105",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Keep burn low and target founder-expense revenue as an optionality milestone, not proof of full success.",
+          "line_ranges": [
+            "48-54"
+          ]
+        },
+        {
+          "canonical_theme": "revenue-and-profitability",
+          "claim": "Keep burn low and target founder-expense revenue as an optionality milestone, not proof of full success.",
+          "line_ranges": [
+            "48-54"
+          ]
+        },
+        {
+          "canonical_theme": "runway-survival-and-profitability",
+          "claim": "Keep burn low and target founder-expense revenue as an optionality milestone, not proof of full success.",
+          "line_ranges": [
+            "48-54"
+          ]
+        },
+        {
+          "canonical_theme": "startup-survival-and-failure",
+          "claim": "Remove paid distractions, manage morale, change the idea when needed, and exclude unclosed deals from the base case.",
+          "line_ranges": [
+            "56-70"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "116",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Define the survival threshold as recurring revenue covering founder and company costs; crossing it buys time and removes the immediate raise-or-close choice.",
+          "line_ranges": [
+            "16-24"
+          ]
+        },
+        {
+          "canonical_theme": "revenue-and-profitability",
+          "claim": "Define the survival threshold as recurring revenue covering founder and company costs; crossing it buys time and removes the immediate raise-or-close choice.",
+          "line_ranges": [
+            "16-24"
+          ]
+        },
+        {
+          "canonical_theme": "runway-survival-and-profitability",
+          "claim": "Define the survival threshold as recurring revenue covering founder and company costs; crossing it buys time and removes the immediate raise-or-close choice. Use survival profitability to improve leverage, validate willingness to pay, support morale, and choose when fundraising can safely interrupt product work.",
+          "line_ranges": [
+            "16-24",
+            "28-48"
+          ]
+        },
+        {
+          "canonical_theme": "startup-survival-and-failure",
+          "claim": "Use survival profitability to improve leverage, validate willingness to pay, support morale, and choose when fundraising can safely interrupt product work.",
+          "line_ranges": [
+            "28-48"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "129",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "startup-economics-and-risk",
+          "claim": "Falling software startup costs allow more evidence before a large round, but the mechanism does not transfer to energy or biotech.",
+          "line_ranges": [
+            "14-20",
+            "120-122"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "137",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Capital efficiency can make an investor's money go farther, while counter-cyclical demand remains a product-specific observation to verify.",
+          "line_ranges": [
+            "206-210"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "156",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Maintain viable zero-, small-, and large-capital plans rather than one fundraising-dependent plan. Assume the last round may be the last, avoid capital-induced headcount rigidity, and hire only after growth or revenue evidence.",
+          "line_ranges": [
+            "116-130",
+            "258-266",
+            "280-290"
+          ]
+        },
+        {
+          "canonical_theme": "revenue-and-profitability",
+          "claim": "Distinguish rescue capital from elective acceleration by the path to profitability. Assume the last round may be the last, avoid capital-induced headcount rigidity, and hire only after growth or revenue evidence.",
+          "line_ranges": [
+            "144-154",
+            "258-266",
+            "280-290"
+          ]
+        },
+        {
+          "canonical_theme": "runway-survival-and-profitability",
+          "claim": "Maintain viable zero-, small-, and large-capital plans rather than one fundraising-dependent plan. Distinguish rescue capital from elective acceleration by the path to profitability.",
+          "line_ranges": [
+            "116-130",
+            "144-154"
+          ]
+        },
+        {
+          "canonical_theme": "state-conditioned-spending-and-hiring",
+          "claim": "Assume the last round may be the last, avoid capital-induced headcount rigidity, and hire only after growth or revenue evidence.",
+          "line_ranges": [
+            "258-266",
+            "280-290"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "159",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Choose among closing, cutting, and revenue rescue using the actual profitability threshold. Correct overhiring or, for a lean team, pursue the fastest credible revenue with a bounded productized service.",
+          "line_ranges": [
+            "33-33",
+            "35-45",
+            "47-59",
+            "69-71"
+          ]
+        },
+        {
+          "canonical_theme": "revenue-and-profitability",
+          "claim": "Choose among closing, cutting, and revenue rescue using the actual profitability threshold. Correct overhiring or, for a lean team, pursue the fastest credible revenue with a bounded productized service.",
+          "line_ranges": [
+            "33-33",
+            "35-45",
+            "47-59",
+            "69-71"
+          ]
+        },
+        {
+          "canonical_theme": "runway-survival-and-profitability",
+          "claim": "Diagnose the fatal pinch with assumed financing set to zero. Choose among closing, cutting, and revenue rescue using the actual profitability threshold.",
+          "line_ranges": [
+            "12-31",
+            "33-33",
+            "35-45",
+            "69-71"
+          ]
+        },
+        {
+          "canonical_theme": "startup-survival-and-failure",
+          "claim": "Diagnose the fatal pinch with assumed financing set to zero. Correct overhiring or, for a lean team, pursue the fastest credible revenue with a bounded productized service. For long-build products, substitute pre-agreed progress evidence and test whether investor promises are real.",
+          "line_ranges": [
+            "12-31",
+            "47-59",
+            "65-67"
+          ]
+        },
+        {
+          "canonical_theme": "state-conditioned-spending-and-hiring",
+          "claim": "Correct overhiring or, for a lean team, pursue the fastest credible revenue with a bounded productized service.",
+          "line_ranges": [
+            "47-59"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "168",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Separate compounding growth from per-customer extraction; monetization binds when profitability cannot be reached before cash expires, after checking slow growth and excess spend as alternatives.",
+          "line_ranges": [
+            "18-24",
+            "38-38"
+          ]
+        },
+        {
+          "canonical_theme": "revenue-and-profitability",
+          "claim": "Separate compounding growth from per-customer extraction; monetization binds when profitability cannot be reached before cash expires, after checking slow growth and excess spend as alternatives.",
+          "line_ranges": [
+            "18-24",
+            "38-38"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "169",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Spending and hiring do not cause growth by themselves; resist overhiring before the engine is proven.",
+          "line_ranges": [
+            "32-44"
+          ]
+        },
+        {
+          "canonical_theme": "runway-survival-and-profitability",
+          "claim": "Forecast default-alive state, define plan B, and set the switch date before leverage disappears.",
+          "line_ranges": [
+            "12-30"
+          ]
+        },
+        {
+          "canonical_theme": "startup-survival-and-failure",
+          "claim": "Forecast default-alive state, define plan B, and set the switch date before leverage disappears. Distinguish usage growth from a viable economic path and test broken unit economics before the deadline.",
+          "line_ranges": [
+            "12-30",
+            "50-62"
+          ]
+        },
+        {
+          "canonical_theme": "state-conditioned-spending-and-hiring",
+          "claim": "Spending and hiring do not cause growth by themselves; resist overhiring before the engine is proven.",
+          "line_ranges": [
+            "32-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "195",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Run one final bounded attempt against a written founder-living revenue threshold; do not treat consumer debt as a recommended funding source.",
+          "line_ranges": [
+            "20-28",
+            "30-32"
+          ]
+        },
+        {
+          "canonical_theme": "revenue-and-profitability",
+          "claim": "Run one final bounded attempt against a written founder-living revenue threshold; do not treat consumer debt as a recommended funding source. Concentrate on the strongest user subset and demand weekly revenue evidence.",
+          "line_ranges": [
+            "20-28",
+            "30-32",
+            "34-38"
+          ]
+        },
+        {
+          "canonical_theme": "runway-survival-and-profitability",
+          "claim": "Run one final bounded attempt against a written founder-living revenue threshold; do not treat consumer debt as a recommended funding source.",
+          "line_ranges": [
+            "20-28",
+            "30-32"
+          ]
+        },
+        {
+          "canonical_theme": "startup-survival-and-failure",
+          "claim": "Run one final bounded attempt against a written founder-living revenue threshold; do not treat consumer debt as a recommended funding source. Concentrate on the strongest user subset and demand weekly revenue evidence.",
+          "line_ranges": [
+            "20-28",
+            "30-32",
+            "34-38"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "198",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "runway-survival-and-profitability",
+          "claim": "Strong growth did not justify fashion- or investor-driven overhiring, which delayed breakeven and prolonged financing dependence.",
+          "line_ranges": [
+            "158-160"
+          ]
+        },
+        {
+          "canonical_theme": "state-conditioned-spending-and-hiring",
+          "claim": "Strong growth did not justify fashion- or investor-driven overhiring, which delayed breakeven and prolonged financing dependence.",
+          "line_ranges": [
+            "158-160"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "managing-runway-and-survival",
+      "article_no": "201",
+      "reviewer": "runway-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "capital-efficiency-and-runway",
+          "claim": "Falling product and customer-acquisition costs increase technical leverage and reduce required investor capital. Capital is useful only when a credible mechanism can absorb it before the next round; distinguish elective acceleration from survival need.",
+          "line_ranges": [
+            "52-68",
+            "92-94"
+          ]
+        },
+        {
+          "canonical_theme": "startup-economics-and-risk",
+          "claim": "Falling product and customer-acquisition costs increase technical leverage and reduce required investor capital.",
+          "line_ranges": [
+            "52-68"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "skill_name": "managing-runway-and-survival",
+  "phase": "skill-forward",
+  "attempt": 1,
+  "frozen_before_response": true,
+  "freeze": {
+    "frozen_at_utc": "2026-07-16T04:01:03Z",
+    "canonical_cases_path": "evals/managing-runway-and-survival/cases.json",
+    "canonical_cases_sha256": "45f0b96edcfed3562ee2d6338db0bc1270d7c8a5a5dcdb8dc48e2f8a764739cd",
+    "case_count": 5,
+    "response_files_existed_at_freeze": false,
+    "skill_package_existed_at_freeze": true
+  },
+  "frozen_skill": {
+    "skill_path": "skills/managing-runway-and-survival/SKILL.md",
+    "skill_sha256": "4d900b3e4b60b8f75dc4ecddf0be016030227c3c204928b8869931f621809d0d",
+    "runtime_path": "skills/managing-runway-and-survival/references/runtime-contract.md",
+    "runtime_sha256": "f7dd9dcd99144b59a3191c1e2cf2104ce61e66bfd891add83cb911a2ddb52b48",
+    "metadata_path": "skills/managing-runway-and-survival/agents/openai.yaml",
+    "metadata_sha256": "95bd2782fd73dd729c8feacce4f5fc51c2970a71cd6b0adea30fcf51b31211ca",
+    "provenance_path": "skills/managing-runway-and-survival/references/provenance.md",
+    "provenance_sha256": "91a1a27ead817df32f99f0de6bd82d7adb26a6e4dd1d7be7205613ae7d3d9c72"
+  },
+  "prompt_only_aggregate_projection": {
+    "definition": "SHA-256 of the UTF-8 bytes emitted by jq -S -c '[.cases[].prompt]', including its final LF",
+    "sha256": "ac62d16a1873afa5480563d17b2064f8ccc3ad23a5ae75237936b068da9977d3"
+  },
+  "prompts": [
+    {"case_id":"scenario-01","path":"evals/managing-runway-and-survival/forward/prompts/scenario-01.txt","sha256":"4428b3a4a26e8ad2274df2d11fda19067380506c5039651de5329daa04da78c0","bytes":950,"words":150},
+    {"case_id":"scenario-02","path":"evals/managing-runway-and-survival/forward/prompts/scenario-02.txt","sha256":"ed9d545123c443a7022d9e7c89ee4139cdff79d670ae257061fafbb3b29ffe9f","bytes":897,"words":137},
+    {"case_id":"scenario-03","path":"evals/managing-runway-and-survival/forward/prompts/scenario-03.txt","sha256":"9097ad8c06e0be39101c4e27b0732ecbee85dc1346a31dbd9736c708199ecd4c","bytes":1038,"words":157},
+    {"case_id":"scenario-04","path":"evals/managing-runway-and-survival/forward/prompts/scenario-04.txt","sha256":"4775a484c1f431ffb8ef354a5e86f534e554216db482b07f65ebef3d226314ca","bytes":784,"words":123},
+    {"case_id":"scenario-05","path":"evals/managing-runway-and-survival/forward/prompts/scenario-05.txt","sha256":"eb030556cefdbe89cd33abb4fcd578e8adbcd041ad4611a6d02e2b118acdbe71","bytes":979,"words":145}
+  ],
+  "dispatch": {
+    "task_count": 5,
+    "tasks_unique": true,
+    "fresh_context_required": true,
+    "planned": [
+      {"case_id":"scenario-01","task_path":"/root/runway_forward_1","prompt_path":"evals/managing-runway-and-survival/forward/prompts/scenario-01.txt","response_path":"evals/managing-runway-and-survival/forward/scenario-01.md"},
+      {"case_id":"scenario-02","task_path":"/root/runway_forward_2","prompt_path":"evals/managing-runway-and-survival/forward/prompts/scenario-02.txt","response_path":"evals/managing-runway-and-survival/forward/scenario-02.md"},
+      {"case_id":"scenario-03","task_path":"/root/runway_forward_3","prompt_path":"evals/managing-runway-and-survival/forward/prompts/scenario-03.txt","response_path":"evals/managing-runway-and-survival/forward/scenario-03.md"},
+      {"case_id":"scenario-04","task_path":"/root/runway_forward_4","prompt_path":"evals/managing-runway-and-survival/forward/prompts/scenario-04.txt","response_path":"evals/managing-runway-and-survival/forward/scenario-04.md"},
+      {"case_id":"scenario-05","task_path":"/root/runway_forward_5","prompt_path":"evals/managing-runway-and-survival/forward/prompts/scenario-05.txt","response_path":"evals/managing-runway-and-survival/forward/scenario-05.md"}
+    ],
+    "context_contract": {
+      "allowed_input": "Exact assigned prompt text plus the frozen SKILL.md and runtime-contract.md",
+      "criteria_hidden": true,
+      "skill_files_allowed": true,
+      "source_evidence_allowed": false,
+      "prior_outputs_allowed": false,
+      "other_repository_files_allowed": false
+    },
+    "capture_contract": {
+      "generator_may_create_and_edit_only_its_own_staging_draft_before_finalization": true,
+      "staging_feedback_allowed": "mechanical wc -w only; no criteria, scorer, prior output, or quality feedback",
+      "finalization": "after staging draft is 900-1150 words, move it once to the canonical response path and do not read or modify it",
+      "first_canonical_file_is_frozen_response": true,
+      "response_word_target": "900-1150 words; hard maximum 1200 words",
+      "over_limit_staging_action": "compress the same draft without changing substantive decisions; do not resample or replace the generator",
+      "quality_resampling_allowed": false,
+      "retry_policy": "No retry or replacement for quality; retry only if no completion was produced because of a transport or tool failure"
+    },
+    "scoring_contract": {
+      "scorer_must_be_distinct_from_generators": true,
+      "scoring_may_start_only_after_all response hashes are frozen": true,
+      "baseline_case_maxima_must_be_reused": true
+    }
+  }
+}

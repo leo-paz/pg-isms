@@ -1172,3 +1172,53 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
 
 - Library progress after the required quality-contract milestone: `12/21` planned
   skills implemented; skill `13` is next. Blockers under PROJECT_BRIEF: none.
+
+## Checkpoint 4 skill 13 verified: `managing-runway-and-survival`
+
+- Source audit: three independent, non-overlapping batches covered all `32`
+  taxonomy-assigned essays with BM25 and semantic QMD retrieval plus complete local
+  source reads. The union retained `28` essays and exactly `85` essay-theme pairs,
+  removed false triggers `029`, `048`, `089`, and `117`, and relabeled `129` to
+  startup economics and risk. The executable article-scoped reconciliation preserves
+  prior cross-skill themes while reproducing the exact six-theme runway source set.
+- RED baseline: five fresh no-skill cases scored `5/25 = 0.20`. The cases cover an
+  assumed future round, a profitable company underinvesting in a proven engine, a
+  sparse-history capital-heavy regulated product, a healthy financing non-trigger,
+  and an acute cash/continuity state. A separate auditor rejudged every bit before
+  the documented mechanical validator wrappers were added.
+- Package: the official initializer created a `455`-word `SKILL.md`, progressive
+  runtime contract, `agents/openai.yaml`, `28`-record/`85`-pair evidence map,
+  generated provenance, and source re-audit. Final behavior hashes are SKILL
+  `4d900b3e4b60b8f75dc4ecddf0be016030227c3c204928b8869931f621809d0d`
+  and runtime
+  `f7dd9dcd99144b59a3191c1e2cf2104ce61e66bfd891add83cb911a2ddb52b48`.
+- GREEN forward: five distinct fresh-context agents received only one prompt plus
+  the frozen SKILL/runtime, with hidden criteria and length-only staging. Strict
+  scoring was `18/25 = 0.72`, a `+0.52` normalized improvement. An independent
+  auditor re-scored all `25` bits with zero changes and verified both forward hashes
+  and the baseline wrapper/body-hash chain.
+- A fresh package review found no Critical or Important issues and one accepted Minor:
+  some generated responses still omitted fields the runtime explicitly requires.
+  All branch-family criteria passed, and the retained misses are recorded rather than
+  inferred away. The same review confirmed no cross-skill provenance regression and
+  `ready_to_commit: true`.
+- Verification:
+
+  ```text
+  Skill is valid!
+  skill provenance check: essays=28 themes=6
+  all 13 implemented package provenance checks: passed
+  theme projection check: canonical=122 article_overrides=75 relevant_essays=209
+  taxonomy sync check: skills=21 themes=122 relevant_essays=209 essay_skill_pairings=827
+  taxonomy validation passed: corpus_files=223 classified=223 relevant_essays=209 uncovered_relevant=0 orphan_skills=0
+  baseline normalized_score=0.20; forward normalized_score=0.72; delta=0.52
+  python3 -m unittest discover -s tests -p 'test_*.py'
+  Ran 124 tests
+  OK
+  copyright scan: normalized 20/30/40-token corpus matches=0/0/0
+  git diff --check: passed
+  ```
+
+- Library progress after the required quality-contract milestone: `13/21` planned
+  skills implemented; skill `14` is next: `raising-and-governing-capital`.
+  Blockers under PROJECT_BRIEF: none.

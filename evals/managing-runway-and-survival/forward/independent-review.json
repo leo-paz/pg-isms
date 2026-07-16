@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "skill_name": "managing-runway-and-survival",
+  "phase": "skill-forward",
+  "reviewer_id": "runway-forward-auditor-001",
+  "reviewed_at_utc": "2026-07-16T04:18:08Z",
+  "review_scope": {
+    "forward_cases_criteria_responses_plan_attestation_scores_and_scorecards_read": true,
+    "baseline_summary_and_strict_score_read": true,
+    "criterion_judgments_made_from_cases_and_frozen_forward_responses": true,
+    "existing_artifacts_or_responses_edited": false
+  },
+  "integrity": {
+    "verdict": "pass",
+    "forward_run": {
+      "verdict": "pass",
+      "hashes": {
+        "cases_sha256": "45f0b96edcfed3562ee2d6338db0bc1270d7c8a5a5dcdb8dc48e2f8a764739cd",
+        "prompt_only_aggregate_sha256": "ac62d16a1873afa5480563d17b2064f8ccc3ad23a5ae75237936b068da9977d3",
+        "generation_plan_sha256": "f7ab0bd079a0b9e8316e7fcf7c1cf2eaf958f635087f2e4f08c381acc4c97bd8",
+        "generation_attestation_sha256": "e212fbf86533c238e1f80706193b3107d51c802c63364e0b943ae3e2f48fa5c9",
+        "skill_sha256": "4d900b3e4b60b8f75dc4ecddf0be016030227c3c204928b8869931f621809d0d",
+        "runtime_sha256": "f7dd9dcd99144b59a3191c1e2cf2104ce61e66bfd891add83cb911a2ddb52b48",
+        "metadata_sha256": "95bd2782fd73dd729c8feacce4f5fc51c2970a71cd6b0adea30fcf51b31211ca",
+        "provenance_sha256": "91a1a27ead817df32f99f0de6bd82d7adb26a6e4dd1d7be7205613ae7d3d9c72"
+      },
+      "checks": {
+        "declared_forward_input_hashes_match_current_bytes": true,
+        "all_five_prompt_projections_exactly_match_cases_json_prompts": true,
+        "all_prompt_hashes_byte_counts_and_word_counts_match_generation_plan": true,
+        "all_response_hashes_byte_counts_and_word_counts_match_attestation": true,
+        "all_responses_within_1200_word_cap": true,
+        "five_case_ids_prompt_paths_response_paths_and_generator_tasks_are_one_to_one": true,
+        "prompt_hashes_response_hashes_and_generator_tasks_are_unique": true,
+        "plan_precedes_all_responses_and_attestation_precedes_scoring": true,
+        "scorer_is_distinct_from_all_five_generators": true,
+        "scorecards_strict_review_and_strict_score_are_vector_consistent": true,
+        "staging_directory_absent": true
+      },
+      "response_words": {
+        "scenario-01": 1090,
+        "scenario-02": 1132,
+        "scenario-03": 1148,
+        "scenario-04": 1149,
+        "scenario-05": 1142
+      },
+      "response_hashes": {
+        "scenario-01": "0231611615ad003b30e8d0b88e29ac0a07c3b607f77bf9c3d6ef3c78245c98a4",
+        "scenario-02": "3fae01f710fff29348698a56d90bd94b0528b2ad2df59ee880db4df1cc40c97c",
+        "scenario-03": "33a1d1fafd81a19b5607c6b70892cebfa8b069b222d8d1b4346439b5a6eb616b",
+        "scenario-04": "f495601b26aa247e6d0b34e6e0529a6a03c0504e866ca1a08d8bc6618453b115",
+        "scenario-05": "1b60e6836fc407cb4d9e8302313d658ea80f2b8aae8746b8e8a1be3520fcd0d8"
+      },
+      "chronology": {
+        "prompt_birth_epoch": 1784174459,
+        "generation_plan_birth_epoch": 1784174494,
+        "response_birth_epoch_range": [1784174613, 1784174759],
+        "response_latest_mtime_epoch": 1784174775,
+        "generation_attestation_birth_epoch": 1784174806,
+        "strict_score_birth_epoch": 1784175121,
+        "scorecard_birth_epoch": 1784175166
+      },
+      "criteria_hidden_attestation": {
+        "generation_plan_declares_hidden": true,
+        "generation_attestation_declares_hidden": true,
+        "strict_score_records_hidden": true,
+        "prompt_files_are_prompt_only_exact_projections": true,
+        "fresh_context_and_unique_generator_assignments_are_attested_and_structurally_corroborated": true,
+        "limit": "Hidden criteria, one-generator-per-case, move-once finalization, and no quality resampling are generation attestations; exact prompt projection, unique tasks, frozen hashes, absent staging, and later scoring corroborate but cannot directly reveal unseen generator context."
+      }
+    },
+    "baseline_reference": {
+      "verdict": "pass",
+      "manifest_sha256": "8f245c9eb599d4cee355288bc128dd98b2f157360f60341d4b007cc89d5dce15",
+      "finding": "baseline/manifest.json documents a repository-validator wrapper applied after scoring and independent audit. Each current file equals its frozen response body followed by exactly one LF plus the documented Case ID/Reviewer ID block. Current wrapped hashes match manifest.response_hashes; stripping only that exact suffix reproduces manifest.response_body_hashes, the generation-attestation hashes, byte counts, and word counts for all five cases.",
+      "mechanical_wrapper_applied_after_independent_audit": true,
+      "independent_review_birth_epoch": 1784173525,
+      "baseline_response_mtime_epoch": 1784173601,
+      "summary_birth_epoch": 1784173644,
+      "responses": [
+        {
+          "case_id": "scenario-01",
+          "response_body_sha256": "c8e1743cca3d7c78f84cc25a1f1b4093d4015773285e4f0e6e50f6e7f2bbb226",
+          "wrapped_file_sha256": "77b72e3b7563adfe1ce28b52bc083b650c80236261475a29a2ef2a5257a2456c",
+          "response_body_words": 1032,
+          "wrapped_file_words": 1038,
+          "response_body_bytes": 6852,
+          "wrapped_file_bytes": 6907,
+          "exact_suffix_strip_matches_attestation": true
+        },
+        {
+          "case_id": "scenario-02",
+          "response_body_sha256": "c784c30954a0e10775b68d20ff2b45cf6c95a70648eccfea9385989289ca7892",
+          "wrapped_file_sha256": "888b1408d26d8c107b9bc34868550386ab5b71daa81bcf6be6cc48cdbdebd506",
+          "response_body_words": 974,
+          "wrapped_file_words": 980,
+          "response_body_bytes": 6421,
+          "wrapped_file_bytes": 6476,
+          "exact_suffix_strip_matches_attestation": true
+        },
+        {
+          "case_id": "scenario-03",
+          "response_body_sha256": "0215b78ec4044e1f6c19d8ca7ec8201208655c8491d4e826468ce27a4fef76d4",
+          "wrapped_file_sha256": "19555233fd6b379e07737322824b8e77d664a8e242923e9b7b201cfcacf58327",
+          "response_body_words": 946,
+          "wrapped_file_words": 952,
+          "response_body_bytes": 6327,
+          "wrapped_file_bytes": 6382,
+          "exact_suffix_strip_matches_attestation": true
+        },
+        {
+          "case_id": "scenario-04",
+          "response_body_sha256": "9b819fbae333f85b6ee487f0b0b5a3b6af07917a7f55b68a5156e461633462b8",
+          "wrapped_file_sha256": "ec25a5eaa5345b0c024886779213c5af1f55b1604921d83551393ef8b3a9d829",
+          "response_body_words": 994,
+          "wrapped_file_words": 1000,
+          "response_body_bytes": 6639,
+          "wrapped_file_bytes": 6694,
+          "exact_suffix_strip_matches_attestation": true
+        },
+        {
+          "case_id": "scenario-05",
+          "response_body_sha256": "626e645044b600d9e320272e990115c1037f53896e734bad1160aa3f90e9edad",
+          "wrapped_file_sha256": "3eae677a8c143a69282bec3178185f8cfbcd4c637d32254d232f293f8235aa26",
+          "response_body_words": 1050,
+          "wrapped_file_words": 1056,
+          "response_body_bytes": 7124,
+          "wrapped_file_bytes": 7179,
+          "exact_suffix_strip_matches_attestation": true
+        }
+      ],
+      "score_record_consistency": {
+        "summary_strict_score_and_prior_independent_review_all_report_5_of_25": true,
+        "their_vectors_are_identical": true,
+        "response_bodies_and_wrapped_files_remain_within_1200_words": true,
+        "all_wrapped_file_hashes_match_manifest": true,
+        "all_exactly_stripped_body_hashes_counts_and_bytes_match_manifest_and_attestation": true,
+        "response_body_bytes_unchanged": true
+      }
+    }
+  },
+  "scoring_method": {
+    "scale": "binary",
+    "conjunctive": true,
+    "rule": "Award 1 only when every clause is explicit in the response; any missing clause yields 0 and no omitted detail is inferred."
+  },
+  "cases": [
+    {
+      "case_id": "scenario-01",
+      "audited_vector": [1, 1, 0, 1, 1],
+      "earned": 4,
+      "criteria": [
+        {
+          "criterion_index": 1,
+          "score": 1,
+          "basis": "Lines 5-7 make managing-runway-and-survival primary and record default-dead; line 18 assigns the unsigned extension zero cash; lines 7, 51-52, and 61 establish the cash envelope, dated switch, bounded secondary fundraising, and later capital handoff."
+        },
+        {
+          "criterion_index": 2,
+          "score": 1,
+          "basis": "Lines 13-18 record every supplied operating input, lines 31-38 calculate 6.62 months and the shorter post-hire case, and lines 23-27 plus 31-40 label timing and projections as unknowns, assumptions, or sensitivities."
+        },
+        {
+          "criterion_index": 3,
+          "score": 0,
+          "basis": "Lines 23-27 and 33-40 supply complete unknown controls and dated scenarios, but line 40's equilibrium/default-alive test has no decision date."
+        },
+        {
+          "criterion_index": 4,
+          "score": 1,
+          "basis": "Lines 47-52 and 61-63 combine commercial-return and downside-absorption gates for hiring, sequence renewals and expansion before commissions, protect customer/product obligations, and give every listed action the required owner/date/effect-or-cap/safeguard/review tuple."
+        },
+        {
+          "criterion_index": 5,
+          "score": 1,
+          "basis": "Lines 56-63 use ordered precedence for the four named branches and supply thresholds, owners, dates, routes/handoffs, safeguards, and options; lines 52 and 60 require qualified owners before irreversible changes or missed obligations."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "audited_vector": [1, 0, 0, 0, 1],
+      "earned": 2,
+      "criteria": [
+        {
+          "criterion_index": 1,
+          "score": 1,
+          "basis": "Lines 7, 21, 32, 34, and 49-51 diagnose default alive from ten months of positive cash generation, keep financing at zero, reject a crisis/cash-hoarding response, approve only a capped test, and keep hiring conditional."
+        },
+        {
+          "criterion_index": 2,
+          "score": 0,
+          "basis": "Lines 13-21 use all observations, but sales capacity has no complete unknown-control row and cohort comparability lacks its own owner/artifact/date/threshold/effect tuple."
+        },
+        {
+          "criterion_index": 3,
+          "score": 0,
+          "basis": "The capped reversible test, floor, cadence, falsifiers, and separate hire gate are present, but no affected lead/customer segment or explicit rival causal explanation is stated."
+        },
+        {
+          "criterion_index": 4,
+          "score": 0,
+          "basis": "The proven engine, marginal step, support/product quality, and outcome/customer/cash measures are explicit, but adapt gives only an inside-$36,000 ceiling and hold says current committed level rather than exact spend at every review."
+        },
+        {
+          "criterion_index": 5,
+          "score": 1,
+          "basis": "Lines 55-64 make stop-expansion, adapt, expand, and hold disjoint by ordered precedence, with observable thresholds, owners, dates, routes, and preserved options; stop returns to $18,000 and no unsupported crisis or financing fact is added."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "audited_vector": [1, 1, 0, 0, 1],
+      "earned": 3,
+      "criteria": [
+        {
+          "criterion_index": 1,
+          "score": 1,
+          "basis": "Lines 5-7 reject default alive from two pre-revenue months and keep survival/scenario planning primary; lines 18 and 20 give the nonbinding letters and unsigned Series A zero cash value."
+        },
+        {
+          "criterion_index": 2,
+          "score": 1,
+          "basis": "Lines 13-21 and 27-32 record spend, runway inputs, study/clearance ranges, tooling loss, obligations, and timing/cost unknowns; lines 36-45 give the 5.45-month sensitivity and dated downside/base/upside consequences."
+        },
+        {
+          "criterion_index": 3,
+          "score": 0,
+          "basis": "Clinical, regulatory, commercial, and financing controls are staged, but no distinct prototype/device technical-readiness milestone has a qualified owner, artifact, due date, and observable threshold."
+        },
+        {
+          "criterion_index": 4,
+          "score": 0,
+          "basis": "Tooling and hires are frozen and most alternatives/safeguards are covered, but the hire gate does not test milestone capacity/absorbability and no partner option is compared."
+        },
+        {
+          "criterion_index": 5,
+          "score": 1,
+          "basis": "Lines 62-69 make all four named branches exhaustive and non-overlapping with dates, owners, cash consequences, options, and handoffs; the financed case routes to capital only after the $2.230 million survival gate."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "audited_vector": [1, 1, 0, 1, 1],
+      "earned": 4,
+      "criteria": [
+        {
+          "criterion_index": 1,
+          "score": 1,
+          "basis": "Lines 3-5 explicitly route the default-alive case to raising-and-governing-capital and retain survival only as a two-business-day guardrail; lines 30 and 40 bound static time-to-zero as a sensitivity."
+        },
+        {
+          "criterion_index": 2,
+          "score": 1,
+          "basis": "Lines 11-17 record all supplied observations and line 30 calculates $120,000 net burn and 26.7 months without using that static result as default-alive proof."
+        },
+        {
+          "criterion_index": 3,
+          "score": 0,
+          "basis": "Forecast sensitivity, collection timing, and financing/process budget have complete controls, but enterprise-channel saturation is never given an owner, artifact, due date, observable threshold, and decision effect."
+        },
+        {
+          "criterion_index": 4,
+          "score": 1,
+          "basis": "Lines 50-54 state the $1.50 million floor, $75,000 process cap, 0.75-founder-FTE distraction limit, safeguards, and September 30 switch; lines 5 and 46-56 route financing design rather than answering it."
+        },
+        {
+          "criterion_index": 5,
+          "score": 1,
+          "basis": "Lines 42-56 contain the exact route-away identifier, owner and handoff date, runway facts, guardrails, unknown controls, preserved self-funding/later-raise option, and switch-back predicates."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "audited_vector": [1, 1, 1, 1, 1],
+      "earned": 5,
+      "criteria": [
+        {
+          "criterion_index": 1,
+          "score": 1,
+          "basis": "Lines 3-5 make acute survival primary and protect dispatch; lines 12-17 treat obligations as binding, invoices as due but uncleared with an explicit split assumption, and unsigned pipeline as zero cash."
+        },
+        {
+          "criterion_index": 2,
+          "score": 1,
+          "basis": "Lines 11-17 separately record every cash component, while lines 22 and 24-35 require the dated 13-week file, daily/weekly reconciliation, cash consequences, and explicit timing/overlap controls."
+        },
+        {
+          "criterion_index": 3,
+          "score": 1,
+          "basis": "Lines 39-47 sequence all required actions and every row supplies an owner, deadline, effect or cap, artifact, safeguard, and review/threshold while protecting zero stranded loads and dispatch capacity."
+        },
+        {
+          "criterion_index": 4,
+          "score": 1,
+          "basis": "Lines 20-22 and 41-47 require actual named qualified adviser classes and written clearance before deferral, workforce, creditor, contract, or wind-down action, without inventing priority, collection certainty, financing, or customer facts."
+        },
+        {
+          "criterion_index": 5,
+          "score": 1,
+          "basis": "Lines 49-58 use ordered precedence for the four named dated branches and provide reconciled cash thresholds, owners, routes, options, dispatch/service handoffs, and continuing unknown controls through September 30."
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "audited_vector": [1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1],
+    "audited_vector_grouped": "11011 10001 11001 11011 11111",
+    "earned": 18,
+    "possible": 25,
+    "normalized": 0.72,
+    "percent": 72.0,
+    "case_earned": {
+      "scenario-01": 4,
+      "scenario-02": 2,
+      "scenario-03": 3,
+      "scenario-04": 4,
+      "scenario-05": 5
+    }
+  },
+  "comparison_to_strict_score": {
+    "prior_vector": [1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1],
+    "changed_bit_count": 0,
+    "changed_bits": [],
+    "verdict": "exact score agreement"
+  },
+  "improvement": {
+    "baseline_recorded_earned": 5,
+    "baseline_recorded_possible": 25,
+    "baseline_recorded_normalized": 0.2,
+    "forward_audited_normalized": 0.72,
+    "diagnostic_delta": 0.52,
+    "minimum_required_delta": 0.1,
+    "meets_minimum_on_recorded_scores": true,
+    "caveat": null
+  },
+  "forward_valid": true,
+  "forward_valid_basis": "The forward inputs and all five responses pass hash, count, word-cap, task-separation, chronology, and attestation checks; the documented baseline validator wrappers reproduce the frozen response bodies exactly; and the independent 18/25 score improves on the validated 5/25 baseline by +0.52, exceeding the +0.10 requirement.",
+  "ready_to_freeze": true,
+  "readiness_basis": "Integrity passes for the forward run and the documented baseline body/wrapper representation, the independent rescore changes zero bits, and the validated normalized improvement is +0.52."
+}

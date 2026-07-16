@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "skill_name": "managing-runway-and-survival",
+  "phase": "forward",
+  "reviewer_id": "runway-forward-001",
+  "canonical_agent_task": "/root/runway_forward_1",
+  "generator_task_ids": [
+    "/root/runway_forward_1",
+    "/root/runway_forward_2",
+    "/root/runway_forward_3",
+    "/root/runway_forward_4",
+    "/root/runway_forward_5"
+  ],
+  "generated_at": "2026-07-16T04:22:19Z",
+  "model_identity": "Codex (GPT-5)",
+  "dispatch_prompt": "Apply the frozen managing-runway-and-survival skill to one exact prompt in fresh context with hidden criteria and length-only staging before canonical freeze.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "4d900b3e4b60b8f75dc4ecddf0be016030227c3c204928b8869931f621809d0d",
+    "runtime_sha256": "f7dd9dcd99144b59a3191c1e2cf2104ce61e66bfd891add83cb911a2ddb52b48"
+  },
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "scenario-01": "db9eefdbb91a389a5fb01f15a9e30599cf6d57290193f7e1ef1d11130a79eaf5",
+    "scenario-02": "647beeb6c44637be283ebb9dee21b632ccfc6b9212ac88a6888df3c50220dab4",
+    "scenario-03": "bc0799f96ddca971d8f9280d0eb9e9b7c41076ee899cd9d17cfd51c990b12093",
+    "scenario-04": "f5e526fc2f8c39af3f48bc4ff88947edd974ec3dfb0cd380ce5ad34e63239a9c",
+    "scenario-05": "49f3c6b8e2a460120e5d6a6eb6a1c0b4879955e94c5fca2e624cd880e25dd173"
+  },
+  "response_body_hashes": {
+    "scenario-01": "0231611615ad003b30e8d0b88e29ac0a07c3b607f77bf9c3d6ef3c78245c98a4",
+    "scenario-02": "3fae01f710fff29348698a56d90bd94b0528b2ad2df59ee880db4df1cc40c97c",
+    "scenario-03": "33a1d1fafd81a19b5607c6b70892cebfa8b069b222d8d1b4346439b5a6eb616b",
+    "scenario-04": "f495601b26aa247e6d0b34e6e0529a6a03c0504e866ca1a08d8bc6618453b115",
+    "scenario-05": "1b60e6836fc407cb4d9e8302313d658ea80f2b8aae8746b8e8a1be3520fcd0d8"
+  },
+  "mechanical_wrapper": {
+    "purpose": "repository-validator metadata only",
+    "location": "appended after response body",
+    "applied_after_scoring_and_independent_audit": true,
+    "rendered_block": "Case ID: {case_id}\nReviewer ID: runway-forward-001\n",
+    "body_bytes_unchanged": true
+  }
+}

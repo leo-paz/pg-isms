@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "skill_name": "managing-runway-and-survival",
+  "phase": "skill-forward",
+  "attempt": 1,
+  "attested_at_utc": "2026-07-16T04:06:30Z",
+  "frozen_before_scoring": true,
+  "frozen_inputs": {
+    "generation_plan_sha256": "f7ab0bd079a0b9e8316e7fcf7c1cf2eaf958f635087f2e4f08c381acc4c97bd8",
+    "cases_sha256": "45f0b96edcfed3562ee2d6338db0bc1270d7c8a5a5dcdb8dc48e2f8a764739cd",
+    "skill_sha256": "4d900b3e4b60b8f75dc4ecddf0be016030227c3c204928b8869931f621809d0d",
+    "runtime_sha256": "f7dd9dcd99144b59a3191c1e2cf2104ce61e66bfd891add83cb911a2ddb52b48"
+  },
+  "generation_conditions": {
+    "criteria_hidden": true,
+    "fresh_context": true,
+    "one_generator_per_case": true,
+    "length_only_staging": true,
+    "canonical_file_moved_once_then_frozen": true,
+    "quality_resampling": false,
+    "word_maximum": 1200
+  },
+  "responses": [
+    {"case_id":"scenario-01","task_id":"/root/runway_forward_1","words":1090,"bytes":7319,"birth":1784174617,"mtime":1784174648,"sha256":"0231611615ad003b30e8d0b88e29ac0a07c3b607f77bf9c3d6ef3c78245c98a4"},
+    {"case_id":"scenario-02","task_id":"/root/runway_forward_2","words":1132,"bytes":7454,"birth":1784174613,"mtime":1784174637,"sha256":"3fae01f710fff29348698a56d90bd94b0528b2ad2df59ee880db4df1cc40c97c"},
+    {"case_id":"scenario-03","task_id":"/root/runway_forward_3","words":1148,"bytes":7337,"birth":1784174623,"mtime":1784174652,"sha256":"33a1d1fafd81a19b5607c6b70892cebfa8b069b222d8d1b4346439b5a6eb616b"},
+    {"case_id":"scenario-04","task_id":"/root/runway_forward_4","words":1149,"bytes":7701,"birth":1784174759,"mtime":1784174775,"sha256":"f495601b26aa247e6d0b34e6e0529a6a03c0504e866ca1a08d8bc6618453b115"},
+    {"case_id":"scenario-05","task_id":"/root/runway_forward_5","words":1142,"bytes":7803,"birth":1784174739,"mtime":1784174758,"sha256":"1b60e6836fc407cb4d9e8302313d658ea80f2b8aae8746b8e8a1be3520fcd0d8"}
+  ],
+  "verification": {
+    "response_count": 5,
+    "unique_tasks": 5,
+    "unique_hashes": 5,
+    "all_within_word_limit": true,
+    "staging_empty": true,
+    "integrity_result": "pass"
+  },
+  "scoring_started": false
+}

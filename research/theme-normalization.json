@@ -9,7 +9,8 @@
     "Checkpoint 3 semantic routing review split broad equity, adversarial, network-effect, and policy labels by actor or mechanism and added mappings for five reopened essays.",
     "Skill 9 source review added an article-scoped override so essay 084's YC process standardization evidence remains market-structure evidence rather than being misrouted as startup platform strategy.",
     "Skill 10 source and overlap review added article-scoped cofounder mappings for essays 039, 123, and 134 while preserving founder evaluation and avoiding a global remap of broader founder-selection or durability labels.",
-    "Skill 12 source union removed presentation-only message focus from operating priority, added article-scoped focus and morale evidence for essays 116 and 213, preserved essay 116's financing-terms coverage through its capital-light applicability label because each mapping permits at most three targets, retained essay 213's decision-quality coverage through its problem-prioritization label, and added narrow overrides that keep essays 031, 091, 111, 137, and 150 on their approved non-operating routes."
+    "Skill 12 source union removed presentation-only message focus from operating priority, added article-scoped focus and morale evidence for essays 116 and 213, preserved essay 116's financing-terms coverage through its capital-light applicability label because each mapping permits at most three targets, retained essay 213's decision-quality coverage through its problem-prioritization label, and added narrow overrides that keep essays 031, 091, 111, 137, and 150 on their approved non-operating routes.",
+    "Skill 13 source union added article-scoped runway and survival assignments, removed four false workflow triggers, and relabeled essay 129 using 45 raw-theme overrides proven to yield the independently reviewed 85-pair source set."
   ],
   "canonical_themes": [
     {
@@ -864,7 +865,17 @@
       "canonical_themes": [
         "startup-economics-and-risk"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "049",
+          "canonical_themes": [
+            "startup-economics-and-risk",
+            "startup-survival-and-failure"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "asymmetric-error design",
@@ -963,7 +974,18 @@
         "risk-and-error-management",
         "strategic-optionality"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "076",
+          "canonical_themes": [
+            "risk-and-error-management",
+            "startup-survival-and-failure",
+            "strategic-optionality"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "batch experiments",
@@ -1067,7 +1089,18 @@
         "prioritization-and-focus",
         "stage-and-state-conditions"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "077",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "prioritization-and-focus",
+            "state-conditioned-spending-and-hiring"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "bottom-up abstractions",
@@ -1146,7 +1179,18 @@
         "runway-survival-and-profitability",
         "state-conditioned-spending-and-hiring"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "159",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "runway-survival-and-profitability",
+            "state-conditioned-spending-and-hiring"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "business model decomposition",
@@ -1185,7 +1229,18 @@
         "capital-efficiency-and-runway",
         "market-structure-and-cost-curves"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "040",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "market-structure-and-cost-curves",
+            "state-conditioned-spending-and-hiring"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "capital efficiency",
@@ -1202,6 +1257,14 @@
             "small-team-advantage"
           ],
           "reviewer": "organization-source-union-remediation"
+        },
+        {
+          "article_no": "052",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "state-conditioned-spending-and-hiring"
+          ],
+          "reviewer": "runway-source-union"
         }
       ]
     },
@@ -1219,7 +1282,18 @@
         "financing-terms-equity-and-control",
         "runway-survival-and-profitability"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "156",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "runway-survival-and-profitability",
+            "state-conditioned-spending-and-hiring"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "capital-induced isolation",
@@ -1227,7 +1301,16 @@
         "state-conditioned-spending-and-hiring",
         "user-demand-discovery-and-validation"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "117",
+          "canonical_themes": [
+            "user-demand-discovery-and-validation"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "capital-light applicability",
@@ -1254,7 +1337,17 @@
         "runway-survival-and-profitability",
         "venture-type-and-capital-model"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "129",
+          "canonical_themes": [
+            "startup-economics-and-risk",
+            "venture-type-and-capital-model"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "career experimentation",
@@ -1736,7 +1829,17 @@
       "canonical_themes": [
         "release-and-deployment"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "011",
+          "canonical_themes": [
+            "release-and-deployment",
+            "risk-and-error-management"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "continuous operational ownership",
@@ -2043,7 +2146,18 @@
         "deal-mechanics-and-terms",
         "risk-and-error-management"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "105",
+          "canonical_themes": [
+            "deal-mechanics-and-terms",
+            "risk-and-error-management",
+            "startup-survival-and-failure"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "decision accountability",
@@ -2110,7 +2224,18 @@
         "runway-survival-and-profitability",
         "state-conditioned-spending-and-hiring"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "169",
+          "canonical_themes": [
+            "runway-survival-and-profitability",
+            "startup-survival-and-failure",
+            "state-conditioned-spending-and-hiring"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "defensive incumbency",
@@ -2934,7 +3059,18 @@
         "funding-stage-fit",
         "stage-and-state-conditions"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "098",
+          "canonical_themes": [
+            "deal-mechanics-and-terms",
+            "funding-stage-fit",
+            "state-conditioned-spending-and-hiring"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "focus and morale",
@@ -3296,7 +3432,17 @@
       "canonical_themes": [
         "runway-survival-and-profitability"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "116",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "runway-survival-and-profitability"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "founder selection",
@@ -3535,7 +3681,27 @@
         "capital-efficiency-and-runway",
         "strategic-optionality"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "098",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "revenue-and-profitability",
+            "runway-survival-and-profitability"
+          ],
+          "reviewer": "runway-source-union"
+        },
+        {
+          "article_no": "102",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "startup-economics-and-risk",
+            "strategic-optionality"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "funding market shifts",
@@ -3662,14 +3828,36 @@
         "fundraising-strategy-and-process",
         "stage-and-state-conditions"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "053",
+          "canonical_themes": [
+            "funding-stage-fit",
+            "fundraising-strategy-and-process",
+            "state-conditioned-spending-and-hiring"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "fundraising strategy",
       "canonical_themes": [
         "fundraising-strategy-and-process"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "039",
+          "canonical_themes": [
+            "fundraising-strategy-and-process",
+            "revenue-and-profitability",
+            "state-conditioned-spending-and-hiring"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "fundraising survival",
@@ -3677,7 +3865,18 @@
         "fundraising-strategy-and-process",
         "motivation-and-morale"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "098",
+          "canonical_themes": [
+            "fundraising-strategy-and-process",
+            "motivation-and-morale",
+            "startup-survival-and-failure"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "fundraising tradeoffs",
@@ -3849,7 +4048,16 @@
         "career-choice-and-optionality",
         "startup-economics-and-risk"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "048",
+          "canonical_themes": [
+            "career-choice-and-optionality"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "high-talent early teams",
@@ -3874,7 +4082,18 @@
         "runway-survival-and-profitability",
         "state-conditioned-spending-and-hiring"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "169",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "runway-survival-and-profitability",
+            "state-conditioned-spending-and-hiring"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "historical adversarial-incentive hypothesis",
@@ -3908,7 +4127,18 @@
         "risk-and-error-management",
         "stage-and-state-conditions"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "011",
+          "canonical_themes": [
+            "customer-service-and-support",
+            "runway-survival-and-profitability",
+            "startup-survival-and-failure"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "hottest market subset",
@@ -4548,7 +4778,17 @@
         "hiring-and-talent",
         "stage-and-state-conditions"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "089",
+          "canonical_themes": [
+            "hiring-and-talent",
+            "stage-and-state-conditions"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "learning",
@@ -4665,7 +4905,18 @@
       "canonical_themes": [
         "capital-efficiency-and-runway"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "068",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "startup-survival-and-failure",
+            "state-conditioned-spending-and-hiring"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "low-commitment prototypes",
@@ -4705,7 +4956,18 @@
         "activation-and-conversion",
         "sales-and-monetization"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "011",
+          "canonical_themes": [
+            "activation-and-conversion",
+            "revenue-and-profitability",
+            "sales-and-monetization"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "macroeconomic uncertainty",
@@ -4714,7 +4976,18 @@
         "risk-and-error-management",
         "stage-and-state-conditions"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "099",
+          "canonical_themes": [
+            "market-timing-and-transitions",
+            "risk-and-error-management",
+            "startup-economics-and-risk"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "maker assessment",
@@ -5060,14 +5333,35 @@
       "canonical_themes": [
         "growth-and-monetization-tradeoffs"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "116",
+          "canonical_themes": [
+            "growth-and-monetization-tradeoffs",
+            "revenue-and-profitability",
+            "startup-survival-and-failure"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "monetization tradeoffs",
       "canonical_themes": [
         "growth-and-monetization-tradeoffs"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "168",
+          "canonical_themes": [
+            "growth-and-monetization-tradeoffs",
+            "revenue-and-profitability"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "morale",
@@ -5608,7 +5902,18 @@
         "founder-user-product-and-domain-fit",
         "persistence-and-adaptation"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "195",
+          "canonical_themes": [
+            "founder-user-product-and-domain-fit",
+            "persistence-and-adaptation",
+            "startup-survival-and-failure"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "personal priorities",
@@ -5983,7 +6288,18 @@
         "revenue-and-profitability",
         "strategic-optionality"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "097",
+          "canonical_themes": [
+            "revenue-and-profitability",
+            "runway-survival-and-profitability",
+            "strategic-optionality"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "program incentives",
@@ -6135,7 +6451,36 @@
         "revenue-and-profitability",
         "stage-and-state-conditions"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "102",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "revenue-and-profitability",
+            "runway-survival-and-profitability"
+          ],
+          "reviewer": "runway-source-union"
+        },
+        {
+          "article_no": "105",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "revenue-and-profitability",
+            "runway-survival-and-profitability"
+          ],
+          "reviewer": "runway-source-union"
+        },
+        {
+          "article_no": "195",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "revenue-and-profitability",
+            "runway-survival-and-profitability"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "randomness-aware attribution",
@@ -6384,7 +6729,18 @@
         "growth-and-monetization-tradeoffs",
         "runway-survival-and-profitability"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "159",
+          "canonical_themes": [
+            "growth-and-monetization-tradeoffs",
+            "revenue-and-profitability",
+            "startup-survival-and-failure"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "revenue timing",
@@ -6445,7 +6801,17 @@
       "canonical_themes": [
         "financing-terms-equity-and-control"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "201",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "financing-terms-equity-and-control"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "round structure",
@@ -6459,7 +6825,17 @@
       "canonical_themes": [
         "capital-efficiency-and-runway"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "102",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "state-conditioned-spending-and-hiring"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "runway and funding",
@@ -6467,14 +6843,35 @@
         "capital-efficiency-and-runway",
         "fundraising-strategy-and-process"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "069",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "runway-survival-and-profitability",
+            "state-conditioned-spending-and-hiring"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "runway and profitability",
       "canonical_themes": [
         "runway-survival-and-profitability"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "156",
+          "canonical_themes": [
+            "revenue-and-profitability",
+            "runway-survival-and-profitability"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "runway crisis",
@@ -6490,7 +6887,18 @@
         "capital-efficiency-and-runway",
         "stage-and-state-conditions"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "099",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "startup-survival-and-failure",
+            "state-conditioned-spending-and-hiring"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "runway forecasting",
@@ -6505,7 +6913,18 @@
       "canonical_themes": [
         "capital-efficiency-and-runway"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "053",
+          "canonical_themes": [
+            "capital-efficiency-and-runway",
+            "runway-survival-and-profitability",
+            "startup-survival-and-failure"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "safe idea development",
@@ -6993,7 +7412,18 @@
         "risk-and-error-management",
         "startup-survival-and-failure"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "069",
+          "canonical_themes": [
+            "revenue-and-profitability",
+            "risk-and-error-management",
+            "startup-survival-and-failure"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "startup formation policy",
@@ -7077,7 +7507,18 @@
         "risk-and-error-management",
         "startup-economics-and-risk"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "028",
+          "canonical_themes": [
+            "risk-and-error-management",
+            "startup-economics-and-risk",
+            "startup-survival-and-failure"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "startup preparation",
@@ -7544,7 +7985,16 @@
         "startup-economics-and-risk",
         "technical-leverage-and-productivity"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "029",
+          "canonical_themes": [
+            "technical-leverage-and-productivity"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "technology addiction",
@@ -8006,7 +8456,18 @@
         "product-iteration-and-redesign",
         "user-feedback-and-observation"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "039",
+          "canonical_themes": [
+            "product-iteration-and-redesign",
+            "startup-survival-and-failure",
+            "user-feedback-and-observation"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "user-first decisions",
@@ -8053,7 +8514,18 @@
         "risk-and-error-management",
         "valuation"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "040",
+          "canonical_themes": [
+            "risk-and-error-management",
+            "startup-economics-and-risk",
+            "valuation"
+          ],
+          "reviewer": "runway-source-union"
+        }
+      ]
     },
     {
       "raw_theme": "valuation sequencing",

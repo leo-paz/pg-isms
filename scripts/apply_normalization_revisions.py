@@ -30,10 +30,20 @@ def revised(normalization: Mapping[str, Any], revision: Mapping[str, Any]) -> Di
     additions = revision.get("add_canonical_themes")
     replacements = revision.get("replace_mappings")
     override_replacements = revision.get("replace_article_overrides")
+    override_removals = revision.get("remove_article_overrides", [])
+    override_additions = revision.get("add_article_overrides", [])
     new_mappings = revision.get("add_mappings")
     if not all(
         isinstance(value, list)
-        for value in (remove, additions, replacements, override_replacements, new_mappings)
+        for value in (
+            remove,
+            additions,
+            replacements,
+            override_replacements,
+            override_removals,
+            override_additions,
+            new_mappings,
+        )
     ):
         raise RevisionError("revision arrays are missing")
 
@@ -63,6 +73,22 @@ def revised(normalization: Mapping[str, Any], revision: Mapping[str, Any]) -> Di
         if raw not in mapping_by_raw:
             raise RevisionError(f"replacement raw theme is absent: {raw!r}")
         mapping_by_raw[raw]["canonical_themes"] = item.get("canonical_themes")
+    for item in override_removals:
+        raw = item.get("raw_theme") if isinstance(item, dict) else None
+        article_no = item.get("article_no") if isinstance(item, dict) else None
+        mapping = mapping_by_raw.get(raw)
+        if mapping is None or not isinstance(article_no, str):
+            raise RevisionError(f"invalid article override removal: {raw}/{article_no}")
+        overrides = mapping.get("article_overrides", [])
+        matches = [override for override in overrides if override.get("article_no") == article_no]
+        if len(matches) > 1:
+            raise RevisionError(f"duplicate article override removal: {raw}/{article_no}")
+        if matches:
+            mapping["article_overrides"] = [
+                override for override in overrides if override.get("article_no") != article_no
+            ]
+            if not mapping["article_overrides"]:
+                mapping.pop("article_overrides")
     for item in override_replacements:
         raw = item.get("raw_theme") if isinstance(item, dict) else None
         article_no = item.get("article_no") if isinstance(item, dict) else None
@@ -75,6 +101,39 @@ def revised(normalization: Mapping[str, Any], revision: Mapping[str, Any]) -> Di
         if len(matches) != 1:
             raise RevisionError(f"article override replacement is absent or duplicate: {raw}/{article_no}")
         matches[0]["canonical_themes"] = item.get("canonical_themes")
+    for item in override_additions:
+        raw = item.get("raw_theme") if isinstance(item, dict) else None
+        article_no = item.get("article_no") if isinstance(item, dict) else None
+        targets = item.get("canonical_themes") if isinstance(item, dict) else None
+        reviewer = item.get("reviewer") if isinstance(item, dict) else None
+        mapping = mapping_by_raw.get(raw)
+        if mapping is None:
+            raise RevisionError(f"article override addition raw theme is absent: {raw!r}")
+        if (
+            not isinstance(article_no, str)
+            or not isinstance(targets, list)
+            or not isinstance(reviewer, str)
+            or not reviewer.strip()
+        ):
+            raise RevisionError(
+                f"invalid article override addition or reviewer: {raw}/{article_no}"
+            )
+        expected = {
+            "article_no": article_no,
+            "canonical_themes": targets,
+            "reviewer": reviewer,
+        }
+        overrides = mapping.setdefault("article_overrides", [])
+        matches = [override for override in overrides if override.get("article_no") == article_no]
+        if len(matches) > 1:
+            raise RevisionError(f"duplicate article override addition: {raw}/{article_no}")
+        if matches:
+            if matches[0].get("reviewer") == reviewer:
+                matches[0].update(expected)
+            elif matches[0] != expected:
+                raise RevisionError(f"article override addition conflicts: {raw}/{article_no}")
+        else:
+            overrides.append(expected)
     reviewer = "taxonomy-semantic-remediation"
     for item in new_mappings:
         raw = item.get("raw_theme") if isinstance(item, dict) else None
@@ -99,7 +158,9 @@ def revised(normalization: Mapping[str, Any], revision: Mapping[str, Any]) -> Di
         if unknown:
             raise RevisionError(f"raw mapping {raw} has unknown targets: {sorted(unknown)}")
     for mapping in mapping_by_raw.values():
-        for item in mapping.get("article_overrides", []):
+        overrides = mapping.get("article_overrides", [])
+        overrides.sort(key=lambda item: item.get("article_no", ""))
+        for item in overrides:
             targets = item.get("canonical_themes")
             if not isinstance(targets, list) or not targets or len(targets) > 3:
                 raise RevisionError("article override has invalid canonical targets")
@@ -117,6 +178,13 @@ def revised(normalization: Mapping[str, Any], revision: Mapping[str, Any]) -> Di
     notes = output.setdefault("method_notes", [])
     if note not in notes:
         notes.append(note)
+    runway_note = (
+        "Skill 13 source union added article-scoped runway and survival assignments, removed four "
+        "false workflow triggers, and relabeled essay 129 using 45 raw-theme overrides proven to "
+        "yield the independently reviewed 85-pair source set."
+    )
+    if (override_additions or override_removals) and runway_note not in notes:
+        notes.append(runway_note)
     return output
 
 
