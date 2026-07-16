@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "status": "archived-after-package-refactor",
+  "skill_sha256": "b6c338f2d9ce0b225e81f03ed1c1e4f8b15ab9731d53f343375a2008eedf0507",
+  "runtime_sha256": "5d44db01c258ab81ad55a0479e49563dd8d2766be2d9f06144483db138d45cff",
+  "score": 23,
+  "max": 30,
+  "baseline": 14,
+  "delta": 0.3,
+  "reason": "The independently audited forward run passed, then a fair unseen held-out case exposed invented backup coverage and missing checkpoint content. The package was revised; this run remains valid historical evidence only for its frozen hash."
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "status": "archived-unscored-nonconforming",
+  "attempt": 7,
+  "skill_sha256": "b6c338f2d9ce0b225e81f03ed1c1e4f8b15ab9731d53f343375a2008eedf0507",
+  "runtime_sha256": "c934588455fee62a9504794079135d177ef4886816140fef28c6717292c34e2a",
+  "scoring_started": false,
+  "response_words": {
+    "scenario-01": 1555,
+    "scenario-02": 1019,
+    "scenario-03": 1488,
+    "scenario-04": 1099,
+    "scenario-05": 926,
+    "scenario-06": 1100
+  },
+  "reason": "Two of six first-created responses exceeded the precommitted 1200-word maximum, so the run was rejected before scoring. Four conforming responses show the package budgets materially improved response economy. The next package revision adds an explicit pre-return word-count check; its harness permits length-only staging before the final artifact is frozen, with criteria hidden and no score feedback."
+}

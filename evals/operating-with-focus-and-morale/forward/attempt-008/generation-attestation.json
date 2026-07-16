@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "phase": "skill-forward",
+  "attempt": 8,
+  "attested_at_utc": "2026-07-16T01:19:14Z",
+  "frozen_before_scoring": true,
+  "frozen_inputs": {
+    "generation_plan_path": "evals/operating-with-focus-and-morale/forward/generation-plan.json",
+    "generation_plan_sha256": "b990279ec5fca8efbfa4da6a5bba07a521a25bb8863d245f077cc629f5e8a1e9",
+    "canonical_cases_path": "evals/operating-with-focus-and-morale/cases.json",
+    "canonical_cases_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+    "skill_sha256": "b6c338f2d9ce0b225e81f03ed1c1e4f8b15ab9731d53f343375a2008eedf0507",
+    "runtime_sha256": "5d44db01c258ab81ad55a0479e49563dd8d2766be2d9f06144483db138d45cff",
+    "prompt_only_aggregate_projection_sha256": "5dcc5d515b9453ae4261017e10afd382ac03013cb7a9ab1061014c502d9d9a72"
+  },
+  "generation_conditions": {
+    "criteria_hidden": true,
+    "skill_visible": true,
+    "fresh_context": true,
+    "one_generator_per_case": true,
+    "length_only_staging": true,
+    "staging_feedback": "wc -w only",
+    "canonical_file_moved_once_then_frozen": true,
+    "quality_resampling": false,
+    "response_word_maximum": 1200
+  },
+  "responses": [
+    {"case_id":"scenario-01","task_id":"/root/focus_forward8_1","path":"evals/operating-with-focus-and-morale/forward/scenario-01.md","bytes":9554,"words":912,"filesystem_birth_epoch":1784164413,"filesystem_mtime_epoch":1784164439,"response_body_sha256":"43553bf62117a3bf77e731dc66fa735bf5107c58d6bab5bd6d673000050378e8"},
+    {"case_id":"scenario-02","task_id":"/root/focus_forward8_2","path":"evals/operating-with-focus-and-morale/forward/scenario-02.md","bytes":7718,"words":1148,"filesystem_birth_epoch":1784164434,"filesystem_mtime_epoch":1784164537,"response_body_sha256":"24d73f88af54d7c5247563be44d7680c2bf29d4a100299e15b2c191475db0188"},
+    {"case_id":"scenario-03","task_id":"/root/focus_forward8_3","path":"evals/operating-with-focus-and-morale/forward/scenario-03.md","bytes":7986,"words":1119,"filesystem_birth_epoch":1784164416,"filesystem_mtime_epoch":1784164463,"response_body_sha256":"2c1a1b83432b1cef5678d23cabd1faecef0a1458fb287658972d3c7da4e7ff2c"},
+    {"case_id":"scenario-04","task_id":"/root/focus_forward8_4","path":"evals/operating-with-focus-and-morale/forward/scenario-04.md","bytes":7808,"words":1076,"filesystem_birth_epoch":1784164530,"filesystem_mtime_epoch":1784164568,"response_body_sha256":"a6eb8c4a271af4e4e738e3766a480ff55efd37918cc2c6fbae1997b50061c00b"},
+    {"case_id":"scenario-05","task_id":"/root/focus_forward8_5","path":"evals/operating-with-focus-and-morale/forward/scenario-05.md","bytes":8041,"words":1134,"filesystem_birth_epoch":1784164669,"filesystem_mtime_epoch":1784164723,"response_body_sha256":"27a030eed3c7dcffbe4d64dd514c9c557afc5ec3f56a1fc1d7db173ad469c39f"},
+    {"case_id":"scenario-06","task_id":"/root/focus_forward8_6","path":"evals/operating-with-focus-and-morale/forward/scenario-06.md","bytes":7540,"words":1148,"filesystem_birth_epoch":1784164652,"filesystem_mtime_epoch":1784164718,"response_body_sha256":"9a73d0085940ac3d7c63e72071500410cb31040ed1f7cafc6a44134dcbd8cf48"}
+  ],
+  "verification": {
+    "response_count": 6,
+    "unique_task_count": 6,
+    "unique_response_body_count": 6,
+    "minimum_response_words": 912,
+    "maximum_response_words": 1148,
+    "all_responses_within_word_limit": true,
+    "staging_directory_empty_after_finalization": true,
+    "skill_and_runtime_match_frozen_plan": true,
+    "integrity_result": "pass"
+  },
+  "scoring_state": {
+    "scorer_dispatched": false,
+    "scoring_started": false,
+    "distinct_scorer_required": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "case": {
+    "case_id": "focus-heldout-buyer-001",
+    "type": "unseen-precedence-heldout",
+    "prompt": "It is July 15, 2026. I run LedgerLift, a 17-person SaaS company that automates invoice reconciliation for mid-market distributors. We have 86 paying customers, 18 months of runway at the June burn rate, no fundraising underway, and written product and customer decision rights.\n\nOn July 11, Northbank Software sent a non-binding indication of interest with a $26 million cash headline. It asks us to enter 35 days of exclusivity beginning July 23. Northbank wants an initial data-room index by July 18, a management session on July 20, and our written response to exclusivity by July 22. The board meets that afternoon. We have retained outside M&A counsel, but no exclusivity or transaction document is signed. The indication does not resolve the working-capital adjustment, escrow and indemnity limits, employee retention package, founder roles, customer commitments, or closing conditions.\n\nNorthbank's corporate-development lead says its investment committee is likely to approve a deal if we move quickly. Our CEO says accepting every request and taking eleven newly offered banker and potential-buyer calls before July 22 is the only way to preserve leverage. Neither statement has been verified. The CFO has not completed a standalone-versus-sale comparison or modeled the unresolved terms.\n\nThe product lead owns a July 29 identity-provider migration promised to eight customers and the normal on-call rotation. The customer lead owns four renewals totaling $510,000 due by August 15. Since July 11, the CEO, CFO, and product lead have worked past midnight on four nights to answer diligence requests; two migration calls were missed, although no support SLA or incident response has been missed. The product lead says customers will tolerate the product coasting for a month. The August rebrand kickoff, a July 24 conference keynote, and a team morale offsite are also still on the calendar.\n\nBy tomorrow morning I need one practical plan for the board and team through the July 22 decision. Tell us what to decide, how to get there, and how to avoid damaging the business or burning out the team.",
+    "prompt_leakage_constraints": [
+      "No skill identifier or routing vocabulary appears in the prompt.",
+      "No observed/claimed/unknown labels or branch names appear in the prompt.",
+      "No criterion text, score threshold, response template, or hidden expected answer appears in the prompt."
+    ],
+    "criteria_visibility_during_generation": false,
+    "criteria": [
+      {
+        "id": "C1",
+        "label": "precedence",
+        "pass_condition": "Makes `navigating-acquisitions-and-exits` the single primary workflow because a live buyer process has dated diligence, exclusivity, and board decisions. Uses `operating-with-focus-and-morale` only as supporting cadence, and does not substitute a generic focus reset, runway plan, fundraise, or organization redesign."
+      },
+      {
+        "id": "C2",
+        "label": "facts-claims-unknowns",
+        "pass_condition": "Separates the dated company, buyer-document, deadline, workload, and customer/product records as observed; the buyer, CEO, and product-lead interpretations as claimed; and close probability, unresolved-term economics, standalone comparison, diligence burden, and customer impact as unknown. Every consequential unknown used for the July 22 decision has an owner, method/artifact, due date, threshold, and stated decision effect; the $26 million headline is not treated as certain proceeds."
+      },
+      {
+        "id": "C3",
+        "label": "one-buyer-decision-and-deferrals",
+        "pass_condition": "Sets one bounded state-changing decision: by July 22, sign only acceptable exclusivity, counter/seek a short extension, or decline it. Bounds disclosure and diligence to decision-critical work with counsel, and explicitly cancels, delegates, defers, or tightly bounds the eleven unqualified calls, rebrand, keynote, offsite, optional roadmap work, and generic calendar redesign while preserving the standalone option."
+      },
+      {
+        "id": "C4",
+        "label": "continuity-and-humane-workload",
+        "pass_condition": "Keeps the July 29 migration, four renewals, support, on-call, incidents, legal/fiduciary duties, and secure data handling with named current owners and backups. Establishes bounded availability, a sustainable weekly limit, recovery, escalation/decision coverage, and an end date for exceptional work; it does not normalize nights, continuous availability, or product/customer neglect as transaction commitment."
+      },
+      {
+        "id": "C5",
+        "label": "dated-branches-and-handoff",
+        "pass_condition": "Names owners and dated checks no later than July 18, 20, and 22, with observable proceed, counter/extend, pause, and decline/end branches and a next owner for each. A proceed branch keeps acquisition work primary under a new bounded phase; a pause, end, or eventual close records an observable dated handoff back to `operating-with-focus-and-morale`. It closes with the preserved standalone option and does not declare ordinary focus restored while the buyer decision remains live."
+      }
+    ]
+  },
+  "scoring": {
+    "scorer": "/root/focus_heldout_scorer",
+    "distinct_from_generator": true,
+    "fresh_context": true,
+    "score_only_after": "response is frozen and its whole-file SHA-256 is verified",
+    "strict_binary_bits": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "total_bits": 5,
+    "minimum_positive_bits": 4,
+    "mandatory_positive_bits": [
+      "C1"
+    ],
+    "pass_rule": "C1 must equal 1 and at least four of five bits must be positive.",
+    "required_output": "binary vector, positive count, criterion-specific evidence, integrity verdict, naturalness/no-leakage verdict, and transfer verdict"
+  }
+}

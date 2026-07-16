@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "skill12-eval-integrity-final",
+  "status": "complete",
+  "reviewed_at_utc": "2026-07-16T03:10:14Z",
+  "skill_name": "operating-with-focus-and-morale",
+  "ready_to_commit": false,
+  "finding_counts": {
+    "critical": 1,
+    "important": 3,
+    "minor": 2
+  },
+  "findings": [
+    {
+      "severity": "critical",
+      "id": "microtest-hard-cap-invalidation",
+      "summary": "Four of five guided responses violated the hard 1200-word cap while every control conformed, yet the canonical paired microtest was accepted at a 0.48 delta.",
+      "evidence": [
+        "microtest/prompt.txt:13",
+        "microtest/generation-attestation.json:6-23",
+        "microtest/summary.json:17-22",
+        "microtest/attempt-001/archive-status.json:8",
+        "heldout/attempt-004/archive-status.json:7-9"
+      ],
+      "effect": "The canonical paired microtest is not valid confirmatory acceptance evidence."
+    },
+    {
+      "severity": "important",
+      "id": "microtest-blind-protocol-deviation",
+      "summary": "The frozen design required two blind scorers, but only one blind score is recorded and the independent auditor read the arm mapping.",
+      "evidence": [
+        "microtest/attempt-005-design.json:113-118",
+        "microtest/independent-review.json:20-23",
+        "microtest/blind-mapping.json:5-16"
+      ],
+      "effect": "The zero-bit-change audit is not the second blind score promised by the protocol."
+    },
+    {
+      "severity": "important",
+      "id": "heldout-not-accepted",
+      "summary": "Held-out attempt 005 required 5/5 but scored 4/5 and records accepted false.",
+      "evidence": [
+        "heldout/attempt-005-design.json:16-22",
+        "heldout/score.json:44-56",
+        "heldout/summary.json:7-12",
+        "research/progress.md:1115",
+        "research/progress.md:1147-1148"
+      ],
+      "effect": "The verified milestone and no-blockers language overstate acceptance unless held-out evidence is explicitly non-gating."
+    },
+    {
+      "severity": "important",
+      "id": "heldout-execution-attestation-missing",
+      "summary": "Attempt 005 has no generation plan, generation attestation, or response-freeze manifest supporting the frozen execution protocol.",
+      "evidence": [
+        "heldout/attempt-005-design.json:54-81",
+        "heldout/score.json:1-16",
+        "heldout/summary.json:1-12"
+      ],
+      "effect": "Freshness, generator/scorer separation, freeze chronology, and no-repair/no-resampling are not reconstructable."
+    },
+    {
+      "severity": "minor",
+      "id": "forward-wrapper-location-drift",
+      "summary": "The manifest declares a prefix wrapper, but Case ID and Reviewer ID are appended to canonical forward responses.",
+      "evidence": [
+        "forward/manifest.json:35-38",
+        "forward/scenario-01.md:125-126"
+      ],
+      "effect": "Metadata drift only; current full-file hashes match."
+    },
+    {
+      "severity": "minor",
+      "id": "baseline-manifest-hash-label-drift",
+      "summary": "The baseline independent review labels the generation-freeze-manifest hash as manifest_sha256.",
+      "evidence": [
+        "baseline/independent-review.json:20"
+      ],
+      "effect": "The freeze artifact remains hash-valid, but the label does not identify the current baseline manifest."
+    }
+  ],
+  "recomputed": {
+    "skill_sha256": "8cb42d33741e49adfb6412bcedb88106491f0041324486115aa4ffdf362245cc",
+    "runtime_sha256": "24ec2d982c69da54dc1c6474032e898ee4da22e3f10a8b0bd2a7c4dadeeb2336",
+    "combined_sha256": "1b2be7ce738d64d623e026c4ced88bd7f415b0d3296196590a7d7a5145b16678",
+    "cases_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+    "prompt_projection_sha256": "5dcc5d515b9453ae4261017e10afd382ac03013cb7a9ab1061014c502d9d9a72",
+    "baseline": {
+      "passes": 14,
+      "total": 30,
+      "normalized": 0.466667,
+      "red_valid": true
+    },
+    "forward": {
+      "passes": 23,
+      "total": 30,
+      "normalized": 0.766667,
+      "delta": 0.3,
+      "required_delta": 0.1,
+      "arithmetic_gate_pass": true
+    },
+    "microtest": {
+      "control_passes": 0,
+      "guided_passes": 12,
+      "possible_per_arm": 25,
+      "recorded_delta": 0.48,
+      "confirmatory_valid": false
+    },
+    "heldout": {
+      "passes": 4,
+      "total": 5,
+      "required": 5,
+      "accepted": false
+    },
+    "json_parse_failures": 0,
+    "unit_tests": {
+      "ran": 120,
+      "failures": 0
+    },
+    "official_skill_validation": "pass"
+  },
+  "pending_remediation": [
+    "Run a conforming canonical paired microtest under the frozen cap and scoring protocol.",
+    "Resolve the failed held-out gate or explicitly document held-out evidence as non-gating.",
+    "Add reconstructable held-out execution attestations for freshness, independence, freeze chronology, and no repair or resampling."
+  ]
+}

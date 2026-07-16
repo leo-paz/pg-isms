@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "phase": "skill-forward",
+  "attempt": 9,
+  "attested_at_utc": "2026-07-16T02:19:40Z",
+  "frozen_before_scoring": true,
+  "frozen_inputs": {
+    "generation_plan_sha256": "fc5705c609fa89bc3d10f6b150ece834bb32be1d17ff3a56b58874847a3632ba",
+    "cases_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+    "skill_sha256": "8cb42d33741e49adfb6412bcedb88106491f0041324486115aa4ffdf362245cc",
+    "runtime_sha256": "24ec2d982c69da54dc1c6474032e898ee4da22e3f10a8b0bd2a7c4dadeeb2336"
+  },
+  "generation_conditions": {
+    "criteria_hidden": true,
+    "fresh_context": true,
+    "one_generator_per_case": true,
+    "length_only_staging": true,
+    "canonical_file_moved_once_then_frozen": true,
+    "quality_resampling": false,
+    "word_maximum": 1200
+  },
+  "responses": [
+    {"case_id":"scenario-01","task_id":"/root/focus_forward9_1","words":1114,"bytes":8310,"birth":1784168006,"mtime":1784168006,"sha256":"a24fb382b112f4f32df693c45bd198aa34c3e5d5bf34537df076c79c5ddb3faf"},
+    {"case_id":"scenario-02","task_id":"/root/focus_forward9_2","words":970,"bytes":8156,"birth":1784167908,"mtime":1784167908,"sha256":"ed7bc66b46172212c34209f25bac26ceb288e77a414dc67e4c98b785d366ba2c"},
+    {"case_id":"scenario-03","task_id":"/root/focus_forward9_3","words":900,"bytes":9408,"birth":1784168202,"mtime":1784168213,"sha256":"7153dc5fbe8fb357d03f3104dc89d7c6b602f69bb780c78eb6be73358da62b8c"},
+    {"case_id":"scenario-04","task_id":"/root/focus_forward9_4","words":966,"bytes":9168,"birth":1784168168,"mtime":1784168180,"sha256":"aae823e686d4dde98efe186649a935d0bd1dbc4a2bdb9019e6fbfdf3d9d9d21b"},
+    {"case_id":"scenario-05","task_id":"/root/focus_forward9_5","words":1104,"bytes":7598,"birth":1784168176,"mtime":1784168227,"sha256":"e9622f2fba1a0c2abf95142e94debb312d49867e7bece24eef7d957071bc2012"},
+    {"case_id":"scenario-06","task_id":"/root/focus_forward9_6","words":1068,"bytes":7707,"birth":1784168363,"mtime":1784168363,"sha256":"100c1c795df5f95264fc8c692d299af91d92906291c06759becc12db067b6e20"}
+  ],
+  "verification": {
+    "response_count": 6,
+    "unique_tasks": 6,
+    "unique_hashes": 6,
+    "all_within_word_limit": true,
+    "staging_empty": true,
+    "integrity_result": "pass"
+  },
+  "scoring_started": false
+}

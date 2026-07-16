@@ -1,0 +1,145 @@
+{
+  "attempt": 5,
+  "status": "design-only-not-run",
+  "skill": {
+    "name": "operating-with-focus-and-morale",
+    "combined_sha256": "1b2be7ce738d64d623e026c4ced88bd7f415b0d3296196590a7d7a5145b16678",
+    "combined_hash_definition": "sha256(SKILL.md bytes || 0x00 || runtime-contract.md bytes)",
+    "files": [
+      {
+        "path": "skills/operating-with-focus-and-morale/SKILL.md",
+        "sha256": "8cb42d33741e49adfb6412bcedb88106491f0041324486115aa4ffdf362245cc"
+      },
+      {
+        "path": "skills/operating-with-focus-and-morale/references/runtime-contract.md",
+        "sha256": "24ec2d982c69da54dc1c6474032e898ee4da22e3f10a8b0bd2a7c4dadeeb2336"
+      }
+    ]
+  },
+  "research_boundary": {
+    "repository_sources_read": [
+      "skills/operating-with-focus-and-morale/SKILL.md",
+      "skills/operating-with-focus-and-morale/references/runtime-contract.md"
+    ],
+    "excluded_sources": "All existing evals, previous designs, prompts, responses, scores, heldout tests, forward tests, and microtests were excluded from content review."
+  },
+  "domain": {
+    "label": "early-stage educational card-game publishing",
+    "novelty_basis": "A physical educational publishing business is materially distinct from software, marine or greenhouse hardware, choir or performing arts, local news, financing, and acquisition scenarios."
+  },
+  "exact_prompt": "Today is July 15, 2026. I am Lena, founder and product lead of Mosaic Minute, a five-person company publishing a classroom card game for public middle-school teachers. We are early-stage, have nine months of runway, and the next three payrolls are funded. There is no fundraising, investor diligence, buyer conversation, sale process, lawsuit, safety event, security issue, or active customer incident.\n\nDecision rights are written down: I own product decisions, Mateo owns sales, Priya owns design, Eli owns operations, and Mina owns teacher success. Before June, approvals normally cleared within four working hours. In the last two weeks, six product or design approvals waited two to three days, all after my workload rose; no one disputes the written rights.\n\nFourteen teachers new to the game ran a first session using the current core deck. Five completed setup without help; nine stalled at the instruction sequence. Seven of those nine separately said the quick-start order was unclear. Four of the five who completed setup requested a school quote. No revised quick-start insert has been tested. Our printer can make test inserts in two business days. Twelve new-teacher sessions are already booked for July 22, 24, and 28.\n\nWe are also carrying three proposed initiatives. Mateo wants a booth at the September 10 National Teaching Expo; a non-refundable $8,000 deposit is due July 17 and preparation is estimated at 90 team-hours. He says it will \"put us on the map\" and produce 300 leads. At our last comparable event, 41 badge scans led to two demos and no orders. A competitor announced an AI-literacy expansion deck; I said we must ship a response in three weeks or become irrelevant, but no teacher or buyer has asked us for one. Priya proposes a wholesale-catalog redesign; three bookstores have asked only for a current price sheet, and none has asked for a redesign.\n\nThe team reports morale at 3/10 versus 7/10 on June 1. In the last 12 days we skipped two scheduled teacher calls, reversed two print-file decisions, and stopped the Friday peer critique twice. I have averaged 67 hours a week for three weeks, worked six late nights, taken no full day off, and attended none of the teacher sessions. I proposed a 72-hour week through August 1. Mateo says visible hours prove we are serious.\n\nConfirmed continuity coverage is: teacher messages and session changes, Mina primary and Mateo backup, one-business-day response via the shared CRM; printer and fulfillment exceptions, Eli primary and Priya backup, four-working-hour response via the vendor log; product decision authority while I am offline, me primary and Mateo backup, same-working-day response via the decision log; payroll, Eli primary and our external bookkeeper Dana backup, one-business-day response via the payroll checklist. Every named backup has agreed and is available through July 31.\n\nChoose our one company-changing priority and one current tactic for the next three weeks. Give me a compact, dated operating decision I can execute: deal with all named initiatives, the approval slowdown, user contact, continuity, workload, morale, evidence checks, and the conditions to continue, change tactics, reconsider the goal, or stop. Distinguish facts, interpretations, and unknowns; do not invent missing facts. Keep the answer at or below 1,200 words.",
+  "paired_run_protocol": {
+    "pairs": 5,
+    "total_generation_agents": 10,
+    "pair_ids": [
+      "pair-01",
+      "pair-02",
+      "pair-03",
+      "pair-04",
+      "pair-05"
+    ],
+    "freshness": "Use ten separate fresh agents. Each agent receives one user turn, returns one final answer, has no prior or follow-up turns, and cannot see another output.",
+    "common_conditions": [
+      "Use the exact prompt byte-for-byte in both arms.",
+      "Use one fixed model snapshot and identical system baseline, temperature 0.7, top_p 1.0, maximum output-token budget, tool policy, and timeout across all ten agents; record the values at execution.",
+      "Disable repository browsing, web access, inter-agent communication, and access to rubrics or other evaluation artifacts.",
+      "Interleave or randomize arm execution order within pairs so time/order cannot identify the arm.",
+      "If a run fails technically before producing an answer, rerun both members of that pair with fresh agents and record the replacement; never selectively replace one low-scoring output."
+    ],
+    "control": {
+      "agents": 5,
+      "context": "Default system baseline plus the exact prompt only. Do not expose the skill name, SKILL.md, runtime-contract.md, skill catalog, repository, or rubric."
+    },
+    "guided": {
+      "agents": 5,
+      "context": "The same default system baseline and exact prompt, with only the pinned SKILL.md and runtime-contract.md loaded as the applicable skill package. Do not expose the rubric, hashes, evaluation purpose, or any other repository material."
+    }
+  },
+  "scoring": {
+    "mode": "strict binary conjunctive",
+    "rule": "Each criterion is 1 only when every listed clause is explicit and internally consistent; otherwise it is 0. No partial credit, style credit, or credit for information merely implied elsewhere.",
+    "criteria": [
+      {
+        "id": "C1",
+        "name": "Route and evidence integrity",
+        "pass_only_if_all": [
+          "Makes focus, attention allocation, degraded judgment, and morale the current primary operating problem, while excluding survival, financing, buyer, organization-redesign, and acute-risk routes with the prompt's concrete facts rather than assertion alone.",
+          "Preserves the dated teacher behavior, event history, workload and judgment signals, approval timing, coverage facts, and every quoted stakeholder interpretation as observed facts or claims without promoting a claim to fact.",
+          "Gives every consequential unknown on which the selected priority, a named initiative, approval-queue route, or later branch depends its own owner, artifact or method, due date, observable result threshold, and decision effect; it does not invent a result or backup.",
+          "Leaves no decision-relevant prompt input unclassified."
+        ]
+      },
+      {
+        "id": "C2",
+        "name": "One state-changing priority and complete competing-work choices",
+        "pass_only_if_all": [
+          "Selects exactly one user or company outcome and exactly one current tactic or evidence plan, with a dated baseline, dated target, affected users or work, accountable owner, mechanism, at least one rival explanation, honest evidence latency and checkpoint, falsifier, and final decision date.",
+          "Gives the Teaching Expo booth, competitor-response expansion, and wholesale-catalog redesign separate cancel, delegate, defer, or tightly bound dispositions, each with an owner, effective date, and limit or reopen condition.",
+          "Separately protects the essential teacher, production or fulfillment, decision-authority, and payroll obligations instead of treating them as parallel priorities.",
+          "Does not use hours, morale, prestige, competitor activity, or generic visibility as evidence that the chosen outcome is succeeding."
+        ]
+      },
+      {
+        "id": "C3",
+        "name": "Executable attention, continuity, and recovery envelope",
+        "pass_only_if_all": [
+          "Creates recurring contiguous product or analysis time and recurring direct teacher contact for Lena at dates or cadences compatible with the booked July 22, 24, and 28 sessions; teacher-success delegation is not substituted for Lena's decision-relevant contact.",
+          "For teacher communications, printer or fulfillment exceptions, product decision authority, and payroll, states the supplied primary, distinct supplied backup, service or protected block, escalation destination, response window, and handoff artifact without inventing replacements.",
+          "Sets a concrete sustainable weekly workload or availability limit, recovery periods, and an end date for any bounded exceptional push; explicitly rejects or replaces the proposed open-ended 72-hour push and visible-hours proxy.",
+          "Removes, delegates, or bounds load before claiming protected focus time, and gives the acute overload approval queue a dated relief test before escalating it to organization redesign."
+        ]
+      },
+      {
+        "id": "C4",
+        "name": "Morale diagnosis and owned evidence cadence",
+        "pass_only_if_all": [
+          "Treats morale as an operating signal by naming the rating change, skipped teacher calls, print-file reversals, missed peer critiques, or approval waits and tests at least two plausible mechanisms rather than treating morale as a verdict.",
+          "States the durable goal premise separately from the currently selected tactic and ties recovery to controllable progress, real teacher evidence, ownership or peer support, realistic duration, and recovery rather than public pressure or raw hours.",
+          "Includes separate company-outcome, teacher or continuity, and workload or judgment measures, each with dated baseline, observable target or limit, evidence source, owner, and review date.",
+          "For every named intermediate and final check, records the observed result or explicitly pending state, confounder or rival status, safeguard status, and precommitted branch."
+        ]
+      },
+      {
+        "id": "C5",
+        "name": "Distinct persistence and stopping decisions",
+        "pass_only_if_all": [
+          "Provides separate continue, adapt, reopen-goal, and stop rows; every row has its own observable threshold, next action, next owner, calendar date, primary route after the branch, and handoff or return condition and date.",
+          "Continue requires outcome evidence and safeguards to hold; adapt changes one material tactic variable while the premise remains plausible; reopen-goal requires repeated discriminating evidence or a changed hard constraint; stop uses invalidation or a hard survival, safety, legal, harm, or preserved-option boundary.",
+          "Commits now to a selected tactic, honest final decision date, and non-moving decision logic while carrying unresolved unknowns forward.",
+          "Does not treat a competitor announcement, low morale, effort, or a single miss as sufficient proof to persist, reopen the goal, or stop."
+        ]
+      }
+    ],
+    "blind_protocol": [
+      "After all ten answers are frozen, copy them without edits into ten opaque IDs generated independently of arm and pair; retain the arm key with a coordinator who does not score.",
+      "Randomize output order separately for two fresh independent scoring agents. Each scorer receives only the exact prompt, the five criteria, and the anonymized raw answers; hide arm, pair, skill text, hashes, generation order, and expected effect.",
+      "Require a 0 or 1 for every criterion plus a short answer excerpt or precise missing-clause note. Scorers may not infer absent fields or award partial credit.",
+      "Resolve disagreements with a third fresh blind adjudicator who sees only the disputed answer, exact prompt, criterion, and the two evidence notes in randomized order.",
+      "Reveal the arm key only after the adjudicated score matrix is frozen."
+    ],
+    "response_score": "For answer i, score_i = (C1 + C2 + C3 + C4 + C5) / 5.",
+    "arm_statistics": "Compute the mean of five response scores in each arm. Also report paired differences and per-criterion pass rates descriptively.",
+    "acceptance": {
+      "metric": "mean_guided_score - mean_control_score",
+      "operator": ">=",
+      "threshold": 0.2,
+      "decision": "Accept the current pinned skill wording only if the guided-minus-control mean is at least 0.20."
+    }
+  },
+  "fairness_self_audit": [
+    "The user prompt is identical across arms; only access to the pinned skill package differs.",
+    "All prompt facts needed to satisfy the rubric are supplied; no web search, specialist factual knowledge, or essay citation is required.",
+    "No criterion demands a preferred numeric target or a particular calendar layout. Thresholds must only be observable, precommitted, date-consistent, and consequential.",
+    "The five criteria cover different decision surfaces: routing/evidence, priority/alternatives, execution/continuity, morale/cadence, and branch logic. Shared facts are checked only where their distinct consequence changes.",
+    "Every clause affects routing accuracy, decision evidence, priority integrity, continuity, sustainable judgment, morale diagnosis, or a consequential branch; there are no points for prose polish, headings, citation form, or table aesthetics.",
+    "The supplied owners, backups, artifacts, response windows, dates, and evidence latency make a complete compact answer feasible without invention.",
+    "The requested artifact is feasible in roughly 850 to 1,100 words using compact tables, leaving margin below the 1,200-word cap.",
+    "Technical replacement is pairwise and scoring is blind, so truncation, order, and selective reruns cannot favor an arm."
+  ],
+  "novelty_self_audit": [
+    "The scenario is educational card-game publishing, not software, marine or greenhouse hardware, choir or performing arts, local news, financing, or acquisition.",
+    "The design was derived only from the current pinned SKILL.md and runtime-contract.md; no previous evaluation prompt, answer, score, heldout item, forward test, or microtest content was reviewed.",
+    "The scenario combines a documented-rights overload queue, physical publishing latency, booked teacher sessions, confirmed continuity backups, event pressure, competitor pressure, and morale signals without relying on any excluded domain.",
+    "No expected answer text is embedded in the generation prompt, and the scoring rubric is withheld from both arms."
+  ]
+}

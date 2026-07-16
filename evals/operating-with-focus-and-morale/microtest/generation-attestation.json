@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "attempt": 5,
+  "attested_at_utc": "2026-07-16T02:55:09Z",
+  "responses": [
+    {"arm":"control","rep":1,"words":1200,"sha256":"bf655687ce3c241378df938237ccc78e1b1c5026da211f6610f79ac5d30f574b"},
+    {"arm":"control","rep":2,"words":1157,"sha256":"05f556fca64d1a45141f111b08dedc207835fb610f35595e620d203563bfd523"},
+    {"arm":"control","rep":3,"words":1125,"sha256":"e7f3109f3d87a4f610b4f37a068bd8bb07d2cec860da08eb336062111b5fcb97"},
+    {"arm":"control","rep":4,"words":1128,"sha256":"b65f47fd83e35918c7d51708fa6a4d16806ee05b5c28f7003e6e9963404f3fe9"},
+    {"arm":"control","rep":5,"words":1143,"sha256":"c54eab09d4521425ce6949c8576c15a6154cb724aedfe9b21ca3b3d018c21405"},
+    {"arm":"guided","rep":1,"words":1200,"sha256":"173e1b29a3b59aace8b0b0e1838adc5d4f50927d714406d79d79a0e3ec824b2e"},
+    {"arm":"guided","rep":2,"words":1792,"sha256":"d8f36db46ba0a3f85830fec8185562e8186b9bb4b56a5177f1f9f50b0885b154"},
+    {"arm":"guided","rep":3,"words":1697,"sha256":"5c8a32595307efea1deb88b2acfae056152b62ac030c238098d95922a2930adb"},
+    {"arm":"guided","rep":4,"words":1663,"sha256":"6a301504b84d1e22e99e08f1942644e201f64df73494c3f9ee82cbecb3304b13"},
+    {"arm":"guided","rep":5,"words":1499,"sha256":"9d7b8f43777568bd477635c70cd672de1b745c780bce44de5c72e702fc2d8488"}
+  ],
+  "verification": {
+    "control_count": 5,
+    "guided_count": 5,
+    "unique_hashes": 10,
+    "control_within_prompt_cap": 5,
+    "guided_within_prompt_cap": 1,
+    "over_limit_outputs_retained_unedited": true,
+    "scoring_started_after_freeze": true
+  }
+}

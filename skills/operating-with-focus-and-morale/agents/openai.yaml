@@ -1,0 +1,4 @@
+interface:
+  display_name: "Operating with Focus and Morale"
+  short_description: "Protect focus, morale, and sustainable persistence"
+  default_prompt: "Use $operating-with-focus-and-morale to choose the current state-changing priority, protect sustainable execution, and return an owned operating cadence."

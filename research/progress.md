@@ -495,7 +495,8 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
   OK
   extended evaluation integrity: micro_reps=10 unique_tasks=10 delta=0.56 heldout=5/5
   copyright scan: normalized 40-token corpus matches=0
-  git diff --check: passed
+  git diff --cached --check outside immutable generated/review Markdown: passed
+  hash-bound evaluation Markdown retains original CommonMark hard breaks and EOF bytes
   ```
 
 - Remaining work: publish this verified skill milestone, then build the remaining
@@ -1110,3 +1111,64 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
   skills sequentially beginning with `operating-with-focus-and-morale`; finish the
   cross-skill final review, README catalog, and clean/pushed repository-wide gate.
 - Blockers: none.
+
+## Checkpoint 4 skill 12 verified: `operating-with-focus-and-morale`
+
+- Source audit: three independent partitions reconciled to `63` exact essays and
+  `7` owned themes. Projection, canonical audit, taxonomy, evidence JSON, and
+  generated provenance are reciprocal; article `159` remains only as a documented
+  boundary source. Final package review found two theme-pair lineage gaps; a fresh
+  BM25, semantic, and full-document re-audit removed unsupported article `126` →
+  `resourcefulness-and-agency` while retaining and re-attributing article `147` →
+  `attention-and-priority-control`.
+- RED baseline: six fresh no-skill cases scored `14/30 = 0.466667` with frozen
+  criteria and independent review.
+- Package: official skill scaffold, `494`-word `SKILL.md`, generated
+  `agents/openai.yaml`, `63`-record evidence map, generated provenance, and a
+  progressive runtime contract. Final hashes are SKILL
+  `8cb42d33741e49adfb6412bcedb88106491f0041324486115aa4ffdf362245cc`
+  and runtime
+  `24ec2d982c69da54dc1c6474032e898ee4da22e3f10a8b0bd2a7c4dadeeb2336`.
+- GREEN forward: six final-hash fresh agents, hidden criteria, length-only staging,
+  and frozen canonical responses scored `23/30 = 0.766667`; delta
+  `+9/30 = +0.30` exceeds the required `+0.10`. A second reviewer rejudged all
+  `30` bits with zero changes.
+- Auxiliary paired transfer: a new educational card-game microtest generated `5`
+  control and `5` guided responses. Its observed arithmetic was `0/25` versus
+  `12/25`, but final integrity review invalidated it for confirmatory use: four
+  guided outputs exceeded the hard word cap while every control conformed, and the
+  promised second blind scorer was not executed. All outputs and raw scores remain
+  unedited as failed-protocol exploratory evidence; the delta is not acceptance
+  evidence.
+- Auxiliary held-out stress evidence: invalid attempt `002` was excluded by independent
+  design audit; valid attempt `003` motivated the final no-invented-backup and
+  checkpoint refactor; attempt `004` was frozen unscored over the word cap;
+  fairness-audited attempt `005` scored `4/5`, missing only separate IDs for two
+  preserved same-speaker claims. It is retained as a non-passing limitation with
+  no repair or resampling. The repository also records that this attempt lacks a
+  reconstructable execution attestation, so it is not used for acceptance.
+- The PROJECT_BRIEF quality contract relies on the separately frozen RED baseline
+  and fresh-context forward evaluation, not either auxiliary test. Verification:
+
+  ```text
+  Skill is valid!
+  skill provenance check: essays=63 themes=7
+  theme projection check: canonical=122 article_overrides=30 relevant_essays=209
+  taxonomy sync check: skills=21 themes=122 relevant_essays=209 essay_skill_pairings=831
+  taxonomy validation passed: corpus_files=223 classified=223 relevant_essays=209 uncovered_relevant=0 orphan_skills=0
+  baseline normalized_score=0.466667; forward normalized_score=0.766667; delta=0.30
+  python3 -m unittest discover -s tests -p 'test_*.py'
+  Ran 120 tests
+  OK
+  copyright scan: normalized 20/30/40-token corpus matches=0/0/0
+  git diff --check: passed
+  ```
+
+- Independent remediation reviews report `0` Critical, `0` Important, and `0`
+  Minor findings for both package/source integrity and evaluation integrity; both
+  conclude `ready_to_commit: true`. The source reviewer confirmed exact 126/147
+  pair remediation, and the evaluation reviewer independently recomputed the valid
+  required gate while confirming the auxiliary tests are excluded from acceptance.
+
+- Library progress after the required quality-contract milestone: `12/21` planned
+  skills implemented; skill `13` is next. Blockers under PROJECT_BRIEF: none.

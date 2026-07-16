@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "focus-micro5-independent-auditor",
+  "attempt": 5,
+  "audited_at": "2026-07-15T19:52:03-07:00",
+  "scope": {
+    "read_only_inputs": [
+      "microtest/prompt.txt",
+      "microtest/rubric.json",
+      "microtest/blind/slot-01.md",
+      "microtest/blind/slot-02.md",
+      "microtest/blind/slot-03.md",
+      "microtest/blind/slot-04.md",
+      "microtest/blind/slot-05.md",
+      "microtest/blind/slot-06.md",
+      "microtest/blind/slot-07.md",
+      "microtest/blind/slot-08.md",
+      "microtest/blind/slot-09.md",
+      "microtest/blind/slot-10.md",
+      "microtest/blind-score.json",
+      "microtest/blind-review.md",
+      "microtest/blind-mapping.json",
+      "microtest/skill-freeze.json"
+    ],
+    "excluded": "Skill source, original control/guided responses, prior attempts, forward tests, heldout tests, and all other files were not read."
+  },
+  "scoring_policy": "Strict binary conjunctive scoring: a criterion receives 1 only if every pass_only_if_all clause is explicitly satisfied; no partial credit or charitable inference.",
+  "integrity": {
+    "hash_algorithm": "sha256",
+    "actual_sha256": {
+      "microtest/prompt.txt": "77d6384adc126690827efe4c5c8771e318ba88ee7c31a205a449e5e88d704638",
+      "microtest/rubric.json": "678993e0559d0f40e18a51ec8a0559514085c8439b99c2f75573f739b4acb961",
+      "microtest/blind/slot-01.md": "d8f36db46ba0a3f85830fec8185562e8186b9bb4b56a5177f1f9f50b0885b154",
+      "microtest/blind/slot-02.md": "05f556fca64d1a45141f111b08dedc207835fb610f35595e620d203563bfd523",
+      "microtest/blind/slot-03.md": "b65f47fd83e35918c7d51708fa6a4d16806ee05b5c28f7003e6e9963404f3fe9",
+      "microtest/blind/slot-04.md": "173e1b29a3b59aace8b0b0e1838adc5d4f50927d714406d79d79a0e3ec824b2e",
+      "microtest/blind/slot-05.md": "c54eab09d4521425ce6949c8576c15a6154cb724aedfe9b21ca3b3d018c21405",
+      "microtest/blind/slot-06.md": "e7f3109f3d87a4f610b4f37a068bd8bb07d2cec860da08eb336062111b5fcb97",
+      "microtest/blind/slot-07.md": "bf655687ce3c241378df938237ccc78e1b1c5026da211f6610f79ac5d30f574b",
+      "microtest/blind/slot-08.md": "9d7b8f43777568bd477635c70cd672de1b745c780bce44de5c72e702fc2d8488",
+      "microtest/blind/slot-09.md": "6a301504b84d1e22e99e08f1942644e201f64df73494c3f9ee82cbecb3304b13",
+      "microtest/blind/slot-10.md": "5c8a32595307efea1deb88b2acfae056152b62ac030c238098d95922a2930adb",
+      "microtest/blind-score.json": "0b21e31362557994ebaa9be4bf03c170f63998cf43d37cd63a366f6e8e47797a",
+      "microtest/blind-review.md": "a72b4567690ea10f21f16fc84fdbcb8f5616c979ae44f8c8ebbdd279de78150a",
+      "microtest/blind-mapping.json": "63428bfeb13e85f358f215466f01b9e13324be5fb31798165504c2960340865a",
+      "microtest/skill-freeze.json": "eb2ae586f8bc1367269fe3dd6190d992009ebc80208c2068ba3494a2f7f9a4a2"
+    },
+    "embedded_input_hashes_match_actual": true,
+    "blind_review_hash_table_matches_actual": true,
+    "blind_score_internal_vectors_and_totals_consistent": true,
+    "blind_review_matches_blind_score": true,
+    "freeze": {
+      "skill_sha256": "8cb42d33741e49adfb6412bcedb88106491f0041324486115aa4ffdf362245cc",
+      "runtime_sha256": "24ec2d982c69da54dc1c6474032e898ee4da22e3f10a8b0bd2a7c4dadeeb2336",
+      "matches_rubric_file_hash_fields": true,
+      "rubric_combined_sha256": "1b2be7ce738d64d623e026c4ced88bd7f415b0d3296196590a7d7a5145b16678",
+      "combined_sha256_recomputed": false,
+      "combined_sha256_note": "The two skill-source files required to recompute the combined hash were outside the permitted read scope."
+    },
+    "mapping": {
+      "frozen_before_scoring_declared": true,
+      "scorer_unblinded": false,
+      "all_ten_slots_mapped_once": true,
+      "five_slots_per_arm": true,
+      "each_rep_1_through_5_present_once_per_arm": true,
+      "guided_slots": ["slot-01", "slot-04", "slot-08", "slot-09", "slot-10"],
+      "control_slots": ["slot-02", "slot-03", "slot-05", "slot-06", "slot-07"]
+    }
+  },
+  "slots": [
+    {
+      "slot": "slot-01",
+      "criteria": {
+        "C1": {"bit": 1, "rationale": "Concrete route gates make focus/morale primary and exclude survival, financing, buyer, organization-redesign, and acute-risk routes. The evidence and claim ledger preserves the decision inputs, and U1-U8 each carry owner, method, date, threshold, and effect."},
+        "C2": {"bit": 1, "rationale": "One dated self-starting outcome and one revised-insert tactic contain all required fields. Expo, AI, and catalog work are separately owned, dated, and bounded; essential services remain protected; prohibited proxies are rejected."},
+        "C3": {"bit": 0, "rationale": "The focus/contact cadence, supplied continuity, recovery envelope, load removal, and queue test are otherwise explicit, but the incident-only exceptional push has no calendar end date."},
+        "C4": {"bit": 1, "rationale": "The response tests multiple morale mechanisms and a rival, separates premise from tactic, supplies the three complete measure classes, and explicitly marks each checkpoint result not yet observed while carrying rival, safeguard, and branch fields."},
+        "C5": {"bit": 0, "rationale": "The stop row defers dating the return until after closure instead of supplying a handoff or return date now."}
+      },
+      "vector": [1, 1, 0, 1, 0],
+      "total": 3
+    },
+    {
+      "slot": "slot-02",
+      "criteria": {
+        "C1": {"bit": 0, "rationale": "There is no complete fact-based route exclusion, exhaustive input classification, or owner/method/date/threshold/effect ledger for consequential unknowns."},
+        "C2": {"bit": 0, "rationale": "The priority and test are clear, but required outcome fields remain implicit and the three initiative dispositions do not each state owner, effective date, and bounded reopen logic."},
+        "C3": {"bit": 0, "rationale": "Recurring contiguous product time, complete escalation destinations for all continuity surfaces, and a dated pre-redesign queue-relief test are absent."},
+        "C4": {"bit": 0, "rationale": "The three complete dated measure records and the required result/rival/safeguard/branch checkpoint records are absent."},
+        "C5": {"bit": 0, "rationale": "The prose gates lack per-branch owners, dates, primary routes, and dated return or handoff conditions."}
+      },
+      "vector": [0, 0, 0, 0, 0],
+      "total": 0
+    },
+    {
+      "slot": "slot-03",
+      "criteria": {
+        "C1": {"bit": 0, "rationale": "Alternate routes are not explicitly excluded from the prompt facts, and consequential unknowns lack the required owned, dated threshold records."},
+        "C2": {"bit": 0, "rationale": "The outcome has no complete dated absolute target record, and the initiative choices lack complete owner/date/reopen fields."},
+        "C3": {"bit": 0, "rationale": "There is no recurring contiguous product/analysis block, complete continuity escalation scheme, or dated queue-relief test before organization redesign."},
+        "C4": {"bit": 0, "rationale": "Complete three-class measures and checkpoint state/rival/safeguard/branch records are missing."},
+        "C5": {"bit": 0, "rationale": "The decision gates omit branch-specific owners, routes, and dated handoff/return conditions."}
+      },
+      "vector": [0, 0, 0, 0, 0],
+      "total": 0
+    },
+    {
+      "slot": "slot-04",
+      "criteria": {
+        "C1": {"bit": 0, "rationale": "The response omits the exact September 10 event date and Priya's catalog proposal, and the Expo reopen evidence has no complete unknown record."},
+        "C2": {"bit": 1, "rationale": "The sole outcome/test is fully specified; all three initiatives are separately owned, dated, and bounded; the four obligations are protected; and no proxy is used as outcome evidence."},
+        "C3": {"bit": 1, "rationale": "Recurring maker blocks and Lena's session-date contact are explicit. The continuity ledger/envelope preserves supplied pairs, services, artifacts, windows, and escalation routes; the recovery envelope has no exceptional push; load is removed before the July 20 queue test."},
+        "C4": {"bit": 0, "rationale": "The measures and mechanisms are adequate, but future checkpoint result cells state what to check rather than an observed result or explicit pending state."},
+        "C5": {"bit": 0, "rationale": "The stop row has no calendar date for return or handoff."}
+      },
+      "vector": [0, 1, 1, 0, 0],
+      "total": 2
+    },
+    {
+      "slot": "slot-05",
+      "criteria": {
+        "C1": {"bit": 0, "rationale": "The answer lacks complete alternate-route exclusion, exhaustive classification, and owned/due/thresholded unknown records."},
+        "C2": {"bit": 0, "rationale": "The three initiatives do not each carry explicit owner, effective date, and reopen limit, and several outcome fields remain dispersed or implicit."},
+        "C3": {"bit": 0, "rationale": "No recurring contiguous product block, complete continuity escalations, or dated pre-redesign queue test is supplied."},
+        "C4": {"bit": 0, "rationale": "The required complete measure records and checkpoint state/rival/safeguard/branch ledger are absent."},
+        "C5": {"bit": 0, "rationale": "The branch bullets omit per-row owner, route, and dated return/handoff fields."}
+      },
+      "vector": [0, 0, 0, 0, 0],
+      "total": 0
+    },
+    {
+      "slot": "slot-06",
+      "criteria": {
+        "C1": {"bit": 0, "rationale": "The response does not perform the required route exclusion or give every consequential unknown a complete owner/method/date/threshold/effect record."},
+        "C2": {"bit": 0, "rationale": "The initiative dispositions and the one-priority evidence record omit required explicit fields."},
+        "C3": {"bit": 0, "rationale": "Continuity escalation destinations and a dated queue test before any organization reroute are absent."},
+        "C4": {"bit": 0, "rationale": "The three full measure records and per-check result/rival/safeguard/branch ledger are missing."},
+        "C5": {"bit": 0, "rationale": "The threshold bullets lack branch-specific dates, owners, routes, and dated returns or handoffs."}
+      },
+      "vector": [0, 0, 0, 0, 0],
+      "total": 0
+    },
+    {
+      "slot": "slot-07",
+      "criteria": {
+        "C1": {"bit": 0, "rationale": "The answer has neither complete fact-based alternate-route exclusion nor a complete consequential-unknown ledger."},
+        "C2": {"bit": 0, "rationale": "The outcome baseline/target fields and the initiatives' owner/date/reopen records are incomplete."},
+        "C3": {"bit": 0, "rationale": "Recurring product blocks, complete escalation destinations, weekly recovery across the horizon, and a dated pre-redesign queue test are missing."},
+        "C4": {"bit": 0, "rationale": "Complete measure and checkpoint records are not present."},
+        "C5": {"bit": 0, "rationale": "The four gates lack the full per-row owner/date/route/handoff schema."}
+      },
+      "vector": [0, 0, 0, 0, 0],
+      "total": 0
+    },
+    {
+      "slot": "slot-08",
+      "criteria": {
+        "C1": {"bit": 0, "rationale": "Investor diligence is omitted from the input ledger, and the facilitator/teacher-mix rival lacks its own complete unknown record."},
+        "C2": {"bit": 1, "rationale": "The sole outcome/tactic and all required evidence fields are explicit; each initiative is owned, dated, and bounded; the essential obligations are separately protected; prohibited proxies are not success evidence."},
+        "C3": {"bit": 1, "rationale": "Recurring product blocks and Lena contact on every booked date are explicit; the four supplied continuity arrangements are preserved with escalation/artifacts/windows; the workload and recovery envelope has no exceptional push; and relief precedes the dated queue reroute test."},
+        "C4": {"bit": 1, "rationale": "Multiple morale mechanisms and a rival are tested, premise and tactic are separate, the three measure classes are complete, and every checkpoint explicitly marks its result pending with the required companion fields."},
+        "C5": {"bit": 0, "rationale": "The stop row says the return date will be set at routing rather than giving a calendar date."}
+      },
+      "vector": [0, 1, 1, 1, 0],
+      "total": 3
+    },
+    {
+      "slot": "slot-09",
+      "criteria": {
+        "C1": {"bit": 0, "rationale": "The exact September 10 Expo date and Priya's catalog proposal are not preserved/classified."},
+        "C2": {"bit": 1, "rationale": "The outcome/tactic record is complete; all initiatives have owned, dated, bounded dispositions; obligations are protected; success is not inferred from prohibited proxies."},
+        "C3": {"bit": 1, "rationale": "The response provides recurring focus blocks and contact across all session dates, complete continuity coverage, dated recovery with no exceptional push, removed rival work, and a July 21 queue-relief test."},
+        "C4": {"bit": 0, "rationale": "Checkpoint result cells instruct future recording but never explicitly state that results are pending."},
+        "C5": {"bit": 0, "rationale": "The stop return is to be dated only at closure, so the row lacks the required calendar date."}
+      },
+      "vector": [0, 1, 1, 0, 0],
+      "total": 2
+    },
+    {
+      "slot": "slot-10",
+      "criteria": {
+        "C1": {"bit": 0, "rationale": "The Expo reopen condition lacks a complete unknown record, and the continuity gate cites nonexistent O29-O36 identifiers."},
+        "C2": {"bit": 1, "rationale": "One outcome and one insert tactic have the required evidence fields; each competing initiative has an owned, dated, bounded disposition; the four obligations are separately protected; proxies do not count as success."},
+        "C3": {"bit": 1, "rationale": "Recurring analysis blocks and Lena attendance on each booked date are explicit; supplied continuity, workload/recovery without an exceptional push, load removal, and the July 23 queue test satisfy the envelope."},
+        "C4": {"bit": 0, "rationale": "Future checkpoint result cells are neither observed nor explicitly marked pending."},
+        "C5": {"bit": 0, "rationale": "The stop row uses 'owner-dated then' instead of a handoff or return calendar date."}
+      },
+      "vector": [0, 1, 1, 0, 0],
+      "total": 2
+    }
+  ],
+  "vectors": {
+    "slot-01": [1, 1, 0, 1, 0],
+    "slot-02": [0, 0, 0, 0, 0],
+    "slot-03": [0, 0, 0, 0, 0],
+    "slot-04": [0, 1, 1, 0, 0],
+    "slot-05": [0, 0, 0, 0, 0],
+    "slot-06": [0, 0, 0, 0, 0],
+    "slot-07": [0, 0, 0, 0, 0],
+    "slot-08": [0, 1, 1, 1, 0],
+    "slot-09": [0, 1, 1, 0, 0],
+    "slot-10": [0, 1, 1, 0, 0]
+  },
+  "bit_changes_from_locked_score": [],
+  "totals": {
+    "all_slots": 12,
+    "max_all_slots": 50
+  },
+  "arm_scores": {
+    "normalization": "passed criterion bits divided by 25 possible bits per five-response arm",
+    "guided": {
+      "slots": ["slot-01", "slot-04", "slot-08", "slot-09", "slot-10"],
+      "passed_bits": 12,
+      "possible_bits": 25,
+      "mean_score": 0.48,
+      "mean_raw_total_per_response": 2.4
+    },
+    "control": {
+      "slots": ["slot-02", "slot-03", "slot-05", "slot-06", "slot-07"],
+      "passed_bits": 0,
+      "possible_bits": 25,
+      "mean_score": 0.0,
+      "mean_raw_total_per_response": 0.0
+    },
+    "guided_minus_control": 0.48
+  },
+  "acceptance": {
+    "operator": ">=",
+    "threshold": 0.2,
+    "observed_delta": 0.48,
+    "accepted": true
+  },
+  "conclusion": "No bit changes. The audited normalized guided-minus-control delta is 0.48, so attempt 005 satisfies the >=0.20 acceptance rule."
+}

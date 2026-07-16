@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "status": "archived-after-package-refactor",
+  "scored": true,
+  "canonical_for_skill_sha256": "a8a660292004fa80c90c72265be27ef7bc83434682461e23628b744144541e46",
+  "score": 0.666667,
+  "baseline_score": 0.466667,
+  "delta": 0.2,
+  "reason": "This clean one-write forward run passed at the frozen package hash, then the package was refactored after independent held-out and paired-microtest transfer failures. It is retained as historical evidence and is not canonical for the revised package."
+}

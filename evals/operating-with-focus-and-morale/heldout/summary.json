@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "attempt": 5,
+  "design_fairness_audit": "pass",
+  "response_sha256": "61851c4c0b4aae971b7a3f0f8678d41241326d8e2a7243755ece0572f1b1d66d",
+  "response_words": 962,
+  "vector": [1,0,1,1,1],
+  "score": 4,
+  "max": 5,
+  "accepted": false,
+  "miss": "Two distinct claims from the same speaker were preserved in one row instead of separate reusable IDs.",
+  "post_score_repairs": false
+}

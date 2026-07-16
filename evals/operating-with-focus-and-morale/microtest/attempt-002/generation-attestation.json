@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "plan_id": "operating-with-focus-and-morale-paired-microtest-002",
+  "attempt": 2,
+  "attested_at_utc": "2026-07-16T00:28:35Z",
+  "generation_plan_sha256": "27deaa7f0dbd532254f2c0cf7feef9577b9b1ed015e6ca0f76bd2f33c607a77b",
+  "criteria_hidden": true,
+  "fresh_context_per_sample": true,
+  "one_write_capture": true,
+  "quality_resampling": false,
+  "hard_maximum_words": 1200,
+  "responses": [
+    {"sample_id":"focus_micro2_control_1","path":"evals/operating-with-focus-and-morale/microtest/control/rep-1.md","sha256":"26fe6379d08130e60c9834b9565161783c0aca0afd34b348370f7b672f9b2102","words":760,"within_limit":true,"declared_path_match":true},
+    {"sample_id":"focus_micro2_control_2","path":"evals/operating-with-focus-and-morale/microtest/control/rep-2.md","sha256":"ba2fb6e0774446e4449b96a8452616c6371515aea94faff5d17e224e083fabbc","words":703,"within_limit":true,"declared_path_match":true},
+    {"sample_id":"focus_micro2_control_3","path":"evals/operating-with-focus-and-morale/microtest/control/rep-3.md","sha256":"20fe3704c1b52d1ed887b1711f73b7dc0de45ff73fbe1ed2a5547937b19ae374","words":683,"within_limit":true,"declared_path_match":true},
+    {"sample_id":"focus_micro2_control_4","path":"evals/operating-with-focus-and-morale/microtest/control/rep-4.md","sha256":"10eb3911dbea66f20c09844306ae85c7c3c20b9ade1a66917657c03ce189092d","words":753,"within_limit":true,"declared_path_match":true},
+    {"sample_id":"focus_micro2_control_5","path":"evals/operating-with-focus-and-morale/microtest/control/rep-5.md","sha256":"6baee99b1fe1a1fbd84049b8d7769455204efa473b811590ed682086bebde426","words":770,"within_limit":true,"declared_path_match":true},
+    {"sample_id":"focus_micro2_guided_1","path":"evals/operating-with-focus-and-morale/microtest/guided/rep-1.md","sha256":"148b26eeb43fdfadeaa33dc12cd59cba860f28dea9af8a2699360ef831c8a932","words":769,"within_limit":true,"declared_path_match":true},
+    {"sample_id":"focus_micro2_guided_2","path":"evals/operating-with-focus-and-morale/microtest/guided/rep-2.md","sha256":"72aa33942a3affb7753546553e390c6aaf74ecb6e2c65e695605054eff2e425a","words":825,"within_limit":true,"declared_path_match":true},
+    {"sample_id":"focus_micro2_guided_3","path":"evals/operating-with-focus-and-morale/microtest/guided/rep-3.md","sha256":"5e762f08f357d305951a17cb307d72219137640df107d4a357ac57605487ce8e","words":764,"within_limit":true,"declared_path_match":true},
+    {"sample_id":"focus_micro2_guided_4","path":"microtest/guided/rep-4.md","sha256":"653dbf49208a22444a3f887d594c9ae9a9cfae294e1b2c69013da62565e4bb9b","words":838,"within_limit":true,"declared_path_match":false},
+    {"sample_id":"focus_micro2_guided_5","path":"evals/operating-with-focus-and-morale/microtest/guided/rep-5.md","sha256":"1dbc5487dd7150631370f3c39759680026cfa28acd1523534aed7a892e8d6a6a","words":814,"within_limit":true,"declared_path_match":true}
+  ],
+  "capture_and_length_result": "pass",
+  "path_contract_result": "fail",
+  "integrity_result": "fail",
+  "scorer_dispatched": false
+}

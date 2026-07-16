@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "attempt": 3,
+  "skill": "operating-with-focus-and-morale",
+  "repository_head_at_design": "95869de486af4a90d180443ac1677f6021648f1f",
+  "skill_source_sha256": "b6c338f2d9ce0b225e81f03ed1c1e4f8b15ab9731d53f343375a2008eedf0507",
+  "runtime_contract_sha256": "5d44db01c258ab81ad55a0479e49563dd8d2766be2d9f06144483db138d45cff",
+  "status": "design-only",
+  "domain": "worker-owned multilingual local-news service",
+  "acceptance": {
+    "required_score": 5,
+    "possible_score": 5,
+    "rule": "All five strict conjunctive criteria must pass; no partial credit within a criterion."
+  },
+  "exact_prompt": "Use the operating-with-focus-and-morale skill to advise Civic Thread News. Return its compact filled decision artifact in at most 1,200 words. Today is 2026-07-15. Decide the primary route and the one priority and current tactic for 2026-07-15 through the board's final decision on 2026-09-18. Do not ask follow-up questions or invent names, values, dates, owners, thresholds, or coverage. If a decision-relevant field is not supplied, write `unknown` in that cell and complete the row with the supplied owner, artifact or method, date, result threshold, and decision effect; `unknown` is a filled value, not a blank. Do not create unknown rows for questions that cease to matter after your decision.\n\nCivic Thread is an 18-month-old, five-person worker-owned local-news startup with 1,240 paying members. Mara Chen is editor and accountable company-priority owner; Luis Ortega owns audience and member service; Priya Shah owns operations, payroll, and legal coordination; Theo Brooks owns corrections and publishing incidents; Nia Okafor owns reporting and source security. Editorial-priority rights belong to Mara, audience scheduling to Luis, and operations decisions to Priya. Those rights, interfaces, and backups are written and worked without a recurring approval queue under normal load. Three routine approvals have now waited 36 hours, beginning only after Mara's overload described below. From 2026-07-20 through 2026-07-25 Luis is the written backup for routine editorial approvals, with a 24-hour service limit. If any routine approval still exceeds 24 hours on 2026-07-25 after the workload relief and backup are active, Mara and Priya will open an organization-design review.\n\nCash covers 11 months at the current burn; payroll is funded through 2027-06-30; there is no debt default, near-payroll threat, financing process, investor diligence, buyer contact, sale process, or offer. There is no known acute medical, self-harm, safety, misconduct, retaliation, privacy, security, legal, fiduciary, evidence-preservation, or customer-continuity event. These are the filled contents of Priya's single route-gate checklist checked on 2026-07-15. The evidence ledger may identify that dated checklist once and have the separate gate rows cite it rather than restating every negative; this does not permit unrelated inputs to be merged. Revalidate cash, payroll, legal, privacy, security, source-safety, and member-continuity facts at each dated review.\n\nThe billing export shows that two completed East Ward renewal cohorts renewed at 58%, versus 76% for members elsewhere. The next 310 East Ward memberships renew from 2026-08-01 through 2026-09-15. The board approved a target of at least 70% paid renewal for that cohort by 2026-09-15 and a final keep, change, or stop decision on 2026-09-18. No controlled retention tactic has yet been tried. At most two two-week tactic cycles fit before that final decision.\n\nTwelve recorded East Ward exit interviews exist: eight members said useful coverage arrived after city decisions, and seven said they could not reliably use English-only explainers. Those statements and recordings are observed; the interpretations that timing caused cancellation, that language caused cancellation, and that 12 interviews represent the 310-member cohort remain claims or unknowns. A rival newsletter announced a $2 million expansion on 2026-07-10. Luis says that announcement proves Civic Thread has already lost the neighborhood. The board chair says an invited state-journalism keynote will prove the team is serious. A podcast sponsor says a launch will create a national audience. The redesign agency says the homepage must look modern before retention can improve. None has supplied causal evidence.\n\nPriya's calendar export shows Mara worked 66 hours in each of the last four weeks, including 28 meeting or status hours per week. Mara reversed two editorial calls after midnight, missed three of the last four scheduled member calls, and let one correction wait 14 hours. The anonymous team pulse on 2026-07-14 records three of five people reporting low morale and an invisible finish line. No one reported an acute health or safety symptom. Mara's trusted peer Jordan Hale has agreed to a private 30-minute call each Friday through 2026-09-18.\n\nThe available retention test is four Spanish-English pre-decision explainers published before four council or school-board deadlines from 2026-07-20 through 2026-08-02. Sixty consenting East Ward members renewing in the window are already available: Priya can randomly assign 30 to receive the explainers and 30 to ordinary coverage. Luis can report delivery, opens, replies, and stated renewal intent on 2026-08-03; Priya can report paid renewals from the billing export on 2026-09-15. Mara can call 20 consenting members on Tuesdays and Thursdays from 16:00 to 17:00. The proposed mechanism is useful coverage before decisions in the member's usable language; the rival is that coverage frequency, not timing or language, drives renewal. It remains unknown whether the 12 interviews generalize, whether timing or language is the stronger mechanism, and whether the 2026-08-03 leading signals predict paid renewal. Luis owns the interview/call log due 2026-07-24; Priya owns the randomized-test report due 2026-08-03 and the paid-renewal export due 2026-09-15. For the unknown controls, 12 or more of the 20 calls repeating at least one interview mechanism is the supplied generalization signal; a margin of six or more calls naming one mechanism over the other is the supplied timing-versus-language discriminator; and matching direction between the 2026-08-03 test-versus-comparison intent gap and the 2026-09-15 paid-renewal gap is the supplied leading-signal validation. Treat leading signals as provisional until paid renewal arrives. An equally or more discriminating observable threshold also passes. Results can change the tactic after cycle one, reopen the retention premise after two discriminating cycles, or stop the work at the final decision.\n\nEvery named material initiative needs a disposition. The bilingual retention test is available on 2026-07-20. The sponsored podcast would take Luis 10 hours per week; the sponsor will accept a deferral decision by 2026-07-18 and no launch before 2026-09-21. The homepage redesign would take Mara 6 and Priya 4 hours per week; the agency permits a no-fee pause through 2026-10-01 if told by 2026-07-17. The 2026-08-06 keynote would take Mara 8 hours per week to prepare and may be declined by 2026-07-17. Nia has promised confidential sources publication of a school-board contracting investigation on 2026-07-29; it requires Nia 20 and Theo 3 hours per week and may be tightly bounded but not silently abandoned. The daily city-decision alert, corrections, member replies, payroll, legal review, and source confidentiality are essential obligations, not rival initiatives: protect them in the essential-obligation and execution sections rather than duplicating them in the competing-work ledger.\n\nThe board has authorized this execution envelope from 2026-07-20 through 2026-09-18: Mara at no more than 45 hours per week, no work after 18:30, Sunday fully off, Wednesday morning recovery, and one exceptional council-vote shift on 2026-07-28 from 18:30 to 21:00 that ends at 21:00. Mara has protected analysis blocks Tuesday and Thursday 09:00-12:00 and the member calls above. Meetings and status work are capped at 6 hours per week; non-escalation notifications stay off during protected blocks. The board requires one intermediate review on 2026-08-03, a second-cycle decision on 2026-08-04 if needed, weekly workload and continuity checks each Friday, the paid-renewal result on 2026-09-15, and the final decision on 2026-09-18.\n\nUse this supplied coverage: member inbox and daily alert — Luis primary, Theo distinct backup, four-business-hour service level, breach escalates to Mara within two hours; corrections and publishing incidents — Theo primary, Nia distinct backup, acknowledge within 30 minutes, escalate immediately to Mara in the incident channel; payroll and legal coordination — Priya primary, Mara distinct backup, payroll cutoff Friday 12:00, legal issue to Cortez Legal within four hours; source security — Nia primary, Theo distinct backup, any suspected breach to Mara and Cortez Legal within 15 minutes; routine editorial approval — Mara primary, Luis distinct temporary backup through 2026-07-25, 24-hour limit, then the organization-review trigger stated above. Confidential source identity may never be exposed; a suspected exposure or missed essential correction ends the retention test pending incident review. Keep accountability private; do not use hours, public pressure, the rival's prestige, or morale alone as evidence of determination or demand.\n\nSelect the tactic now. Preserve the option to run one materially changed second cycle after 2026-08-04 if the goal premise remains plausible. Separate continue, adapt, reopen-goal, and stop; each must have its own observable threshold, next action, owner, calendar date, resulting primary route, and handoff or return state. An observable threshold that is equally or more discriminating than any natural threshold suggested by these facts is acceptable; do not depend on a magic phrase or one hidden numeric cutoff.",
+  "criteria": [
+    {
+      "id": "C1",
+      "name": "Route, evidence, and epistemic control",
+      "strict_conjunction": true,
+      "all_of": [
+        "Selects operating-with-focus-and-morale as primary for the dated decision, gives the current supporting route as none — reason or treats building-and-evolving-organizations only as conditional after the supplied 2026-07-25 trigger, and excludes survival, financing, buyer, current organization, and acute-risk primacy from supplied facts rather than assertion.",
+        "Route header contains the exact decision, horizon, stage, accountable owner, intermediate checks, final review, and an explicit return state or none — reason when route-back is inapplicable.",
+        "Evidence ledger assigns IDs, distinguishes observed records from stakeholder claims, preserves every material supplied interpretation at least once, and ends with no unclassified decision-relevant inputs.",
+        "Every unknown that remains consequential after the selected decision has its own owner, artifact or method, date, observable result threshold, and decision effect. A complete unknown control row passes for a withheld value; omission is not penalized when the answer no longer affects the selected priority, tactic, safeguard, or branch.",
+        "No unsupplied person, fact, measurement, date, threshold, or coverage assignment is presented as known. Lineage identifies runtime structure as synthesis, names current facts requiring revalidation, and either cites essay URL/exact lines when provenance was available on the normal isolated skill-loading surface or says once that those citations were unavailable."
+      ]
+    },
+    {
+      "id": "C2",
+      "name": "One priority, one tactic, and complete attention allocation",
+      "strict_conjunction": true,
+      "all_of": [
+        "Selects exactly one company-changing outcome and one current tactic; linked explainer, measurement, and direct-member-contact work may form one evidence loop but are not parallel priorities.",
+        "Priority row supplies a dated baseline, target, affected members or work, owner, mechanism, rival, honest intermediate and final latency, falsifier or cycle-ending condition, and final decision date without treating leading intent as paid renewal.",
+        "Podcast, homepage redesign, keynote, school-board investigation, and bilingual retention test each have their own permissible protect/cancel/delegate/defer/bound disposition, owner, effective date, and limit or reopen condition. Any disposition consistent with supplied obligations and the one-priority constraint passes; no hidden preferred disposition or wording is required.",
+        "Protects the daily alert, corrections, member replies, payroll, legal review, and source confidentiality separately as essential obligations rather than duplicating them as competing-work rows, and explicitly reports no undispositioned named material initiative."
+      ]
+    },
+    {
+      "id": "C3",
+      "name": "Released capacity, continuity, and humane morale protection",
+      "strict_conjunction": true,
+      "all_of": [
+        "Uses supplied analysis and direct-member-contact blocks, meeting and notification bounds, 45-hour cap, after-hours boundary, recovery, the bounded exceptional shift and its end, plus concrete removed or delegated load; does not stack focus blocks on unchanged 66-hour and 28-meeting-hour load.",
+        "Member continuity, corrections/publishing incidents, payroll/legal coordination, source security, and routine editorial approval each have separate rows with supplied primary, distinct backup, service or protected-work limit, escalation destination, and response window; no missing coverage is invented or continuity classes merged.",
+        "Mara retains direct member contact as accountable decision owner, and the 2026-07-25 relief check can route a persistent queue to organization work without claiming the current acute queue already proves structural failure.",
+        "Ties morale to the observed pulse, invisible finish line, overload, missed contact, reversals, correction delay, controllable progress, private peer support, realistic duration, and recovery; does not infer lost demand from rival prestige, use hours as determination, prescribe public pressure, or treat morale alone as the goal verdict."
+      ]
+    },
+    {
+      "id": "C4",
+      "name": "Owned cadence with honest evidence latency",
+      "strict_conjunction": true,
+      "all_of": [
+        "Separate measure rows cover paid East Ward renewal, a user or continuity outcome, and workload or judgment safeguards, each with a supplied or explicitly unknown baseline, target or limit, evidence source, owner, and dated review.",
+        "Cadence includes the 2026-08-03 intermediate evidence review, 2026-08-04 second-cycle decision if needed, Friday workload and continuity checks, 2026-09-15 paid-renewal evidence, and 2026-09-18 final decision.",
+        "Distinguishes leading delivery/open/reply/intent evidence from paid renewal, records mechanism and rival, and does not manufacture an earlier final outcome.",
+        "At each checkpoint calls for observed result, confounders or rival status, safeguard status, and the precommitted branch, reserving acute checks for an actual incident or breached boundary."
+      ]
+    },
+    {
+      "id": "C5",
+      "name": "Discriminating persistence branches",
+      "strict_conjunction": true,
+      "all_of": [
+        "Exactly four separate rows—continue, adapt, reopen-goal, and stop—each contain an observable threshold, next action, its own accountable owner, calendar date, resulting primary route, and explicit handoff or return state.",
+        "Thresholds distinguish signal plus safeguards for continue, plausible premise with a missed tactic threshold for adapt, repeated discriminating evidence across permitted cycles for reopen-goal, and a supplied hard source/correction, survival, legal, safety, or final invalidation boundary for stop.",
+        "Any observable thresholds at least as discriminating as those supported by the prompt pass; no hidden exact phrase, numeric cutoff, or preferred prose may be required when another threshold separates the branches equally well or better.",
+        "Records the tactic selected now, 2026-09-18 final decision date, preserved one-changed-cycle option, and consequential unresolved unknowns carried forward; does not abandon the goal from one miss or persist indefinitely with an unchanged tactic."
+      ]
+    }
+  ],
+  "criteria_hidden_first_response_protocol": [
+    "Export the current skill package to a fresh isolated directory outside the repository; verify SKILL.md and references/runtime-contract.md against skill_source_sha256 and runtime_contract_sha256, and retain repository_head_at_design only as provenance.",
+    "Give the response process filesystem access only to the exported skill package, not the repository. Expose only exact_prompt and that package's normal skill-loading surface; design, criteria, novelty rationale, self-audit, prior attempts, evals, scores, responses, held-out files, microtests, and scorer commentary must be absent from its readable filesystem and context.",
+    "Request one complete first response and give no clarification, hint, retry, critique, or revision opportunity before capture.",
+    "Lock the full first response verbatim before revealing or applying criteria; score only that locked response.",
+    "If the model asks a question instead of returning the artifact, that question is the first response; do not answer it or allow a retry."
+  ],
+  "novelty_rationale": "The case is a worker-owned multilingual local-news service whose state-changing outcome is member renewal around civic-decision usefulness and whose continuity surfaces include corrections, member alerts, payroll/legal coordination, and confidential-source security. It is materially different from marine hardware, software, fundraising, acquisition, greenhouse hardware, and performing arts. It tests portable route, evidence, attention, workload, continuity, morale, latency, and persistence mechanisms without relying on an excluded domain's vocabulary or operating model.",
+  "fairness_self_audit": {
+    "satisfiable_from_supplied_facts": {
+      "result": "pass",
+      "note": "All required people, dates, activities, evidence sources, owner assignments, availability bounds, coverage, escalation windows, review dates, and hard boundaries are supplied; C1–C5 require no invented name or value."
+    },
+    "missing_value_treatment": {
+      "result": "pass",
+      "note": "C1 and C4 accept a complete unknown control row when a value is withheld, and the prompt forbids invention."
+    },
+    "consequential_unknowns_only": {
+      "result": "pass",
+      "note": "Unknown rows are required only when the answer still affects the selected priority, tactic, safeguard, or branch; omission after immateriality is explicitly accepted."
+    },
+    "threshold_neutrality": {
+      "result": "pass",
+      "note": "The prompt and C5 accept any observable threshold at least as discriminating as the intended behavior; no hidden exact phrase or numeric cutoff is required."
+    },
+    "branch_feasibility": {
+      "result": "pass",
+      "note": "The facts supply honest intermediate and final dates, two possible cycles, hard source/correction boundaries, owners, and route states for all four branches."
+    },
+    "strict_acceptance": {
+      "result": "pass",
+      "note": "There are exactly five strict conjunctive criteria and acceptance is 5/5."
+    },
+    "criteria_hidden_protocol": {
+      "result": "pass",
+      "note": "The protocol uses a skill-only exported directory and denies repository filesystem access, then hides criteria and prior evaluation material until the first response is locked."
+    },
+    "word_budget_feasibility": {
+      "result": "pass",
+      "note": "Only five named material initiatives require competing-work rows; six essential obligations live once in their required obligation/coverage sections, and the dated route-gate checklist may be referenced once from separate gate rows."
+    },
+    "design_only": {
+      "result": "pass",
+      "note": "No model response, prediction, score, or post-hoc judgment is included."
+    }
+  }
+}

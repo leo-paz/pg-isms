@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "case_id": "focus-heldout-buyer-001",
+  "scorer": "/root/focus_heldout_scorer",
+  "response_sha256": "5c407d929cfee9dfde0e90d017ffb01f47ca5e405faecd471bff98f70fcf70fd",
+  "integrity_verdict": "pass",
+  "naturalness_verdict": "pass",
+  "no_hidden_criteria_leakage_verdict": "pass",
+  "binary_vector": [1, 0, 0, 0, 0],
+  "positive_count": 1,
+  "total_bits": 5,
+  "mandatory_C1_passed": true,
+  "minimum_positive_bits_required": 4,
+  "transfer_verdict": "fail",
+  "criterion_decisions": {
+    "C1": "pass: acquisition/exits is explicitly primary and focus/morale is supporting cadence",
+    "C2": "fail: close probability and diligence burden are not each explicit complete unknown tests",
+    "C3": "fail: optional roadmap work and generic calendar redesign are not explicitly disposed of",
+    "C4": "fail: continuity backups are incomplete and no sustainable weekly limit is stated",
+    "C5": "fail: pause, per-branch next owners, acquisition-primary continuation, and outcome-linked handoffs are incomplete"
+  },
+  "artifacts": [
+    "evals/operating-with-focus-and-morale/heldout/score.json",
+    "evals/operating-with-focus-and-morale/heldout/scorecard.md",
+    "evals/operating-with-focus-and-morale/heldout/review.md",
+    "evals/operating-with-focus-and-morale/heldout/summary.json"
+  ]
+}

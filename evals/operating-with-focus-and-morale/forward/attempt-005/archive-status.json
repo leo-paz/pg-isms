@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "status": "archived-unscored-nonconforming",
+  "attempt": 5,
+  "skill_sha256": "b6c338f2d9ce0b225e81f03ed1c1e4f8b15ab9731d53f343375a2008eedf0507",
+  "runtime_sha256": "9e7aec3b9562cae075998e673bc13f9b0599d32896d2795e6123cd5fa0a69a59",
+  "scoring_started": false,
+  "response_words": {
+    "scenario-01": 1594,
+    "scenario-02": 1574,
+    "scenario-03": 1538,
+    "scenario-04": 1653,
+    "scenario-05": 1421,
+    "scenario-06": 1551
+  },
+  "reason": "All six first-created responses exceeded the precommitted 1200-word maximum. They were rejected before scoring and preserved unchanged. The package output contract was then compressed rather than relaxing the evaluation limit."
+}

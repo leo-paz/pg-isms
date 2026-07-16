@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "phase": "skill-forward",
+  "attempt": 3,
+  "attested_at_utc": "2026-07-15T23:40:23Z",
+  "generation_plan_sha256": "3976e22239a17af1c43d1d4f3ff090abde36ab7597191b5602408cadf19b0613",
+  "cases_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+  "frozen_skill_sha256": "a8a660292004fa80c90c72265be27ef7bc83434682461e23628b744144541e46",
+  "frozen_runtime_sha256": "974c75374bea41dfb5f3a6c3b46cbf34fe1301905683357f9fe9b0bd35fede2d",
+  "criteria_hidden": true,
+  "fresh_context": true,
+  "first_created_file_preserved": true,
+  "quality_resampling": false,
+  "hard_maximum_words": 1200,
+  "responses": [
+    {"case_id":"scenario-01","sha256":"9f61e7852eb081227c1efec4ec7e603d5411aa88fbe43a91c74b0df70950f879","bytes":8091,"words":1169,"birth_epoch":1784158683,"mtime_epoch":1784158683,"within_limit":true},
+    {"case_id":"scenario-02","sha256":"2b43ebbb0ef7505b11b47942b592b9885d158d0fade39fb83750169bb595b1d6","bytes":8167,"words":1217,"birth_epoch":1784158705,"mtime_epoch":1784158705,"within_limit":false},
+    {"case_id":"scenario-03","sha256":"09c32ceb05477829f61fa0188c72e086270cec1d98885572fb8b1e66a7ba7898","bytes":7931,"words":1179,"birth_epoch":1784158703,"mtime_epoch":1784158703,"within_limit":true},
+    {"case_id":"scenario-04","sha256":"e90b204e6041709bf8407e4f2881fb608141a46194fbce9171f3218def00c37d","bytes":7670,"words":1098,"birth_epoch":1784158790,"mtime_epoch":1784158790,"within_limit":true},
+    {"case_id":"scenario-05","sha256":"6ba0d7753b0836d2261ab44e7442cf83ba02add16d6eca529cce0d786fc0c4fa","bytes":7927,"words":1125,"birth_epoch":1784158803,"mtime_epoch":1784158803,"within_limit":true},
+    {"case_id":"scenario-06","sha256":"43dfef4218ebaa5ff0bcf10e6d65c64d3f89dcb6baaec03a125614a6fb2fc34d","bytes":7786,"words":1140,"birth_epoch":1784158815,"mtime_epoch":1784158815,"within_limit":true}
+  ],
+  "capture_integrity_result": "pass",
+  "length_contract_result": "fail",
+  "integrity_result": "fail",
+  "failure_reason": "One frozen response exceeded the hard maximum; the aggregate attempt was rejected before scoring.",
+  "scorer_dispatched": false,
+  "replacement_policy": "Preserve all six responses unscored and run new fresh-context generators with a lower target and the same hard maximum."
+}

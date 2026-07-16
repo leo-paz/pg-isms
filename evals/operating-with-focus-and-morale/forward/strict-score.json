@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "phase": "skill-forward",
+  "attempt": 9,
+  "scorer_id": "focus-forward-scorer-009",
+  "scoring_contract": {
+    "binary": true,
+    "strict_conjunctive": true,
+    "criteria_per_case": 5,
+    "rule": "A criterion passes only when every material component is explicit; omitted components are not inferred."
+  },
+  "judgment_freeze": {
+    "forward_judgments_frozen_before_baseline_comparison": true,
+    "baseline_consulted_only_after_freeze": true
+  },
+  "cases": [
+    {
+      "case_id": "scenario-01",
+      "vector": "11001",
+      "passes": 3,
+      "misses": [3, 4],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "The route header makes operating-with-focus-and-morale primary, and the gates explicitly rule out cash survival, fundraising, and organizational authority as the present constraint while naming displaced defect and customer work as the focus constraint."
+        },
+        {
+          "criterion": 2,
+          "bit": 1,
+          "rationale": "The ledger explicitly records the 31-hour calendar use, six twice-rescheduled calls, nine affected customers, three-week defect age, runway, clear rights, and no fundraise as observed; records both CEO statements as claims; and assigns evidence work for defect loss, blockage, or churn and for the dated value of external obligations."
+        },
+        {
+          "criterion": 3,
+          "bit": 0,
+          "rationale": "The four-week sync outcome and reporting and external-work dispositions are explicit, but internal status meetings are only bounded, not explicitly canceled, delegated, or deferred as the criterion requires."
+        },
+        {
+          "criterion": 4,
+          "bit": 0,
+          "rationale": "Retailer contact, essential coverage, a 45-hour cap, nights, and a recovery day are explicit, but the recurring product maker block is assigned to the unknown U8 product owner rather than explicitly protected as founder maker time."
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "rationale": "The CEO owns the sync outcome, call completion, impact investigation, and calendar and workload measures; observed baselines and dated weekly reviews are present; the branch matrix supplies tactic-change and cycle-ending evidence and a final 2026-08-12 decision."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "vector": "11111",
+      "passes": 5,
+      "misses": [],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "The response makes focus and morale primary, keeps competitor news and morale as context to investigate, rejects routine nights, preserves the missed-appointment outcome, and changes the workflow tactic rather than abandoning the goal or persisting unchanged."
+        },
+        {
+          "criterion": 2,
+          "bit": 1,
+          "rationale": "Clinic use, reported no-show change, procurement, alert opening, staff feedback, demos, and paid pilots are observed separately from the engineers' and product lead's claims; validity, friction causality, adoption response, repeatability, procurement, and demo-loss classification are explicit unknowns."
+        },
+        {
+          "criterion": 3,
+          "bit": 1,
+          "rationale": "The bounded goal is repeatable daily use that reduces missed appointments, the sole product experiment is a 14-day double-entry removal or bypass, and current-plan expansion, unrelated roadmap work, reactive features, and status work are explicitly deferred or removed."
+        },
+        {
+          "criterion": 4,
+          "bit": 1,
+          "rationale": "Four protected three-hour build blocks, recurring A and C clinic sessions, a 45-hour limit, no routine nights or weekends, and defined recovery after an incident are all explicit; hours are safeguards rather than evidence of determination."
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "rationale": "The product lead and assigned engineer own baseline and target measures, dated checkpoints run from 2026-07-18 through 2026-08-14, and the branch matrix precommits continue, adapt, reopen-goal, and stop evidence with a dated final decision."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "vector": "11111",
+      "passes": 5,
+      "misses": [],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "Operating-with-focus-and-morale is primary, the route ties ten weeks of overload to judgment, release, customer, and agency degradation, and it explicitly excludes survival and financing while refusing to treat conference intensity as an emergency."
+        },
+        {
+          "criterion": 2,
+          "bit": 1,
+          "rationale": "All required hours, reversal, rollback, skipped-call, approval-wait, runway, and financing facts are observed; seriousness is a claim; and blameless rollback review, conference value testing, and health and recovery-capacity checks are explicit unknowns."
+        },
+        {
+          "criterion": 3,
+          "bit": 1,
+          "rationale": "One customer-informed stable-release outcome leads the month, while the response caps or defers conference scope, cancels the night push, delegates late approvals, and removes speculative polish and redundant approvals."
+        },
+        {
+          "criterion": 4,
+          "bit": 1,
+          "rationale": "A 72-hour release-decision recovery, 45-hour ceiling, prohibited nights, two days off, decision backup, recurring engineering maker blocks, recurring user blocks, and no exceptional push are explicit and immediate."
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "rationale": "Release reversals and rollbacks, skipped user contact, approval waits, and workload have owners and observed baselines; acute risk is checked by 2026-07-17, progress is checked weekly, and explicit switch and stop thresholds culminate in a dated review requiring seven stable days."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "vector": "11111",
+      "passes": 5,
+      "misses": [],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "Managing-runway-and-survival is explicitly primary because the cash arithmetic and 12-day payroll deadline create a fatal-pinch risk; focus and morale remain supporting only until a measurable survival envelope and route-back predicate hold."
+        },
+        {
+          "criterion": 2,
+          "bit": 1,
+          "rationale": "Cash, obligations, dependable gross profit, payroll, renewal timing, unsigned bridge, clear ownership, and next-day board deadline are observed; bridge and renewal proceeds are excluded from available cash; only decision-relevant liquidity, obligation, coverage, authority, and financing evidence gaps are carried."
+        },
+        {
+          "criterion": 3,
+          "bit": 1,
+          "rationale": "The next-window priority is a lawful payroll and continuity envelope, while calendar redesign and morale programming are deferred and discretionary experiments, nonessential meetings, and other non-survival work are removed."
+        },
+        {
+          "criterion": 4,
+          "bit": 1,
+          "rationale": "Payroll, legal, fiduciary, product and hardware, customer and warranty, and incident continuity are protected with required backup rosters and escalation paths; the cash sprint ends 2026-07-17 under hours, rest, and no-compulsory-nights safeguards."
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "rationale": "The CEO owns the survival decision and every evidence artifact, the board decides the next day, measurable proceed, counter, pause, and end branches define closure or escalation, and the 2026-07-31 route-back condition is observable and dated."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "vector": "10000",
+      "passes": 1,
+      "misses": [2, 3, 4, 5],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "The response makes building-and-evolving-organizations primary for repeated queues, broken commitment handoffs, and unowned incidents, and makes focus and morale supporting and contingent on released capacity."
+        },
+        {
+          "criterion": 2,
+          "bit": 0,
+          "rationale": "The required known facts and the CEO calendar claim are explicit, and authority limits are investigated, but residual CEO capacity is not explicitly classified as an unknown to test; a workload limit is not the missing capacity unknown."
+        },
+        {
+          "criterion": 3,
+          "bit": 0,
+          "rationale": "Explicit rights are the single organizational priority and the tool and meeting-cancellation proposals are canceled or deferred, but unrelated changes are not explicitly deferred pending evidence."
+        },
+        {
+          "criterion": 4,
+          "bit": 0,
+          "rationale": "Transfers, backup prerequisites, escalation paths, and continuity controls are explicit, and focus mornings wait for transfer, but recurring CEO maker and user periods drawn from the released capacity are not both explicitly reserved."
+        },
+        {
+          "criterion": 5,
+          "bit": 0,
+          "rationale": "Decision latency, late commitments, and ownerless incidents have owners, baselines, targets, checkpoints, branches, and a handoff, but no baseline measure for CEO load is assigned."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-06",
+      "vector": "10111",
+      "passes": 4,
+      "misses": [2],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "Raising-and-governing-capital explicitly leads because live Friday diligence and a next-Wednesday expiring term sheet constrain the state; focus and morale are supporting until a dated financing handoff."
+        },
+        {
+          "criterion": 2,
+          "bit": 0,
+          "rationale": "All required facts, the momentum assertion, investor fit, term acceptability, and diligence and reference work are explicit, but close probability is not explicitly identified as an unknown; advancement and fit cannot be inferred to be a probability assessment."
+        },
+        {
+          "criterion": 3,
+          "bit": 1,
+          "rationale": "The state-changing priority is an accept, counter, or decline decision on qualified paths; 21 or more introductions, unqualified partnerships, noncritical release scope, and the general morale redesign are explicitly canceled, deferred, or removed."
+        },
+        {
+          "criterion": 4,
+          "bit": 1,
+          "rationale": "The financing cadence ends by 2026-07-25, the CEO and product lead have explicit capital, product, support, user, and incident coverage duties, and hours, availability windows, recovery, backups, and escalation rules prevent continuous late-night work."
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "rationale": "Capital and evidence owners are assigned, diligence and term checkpoints meet their deadlines, measurable accept, counter, pause, and decline branches resolve or reset the round, and each branch has a dated observable handoff to focus and morale."
+        }
+      ]
+    }
+  ],
+  "result": {
+    "vectors": {
+      "scenario-01": "11001",
+      "scenario-02": "11111",
+      "scenario-03": "11111",
+      "scenario-04": "11111",
+      "scenario-05": "10000",
+      "scenario-06": "10111"
+    },
+    "passes": 23,
+    "criteria_total": 30,
+    "misses": 7,
+    "normalized_score": 0.766667,
+    "baseline": {
+      "passes": 14,
+      "criteria_total": 30,
+      "normalized_score": 0.466667
+    },
+    "exact_delta": {
+      "passes": 9,
+      "criteria_total": 30,
+      "normalized_fraction": "9/30 = 3/10",
+      "normalized_score": 0.3
+    },
+    "required_normalized_delta": 0.1,
+    "material_improvement": true
+  }
+}

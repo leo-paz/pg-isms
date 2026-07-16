@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "scorer_id": "focus-heldout-scorer-005",
+  "attempt_id": "operating-with-focus-and-morale-heldout-attempt-005",
+  "integrity": {
+    "prompt_exact_match": true,
+    "prompt_sha256": "5fc8d0bb86ad026a6624857a0f4828a86ee0e149eab020d9d0ef058c82963970",
+    "response_sha256": "61851c4c0b4aae971b7a3f0f8678d41241326d8e2a7243755ece0572f1b1d66d",
+    "response_word_count": 962,
+    "hard_answer_word_band": [
+      900,
+      1150
+    ],
+    "response_within_hard_answer_word_band": true
+  },
+  "scoring_mode": "binary_strict_conjunctive",
+  "criteria": [
+    {
+      "id": "route-and-state-boundary",
+      "bit": 1,
+      "rationale": "The response selects operating-with-focus-and-morale as primary; records the date, exact decision, horizon, stage, owner, all checks, final review, and the dated U2 route-switch; separately excludes survival, financing, buyer, authority/organization, and acute-continuity routes with supplied observed IDs; links the waits to the 67-hour overload and routes any U2 miss, including any post-relief wait over 24 hours by 2027-02-22, to building-and-evolving-organizations; and invents no adverse state."
+    },
+    {
+      "id": "evidence-integrity",
+      "bit": 0,
+      "rationale": "Strict failure: the prompt supplies five distinct claimed propositions, but the evidence ledger creates only four claim IDs. C2 merges Maya's two claims—longer hours prove seriousness and every initiative matters—into one row and one reusable ID. Because every clause is required, the otherwise complete observed ledger, exactly three unknown rows, and no fabricated checkpoint results cannot earn this bit."
+    },
+    {
+      "id": "priority-and-competing-work",
+      "bit": 1,
+      "rationale": "The response gives one priority/tactic row tied through O14–O17 to the next-20 founder-call plus refundable seven-day-hold test, preserving the 2/20 baselines, 6/20 target by 2027-03-08, affected organizers, Maya ownership, mechanism, rival, weekly checkpoints, falsifier, and final date. It protects tours, support, payroll, permits, and insurance and separately dispositions all six competitors with an owner, effective date, and a numeric bound or reopen condition."
+    },
+    {
+      "id": "execution-morale-and-cadence",
+      "bit": 1,
+      "rationale": "Across the evidence and execution tables, all four continuity classes retain their supplied primary/backup pairs, service levels, escalation destinations and windows, and artifacts. The response reserves the organizer blocks, applies every recovery constraint and removed-work ledger, schedules Rosa's private check, separates signal/mechanism/premise/tactic, provides separate company, guest-continuity, and workload/judgment measures, and marks the three required future checkpoints scheduled/not yet observed with confounder, safeguard, and branch fields."
+    },
+    {
+      "id": "branch-and-output-contract",
+      "bit": 1,
+      "rationale": "Separate stop, reopen-goal, continue, and adapt rows preserve the ordered exhaustive logic, including stop precedence, both-test 0–2 reopen, the full continue conjunction, and adapt as every remaining result with the named 3–5 subcase. The actions, owners, dates, routes, handoff/return states, decision-now, public-tour option, and U1–U3 carry are present. The artifact uses filled runtime tables, includes the one-line no-citations lineage boundary, and is 962 words, within 900–1,150."
+    }
+  ],
+  "vector": [
+    1,
+    0,
+    1,
+    1,
+    1
+  ],
+  "total": 4,
+  "maximum": 5,
+  "acceptance": {
+    "required": 5,
+    "maximum": 5,
+    "accepted": false
+  }
+}

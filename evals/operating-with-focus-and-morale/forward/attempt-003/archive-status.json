@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "attempt": 3,
+  "canonical": false,
+  "accepted": false,
+  "response_artifacts_frozen": true,
+  "scoring_started": false,
+  "archived_from": "evals/operating-with-focus-and-morale/forward/",
+  "disposition": "One-write capture passed, but scenario-02 exceeded the predeclared hard 1200-word maximum by 17 words. The frozen attempt is nonconforming and was archived before scoring; no response was edited or selectively replaced."
+}

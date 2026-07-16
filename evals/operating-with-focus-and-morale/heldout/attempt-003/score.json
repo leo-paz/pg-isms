@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "scorer_id": "focus-heldout-scorer-003",
+  "attempt": 3,
+  "prompt_verification": {
+    "matches_exact_prompt": true,
+    "comparison": "prompt.txt is exact_prompt followed by its single terminal LF",
+    "prompt_file_sha256": "cb5b5e53024abf2be24245aa578be17de798d405a7cf0324879c4a03ce53448c",
+    "design_exact_prompt_sha256": "8885d91f3378feee577b29eaeadfd28dd2992b50ca9b4fcb2e3f6f77e5ef133f"
+  },
+  "response_verification": {
+    "sha256": "a8927ddda08cdecc53ddb5dfde1471611603db341495147132f231778ae9af86",
+    "word_count": 1199,
+    "word_limit": 1200,
+    "within_word_limit": true
+  },
+  "criteria": [
+    {
+      "id": "C1",
+      "score": 0,
+      "rationale": "Fails the strict conjunction. Although the route, ledger, consequential experiment unknowns, and lineage are substantially complete, the execution table presents unsupplied coverage as known: Luis is placed in the distinct-backup column for Analysis/explainers even though his temporary backup authority is supplied only for routine editorial approvals, and Luis is likewise placed as backup for Mara's Member evidence work when the prompt supplies audience scheduling and log ownership, not backup coverage for those calls. The no-unsupplied-coverage clause therefore fails."
+    },
+    {
+      "id": "C2",
+      "score": 1,
+      "rationale": "Passes every conjunct. It selects one paid-renewal outcome and one bilingual pre-decision explainer evidence loop, supplies the required baseline, target, cohort, owner, mechanism, rival, honest latency, falsifier, and final date, dispositions all five named initiatives with owners/dates/bounds, separately protects all six essential obligations, and reports no undispositioned named activity."
+    },
+    {
+      "id": "C3",
+      "score": 0,
+      "rationale": "Fails the strict conjunction. The response uses the supplied capacity, recovery, contact, meeting, notification, exception, continuity, conditional organization-review, and morale provisions, but it invents backup coverage in the Analysis/explainers and Member evidence rows. Luis's supplied temporary backup is limited to routine editorial approvals; his audience scheduling and call-log duties do not establish backup coverage for Mara's analysis, explainers, or direct calls. The no-invented-coverage requirement therefore fails."
+    },
+    {
+      "id": "C4",
+      "score": 0,
+      "rationale": "Fails the strict conjunction. The measures, dates, evidence latency, mechanism, rival, and safeguard cadence are present, but the artifact never requires every checkpoint to record the observed result, confounders or current rival status, safeguard status, and the applicable precommitted branch. Gate revalidation plus a separate branch matrix does not fill the missing checkpoint-content field, and missing fields cannot be inferred."
+    },
+    {
+      "id": "C5",
+      "score": 1,
+      "rationale": "Passes every conjunct under the stated fairness provisions. There are exactly four branches, each with a discriminating observable threshold, action, ownership, calendar timing, resulting route, and handoff/return state. The stop row's return date is explicitly unknown but is controlled by the incident/gate-review method, relevant supplied continuity owner with Mara coordinating, occurrence timing, qualified-clearance threshold, and return effect. The selected tactic, final date, changed-cycle option, and unresolved unknowns are carried without one-miss abandonment or indefinite unchanged persistence."
+    }
+  ],
+  "vector": [0, 1, 0, 0, 1],
+  "total": 2,
+  "max": 5,
+  "acceptance": {
+    "required": 5,
+    "achieved": 2,
+    "accepted": false
+  }
+}

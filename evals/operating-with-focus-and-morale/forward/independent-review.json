@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "phase": "skill-forward",
+  "attempt": 9,
+  "reviewer_id": "focus-forward9-independent-audit",
+  "contract": {
+    "binary": true,
+    "strict_conjunctive": true,
+    "criteria_per_case": 5,
+    "rule": "A criterion passes only when every material component is explicit; omitted components are not inferred."
+  },
+  "scope": {
+    "read": [
+      "cases.json",
+      "forward/scenario-01.md",
+      "forward/scenario-02.md",
+      "forward/scenario-03.md",
+      "forward/scenario-04.md",
+      "forward/scenario-05.md",
+      "forward/scenario-06.md",
+      "forward/generation-attestation.json",
+      "forward/strict-score.json",
+      "forward/strict-review.md"
+    ],
+    "excluded": [
+      "skill contents",
+      "baseline responses",
+      "prior forward attempts",
+      "held-out evaluations",
+      "microtests",
+      "other repository files"
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "scenario-01",
+      "vector": "11001",
+      "passes": 3,
+      "misses": [3, 4],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "The response explicitly selects operating-with-focus-and-morale as primary, rules out survival, financing, and authority as current constraints, and identifies displaced retailer and sync-defect work as the focus constraint.",
+          "evidence": ["scenario-01.md:8", "scenario-01.md:15-20"]
+        },
+        {
+          "criterion": 2,
+          "bit": 1,
+          "rationale": "All required calendar, call, customer, defect-age, runway, governance, and fundraising facts are classified as observed; both CEO positions are classified as claims; defect impact and external-obligation value remain open evidence questions.",
+          "evidence": ["scenario-01.md:26-36", "scenario-01.md:43-45"]
+        },
+        {
+          "criterion": 3,
+          "bit": 0,
+          "rationale": "The sync outcome, reporting-redesign deferral, and external dispositions are explicit, but the named internal-status activity is only bounded to a weekly meeting rather than canceled, delegated, or deferred.",
+          "evidence": ["scenario-01.md:62", "scenario-01.md:71-76"]
+        },
+        {
+          "criterion": 4,
+          "bit": 0,
+          "rationale": "Founder retailer contact, essential continuity, and a sustainable weekly boundary are protected, but the recurring maker block is assigned to the still-unnamed U8 product owner, with the CEO merely accountable; founder maker time is not explicit.",
+          "evidence": ["scenario-01.md:70", "scenario-01.md:84-93"]
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "rationale": "The CEO owns the outcome and evidence loop; observed baselines cover sync impact, calls, and founder allocation; dated weekly checks, tactic-change and cycle-ending evidence, and the final 2026-08-12 decision are explicit.",
+          "evidence": ["scenario-01.md:99-111", "scenario-01.md:117-122"]
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "vector": "11111",
+      "passes": 5,
+      "misses": [],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "Focus and morale is primary; low morale and competitor news are evidence context rather than demand proof; the customer goal is retained while the tactic changes and routine nights are rejected.",
+          "evidence": ["scenario-02.md:5-13", "scenario-02.md:104"]
+        },
+        {
+          "criterion": 2,
+          "bit": 1,
+          "rationale": "Pilot use, outcome, procurement, alert opening, staff feedback, demos, and paid pilots are separated from the engineers' and product lead's conclusions, and the response explicitly tests adoption causality, repeatability, friction, procurement, and demo-loss bottlenecks.",
+          "evidence": ["scenario-02.md:19-40"]
+        },
+        {
+          "criterion": 3,
+          "bit": 1,
+          "rationale": "A bounded missed-appointment outcome and one 14-day double-entry tactic lead; expansion and unrelated roadmap and reactive work are explicitly deferred or removed while other competing work is tightly bounded.",
+          "evidence": ["scenario-02.md:44-62", "scenario-02.md:76"]
+        },
+        {
+          "criterion": 4,
+          "bit": 1,
+          "rationale": "The plan protects four recurring build blocks and weekly clinic contact, caps weekly hours, rejects routine nights and weekends, and requires recovery after the only allowed incident exception.",
+          "evidence": ["scenario-02.md:68-76"]
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "rationale": "Role owners, tactic baselines and targets, dated checkpoints, conditions for continuation and adaptation, conditions for reopening or stopping the goal, and a dated final decision are all explicit.",
+          "evidence": ["scenario-02.md:82-102"]
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "vector": "11111",
+      "passes": 5,
+      "misses": [],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "Operating-with-focus-and-morale is primary, the response ties sustained overload to judgment and operating degradation, and it explicitly rejects survival, financing, and conference-intensity framing as the current constraint.",
+          "evidence": ["scenario-03.md:3-12"]
+        },
+        {
+          "criterion": 2,
+          "bit": 1,
+          "rationale": "All required operating facts and the seriousness claim are classified, while rollback cause, minimum conference value, and health, fatigue, and recovery capacity remain explicit evidence questions.",
+          "evidence": ["scenario-03.md:16-34"]
+        },
+        {
+          "criterion": 3,
+          "bit": 1,
+          "rationale": "One customer-informed stable-release outcome leads, and the response bounds conference scope, cancels the night push, delegates late approvals, and removes speculative polish and redundant approvals.",
+          "evidence": ["scenario-03.md:46-59", "scenario-03.md:75"]
+        },
+        {
+          "criterion": 4,
+          "bit": 1,
+          "rationale": "Immediate release-decision recovery, a 45-hour ceiling, prohibited nights, two no-work days, decision backup, recurring engineering maker blocks, and recurring direct-user blocks are explicit and bounded to the month.",
+          "evidence": ["scenario-03.md:61-75"]
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "rationale": "Release quality, decision waits, user contact, and workload health have observed baselines and owners; acute risk is checked within two days, progress is checked weekly, branch thresholds are explicit, and closure requires a dated seven-day stability result.",
+          "evidence": ["scenario-03.md:79-96"]
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "vector": "11111",
+      "passes": 5,
+      "misses": [],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "Managing-runway-and-survival is explicitly primary because the stated cash arithmetic and payroll date create a fatal-pinch risk; focus and morale remains supporting until a measurable survival envelope exists.",
+          "evidence": ["scenario-04.md:8-23"]
+        },
+        {
+          "criterion": 2,
+          "bit": 1,
+          "rationale": "Cash, obligations, gross profit, payroll, renewal timing, unsigned financing, and ownership are classified as known; bridge and renewal proceeds are excluded until executable; the carried unknowns are immediate liquidity, obligation, authority, coverage, and financing inputs needed for a lawful survival choice.",
+          "evidence": ["scenario-04.md:28-57"]
+        },
+        {
+          "criterion": 3,
+          "bit": 1,
+          "rationale": "One state-changing payroll and continuity envelope leads, while generic calendar work, morale programming, nonessential meetings, and discretionary experiments are explicitly deferred, canceled, or removed.",
+          "evidence": ["scenario-04.md:60-75", "scenario-04.md:88"]
+        },
+        {
+          "criterion": 4,
+          "bit": 1,
+          "rationale": "The plan protects payroll, legal and fiduciary duties, product and hardware, customers, incidents, and teammates with backup and escalation controls, while bounding the sprint with hours, rest, and no-compulsory-night safeguards.",
+          "evidence": ["scenario-04.md:77-88"]
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "rationale": "The CEO owns the evidence and survival recommendation, the board has a next-day decision, measurable branches define action, closure, and escalation, and a dated observable predicate governs the handoff back to focus and morale.",
+          "evidence": ["scenario-04.md:14-15", "scenario-04.md:44-57", "scenario-04.md:90-97"]
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "vector": "10000",
+      "passes": 1,
+      "misses": [2, 3, 4, 5],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "Building-and-evolving-organizations is explicitly primary for repeated authority queues, late commitment handoffs, and unowned incidents; personal focus is supporting and contingent on released capacity.",
+          "evidence": ["scenario-05.md:1-10"]
+        },
+        {
+          "criterion": 2,
+          "bit": 0,
+          "rationale": "The required facts and CEO claim are classified and authority limits are tested, but residual CEO capacity is never explicitly identified as an unknown to measure; a future hours ceiling is not that unknown.",
+          "evidence": ["scenario-05.md:12-33", "scenario-05.md:67"]
+        },
+        {
+          "criterion": 3,
+          "bit": 0,
+          "rationale": "Explicit decision rights are the single priority and the meeting and tooling proposals are dispositioned, but unrelated changes are not explicitly deferred pending evidence; strict conjunction does not infer that from the chosen priority.",
+          "evidence": ["scenario-05.md:37-54", "scenario-05.md:83"]
+        },
+        {
+          "criterion": 4,
+          "bit": 0,
+          "rationale": "Transfers, backups, escalation paths, and continuity controls are staged, and focus mornings wait for the transfer, but the response does not explicitly reserve both recurring CEO maker time and direct user-contact time from released capacity.",
+          "evidence": ["scenario-05.md:41-67"]
+        },
+        {
+          "criterion": 5,
+          "bit": 0,
+          "rationale": "Decision latency, late commitments, and ownerless incidents have owners, baselines, targets, checkpoints, and branches, but CEO load has only a future limit and no assigned baseline measure.",
+          "evidence": ["scenario-05.md:37-39", "scenario-05.md:67-81"]
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-06",
+      "vector": "10111",
+      "passes": 4,
+      "misses": [2],
+      "decisions": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "rationale": "Raising-and-governing-capital explicitly leads because Friday diligence and a next-Wednesday term expiry are dated state constraints; focus and morale is supporting until a dated handoff.",
+          "evidence": ["scenario-06.md:3-14"]
+        },
+        {
+          "criterion": 2,
+          "bit": 0,
+          "rationale": "All required facts, the momentum assertion, investor fit, acceptable terms, and diligence and reference needs are explicit, but close probability is not explicitly classified as an unknown; timing, advancement, and leverage are not a stated probability assessment.",
+          "evidence": ["scenario-06.md:18-42"]
+        },
+        {
+          "criterion": 3,
+          "bit": 1,
+          "rationale": "The priority is an accept, counter, or decline decision on qualified paths, and the response explicitly cuts low-probability introductions, unqualified partnerships, optional release scope, and the general morale redesign.",
+          "evidence": ["scenario-06.md:46-59", "scenario-06.md:72"]
+        },
+        {
+          "criterion": 4,
+          "bit": 1,
+          "rationale": "The financing sprint ends within two weeks, named primary roles preserve product and customer continuity, and hours, availability, recovery, backup, and escalation controls prevent continuous late-night work.",
+          "evidence": ["scenario-06.md:61-72"]
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "rationale": "Capital and evidence owners, deadline-aligned checkpoints, measurable proceed, counter, pause, and decline branches, explicit round resolution or reset, and dated handoffs back to focus and morale are present.",
+          "evidence": ["scenario-06.md:35-46", "scenario-06.md:74-83"]
+        }
+      ]
+    }
+  ],
+  "result": {
+    "vectors": {
+      "scenario-01": "11001",
+      "scenario-02": "11111",
+      "scenario-03": "11111",
+      "scenario-04": "11111",
+      "scenario-05": "10000",
+      "scenario-06": "10111"
+    },
+    "passes": 23,
+    "criteria_total": 30,
+    "misses": 7,
+    "exact_score": "23/30",
+    "normalized_score": 0.766667,
+    "bit_changes_from_strict_score": [],
+    "corrections_to_recorded_score": []
+  },
+  "integrity": {
+    "cases": {
+      "expected_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+      "actual_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+      "status": "match"
+    },
+    "responses": [
+      {"case_id": "scenario-01", "sha256": "a24fb382b112f4f32df693c45bd198aa34c3e5d5bf34537df076c79c5ddb3faf", "words": 1114, "bytes": 8310, "birth": 1784168006, "mtime": 1784168006, "status": "all_attested_fields_match"},
+      {"case_id": "scenario-02", "sha256": "ed7bc66b46172212c34209f25bac26ceb288e77a414dc67e4c98b785d366ba2c", "words": 970, "bytes": 8156, "birth": 1784167908, "mtime": 1784167908, "status": "all_attested_fields_match"},
+      {"case_id": "scenario-03", "sha256": "7153dc5fbe8fb357d03f3104dc89d7c6b602f69bb780c78eb6be73358da62b8c", "words": 900, "bytes": 9408, "birth": 1784168202, "mtime": 1784168213, "status": "all_attested_fields_match"},
+      {"case_id": "scenario-04", "sha256": "aae823e686d4dde98efe186649a935d0bd1dbc4a2bdb9019e6fbfdf3d9d9d21b", "words": 966, "bytes": 9168, "birth": 1784168168, "mtime": 1784168180, "status": "all_attested_fields_match"},
+      {"case_id": "scenario-05", "sha256": "e9622f2fba1a0c2abf95142e94debb312d49867e7bece24eef7d957071bc2012", "words": 1104, "bytes": 7598, "birth": 1784168176, "mtime": 1784168227, "status": "all_attested_fields_match"},
+      {"case_id": "scenario-06", "sha256": "100c1c795df5f95264fc8c692d299af91d92906291c06759becc12db067b6e20", "words": 1068, "bytes": 7707, "birth": 1784168363, "mtime": 1784168363, "status": "all_attested_fields_match"}
+    ],
+    "attestation_checks": {
+      "response_count": 6,
+      "unique_tasks": 6,
+      "unique_hashes": 6,
+      "all_within_1200_word_limit": true,
+      "cases_hash_matches": true,
+      "all_response_metadata_matches": true
+    },
+    "score_arithmetic": {
+      "per_case_pass_counts_match_vectors": true,
+      "per_case_miss_lists_match_vectors": true,
+      "decision_bits_match_vectors": true,
+      "derived_passes": 23,
+      "derived_misses": 7,
+      "normalized_exact": "23/30 = 0.766666...",
+      "normalized_rounded_six_places": 0.766667,
+      "baseline_value_as_recorded": "14/30 = 0.466666...",
+      "delta_from_recorded_baseline": "9/30 = 3/10 = 0.3",
+      "required_delta": 0.1,
+      "material_improvement_arithmetic": true,
+      "status": "pass"
+    },
+    "not_independently_verified_due_to_scope": [
+      "generation_plan_sha256",
+      "skill_sha256",
+      "runtime_sha256",
+      "staging_empty",
+      "generation-process conditions",
+      "freeze chronology beyond the supplied attestation",
+      "the substantive baseline score"
+    ]
+  },
+  "verdict": "The recorded strict score is confirmed without corrections: 23/30, with no bit changes."
+}

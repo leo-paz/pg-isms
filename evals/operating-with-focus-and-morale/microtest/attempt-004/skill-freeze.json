@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "attempt": 4,
+  "skill": {
+    "path": "skills/operating-with-focus-and-morale/SKILL.md",
+    "sha256": "b6c338f2d9ce0b225e81f03ed1c1e4f8b15ab9731d53f343375a2008eedf0507"
+  },
+  "runtime_contract": {
+    "path": "skills/operating-with-focus-and-morale/references/runtime-contract.md",
+    "sha256": "5d44db01c258ab81ad55a0479e49563dd8d2766be2d9f06144483db138d45cff"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "attempt": 4,
+  "designed_before_generation": true,
+  "design_sha256": "c19b3225d45f780a2843b5aa061de9312985e7f66e2512b39a682c20c136fa4e",
+  "prompt_sha256": "0e7bd40200cb5ba2ead9d7cadd5168bc5d1b7f91e709a58f025e5b4ab2efc49e",
+  "rubric_sha256": "6e5328d7d4a2e247a89c0d71b82a5492d82f1d4f3feb52bcc34acac65822903c",
+  "package": {
+    "skill_sha256": "b6c338f2d9ce0b225e81f03ed1c1e4f8b15ab9731d53f343375a2008eedf0507",
+    "runtime_sha256": "5d44db01c258ab81ad55a0479e49563dd8d2766be2d9f06144483db138d45cff"
+  },
+  "arms": {
+    "control": "exact prompt only",
+    "guided": "exact prompt plus frozen SKILL.md and runtime-contract.md"
+  },
+  "protocol": {
+    "fresh_agent_per_response": true,
+    "criteria_hidden": true,
+    "prior_outputs_hidden": true,
+    "single_first_created_response": true,
+    "post_creation_edits": false,
+    "quality_resampling": false,
+    "hard_word_maximum": 1200,
+    "over_limit_outputs_retained_and_scored_under_rubric": true,
+    "blind_scoring_before_unblinding": true
+  }
+}

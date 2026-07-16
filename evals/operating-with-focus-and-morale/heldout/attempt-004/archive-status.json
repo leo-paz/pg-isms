@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "status": "archived-unscored-nonconforming",
+  "skill_sha256": "8cb42d33741e49adfb6412bcedb88106491f0041324486115aa4ffdf362245cc",
+  "runtime_sha256": "24ec2d982c69da54dc1c6474032e898ee4da22e3f10a8b0bd2a7c4dadeeb2336",
+  "response_sha256": "d5b0568fd98bbbaf3de79f2a579b52593f2ed77b9ea80945bf0ba65b96769cc9",
+  "response_words": 1441,
+  "scoring_started": false,
+  "reason": "The first fresh response exceeded the prompt's hard 1200-word maximum and was frozen without scoring. The next unseen design uses the same criteria-hidden length-only staging protocol as the canonical forward evaluation."
+}

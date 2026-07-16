@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "plan_id": "focus-heldout-buyer-001",
+  "attested_at_utc": "2026-07-16T00:12:16Z",
+  "generation_plan_sha256": "7ac0297cff8a192033a8105abf5dd12ffa9ed72ce45c8e3e182a26797c410555",
+  "skill_sha256": "a8a660292004fa80c90c72265be27ef7bc83434682461e23628b744144541e46",
+  "runtime_sha256": "974c75374bea41dfb5f3a6c3b46cbf34fe1301905683357f9fe9b0bd35fede2d",
+  "response": {
+    "path": "evals/operating-with-focus-and-morale/heldout/response.md",
+    "sha256": "5c407d929cfee9dfde0e90d017ffb01f47ca5e405faecd471bff98f70fcf70fd",
+    "bytes": 7688,
+    "words": 1087,
+    "filesystem_birth_epoch": 1784160730,
+    "filesystem_mtime_epoch": 1784160730
+  },
+  "generation_conditions": {
+    "fresh_context": true,
+    "criteria_hidden": true,
+    "skill_visible": true,
+    "one_write": true,
+    "post_creation_modification": false,
+    "quality_resampling": false,
+    "within_1200_word_limit": true,
+    "required_headers_present": true,
+    "integrity_result": "pass"
+  },
+  "scoring_started": false,
+  "scorer_distinct_from_generator": true
+}

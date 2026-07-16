@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "plan_id": "operating-with-focus-and-morale-paired-microtest-001",
+  "attempt": 1,
+  "attested_at_utc": "2026-07-16T00:21:40Z",
+  "generation_plan_sha256": "56c665f2fb0c30d8f71da4124eb96811fb2c5b8d4660af5518d43cac4b4012b5",
+  "criteria_hidden": true,
+  "fresh_context_per_sample": true,
+  "one_write_capture": true,
+  "quality_resampling": false,
+  "hard_maximum_words": 1200,
+  "responses": [
+    {"sample_id":"focus_micro_control_1","sha256":"0ac8172969ed8c427d9e785b03c4ca05d6f97857c6d84a1038d2be70209da575","bytes":7067,"words":1025,"birth_epoch":1784161008,"mtime_epoch":1784161008,"within_limit":true},
+    {"sample_id":"focus_micro_control_2","sha256":"63584fe25b1ff8e7847d6e65180d5962b75ce7f748172aeb493123676317ab4e","bytes":7228,"words":1066,"birth_epoch":1784161008,"mtime_epoch":1784161008,"within_limit":true},
+    {"sample_id":"focus_micro_control_3","sha256":"21af59b670a95bae91a5d04179ae2220b25d76fc5437c33de9de2810f61beee9","bytes":6952,"words":1002,"birth_epoch":1784161015,"mtime_epoch":1784161015,"within_limit":true},
+    {"sample_id":"focus_micro_control_4","sha256":"a377cd71619b7b272936128694adfb87cef4d4af537240569462a5f4595c6a78","bytes":6766,"words":971,"birth_epoch":1784161122,"mtime_epoch":1784161122,"within_limit":true},
+    {"sample_id":"focus_micro_control_5","sha256":"230ac3b70a3851017cb0a69d0a6fe467feac199ce842df3c7aa6e0d28796af1b","bytes":7107,"words":1023,"birth_epoch":1784161084,"mtime_epoch":1784161084,"within_limit":true},
+    {"sample_id":"focus_micro_guided_1","sha256":"54bc6d9e2a31f0923e8d804f9213b42f6a06d2679d30483362c04c58ee9784ae","bytes":8756,"words":1260,"birth_epoch":1784161161,"mtime_epoch":1784161161,"within_limit":false},
+    {"sample_id":"focus_micro_guided_2","sha256":"9ab627278cc9922796f2d72297035d6dcedd30f973fc79ecac0d4c3f8845ddfd","bytes":7538,"words":1099,"birth_epoch":1784161179,"mtime_epoch":1784161179,"within_limit":true},
+    {"sample_id":"focus_micro_guided_3","sha256":"22eb89222eaa13bca8b09479dd2ba0b9e8408ebc623224b44bab3d9df2ae7efa","bytes":7572,"words":1081,"birth_epoch":1784161211,"mtime_epoch":1784161211,"within_limit":true},
+    {"sample_id":"focus_micro_guided_4","sha256":"c8213e977d173dd99b5059bb000815252d73ee206731e8822d3561a8b1f480b2","bytes":7517,"words":1084,"birth_epoch":1784161279,"mtime_epoch":1784161279,"within_limit":true},
+    {"sample_id":"focus_micro_guided_5","sha256":"d6765dfbec45e7897e06488bddc4f29c925d93ff7138e919b5411046458e524e","bytes":8424,"words":1228,"birth_epoch":1784161285,"mtime_epoch":1784161285,"within_limit":false}
+  ],
+  "capture_integrity_result": "pass",
+  "length_contract_result": "fail",
+  "integrity_result": "fail",
+  "scorer_dispatched": false
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "skill": "operating-with-focus-and-morale",
+  "microtest_id": "operating-with-focus-and-morale-microtest-attempt-004",
+  "criteria": [
+    {
+      "id": "C1",
+      "name": "route_and_evidence_integrity",
+      "type": "binary_conjunctive",
+      "pass_rule": "Award 1 only if every clause passes; otherwise award 0.",
+      "clauses": [
+        "Select operating-with-focus-and-morale as the primary route and use the prompt facts to exclude survival, financing, buyer, structural-organization, and acute-risk primacy; treat the recent approval queue as overload-related while setting a dated persistence test that would switch to organization work.",
+        "Classify the decision-relevant prompt inputs without converting interpretations into facts or inventing evidence; preserve separately as claims Maya's expansion-morale view, the sponsor's livestream-credibility view, Maya's rebrand preference, Rowan's employer-plan preference, Ellis's rehearsal-progress diagnosis, and the conductor's fatigue diagnosis.",
+        "Give each consequential unknown its own owner, method or artifact, due date, result threshold, and decision effect: repeatability of the rehearsal trial, renewal effect, conductor-versus-tactic confounding, fatigue-versus-member-experience mechanism, and member demand or renewal effect for each of the fifth choir, livestream, rebrand, and employer plan.",
+        "Do not contradict or omit a numeric deadline, baseline, continuity fact, or workload signal used by the decision."
+      ]
+    },
+    {
+      "id": "C2",
+      "name": "one_priority_and_competing_work",
+      "type": "binary_conjunctive",
+      "pass_rule": "Award 1 only if every clause passes; otherwise award 0.",
+      "clauses": [
+        "Select exactly one state-changing outcome centered on the current four choirs' renewal/member value and exactly one current tactic or linked evidence loop; do not run a continuing portfolio comparison.",
+        "For that single row, include a dated baseline, dated target, affected members or work, accountable owner, proposed mechanism, at least one rival, honest evidence latency and checkpoint, falsifier, and final decision date.",
+        "Give separate protect, cancel, delegate, defer, or tightly bound dispositions with owner, effective date, and limit or reopen condition for the fifth choir, professional livestream, visual rebrand, employer-sponsored-membership pitch, and the already-committed August 29 showcase.",
+        "Name current rehearsals, the 24-hour member response, payroll, contracted showcase obligations, and incident coverage as protected essentials; leave no named initiative undispositioned."
+      ]
+    },
+    {
+      "id": "C3",
+      "name": "execution_recovery_and_coverage",
+      "type": "binary_conjunctive",
+      "pass_rule": "Award 1 only if every clause passes; otherwise award 0.",
+      "clauses": [
+        "Protect recurring contiguous rehearsal-design or analysis time for the accountable owner and recurring direct member contact for that owner, while bounding meetings, notifications, status work, and availability.",
+        "For rehearsal delivery, member response, showcase/vendor commitments, incident response, payroll, and decision authority, name a primary owner, a distinct backup decision owner, a service block or service level, an escalation destination, and a concrete response window.",
+        "Set a numeric sustainable weekly workload or availability limit, immediate dated recovery for the reported overload, and an end date plus recovery for any exceptional push; explicitly remove or delegate work before claiming protected capacity.",
+        "Diagnose morale from the observed pulse, hours, missed rest, errors, delayed reply, progress visibility, and ownership signal; test plausible progress and fatigue mechanisms without using raw hours, public pressure, compulsory nights, or continuous availability as determination."
+      ]
+    },
+    {
+      "id": "C4",
+      "name": "owned_cadence_and_goal_tactic_separation",
+      "type": "binary_conjunctive",
+      "pass_rule": "Award 1 only if every clause passes; otherwise award 0.",
+      "clauses": [
+        "State the goal premise separately from the selected tactic and state the tactic selected now.",
+        "Include separate company-outcome, member-or-continuity, and workload-or-judgment measures; every measure has a dated baseline, target or limit, evidence source, owner, and review date.",
+        "Set at least one intermediate check at an honest evidence interval and a final decision on August 24 or another explicitly justified date tied to the renewal evidence.",
+        "At checks, require recording observed result, confounders, safeguard status, and the precommitted branch; do not use hours as a seriousness or morale success score."
+      ]
+    },
+    {
+      "id": "C5",
+      "name": "complete_branch_matrix_and_compact_contract",
+      "type": "binary_conjunctive",
+      "pass_rule": "Award 1 only if every clause passes; otherwise award 0.",
+      "clauses": [
+        "Provide separate continue, adapt, reopen-goal, and stop rows, each with its own observable threshold, next action, next owner, calendar date, primary route after the branch, and handoff or return condition and date.",
+        "Make adapt change one material variable while the premise remains plausible; make reopen-goal depend on repeated discriminating evidence or a changed hard constraint; make stop depend on invalidation or a hard boundary rather than low morale alone.",
+        "Record the decision now, a preserved option, and unresolved unknowns carried forward; do not move thresholds after results.",
+        "Stay at or below 1,200 words and use a filled compact record with no blank cells, TBD, 'as needed,' shared implicit owners or dates, or generic introductory/productivity prose; include the required one-line lineage treatment, saying once that runtime citations were not supplied if applicable."
+      ]
+    }
+  ],
+  "acceptance": {
+    "minimum_control_n": 5,
+    "minimum_guided_n": 5,
+    "minimum_effect": 0.20,
+    "decision_rule": "Accept only when both arms contain exactly five valid fresh-agent responses and guided_arm_score - control_arm_score >= 0.20. Otherwise reject or rerun a newly designed test; do not repair individual outputs."
+  }
+}

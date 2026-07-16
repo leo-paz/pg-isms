@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "case_id": "focus-heldout-buyer-001",
+  "scorer": "/root/focus_heldout_scorer",
+  "scored_at_utc": "2026-07-16T00:13:35Z",
+  "fresh_context": true,
+  "authorized_inputs_only": true,
+  "integrity": {
+    "verdict": "pass",
+    "response_frozen_before_scoring": true,
+    "response_sha256": {
+      "expected": "5c407d929cfee9dfde0e90d017ffb01f47ca5e405faecd471bff98f70fcf70fd",
+      "actual": "5c407d929cfee9dfde0e90d017ffb01f47ca5e405faecd471bff98f70fcf70fd",
+      "match": true
+    },
+    "response_metadata": {
+      "expected_bytes": 7688,
+      "actual_bytes": 7688,
+      "expected_words": 1087,
+      "actual_words": 1087,
+      "expected_filesystem_birth_epoch": 1784160730,
+      "actual_filesystem_birth_epoch": 1784160730,
+      "expected_filesystem_mtime_epoch": 1784160730,
+      "actual_filesystem_mtime_epoch": 1784160730,
+      "match": true
+    },
+    "cross_hashes": {
+      "case": {
+        "expected": "0fb3d9c35b89aa0acace003ede5f15a8fab3133e7220fcc75eb7f7f4836f67d0",
+        "actual": "0fb3d9c35b89aa0acace003ede5f15a8fab3133e7220fcc75eb7f7f4836f67d0",
+        "match": true
+      },
+      "generation_plan": {
+        "expected": "7ac0297cff8a192033a8105abf5dd12ffa9ed72ce45c8e3e182a26797c410555",
+        "actual": "7ac0297cff8a192033a8105abf5dd12ffa9ed72ce45c8e3e182a26797c410555",
+        "match": true
+      },
+      "skill_freeze": {
+        "expected": "6d2424a6d0140188e65b1ad82cbb9fc5e6942c6bf16b176a74a54826799015ee",
+        "actual": "6d2424a6d0140188e65b1ad82cbb9fc5e6942c6bf16b176a74a54826799015ee",
+        "match": true
+      }
+    },
+    "protocol_checks": {
+      "generator_and_scorer_are_distinct": true,
+      "criteria_hidden_during_generation_attested": true,
+      "fresh_generation_context_attested": true,
+      "one_write_attested": true,
+      "no_post_creation_modification_attested": true,
+      "birth_and_mtime_epochs_equal": true,
+      "within_1200_word_limit": true,
+      "required_headers_present": true
+    },
+    "scope_note": "The frozen skill and runtime files were not read or independently re-hashed; their recorded hashes agree across generation-attestation.json and skill-freeze.json."
+  },
+  "binary_vector": {
+    "C1": 1,
+    "C2": 0,
+    "C3": 0,
+    "C4": 0,
+    "C5": 0
+  },
+  "vector": [1, 0, 0, 0, 0],
+  "positive_count": 1,
+  "total_bits": 5,
+  "criteria": [
+    {
+      "id": "C1",
+      "decision": 1,
+      "label": "precedence",
+      "evidence": [
+        "response.md:6 explicitly makes navigating-acquisitions-and-exits primary and operating-with-focus-and-morale supporting cadence.",
+        "response.md:6-8 centers the live dated exclusivity decision and expressly rejects survival/authority framing and accepting every buyer request."
+      ],
+      "reason": "Every precedence component is explicit: one acquisition-primary workflow, a supporting focus cadence, and no substitution of a runway, fundraising, generic reset, or organization-redesign workflow."
+    },
+    {
+      "id": "C2",
+      "decision": 0,
+      "label": "facts-claims-unknowns",
+      "evidence": [
+        "response.md:12-14 explicitly separates observed records from the buyer, CEO, and product-lead claims.",
+        "response.md:18-21 assigns dated tests for buyer process evidence, economics, standalone value, customer impact, and alternative calls.",
+        "response.md:8 and response.md:19 correctly avoid treating the $26 million headline as certain proceeds."
+      ],
+      "missing_required_components": [
+        "Close probability is not explicitly identified as an unknown; buyer seriousness and IC evidence are tested instead.",
+        "Diligence burden is not explicitly identified and tested as an unknown with its own complete owner, method/artifact, due date, threshold, and decision effect.",
+        "Because those consequential unknowns are not complete, the bundled criterion fails despite the strong ledger."
+      ]
+    },
+    {
+      "id": "C3",
+      "decision": 0,
+      "label": "one-buyer-decision-and-deferrals",
+      "evidence": [
+        "response.md:6-8 sets one bounded July 22 exclusivity decision and preserves the independent comparison.",
+        "response.md:18, response.md:27-31, and response.md:35 bound diligence and disclosure with counsel.",
+        "response.md:21 and response.md:33 explicitly screen/bound the eleven calls and defer, freeze, cancel, or delegate the keynote, rebrand, and offsite."
+      ],
+      "missing_required_components": [
+        "Optional roadmap work is not explicitly canceled, delegated, deferred, or tightly bounded.",
+        "Generic calendar redesign is not explicitly rejected or bounded; classifying all work and canceling nonessential meetings is not an explicit substitute under strict scoring."
+      ]
+    },
+    {
+      "id": "C4",
+      "decision": 0,
+      "label": "continuity-and-humane-workload",
+      "evidence": [
+        "response.md:33-35 preserves migration, renewals, support, on-call, incidents, legal/fiduciary work, and secure disclosure controls.",
+        "response.md:35 establishes a 9 p.m. stop, 11 hours off, no compulsory weekend work, escalation authority, and diligence preemption rules.",
+        "response.md:6, response.md:27-28, and response.md:35 name several current functional owners."
+      ],
+      "missing_required_components": [
+        "Only the CEO and CFO must name backups; backup coverage is not named for migration, renewals, support/on-call/incidents, legal/fiduciary duties, and secure data handling.",
+        "No sustainable weekly work limit is stated. Daily stopping and recovery rules do not explicitly establish a weekly limit."
+      ]
+    },
+    {
+      "id": "C5",
+      "decision": 0,
+      "label": "dated-branches-and-handoff",
+      "evidence": [
+        "response.md:27-31 names dated checks and functional owners for July 18, July 20, and July 22.",
+        "response.md:41 gives observable continue, counter/extend, reopen, and stop conditions.",
+        "response.md:43 preserves the standalone option and sets a July 23 handoff checkpoint."
+      ],
+      "missing_required_components": [
+        "There is no explicit pause branch.",
+        "The proceed, counter/extend, and decline/end branches do not each name a next owner.",
+        "The proceed branch does not explicitly state that acquisition work remains primary in the next bounded phase.",
+        "The July 23 handoff is not explicitly mapped to pause, end, and eventual-close outcomes, and eventual close is not addressed."
+      ]
+    }
+  ],
+  "naturalness_and_no_leakage": {
+    "verdict": "pass",
+    "naturalness": "pass",
+    "no_hidden_criteria_leakage": "pass",
+    "assessment": "The response is a coherent, role-specific board and team plan. It contains no criterion IDs, scoring threshold, binary-vector language, hidden expected-answer text, or essay attribution. Its routing identifiers and operating labels are consistent with the generation plan's allowed visible skill/runtime inputs rather than evidence of hidden-case access."
+  },
+  "transfer": {
+    "mandatory_C1_passed": true,
+    "minimum_positive_bits_required": 4,
+    "minimum_positive_bits_met": false,
+    "verdict": "fail"
+  }
+}

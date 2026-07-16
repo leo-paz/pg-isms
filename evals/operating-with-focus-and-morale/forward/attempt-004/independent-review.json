@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "audit_type": "independent_post_score_review",
+  "skill_name": "operating-with-focus-and-morale",
+  "phase": "forward",
+  "attempt": 4,
+  "canonical_status": "GREEN",
+  "reviewer_id": "focus-forward-independent",
+  "evidence_boundary": {
+    "restriction": "Only the case rubric, six canonical response files, canonical summary and review, and six canonical scorecards were read. Skill/runtime/evidence, baseline prose, prior attempts, source research, and generation context were excluded.",
+    "input_sha256": {
+      "evals/operating-with-focus-and-morale/cases.json": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+      "evals/operating-with-focus-and-morale/forward/scenario-01.md": "3439a90e7b760acd94be87f6f07fe6b3d4989ed53a7b0b30958ce1da0ac71e83",
+      "evals/operating-with-focus-and-morale/forward/scenario-02.md": "fc517f9cd0f684ce8c3e2f1538c4c26e76f8dab13d7cdfdcca3df9ae2a023a6d",
+      "evals/operating-with-focus-and-morale/forward/scenario-03.md": "442d2650c7973463edb68f3abafd412c539d89fb451a3430ca6e3245f5eae690",
+      "evals/operating-with-focus-and-morale/forward/scenario-04.md": "d6158f0e371ebb4b43f8ef85040fa32c32bc60134eb3f36d641ac36ea2118331",
+      "evals/operating-with-focus-and-morale/forward/scenario-05.md": "8c4eb1bc899618fc80a943b6bc769812c02ef414a236a96eefe242ff7132eb01",
+      "evals/operating-with-focus-and-morale/forward/scenario-06.md": "b2ebf115c77a7e253ff3fd3dc15d134bbc48ea7159ad6fa121bc8326ad61bd69",
+      "evals/operating-with-focus-and-morale/forward/summary.json": "321ad65a10f6ef16b28dbdcec2a2c93122a8716d285a42c66ce15c5061f52946",
+      "evals/operating-with-focus-and-morale/forward/review.md": "e2886e7ab01cb0dbb0337e64eb79ceee15212ffb3f6f56b073964337066d60bd",
+      "evals/operating-with-focus-and-morale/forward/scorecards/scenario-01.md": "a3a26da7a12d1be49de076e30804fd2878a4c9d42e5076a819d974cee4e21a64",
+      "evals/operating-with-focus-and-morale/forward/scorecards/scenario-02.md": "d4da72af6e91a8cfa7d2f8de0ede333698f577c06ef1c5aa18cdb135057702b6",
+      "evals/operating-with-focus-and-morale/forward/scorecards/scenario-03.md": "a955581093299ea6246fa2fd422d217eedf276a39716bdf3872d7ea776f9fa7e",
+      "evals/operating-with-focus-and-morale/forward/scorecards/scenario-04.md": "7af1892249f30d0256b13197e5cbd78b0f7fe46ee91ec38778d7907016a32103",
+      "evals/operating-with-focus-and-morale/forward/scorecards/scenario-05.md": "d10a02a509093b49128f4dd522e8c3c76a295300a8041c37f1f3d3000af5ba58",
+      "evals/operating-with-focus-and-morale/forward/scorecards/scenario-06.md": "83371f555c251bf0e69a4edc8c83cfccae2ab759140b66dcde300f8713b53dff"
+    },
+    "canonical_raw_output_hashes_verified": true
+  },
+  "scoring_contract": {
+    "binary": true,
+    "strict_conjunctive": true,
+    "criteria_per_case": 5,
+    "rule": "Award 1 only when every bundled material component is explicit in the canonical response text; do not infer a missing route, fact class, unknown, deferral, owner, baseline, date, safeguard, threshold, branch, closure condition, or handoff."
+  },
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "canonical_vector": "10110",
+      "independent_vector": "10110",
+      "score": 3,
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. The header explicitly says `Primary route: operating-with-focus-and-morale` and that no survival, financing, acquisition, or organization route supersedes it; the response also says stalled customer work is occurring while weakly evidenced activity consumes attention. The 14-month runway, clear decision rights, and no active fundraise support the required routing."
+        },
+        {
+          "criterion": 2,
+          "canonical_bit": 0,
+          "independent_bit": 0,
+          "agreement": true,
+          "rationale": "FAIL. The observed ledger includes the 31 hours, six twice-rescheduled calls, nine affected retailers, three-week defect age, runway, governance, and fundraising state, and it labels both CEO statements as claims. It makes external-category value unknown, but its defect unknowns are root cause, scope, integrity, security/privacy, post-fix sync, and recurrence; it never explicitly leaves defect severity or operational/retention impact unresolved.",
+          "missing_explicit_components": [
+            "defect severity as unresolved",
+            "defect operational or retention impact as unresolved"
+          ]
+        },
+        {
+          "criterion": 3,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. The one July 29 outcome restores reliable sync for the nine affected retailers. The response pauses the reporting redesign and explicitly cancels, delegates, defers, or bounds internal status meetings, accelerator events, investor coffees, podcasts, conference planning, contracted external obligations, and routine approvals."
+        },
+        {
+          "criterion": 4,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. Monday-through-Thursday 9:00-12:00 founder blocks and four retailer calls weekly are recurring protections; essential support, incidents, payroll, legal/fiduciary, customer, and team work continues. The 45-hour cap, no compulsory nights/weekends, Friday recovery, 48-hour incident exception, and compensatory recovery prevent an open-ended hours increase."
+        },
+        {
+          "criterion": 5,
+          "canonical_bit": 0,
+          "independent_bit": 0,
+          "agreement": true,
+          "rationale": "FAIL. Owners, a nine-affected/zero-post-fix-confirmation outcome baseline, the 31-hour founder-time observation, customer-impact evidence, dated reviews, tactic-change/end evidence, and the August 12 decision are explicit. The response never states a baseline count of completed retailer contacts; six calls rescheduled twice is not a completed-contact baseline, and zero cannot be inferred.",
+          "missing_explicit_components": [
+            "baseline count for completed retailer contacts"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "canonical_vector": "10111",
+      "independent_vector": "10111",
+      "score": 4,
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. The response explicitly makes focus-and-morale primary, calls the competitor evidence competition rather than market rejection, treats morale as a signal rather than a demand verdict, keeps the missed-appointment outcome, replaces the broad tactic, and cancels compulsory nights."
+        },
+        {
+          "criterion": 2,
+          "canonical_bit": 0,
+          "independent_bit": 0,
+          "agreement": true,
+          "rationale": "FAIL. The response records clinic A's use/result, clinic C's 22% rate, 14 demos, two paid pilots, the competitor, and the team conclusions, and it investigates causality, repeatability, workflow friction, procurement, and sales losses. But the observed ledger omits that clinic B signed and has not launched, and it does not preserve the staff report that double entry is hard to use as a known report; instead it labels the causal formulations `procurement caused` and `double entry causes` as claims.",
+          "missing_explicit_components": [
+            "clinic B's signed-but-not-launched state as known",
+            "clinic staff's double-entry difficulty report as known, separate from causality"
+          ]
+        },
+        {
+          "criterion": 3,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. The bounded outcome is sustained clinic-C use, and the single tactic tests whether removing observed workflow friction changes adoption. Unrelated roadmap work, new feature pitches, competitor copying, conferences, and media work are stopped or deferred, while new sales activity is bounded."
+        },
+        {
+          "criterion": 4,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. Recurring build blocks and twice-weekly clinic observation/contact are protected. A 45-hour cap, no scheduled nights/weekends, a two-day launch-exception limit, recovery time, private health checks, and rejection of raw hours as a commitment metric establish a sustainable cadence."
+        },
+        {
+          "criterion": 5,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. CEO, product, clinic, data, and engineering owners are named; 22% is the baseline and 60% over eight of ten weekdays is the target. July 18/22/29, August 5, and August 14 checks, explicit continue/adapt/reopen/stop conditions, and the dated August 14 CEO decision cover every bundled component."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "canonical_vector": "00110",
+      "independent_vector": "00110",
+      "score": 2,
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "canonical_bit": 0,
+          "independent_bit": 0,
+          "agreement": true,
+          "rationale": "FAIL. The response recognizes the 78-hour workload, nights, behavioral judgment signals, and absence of financing/payroll emergency, but explicitly says `Primary route: building-and-evolving-organizations` and makes focus-and-morale supporting. That directly conflicts with the criterion's required primary route.",
+          "missing_explicit_components": [
+            "operating-with-focus-and-morale as the primary workflow"
+          ]
+        },
+        {
+          "criterion": 2,
+          "canonical_bit": 0,
+          "independent_bit": 0,
+          "agreement": true,
+          "rationale": "FAIL. The hours, reversals, rollbacks, skipped calls, approval waits, runway, financing state, and unsupported seriousness claim are explicit, and conference value is tested. The response tests approval authority and performs a health check, but it never explicitly names the causes of the three rollbacks or recoverable CEO decision capacity as unknowns requiring evidence.",
+          "missing_explicit_components": [
+            "causes of the production rollbacks as an unknown",
+            "recoverable CEO decision capacity as an unknown"
+          ]
+        },
+        {
+          "criterion": 3,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. The August 12 stabilizing outcome is one trustworthy customer-learning/release loop. Conference-only features and a bespoke demo are canceled, conference effort is capped and delegated, late release approvals transfer to leads, and media, investor outreach, redesign, tooling, and unrelated roadmap work are deferred."
+        },
+        {
+          "criterion": 4,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. The response immediately establishes a two-day handoff/recovery window, 48-then-45-hour caps, no nights/weekends, release backup coverage, daytime escalation, and protected strategy, engineering-maker, and customer-call blocks. The crisis is bounded through August 12 and continuous availability is removed as the default."
+        },
+        {
+          "criterion": 5,
+          "canonical_bit": 0,
+          "independent_bit": 0,
+          "agreement": true,
+          "rationale": "FAIL. Owners and baselines cover rollbacks, reversals/approval waits, skipped calls, and the 78-hour workload; acute risk is checked July 17, progress is checked weekly, and tactic-switch/stop thresholds are stated. `Final review August 12` and an `August 12 finish line` do not explicitly say the recovery cycle closes only after that dated review confirms sustained operating evidence.",
+          "missing_explicit_components": [
+            "closure conditioned on a dated review of sustained operating evidence"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "canonical_vector": "11111",
+      "independent_vector": "11111",
+      "score": 5,
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. The response says `Treat this as a survival problem` and makes managing-runway-and-survival primary, with focus-and-morale only supporting humane execution. Ordinary focus redesign resumes only after the board confirms a funded survival envelope."
+        },
+        {
+          "criterion": 2,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. Cash, fixed obligations, dependable gross profit, payroll timing, renewal timing, unsigned bridge, clear product ownership, and the next-day board plan are observed. Bridge and renewal proceeds are excluded from cash, and the listed cash, payroll, obligations, receivables, financing, and minimum-continuity unknowns are tied to the immediate survival decision."
+        },
+        {
+          "criterion": 3,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. Funding July 27 payroll and establishing a board-approved survival path is the single state-changing priority. Morale work, calendar redesign, optional events/media/partnerships/purchasing, roadmap expansion, redesign, and process projects are explicitly canceled or deferred."
+        },
+        {
+          "criterion": 4,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. Payroll, employment, taxes, fiduciary duties, safety/security, incidents, support, evidence, customer continuity, and critical product work are protected. Finance/product ownership, backup and escalation, the July 29 bound, 45-hour cap, no compulsory nights, weekly recovery, and workload/health safeguards satisfy all continuity and humane-cadence components."
+        },
+        {
+          "criterion": 5,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. The CEO owns the survival decision, finance and functional roles own evidence/continuity, July 16 is the next-day checkpoint, July 22/29 branches are measurable, failure escalates to restructuring or wind-down, and board confirmation of a funded survival envelope is the observable handoff back to ordinary focus work."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "canonical_vector": "10100",
+      "independent_vector": "10100",
+      "score": 2,
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. The response makes building-and-evolving-organizations primary for the approval queues and unwritten rights and says personal focus is supporting infrastructure that becomes primary only after authority and continuity failures stop binding."
+        },
+        {
+          "criterion": 2,
+          "canonical_bit": 0,
+          "independent_bit": 0,
+          "agreement": true,
+          "rationale": "FAIL. The response represents the waits, late commitments, ownerless incidents, five approval domains, runway, fundraising state, existing leads, unwritten rights, and calendar diagnosis, and it investigates authority boundaries, CEO-only decisions, intake, and lead capacity. It never explicitly identifies residual CEO capacity after transfers as an unknown to measure or test.",
+          "missing_explicit_components": [
+            "residual CEO capacity after authority transfers as an unknown"
+          ]
+        },
+        {
+          "criterion": 3,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. Explicit decision rights and service levels are the one organizational priority, accountable to the CEO and named Decision Systems Owner. The productivity purchase is canceled, blanket meeting cancellation waits for evidence, and optional media, conferences, status work, and unrelated changes are deferred."
+        },
+        {
+          "criterion": 4,
+          "canonical_bit": 0,
+          "independent_bit": 0,
+          "agreement": true,
+          "rationale": "FAIL. Staged transfers, backups, escalation paths, incident rules, pre-signature acceptance, and continuity safeguards are explicit, and CEO deep work is conditional on actually released approval capacity. But recurring customer/frontline time is assigned to department leads; no recurring direct CEO user time is reserved from released capacity.",
+          "missing_explicit_components": [
+            "recurring direct CEO user time reserved from released capacity"
+          ]
+        },
+        {
+          "criterion": 5,
+          "canonical_bit": 0,
+          "independent_bit": 0,
+          "agreement": true,
+          "rationale": "FAIL. Owners and baselines exist for delayed decisions, late commitments, and ownerless incidents, with dated intermediate/final reviews, branch rules, a documented authority register, and a later focus handoff. The response gives a 45-hour ceiling but no current baseline for CEO load or released capacity, so the full measurement conjunct is not satisfied.",
+          "missing_explicit_components": [
+            "current baseline for CEO load or released CEO capacity"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-06",
+      "canonical_vector": "10111",
+      "independent_vector": "10111",
+      "score": 4,
+      "criteria_results": [
+        {
+          "criterion": 1,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. The response explicitly makes raising-and-governing-capital primary because diligence, references, and an expiring term sheet create dated financing decisions; focus-and-morale is supporting continuity and recovery."
+        },
+        {
+          "criterion": 2,
+          "canonical_bit": 0,
+          "independent_bit": 0,
+          "agreement": true,
+          "rationale": "FAIL. Customer count, runway, product ownership, process age, meetings, diligence deadline, term expiry, unresolved terms, accepted calls, and the momentum claim are represented, and fit, terms, decision probability, diligence, and references are tested. The response never states the known $3 million round size; `Series A` is not the missing amount.",
+          "missing_explicit_components": [
+            "known $3 million round size"
+          ]
+        },
+        {
+          "criterion": 3,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. The one priority is an accept/renegotiate/reject term decision followed by a lead-or-pause decision using qualified current paths. Low-fit introductions, weak partnerships, bespoke diligence, optional product/media/conference activity, optional outreach, and the general reset are deferred, filtered, or bounded."
+        },
+        {
+          "criterion": 4,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. The sprint ends July 29; releases, support, and three weekly customer calls are protected under the product lead and backup engineer. Investor hours, team after-hours work, CEO hours, evenings, weekend recovery, escalation, board backup, and health/judgment safeguards are explicit."
+        },
+        {
+          "criterion": 5,
+          "canonical_bit": 1,
+          "independent_bit": 1,
+          "agreement": true,
+          "rationale": "PASS. The CEO, coordinator, counsel, board, and product lead have the required capital/evidence/continuity roles; July 17 and 22 checkpoints meet the deadlines; proceed, renegotiate, reject, adapt, and pause conditions are observable; and the live round closes or resets by July 29 with a dated handoff to focus-and-morale."
+        }
+      ]
+    }
+  ],
+  "vectors": {
+    "scenario-01": "10110",
+    "scenario-02": "10111",
+    "scenario-03": "00110",
+    "scenario-04": "11111",
+    "scenario-05": "10100",
+    "scenario-06": "10111"
+  },
+  "total": {
+    "independent_score": 20,
+    "canonical_score": 20,
+    "max": 30,
+    "normalized_score": 0.666667
+  },
+  "baseline_comparison": {
+    "stated_baseline_score": 14,
+    "baseline_max": 30,
+    "baseline_normalized_score": 0.466667,
+    "score_delta": 6,
+    "delta_fraction": "6/30",
+    "normalized_delta": 0.2,
+    "required_delta": 0.1,
+    "material_improvement": true
+  },
+  "canonical_comparison": {
+    "criterion_decisions_agree": 30,
+    "criterion_decisions_total": 30,
+    "criterion_agreement_rate": 1.0,
+    "case_vectors_agree": 6,
+    "case_vectors_total": 6,
+    "total_score_agrees": true,
+    "disagreements": [],
+    "canonical_corrections_required": false,
+    "canonical_corrections": []
+  },
+  "conclusion": "The independent strict rescore reproduces all six canonical vectors and the 20/30 total. Relative to the stated 14/30 baseline, the exact improvement is 6/30 = 0.2. No canonical score, vector, criterion bit, summary field, review statement, or scorecard decision requires correction."
+}

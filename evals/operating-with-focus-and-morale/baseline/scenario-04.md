@@ -1,3 +1,6 @@
+Case ID: scenario-04
+Reviewer ID: focus-baseline-001
+
 # Decide survivability before optimizing focus
 
 The first decision is whether the company can remain solvent through the next eight weeks, not how to improve its calendar. At current figures, dependable net burn is about $185,000 per month ($210,000 of fixed obligations less $25,000 of gross profit), so $320,000 represents roughly 1.7 months of runway before considering payment timing or one-time costs. The possible renewal arrives after that window and is not dependable; an unsigned bridge should be valued at zero until funds are committed and closing conditions are understood.

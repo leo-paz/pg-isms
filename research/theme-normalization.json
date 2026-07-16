@@ -8,7 +8,8 @@
     "Canonical themes support later evidence retrieval only and must not be treated as final skill names or runtime instructions.",
     "Checkpoint 3 semantic routing review split broad equity, adversarial, network-effect, and policy labels by actor or mechanism and added mappings for five reopened essays.",
     "Skill 9 source review added an article-scoped override so essay 084's YC process standardization evidence remains market-structure evidence rather than being misrouted as startup platform strategy.",
-    "Skill 10 source and overlap review added article-scoped cofounder mappings for essays 039, 123, and 134 while preserving founder evaluation and avoiding a global remap of broader founder-selection or durability labels."
+    "Skill 10 source and overlap review added article-scoped cofounder mappings for essays 039, 123, and 134 while preserving founder evaluation and avoiding a global remap of broader founder-selection or durability labels.",
+    "Skill 12 source union removed presentation-only message focus from operating priority, added article-scoped focus and morale evidence for essays 116 and 213, preserved essay 116's financing-terms coverage through its capital-light applicability label because each mapping permits at most three targets, retained essay 213's decision-quality coverage through its problem-prioritization label, and added narrow overrides that keep essays 031, 091, 111, 137, and 150 on their approved non-operating routes."
   ],
   "canonical_themes": [
     {
@@ -1234,7 +1235,18 @@
         "runway-survival-and-profitability",
         "venture-type-and-capital-model"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "116",
+          "canonical_themes": [
+            "financing-terms-equity-and-control",
+            "runway-survival-and-profitability",
+            "venture-type-and-capital-model"
+          ],
+          "reviewer": "focus-source-union-remediation"
+        }
+      ]
     },
     {
       "raw_theme": "capital-light software applicability",
@@ -1991,7 +2003,16 @@
         "fundraising-strategy-and-process",
         "resourcefulness-and-agency"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "137",
+          "canonical_themes": [
+            "fundraising-strategy-and-process"
+          ],
+          "reviewer": "focus-source-union-remediation"
+        }
+      ]
     },
     {
       "raw_theme": "deal leverage",
@@ -2611,7 +2632,18 @@
         "decision-quality-and-noise",
         "evidence-latency-and-cadence"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "213",
+          "canonical_themes": [
+            "evidence-latency-and-cadence",
+            "persistence-and-adaptation",
+            "resourcefulness-and-agency"
+          ],
+          "reviewer": "focus-source-union-remediation"
+        }
+      ]
     },
     {
       "raw_theme": "evolutionary product development",
@@ -2788,7 +2820,16 @@
         "attention-and-priority-control",
         "resourcefulness-and-agency"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "126",
+          "canonical_themes": [
+            "attention-and-priority-control"
+          ],
+          "reviewer": "skill12-pair-reaudit-gpt5-20260715"
+        }
+      ]
     },
     {
       "raw_theme": "falling product and customer-acquisition costs",
@@ -3018,7 +3059,16 @@
         "founder-evaluation-and-potential",
         "persistence-and-adaptation"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "150",
+          "canonical_themes": [
+            "founder-evaluation-and-potential"
+          ],
+          "reviewer": "focus-source-union-remediation"
+        }
+      ]
     },
     {
       "raw_theme": "founder credibility",
@@ -3555,7 +3605,18 @@
         "financing-terms-equity-and-control",
         "fundraising-strategy-and-process"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "116",
+          "canonical_themes": [
+            "attention-and-priority-control",
+            "fundraising-strategy-and-process",
+            "prioritization-and-focus"
+          ],
+          "reviewer": "focus-source-union-remediation"
+        }
+      ]
     },
     {
       "raw_theme": "fundraising mode",
@@ -4699,7 +4760,16 @@
       "canonical_themes": [
         "motivation-and-morale"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "031",
+          "canonical_themes": [
+            "hiring-and-talent"
+          ],
+          "reviewer": "focus-source-union-remediation"
+        }
+      ]
     },
     {
       "raw_theme": "maker persistence",
@@ -4889,10 +4959,9 @@
     {
       "raw_theme": "message focus",
       "canonical_themes": [
-        "communication-and-persuasion",
-        "prioritization-and-focus"
+        "communication-and-persuasion"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "focus-source-union-remediation"
     },
     {
       "raw_theme": "metric decomposition",
@@ -5794,7 +5863,18 @@
         "decision-quality-and-noise",
         "problem-discovery-and-framing"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "213",
+          "canonical_themes": [
+            "decision-quality-and-noise",
+            "prioritization-and-focus",
+            "problem-discovery-and-framing"
+          ],
+          "reviewer": "focus-source-union-remediation"
+        }
+      ]
     },
     {
       "raw_theme": "problem redefinition",
@@ -7238,7 +7318,18 @@
         "growth-and-monetization-tradeoffs",
         "runway-survival-and-profitability"
       ],
-      "reviewer": "semantic-theme-partition-113-223"
+      "reviewer": "semantic-theme-partition-113-223",
+      "article_overrides": [
+        {
+          "article_no": "116",
+          "canonical_themes": [
+            "growth-and-monetization-tradeoffs",
+            "motivation-and-morale",
+            "runway-survival-and-profitability"
+          ],
+          "reviewer": "focus-source-union-remediation"
+        }
+      ]
     },
     {
       "raw_theme": "sustainable intensity",
@@ -7828,7 +7919,17 @@
         "mission-and-user-benefit",
         "motivation-and-morale"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "111",
+          "canonical_themes": [
+            "market-validation-and-demand",
+            "mission-and-user-benefit"
+          ],
+          "reviewer": "focus-source-union-remediation"
+        }
+      ]
     },
     {
       "raw_theme": "user observation",
@@ -8063,7 +8164,16 @@
         "integrity-truth-and-calibration",
         "motivation-and-morale"
       ],
-      "reviewer": "semantic-theme-partition-001-112"
+      "reviewer": "semantic-theme-partition-001-112",
+      "article_overrides": [
+        {
+          "article_no": "091",
+          "canonical_themes": [
+            "integrity-truth-and-calibration"
+          ],
+          "reviewer": "focus-source-union-remediation"
+        }
+      ]
     },
     {
       "raw_theme": "work selection",

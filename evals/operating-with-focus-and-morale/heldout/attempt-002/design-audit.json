@@ -1,0 +1,105 @@
+{
+  "audit_id": "operating-with-focus-and-morale-heldout-attempt-002-design-audit",
+  "attempt_id": "operating-with-focus-and-morale-heldout-attempt-002",
+  "audited_on": "2026-07-15",
+  "scope": {
+    "files_read": [
+      "heldout/attempt-002-design.json",
+      "heldout/prompt.txt",
+      "heldout/response.md",
+      "heldout/score.json",
+      "heldout/review.md"
+    ],
+    "skill_read": false,
+    "other_evals_read": false
+  },
+  "verdict": {
+    "valid_confirmatory_evidence": false,
+    "aggregate_score_usable": false,
+    "scorer_consistency": "The scorer applied the written conjunctive rubric mostly literally and the JSON and Markdown reviews agree, but literal application is not fair where criteria require unavailable facts or one hidden phrasing/threshold despite a behaviorally adequate alternative.",
+    "disposition": "Do not use the 2/5 result or rejection as evidence of skill effectiveness. The response may be retained only as exploratory material and would need a newly preregistered, prompt-answerable rubric and uncontaminated evaluation before producing confirmatory evidence."
+  },
+  "criterion_audits": [
+    {
+      "id": "C1",
+      "prompt_answerability": "partial",
+      "reusable_behavior": "partial",
+      "scorer_application": "literal_but_unfair",
+      "impossible_or_unsupported_clauses": [
+        "The exact adjacent-route label building-and-evolving-organizations is not present in the prompt.",
+        "The no-later-than-July-22 deadline and older-than-24-hours trigger after recovery are not supplied by the prompt; the prompt instead supplies a three-hour normal median and an eight-hour normal maximum.",
+        "The exact unclear-rights/interfaces bounce condition is not stated as a required branch in the prompt."
+      ],
+      "over_specific_clauses": [
+        "Requiring the exact greater-than-24-hour trigger privileges one hidden threshold over other observable relief tests grounded in the supplied eight-hour normal-load maximum.",
+        "Requiring an exact route slug tests taxonomy recall rather than the reusable behavior of keeping organization redesign contingent on evidence."
+      ],
+      "scoring_fairness": "The response set a dated July 22 relief test, required the old queue to clear July 18, required new p95 approvals at or below eight hours, and routed a failure to organization work. The scorer rejected it for not restating the hidden greater-than-24-hour trigger. That is consistent with the literal clause but not with behavior-level scoring; the response's test is at least as demanding for the existing queue and is grounded in prompt evidence.",
+      "criterion_valid": false
+    },
+    {
+      "id": "C2",
+      "prompt_answerability": "partial",
+      "reusable_behavior": "no",
+      "scorer_application": "literal_but_unfair",
+      "impossible_or_unsupported_clauses": [
+        "The prompt requires consequential unknowns to be owned, but it does not require OceanTech value to remain an open unknown after the booth is cancelled while refundable.",
+        "The phrase expo/reseller value is ambiguous about whether it requires one combined row or a distinct row for each initiative."
+      ],
+      "over_specific_clauses": [
+        "Mandating a separate unknown row for every named initiative evaluates an exact ledger decomposition, not whether decision-relevant uncertainty is classified and acted on.",
+        "Requiring investigation of a cancelled, capacity-consuming initiative can conflict with the reusable focus behavior the case is meant to test."
+      ],
+      "scoring_fairness": "The response separately recorded the OceanTech morale claim, cancelled OceanTech before the refund deadline, and declared no unclassified decision-relevant inputs. The scorer failed the entire criterion only because there was no separate OceanTech-value unknown row. That follows one reading of the rubric, but the reading is neither compelled by the prompt nor behaviorally necessary after cancellation.",
+      "criterion_valid": false
+    },
+    {
+      "id": "C3",
+      "prompt_answerability": "yes",
+      "reusable_behavior": "yes",
+      "scorer_application": "consistent",
+      "impossible_or_unsupported_clauses": [],
+      "over_specific_clauses": [],
+      "scoring_fairness": "The required customer target, dates, baseline, latency, owner, competing initiatives, and continuity constraints are all supplied. Requiring one outcome, one tactic, an intermediate check, falsifier, and bounded dispositions measures reusable prioritization behavior. The pass is supported by the response.",
+      "criterion_valid": true
+    },
+    {
+      "id": "C4",
+      "prompt_answerability": "no",
+      "reusable_behavior": "partial",
+      "scorer_application": "literal_but_impossible",
+      "impossible_or_unsupported_clauses": [
+        "The criterion requires an explicitly named distinct backup for each temporary decision authority, but the prompt says only that each April-matrix owner has a named backup and withholds those backup identities.",
+        "The prompt provides no payroll/vendor handoff artifact or channel, although the criterion requires one for every continuity surface. A response can propose a new artifact, but it cannot report one as an observed fact."
+      ],
+      "over_specific_clauses": [
+        "Rejecting April-matrix named backup; identity unsupplied rewards fabrication over faithful use of the supplied authority artifact.",
+        "The continuity requirement should accept an unambiguous existing matrix reference when identities are withheld, or the prompt must supply the names."
+      ],
+      "scoring_fairness": "The scorer explicitly failed the response for not naming backup identities that the prompt does not reveal. This makes truthful satisfaction impossible. The payroll artifact omission is separately remediable as a proposed action, but it does not cure the missing-name defect.",
+      "criterion_valid": false
+    },
+    {
+      "id": "C5",
+      "prompt_answerability": "yes",
+      "reusable_behavior": "yes",
+      "scorer_application": "consistent",
+      "impossible_or_unsupported_clauses": [],
+      "over_specific_clauses": [],
+      "scoring_fairness": "The prompt supplies morale signals, explicitly marks their mechanism unknown, and asks for separate dated branches. The criterion's measure fields and distinctions among continue, adapt, reopen-goal, and stop are reusable behavior contracts. The response supplies the requested evidence, owners, dates, actions, routes, and return states, so the pass is supported.",
+      "criterion_valid": true
+    }
+  ],
+  "cross_cutting_findings": [
+    "Strict 5/5 conjunctive acceptance magnifies a single impossible or brittle clause into total rejection; with C4 impossible and C1/C2 over-specified, the aggregate result cannot distinguish skill behavior from rubric design defects.",
+    "The scorer was internally consistent across score.json and review.md and generally enforced the written all-clauses rule. The main defect is the preregistered criterion design, followed by failure to accept semantic equivalence in C1.",
+    "The design mixes transferable behaviors with hidden exact output decomposition, taxonomy labels, and thresholds. Confirmatory criteria should specify observable behavior and allow prompt-grounded equivalents."
+  ],
+  "required_remediation": [
+    "Supply every fact that must be repeated literally, especially temporary-authority backup identities, or allow reference to the April matrix without inventing names.",
+    "Replace C1's exact 24-hour/July-22 wording with a prompt-grounded relief test that accepts stricter or semantically equivalent thresholds and routes persistent or structural failure to organization work.",
+    "Replace C2's mandatory OceanTech row with a requirement to classify only decision-relevant unknowns, allowing a bounded cancellation to close the question.",
+    "Keep C3 and C5 behavior-level requirements, but split large conjunctive criteria where independent failure modes should remain diagnosable.",
+    "Run a fresh held-out attempt under the corrected preregistered design; do not retroactively treat a post-hoc rescore of this exposed response as confirmatory."
+  ]
+}

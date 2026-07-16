@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "attempt": 1,
+  "canonical": false,
+  "accepted": false,
+  "response_artifacts_frozen": true,
+  "scoring_started": false,
+  "archived_from": "evals/operating-with-focus-and-morale/forward/",
+  "disposition": "Protocol-invalid GREEN generation attempt. One response exceeded the requested word target and four response files had post-creation modifications, so the aggregate attempt cannot prove first-completion capture. Preserved without scoring; replacement is an integrity retry, not quality resampling."
+}

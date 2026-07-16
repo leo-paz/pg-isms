@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "microtest_id": "operating-with-focus-and-morale-microtest-attempt-004",
+  "status": "design_only_unrun",
+  "designed_at": "2026-07-15",
+  "skill": "operating-with-focus-and-morale",
+  "package_snapshot": {
+    "package_surface_sha256": "7a997edc0a36cde7a51c57331896b6f11222615d391c8761afbb145ed8024654",
+    "hash_algorithm": "SHA-256 of the bytewise concatenation, in listed order, of the two guided-arm files",
+    "files": [
+      {
+        "path": "skills/operating-with-focus-and-morale/SKILL.md",
+        "sha256": "b6c338f2d9ce0b225e81f03ed1c1e4f8b15ab9731d53f343375a2008eedf0507"
+      },
+      {
+        "path": "skills/operating-with-focus-and-morale/references/runtime-contract.md",
+        "sha256": "5d44db01c258ab81ad55a0479e49563dd8d2766be2d9f06144483db138d45cff"
+      }
+    ]
+  },
+  "hypothesis": "At the frozen package surface, fresh guided agents will more often produce a complete, owned, evidence-bound focus-and-morale operating artifact than otherwise identical fresh control agents.",
+  "exact_prompt": "Today is July 15, 2026. You advise Common Chord, an 11-month-old Seattle startup running paid neighborhood choirs for adults. The team is founder Maya, music director Ellis, member coordinator Rowan, and three part-time conductors. It has 16 months of runway at current spend, payroll and venue bills are current, no financing process or buyer conversation is active, and no acute medical, safety, legal, privacy, or misconduct issue has been reported. Venue insurance and incident procedures are current.\n\nCommon Chord has 138 paying members across four choirs. Renewal opens August 10 and closes August 24. The attendance ledger shows 52 members attended fewer than three of the last six rehearsals. In 20 dated calls with recently lapsed members, 12 said they could not tell whether they were improving, five cited scheduling, and three cited price. One conductor tried a written song goal plus a closing rehearsal recording for two weeks: attendance among that choir's 28 members rose from 61% to 79%, but there was no control group and the same conductor ran both weeks. The team does not know whether that result repeats, whether it changes renewal, or whether the conductor rather than the tactic caused it.\n\nThe team has also announced an August 29 member showcase; venue deposits, performer communication, and contracted accompanists must be honored. Maya wants to open a fifth choir on August 20 because she says visible expansion will prove momentum and lift morale. A prospective sponsor says a professionally produced livestream of the showcase would create credibility. Maya also wants a full visual rebrand before renewal, and Rowan wants to pitch employer-sponsored memberships this month. No one has measured member demand or renewal effect for the fifth choir, livestream, rebrand, or employer plan. Ellis believes visible rehearsal progress is the renewal bottleneck. One conductor believes fatigue, not the member experience, explains the attendance decline.\n\nDecision rights are written and accepted: Maya owns pricing and new locations, Ellis owns rehearsal standards and conductor assignment, and Rowan owns renewals and member communication. Nine routine rehearsal adjustments waited 24-36 hours in the last ten days after Maya inserted herself; no comparable queue existed before June 24, when she started carrying the expansion and showcase work.\n\nFor the last three weeks Maya worked 66 hours and Ellis 58; two conductors report no full day off in 14 days. The weekly anonymous morale pulse fell from 7/10 six weeks ago to 4/10 now. The team issued two erroneous song sheets and one member reply took 63 hours against its 24-hour standard. Current rehearsals, the 24-hour member-response promise, payroll, contracted showcase obligations, and incident coverage cannot be dropped.\n\nWhat should Common Chord do from July 15 through the August 24 renewal decision? Return the actual operating artifact the team should use, not a pep talk or generic advice, in at most 1,200 words. Choose now, give dated checkpoints and decision branches, protect members and the team, and make unknowns explicit instead of inventing evidence or asking follow-up questions.",
+  "criteria": [
+    {
+      "id": "C1",
+      "name": "route_and_evidence_integrity",
+      "type": "binary_conjunctive",
+      "pass_rule": "Award 1 only if every clause passes; otherwise award 0.",
+      "clauses": [
+        "Select operating-with-focus-and-morale as the primary route and use the prompt facts to exclude survival, financing, buyer, structural-organization, and acute-risk primacy; treat the recent approval queue as overload-related while setting a dated persistence test that would switch to organization work.",
+        "Classify the decision-relevant prompt inputs without converting interpretations into facts or inventing evidence; preserve separately as claims Maya's expansion-morale view, the sponsor's livestream-credibility view, Maya's rebrand preference, Rowan's employer-plan preference, Ellis's rehearsal-progress diagnosis, and the conductor's fatigue diagnosis.",
+        "Give each consequential unknown its own owner, method or artifact, due date, result threshold, and decision effect: repeatability of the rehearsal trial, renewal effect, conductor-versus-tactic confounding, fatigue-versus-member-experience mechanism, and member demand or renewal effect for each of the fifth choir, livestream, rebrand, and employer plan.",
+        "Do not contradict or omit a numeric deadline, baseline, continuity fact, or workload signal used by the decision."
+      ]
+    },
+    {
+      "id": "C2",
+      "name": "one_priority_and_competing_work",
+      "type": "binary_conjunctive",
+      "pass_rule": "Award 1 only if every clause passes; otherwise award 0.",
+      "clauses": [
+        "Select exactly one state-changing outcome centered on the current four choirs' renewal/member value and exactly one current tactic or linked evidence loop; do not run a continuing portfolio comparison.",
+        "For that single row, include a dated baseline, dated target, affected members or work, accountable owner, proposed mechanism, at least one rival, honest evidence latency and checkpoint, falsifier, and final decision date.",
+        "Give separate protect, cancel, delegate, defer, or tightly bound dispositions with owner, effective date, and limit or reopen condition for the fifth choir, professional livestream, visual rebrand, employer-sponsored-membership pitch, and the already-committed August 29 showcase.",
+        "Name current rehearsals, the 24-hour member response, payroll, contracted showcase obligations, and incident coverage as protected essentials; leave no named initiative undispositioned."
+      ]
+    },
+    {
+      "id": "C3",
+      "name": "execution_recovery_and_coverage",
+      "type": "binary_conjunctive",
+      "pass_rule": "Award 1 only if every clause passes; otherwise award 0.",
+      "clauses": [
+        "Protect recurring contiguous rehearsal-design or analysis time for the accountable owner and recurring direct member contact for that owner, while bounding meetings, notifications, status work, and availability.",
+        "For rehearsal delivery, member response, showcase/vendor commitments, incident response, payroll, and decision authority, name a primary owner, a distinct backup decision owner, a service block or service level, an escalation destination, and a concrete response window.",
+        "Set a numeric sustainable weekly workload or availability limit, immediate dated recovery for the reported overload, and an end date plus recovery for any exceptional push; explicitly remove or delegate work before claiming protected capacity.",
+        "Diagnose morale from the observed pulse, hours, missed rest, errors, delayed reply, progress visibility, and ownership signal; test plausible progress and fatigue mechanisms without using raw hours, public pressure, compulsory nights, or continuous availability as determination."
+      ]
+    },
+    {
+      "id": "C4",
+      "name": "owned_cadence_and_goal_tactic_separation",
+      "type": "binary_conjunctive",
+      "pass_rule": "Award 1 only if every clause passes; otherwise award 0.",
+      "clauses": [
+        "State the goal premise separately from the selected tactic and state the tactic selected now.",
+        "Include separate company-outcome, member-or-continuity, and workload-or-judgment measures; every measure has a dated baseline, target or limit, evidence source, owner, and review date.",
+        "Set at least one intermediate check at an honest evidence interval and a final decision on August 24 or another explicitly justified date tied to the renewal evidence.",
+        "At checks, require recording observed result, confounders, safeguard status, and the precommitted branch; do not use hours as a seriousness or morale success score."
+      ]
+    },
+    {
+      "id": "C5",
+      "name": "complete_branch_matrix_and_compact_contract",
+      "type": "binary_conjunctive",
+      "pass_rule": "Award 1 only if every clause passes; otherwise award 0.",
+      "clauses": [
+        "Provide separate continue, adapt, reopen-goal, and stop rows, each with its own observable threshold, next action, next owner, calendar date, primary route after the branch, and handoff or return condition and date.",
+        "Make adapt change one material variable while the premise remains plausible; make reopen-goal depend on repeated discriminating evidence or a changed hard constraint; make stop depend on invalidation or a hard boundary rather than low morale alone.",
+        "Record the decision now, a preserved option, and unresolved unknowns carried forward; do not move thresholds after results.",
+        "Stay at or below 1,200 words and use a filled compact record with no blank cells, TBD, 'as needed,' shared implicit owners or dates, or generic introductory/productivity prose; include the required one-line lineage treatment, saying once that runtime citations were not supplied if applicable."
+      ]
+    }
+  ],
+  "run_plan": {
+    "total_repetitions": 10,
+    "control_repetitions": 5,
+    "guided_repetitions": 5,
+    "fresh_context_requirement": "Each repetition is a new agent context with one user turn, no memory, no prior output, no evaluator notes, and no access to this repository or any eval artifact.",
+    "shared_conditions": [
+      "Use the same model snapshot, base system message, decoding parameters, output-token limit, tool policy, and exact_prompt in all ten calls.",
+      "Disable repository and web access in both arms; the scenario supplies all runtime facts.",
+      "Randomly interleave the ten calls and record model/configuration metadata before scoring.",
+      "Do not retry, repair, continue, or edit a response after its single call."
+    ],
+    "control_arm": "Five fresh agents receive only the common base system message and exact_prompt. They receive no skill name, metadata, SKILL.md, runtime contract, summaries, or eval context.",
+    "guided_arm": "Five fresh agents receive the same common base system message and exact_prompt plus the exact frozen contents of the two package_snapshot files as system-level skill guidance. No other repository file is exposed.",
+    "forbidden_during_run": [
+      "Existing evals, cases, prompts, heldout materials, microtests, responses, or scores",
+      "Cross-repetition conversation history or response examples",
+      "Any hint about the five criteria or expected answer",
+      "Response generation or scoring during the design phase"
+    ]
+  },
+  "blinded_scoring": {
+    "procedure": [
+      "After all ten outputs are frozen, assign each an opaque random response ID and store the response-ID-to-arm mapping where the scorer cannot access it.",
+      "Present the scorer only the exact prompt, the five criteria in a freshly randomized order, and the ten responses in a separately randomized order; remove run labels, filenames, package mentions, and metadata that reveal arm.",
+      "Score each criterion independently as 0 or 1 from the written clauses. A criterion with any failed or unverifiable clause is 0; do not award partial credit or infer implicit fields.",
+      "Lock all fifty binary judgments and short evidence notes before revealing the arm mapping. Unblind once, compute arm statistics, and retain the locked judgments unchanged."
+    ],
+    "response_score": "(C1 + C2 + C3 + C4 + C5) / 5",
+    "arm_score": "Arithmetic mean of the five response scores in that arm.",
+    "effect": "guided_arm_score - control_arm_score"
+  },
+  "acceptance": {
+    "minimum_control_n": 5,
+    "minimum_guided_n": 5,
+    "minimum_effect": 0.20,
+    "decision_rule": "Accept only when both arms contain exactly five valid fresh-agent responses and guided_arm_score - control_arm_score >= 0.20. Otherwise reject or rerun a newly designed test; do not repair individual outputs."
+  },
+  "novelty_and_non_overlap": {
+    "scenario_domain": "A paid adult neighborhood-choir operator balancing rehearsal progress, membership renewal, a live showcase, physical service continuity, and team fatigue.",
+    "material_distinction": "The state-changing evidence is embodied, cohort-based rehearsal progress and member renewal in a performing-arts service. It is not software delivery, calendar cleanup, fundraising, acquisition, or a greenhouse/hardware trial.",
+    "pressure_distinction": "The ambiguous signal is a small uncontrolled rehearsal intervention with a conductor confound, while a recent overload-created approval queue tests focus-versus-organization routing and fixed member/showcase obligations test humane coverage.",
+    "authoring_isolation": "This design was authored without reading any existing eval, prior case, prompt, heldout item, microtest, response, or score. Names, dates, counts, initiatives, and thresholds in the scenario were created for this attempt.",
+    "taxonomy_note": "The requested research/taxonomy.md path was absent in the working tree at design time; no substitute taxonomy artifact was opened. Routing and criteria therefore use only the frozen skill surface named above."
+  },
+  "generation_or_scoring_performed": false
+}

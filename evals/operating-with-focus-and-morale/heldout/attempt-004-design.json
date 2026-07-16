@@ -1,0 +1,175 @@
+{
+  "id": "operating-with-focus-and-morale-heldout-004",
+  "artifact_type": "heldout_design",
+  "attempt": 4,
+  "design_only": true,
+  "domain": "seasonal cut-flower agriculture",
+  "skill": "operating-with-focus-and-morale",
+  "exact_prompt": {
+    "serialization": "Join blocks in order with exactly two newline characters.",
+    "blocks": [
+      "Today is 2026-07-15. You advise Marigold Row, a four-year-old cut-flower farm selling weekly stem subscriptions to independent florists. Return the compact operating decision record required by `operating-with-focus-and-morale`, in no more than 1,200 words. Choose the primary route and one current tactic; do not give generic productivity advice.",
+      "Facts supplied by the farm:",
+      "- Cash records dated July 14 show 10.5 months of runway at the current spend and the next two payrolls fully funded. There is no fundraising, investor diligence, buyer discussion, sale process, lawsuit, reportable safety event, security/privacy issue, or medical emergency.\n- Roles and rights have been written and used since February: founder Mara owns crop mix and final operating priority; sales lead Dev owns pricing and florist accounts; field lead Lena owns irrigation, harvest, packing, and worker-safety stops; bookkeeper June owns payroll and tax filing. Under normal load, approval logs show waits under four hours and no repeated queue. Two waits exceeded one day in the last 10 days, after Mara's workload rose. Treat the July 26 relief check as the test for persistence; a recurring wait over one business day after relief would trigger organization review.\n- Forty-three of 60 eligible florists reordered by the equivalent date last season; 31 of 60 have reordered by July 14 this season. Eight dated complaint records since June 15 comprise six inconsistent stem-length/grade complaints and two partial-fill complaints. Eleven non-reordering florists have not supplied a reason. A competitor announced a premium florist program on July 10.\n- Mara says, “The competitor will lock up the market unless we look bigger,” and “an 80-hour push will show the crew we are serious.” Dev claims inconsistent grading is the main cause of lost reorders and a fixed two-grade assortment can recover them. Lena says morale fell because standards changed twice in three weeks. The event organizer claims the bridal expo is “the region's prestige stage.” Preserve these as claims, not facts.\n- Timecards for the last three weeks show Mara at 68/70/71 hours and the crew median at 52/55/54 against a usual 42. Mara's sleep log averages 5.6 hours; she reversed two packing decisions, missed two florist calls, and changed the grading rule twice. Anonymous July 12 pulse: morale 2.2/5 versus 3.8/5 on June 7; 7 of 11 comments mention late changes or lack of a finish line. No one has reported self-harm, harassment, retaliation, or acute illness.\n- The four named material initiatives are: restore florist reorders through a reliability test; pay a $12,000 non-refundable bridal-expo deposit by July 18; launch a dried-flower retail line; redesign greenhouse benches. Essential obligations that cannot be dropped are irrigation/frost protection, harvest and packing, existing-order continuity, worker safety, payroll/tax filing, and the Saturday cold-room alarm.\n- Current verified continuity roster: irrigation/frost and harvest/packing — Lena primary, Noel backup; florist orders — Dev primary, Priya backup; payroll/tax — June primary, Mara backup; worker-safety stop and field incident — Lena primary, Mara backup; final operating decisions — Mara primary, Dev backup; Saturday cold-room alarm — Lena primary. Mara assumes Noel can make temperature-excursion decisions, but Noel says he is authorized only to silence the alarm. The backup decision owner for that alarm is therefore unverified. Escalation destinations already in use are Lena for field/packing within 15 minutes, Dev for order continuity within two hours, Mara then Dev for operating decisions within four hours, and June then Mara for payroll/tax within one business day.\n- Current calendar contains 23 meeting/status hours, no recurring founder florist calls, and unbounded evening messages. The farm can cancel work without contractual penalty except the listed essential obligations; no expo deposit has been paid. An exceptional harvest push, if used, must end by July 28. Mara will accept a sustainable cap no higher than 50 hours/week for herself and 45 for crew after that date, at least one full recovery day weekly, and no compulsory nights or public pressure.",
+      "The farm does not yet know (1) why the 11 silent florists did not reorder, (2) whether a two-grade, fixed-availability test can improve reorder conversion without increasing partial fills, (3) whether overload/late changes rather than some other mechanism caused the morale decline, or (4) who has Saturday cold-room backup decision authority. Control each only if it changes a decision: give it a separate owner, artifact/method, date, result threshold, and decision effect; do not invent missing evidence or coverage.",
+      "Use the shortest honest evidence interval. Include a dated baseline, target, affected customers/work, mechanism and rival, falsifier, initiative dispositions, protected founder florist contact, removed load, workload/recovery boundary, every relevant continuity row, morale and company/user/workload measures, checkpoint contents, and distinct `continue`, `adapt`, `reopen-goal`, and `stop` rows. Choose exactly one customer-facing operating tactic; the required diagnostic, recovery, safeguard, and coverage-verification checks do not count as extra tactics.",
+      "Make thresholds objectively discriminating. A florist test must cover at least 10 accounts (or the full 60-account cohort), require at least six additional reorders above 31/60, and cap partial fills at no more than one in 10 test shipments. A morale threshold must combine the pulse score with observed late-change or judgment behavior. Cold-room coverage requires written decision authority and an acknowledged handoff before the next Saturday exposure. Reopen the goal only after at least two discriminating tactic or segment tests miss. Stricter alternatives are acceptable; other alternatives are acceptable only when they have a dated denominator/exposure, a minimum effect at least this strong, and an equal or tighter quality/safeguard guardrail. If a supplied exact value is unavailable, write a controlled `unknown`; do not create unknowns for facts supplied above."
+    ]
+  },
+  "protocol": {
+    "responses": 1,
+    "clarification_turns": 0,
+    "tools_or_outside_facts": false,
+    "criteria_visible_to_responder": false,
+    "candidate_response_or_scoring_in_this_attempt": false,
+    "score_mode": "binary_per_criterion",
+    "criterion_rule": "A criterion passes only if every conjunct passes."
+  },
+  "acceptance": {
+    "required_passes": 5,
+    "total_criteria": 5,
+    "minimum_score": "5/5",
+    "partial_credit": false,
+    "cross_criterion_compensation": false
+  },
+  "criteria": [
+    {
+      "id": "C1",
+      "name": "routing_and_evidence_integrity",
+      "strict_conjunctive": true,
+      "conjuncts": [
+        "Selects operating-with-focus-and-morale as primary and excludes survival, financing, buyer, organization, and acute-risk primacy using supplied facts, including the July 26 organization-switch test.",
+        "Provides a filled dated route header and required survival, financing, buyer, authority, continuity/acute-risk, and focus gate rows.",
+        "Inventories every decision-relevant supplied observation and stakeholder claim once with stable IDs and ends with no unclassified inputs.",
+        "Gives separate controlled unknown rows for the silent-florist cause, tactic effect plus partial-fill risk, and morale mechanism, each with owner, method/artifact, due date, observable threshold, and decision effect.",
+        "Does not promote a claim to observed fact, convert a supplied fact to unknown, or add an inconsequential unknown."
+      ],
+      "exclusive_grading_owner": "Evidence classification and claim-versus-observation status. Cold-room authority is excluded and graded only in C3."
+    },
+    {
+      "id": "C2",
+      "name": "one_state_changing_loop_and_work_disposition",
+      "strict_conjunctive": true,
+      "conjuncts": [
+        "States exactly one florist-reorder/reliability outcome and exactly one customer-facing operating tactic; required diagnostic, recovery, safeguard, and coverage-verification checks are not counted as extra tactics.",
+        "Supplies baseline and date, numeric target and date, affected florists/work, accountable owner, mechanism, plausible rival, honest latency, earliest checkpoint date, falsifier, and final decision date.",
+        "Uses a florist target meeting the prompt's sample/exposure, minimum six-reorder lift, partial-fill guardrail, and deadline structure, or a target demonstrably stricter on every dimension.",
+        "Gives a distinct protect/cancel/delegate/defer/bound row with owner, effective date, and limit/reopen condition for each of the four named initiatives, and ends with no undispositioned activity.",
+        "Does not pay the non-refundable expo deposit while evidence is pending; bounding is acceptable only as a genuinely reversible unpaid option."
+      ],
+      "exclusive_grading_owner": "Priority target substance, latency, and earliest checkpoint date. Checkpoint contents are C4; obligation protection is C3."
+    },
+    {
+      "id": "C3",
+      "name": "executable_humane_calendar_and_continuity",
+      "strict_conjunctive": true,
+      "conjuncts": [
+        "Identifies and protects all six supplied essential-obligation classes.",
+        "Reserves recurring contiguous decision/maker time and direct florist evidence for Mara, bounds meetings/status/messages/availability, and removes or delegates enough load before adding blocks.",
+        "States Mara's 50-hour and crew's 45-hour post-push caps, one weekly recovery day, any exceptional push ending no later than July 28, and no compulsory nights or public pressure.",
+        "Provides separate continuity rows for irrigation/frost, harvest/packing, florist orders, payroll/tax, worker safety/field incident, final decisions, and the Saturday cold-room alarm with supplied primary, distinct verified backup where available, service/protected block, escalation destination, and concrete response window.",
+        "Does not treat Noel as verified cold-room decision backup and controls that authority with a named owner, written authorization artifact, due date before July 18, authorization plus acknowledged handoff threshold, and a decision effect that installs coverage or changes Saturday operations before exposure."
+      ],
+      "exclusive_grading_owner": "Essential obligations, execution envelope, and continuity coverage, including the cold-room unknown."
+    },
+    {
+      "id": "C4",
+      "name": "morale_measures_and_owned_cadence",
+      "strict_conjunctive": true,
+      "conjuncts": [
+        "Uses evidence IDs without regrading classification, tests overload/late changes against a plausible rival, and separates the florist-value goal premise from the selected tactic.",
+        "Provides distinct company-outcome, florist/customer-continuity, and workload/judgment measure rows with dated baseline, target/limit or valid C2 target cross-reference, evidence source, owner, and review dates.",
+        "Uses a morale threshold combining the pulse score with observed late-change or judgment behavior.",
+        "Provides a within-days recovery/acute-risk check and the July 26 queue-relief check.",
+        "For every tactic checkpoint already named under C2, plus both required checks, provides a checkpoint-content row with observed result, confounder/rival status, safeguard status, and precommitted branch."
+      ],
+      "exclusive_grading_owner": "Diagnosis, non-target measure fields, and checkpoint-content rows. Evidence classification is C1; target and checkpoint date are C2."
+    },
+    {
+      "id": "C5",
+      "name": "precommitted_persistence_branches",
+      "strict_conjunctive": true,
+      "conjuncts": [
+        "Provides separate continue, adapt, reopen-goal, and stop rows, each with its own observable threshold, next action, next owner, calendar date, resulting primary route, and explicit handoff/return state.",
+        "Distinguishes tactic miss, repeated premise failure, and hard harm/survival boundaries without treating effort, morale, competitor prestige, or raw hours as proof of demand.",
+        "Continue/adapt use the prompt's exposure, six-reorder lift, and partial-fill guardrail or thresholds stricter on every dimension; reopen requires at least two discriminating tactic/segment misses; stop uses an explicit supplied or prospectively observable safety, survival, harm, or dominated-option boundary.",
+        "States the decision now, preserved option, attempt/evidence count before goal reopening, and unresolved consequential unknowns carried forward.",
+        "Keeps all branch content precommitted, dated, and mutually interpretable."
+      ],
+      "exclusive_grading_owner": "All branch content; branch defects are not recharged as cadence, target, or coverage defects."
+    }
+  ],
+  "coverage": {
+    "required_primary_route": "operating-with-focus-and-morale",
+    "adjacent_route_values": {
+      "survival": "10.5 months runway; next two payrolls funded",
+      "financing": "none",
+      "buyer": "none",
+      "organization": "written rights; normal waits under four hours; overload-timed waits; July 26 persistence test",
+      "acute_risk": "no supplied acute event"
+    },
+    "accountable_and_direct_evidence_owner": "Mara",
+    "supporting_owners": ["Dev", "Lena", "June"],
+    "verified_backups": {
+      "irrigation_frost": "Noel",
+      "harvest_packing": "Noel",
+      "florist_orders": "Priya",
+      "payroll_tax": "Mara",
+      "worker_safety_field_incident": "Mara",
+      "final_operating_decisions": "Dev"
+    },
+    "intentionally_withheld_value": "Saturday cold-room backup decision owner",
+    "required_consequential_unknowns": [
+      "silent-florist cause",
+      "tactic effect plus partial-fill guardrail",
+      "morale mechanism",
+      "cold-room backup decision authority"
+    ],
+    "required_initiatives": [
+      "florist reliability test",
+      "bridal expo",
+      "dried-flower retail line",
+      "greenhouse bench redesign"
+    ],
+    "required_essential_obligations": [
+      "irrigation/frost",
+      "harvest/packing",
+      "existing-order continuity",
+      "worker safety",
+      "payroll/tax",
+      "Saturday cold-room alarm"
+    ],
+    "required_checks": [
+      "within-days recovery/acute-risk",
+      "honest tactic checkpoint",
+      "July 26 queue relief",
+      "final decision date"
+    ]
+  },
+  "novelty_and_fairness_self_audit": {
+    "unseen_domain": "Seasonal cut-flower agriculture is materially different from marine hardware, performing arts, local news, and ordinary software; it uses seasonal demand, physical inventory, field safety, and cold-chain authority without requiring horticultural expertise.",
+    "prompt_sufficiency": "All route facts, initiative names, baselines, role identities, verified backups, escalation windows, workload constraints, and the deliberately unverified coverage value are supplied.",
+    "controlled_unknowns": "Exactly four required unknown identities are consequential to tactic, goal, morale intervention, or continuity exposure; supplied values may not be made unknown.",
+    "answerability": "The exact prompt is 920 words after revision and supports a compact table/fragment answer within 1,200 words.",
+    "threshold_flexibility": "The prompt publishes minimum exposure, effect, quality, morale, coverage, and repetition invariants; alternatives pass if they meet them or are stricter on every relevant dimension.",
+    "no_double_penalties": "C1 owns classification; C2 target/latency/checkpoint date; C3 obligations/envelope/coverage; C4 measures/checkpoint contents; C5 branches.",
+    "strictness": "Exactly five binary conjunctive criteria; acceptance is 5/5."
+  },
+  "independent_fairness_audit": {
+    "source_boundary": "Reviewer read only the draft design.",
+    "pass_1": {
+      "result": "FAIL",
+      "issues": [
+        "overlapping grading ownership",
+        "ambiguity between one operating tactic and mandatory checks",
+        "no objective comparator for alternative thresholds"
+      ]
+    },
+    "revisions": [
+      "made grading ownership exclusive",
+      "defined one customer-facing tactic while excluding diagnostic, recovery, safeguard, and verification checks",
+      "published minimum threshold invariants"
+    ],
+    "pass_2": "PASS"
+  }
+}

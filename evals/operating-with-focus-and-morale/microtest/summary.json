@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "attempt": 5,
+  "scorer_id": "focus-micro5-blind-scorer",
+  "blind_vectors": {
+    "slot-01":"11010",
+    "slot-02":"00000",
+    "slot-03":"00000",
+    "slot-04":"01100",
+    "slot-05":"00000",
+    "slot-06":"00000",
+    "slot-07":"00000",
+    "slot-08":"01110",
+    "slot-09":"01100",
+    "slot-10":"01100"
+  },
+  "control": {"n":5,"score":0,"max":25,"normalized":0.0},
+  "guided": {"n":5,"score":12,"max":25,"normalized":0.48},
+  "delta": 0.48,
+  "required_delta": 0.2,
+  "accepted": false,
+  "confirmatory": false,
+  "status": "invalidated-after-integrity-review",
+  "protocol_deviations": [
+    "Four of five guided responses exceeded the prompt's hard 1200-word cap while all five control responses conformed.",
+    "The predeclared two-scorer blind protocol was not executed; the second reviewer saw the arm mapping."
+  ],
+  "disposition": "Preserve all responses and raw scores unchanged as exploratory evidence only; do not use the observed delta for skill acceptance.",
+  "independent_audit": {
+    "bits_changed": 0,
+    "accepted": false,
+    "blind": false,
+    "note": "The re-review reproduced the bits but cannot satisfy the predeclared second-blind-scorer requirement."
+  }
+}

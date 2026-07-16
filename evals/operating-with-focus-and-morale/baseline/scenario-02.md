@@ -1,3 +1,6 @@
+Case ID: scenario-02
+Reviewer ID: focus-baseline-001
+
 # 30-day operating plan
 
 ## What to persist with

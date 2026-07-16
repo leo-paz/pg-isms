@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "status": "archived-after-package-refactor",
+  "scored": true,
+  "canonical_for_skill_sha256": "a8a660292004fa80c90c72265be27ef7bc83434682461e23628b744144541e46",
+  "control_score": 0.0,
+  "guided_score": 0.04,
+  "delta": 0.04,
+  "reason": "The clean paired microtest failed the required 0.20 guided-control delta and motivated a package refactor. Its de-identified scoring is retained unchanged and is not canonical for the revised package."
+}

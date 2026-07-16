@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "attempt": 5,
+  "status": "invalid-for-confirmatory-acceptance",
+  "raw_scores_preserved": true,
+  "observed_control_score": 0,
+  "observed_guided_score": 12,
+  "observed_maximum_per_arm": 25,
+  "observed_delta": 0.48,
+  "protocol_deviations": {
+    "hard_word_cap": {
+      "cap": 1200,
+      "control_conforming": 5,
+      "guided_conforming": 1,
+      "arm_specific_confound": true
+    },
+    "blind_scoring": {
+      "required_independent_blind_scorers": 2,
+      "completed_independent_blind_scorers": 1,
+      "later_reviewer_saw_arm_mapping": true
+    }
+  },
+  "acceptance_use": false,
+  "post_generation_repairs": false,
+  "disposition": "Preserve as exploratory failed-protocol evidence; rely on the valid baseline/forward loop for the project quality contract."
+}

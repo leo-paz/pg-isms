@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "attempt": 4,
+  "scorer_id": "focus-micro4-blind-scorer",
+  "independent_reviewer_id": "focus-micro4-independent-auditor",
+  "blind_vectors": {
+    "slot-01": "01000",
+    "slot-02": "00000",
+    "slot-03": "01100",
+    "slot-04": "01001",
+    "slot-05": "00000",
+    "slot-06": "01000",
+    "slot-07": "00000",
+    "slot-08": "00000",
+    "slot-09": "11000",
+    "slot-10": "00000"
+  },
+  "control": {
+    "repetitions": 5,
+    "score": 0,
+    "max_score": 25,
+    "normalized_score": 0.0
+  },
+  "guided": {
+    "repetitions": 5,
+    "score": 8,
+    "max_score": 25,
+    "normalized_score": 0.32
+  },
+  "delta": 0.32,
+  "required_delta": 0.2,
+  "accepted": true,
+  "independent_audit": {
+    "bit_changes": 0,
+    "hashes_verified": true,
+    "decision": "accept"
+  }
+}

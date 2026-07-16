@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "status": "invalid-design-not-confirmatory",
+  "response_sha256": "6bd3956308a4cc38eb4ed52c9135c6ddb3df1c490278e75eeb73dfd293299290",
+  "literal_score": 2,
+  "literal_max": 5,
+  "design_audit_verdict": "invalid confirmatory evidence",
+  "reason": "An independent audit found C4 impossible from the supplied prompt and C1/C2 over-specific. The response and literal scoring remain immutable, but the aggregate cannot be used to accept or reject the skill."
+}

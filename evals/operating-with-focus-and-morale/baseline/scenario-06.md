@@ -1,3 +1,6 @@
+Case ID: scenario-06
+Reviewer ID: focus-baseline-001
+
 # Two-week operating plan
 
 The financing process should lead for the next two weeks, specifically the two live paths that can produce a decision: resolving the expiring term sheet and completing Friday's diligence request. This is a temporary deadline-driven choice, not permission for fundraising to consume the whole company. Customer continuity is the protected constraint; broad investor networking, optional product work, and speculative partnerships yield to those two priorities.

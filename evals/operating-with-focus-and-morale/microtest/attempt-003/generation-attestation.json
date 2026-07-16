@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "plan_id": "operating-with-focus-and-morale-paired-microtest-003",
+  "attempt": 3,
+  "attested_at_utc": "2026-07-16T00:37:21Z",
+  "generation_plan_sha256": "f3b7921a0ba65e29b769bbeac04057c523b40c4f72c12e750e6302dd2b885ef3",
+  "criteria_hidden": true,
+  "fresh_context_per_sample": true,
+  "one_write_capture": true,
+  "quality_resampling": false,
+  "hard_maximum_words": 1200,
+  "responses": [
+    {"sample_id":"focus_micro3_control_1","path":"evals/operating-with-focus-and-morale/microtest/control/rep-1.md","sha256":"1cae08784a5ab5239413eeb67af9e7911270bb59377e5d92389284e281c323e1","bytes":5115,"words":731,"birth_epoch":1784161856,"mtime_epoch":1784161856},
+    {"sample_id":"focus_micro3_control_2","path":"evals/operating-with-focus-and-morale/microtest/control/rep-2.md","sha256":"f6e0d8267b75864fd202668bbc2dd8ecea63ac9eb870e010b3d23f7a9678b297","bytes":5154,"words":740,"birth_epoch":1784161889,"mtime_epoch":1784161889},
+    {"sample_id":"focus_micro3_control_3","path":"evals/operating-with-focus-and-morale/microtest/control/rep-3.md","sha256":"2645b26a55ff00675bf4a0ced48f271ed8d7479a2c07e2bf0f54a9ce8f10cdf7","bytes":5278,"words":760,"birth_epoch":1784161874,"mtime_epoch":1784161874},
+    {"sample_id":"focus_micro3_control_4","path":"evals/operating-with-focus-and-morale/microtest/control/rep-4.md","sha256":"d5cf8a169546213dbffb34bc00ac1851e32dfbdeb3c3f29e17e0179b62ab828f","bytes":5047,"words":717,"birth_epoch":1784161909,"mtime_epoch":1784161909},
+    {"sample_id":"focus_micro3_control_5","path":"evals/operating-with-focus-and-morale/microtest/control/rep-5.md","sha256":"5c6ae8880db2b350a4435b118cad4d0d2f34681e5b8177c206893124feb0ab8e","bytes":4821,"words":684,"birth_epoch":1784161932,"mtime_epoch":1784161932},
+    {"sample_id":"focus_micro3_guided_1","path":"evals/operating-with-focus-and-morale/microtest/guided/rep-1.md","sha256":"6055a44cee186f2260a86339fc9c18b9eb73907c86d259149fc78b2c8e35c85e","bytes":5236,"words":738,"birth_epoch":1784161961,"mtime_epoch":1784161961},
+    {"sample_id":"focus_micro3_guided_2","path":"evals/operating-with-focus-and-morale/microtest/guided/rep-2.md","sha256":"5206290c7b3b2affad32047d088d803373d6915e841cac7de1a019a469d12f72","bytes":5569,"words":783,"birth_epoch":1784161993,"mtime_epoch":1784161993},
+    {"sample_id":"focus_micro3_guided_3","path":"evals/operating-with-focus-and-morale/microtest/guided/rep-3.md","sha256":"d51ff289bdec076d5f43803ea6b303df078b41cc273fd4c1b5beb25e5906187c","bytes":5539,"words":793,"birth_epoch":1784162011,"mtime_epoch":1784162011},
+    {"sample_id":"focus_micro3_guided_4","path":"evals/operating-with-focus-and-morale/microtest/guided/rep-4.md","sha256":"6fec322434e6e16e382b3409295891f4c56fbcf36809b60994076251d308260e","bytes":5487,"words":778,"birth_epoch":1784162045,"mtime_epoch":1784162045},
+    {"sample_id":"focus_micro3_guided_5","path":"evals/operating-with-focus-and-morale/microtest/guided/rep-5.md","sha256":"f7a38e6315ac950f07e0717343dbd169a3f6a014cfe59f33087b51eaf63355d8","bytes":6044,"words":881,"birth_epoch":1784162137,"mtime_epoch":1784162137}
+  ],
+  "verification": {"sample_count":10,"unique_task_count":10,"unique_response_hash_count":10,"all_within_word_limit":true,"all_birth_equal_mtime":true,"all_declared_paths_match":true,"skill_hash_matches_freeze":true,"runtime_hash_matches_freeze":true,"integrity_result":"pass"},
+  "scoring_started": false
+}

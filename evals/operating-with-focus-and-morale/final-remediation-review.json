@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "skill12-eval-remediation-final",
+  "status": "complete",
+  "reviewed_at_utc": "2026-07-16T03:13:15Z",
+  "skill_name": "operating-with-focus-and-morale",
+  "ready_to_commit": true,
+  "finding_counts": {
+    "critical": 0,
+    "important": 0,
+    "minor": 0
+  },
+  "verdict": "The PROJECT_BRIEF-required baseline/forward gate remains valid. Invalid auxiliary microtest and held-out evidence is now accurately excluded from confirmatory acceptance.",
+  "required_gate": {
+    "source": "PROJECT_BRIEF.md:37-50",
+    "baseline": {
+      "passes": 14,
+      "total": 30,
+      "normalized": 0.466667,
+      "red_valid": true
+    },
+    "forward": {
+      "passes": 23,
+      "total": 30,
+      "normalized": 0.766667,
+      "delta": 0.3,
+      "required_delta": 0.1,
+      "material_improvement": true
+    },
+    "hashes": {
+      "cases_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+      "skill_sha256": "8cb42d33741e49adfb6412bcedb88106491f0041324486115aa4ffdf362245cc",
+      "runtime_sha256": "24ec2d982c69da54dc1c6474032e898ee4da22e3f10a8b0bd2a7c4dadeeb2336",
+      "baseline_generation_plan_sha256": "f84f0b565b617ea6e99b873edf7fdba8e171f2d178de0c649209f90ce414a8f9",
+      "baseline_generation_attestation_sha256": "107c8cdf8aa0b3d9a09571fb2a70ec22b5063d939a32ae0382a13d4dbcdc5d96",
+      "forward_generation_plan_sha256": "fc5705c609fa89bc3d10f6b150ece834bb32be1d17ff3a56b58874847a3632ba",
+      "forward_generation_attestation_sha256": "dcb94332649a40f2930c62cf4433eddc47043e254130d8c1a634b67c01fa39e1"
+    },
+    "response_manifest_hash_mismatches": 0,
+    "valid": true
+  },
+  "auxiliary_evaluations": {
+    "microtest_attempt_005": {
+      "recorded_control_passes": 0,
+      "recorded_guided_passes": 12,
+      "recorded_possible_per_arm": 25,
+      "recorded_delta": 0.48,
+      "accepted": false,
+      "confirmatory": false,
+      "acceptance_use": false,
+      "status": "invalidated-after-integrity-review",
+      "protocol_deviations_recorded": [
+        "Four of five guided responses exceeded the hard 1200-word cap while all controls conformed.",
+        "Only one of two required independent scorers was blind; the later reviewer read the arm mapping."
+      ],
+      "accurately_excluded": true
+    },
+    "heldout_attempt_005": {
+      "passes": 4,
+      "total": 5,
+      "accepted": false,
+      "execution_attestation_present": false,
+      "acceptance_use": false,
+      "project_quality_contract_gate": false,
+      "status": "non-accepting-auxiliary-stress-test",
+      "accurately_excluded": true
+    }
+  },
+  "metadata_remediations": {
+    "baseline_manifest_migration": {
+      "committed_original_sha256": "4d3af3395f316b5303188166821d053340ba0669495ecc4df0edee2b6a96802f",
+      "preserved_generation_freeze_manifest_sha256": "4d3af3395f316b5303188166821d053340ba0669495ecc4df0edee2b6a96802f",
+      "byte_identical": true,
+      "resolved": true
+    },
+    "forward_wrapper_location": {
+      "declared": "appended_after_response_body",
+      "all_six_responses_match_declared_location": true,
+      "resolved": true
+    }
+  },
+  "progress_claims": {
+    "auxiliary_tests_labeled_auxiliary": true,
+    "microtest_delta_excluded_from_acceptance": true,
+    "heldout_failure_and_attestation_limitation_disclosed": true,
+    "project_gate_grounded_in_baseline_and_forward": true,
+    "accurate": true
+  },
+  "verification": {
+    "reviewed_json_parse_failures": 0,
+    "official_skill_validation": "pass",
+    "unit_tests_ran": 120,
+    "unit_test_failures": 0
+  }
+}

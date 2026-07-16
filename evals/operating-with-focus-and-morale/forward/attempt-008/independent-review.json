@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_blind_forward_audit",
+  "skill_name": "operating-with-focus-and-morale",
+  "attempt": 8,
+  "scoring_contract": {
+    "binary": true,
+    "strict_conjunctive": true,
+    "criteria_rejudged": 30,
+    "rule": "Award 1 only when every material conjunct is explicit; do not infer a missing fact, unknown, owner, date, baseline, threshold, route, disposition, safeguard, or handoff."
+  },
+  "blind_scope": {
+    "reviewed": [
+      "evals/operating-with-focus-and-morale/cases.json",
+      "evals/operating-with-focus-and-morale/forward/scenario-01.md",
+      "evals/operating-with-focus-and-morale/forward/scenario-02.md",
+      "evals/operating-with-focus-and-morale/forward/scenario-03.md",
+      "evals/operating-with-focus-and-morale/forward/scenario-04.md",
+      "evals/operating-with-focus-and-morale/forward/scenario-05.md",
+      "evals/operating-with-focus-and-morale/forward/scenario-06.md",
+      "evals/operating-with-focus-and-morale/forward/strict-score.json",
+      "evals/operating-with-focus-and-morale/forward/strict-review.md",
+      "evals/operating-with-focus-and-morale/forward/generation-attestation.json"
+    ],
+    "not_reviewed": [
+      "skill package",
+      "baseline responses",
+      "prior attempts or scores",
+      "heldout evaluation",
+      "microtest"
+    ]
+  },
+  "source_integrity": {
+    "canonical_cases": {
+      "attested_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+      "actual_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+      "matches": true
+    },
+    "responses": [
+      {
+        "case_id": "scenario-01",
+        "attested_sha256": "43553bf62117a3bf77e731dc66fa735bf5107c58d6bab5bd6d673000050378e8",
+        "actual_sha256": "43553bf62117a3bf77e731dc66fa735bf5107c58d6bab5bd6d673000050378e8",
+        "attested_bytes": 9554,
+        "actual_bytes": 9554,
+        "attested_words": 912,
+        "actual_words": 912,
+        "matches": true
+      },
+      {
+        "case_id": "scenario-02",
+        "attested_sha256": "24d73f88af54d7c5247563be44d7680c2bf29d4a100299e15b2c191475db0188",
+        "actual_sha256": "24d73f88af54d7c5247563be44d7680c2bf29d4a100299e15b2c191475db0188",
+        "attested_bytes": 7718,
+        "actual_bytes": 7718,
+        "attested_words": 1148,
+        "actual_words": 1148,
+        "matches": true
+      },
+      {
+        "case_id": "scenario-03",
+        "attested_sha256": "2c1a1b83432b1cef5678d23cabd1faecef0a1458fb287658972d3c7da4e7ff2c",
+        "actual_sha256": "2c1a1b83432b1cef5678d23cabd1faecef0a1458fb287658972d3c7da4e7ff2c",
+        "attested_bytes": 7986,
+        "actual_bytes": 7986,
+        "attested_words": 1119,
+        "actual_words": 1119,
+        "matches": true
+      },
+      {
+        "case_id": "scenario-04",
+        "attested_sha256": "a6eb8c4a271af4e4e738e3766a480ff55efd37918cc2c6fbae1997b50061c00b",
+        "actual_sha256": "a6eb8c4a271af4e4e738e3766a480ff55efd37918cc2c6fbae1997b50061c00b",
+        "attested_bytes": 7808,
+        "actual_bytes": 7808,
+        "attested_words": 1076,
+        "actual_words": 1076,
+        "matches": true
+      },
+      {
+        "case_id": "scenario-05",
+        "attested_sha256": "27a030eed3c7dcffbe4d64dd514c9c557afc5ec3f56a1fc1d7db173ad469c39f",
+        "actual_sha256": "27a030eed3c7dcffbe4d64dd514c9c557afc5ec3f56a1fc1d7db173ad469c39f",
+        "attested_bytes": 8041,
+        "actual_bytes": 8041,
+        "attested_words": 1134,
+        "actual_words": 1134,
+        "matches": true
+      },
+      {
+        "case_id": "scenario-06",
+        "attested_sha256": "9a73d0085940ac3d7c63e72071500410cb31040ed1f7cafc6a44134dcbd8cf48",
+        "actual_sha256": "9a73d0085940ac3d7c63e72071500410cb31040ed1f7cafc6a44134dcbd8cf48",
+        "attested_bytes": 7540,
+        "actual_bytes": 7540,
+        "attested_words": 1148,
+        "actual_words": 1148,
+        "matches": true
+      }
+    ],
+    "reviewed_file_sha256": {
+      "strict-score.json": "1e2416488ba01c9bd6412b9e3f507352790358776f32478d6834c117de45dcd5",
+      "strict-review.md": "8c176d7fb136ddd4730c3ac7342e192ed65467f069c4a797c59ec7ceb78ceb17",
+      "generation-attestation.json": "a34bdde37dd20d009dba6f1e4605acff6ff101cdf85fb52235034b0f4140a962"
+    },
+    "attested_but_not_recomputed_due_to_blind_scope": [
+      "generation_plan_sha256",
+      "skill_sha256",
+      "runtime_sha256",
+      "prompt_only_aggregate_projection_sha256"
+    ],
+    "result": "all permitted attested inputs match"
+  },
+  "cases": [
+    {
+      "case_id": "scenario-01",
+      "strict_vector": "10100",
+      "audited_vector": "10100",
+      "passes": 2,
+      "criteria": [
+        {
+          "criterion": 1,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "The route makes operating-with-focus-and-morale primary because CEO attention is the active constraint, while the survival, financing, and authority gates are explicitly excluded on the stated facts."
+        },
+        {
+          "criterion": 2,
+          "strict_bit": 0,
+          "audited_bit": 0,
+          "agrees": true,
+          "rationale": "Facts, both CEO assertions, severity, and customer impact are classified, but U4 tests aggregate calendar-to-lead value and does not explicitly leave the actual value of each named external obligation unresolved. One conjunct is missing."
+        },
+        {
+          "criterion": 3,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "One sync-restoration outcome governs four weeks, and the reporting redesign, accelerator events, investor coffees, podcasts, conference planning, and status meetings all receive explicit dispositions."
+        },
+        {
+          "criterion": 4,
+          "strict_bit": 0,
+          "audited_bit": 0,
+          "agrees": true,
+          "rationale": "CEO retailer contact, essential coverage, and a sustainable weekly boundary are explicit, but the recurring maker block is assigned to the Defect lead rather than the founder-CEO. Founder maker time is not protected."
+        },
+        {
+          "criterion": 5,
+          "strict_bit": 0,
+          "audited_bit": 0,
+          "agrees": true,
+          "rationale": "Owners, outcome and time-allocation baselines, dated reviews, branch evidence, and a dated close are present, but there is no explicit baseline count of already completed retailer contacts; six rescheduled calls and nine affected accounts do not supply that missing baseline."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "strict_vector": "10111",
+      "audited_vector": "10111",
+      "passes": 4,
+      "criteria": [
+        {
+          "criterion": 1,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "Focus-and-morale leads, low morale and the competitor are treated as context rather than demand proof, the customer goal persists, and both the unchanged tactic and compulsory nights are rejected."
+        },
+        {
+          "criterion": 2,
+          "strict_bit": 0,
+          "audited_bit": 0,
+          "agrees": true,
+          "rationale": "The observed evidence and the staff, engineer, and product-lead claims are separated, while workflow friction and adoption causality are tested; however, segment repeatability and the next sales bottleneck are not explicitly identified as unknowns."
+        },
+        {
+          "criterion": 3,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "The bounded goal remains missed-appointment reduction, the single primary tactic is the Clinic 3 duplicate-entry test, and competitor response, excess demos, the unchanged plan, and unrelated work are removed or deferred."
+        },
+        {
+          "criterion": 4,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "Protected build blocks and twice-weekly clinic contact are paired with a 45-hour ceiling, no routine nights, two recovery days, and bounded incident coverage."
+        },
+        {
+          "criterion": 5,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "Owners, the 22% baseline and 50% target, dated checkpoints, explicit continue/adapt/reopen/stop evidence, and the August 14 final decision are all stated."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "strict_vector": "11111",
+      "audited_vector": "11111",
+      "passes": 5,
+      "criteria": [
+        {
+          "criterion": 1,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "Focus-and-morale is primary, sustained overload and judgment degradation are the operative risk, and neither conference visibility nor intensity is treated as survival evidence."
+        },
+        {
+          "criterion": 2,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "All required facts and the unsupported seriousness claim are classified. U3 tests rollback causes, U1 operationalizes minimum viable conference value through commitments and a bounded six-meeting presence, and U5 tests recoverable decision capacity."
+        },
+        {
+          "criterion": 3,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "One reliable-delivery and customer-learning outcome leads; conference-only build is dropped, presence is narrowed, the 78-hour push is canceled, late approvals are delegated, and duplicate status work is removed."
+        },
+        {
+          "criterion": 4,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "Immediate recovery, a 45-hour ceiling, no nights, a weekly 48-hour break, backup decisions, protected maker work, recurring user calls, and an August 12 end to the cycle are explicit."
+        },
+        {
+          "criterion": 5,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "Owners and baselines cover rollbacks/reversals, approval waits, skipped calls, and workload; acute checks occur within two days, progress is weekly, switch/stop thresholds are observable, and sustained evidence is reviewed August 12."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "strict_vector": "11111",
+      "audited_vector": "11111",
+      "passes": 5,
+      "criteria": [
+        {
+          "criterion": 1,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "Managing-runway-and-survival explicitly leads because payroll is exposed, and focus-and-morale remains supporting until payroll and the signed-or-collected cash envelope are safe."
+        },
+        {
+          "criterion": 2,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "All stated cash, obligation, profit, payroll, renewal, financing, and ownership facts are classified; bridge and renewal cash are excluded until documented, and the immediate unknowns are limited to survival-relevant cash, timing, obligations, financing, and continuity constraints."
+        },
+        {
+          "criterion": 3,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "The single priority is the 13-week cash envelope with payroll contingency, while calendar redesign, morale programming, nonessential meetings, and work outside minimum service or revenue continuity are deferred or removed."
+        },
+        {
+          "criterion": 4,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "Named primary and backup owners protect customer, product, payroll, legal/fiduciary, incident, and teammate continuity under a 50-hour ceiling, no compulsory nights, a recovery day, and a dated exceptional-push end."
+        },
+        {
+          "criterion": 5,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "The CEO owns the survival decision, evidence owners and next-morning checkpoints are named, measurable branch and escalation conditions are stated, and the July 28 route-back condition closes or escalates the survival decision."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "strict_vector": "10101",
+      "audited_vector": "10101",
+      "passes": 3,
+      "criteria": [
+        {
+          "criterion": 1,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "Building-and-evolving-organizations is primary for repeated authority queues and ownerless incidents; personal focus is explicitly downstream of transferred authority and released capacity."
+        },
+        {
+          "criterion": 2,
+          "strict_bit": 0,
+          "audited_bit": 0,
+          "agrees": true,
+          "rationale": "The facts and CEO calendar claim are separated, and authority boundaries and retained CEO decisions are tested, but residual CEO capacity is not explicitly identified and measured as an unknown. U4 and U12 test causality and queue latency, not residual capacity itself."
+        },
+        {
+          "criterion": 3,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "Reliable delegated decisions is the one organizational priority, with the CEO and domain DRIs accountable; productivity tooling, blanket meeting cancellation, and unconditional focus mornings are deferred or bounded."
+        },
+        {
+          "criterion": 4,
+          "strict_bit": 0,
+          "audited_bit": 0,
+          "agrees": true,
+          "rationale": "Transfers, backups, escalation paths, continuity, workload limits, and maker blocks contingent on released load are explicit, but there is no recurring CEO user-contact period after the transfer."
+        },
+        {
+          "criterion": 5,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "The five CEO-held approval domains provide a measurable CEO-load baseline, alongside 18 delayed decisions, five late commitments, and two ownerless incidents. Owners, dated reviews, proceed/change/reverse conditions, the August 26 authority close, and August 27 focus handoff are explicit."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-06",
+      "strict_vector": "10111",
+      "audited_vector": "10111",
+      "passes": 4,
+      "criteria": [
+        {
+          "criterion": 1,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "Raising-and-governing-capital leads because of the July 17 diligence and July 22 term decisions, while focus-and-morale is supporting and receives a later observable handoff."
+        },
+        {
+          "criterion": 2,
+          "strict_bit": 0,
+          "audited_bit": 0,
+          "agrees": true,
+          "rationale": "The known facts and momentum assertion are classified, and investor fit and acceptable terms are unknowns, but close probability and the actually necessary diligence/reference work are not explicitly identified as unknowns. Seriousness, finite gaps, and customer consent are not substitutes for those two missing conjuncts."
+        },
+        {
+          "criterion": 3,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "One board-approved financing decision with a qualified backup path leads, while unqualified introductions, partnership meetings, ad hoc work, and the general reset are deferred or removed."
+        },
+        {
+          "criterion": 4,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "The two-week cadence preserves product, release, customer, incident, payroll, legal, and teammate continuity through named coverage and backups, with hour ceilings, a night blackout, no weekends, one bounded exception, recovery, and escalation safeguards."
+        },
+        {
+          "criterion": 5,
+          "strict_bit": 1,
+          "audited_bit": 1,
+          "agrees": true,
+          "rationale": "Capital and evidence owners are named, checkpoints meet the diligence and term deadlines, proceed/counter/pause/end conditions are measurable, and the live decision is closed or reset with observable July 23 or July 29 focus handoffs."
+        }
+      ]
+    }
+  ],
+  "arithmetic_verification": {
+    "case_passes": {
+      "scenario-01": 2,
+      "scenario-02": 4,
+      "scenario-03": 5,
+      "scenario-04": 5,
+      "scenario-05": 3,
+      "scenario-06": 4
+    },
+    "case_pass_sum": 23,
+    "bit_count": 30,
+    "bit_sum": 23,
+    "reported_total": 23,
+    "total_matches": true,
+    "reported_normalized_score": 0.766667,
+    "recomputed_normalized_score_rounded_6dp": 0.766667,
+    "normalized_score_matches": true,
+    "reported_baseline_total": 14,
+    "reported_baseline_normalized_score": 0.466667,
+    "recomputed_baseline_normalized_score_rounded_6dp": 0.466667,
+    "reported_delta_fraction": "9/30",
+    "recomputed_delta_fraction": "9/30",
+    "reported_delta_decimal": 0.3,
+    "recomputed_delta_decimal": 0.3,
+    "required_delta": 0.1,
+    "reported_material_improvement": true,
+    "recomputed_material_improvement": true,
+    "vectors_match_case_bits": true,
+    "criterion_bits_match_case_bits": true,
+    "result_vectors_match_cases": true,
+    "frozen_vectors_match_cases": true,
+    "strict_review_matches_strict_score": true
+  },
+  "result": {
+    "strict_total": 23,
+    "audited_total": 23,
+    "max": 30,
+    "audited_normalized_score": 0.766667,
+    "bit_changes": [],
+    "bit_change_count": 0,
+    "any_bit_changes": false,
+    "verdict": "agree"
+  }
+}

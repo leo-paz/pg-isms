@@ -1,3 +1,6 @@
+Case ID: scenario-05
+Reviewer ID: focus-baseline-001
+
 # Six-week operating plan
 
 The bottleneck is not mainly the CEO's calendar. It is an operating system in which too many decisions have one approver, while commitments and incident authority are not reliably communicated. The goal for six weeks is to move routine authority to named leaders, make the remaining CEO decisions fast and visible, and preserve runway by preventing unpriced work and uncontrolled commitments.

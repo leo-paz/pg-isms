@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "microtest_id": "operating-with-focus-and-morale-microtest-attempt-004",
+  "scorer_id": "focus-micro4-blind-scorer",
+  "scoring_mode": "blind",
+  "judgments_locked_before_unblinding": true,
+  "unblinding_performed": false,
+  "criteria_order": ["C1", "C2", "C3", "C4", "C5"],
+  "input_hashes": {
+    "prompt.txt": "0e7bd40200cb5ba2ead9d7cadd5168bc5d1b7f91e709a58f025e5b4ab2efc49e",
+    "rubric.json": "6e5328d7d4a2e247a89c0d71b82a5492d82f1d4f3feb52bcc34acac65822903c",
+    "blind/slot-01.md": "2c07f8f2430133d228d8f07eecc60572e3e012031bc9419792885671914a8597",
+    "blind/slot-02.md": "2ee552a3f3d42ddcc944dc06a913bfec449c4e00574a5a27b859acf7b810f7d8",
+    "blind/slot-03.md": "b308569a35afaecf3b08ee2f58a6bcba48e687657895ea1e3379522a1fad01a2",
+    "blind/slot-04.md": "be36c1db1e5285f3085e67df9b7973723fd1d1f759087b801b7b907946fa59b6",
+    "blind/slot-05.md": "7ec47ec9a806fe93a8286faf322f3abb5fb69a71d021c8af2cda8d1f1148c9bb",
+    "blind/slot-06.md": "da5f022a657d416f766bc517a4182def26a5b41ff76a0cf3021b54369706db04",
+    "blind/slot-07.md": "19deb050e7bfc5ea6375a2c6eaabc12f84658ef60d159ee4106a98d5d4dcb74d",
+    "blind/slot-08.md": "d5354862de5bf86419b674407c65f0b4bbfb6b136b51d69dadc57cd55622ce6a",
+    "blind/slot-09.md": "2d3013f2db7cd28d35e3ec035bb5fe08b1f3302a8ef21b02e418be114aabd7fc",
+    "blind/slot-10.md": "c819080e45c6e49af254f1d39a21f1da61438dd725debd1a1c662a7b1f347833"
+  },
+  "slots": [
+    {
+      "slot": "slot-01",
+      "scores": {
+        "C1": {"score": 0, "rationale": "The route and persistence test are explicit, but Maya's rebrand preference and Rowan's employer-plan preference are classified as observations rather than preserved as claims; the conjunctive criterion therefore fails."},
+        "C2": {"score": 1, "rationale": "It commits to one four-choir renewal outcome and one goal-plus-recording evidence loop, supplies every required row field, dispositions all five competing initiatives with owners/dates/limits, and protects every named essential."},
+        "C3": {"score": 0, "rationale": "Ellis has the protected analysis blocks but not recurring direct-member contact, and the exceptional August 24-29 push has an end but no explicit post-push recovery; both are required clauses."},
+        "C4": {"score": 0, "rationale": "The premise, tactic, measures, and dates are present, but the measure table does not give every baseline an explicit date and the checkpoints do not require recording confounders together with observed result, safeguard status, and branch."},
+        "C5": {"score": 0, "rationale": "The response is 1,552 words by wc -w, exceeding the 1,200-word hard limit, so the conjunctive compact-contract criterion fails."}
+      },
+      "vector": [0, 1, 0, 0, 0],
+      "total": 1
+    },
+    {
+      "slot": "slot-02",
+      "scores": {
+        "C1": {"score": 0, "rationale": "It does not select the named primary route, explicitly exclude all alternative route primacies, or set a dated queue-persistence switch to organization work."},
+        "C2": {"score": 0, "rationale": "Although it focuses on the progress test, it lacks a single complete priority row with a dated target and falsifier, and several competing-work dispositions lack their own explicit owner, effective date, and reopen limit."},
+        "C3": {"score": 0, "rationale": "It provides useful caps and service controls but no recurring protected analysis/member-contact blocks for one accountable owner and no complete six-surface primary/backup/SLA/escalation/window coverage contract."},
+        "C4": {"score": 0, "rationale": "The dashboard measures do not each carry a dated baseline, target or limit, evidence source, owner, and review date, and checkpoints do not require the complete observed-result/confounder/safeguard/branch record."},
+        "C5": {"score": 0, "rationale": "There is no four-row continue/adapt/reopen-goal/stop matrix with route and handoff fields, and the required one-line runtime-citation lineage treatment is absent."}
+      },
+      "vector": [0, 0, 0, 0, 0],
+      "total": 0
+    },
+    {
+      "slot": "slot-03",
+      "scores": {
+        "C1": {"score": 0, "rationale": "Routing and claim classification are strong, but fatigue-versus-member-experience lacks its own result threshold and decision effect, and the combined repeatability/causality row does not give conductor confounding an independent result rule."},
+        "C2": {"score": 1, "rationale": "It has exactly one member-renewal outcome and one crossover tactic, a complete priority row, explicit dispositions for every named initiative, and explicit protection of all continuity essentials."},
+        "C3": {"score": 1, "rationale": "Ellis has recurring protected analysis and four direct at-risk-member calls weekly; meetings and notifications are bounded; all six required operating surfaces have named primary/backup/service/escalation/windows; recovery, workload, and morale mechanisms are explicit."},
+        "C4": {"score": 0, "rationale": "Despite separate premise/tactic and a complete measure cadence, no checkpoint instruction requires recording all four of observed result, confounders, safeguard status, and the precommitted branch."},
+        "C5": {"score": 0, "rationale": "The response is 1,356 words by wc -w, above the 1,200-word ceiling, so the conjunctive criterion fails regardless of its branch matrix."}
+      },
+      "vector": [0, 1, 1, 0, 0],
+      "total": 2
+    },
+    {
+      "slot": "slot-04",
+      "scores": {
+        "C1": {"score": 0, "rationale": "The route, gates, numeric facts, and unknown rows are explicit, but Maya's rebrand preference and Rowan's employer-plan preference are not preserved in the evidence ledger as claims."},
+        "C2": {"score": 1, "rationale": "It selects one four-choir renewal outcome and one staggered tactic, fills every required priority field, dispositions all competing work with owner/date/reopen rule, and separately names every protected essential."},
+        "C3": {"score": 0, "rationale": "Analysis is protected for Ellis while member contact is protected for Rowan, so one accountable owner does not receive both; notifications, status work, and general availability are also not explicitly bounded."},
+        "C4": {"score": 0, "rationale": "The premise, tactic, measures, and dates are separated, but not every measure has an explicit dated baseline and reviews do not require a record of confounders alongside results, safeguards, and branch."},
+        "C5": {"score": 1, "rationale": "All four branches have thresholds, actions, owners, dates, routes, and dated handoffs; adapt changes one variable, reopen and stop use proper evidence/boundaries, options and unknowns are preserved, the compact record is filled, lineage is present, and it is 847 words."}
+      },
+      "vector": [0, 1, 0, 0, 1],
+      "total": 2
+    },
+    {
+      "slot": "slot-05",
+      "scores": {
+        "C1": {"score": 0, "rationale": "It does not explicitly route through operating-with-focus-and-morale, exclude every competing primary route, or set a dated persistence test that would switch the approval queue to organization work."},
+        "C2": {"score": 0, "rationale": "The objective and tactic are focused, but there is no single complete priority row with dated target, mechanism, rival, falsifier, and final decision, and competing initiatives lack fully separate owner/date/reopen records."},
+        "C3": {"score": 0, "rationale": "It lacks recurring protected analysis and direct-contact blocks for the accountable owner and does not provide the required primary/backup/service/escalation/response-window contract for all six surfaces."},
+        "C4": {"score": 0, "rationale": "Goal premise and tactic are not explicitly separated, and the weekly dashboard does not give each outcome/continuity/workload measure all required baseline, target, source, owner, and review fields."},
+        "C5": {"score": 0, "rationale": "The August 8 choices are not a complete four-branch matrix with reopen-goal, routes, and dated handoffs, and the required lineage line is missing."}
+      },
+      "vector": [0, 0, 0, 0, 0],
+      "total": 0
+    },
+    {
+      "slot": "slot-06",
+      "scores": {
+        "C1": {"score": 0, "rationale": "Route gates, unknowns, and the queue switch are complete, but the rebrand and employer-plan preferences are classified as observed inputs rather than preserved separately as claims."},
+        "C2": {"score": 1, "rationale": "It contains exactly one at-risk renewal outcome and one staggered visible-progress tactic, a complete priority row, full five-initiative dispositions, and protection of every named essential."},
+        "C3": {"score": 0, "rationale": "Ellis receives protected analysis while Rowan receives recurring member contact, so the same accountable owner does not receive both required protections."},
+        "C4": {"score": 0, "rationale": "The premise, tactic, measures, intermediate reviews, and final date are explicit, but checks do not require jointly recording observed result, confounders, safeguard status, and precommitted branch."},
+        "C5": {"score": 0, "rationale": "The response is 1,513 words by wc -w and therefore violates the 1,200-word hard limit."}
+      },
+      "vector": [0, 1, 0, 0, 0],
+      "total": 1
+    },
+    {
+      "slot": "slot-07",
+      "scores": {
+        "C1": {"score": 0, "rationale": "It omits the named primary-route analysis and a dated persistence threshold that would route a continuing authority queue to organization work."},
+        "C2": {"score": 0, "rationale": "It states one improvement effort, but no complete single priority row exists and the deferred initiatives do not each have their own owner, effective date, and bounded reopen condition."},
+        "C3": {"score": 0, "rationale": "The guardrails lack recurring protected analysis/member-contact blocks for one owner and do not specify distinct backup decision owners, escalation destinations, and concrete windows for all six required surfaces."},
+        "C4": {"score": 0, "rationale": "The response does not separately state a goal premise and chosen tactic and does not provide three measure classes with every required baseline/target/source/owner/review field."},
+        "C5": {"score": 0, "rationale": "Green/yellow/red trial rules do not supply separate continue, adapt, reopen-goal, and stop rows with routes and dated handoffs, and no lineage line is present."}
+      },
+      "vector": [0, 0, 0, 0, 0],
+      "total": 0
+    },
+    {
+      "slot": "slot-08",
+      "scores": {
+        "C1": {"score": 0, "rationale": "It does not name the primary route, explicitly exclude all alternative route primacies, or set a dated authority-queue persistence test and organization-route switch."},
+        "C2": {"score": 0, "rationale": "The objective is singular, but the artifact lacks one complete priority row and does not give each competing initiative a separate owner, effective date, and limit or reopen threshold."},
+        "C3": {"score": 0, "rationale": "It lacks recurring contiguous analysis/direct-contact protections for one accountable owner and a complete six-surface coverage matrix with named backups, escalations, and response windows."},
+        "C4": {"score": 0, "rationale": "It does not explicitly separate the goal premise from the tactic, and the daily control panel lacks per-measure dated baselines, targets, sources, owners, and review dates."},
+        "C5": {"score": 0, "rationale": "The response has only three trial-result branches and no complete reopen-goal row, primary-route/handoff contract, or required runtime-citation lineage line."}
+      },
+      "vector": [0, 0, 0, 0, 0],
+      "total": 0
+    },
+    {
+      "slot": "slot-09",
+      "scores": {
+        "C1": {"score": 1, "rationale": "It selects the correct primary route, explicitly excludes survival/financing/buyer/acute/structural primacy, dates a queue-persistence organization switch, separates all six claim propositions from observations, and gives every consequential unknown an owner, method, date, threshold, and effect without dropping decision facts."},
+        "C2": {"score": 1, "rationale": "It commits to one at-risk renewal outcome and one alternating progress tactic, fills every priority field, separately dispositions all five named initiatives with owner/date/limit, and protects all required essentials."},
+        "C3": {"score": 0, "rationale": "Protected analysis belongs to Ellis while direct member contact belongs to Rowan, so one accountable owner lacks both protections; the decision-rights backup is also only the implicit 'next named owner above,' not a distinct named backup."},
+        "C4": {"score": 0, "rationale": "Premise, tactic, measures, and dates are strong, but checkpoints never require a single record containing observed result, confounders, safeguard status, and the precommitted branch."},
+        "C5": {"score": 0, "rationale": "The response is 1,424 words by wc -w, exceeding the 1,200-word hard limit."}
+      },
+      "vector": [1, 1, 0, 0, 0],
+      "total": 2
+    },
+    {
+      "slot": "slot-10",
+      "scores": {
+        "C1": {"score": 0, "rationale": "It does not provide primary-route selection/exclusion or a dated persistence test that switches unresolved approval-queue behavior to organization work."},
+        "C2": {"score": 0, "rationale": "Although the operating order focuses on one tactic, it lacks a complete single priority row and does not give every deferred initiative a separate bounded owner/date/reopen threshold."},
+        "C3": {"score": 0, "rationale": "There are no recurring protected analysis and direct-contact blocks for one accountable owner and no complete primary/backup/service/escalation/window coverage contract across the six required surfaces."},
+        "C4": {"score": 0, "rationale": "The response lacks separate fully specified company, member/continuity, and workload/judgment measures and does not require the complete checkpoint record."},
+        "C5": {"score": 0, "rationale": "It has no complete four-row branch matrix and no one-line runtime-citation lineage treatment."}
+      },
+      "vector": [0, 0, 0, 0, 0],
+      "total": 0
+    }
+  ],
+  "slot_vectors": {
+    "slot-01": [0, 1, 0, 0, 0],
+    "slot-02": [0, 0, 0, 0, 0],
+    "slot-03": [0, 1, 1, 0, 0],
+    "slot-04": [0, 1, 0, 0, 1],
+    "slot-05": [0, 0, 0, 0, 0],
+    "slot-06": [0, 1, 0, 0, 0],
+    "slot-07": [0, 0, 0, 0, 0],
+    "slot-08": [0, 0, 0, 0, 0],
+    "slot-09": [1, 1, 0, 0, 0],
+    "slot-10": [0, 0, 0, 0, 0]
+  },
+  "slot_totals": {
+    "slot-01": 1,
+    "slot-02": 0,
+    "slot-03": 2,
+    "slot-04": 2,
+    "slot-05": 0,
+    "slot-06": 1,
+    "slot-07": 0,
+    "slot-08": 0,
+    "slot-09": 2,
+    "slot-10": 0
+  },
+  "criterion_totals": {"C1": 1, "C2": 5, "C3": 1, "C4": 0, "C5": 1},
+  "overall_total": 8,
+  "overall_possible": 50
+}

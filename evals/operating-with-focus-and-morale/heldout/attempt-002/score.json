@@ -1,0 +1,43 @@
+{
+  "scorer_id": "focus-heldout-scorer-002",
+  "response_hash": {
+    "algorithm": "sha256",
+    "value": "6bd3956308a4cc38eb4ed52c9135c6ddb3df1c490278e75eeb73dfd293299290"
+  },
+  "prompt_matches_design": true,
+  "scoring_mode": "strict-binary-conjunctive",
+  "criteria": [
+    {
+      "id": "C1",
+      "score": 0,
+      "rationale": "The primary route and most exclusions are explicit, and organization work is contingent on U3. However, the dated U3 test requires the old five approvals to clear on July 18 and new p95 approval time to be at most eight hours; it never explicitly states the required switch condition that an approval remains older than 24 hours after Noor's July 16-17 recovery and restored delegation. Because every clause is required, C1 fails."
+    },
+    {
+      "id": "C2",
+      "score": 0,
+      "rationale": "The response classifies the supplied facts and stakeholder claims correctly and provides owned unknowns for farm performance/calibration, queue recovery, morale, and BlueCurrent. It does not create the separately required unknown row for OceanTech/expo value. Because every clause is required, C2 fails."
+    },
+    {
+      "id": "C3",
+      "score": 1,
+      "rationale": "The response explicitly selects one FjordOne-centered outcome and one instrumented readiness/deployment tactic; includes the baseline, full acceptance target, users, owner, mechanism and rival, 72-hour signal latency, pre-deployment check, August 17 data, August 18 decision, and falsifier; protects essential obligations; and dispositions every named competing initiative with owner, effective date, and a limit or reopen condition."
+    },
+    {
+      "id": "C4",
+      "score": 0,
+      "rationale": "The response removes competing work and meeting load before protected blocks, schedules recurring Noor analysis and operator contact, and states recovery and workload limits. But the temporary decision-authority rows give only 'April-matrix named backup; identity unsupplied' rather than an explicitly named distinct backup decision owner. In addition, the payroll/vendors row names an escalation destination but no explicit handoff artifact or channel. Because every continuity-envelope clause is required, C4 fails."
+    },
+    {
+      "id": "C5",
+      "score": 1,
+      "rationale": "The response treats morale indicators as signals, tests their mechanism, restores progress/ownership/user evidence/recovery, supplies the three required measure categories with all fields, and gives separate continue, adapt, reopen-goal, and stop rows with explicit thresholds, actions, owners, dates, routes, and return states. The branches satisfy the required safeguard, one-variable adaptation, repeated-evidence goal review, and hard safety-boundary conditions."
+    }
+  ],
+  "vector": [0, 0, 1, 0, 1],
+  "total": 2,
+  "max": 5,
+  "acceptance": {
+    "required": "5/5",
+    "accepted": false
+  }
+}

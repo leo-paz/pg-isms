@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "plan_id": "operating-with-focus-and-morale-paired-microtest-001",
+  "skill_name": "operating-with-focus-and-morale",
+  "frozen_at_utc": "2026-07-16T00:14:39Z",
+  "frozen_before_response": true,
+  "rubric": {"path":"evals/operating-with-focus-and-morale/microtest/rubric.json","sha256":"61dd808bee17798a95817f8819c8137f07ebcd99caac2bf26b3f3dfa013ac684","bytes":7181,"criteria_count":5},
+  "prompt": {"path":"evals/operating-with-focus-and-morale/microtest/prompt.txt","sha256":"28e3f8e9b73a86181c6785ff411e3a58954cac8d717e78aced58f6828d1efc71","bytes":3018,"words":483},
+  "skill_freeze": {"path":"evals/operating-with-focus-and-morale/microtest/skill-freeze.json","sha256":"cd5ca0785f4ad36a9e67dd4514ee383195cb1d67c55a805124eaa14eb1e526ed"},
+  "sample_contract": {
+    "fresh_context_per_sample": true,
+    "criteria_hidden": true,
+    "prior_and_opposite_arm_outputs_hidden": true,
+    "one_complete_apply_patch_write": true,
+    "post_creation_reads_or_writes_allowed": false,
+    "quality_resampling": false,
+    "aim_words": "800-1000",
+    "hard_maximum_words": 1200
+  },
+  "samples": [
+    {"index":1,"pair":1,"sample_id":"focus_micro_control_1","arm":"control","task":"/root/focus_micro_control_1","response_path":"evals/operating-with-focus-and-morale/microtest/control/rep-1.md"},
+    {"index":2,"pair":2,"sample_id":"focus_micro_control_2","arm":"control","task":"/root/focus_micro_control_2","response_path":"evals/operating-with-focus-and-morale/microtest/control/rep-2.md"},
+    {"index":3,"pair":3,"sample_id":"focus_micro_control_3","arm":"control","task":"/root/focus_micro_control_3","response_path":"evals/operating-with-focus-and-morale/microtest/control/rep-3.md"},
+    {"index":4,"pair":4,"sample_id":"focus_micro_control_4","arm":"control","task":"/root/focus_micro_control_4","response_path":"evals/operating-with-focus-and-morale/microtest/control/rep-4.md"},
+    {"index":5,"pair":5,"sample_id":"focus_micro_control_5","arm":"control","task":"/root/focus_micro_control_5","response_path":"evals/operating-with-focus-and-morale/microtest/control/rep-5.md"},
+    {"index":6,"pair":1,"sample_id":"focus_micro_guided_1","arm":"guided","task":"/root/focus_micro_guided_1","response_path":"evals/operating-with-focus-and-morale/microtest/guided/rep-1.md"},
+    {"index":7,"pair":2,"sample_id":"focus_micro_guided_2","arm":"guided","task":"/root/focus_micro_guided_2","response_path":"evals/operating-with-focus-and-morale/microtest/guided/rep-2.md"},
+    {"index":8,"pair":3,"sample_id":"focus_micro_guided_3","arm":"guided","task":"/root/focus_micro_guided_3","response_path":"evals/operating-with-focus-and-morale/microtest/guided/rep-3.md"},
+    {"index":9,"pair":4,"sample_id":"focus_micro_guided_4","arm":"guided","task":"/root/focus_micro_guided_4","response_path":"evals/operating-with-focus-and-morale/microtest/guided/rep-4.md"},
+    {"index":10,"pair":5,"sample_id":"focus_micro_guided_5","arm":"guided","task":"/root/focus_micro_guided_5","response_path":"evals/operating-with-focus-and-morale/microtest/guided/rep-5.md"}
+  ],
+  "blind_order": [
+    {"slot":"slot-01","sample_id":"focus_micro_control_3"},
+    {"slot":"slot-02","sample_id":"focus_micro_guided_5"},
+    {"slot":"slot-03","sample_id":"focus_micro_control_1"},
+    {"slot":"slot-04","sample_id":"focus_micro_guided_2"},
+    {"slot":"slot-05","sample_id":"focus_micro_control_5"},
+    {"slot":"slot-06","sample_id":"focus_micro_guided_4"},
+    {"slot":"slot-07","sample_id":"focus_micro_control_2"},
+    {"slot":"slot-08","sample_id":"focus_micro_guided_1"},
+    {"slot":"slot-09","sample_id":"focus_micro_control_4"},
+    {"slot":"slot-10","sample_id":"focus_micro_guided_3"}
+  ],
+  "scoring": {
+    "scorer_task":"/root/focus_micro_scorer",
+    "reads_only_rubric_and_blind_slots":true,
+    "binary_strict_conjunctive":true,
+    "acceptance_delta":0.2,
+    "scoring_after_all_hashes_frozen":true
+  }
+}

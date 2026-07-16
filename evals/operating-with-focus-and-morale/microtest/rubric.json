@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "skill": {
+    "name": "operating-with-focus-and-morale",
+    "combined_sha256": "1b2be7ce738d64d623e026c4ced88bd7f415b0d3296196590a7d7a5145b16678",
+    "combined_hash_definition": "sha256(SKILL.md bytes || 0x00 || runtime-contract.md bytes)",
+    "files": [
+      {
+        "path": "skills/operating-with-focus-and-morale/SKILL.md",
+        "sha256": "8cb42d33741e49adfb6412bcedb88106491f0041324486115aa4ffdf362245cc"
+      },
+      {
+        "path": "skills/operating-with-focus-and-morale/references/runtime-contract.md",
+        "sha256": "24ec2d982c69da54dc1c6474032e898ee4da22e3f10a8b0bd2a7c4dadeeb2336"
+      }
+    ]
+  },
+  "attempt": 5,
+  "criteria": [
+    {
+      "id": "C1",
+      "name": "Route and evidence integrity",
+      "pass_only_if_all": [
+        "Makes focus, attention allocation, degraded judgment, and morale the current primary operating problem, while excluding survival, financing, buyer, organization-redesign, and acute-risk routes with the prompt's concrete facts rather than assertion alone.",
+        "Preserves the dated teacher behavior, event history, workload and judgment signals, approval timing, coverage facts, and every quoted stakeholder interpretation as observed facts or claims without promoting a claim to fact.",
+        "Gives every consequential unknown on which the selected priority, a named initiative, approval-queue route, or later branch depends its own owner, artifact or method, due date, observable result threshold, and decision effect; it does not invent a result or backup.",
+        "Leaves no decision-relevant prompt input unclassified."
+      ]
+    },
+    {
+      "id": "C2",
+      "name": "One state-changing priority and complete competing-work choices",
+      "pass_only_if_all": [
+        "Selects exactly one user or company outcome and exactly one current tactic or evidence plan, with a dated baseline, dated target, affected users or work, accountable owner, mechanism, at least one rival explanation, honest evidence latency and checkpoint, falsifier, and final decision date.",
+        "Gives the Teaching Expo booth, competitor-response expansion, and wholesale-catalog redesign separate cancel, delegate, defer, or tightly bound dispositions, each with an owner, effective date, and limit or reopen condition.",
+        "Separately protects the essential teacher, production or fulfillment, decision-authority, and payroll obligations instead of treating them as parallel priorities.",
+        "Does not use hours, morale, prestige, competitor activity, or generic visibility as evidence that the chosen outcome is succeeding."
+      ]
+    },
+    {
+      "id": "C3",
+      "name": "Executable attention, continuity, and recovery envelope",
+      "pass_only_if_all": [
+        "Creates recurring contiguous product or analysis time and recurring direct teacher contact for Lena at dates or cadences compatible with the booked July 22, 24, and 28 sessions; teacher-success delegation is not substituted for Lena's decision-relevant contact.",
+        "For teacher communications, printer or fulfillment exceptions, product decision authority, and payroll, states the supplied primary, distinct supplied backup, service or protected block, escalation destination, response window, and handoff artifact without inventing replacements.",
+        "Sets a concrete sustainable weekly workload or availability limit, recovery periods, and an end date for any bounded exceptional push; explicitly rejects or replaces the proposed open-ended 72-hour push and visible-hours proxy.",
+        "Removes, delegates, or bounds load before claiming protected focus time, and gives the acute overload approval queue a dated relief test before escalating it to organization redesign."
+      ]
+    },
+    {
+      "id": "C4",
+      "name": "Morale diagnosis and owned evidence cadence",
+      "pass_only_if_all": [
+        "Treats morale as an operating signal by naming the rating change, skipped teacher calls, print-file reversals, missed peer critiques, or approval waits and tests at least two plausible mechanisms rather than treating morale as a verdict.",
+        "States the durable goal premise separately from the currently selected tactic and ties recovery to controllable progress, real teacher evidence, ownership or peer support, realistic duration, and recovery rather than public pressure or raw hours.",
+        "Includes separate company-outcome, teacher or continuity, and workload or judgment measures, each with dated baseline, observable target or limit, evidence source, owner, and review date.",
+        "For every named intermediate and final check, records the observed result or explicitly pending state, confounder or rival status, safeguard status, and precommitted branch."
+      ]
+    },
+    {
+      "id": "C5",
+      "name": "Distinct persistence and stopping decisions",
+      "pass_only_if_all": [
+        "Provides separate continue, adapt, reopen-goal, and stop rows; every row has its own observable threshold, next action, next owner, calendar date, primary route after the branch, and handoff or return condition and date.",
+        "Continue requires outcome evidence and safeguards to hold; adapt changes one material tactic variable while the premise remains plausible; reopen-goal requires repeated discriminating evidence or a changed hard constraint; stop uses invalidation or a hard survival, safety, legal, harm, or preserved-option boundary.",
+        "Commits now to a selected tactic, honest final decision date, and non-moving decision logic while carrying unresolved unknowns forward.",
+        "Does not treat a competitor announcement, low morale, effort, or a single miss as sufficient proof to persist, reopen the goal, or stop."
+      ]
+    }
+  ],
+  "acceptance": {
+    "metric": "mean_guided_score - mean_control_score",
+    "operator": ">=",
+    "threshold": 0.2,
+    "decision": "Accept the current pinned skill wording only if the guided-minus-control mean is at least 0.20."
+  }
+}

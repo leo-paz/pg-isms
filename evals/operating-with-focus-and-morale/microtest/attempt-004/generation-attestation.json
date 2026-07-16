@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "attested_at_utc": "2026-07-16T01:42:52Z",
+  "responses_frozen_before_scoring": true,
+  "responses": [
+    {"arm":"control","rep":1,"task":"/root/focus_micro4_control1","words":1079,"sha256":"2ee552a3f3d42ddcc944dc06a913bfec449c4e00574a5a27b859acf7b810f7d8","birth_equals_mtime":true},
+    {"arm":"control","rep":2,"task":"/root/focus_micro4_control2","words":1072,"sha256":"c819080e45c6e49af254f1d39a21f1da61438dd725debd1a1c662a7b1f347833","birth_equals_mtime":true},
+    {"arm":"control","rep":3,"task":"/root/focus_micro4_control3","words":1122,"sha256":"d5354862de5bf86419b674407c65f0b4bbfb6b136b51d69dadc57cd55622ce6a","birth_equals_mtime":true},
+    {"arm":"control","rep":4,"task":"/root/focus_micro4_control4","words":1130,"sha256":"7ec47ec9a806fe93a8286faf322f3abb5fb69a71d021c8af2cda8d1f1148c9bb","birth_equals_mtime":true},
+    {"arm":"control","rep":5,"task":"/root/focus_micro4_control5","words":1078,"sha256":"19deb050e7bfc5ea6375a2c6eaabc12f84658ef60d159ee4106a98d5d4dcb74d","birth_equals_mtime":true},
+    {"arm":"guided","rep":1,"task":"/root/focus_micro4_guided1","words":1356,"sha256":"b308569a35afaecf3b08ee2f58a6bcba48e687657895ea1e3379522a1fad01a2","birth_equals_mtime":true},
+    {"arm":"guided","rep":2,"task":"/root/focus_micro4_guided2","words":1513,"sha256":"da5f022a657d416f766bc517a4182def26a5b41ff76a0cf3021b54369706db04","birth_equals_mtime":true},
+    {"arm":"guided","rep":3,"task":"/root/focus_micro4_guided3","words":1424,"sha256":"2d3013f2db7cd28d35e3ec035bb5fe08b1f3302a8ef21b02e418be114aabd7fc","birth_equals_mtime":true},
+    {"arm":"guided","rep":4,"task":"/root/focus_micro4_guided4","words":847,"sha256":"be36c1db1e5285f3085e67df9b7973723fd1d1f759087b801b7b907946fa59b6","birth_equals_mtime":true},
+    {"arm":"guided","rep":5,"task":"/root/focus_micro4_guided5","words":1552,"sha256":"2c07f8f2430133d228d8f07eecc60572e3e012031bc9419792885671914a8597","birth_equals_mtime":true}
+  ],
+  "verification": {
+    "control_count": 5,
+    "guided_count": 5,
+    "unique_task_count": 10,
+    "unique_response_count": 10,
+    "control_within_word_limit": 5,
+    "guided_within_word_limit": 1,
+    "all_birth_epochs_equal_mtime_epochs": true,
+    "scoring_started": false
+  }
+}

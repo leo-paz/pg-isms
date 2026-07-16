@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "frozen_before_scoring": true,
+  "scorer_must_not_read": true,
+  "mapping": {
+    "slot-01": "guided/rep-5.md",
+    "slot-02": "control/rep-1.md",
+    "slot-03": "guided/rep-1.md",
+    "slot-04": "guided/rep-4.md",
+    "slot-05": "control/rep-4.md",
+    "slot-06": "guided/rep-2.md",
+    "slot-07": "control/rep-5.md",
+    "slot-08": "control/rep-3.md",
+    "slot-09": "guided/rep-3.md",
+    "slot-10": "control/rep-2.md"
+  }
+}

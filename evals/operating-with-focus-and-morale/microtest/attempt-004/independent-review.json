@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "microtest_id": "operating-with-focus-and-morale-microtest-attempt-004",
+  "reviewer_id": "focus-micro4-independent-auditor",
+  "review_mode": "independent_post_blind_audit",
+  "scope": {
+    "reviewed_only": [
+      "prompt.txt",
+      "rubric.json",
+      "blind/slot-01.md",
+      "blind/slot-02.md",
+      "blind/slot-03.md",
+      "blind/slot-04.md",
+      "blind/slot-05.md",
+      "blind/slot-06.md",
+      "blind/slot-07.md",
+      "blind/slot-08.md",
+      "blind/slot-09.md",
+      "blind/slot-10.md",
+      "blind-score.json",
+      "blind-review.md",
+      "blind-mapping.json",
+      "generation-attestation.json"
+    ],
+    "restricted_inputs_not_read": [
+      "evaluated repository skill contents",
+      "control originals",
+      "guided originals",
+      "prior attempts",
+      "forward artifacts",
+      "heldout artifacts",
+      "other repository files"
+    ]
+  },
+  "integrity": {
+    "all_recomputed_hashes_match_blind_score": true,
+    "all_mapped_slot_hashes_match_generation_attestation": true,
+    "all_response_hashes_unique": true,
+    "prompt_hash": {
+      "sha256": "0e7bd40200cb5ba2ead9d7cadd5168bc5d1b7f91e709a58f025e5b4ab2efc49e",
+      "matches_locked": true
+    },
+    "rubric_hash": {
+      "sha256": "6e5328d7d4a2e247a89c0d71b82a5492d82f1d4f3feb52bcc34acac65822903c",
+      "matches_locked": true
+    },
+    "mapping_checks": [
+      {"slot":"slot-01","mapped_response":"guided/rep-5.md","sha256":"2c07f8f2430133d228d8f07eecc60572e3e012031bc9419792885671914a8597","matches_blind_score":true,"matches_attestation":true},
+      {"slot":"slot-02","mapped_response":"control/rep-1.md","sha256":"2ee552a3f3d42ddcc944dc06a913bfec449c4e00574a5a27b859acf7b810f7d8","matches_blind_score":true,"matches_attestation":true},
+      {"slot":"slot-03","mapped_response":"guided/rep-1.md","sha256":"b308569a35afaecf3b08ee2f58a6bcba48e687657895ea1e3379522a1fad01a2","matches_blind_score":true,"matches_attestation":true},
+      {"slot":"slot-04","mapped_response":"guided/rep-4.md","sha256":"be36c1db1e5285f3085e67df9b7973723fd1d1f759087b801b7b907946fa59b6","matches_blind_score":true,"matches_attestation":true},
+      {"slot":"slot-05","mapped_response":"control/rep-4.md","sha256":"7ec47ec9a806fe93a8286faf322f3abb5fb69a71d021c8af2cda8d1f1148c9bb","matches_blind_score":true,"matches_attestation":true},
+      {"slot":"slot-06","mapped_response":"guided/rep-2.md","sha256":"da5f022a657d416f766bc517a4182def26a5b41ff76a0cf3021b54369706db04","matches_blind_score":true,"matches_attestation":true},
+      {"slot":"slot-07","mapped_response":"control/rep-5.md","sha256":"19deb050e7bfc5ea6375a2c6eaabc12f84658ef60d159ee4106a98d5d4dcb74d","matches_blind_score":true,"matches_attestation":true},
+      {"slot":"slot-08","mapped_response":"control/rep-3.md","sha256":"d5354862de5bf86419b674407c65f0b4bbfb6b136b51d69dadc57cd55622ce6a","matches_blind_score":true,"matches_attestation":true},
+      {"slot":"slot-09","mapped_response":"guided/rep-3.md","sha256":"2d3013f2db7cd28d35e3ec035bb5fe08b1f3302a8ef21b02e418be114aabd7fc","matches_blind_score":true,"matches_attestation":true},
+      {"slot":"slot-10","mapped_response":"control/rep-2.md","sha256":"c819080e45c6e49af254f1d39a21f1da61438dd725debd1a1c662a7b1f347833","matches_blind_score":true,"matches_attestation":true}
+    ]
+  },
+  "independent_judgments": [
+    {
+      "slot": "slot-01",
+      "scores": {
+        "C1": {"score":0,"rationale":"The primary route, exclusions, and dated organization switch are present, but the rebrand and employer-plan preferences are recorded as observations rather than preserved as claims; the conjunctive criterion fails."},
+        "C2": {"score":1,"rationale":"One four-choir renewal outcome and one visible-progress loop are fully specified; all five competing initiatives and all protected essentials have explicit dispositions."},
+        "C3": {"score":0,"rationale":"Ellis has protected analysis time but no recurring direct-member contact, and the exceptional showcase push lacks explicit post-push recovery."},
+        "C4": {"score":0,"rationale":"Not every baseline is explicitly dated, and checkpoints do not require the full observed-result, confounder, safeguard, and precommitted-branch record."},
+        "C5": {"score":0,"rationale":"The response is 1,552 words, above the 1,200-word hard limit."}
+      },
+      "vector": [0,1,0,0,0],
+      "total": 1
+    },
+    {
+      "slot": "slot-02",
+      "scores": {
+        "C1": {"score":0,"rationale":"It does not name and exclude the alternative primary routes or set a dated persistence test that switches the approval queue to organization work."},
+        "C2": {"score":0,"rationale":"It lacks the required complete single priority row, and multiple initiative dispositions omit their own complete owner, effective-date, and reopen contract."},
+        "C3": {"score":0,"rationale":"It lacks the accountable-owner analysis/contact pair and a complete six-surface primary, backup, service, escalation, and response-window contract."},
+        "C4": {"score":0,"rationale":"The dashboard measures do not each contain every baseline, target, source, owner, and review field, and the complete checkpoint record is absent."},
+        "C5": {"score":0,"rationale":"There is no complete continue, adapt, reopen-goal, and stop matrix, and the required lineage line is absent."}
+      },
+      "vector": [0,0,0,0,0],
+      "total": 0
+    },
+    {
+      "slot": "slot-03",
+      "scores": {
+        "C1": {"score":0,"rationale":"The unknown contracts do not give fatigue-versus-member-experience its own discriminating threshold/effect, and conductor-versus-tactic confounding lacks an independent result rule."},
+        "C2": {"score":1,"rationale":"It contains one renewal outcome, one crossover tactic, a complete priority row, explicit dispositions for every named initiative, and every protected essential."},
+        "C3": {"score":1,"rationale":"Ellis receives recurring protected analysis and direct at-risk-member calls; meetings, notifications, and availability are bounded; the required operating surfaces, recovery, workload limits, and morale mechanisms are covered."},
+        "C4": {"score":0,"rationale":"No checkpoint instruction requires recording all four of observed result, confounders, safeguard status, and the precommitted branch."},
+        "C5": {"score":0,"rationale":"The response is 1,356 words, above the 1,200-word hard limit."}
+      },
+      "vector": [0,1,1,0,0],
+      "total": 2
+    },
+    {
+      "slot": "slot-04",
+      "scores": {
+        "C1": {"score":0,"rationale":"The rebrand and employer-plan preferences are not preserved as claims in the evidence ledger."},
+        "C2": {"score":1,"rationale":"It has one renewal outcome and one staggered tactic, a complete priority row, all five initiative dispositions, and explicit protection of every essential."},
+        "C3": {"score":0,"rationale":"Protected analysis belongs to Ellis while direct member contact belongs to Rowan, and notification, status-work, and availability bounds are incomplete."},
+        "C4": {"score":0,"rationale":"Not every measure has an explicit dated baseline, and checks do not require the complete result, confounder, safeguard, and branch record."},
+        "C5": {"score":1,"rationale":"All four branches contain the required fields and valid branch logic; the decision, option, and unknowns are preserved; the record is filled, has lineage, and is 847 words."}
+      },
+      "vector": [0,1,0,0,1],
+      "total": 2
+    },
+    {
+      "slot": "slot-05",
+      "scores": {
+        "C1": {"score":0,"rationale":"It does not perform the named route selection/exclusions or set a dated approval-queue persistence switch."},
+        "C2": {"score":0,"rationale":"It lacks the required complete priority row and fully bounded separate records for each competing initiative."},
+        "C3": {"score":0,"rationale":"It lacks recurring analysis and direct-contact protection for one accountable owner and the complete six-surface coverage contract."},
+        "C4": {"score":0,"rationale":"The premise and tactic are not separately stated, and the dashboard measures omit required per-measure fields."},
+        "C5": {"score":0,"rationale":"There is no complete four-row branch matrix and no required lineage line."}
+      },
+      "vector": [0,0,0,0,0],
+      "total": 0
+    },
+    {
+      "slot": "slot-06",
+      "scores": {
+        "C1": {"score":0,"rationale":"The rebrand and employer-plan preferences are treated as observed inputs rather than preserved separately as claims."},
+        "C2": {"score":1,"rationale":"It supplies exactly one at-risk renewal outcome and staggered tactic, a complete priority row, all competing-work dispositions, and all protected essentials."},
+        "C3": {"score":0,"rationale":"Ellis receives protected analysis while Rowan receives recurring direct member contact, so the same accountable owner does not receive both protections."},
+        "C4": {"score":0,"rationale":"The checks do not require the complete observed-result, confounder, safeguard-status, and precommitted-branch record."},
+        "C5": {"score":0,"rationale":"The response is 1,513 words, above the 1,200-word hard limit."}
+      },
+      "vector": [0,1,0,0,0],
+      "total": 1
+    },
+    {
+      "slot": "slot-07",
+      "scores": {
+        "C1": {"score":0,"rationale":"It omits the named primary-route exclusions and a dated organization-route switch for a persistent approval queue."},
+        "C2": {"score":0,"rationale":"It has no complete single priority row, and the deferred initiatives do not each carry a full owner, effective-date, and reopen contract."},
+        "C3": {"score":0,"rationale":"It lacks the protected accountable-owner analysis/contact pair and the complete six-surface backup and escalation contract."},
+        "C4": {"score":0,"rationale":"It does not separately state the premise and tactic or provide complete owned measures across all three required classes."},
+        "C5": {"score":0,"rationale":"Green, yellow, and red are not the required four branches with routes and dated handoffs, and lineage is absent."}
+      },
+      "vector": [0,0,0,0,0],
+      "total": 0
+    },
+    {
+      "slot": "slot-08",
+      "scores": {
+        "C1": {"score":0,"rationale":"It omits the named route exclusions and dated organization-route switch for persistent authority-queue behavior."},
+        "C2": {"score":0,"rationale":"It lacks a complete priority row and separate complete owner, effective-date, and reopen terms for each competing initiative."},
+        "C3": {"score":0,"rationale":"It lacks the accountable-owner protected analysis/contact pair and a complete six-surface coverage matrix."},
+        "C4": {"score":0,"rationale":"It does not explicitly separate the premise and tactic, and its control panel lacks complete per-measure fields."},
+        "C5": {"score":0,"rationale":"Only three trial-result branches appear; reopen-goal, route/handoff fields, and lineage are missing."}
+      },
+      "vector": [0,0,0,0,0],
+      "total": 0
+    },
+    {
+      "slot": "slot-09",
+      "scores": {
+        "C1": {"score":1,"rationale":"It selects and gates the correct route, dates the organization switch, preserves all six claim propositions, gives every consequential unknown a complete decision contract, and retains the prompt's decision facts."},
+        "C2": {"score":1,"rationale":"It provides one at-risk renewal outcome and one alternating tactic, a complete priority row, all five initiative dispositions, and every protected essential."},
+        "C3": {"score":0,"rationale":"Protected analysis and recurring direct member contact are split between Ellis and Rowan, and the decision-rights backup is an implicit group rather than a distinct named owner."},
+        "C4": {"score":0,"rationale":"The checkpoints never require one record containing observed result, confounders, safeguard status, and the precommitted branch."},
+        "C5": {"score":0,"rationale":"The response is 1,424 words, above the 1,200-word hard limit."}
+      },
+      "vector": [1,1,0,0,0],
+      "total": 2
+    },
+    {
+      "slot": "slot-10",
+      "scores": {
+        "C1": {"score":0,"rationale":"It omits named primary-route selection/exclusions and a dated organization-route switch for a persistent approval queue."},
+        "C2": {"score":0,"rationale":"It lacks the complete single priority row and fully bounded separate dispositions required for every deferred initiative."},
+        "C3": {"score":0,"rationale":"It lacks recurring protected analysis and direct-contact blocks for one accountable owner and the complete six-surface coverage contract."},
+        "C4": {"score":0,"rationale":"It lacks separate fully specified company, continuity, and workload/judgment measures and the complete checkpoint record."},
+        "C5": {"score":0,"rationale":"It has no complete four-row branch matrix and no required one-line lineage treatment."}
+      },
+      "vector": [0,0,0,0,0],
+      "total": 0
+    }
+  ],
+  "audit_comparison": {
+    "blind_overall_total": 8,
+    "independent_overall_total": 8,
+    "possible": 50,
+    "all_50_bits_rejudged": true,
+    "bits_changed": false,
+    "corrections": []
+  },
+  "arm_results": {
+    "control": {
+      "n": 5,
+      "rep_slots": {"rep-1":"slot-02","rep-2":"slot-10","rep-3":"slot-08","rep-4":"slot-05","rep-5":"slot-07"},
+      "raw_total": 0,
+      "possible": 25,
+      "normalized_score": 0.0
+    },
+    "guided": {
+      "n": 5,
+      "rep_slots": {"rep-1":"slot-03","rep-2":"slot-06","rep-3":"slot-09","rep-4":"slot-04","rep-5":"slot-01"},
+      "raw_total": 8,
+      "possible": 25,
+      "normalized_score": 0.32
+    },
+    "guided_minus_control": 0.32
+  },
+  "acceptance": {
+    "minimum_control_n": 5,
+    "minimum_guided_n": 5,
+    "minimum_effect": 0.20,
+    "counts_pass": true,
+    "effect_pass": true,
+    "decision": "accept"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "status": "archived-unscored-nonconforming",
+  "attempt": 6,
+  "skill_sha256": "b6c338f2d9ce0b225e81f03ed1c1e4f8b15ab9731d53f343375a2008eedf0507",
+  "runtime_sha256": "81e39ac8186756dd024aeb9486f40dd22c82125012f837107f25866045e044eb",
+  "scoring_started": false,
+  "response_words": {
+    "scenario-01": 1631,
+    "scenario-02": 1602,
+    "scenario-03": 935,
+    "scenario-04": 1526,
+    "scenario-05": 1487,
+    "scenario-06": 1609
+  },
+  "reason": "Five of six first-created responses exceeded the precommitted 1200-word maximum, so the entire run was rejected before scoring. The one conforming 935-word response demonstrates feasibility. The package was revised to make the same completeness contract obey explicit section budgets."
+}

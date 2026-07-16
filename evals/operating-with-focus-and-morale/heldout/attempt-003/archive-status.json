@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "status": "valid-failed-motivated-refactor",
+  "skill_sha256": "b6c338f2d9ce0b225e81f03ed1c1e4f8b15ab9731d53f343375a2008eedf0507",
+  "runtime_sha256": "5d44db01c258ab81ad55a0479e49563dd8d2766be2d9f06144483db138d45cff",
+  "response_sha256": "a8927ddda08cdecc53ddb5dfde1471611603db341495147132f231778ae9af86",
+  "score": 2,
+  "max": 5,
+  "reason": "The independently fairness-audited design produced a valid failure: the response invented two backup assignments and omitted complete checkpoint content. The package was revised and this response remains immutable."
+}

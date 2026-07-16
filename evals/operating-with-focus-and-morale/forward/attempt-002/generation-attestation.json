@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "phase": "skill-forward",
+  "attempt": 2,
+  "attested_at_utc": "2026-07-15T23:35:13Z",
+  "generation_plan_sha256": "664f93811bb0524cfc74e40202b9b56514066d99e1cd4612ba5d706bc38c3eb9",
+  "cases_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+  "frozen_skill_sha256": "a8a660292004fa80c90c72265be27ef7bc83434682461e23628b744144541e46",
+  "frozen_runtime_sha256": "974c75374bea41dfb5f3a6c3b46cbf34fe1301905683357f9fe9b0bd35fede2d",
+  "criteria_hidden": true,
+  "fresh_context": true,
+  "first_created_file_preserved": true,
+  "quality_resampling": false,
+  "responses": [
+    {"case_id":"scenario-01","sha256":"1c95efaa48013776495e0dcf32871af99c9310e8e9d5fc99d5f6782b07dec9ff","bytes":17516,"words":2618,"birth_epoch":1784158226,"mtime_epoch":1784158226},
+    {"case_id":"scenario-02","sha256":"3a32b45a7fd16b8e5271122bc187eca650b7cea3f74d689c360dee6656e21292","bytes":22778,"words":3498,"birth_epoch":1784158267,"mtime_epoch":1784158267},
+    {"case_id":"scenario-03","sha256":"83107606fa9c5950c58d72b6c56a3b4ef7e8a85afc4ab394423d0b65d070b927","bytes":22533,"words":3357,"birth_epoch":1784158299,"mtime_epoch":1784158299},
+    {"case_id":"scenario-04","sha256":"1aee00c9f119d7737d65c2772feb89a9d9815d8e5bfea9259c3bd0dce64dbe5f","bytes":17933,"words":2684,"birth_epoch":1784158370,"mtime_epoch":1784158370},
+    {"case_id":"scenario-05","sha256":"d8890c97dd8a9ad48fff971cae6ef0f2a496d63a5b3dd3243c75f3085be1b919","bytes":25755,"words":3868,"birth_epoch":1784158504,"mtime_epoch":1784158504},
+    {"case_id":"scenario-06","sha256":"09951d149a6115cf4faf06060e3ae4604a604bde80c2f802cb22c5214697bd03","bytes":15896,"words":2377,"birth_epoch":1784158434,"mtime_epoch":1784158434}
+  ],
+  "capture_integrity_result": "pass",
+  "comparability_result": "fail",
+  "failure_reason": "All six responses exceed the 1015-word baseline maximum; the attempt was rejected before scoring to avoid attributing criterion coverage to a much larger output budget.",
+  "scorer_dispatched": false,
+  "replacement_policy": "Preserve this attempt unscored and run new fresh-context generators with a predeclared hard 1200-word ceiling and one-write capture."
+}

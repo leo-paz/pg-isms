@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "frozen_at_utc": "2026-07-16T00:13:30Z",
+  "skill": {"path":"skills/operating-with-focus-and-morale/SKILL.md","sha256":"a8a660292004fa80c90c72265be27ef7bc83434682461e23628b744144541e46","bytes":3364},
+  "runtime_contract": {"path":"skills/operating-with-focus-and-morale/references/runtime-contract.md","sha256":"974c75374bea41dfb5f3a6c3b46cbf34fe1301905683357f9fe9b0bd35fede2d","bytes":10733}
+}

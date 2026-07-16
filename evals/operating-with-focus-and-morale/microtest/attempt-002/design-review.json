@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "design_id": "operating-with-focus-and-morale-paired-microtest-001",
+  "skill_name": "operating-with-focus-and-morale",
+  "status": "predeclared-design-only",
+  "prompt": "On May 11, 2026, you are advising CanopyTrace, a ten-person hardware startup whose wireless greenhouse sensors are used by 19 paying growers. It has 22 months of runway, no active fundraise or acquisition discussion, written decision rights, a named field-support owner, and no open safety or customer-continuity incident. The sensors provide planning data; separate certified systems control irrigation and safety alarms.\n\nCanopyTrace's current company objective is for a sensor deployment to last an entire 90-day crop cycle without a battery-change visit. Across 412 deployed sensors during the last two completed cycles, the median first battery change occurred on day 57 and growers requested 94 visits. Service records show no lost crop or missed contracted response window. The company has not measured how the visits affect renewal, expansion, or grower labor.\n\nThree technical approaches are in progress. A sleep-mode firmware profile improved projected battery life by 36% in a 30-device bench simulation; its 18 days of field data also show alert delivery slowing from a median 20 seconds to 95 seconds. A higher-density cell ran 108 days in the lab, but would add $18 per device, its supplier quotes a 12-week lead time, and certification work has not been scoped. Solar caps have run 72 days without a change in two sunny greenhouses, while four of ten units in shaded rows crossed the low-battery threshold before day 50. No approach has completed a representative 90-day field cycle, and the trials use different sensor revisions and reporting intervals.\n\nThe same team is also building a cosmetic enclosure refresh, a mobile analytics screen, a lower-priced small-farm kit, and reseller packaging. Work logs record 21 engineer reassignments among the trials and these efforts in eight weeks. Four engineers averaged 49 hours a week during that period, including unplanned weekend trial checks; one field specialist currently covers every grower visit. The weekly team pulse fell from 7.3 to 5.0 out of 10, while ordinary support response remained within its prior-quarter range.\n\nThe CTO says the 108-day lab result proves the new cell is the answer. The product lead says the absence of crop loss proves growers do not care about battery visits. The CEO says keeping all three approaches and all four roadmap efforts active is the fastest way to learn. The field specialist says the weekend pattern cannot continue but has not proposed coverage. The board has asked for an operating recommendation at its June 15 meeting, but has not required a technical or product choice.\n\nWrite a decision memo dated May 11, 2026, no longer than 1,200 words. Recommend what CanopyTrace should do now, what it should not do during the next five weeks, how the team should work through June 15 without extending its current hours, and what leadership should decide then, including any later evidence it must wait for. Preserve service to current growers, state material caveats, and do not assume facts not provided.",
+  "criteria": [
+    "Pass only if the memo makes fragmented attention, unsustainable trial execution, and the unresolved battery-life tactic decision the primary operating problem (an exact skill label is unnecessary), uses the stated runway, absent live financing or sale process, clear decision rights, separate certified control systems, named continuity ownership, and absence of an open incident to rule out cash survival, capital-process, acquisition, authority redesign, or emergency response as the lead workflow, and treats hardware analysis as support for the operating choice rather than a substitute for it; otherwise fail.",
+    "Pass only if the memo explicitly separates decision-material observations, stakeholder claims, and unknowns using those labels or unambiguous semantic equivalents; places the supplied deployment, battery-change, visit, service, bench, lab, field, cost, lead-time, work-log, hours, pulse, runway, governance, and continuity data in observations without treating projections, nonrepresentative trials, or absence of recorded harm as proof; places the CTO, product-lead, CEO, and field-specialist interpretations in claims; identifies at least grower or renewal impact, representative field performance, cross-trial comparability, certification scope, and tactic causality as unknown; and gives every consequential unknown an evidence owner, method or artifact, due date, threshold, and stated effect on the operating decision; otherwise fail.",
+    "Pass only if the memo commits to exactly one state-changing battery-life outcome and one selected evidence plan at the shortest trustworthy field interval, gives it a dated baseline, target, accountable owner, affected growers or devices, mechanism, causal rival, evidence latency, and falsifier, does not pretend a representative 90-day result can exist by June 15, and explicitly cancels, delegates, defers, or tightly bounds each of the enclosure refresh, mobile analytics screen, small-farm kit, and reseller packaging while preserving named grower, field-support, safety-boundary, data-integrity, and teammate obligations; otherwise fail.",
+    "Pass only if the operating envelope immediately reduces the four engineers below the current 49-hour average to a stated ordinary-capacity weekly workload or availability limit, protects recurring contiguous maker or analysis time and recurring direct contact or observation with affected growers, includes recovery periods, a bounded weekend rotation, and a June 15 or earlier end to unplanned exceptional work, removes or transfers work before adding protected blocks, and names field-continuity coverage, backup decision coverage, an escalation destination and response window, while rejecting compulsory nights, permanent weekend availability, or raw hours as evidence of commitment; otherwise fail.",
+    "Pass only if the closure separately states the 90-day no-change goal premise and the selected firmware, cell, solar, or other tactic, records the decision now, unresolved unknowns, a preserved option, a June 15 intermediate decision owner, and an honest dated final evidence review, and precommits measurable thresholds, next actions, owners, and dates for all four results: continue when the target signal appears and safeguards hold; adapt one material tactic, device scope, trial design, or measurement variable when the goal remains supported but the tactic misses; reopen the goal itself only after a stated amount of repeated representative evidence or changed survival, capability, harm, or opportunity-cost evidence; and stop when the premise is invalidated or a stated hard safety, certification, data-integrity, continuity, or survival boundary is crossed; otherwise fail."
+  ],
+  "protocol": {
+    "design_freeze": "Freeze this JSON, the exact decoded prompt, the five criteria, the skill files, sample identities, arm inputs, scoring rule, and threshold before dispatching any generator.",
+    "arms": {
+      "control": {
+        "replications": 5,
+        "allowed_inputs": [
+          "the exact decoded prompt only"
+        ]
+      },
+      "guided": {
+        "replications": 5,
+        "allowed_inputs": [
+          "the exact decoded prompt",
+          "a frozen copy of skills/operating-with-focus-and-morale/SKILL.md",
+          "a frozen copy of skills/operating-with-focus-and-morale/references/runtime-contract.md"
+        ]
+      }
+    },
+    "fresh_context": {
+      "required": true,
+      "pairing": "Pair by replication index for reporting only; all ten generations use separate fresh tasks.",
+      "generator_visibility": "A generator sees neither criteria, prior outputs, other generators, opposite-arm inputs, scores, nor design rationale."
+    },
+    "capture": {
+      "mode": "one-write",
+      "rule": "Capture each task's final response exactly once, directly into its unique response path; do not assemble from transcripts, edit, regenerate, or resample for response quality.",
+      "freeze": "Hash and freeze every response immediately after its first complete write and before scoring starts.",
+      "failure_policy": "If a task fails before a complete first write, mark the sample missing and invalidate the attempt rather than replacing it under the same design."
+    },
+    "scoring": {
+      "rubric_visibility": "hidden from all generators and revealed only to the scorer after all ten outputs are frozen",
+      "scorer": "One scorer distinct from the designer and every generator receives only the frozen rubric and de-identified responses in randomized order, with arm labels and generation provenance hidden until judgments are frozen.",
+      "criterion_rule": "A criterion bit is 1 only when every conjunct is explicit or an allowed semantic equivalent; omissions are not inferred and partial credit is forbidden.",
+      "manual_review": "The scorer reads every response against every criterion; keyword counts cannot substitute for semantic judgment.",
+      "response_score": "passed criteria divided by 5",
+      "arm_score": "sum of the arm's 25 binary criterion judgments divided by 25",
+      "effect": "guided arm score minus control arm score"
+    },
+    "acceptance": {
+      "minimum_effect": 0.2,
+      "comparison": "guided_minus_control >= 0.20",
+      "required_valid_samples": 10,
+      "required_integrity": "All freeze, context-isolation, one-write, hiding, and blind-scoring checks must pass."
+    },
+    "planned_samples": [
+      {"pair": 1, "sample_id": "focus_micro_control_1", "arm": "control", "task": "/root/focus_micro_control_1", "response_path": "evals/operating-with-focus-and-morale/microtest/control/rep-1.md"},
+      {"pair": 2, "sample_id": "focus_micro_control_2", "arm": "control", "task": "/root/focus_micro_control_2", "response_path": "evals/operating-with-focus-and-morale/microtest/control/rep-2.md"},
+      {"pair": 3, "sample_id": "focus_micro_control_3", "arm": "control", "task": "/root/focus_micro_control_3", "response_path": "evals/operating-with-focus-and-morale/microtest/control/rep-3.md"},
+      {"pair": 4, "sample_id": "focus_micro_control_4", "arm": "control", "task": "/root/focus_micro_control_4", "response_path": "evals/operating-with-focus-and-morale/microtest/control/rep-4.md"},
+      {"pair": 5, "sample_id": "focus_micro_control_5", "arm": "control", "task": "/root/focus_micro_control_5", "response_path": "evals/operating-with-focus-and-morale/microtest/control/rep-5.md"},
+      {"pair": 1, "sample_id": "focus_micro_guided_1", "arm": "guided", "task": "/root/focus_micro_guided_1", "response_path": "evals/operating-with-focus-and-morale/microtest/guided/rep-1.md"},
+      {"pair": 2, "sample_id": "focus_micro_guided_2", "arm": "guided", "task": "/root/focus_micro_guided_2", "response_path": "evals/operating-with-focus-and-morale/microtest/guided/rep-2.md"},
+      {"pair": 3, "sample_id": "focus_micro_guided_3", "arm": "guided", "task": "/root/focus_micro_guided_3", "response_path": "evals/operating-with-focus-and-morale/microtest/guided/rep-3.md"},
+      {"pair": 4, "sample_id": "focus_micro_guided_4", "arm": "guided", "task": "/root/focus_micro_guided_4", "response_path": "evals/operating-with-focus-and-morale/microtest/guided/rep-4.md"},
+      {"pair": 5, "sample_id": "focus_micro_guided_5", "arm": "guided", "task": "/root/focus_micro_guided_5", "response_path": "evals/operating-with-focus-and-morale/microtest/guided/rep-5.md"}
+    ],
+    "mutation_rule": "After the first generator is dispatched, do not change the prompt, criteria, skill freeze, runtime-contract freeze, sample identities, arm inputs, capture rule, scorer contract, or acceptance rule."
+  },
+  "prompt_audit": {
+    "held_out": "The scenario is distinct from the six canonical cases: it centers on hardware battery-life trials with noncomparable bench, lab, and field evidence, a 90-day physical evidence latency, field-coverage strain, and technical portfolio selection, not founder publicity, software adoption or competitor reaction, a conference push, a payroll pinch, founder approval queues, or a live fundraise.",
+    "rubric_leakage": "The prompt requests a normal dated executive memo and does not name the skill, route taxonomy, evidence classes, ledger, one-priority contract, maker-time contract, persistence branch labels, hidden criteria, scoring rule, arm design, or acceptance threshold.",
+    "natural_constraints": "The five-week horizon, June 15 review, 1,200-word cap, service preservation, caveats, and no-invention instruction are ordinary task constraints rather than a checklist of scored behaviors."
+  },
+  "derived_hashes": {
+    "canonicalization": "Prompt is jq -j .prompt; criteria are jq -c .criteria, both with no trailing newline.",
+    "prompt_sha256": "3dfbc9ff01c708e1f8fe4859f19630b20e8ce7bf8ca2d731da92572d13f3bfc8",
+    "criteria_sha256": "caccab3035924484f94e270faff0082b4aad39b4f4069abe544f8ca37b0f7285"
+  }
+}

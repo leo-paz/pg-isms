@@ -1,3 +1,6 @@
+Case ID: scenario-01
+Reviewer ID: focus-baseline-001
+
 # Four-week operating plan
 
 The company’s immediate constraint is not credibility; it is reliable service and founder attention. For the next four weeks, the CEO should make customer trust and product execution the default use of her time while preserving only obligations that are legally, financially, or operationally essential.

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "phase": "forward",
+  "reviewer_id": "focus-forward-008",
+  "scorer_id": "focus-forward-scorer-008",
+  "case_results": [
+    {"case_id":"scenario-01","score":2,"max_score":5,"raw_output":"scenario-01.md","vector":"10100"},
+    {"case_id":"scenario-02","score":4,"max_score":5,"raw_output":"scenario-02.md","vector":"10111"},
+    {"case_id":"scenario-03","score":5,"max_score":5,"raw_output":"scenario-03.md","vector":"11111"},
+    {"case_id":"scenario-04","score":5,"max_score":5,"raw_output":"scenario-04.md","vector":"11111"},
+    {"case_id":"scenario-05","score":3,"max_score":5,"raw_output":"scenario-05.md","vector":"10101"},
+    {"case_id":"scenario-06","score":4,"max_score":5,"raw_output":"scenario-06.md","vector":"10111"}
+  ],
+  "total_score": 23,
+  "total_max_score": 30,
+  "normalized_score": 0.766667,
+  "baseline_total_score": 14,
+  "baseline_normalized_score": 0.466667,
+  "exact_delta": 0.3,
+  "required_delta": 0.1,
+  "material_improvement": true,
+  "independent_audit": {
+    "reviewer_id": "focus-forward-audit-008",
+    "bit_changes": 0,
+    "audited_total": 23
+  }
+}

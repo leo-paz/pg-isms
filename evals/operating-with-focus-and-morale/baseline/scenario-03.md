@@ -1,3 +1,6 @@
+Case ID: scenario-03
+Reviewer ID: focus-baseline-001
+
 # Operating plan for the next month
 
 The company should stop treating the conference as an emergency. The evidence says the current pace is already reducing output: decisions are being reversed after implementation, production changes are failing, customer conversations are being missed, and engineering is blocked on late-night approvals. With sixteen months of runway, no fundraise, and no payroll threat, another four-week push is more likely to damage the product and team than prove seriousness.

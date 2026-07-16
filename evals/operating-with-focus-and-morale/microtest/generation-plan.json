@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "attempt": 5,
+  "design_sha256": "b0a702d4fc563adf2871dde2ec6b1397a6dfb4cf42fb7106b4a33df59de297c2",
+  "prompt_sha256": "77d6384adc126690827efe4c5c8771e318ba88ee7c31a205a449e5e88d704638",
+  "rubric_sha256": "678993e0559d0f40e18a51ec8a0559514085c8439b99c2f75573f739b4acb961",
+  "skill_sha256": "8cb42d33741e49adfb6412bcedb88106491f0041324486115aa4ffdf362245cc",
+  "runtime_sha256": "24ec2d982c69da54dc1c6474032e898ee4da22e3f10a8b0bd2a7c4dadeeb2336",
+  "fresh_agents": 10,
+  "control_repetitions": 5,
+  "guided_repetitions": 5,
+  "criteria_hidden": true,
+  "responses_frozen_before_scoring": true,
+  "quality_resampling": false,
+  "blind_scoring": true
+}

@@ -1,5 +1,9 @@
 # Scenario 02 baseline scorecard
 
+Case ID: scenario-02
+Reviewer ID: focus-baseline-001
+Score: 4/5
+
 - Vector: `11011`
 - Score: **4/5**
 - Miss: criterion 3

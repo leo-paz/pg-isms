@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "phase": "forward",
+  "reviewer_id": "focus-forward-008",
+  "canonical_agent_task": "/root/focus_forward8_1",
+  "generator_ids": [
+    "focus-forward8-1",
+    "focus-forward8-2",
+    "focus-forward8-3",
+    "focus-forward8-4",
+    "focus-forward8-5",
+    "focus-forward8-6"
+  ],
+  "generated_at": "2026-07-16T01:19:14Z",
+  "model_identity": "Codex (GPT-5)",
+  "dispatch_prompt": "Apply the frozen operating-with-focus-and-morale skill independently to the exact assigned prompt with hidden criteria and length-only staging.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "b6c338f2d9ce0b225e81f03ed1c1e4f8b15ab9731d53f343375a2008eedf0507",
+    "runtime_sha256": "5d44db01c258ab81ad55a0479e49563dd8d2766be2d9f06144483db138d45cff"
+  },
+  "response_hash_algorithm": "sha256",
+  "cases_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+  "generation_plan_sha256": "b990279ec5fca8efbfa4da6a5bba07a521a25bb8863d245f077cc629f5e8a1e9",
+  "response_hashes": {
+    "scenario-01": "35b7501d79151e472bde6f2725998dfc33ca1b97cf457eba5c90ece651279b81",
+    "scenario-02": "f0099b56d52376fa7ac48d36425c74897b77d2eba000b5db018bd88e0b219fe0",
+    "scenario-03": "d06d9be66ac3685131ab5c00230e2a62727cef1562fffacd54a370383982c8a8",
+    "scenario-04": "6e4feb6dcbca4257a07472524f7ade42af388d0917abe22f352bcde5cfbfc3fd",
+    "scenario-05": "bbffda55d6e425fb30eb140f214644702b55b0d65206d92278c2e58de0cbe582",
+    "scenario-06": "11f77d25c6fdd45f7d0178d5e06d66b129dc09e8170ca206d890bfe89fd0087e"
+  },
+  "response_body_hashes": {
+    "scenario-01": "43553bf62117a3bf77e731dc66fa735bf5107c58d6bab5bd6d673000050378e8",
+    "scenario-02": "24d73f88af54d7c5247563be44d7680c2bf29d4a100299e15b2c191475db0188",
+    "scenario-03": "2c1a1b83432b1cef5678d23cabd1faecef0a1458fb287658972d3c7da4e7ff2c",
+    "scenario-04": "a6eb8c4a271af4e4e738e3766a480ff55efd37918cc2c6fbae1997b50061c00b",
+    "scenario-05": "27a030eed3c7dcffbe4d64dd514c9c557afc5ec3f56a1fc1d7db173ad469c39f",
+    "scenario-06": "9a73d0085940ac3d7c63e72071500410cb31040ed1f7cafc6a44134dcbd8cf48"
+  },
+  "mechanical_wrapper": {
+    "purpose": "repository-validator metadata only",
+    "applied_after_scoring": true,
+    "template": "Case ID: {case_id}\nReviewer ID: focus-forward-008\n\n",
+    "body_bytes_unchanged": true,
+    "body_hash_algorithm": "sha256"
+  }
+}

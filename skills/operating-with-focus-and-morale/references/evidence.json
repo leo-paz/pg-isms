@@ -1,0 +1,1262 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "source_reviewers": [
+    "focus-source-a",
+    "focus-source-b",
+    "focus-source-c",
+    "focus-source-union",
+    "skill12-pair-reaudit-gpt5-20260715"
+  ],
+  "records": [
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "019",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Refine a working prototype rather than disappearing into a long rewrite; visible progress and short test horizons keep makers engaged and supply frequent rewards.",
+          "line_ranges": [
+            "68-72"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "027",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "resourcefulness-and-agency",
+          "claim": "Preserve the habit of challenging allegedly impossible constraints, while distinguishing useful rule-questioning from performed defiance that slows the work.",
+          "line_ranges": [
+            "14-28"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "030",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "maker-environment-and-deep-work",
+          "claim": "Treat the workspace as thinking infrastructure: protect quiet, doors or equivalent boundaries, self-arranged tools, rest, and freedom from meetings that destroy loaded context.",
+          "line_ranges": [
+            "60-70",
+            "150-154"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "041",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "resourcefulness-and-agency",
+          "claim": "Build agency through an engaging hard project of your own: start without waiting for assignment, implement new ideas directly, and use shipped work to practice choosing the problem.",
+          "line_ranges": [
+            "22-40",
+            "92-98"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "047",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "maker-environment-and-deep-work",
+          "claim": "Measure output instead of attendance, reduce performative office rituals, and test meeting-free blocks because meetings and email fragment maker time.",
+          "line_ranges": [
+            "64-94"
+          ]
+        },
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Intrinsic interest and meaningful ownership can produce more effort than forced presence or detached professionalism.",
+          "line_ranges": [
+            "28-38",
+            "118-118",
+            "136-154"
+          ]
+        },
+        {
+          "canonical_theme": "resourcefulness-and-agency",
+          "claim": "Let ideas arise from voluntary initiative and real audience feedback instead of making all work wait for top-down assignment.",
+          "line_ranges": [
+            "100-118"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "051",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "maker-environment-and-deep-work",
+          "claim": "Alternate focused discussion, solitary undistracted reflection, and peer critique; feed mind-wandering with a real problem rather than seeking ideas from randomness.",
+          "line_ranges": [
+            "74-106"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "055",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "maker-environment-and-deep-work",
+          "claim": "Reserve long uninterrupted blocks for hard work; synchronous errands and a few daily interruptions can erase the ability to enter the problem.",
+          "line_ranges": [
+            "28-36"
+          ]
+        },
+        {
+          "canonical_theme": "prioritization-and-focus",
+          "claim": "Classify avoidance by the value of the replacement task, audit busy lists for low-value motion, and ask what the best available work is and why it is not being done.",
+          "line_ranges": [
+            "12-24",
+            "42-61"
+          ]
+        },
+        {
+          "canonical_theme": "work-habits-and-time",
+          "claim": "Approach intimidating work through a smaller expandable task, successive difficulty, or collaborators, then tighten toward the central problem once motion begins.",
+          "line_ranges": [
+            "63-79"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "056",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Judge work fit over weeks or months, not by momentary pleasure; seek work whose process is engaging and whose result is worth admiring, while discounting prestige distortion.",
+          "line_ranges": [
+            "50-68",
+            "72-86"
+          ]
+        },
+        {
+          "canonical_theme": "work-habits-and-time",
+          "claim": "Require tangible production to distinguish practiced interest from an imagined identity and to let repeated work reveal what sustains attention.",
+          "line_ranges": [
+            "94-106"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "057",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Separate attraction to an outcome from willingness to perform the venture's recurring unglamorous work; durable motivation can come from fascination with the mechanism itself.",
+          "line_ranges": [
+            "12-22"
+          ]
+        },
+        {
+          "canonical_theme": "prioritization-and-focus",
+          "claim": "Look for a precise bottleneck where a small input changes many downstream outcomes rather than spreading effort evenly.",
+          "line_ranges": [
+            "20-22"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "061",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "Hold the goal firmly while changing tactics, product, and even short-term direction when evidence changes; determination is motion, not attachment to the initial route.",
+          "line_ranges": [
+            "100-126"
+          ]
+        },
+        {
+          "canonical_theme": "prioritization-and-focus",
+          "claim": "Direct fear and attention toward internal disputes, inertia, ignored users, and current product progress rather than visible competitors or speculative deals.",
+          "line_ranges": [
+            "80-98",
+            "142-164"
+          ]
+        },
+        {
+          "canonical_theme": "resourcefulness-and-agency",
+          "claim": "Keep trying reachable alternatives and preserve genuine leverage by continuing to build instead of depending on a single external party.",
+          "line_ranges": [
+            "126-126",
+            "152-164"
+          ]
+        },
+        {
+          "canonical_theme": "work-habits-and-time",
+          "claim": "Use frequent small improvements and user feedback to create a continuing work rhythm rather than long stagnant intervals.",
+          "line_ranges": [
+            "36-54"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "064",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "resourcefulness-and-agency",
+          "claim": "When uncertain, make a small inexpensive version, keep direct contact with the work, and let action reveal the next problem instead of waiting for a respectable complete plan.",
+          "line_ranges": [
+            "138-150",
+            "182-190"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "065",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "maker-environment-and-deep-work",
+          "claim": "Separate momentum work that can tolerate ambient noise from generative work that requires complete quiet, and protect the latter deliberately.",
+          "line_ranges": [
+            "22-26"
+          ]
+        },
+        {
+          "canonical_theme": "work-habits-and-time",
+          "claim": "Use a low-friction ordered capture tool so remembering one idea does not consume the working memory needed for the next.",
+          "line_ranges": [
+            "28-28",
+            "30-32"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "068",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Peer expectations and recurring demonstrations change day-to-day effort; choose peers and public commitments that pull toward real output rather than preserving an escape hatch.",
+          "line_ranges": [
+            "24-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "071",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "maker-environment-and-deep-work",
+          "claim": "Audit professional-looking activity against actual product output and deep thought; early teams should not sacrifice their productive work pattern to imitate a mature corporation.",
+          "line_ranges": [
+            "14-28"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "072",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Open-ended creative work has no clear perfect outcome, so recurring discontent can be a normal effort signal; separate it from global self-judgment rather than becoming demoralized about being dissatisfied.",
+          "line_ranges": [
+            "66-78",
+            "104-110"
+          ]
+        },
+        {
+          "canonical_theme": "resourcefulness-and-agency",
+          "claim": "Cultivate capability through curiosity-driven hard problems and self-generated work rather than relying only on discipline for bounded assigned choices.",
+          "line_ranges": [
+            "84-100"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "077",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "prioritization-and-focus",
+          "claim": "In a rapidly growing market, pay a reasonable premium to remove a mundane bottleneck when delay costs more than local efficiency, then revisit cost as the state changes.",
+          "line_ranges": [
+            "16-22"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "080",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "maker-environment-and-deep-work",
+          "claim": "Protect context-heavy work from both interruptions and anticipated meetings, use a few long sessions, stop before fatigue degrades thinking, and preserve restartability through small scope and readable structure.",
+          "line_ranges": [
+            "12-18",
+            "20-44",
+            "57-57"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "081",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Normalize low phases and use even a small group of delighted users as both emotional support and evidence for what to strengthen.",
+          "line_ranges": [
+            "40-42",
+            "44-50"
+          ]
+        },
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "When a launch receives little response, inspect for a devoted core, expand what it loves, and change the product if no such users exist instead of equating one miss with terminal failure.",
+          "line_ranges": [
+            "46-52",
+            "68-72"
+          ]
+        },
+        {
+          "canonical_theme": "work-habits-and-time",
+          "claim": "Use a recurring external cadence to report concrete releases, deals, and learning so silence and stagnation become visible early.",
+          "line_ranges": [
+            "28-38"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "093",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Anchor effort in concrete users who need the product; service to them can sustain work through low phases and convert a moral abstraction into the next product decision.",
+          "line_ranges": [
+            "64-80"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "095",
+      "reviewer": "focus-source-a",
+      "theme_evidence": [
+        {
+          "canonical_theme": "maker-environment-and-deep-work",
+          "claim": "Map attractive distractions that masquerade as work, especially during transitions between projects, and add visible friction so diversion becomes deliberate rather than automatic.",
+          "line_ranges": [
+            "14-32",
+            "36-48"
+          ]
+        },
+        {
+          "canonical_theme": "work-habits-and-time",
+          "claim": "Treat any distraction control as an experiment, observe whether avoidance returns, and revise it; the essay's proposed separate-computer setup later failed.",
+          "line_ranges": [
+            "10-10",
+            "38-54"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "096",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Account for the morale cost of working where peers do not value the mission, because ambient discouragement can erode persistence even without explicit opposition.",
+          "line_ranges": [
+            "54-60"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "098",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Interpret investor reactions as samples from a thin, correlated, unstable market rather than as independent verdicts, and prevent fundraising difficulty from becoming a self-fulfilling morale collapse. Assume unclosed deals can fail, partition investor work to one founder when team shape permits, cluster meetings around the build cadence, and keep releases, users, and sales moving during the raise. When financing conditions worsen, prefer a reasonable close over round optimization and improve agency by lowering expenses or crossing the smallest sustainable revenue threshold. Turn rejection into specific objections, independently test which are valid, and identify where the pitch loses people instead of accumulating an undifferentiated story of failure.",
+          "line_ranges": [
+            "20-34",
+            "58-78",
+            "82-118",
+            "120-140"
+          ]
+        },
+        {
+          "canonical_theme": "prioritization-and-focus",
+          "claim": "Assume unclosed deals can fail, partition investor work to one founder when team shape permits, cluster meetings around the build cadence, and keep releases, users, and sales moving during the raise.",
+          "line_ranges": [
+            "58-78"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "099",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "Adapt to constrained customers and investors through cost-saving value propositions, a credible resilience case, and lower operating cost rather than waiting passively for sentiment to improve.",
+          "line_ranges": [
+            "30-40"
+          ]
+        },
+        {
+          "canonical_theme": "resourcefulness-and-agency",
+          "claim": "For a time-sensitive technology opportunity, put founder quality, cofounder choice, and action above macroeconomic mood; inspect controllable team risks before treating news as the main threat. Adapt to constrained customers and investors through cost-saving value propositions, a credible resilience case, and lower operating cost rather than waiting passively for sentiment to improve. Treat lower competition during a downturn as one possible advantage, but keep the decision anchored in the actual people and technology rather than a macro slogan.",
+          "line_ranges": [
+            "18-28",
+            "30-40",
+            "46-52"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "100",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "maker-environment-and-deep-work",
+          "claim": "When adding a safeguard, require an account of its delay, opportunity, and participation costs, because checks can silently remove strong suppliers and productive paths. Preserve short feedback from idea to user-visible release when risk permits; shipping autonomy increases output and idea generation, while long approval latency erodes motivation and repels strong makers.",
+          "line_ranges": [
+            "18-22",
+            "24-28",
+            "36-54"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "105",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Use the smallest survival threshold to reduce dependency, cut paid side work and fundraising distraction, expect the moral weight of the company, and persist by changing the idea rather than freezing the first tactic. Treat unclosed deals as background processes rather than morale-critical dependencies. Use understanding users as the primary operating rule; a small group who deeply values the product can supply both direction and morale during collapse elsewhere.",
+          "line_ranges": [
+            "52-70",
+            "72-76"
+          ]
+        },
+        {
+          "canonical_theme": "prioritization-and-focus",
+          "claim": "Make user contact the startup's learning center: launch, let the idea evolve, understand users, create intense value for a narrow group, and measure the outcome you intend to improve. Use understanding users as the primary operating rule; a small group who deeply values the product can supply both direction and morale during collapse elsewhere.",
+          "line_ranges": [
+            "24-30",
+            "32-46",
+            "72-76"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "110",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "Reject passive helplessness: keep the destination stable while trying new paths around novel external obstacles; determination without tactical flexibility is insufficient.",
+          "line_ranges": [
+            "14-30"
+          ]
+        },
+        {
+          "canonical_theme": "resourcefulness-and-agency",
+          "claim": "Reject passive helplessness: keep the destination stable while trying new paths around novel external obstacles; determination without tactical flexibility is insufficient. Use resourcefulness as a founder self-test and tactical prompt, while keeping user value as the destination rather than confusing the trait with the goal.",
+          "line_ranges": [
+            "14-30",
+            "32-40"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "115",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "attention-and-priority-control",
+          "claim": "Price a maker meeting in broken half-days, mode switches, anticipatory attention, and lost ambition rather than meeting duration alone; reserve half-day or larger uninterrupted blocks for hard creation. Cluster office hours at the end of maker blocks, separate manager and maker work into explicit periods, and decline speculative meetings whose expected value does not cover the interruption cost.",
+          "line_ranges": [
+            "16-30",
+            "34-48"
+          ]
+        },
+        {
+          "canonical_theme": "maker-environment-and-deep-work",
+          "claim": "Price a maker meeting in broken half-days, mode switches, anticipatory attention, and lost ambition rather than meeting duration alone; reserve half-day or larger uninterrupted blocks for hard creation. Cluster office hours at the end of maker blocks, separate manager and maker work into explicit periods, and decline speculative meetings whose expected value does not cover the interruption cost.",
+          "line_ranges": [
+            "16-30",
+            "34-48"
+          ]
+        },
+        {
+          "canonical_theme": "work-habits-and-time",
+          "claim": "Price a maker meeting in broken half-days, mode switches, anticipatory attention, and lost ambition rather than meeting duration alone; reserve half-day or larger uninterrupted blocks for hard creation. Cluster office hours at the end of maker blocks, separate manager and maker work into explicit periods, and decline speculative meetings whose expected value does not cover the interruption cost.",
+          "line_ranges": [
+            "16-30",
+            "34-48"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "116",
+      "reviewer": "focus-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "attention-and-priority-control",
+          "claim": "Use revenue independence to choose when to raise, bound the financing process, and keep ambient founder thought on the product instead of investors.",
+          "line_ranges": [
+            "40-48"
+          ]
+        },
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Use a small survival-revenue threshold to turn an abstract company into a felt, durable operating reality and reduce the responsibility burden that erodes founder morale.",
+          "line_ranges": [
+            "34-36"
+          ]
+        },
+        {
+          "canonical_theme": "prioritization-and-focus",
+          "claim": "When survival does not require an immediate raise, schedule financing around company work and restore product progress as the primary operating problem.",
+          "line_ranges": [
+            "40-48"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "118",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "Treat significant idea change and undignified hands-on problem solving as normal startup behavior rather than evidence that the founders lack a plan or status. Expect a startup to be an emotional roller coaster and pair resilience with rapid launch, user listening, and iteration rather than resilience alone.",
+          "line_ranges": [
+            "20-32",
+            "38-44"
+          ]
+        },
+        {
+          "canonical_theme": "resourcefulness-and-agency",
+          "claim": "Treat significant idea change and undignified hands-on problem solving as normal startup behavior rather than evidence that the founders lack a plan or status.",
+          "line_ranges": [
+            "20-32"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "119",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "maker-environment-and-deep-work",
+          "claim": "Do not crush early confidence with excessive discipline; aim ambition at progressively harder work and use ambitious peers plus completed achievements to expand the perceived frontier.",
+          "line_ranges": [
+            "46-56"
+          ]
+        },
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "For startup-scale mixed problems, give determination more weight than raw intelligence once a competence threshold is met, while preserving domain-specific limits to that claim. Balance will with self-discipline and strengthen the cultivable discipline side as temptations grow; watch for cycles of intense output followed by collapse.",
+          "line_ranges": [
+            "14-24",
+            "26-42"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "123",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "Plan for a multiyear path, normalize incremental progress, and reduce desperate short-term decision pressure by reaching a state in which the company can work patiently. Do not make one feature or deal the sole path to success; execute many necessary small tasks and keep several plausible baskets until evidence distinguishes them. Hold the objective more firmly than the current problem or solution hypothesis; move through problem space and use fast iteration to find a promising path.",
+          "line_ranges": [
+            "102-136",
+            "138-154",
+            "188-206"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "126",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "attention-and-priority-control",
+          "claim": "Create explicit alarms for activity that looks virtuous but produces no result; at the end of a work period, name the concrete output and reclassify desk-bound busyness such as email when it repeatedly yields none.",
+          "line_ranges": [
+            "14-26"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "127",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "attention-and-priority-control",
+          "claim": "Audit what thought recurs during unstructured moments; the top recurring problem receives ambient problem-solving capacity while other hard questions are starved. Control attention indirectly by changing dependencies and situations: avoid letting fundraising, acquisition talk, money, disputes, or administration become critical unless they truly are the desired operating problem.",
+          "line_ranges": [
+            "14-24",
+            "28-34",
+            "36-48"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "128",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "attention-and-priority-control",
+          "claim": "Re-audit adopted tools because their attention capture can intensify after adoption; do not use statistical normality as proof that a habit supports good work, and build personal boundaries before shared customs catch up. Choose long offline periods or physical separation when they restore uninterrupted thinking, then judge the custom by observed work rather than social approval.",
+          "line_ranges": [
+            "12-38"
+          ]
+        },
+        {
+          "canonical_theme": "work-habits-and-time",
+          "claim": "Re-audit adopted tools because their attention capture can intensify after adoption; do not use statistical normality as proof that a habit supports good work, and build personal boundaries before shared customs catch up. Choose long offline periods or physical separation when they restore uninterrupted thinking, then judge the custom by observed work rather than social approval.",
+          "line_ranges": [
+            "12-38"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "129",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "attention-and-priority-control",
+          "claim": "Treat fundraising cycle time as company downtime and favor simple, fast processes that return the founder's top idea to the company. A rolling close is useful only when it shortens a bounded raise; it is not permission to fundraise continuously, and founder leverage changes with the market cycle.",
+          "line_ranges": [
+            "82-92",
+            "138-144"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "134",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "Combine resistance to demoralization with tactical flexibility: preserve the downfield objective while moving sideways, backward, or to a new idea as evidence changes.",
+          "line_ranges": [
+            "16-26"
+          ]
+        },
+        {
+          "canonical_theme": "resourcefulness-and-agency",
+          "claim": "Combine resistance to demoralization with tactical flexibility: preserve the downfield objective while moving sideways, backward, or to a new idea as evidence changes. Look for evidence that a founder can find an unconventional workable path through a system, while distinguishing harmless rule-bending from violations that create legal, ethical, safety, or trust harm.",
+          "line_ranges": [
+            "16-26",
+            "34-38"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "141",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "resourcefulness-and-agency",
+          "claim": "Name the unpleasant user, deal, integration, compliance, or operations work that the goal actually requires; do not let an unconscious preference for elegant coding erase valuable problems from consideration. When aversion hides opportunities, ask which painful problem you wish someone else would solve and let capabilities grow with the concrete problem rather than demanding complete foresight upfront.",
+          "line_ranges": [
+            "14-20",
+            "24-28",
+            "30-34"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "142",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "resourcefulness-and-agency",
+          "claim": "Treat the ability to chase a lead and the uncomfortable implications of feedback as the same agency muscle; distinguish reasoned rejection after evidence from denial that preserves a prior plan. Process advice with fresh eyes and answer from prior experiments or user evidence, not by reshaping every observation to fit a decision already made.",
+          "line_ranges": [
+            "14-28",
+            "32-36"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "147",
+      "reviewer": "focus-source-b + skill12-pair-reaudit-gpt5-20260715",
+      "theme_evidence": [
+        {
+          "canonical_theme": "attention-and-priority-control",
+          "claim": "Turn consequential omissions into visible positive reminders at the planning surface, while redesigning defaults when possible so neglected priorities repeatedly regain attention.",
+          "line_ranges": [
+            "16-22"
+          ]
+        },
+        {
+          "canonical_theme": "work-habits-and-time",
+          "claim": "Identify high-cost omissions that happen by default, redesign defaults where possible, and place a short recurring reminder at the actual planning surface when defaults cannot be fully changed.",
+          "line_ranges": [
+            "12-22"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "152",
+      "reviewer": "focus-source-b",
+      "theme_evidence": [
+        {
+          "canonical_theme": "attention-and-priority-control",
+          "claim": "Price investor indecision as founder downtime: in a founder-only company, a long raise can halt the work, so fast yes-or-no capital is operationally cheaper even before terms are compared.",
+          "line_ranges": [
+            "52-52"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "156",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "attention-and-priority-control",
+          "claim": "Treat fundraising as a bounded mode: either concentrate on finishing it quickly or refuse meetings, persuasion, and negotiation so company work retains founder attention. Give one founder ownership of fundraising and insulate the rest of the team from its cognitive detail while preserving as much operating growth as possible. Stop a process that has ceased producing viable paths, resist the status rewards of raising, and return to product and users as the work that changes the company.",
+          "line_ranges": [
+            "38-48",
+            "220-230",
+            "244-254",
+            "292-296"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "158",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "Redirect competitive energy from situation-specific fights toward building and racing ahead; preserve a nonfinancial mission strong enough to survive hard periods and acquisition opportunities.",
+          "line_ranges": [
+            "22-28"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "159",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "Near death, stop repeating a failed financing assumption and switch decisively among shutdown, burn reduction, or the fastest credible revenue path.",
+          "line_ranges": [
+            "31-33",
+            "35-61"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "163",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "attention-and-priority-control",
+          "claim": "Before a corporate-development meeting, decide whether the company wants to sell now; otherwise decline the first meeting because a flattering, open-ended process consumes attention and weakens morale.",
+          "line_ranges": [
+            "14-30",
+            "44-56"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "164",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Inventory hard tasks that feel rewarding rather than draining, especially ones peers avoid, and test those signals through real work to find motivation that compounds.",
+          "line_ranges": [
+            "22-28"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "174",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "Treat determination as a survival signal, but distinguish it from the mission attachment that sustains founders through later opportunities to stop; do not assume initial posture predicts that later motive.",
+          "line_ranges": [
+            "48-56",
+            "94-96"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "175",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "attention-and-priority-control",
+          "claim": "Separate obligations imposed by circumstance from self-chosen traps, then remove low-value meetings, disputes, posturing, toxic customers, and addictive attention loops using a future-value test.",
+          "line_ranges": [
+            "20-40"
+          ]
+        },
+        {
+          "canonical_theme": "work-habits-and-time",
+          "claim": "Separate obligations imposed by circumstance from self-chosen traps, then remove low-value meetings, disputes, posturing, toxic customers, and addictive attention loops using a future-value test. Treat important work and relationships as perishable windows: act before a perfect time arrives, while still noticing and recovering the life being spent.",
+          "line_ranges": [
+            "20-40",
+            "46-60"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "180",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "maker-environment-and-deep-work",
+          "claim": "Accept that private obsessions carry real exploration risk, switch among equally genuine interests when evidence changes, and avoid dividing attention so widely that none reaches depth.",
+          "line_ranges": [
+            "44-48",
+            "52-74"
+          ]
+        },
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Treat intense curiosity as evidence of aptitude and as a source of self-propulsion; it prepares the mind and keeps work moving down paths that conventional ambition would abandon.",
+          "line_ranges": [
+            "12-42"
+          ]
+        },
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "Treat intense curiosity as evidence of aptitude and as a source of self-propulsion; it prepares the mind and keeps work moving down paths that conventional ambition would abandon. Accept that private obsessions carry real exploration risk, switch among equally genuine interests when evidence changes, and avoid dividing attention so widely that none reaches depth.",
+          "line_ranges": [
+            "12-42",
+            "44-48",
+            "52-74"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "182",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "attention-and-priority-control",
+          "claim": "When founders seek launch, investor, or status tricks, replace the proxy with direct work on product quality, users, and growth; real startup tests reward the company outcome rather than test-gaming.",
+          "line_ranges": [
+            "62-82"
+          ]
+        },
+        {
+          "canonical_theme": "resourcefulness-and-agency",
+          "claim": "When founders seek launch, investor, or status tricks, replace the proxy with direct work on product quality, users, and growth; real startup tests reward the company outcome rather than test-gaming. Notice inherited habits of waiting for an authority-defined test and choose work where good execution receives direct external feedback.",
+          "line_ranges": [
+            "62-82",
+            "84-90",
+            "98-110"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "183",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "attention-and-priority-control",
+          "claim": "When caregiving constrains time, schedule recurring work blocks, start even without inspiration, and honor a hard stop rather than expecting work to spill across the whole day.",
+          "line_ranges": [
+            "42-50"
+          ]
+        },
+        {
+          "canonical_theme": "maker-environment-and-deep-work",
+          "claim": "When caregiving constrains time, schedule recurring work blocks, start even without inspiration, and honor a hard stop rather than expecting work to spill across the whole day.",
+          "line_ranges": [
+            "42-50"
+          ]
+        },
+        {
+          "canonical_theme": "work-habits-and-time",
+          "claim": "When caregiving constrains time, schedule recurring work blocks, start even without inspiration, and honor a hard stop rather than expecting work to spill across the whole day.",
+          "line_ranges": [
+            "42-50"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "184",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Use genuine love of the work as protection against fashion pressure and as fuel for continuing when a valuable but neglected problem looks marginal.",
+          "line_ranges": [
+            "12-18"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "186",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "attention-and-priority-control",
+          "claim": "After company growth creates repeated obsessive critics, distinguish them from ordinary disagreement, check thoughtful neutral opinion, and default to non-engagement; narrowly refute only a claim causing concrete mob harm.",
+          "line_ranges": [
+            "28-48",
+            "52-58"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "193",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "Treat an ambitious first version as a distinct state, temporarily lower the judging threshold, and track improvement rate so fear and premature finished-work standards do not stop the project. Use low-commitment experiments, define what failure rules out, vary the approach when a path remains, and recalibrate expectations by studying accurate first versions.",
+          "line_ranges": [
+            "12-28",
+            "42-64",
+            "66-76"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "195",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "When demand evidence exists but growth does not, define a final bounded attempt, focus on the hottest market, and do direct fieldwork rather than repeating the same broad tactic. Let urgent user circumstances strengthen mission, then use weekly revenue evidence to tell real slope change from noise and continue only after the tactic moves the system.",
+          "line_ranges": [
+            "20-28",
+            "30-34",
+            "36-42"
+          ]
+        },
+        {
+          "canonical_theme": "resourcefulness-and-agency",
+          "claim": "Use observable execution cadence as an operating signal: capture advice, implement it before the next review, and generate additional actions from the work. When demand evidence exists but growth does not, define a final bounded attempt, focus on the hottest market, and do direct fieldwork rather than repeating the same broad tactic.",
+          "line_ranges": [
+            "14-18",
+            "20-28",
+            "30-34"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "196",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Assess whether genuine interest in the project, demonstrated resilience, and unwillingness to let go will keep founders working after money or status becomes an insufficient motive.",
+          "line_ranges": [
+            "72-82"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "197",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Audit both direction and magnitude of motivation: genuine problem interest makes effort more durable, but pair it with demonstrated capability rather than treating sincerity as sufficient. Allow bounded naive optimism to reopen beliefs made stale by change, then test it through hard technical work instead of status performance.",
+          "line_ranges": [
+            "12-24",
+            "30-44"
+          ]
+        },
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "Audit both direction and magnitude of motivation: genuine problem interest makes effort more durable, but pair it with demonstrated capability rather than treating sincerity as sufficient. Allow bounded naive optimism to reopen beliefs made stale by change, then test it through hard technical work instead of status performance.",
+          "line_ranges": [
+            "12-24",
+            "30-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "198",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "attention-and-priority-control",
+          "claim": "Audit whether the largest recurring stressor is core to the mission; remove a noncore obligation that dominates urgent work, and plan succession before the organization consumes every other valuable project. Choose one high-value project, recognize the opportunity cost of divided attention, and ban tempting side work long enough to finish a cognitively deep goal.",
+          "line_ranges": [
+            "244-254",
+            "256-258",
+            "268-268",
+            "274-274",
+            "284-292"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "205",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "prioritization-and-focus",
+          "claim": "Channel competitiveness, overconfidence, independent judgment, and impatience into an ambitious owned problem; constructive work turns unused drive away from bitterness and reflexive criticism. Place intense problem-solvers in small groups where correctness matters, while requiring restraint around interruption and abrasiveness.",
+          "line_ranges": [
+            "12-34",
+            "42-48"
+          ]
+        },
+        {
+          "canonical_theme": "resourcefulness-and-agency",
+          "claim": "Channel competitiveness, overconfidence, independent judgment, and impatience into an ambitious owned problem; constructive work turns unused drive away from bitterness and reflexive criticism.",
+          "line_ranges": [
+            "12-34"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "206",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Preserve the engagement of an owned project by making participation voluntary in substance and keeping a coherent component under the maker's control, even inside collaboration. Give capable makers a high-level objective and autonomy over details; at a new project's start, lower the threshold enough to begin before adult standards destroy morale.",
+          "line_ranges": [
+            "32-44",
+            "46-52",
+            "54-60"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "207",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "maker-environment-and-deep-work",
+          "claim": "Replace externally imposed busyness with self-directed necessary work, find the daily limit by watching output quality, and aim toward the hard core without stalling on days of lower capacity.",
+          "line_ranges": [
+            "28-30",
+            "52-68"
+          ]
+        },
+        {
+          "canonical_theme": "prioritization-and-focus",
+          "claim": "Replace externally imposed busyness with self-directed necessary work, find the daily limit by watching output quality, and aim toward the hard core without stalling on days of lower capacity. Continually audit whether the field, problem, interest, and results still justify effort; switch after a fair traction window when hard work is not yielding sufficiently good work.",
+          "line_ranges": [
+            "28-30",
+            "52-68",
+            "70-74",
+            "76-90"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "213",
+      "reviewer": "focus-source-union",
+      "theme_evidence": [
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "Stay decisive on near-term actions while keeping long-term direction provisional, correcting course quickly when measured results contradict the current path.",
+          "line_ranges": [
+            "44-48"
+          ]
+        },
+        {
+          "canonical_theme": "prioritization-and-focus",
+          "claim": "Diagnose the underlying company problem, rank known problems by company impact, and put the one that can kill the startup ahead of the merely visible concern.",
+          "line_ranges": [
+            "34-44"
+          ]
+        },
+        {
+          "canonical_theme": "resourcefulness-and-agency",
+          "claim": "For the highest-impact problem, generate a concrete action at the shortest trustworthy evidence interval, execute it, and measure the result.",
+          "line_ranges": [
+            "44-46"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "218",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "maker-environment-and-deep-work",
+          "claim": "Protect contiguous blocks, monitor the fatigue point where quality declines, and cross daily and project activation barriers with a tiny first action.",
+          "line_ranges": [
+            "86-118"
+          ]
+        },
+        {
+          "canonical_theme": "motivation-and-morale",
+          "claim": "Choose through owned experiments, let increasing interest pull the work forward, and switch fields without loyalty when firsthand experience makes another path more compelling. Treat morale as an operating asset: regain motion with easier useful work, normalize local backtracking, distinguish effort pain from damage, maintain a small real audience, seek energizing people, and protect physical health.",
+          "line_ranges": [
+            "24-30",
+            "58-66",
+            "356-390"
+          ]
+        },
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "Choose through owned experiments, let increasing interest pull the work forward, and switch fields without loyalty when firsthand experience makes another path more compelling. Treat morale as an operating asset: regain motion with easier useful work, normalize local backtracking, distinguish effort pain from damage, maintain a small real audience, seek energizing people, and protect physical health.",
+          "line_ranges": [
+            "24-30",
+            "58-66",
+            "356-390"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "operating-with-focus-and-morale",
+      "article_no": "223",
+      "reviewer": "focus-source-c",
+      "theme_evidence": [
+        {
+          "canonical_theme": "persistence-and-adaptation",
+          "claim": "Test persistence by active engagement with disagreement: hold the high-level goal more firmly than any first tactic, and treat low-level ideas as revisable. Build adaptive persistence from energy, imagination, resilience, judgment, and a bounded goal; generate new paths, preserve morale after setbacks, and change direction when expected value falls.",
+          "line_ranges": [
+            "22-32",
+            "40-66",
+            "82-82"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "phase": "forward",
+  "reviewer_id": "focus-forward-009",
+  "canonical_agent_task": "/root/focus_forward9_1",
+  "generated_at": "2026-07-16T02:19:40Z",
+  "model_identity": "Codex (GPT-5)",
+  "dispatch_prompt": "Apply the frozen operating-with-focus-and-morale skill to one exact prompt with hidden criteria and mechanical length-only staging before canonical freeze.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "8cb42d33741e49adfb6412bcedb88106491f0041324486115aa4ffdf362245cc",
+    "runtime_sha256": "24ec2d982c69da54dc1c6474032e898ee4da22e3f10a8b0bd2a7c4dadeeb2336"
+  },
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "scenario-01": "31e02d1e3ff152324be77b4032435bc708ca19f802fc93b63dd7ebe5b49c592a",
+    "scenario-02": "6ed7c1a702d7679ffc38af55a518e40c4c018109338d7459870e9c39c40a4d5c",
+    "scenario-03": "7848056b9993bb4c84688f75aea68cd12fcbc2ee06b959a82b79cb21d0315eb1",
+    "scenario-04": "659c7add6d9c38b646d86fbfd3f62cd3bc477d8bc0b984db475bd99d74402318",
+    "scenario-05": "dd0fbc31a71ef0d8ce8b5b165f7b2e44286d1020020032aee1bd14786e7150bf",
+    "scenario-06": "3def6ce62d8b3fb341426f9d913e72e98bc2f5e3daf38064f5701967838883c4"
+  },
+  "response_body_hashes": {
+    "scenario-01": "a24fb382b112f4f32df693c45bd198aa34c3e5d5bf34537df076c79c5ddb3faf",
+    "scenario-02": "ed7bc66b46172212c34209f25bac26ceb288e77a414dc67e4c98b785d366ba2c",
+    "scenario-03": "7153dc5fbe8fb357d03f3104dc89d7c6b602f69bb780c78eb6be73358da62b8c",
+    "scenario-04": "aae823e686d4dde98efe186649a935d0bd1dbc4a2bdb9019e6fbfdf3d9d9d21b",
+    "scenario-05": "e9622f2fba1a0c2abf95142e94debb312d49867e7bece24eef7d957071bc2012",
+    "scenario-06": "100c1c795df5f95264fc8c692d299af91d92906291c06759becc12db067b6e20"
+  },
+  "mechanical_wrapper": {
+    "applied_after_scoring": true,
+    "location": "appended_after_response_body",
+    "rendered_block": "Case ID: {case_id}\nReviewer ID: focus-forward-009\n",
+    "body_bytes_unchanged": true
+  }
+}

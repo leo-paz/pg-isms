@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "phase": "skill-forward",
+  "attempt": 1,
+  "attested_at_utc": "2026-07-15T23:25:47Z",
+  "generation_plan_sha256": "bb9b2cbdedea01cf8815f16fa6eb97d9b26c997b88ad3d04526e0235cfec20ef",
+  "cases_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+  "frozen_skill_sha256": "a8a660292004fa80c90c72265be27ef7bc83434682461e23628b744144541e46",
+  "frozen_runtime_sha256": "974c75374bea41dfb5f3a6c3b46cbf34fe1301905683357f9fe9b0bd35fede2d",
+  "criteria_hidden": true,
+  "fresh_context": true,
+  "quality_resampling_by_coordinator": false,
+  "responses": [
+    {"case_id":"scenario-01","sha256":"713365cdb8f9882d1eba1b6b4150fbcbb800630a75724e46791cfa186856930c","bytes":9331,"words":1301,"birth_epoch":1784157698,"mtime_epoch":1784157698,"first_file_version_preserved":true,"deviation":"exceeded requested 1200-word target"},
+    {"case_id":"scenario-02","sha256":"240124e1f3318508d5435ac9d6891e7ccc9660403350d7fa8b86bacf964c9993","bytes":8247,"words":1195,"birth_epoch":1784157690,"mtime_epoch":1784157690,"first_file_version_preserved":true,"deviation":null},
+    {"case_id":"scenario-03","sha256":"6679ef7da7e5f498d39a9e2f4c3185808495a5481737f43088e4b5e493d35490","bytes":8189,"words":1200,"birth_epoch":1784157709,"mtime_epoch":1784157768,"first_file_version_preserved":false,"deviation":"response file modified after creation"},
+    {"case_id":"scenario-04","sha256":"3d50a258ef013b72456aab8b030348150bcedab368baa79f36c36a932cb62c6b","bytes":8473,"words":1199,"birth_epoch":1784157803,"mtime_epoch":1784157834,"first_file_version_preserved":false,"deviation":"response file modified after creation"},
+    {"case_id":"scenario-05","sha256":"d416e35c2f09317baf8d6e338b0d6f9a724c5572c5abade5455eb72b34308aa6","bytes":8342,"words":1171,"birth_epoch":1784157784,"mtime_epoch":1784157822,"first_file_version_preserved":false,"deviation":"response file modified after creation"},
+    {"case_id":"scenario-06","sha256":"4d98ad52e92f416516ed78859b7722bf552aa318ef707aed23b7123a19f53b25","bytes":8157,"words":1185,"birth_epoch":1784157885,"mtime_epoch":1784157926,"first_file_version_preserved":false,"deviation":"response file modified after creation"}
+  ],
+  "integrity_result": "fail",
+  "failure_reason": "The aggregate attempt does not satisfy the frozen-first-completion capture contract.",
+  "scorer_dispatched": false,
+  "replacement_policy": "Preserve this attempt unscored and rerun once with new fresh-context generators whose final messages are captured exactly once by the coordinator."
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "plan_id": "focus-heldout-buyer-001",
+  "skill_name": "operating-with-focus-and-morale",
+  "frozen_at_utc": "2026-07-16T00:10:27Z",
+  "frozen_before_response": true,
+  "case": {"path":"evals/operating-with-focus-and-morale/heldout/case.json","sha256":"0fb3d9c35b89aa0acace003ede5f15a8fab3133e7220fcc75eb7f7f4836f67d0"},
+  "prompt": {"path":"evals/operating-with-focus-and-morale/heldout/prompt.txt","sha256":"43e529e9e06204105a69746af5270ee76fc3db7f4ed774b51a6376c46724bec7","bytes":2107,"words":334},
+  "skill_freeze": {"path":"evals/operating-with-focus-and-morale/heldout/skill-freeze.json","sha256":"6d2424a6d0140188e65b1ad82cbb9fc5e6942c6bf16b176a74a54826799015ee"},
+  "dispatch": {
+    "generator_task": "/root/focus_heldout_generator",
+    "response_path": "evals/operating-with-focus-and-morale/heldout/response.md",
+    "fresh_context": true,
+    "criteria_hidden": true,
+    "allowed_inputs": ["frozen SKILL.md", "frozen runtime-contract.md", "exact prompt.txt", "required response headers"],
+    "forbidden_inputs": ["case.json", "design artifacts", "canonical or prior evaluation artifacts", "source evidence", "other skills", "scores and reviews"],
+    "one_write": true,
+    "post_creation_reads_or_writes_allowed": false,
+    "quality_resampling": false,
+    "response_word_target": "900-1050 words",
+    "hard_maximum_words": 1200,
+    "required_headers": ["Case ID: focus-heldout-buyer-001", "Reviewer ID: focus-heldout-generator"]
+  },
+  "scoring": {
+    "scorer_task": "/root/focus_heldout_scorer",
+    "distinct_from_generator": true,
+    "starts_only_after_response_hash_freeze": true
+  }
+}

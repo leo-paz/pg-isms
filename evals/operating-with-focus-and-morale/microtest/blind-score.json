@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "scorer_id": "focus-micro5-blind-scorer",
+  "attempt": 5,
+  "locked_at": "2026-07-15T19:45:40-07:00",
+  "lock_status": "locked_before_unblinding",
+  "unblinded": false,
+  "scoring_policy": "Strict binary conjunctive scoring. A criterion receives 1 only when every pass_only_if_all clause is explicitly satisfied; no inference or partial credit.",
+  "criterion_order": ["C1", "C2", "C3", "C4", "C5"],
+  "hash_algorithm": "sha256",
+  "input_hashes": {
+    "microtest/prompt.txt": "77d6384adc126690827efe4c5c8771e318ba88ee7c31a205a449e5e88d704638",
+    "microtest/rubric.json": "678993e0559d0f40e18a51ec8a0559514085c8439b99c2f75573f739b4acb961",
+    "microtest/blind/slot-01.md": "d8f36db46ba0a3f85830fec8185562e8186b9bb4b56a5177f1f9f50b0885b154",
+    "microtest/blind/slot-02.md": "05f556fca64d1a45141f111b08dedc207835fb610f35595e620d203563bfd523",
+    "microtest/blind/slot-03.md": "b65f47fd83e35918c7d51708fa6a4d16806ee05b5c28f7003e6e9963404f3fe9",
+    "microtest/blind/slot-04.md": "173e1b29a3b59aace8b0b0e1838adc5d4f50927d714406d79d79a0e3ec824b2e",
+    "microtest/blind/slot-05.md": "c54eab09d4521425ce6949c8576c15a6154cb724aedfe9b21ca3b3d018c21405",
+    "microtest/blind/slot-06.md": "e7f3109f3d87a4f610b4f37a068bd8bb07d2cec860da08eb336062111b5fcb97",
+    "microtest/blind/slot-07.md": "bf655687ce3c241378df938237ccc78e1b1c5026da211f6610f79ac5d30f574b",
+    "microtest/blind/slot-08.md": "9d7b8f43777568bd477635c70cd672de1b745c780bce44de5c72e702fc2d8488",
+    "microtest/blind/slot-09.md": "6a301504b84d1e22e99e08f1942644e201f64df73494c3f9ee82cbecb3304b13",
+    "microtest/blind/slot-10.md": "5c8a32595307efea1deb88b2acfae056152b62ac030c238098d95922a2930adb"
+  },
+  "slots": [
+    {
+      "slot": "slot-01",
+      "input_sha256": "d8f36db46ba0a3f85830fec8185562e8186b9bb4b56a5177f1f9f50b0885b154",
+      "criteria": {
+        "C1": {
+          "bit": 1,
+          "rationale": "Explicit route gates use concrete prompt facts to select focus/morale and exclude survival, financing, buyer, organization-redesign, and acute-risk routes. The evidence ledger preserves the dated observations and stakeholder claims, U1-U8 give owner/method/date/threshold/effect, and the response explicitly reports no unclassified inputs."
+        },
+        "C2": {
+          "bit": 1,
+          "rationale": "The outcome/tactic row explicitly supplies the dated baseline and target, users/work, owner, mechanism, rival, latency, falsifier, and decision dates. Each of the three initiatives has its own dated owned disposition and reopen limit, the four essential obligations are separately protected, and no prohibited proxy is used as success evidence."
+        },
+        "C3": {
+          "bit": 0,
+          "rationale": "Although focus blocks, direct teacher attendance, supplied continuity roles, load removal, and a dated queue-relief test are present, the response permits an incident-only exceptional push of up to two hours without a calendar end date. Because C3 requires an end date for any bounded exceptional push, the conjunctive criterion fails."
+        },
+        "C4": {
+          "bit": 1,
+          "rationale": "Morale is treated as an operating signal with multiple tested mechanisms and a rival; the durable premise and insert tactic are separate. The three required measure classes have baseline, target, source, owner, and dates, and every checkpoint explicitly says the result is not yet observed while recording rival, safeguards, and branch."
+        },
+        "C5": {
+          "bit": 0,
+          "rationale": "The four branch rows are otherwise distinct and well specified, but the stop row says return will be 'newly dated' after closure rather than supplying a return or handoff calendar date now. C5 requires every row to contain a handoff or return condition and date, so strict conjunctive credit is denied."
+        }
+      },
+      "vector": [1, 1, 0, 1, 0],
+      "total": 3
+    },
+    {
+      "slot": "slot-02",
+      "input_sha256": "05f556fca64d1a45141f111b08dedc207835fb610f35595e620d203563bfd523",
+      "criteria": {
+        "C1": {
+          "bit": 0,
+          "rationale": "The response does not explicitly route out survival, financing, buyer, organization-redesign, and acute-risk paths with the prompt's concrete facts, does not preserve and classify all prompt inputs and claims, and gives consequential unknowns no complete owner/method/date/threshold/effect ledger."
+        },
+        "C2": {
+          "bit": 0,
+          "rationale": "The central priority and tactic are clear, but the named initiatives do not each have an explicit owner, effective date, and initiative-specific limit or reopen condition. The primary outcome specification also leaves required fields such as accountable outcome owner and dated baseline implicit rather than explicit."
+        },
+        "C3": {
+          "bit": 0,
+          "rationale": "The answer lacks recurring contiguous product/analysis blocks and does not state an escalation destination for each of the four supplied continuity surfaces. Its approval recovery has no explicit dated relief test before an organization-redesign route."
+        },
+        "C4": {
+          "bit": 0,
+          "rationale": "Morale mechanisms are discussed, but there are no separate company-outcome, teacher/continuity, and workload/judgment measures each carrying a dated baseline, observable target, source, owner, and review date; intermediate checks also lack the required result/pending, rival, safeguard, and branch record."
+        },
+        "C5": {
+          "bit": 0,
+          "rationale": "The prose gates do not provide four separate rows in which each branch has its own owner, calendar date, primary route, and dated handoff or return condition."
+        }
+      },
+      "vector": [0, 0, 0, 0, 0],
+      "total": 0
+    },
+    {
+      "slot": "slot-03",
+      "input_sha256": "b65f47fd83e35918c7d51708fa6a4d16806ee05b5c28f7003e6e9963404f3fe9",
+      "criteria": {
+        "C1": {
+          "bit": 0,
+          "rationale": "The answer does not explicitly exclude all alternate routes from the runway, no-process, authority, and acute-risk facts, and its unknown list does not assign every consequential unknown an owner, artifact/method, due date, threshold, and decision effect."
+        },
+        "C2": {
+          "bit": 0,
+          "rationale": "The test lacks an explicit dated absolute target and fully enumerated outcome record, while the Expo, AI deck, and catalog dispositions do not each state their own owner, effective date, and bounded reopen condition."
+        },
+        "C3": {
+          "bit": 0,
+          "rationale": "Direct teacher observations and the supplied continuity assignments are present, but there is no recurring contiguous product/analysis block, no escalation destination for each continuity surface, and no dated approval-relief test tied to an organization-redesign escalation."
+        },
+        "C4": {
+          "bit": 0,
+          "rationale": "The answer lacks the required three separately owned and dated measure records with baselines, targets, and sources, and it has no intermediate/final checkpoint ledger recording pending result, rival, safeguards, and branch."
+        },
+        "C5": {
+          "bit": 0,
+          "rationale": "The decision gates omit branch-specific next owners, primary routes, and dated handoff/return conditions, so the all-fields branch requirement fails."
+        }
+      },
+      "vector": [0, 0, 0, 0, 0],
+      "total": 0
+    },
+    {
+      "slot": "slot-04",
+      "input_sha256": "173e1b29a3b59aace8b0b0e1838adc5d4f50927d714406d79d79a0e3ec824b2e",
+      "criteria": {
+        "C1": {
+          "bit": 0,
+          "rationale": "The response has strong route and evidence ledgers, but the Expo's future economics/reopen evidence is consequential to that named initiative and has no complete unknown row with owner, method, due date, threshold, and effect. Strictly, the prompt's exact September 10 event date is also not preserved."
+        },
+        "C2": {
+          "bit": 1,
+          "rationale": "Exactly one outcome and one current test are fully specified with all required evidence fields. Expo, AI, and catalog each receive a dated, owned, bounded disposition; essential teacher, production, product-authority, and payroll work is separately protected; and proxy evidence is rejected."
+        },
+        "C3": {
+          "bit": 1,
+          "rationale": "The response creates recurring 09:00-12:00 product blocks and Lena observation on each booked-session date; the supplied four continuity pairs, artifacts, windows, and escalation destinations are stated; the 72-hour plan is canceled in favor of a dated recovery envelope with no exceptional push; and load is removed before a July 20 queue test and possible organization reroute."
+        },
+        "C4": {
+          "bit": 0,
+          "rationale": "The measure and mechanism sections are complete, but the future checkpoint 'result' cells merely name checks such as backlog/rosters or insert readiness. They do not record an observed result or explicitly label the result pending as C4 requires."
+        },
+        "C5": {
+          "bit": 0,
+          "rationale": "The stop row gives a branch date and a return condition, but no return or handoff calendar date; 'return when the survival bound is dated/stable' is not itself a date. Because every row must have that dated return/handoff field, C5 fails."
+        }
+      },
+      "vector": [0, 1, 1, 0, 0],
+      "total": 2
+    },
+    {
+      "slot": "slot-05",
+      "input_sha256": "c54eab09d4521425ce6949c8576c15a6154cb724aedfe9b21ca3b3d018c21405",
+      "criteria": {
+        "C1": {
+          "bit": 0,
+          "rationale": "Alternate operating routes are not explicitly excluded using the prompt's runway, no-process, authority, and acute-risk facts, all inputs are not classified, and the listed unknowns lack their own owner/method/due/threshold/effect records."
+        },
+        "C2": {
+          "bit": 0,
+          "rationale": "The central outcome and tactic are clear, but each named initiative does not independently carry all of owner, effective date, and limit/reopen condition; several required outcome fields are also dispersed or implicit rather than fully explicit."
+        },
+        "C3": {
+          "bit": 0,
+          "rationale": "There is recurring direct teacher observation, but no recurring contiguous product/analysis block, no explicit escalation destination for each supplied continuity surface, and no dated approval-relief test before organization redesign."
+        },
+        "C4": {
+          "bit": 0,
+          "rationale": "Morale is monitored, but the response does not provide the three required separate measure records with dated baseline, target, source, owner, and review date, nor complete pending-result/confounder/safeguard/branch entries for every check."
+        },
+        "C5": {
+          "bit": 0,
+          "rationale": "The four prose gates lack per-branch next owner, primary route, and dated handoff/return fields, so they do not satisfy the conjunctive branch schema."
+        }
+      },
+      "vector": [0, 0, 0, 0, 0],
+      "total": 0
+    },
+    {
+      "slot": "slot-06",
+      "input_sha256": "e7f3109f3d87a4f610b4f37a068bd8bb07d2cec860da08eb336062111b5fcb97",
+      "criteria": {
+        "C1": {
+          "bit": 0,
+          "rationale": "The answer does not explicitly route out all alternate paths using the prompt's concrete gate facts and does not give every consequential priority, initiative, queue, and later-branch unknown its own owner/method/due/threshold/effect record."
+        },
+        "C2": {
+          "bit": 0,
+          "rationale": "The named initiative dispositions do not each include a complete owner, effective date, and limit/reopen condition, and the one-priority section does not explicitly consolidate every required baseline/target/rival/falsifier field."
+        },
+        "C3": {
+          "bit": 0,
+          "rationale": "Although it schedules teacher contact, decision windows, supplied continuity, and recovery, it does not give each continuity surface an escalation destination and does not set a dated queue-relief test before escalation to organization redesign."
+        },
+        "C4": {
+          "bit": 0,
+          "rationale": "Morale is treated thoughtfully, but the required three complete measure records and the per-check result-or-pending, rival, safeguard, and branch ledger are absent."
+        },
+        "C5": {
+          "bit": 0,
+          "rationale": "The threshold bullets omit branch-specific dates, owners, primary routes, and dated handoff or return conditions."
+        }
+      },
+      "vector": [0, 0, 0, 0, 0],
+      "total": 0
+    },
+    {
+      "slot": "slot-07",
+      "input_sha256": "bf655687ce3c241378df938237ccc78e1b1c5026da211f6610f79ac5d30f574b",
+      "criteria": {
+        "C1": {
+          "bit": 0,
+          "rationale": "The response never performs the required fact-based exclusion of survival, financing, buyer, organization-redesign, and acute-risk routes, and consequential unknowns are not each furnished with the complete owner/method/date/threshold/effect structure."
+        },
+        "C2": {
+          "bit": 0,
+          "rationale": "There is one priority and tactic, but the dated baseline/target record is incomplete and the three initiative dispositions do not each explicitly supply owner, effective date, and bounded reopen condition."
+        },
+        "C3": {
+          "bit": 0,
+          "rationale": "Recurring teacher contact and load removal are present, but the answer lacks recurring contiguous product/analysis time, complete escalation destinations for all four continuity services, weekly recovery periods across the horizon, and a dated approval-relief test before role redesign."
+        },
+        "C4": {
+          "bit": 0,
+          "rationale": "The morale diagnosis tests plausible mechanisms, but it lacks three complete baseline/target/source/owner/review measure records and complete checkpoint state/confounder/safeguard/branch records."
+        },
+        "C5": {
+          "bit": 0,
+          "rationale": "The four gates are not rows with their own next owner, calendar date, primary route, and dated return or handoff condition."
+        }
+      },
+      "vector": [0, 0, 0, 0, 0],
+      "total": 0
+    },
+    {
+      "slot": "slot-08",
+      "input_sha256": "9d7b8f43777568bd477635c70cd672de1b745c780bce44de5c72e702fc2d8488",
+      "criteria": {
+        "C1": {
+          "bit": 0,
+          "rationale": "The evidence ledger omits the prompt's explicit absence of investor diligence, so not every decision-relevant prompt input is classified. In addition, the facilitator/teacher-mix rival is named in the outcome row but is not given its own complete unknown record with owner, method, due date, threshold, and effect."
+        },
+        "C2": {
+          "bit": 1,
+          "rationale": "The one outcome and one tactic are fully specified with every required field. All three initiatives have separate dated owners and reopen limits, essential obligations are separately protected, and workload, morale, competitor activity, and visibility are not used as success evidence."
+        },
+        "C3": {
+          "bit": 1,
+          "rationale": "Recurring three-hour product blocks and direct observation on every session date are explicit. The four supplied continuity pairs, services, artifacts, destinations, and windows are preserved; the 72-hour push is replaced by a bounded recovery envelope with no exceptional push; and a dated queue test precedes organization rerouting."
+        },
+        "C4": {
+          "bit": 1,
+          "rationale": "The response tests overload/user-contact and premise mechanisms, separates goal premise from tactic, and ties recovery to bounded work, peer critique, owners, and real teacher evidence. Company outcome, teacher continuity, and workload/judgment measures are complete, and every checkpoint explicitly marks results pending while recording rival, safeguards, and branch."
+        },
+        "C5": {
+          "bit": 0,
+          "rationale": "The stop row says its return will be 'dated at routing' instead of providing a handoff or return calendar date. That missing required field defeats the conjunctive branch criterion despite the otherwise distinct branch logic."
+        }
+      },
+      "vector": [0, 1, 1, 1, 0],
+      "total": 3
+    },
+    {
+      "slot": "slot-09",
+      "input_sha256": "6a301504b84d1e22e99e08f1942644e201f64df73494c3f9ee82cbecb3304b13",
+      "criteria": {
+        "C1": {
+          "bit": 0,
+          "rationale": "The otherwise complete ledger does not preserve the exact September 10 Expo date and never explicitly classifies Priya's proposal of the catalog redesign. Strictly, that means decision-relevant prompt inputs are not all preserved and classified."
+        },
+        "C2": {
+          "bit": 1,
+          "rationale": "The priority/tactic row contains all required fields; the three initiatives have separate owned, dated dispositions and reopen limits; the four essential obligations are individually protected; and prohibited proxies are rejected."
+        },
+        "C3": {
+          "bit": 1,
+          "rationale": "The response supplies recurring three-hour focus blocks and Lena's recurring observation across all booked dates, preserves the four supplied primary/backup/artifact/window services with escalation, sets a dated workload/recovery envelope with no exceptional push, removes rival load, and tests the queue on July 21 before organization diagnosis."
+        },
+        "C4": {
+          "bit": 0,
+          "rationale": "The diagnosis and measures are complete, but future checkpoint result cells instruct the team to record results rather than explicitly stating that those results are pending. C4 requires either an observed result or an explicit pending state at every check."
+        },
+        "C5": {
+          "bit": 0,
+          "rationale": "The stop branch's return is to be 'dated at closure' rather than carrying a handoff or return calendar date in the row. Strict conjunctive scoring therefore fails C5."
+        }
+      },
+      "vector": [0, 1, 1, 0, 0],
+      "total": 2
+    },
+    {
+      "slot": "slot-10",
+      "input_sha256": "5c8a32595307efea1deb88b2acfae056152b62ac030c238098d95922a2930adb",
+      "criteria": {
+        "C1": {
+          "bit": 0,
+          "rationale": "No complete unknown row tests the Expo economics or paid/qualified-commitment reopen condition, even though a later Expo decision depends on it. The continuity gate also cites nonexistent O29-O36 identifiers, so the criterion's evidence-integrity conjunction is not fully met."
+        },
+        "C2": {
+          "bit": 1,
+          "rationale": "The one outcome/tactic row is complete, every competing initiative has its own owner, date, and limit/reopen condition, the essential teacher/production/product/payroll obligations are separately protected, and no prohibited signal is promoted to outcome evidence."
+        },
+        "C3": {
+          "bit": 1,
+          "rationale": "The response creates recurring product blocks and direct attendance on each booked date; preserves the supplied four continuity pairs, artifacts, windows, and escalation destinations; rejects the 72-hour and visible-hours proxies in favor of a dated recovery envelope with no exceptional push; and runs a July 23 queue test after removing load."
+        },
+        "C4": {
+          "bit": 0,
+          "rationale": "The morale mechanisms, premise/tactic split, and measures are adequate, but the future checkpoint result cells say what to record and do not explicitly mark results pending. This misses a required conjunct."
+        },
+        "C5": {
+          "bit": 0,
+          "rationale": "The stop row provides no return or handoff calendar date, only 'owner-dated then.' Because each row must include the dated handoff/return field, the full C5 conjunction is not satisfied."
+        }
+      },
+      "vector": [0, 1, 1, 0, 0],
+      "total": 2
+    }
+  ],
+  "vectors": {
+    "slot-01": [1, 1, 0, 1, 0],
+    "slot-02": [0, 0, 0, 0, 0],
+    "slot-03": [0, 0, 0, 0, 0],
+    "slot-04": [0, 1, 1, 0, 0],
+    "slot-05": [0, 0, 0, 0, 0],
+    "slot-06": [0, 0, 0, 0, 0],
+    "slot-07": [0, 0, 0, 0, 0],
+    "slot-08": [0, 1, 1, 1, 0],
+    "slot-09": [0, 1, 1, 0, 0],
+    "slot-10": [0, 1, 1, 0, 0]
+  },
+  "totals": {
+    "slot-01": 3,
+    "slot-02": 0,
+    "slot-03": 0,
+    "slot-04": 2,
+    "slot-05": 0,
+    "slot-06": 0,
+    "slot-07": 0,
+    "slot-08": 3,
+    "slot-09": 2,
+    "slot-10": 2,
+    "all_slots": 12,
+    "max_all_slots": 50
+  }
+}

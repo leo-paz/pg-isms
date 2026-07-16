@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "design_id": "operating-with-focus-and-morale-paired-microtest-001",
+  "scoring_mode": "blind_strict_binary_all_conjuncts",
+  "judgments_frozen_before_deblinding": true,
+  "rubric_sha256": "61dd808bee17798a95817f8819c8137f07ebcd99caac2bf26b3f3dfa013ac684",
+  "slots": [
+    {
+      "slot": "slot-01",
+      "input_sha256": "2645b26a55ff00675bf4a0ced48f271ed8d7479a2c07e2bf0f54a9ce8f10cdf7",
+      "C1": 0,
+      "C2": 0,
+      "C3": 0,
+      "C4": 0,
+      "C5": 0,
+      "vector": [0, 0, 0, 0, 0],
+      "score": 0,
+      "rationales": {
+        "C1": "Fail. The memo centers portfolio focus, trial comparability, workload, and the unresolved tactic, but it does not use the stated 22-month runway, absence of financing and sale processes, and absence of an open incident to rule out all competing lead workflows.",
+        "C2": "Fail. It does not explicitly separate observations, stakeholder claims, and unknowns; it also lacks the complete observation inventory, the field specialist's interpretation in claims, and owner-method-date-threshold-decision-effect treatment for every consequential unknown.",
+        "C3": "Fail. The sleep-mode experiment is bounded, but the memo does not give the selected outcome and plan all required particulars: a dated baseline, explicit affected grower/device set, evidence latency, and an explicit falsifier are missing.",
+        "C4": "Fail. It calls for normal schedules and no planned nights or weekends, but gives no stated weekly capacity limit, recurring contiguous maker/analysis blocks, recurring direct-grower contact, recovery period, bounded weekend rotation, backup decision coverage, or named escalation destination and response window.",
+        "C5": "Fail. The closure does not separately record the goal premise and selected tactic or precommit continue, adapt, reopen-goal, and stop branches with measurable thresholds, actions, owners, and dates."
+      }
+    },
+    {
+      "slot": "slot-02",
+      "input_sha256": "f7a38e6315ac950f07e0717343dbd169a3f6a014cfe59f33087b51eaf63355d8",
+      "C1": 1,
+      "C2": 0,
+      "C3": 0,
+      "C4": 0,
+      "C5": 0,
+      "vector": [1, 0, 0, 0, 0],
+      "score": 1,
+      "rationales": {
+        "C1": "Pass. The memo makes fragmented parallel work, unsustainable hours and coverage, and the unresolved cell-versus-firmware-versus-solar choice the operating constraint. It explicitly uses 22 months of runway, no financing or buyer process, written decision rights, certified irrigation/alarm controls, existing field ownership, and no open safety or continuity incident to exclude the competing routes, while treating hardware results as decision evidence rather than an answer.",
+        "C2": "Fail. Although it labels observed facts, claims, and unknowns, the claims omit the field specialist's interpretation. Several consequential unknowns also lack their own complete owner, method or artifact, due date, threshold, and explicit effect on the operating decision.",
+        "C3": "Fail. The cell is a leading test tactic, but starting its representative cohort is conditional on hardware availability and the memo does not specify the affected growers or devices. It therefore does not explicitly commit the complete single evidence plan required by the criterion.",
+        "C4": "Fail. The memo includes a 40-hour cap, maker blocks, grower-contact blocks, recovery, and field backup, but it does not explicitly name backup decision coverage or a concrete escalation destination and response window, so not every envelope conjunct is met.",
+        "C5": "Fail. The four branch names and broad gates are present, but each branch does not have its own measurable threshold, next action, owner, and date, and the final representative evidence review is not assigned an honest calendar date."
+      }
+    },
+    {
+      "slot": "slot-03",
+      "input_sha256": "1cae08784a5ab5239413eeb67af9e7911270bb59377e5d92389284e281c323e1",
+      "C1": 0,
+      "C2": 0,
+      "C3": 0,
+      "C4": 0,
+      "C5": 0,
+      "vector": [0, 0, 0, 0, 0],
+      "score": 0,
+      "rationales": {
+        "C1": "Fail. It identifies the focus-and-workload problem and mentions several non-crises, but does not use the stated 22-month runway, named continuity ownership, and the full route-exclusion fact set explicitly enough to satisfy every conjunct.",
+        "C2": "Fail. The memo has no explicit observations/claims/unknowns separation and does not attach complete owner, method, date, threshold, and decision-effect metadata to every consequential unknown.",
+        "C3": "Fail. Firmware is selected for near-term work, but the memo lacks a dated baseline, numeric target, explicit affected grower/device set, mechanism, causal rival, evidence latency, and falsifier for the one committed outcome.",
+        "C4": "Fail. 'Normal hours' is not a stated weekly workload or availability limit, and the memo omits recurring contiguous focus blocks, recurring direct-grower contact, recovery periods, a bounded weekend rotation, backup decision coverage, and a named escalation destination and window.",
+        "C5": "Fail. The closure neither records the required premise/tactic/option structure nor specifies all four result branches with measurable thresholds, actions, owners, and dates."
+      }
+    },
+    {
+      "slot": "slot-04",
+      "input_sha256": "5206290c7b3b2affad32047d088d803373d6915e841cac7de1a019a469d12f72",
+      "C1": 0,
+      "C2": 0,
+      "C3": 0,
+      "C4": 0,
+      "C5": 0,
+      "vector": [0, 0, 0, 0, 0],
+      "score": 0,
+      "rationales": {
+        "C1": "Fail. The memo explicitly names the focus route and the operating problems, but its route exclusion does not use the stated 22-month runway or the separate certified irrigation/alarm controls, so the full routing conjunct is not explicit.",
+        "C2": "Fail. It labels observed, claimed, and unknown material, but the field specialist's interpretation is absent from claims and not every consequential unknown has its own method or artifact, due date, threshold, and stated decision effect.",
+        "C3": "Fail. It states a single 90-day outcome and useful test attributes, but does not select exactly one tactic/evidence plan for it or specify the affected grower/device set at the shortest trustworthy field interval.",
+        "C4": "Fail. The 40-hour cap, focus blocks, grower contact, recovery, and work removal are present, but backup decision coverage and a named escalation destination and response window are not explicit; the after-hours rotation is also not concretely bounded.",
+        "C5": "Fail. The four branches are separately named, but no selected tactic is recorded now, and all branches do not each carry measurable thresholds, next actions, owners, and dates; the final evidence review lacks a calendar date."
+      }
+    },
+    {
+      "slot": "slot-05",
+      "input_sha256": "5c6ae8880db2b350a4435b118cad4d0d2f34681e5b8177c206893124feb0ab8e",
+      "C1": 0,
+      "C2": 0,
+      "C3": 0,
+      "C4": 0,
+      "C5": 0,
+      "vector": [0, 0, 0, 0, 0],
+      "score": 0,
+      "rationales": {
+        "C1": "Fail. The memo emphasizes focus, workload, and unresolved evidence, but does not explicitly use the runway, financing/sale status, decision rights, certified-control separation, continuity ownership, and no-open-incident facts to rule out all alternative lead workflows.",
+        "C2": "Fail. It does not label or unambiguously separate the complete observation, claim, and unknown sets, and it supplies no complete owner-method-date-threshold-decision-effect record for every consequential unknown.",
+        "C3": "Fail. It creates a common battery program while continuing bounded work on multiple tactics, not one fully specified selected evidence plan; the required dated baseline, affected cohort, causal rival, evidence latency, and falsifier are not all explicit.",
+        "C4": "Fail. Returning to the company's normal schedule does not state a weekly workload or availability limit. Recurring maker time and direct-grower contact, backup decision coverage, escalation destination/window, and the full exceptional-work rejection are also missing.",
+        "C5": "Fail. The June 15 section does not precommit all four required outcome branches with separate measurable thresholds, actions, owners, and dates, and it does not give a dated final evidence review."
+      }
+    },
+    {
+      "slot": "slot-06",
+      "input_sha256": "6fec322434e6e16e382b3409295891f4c56fbcf36809b60994076251d308260e",
+      "C1": 0,
+      "C2": 0,
+      "C3": 0,
+      "C4": 0,
+      "C5": 0,
+      "vector": [0, 0, 0, 0, 0],
+      "score": 0,
+      "rationales": {
+        "C1": "Fail. It names the correct operating route and the focus/morale problem, but the route sentence does not use the specific 22-month runway, separate certified control systems, and absence of an open incident as explicit routing evidence.",
+        "C2": "Fail. The ledger is labeled, but the field specialist's interpretation is omitted from claims; runway/governance/continuity facts are not placed in observations; and the consequential unknowns do not all have complete owner, method, date, threshold, and effect fields.",
+        "C3": "Fail. The outcome is explicit, but the plan retains minimum work on all three approaches rather than selecting exactly one tactic/evidence plan. It also omits a specifically affected grower/device set.",
+        "C4": "Fail. A 'sustainable five-day envelope' does not state a weekly workload number and the memo lacks explicit backup decision coverage and a concrete response window; its roster is not an explicitly bounded weekend rotation.",
+        "C5": "Fail. Continue/adapt/reopen/stop appear, but no selected tactic is recorded now and the branches lack separate measurable thresholds, next actions, owners, and dates. The later review date is deferred until a future cohort start rather than honestly dated now."
+      }
+    },
+    {
+      "slot": "slot-07",
+      "input_sha256": "f6e0d8267b75864fd202668bbc2dd8ecea63ac9eb870e010b3d23f7a9678b297",
+      "C1": 0,
+      "C2": 0,
+      "C3": 0,
+      "C4": 0,
+      "C5": 0,
+      "vector": [0, 0, 0, 0, 0],
+      "score": 0,
+      "rationales": {
+        "C1": "Fail. The memo correctly frames fragmentation, overwork, and unresolved evidence, but it does not use the stated runway and absent financing/sale process to exclude survival and capital-process routes, nor does it provide the complete routing fact set.",
+        "C2": "Fail. It does not explicitly separate observations, all four stakeholder claims, and unknowns, and does not provide complete owner-method-date-threshold-effect treatment for every consequential unknown.",
+        "C3": "Fail. The comparison work is not expressed as one fully specified state-changing outcome and selected evidence plan with a dated baseline, target, affected cohort, mechanism, rival, latency, and falsifier.",
+        "C4": "Fail. 'Normal weekly capacity' is not a stated workload or availability limit. Recurring contiguous focus time, recurring direct-grower contact, recovery, a bounded weekend rotation, backup decision coverage, and escalation destination/window are not all explicit.",
+        "C5": "Fail. The closure identifies a June 15 choice and later evidence, but does not record the required premise/tactic/option structure or all four precommitted result branches with thresholds, actions, owners, and dates."
+      }
+    },
+    {
+      "slot": "slot-08",
+      "input_sha256": "6055a44cee186f2260a86339fc9c18b9eb73907c86d259149fc78b2c8e35c85e",
+      "C1": 0,
+      "C2": 0,
+      "C3": 0,
+      "C4": 0,
+      "C5": 0,
+      "vector": [0, 0, 0, 0, 0],
+      "score": 0,
+      "rationales": {
+        "C1": "Fail. The memo strongly establishes the focus-and-morale route with most exclusion facts, but never states that separate certified systems control irrigation and safety alarms. The criterion requires that fact explicitly.",
+        "C2": "Fail. Observed, claimed, and unknown sections are clear, but the field specialist's interpretation is missing from claims and every consequential unknown does not have its own explicit method/artifact, threshold, and operating-decision effect.",
+        "C3": "Fail. All three candidates remain inside the controlled comparison rather than one selected tactic/evidence plan, and the affected growers/devices and explicit falsifier are not specified.",
+        "C4": "Fail. The memo gives work removal, a 40-hour cap, focus blocks, grower contact, recovery, and field backup, but does not explicitly provide backup decision coverage or a bounded weekend rotation, and does not expressly reject raw hours as evidence of commitment.",
+        "C5": "Fail. The branch labels are present, but no tactic is selected now and each branch lacks its own complete measurable threshold, next action, owner, and date. The final field review has only a future 'dated end,' not an honest date in the memo.",
+        "note": "C1 is the closest failed judgment; the missing certified-control-system fact is independently dispositive under strict all-conjunct scoring."
+      }
+    },
+    {
+      "slot": "slot-09",
+      "input_sha256": "d5cf8a169546213dbffb34bc00ac1851e32dfbdeb3c3f29e17e0179b62ab828f",
+      "C1": 0,
+      "C2": 0,
+      "C3": 0,
+      "C4": 0,
+      "C5": 0,
+      "vector": [0, 0, 0, 0, 0],
+      "score": 0,
+      "rationales": {
+        "C1": "Fail. It makes focus, workload, and tactic uncertainty central, but does not explicitly use the runway, absent financing/sale process, written decision rights, named continuity ownership, and no-open-incident facts to exclude the alternative workflows.",
+        "C2": "Fail. The memo does not explicitly separate the complete observations, claims, and unknowns, and gives no full owner-method-date-threshold-effect record for each consequential unknown.",
+        "C3": "Fail. Sleep mode is the bounded field cohort, but the memo does not state the required dated baseline, target, accountable owner, affected growers/devices, mechanism, causal rival, evidence latency, and falsifier as one complete plan.",
+        "C4": "Fail. 'Existing normal hours' is not a stated workload or availability limit, and the memo omits recurring maker blocks, recurring direct observation/contact, recovery periods, a bounded weekend rotation, backup decision coverage, and a specific escalation destination/window.",
+        "C5": "Fail. It lacks a separately recorded goal premise and selected tactic plus the four required precommitted branches with measurable thresholds, next actions, owners, and dates."
+      }
+    },
+    {
+      "slot": "slot-10",
+      "input_sha256": "d51ff289bdec076d5f43803ea6b303df078b41cc273fd4c1b5beb25e5906187c",
+      "C1": 0,
+      "C2": 0,
+      "C3": 0,
+      "C4": 0,
+      "C5": 0,
+      "vector": [0, 0, 0, 0, 0],
+      "score": 0,
+      "rationales": {
+        "C1": "Fail. The memo explicitly excludes most competing routes using runway and process facts, but does not state that separate certified systems control irrigation and safety alarms. That missing required routing fact is dispositive.",
+        "C2": "Fail. The labeled ledger omits the field specialist's interpretation from claims and does not place every required governance/continuity fact in observations; several consequential unknowns also lack a complete method, threshold, and decision-effect specification.",
+        "C3": "Fail. The cell is a lead hypothesis and the outcome is bounded, but the plan does not identify the affected growers/devices or a dated deployment baseline, so every required evidence-plan conjunct is not explicit.",
+        "C4": "Fail. The 40-hour cap, focus blocks, compensating time, and field backup are explicit, but recurring direct contact/observation with affected growers, backup decision coverage, and a concrete response window are not; raw hours are not expressly rejected as commitment evidence.",
+        "C5": "Fail. It names the four branches and preserves options, but the branches do not each specify a measurable threshold, next action, owner, and date, and the final review date is left to be derived from a later trial start rather than stated."
+      }
+    }
+  ]
+}

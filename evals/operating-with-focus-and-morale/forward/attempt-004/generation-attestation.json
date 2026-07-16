@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "skill_name": "operating-with-focus-and-morale",
+  "phase": "skill-forward",
+  "attempt": 4,
+  "attested_at_utc": "2026-07-15T23:44:32Z",
+  "frozen_before_scoring": true,
+  "frozen_inputs": {
+    "generation_plan_path": "evals/operating-with-focus-and-morale/forward/generation-plan.json",
+    "generation_plan_sha256": "99f6b3f33928d491d89b025b648a441257e48d82f642460cdf4402d91ce8844e",
+    "canonical_cases_path": "evals/operating-with-focus-and-morale/cases.json",
+    "canonical_cases_sha256": "f77e14ed626c40a49e051aa535feb5dd9dad4597a4761e5118feb1acea63c8c5",
+    "skill_sha256": "a8a660292004fa80c90c72265be27ef7bc83434682461e23628b744144541e46",
+    "runtime_sha256": "974c75374bea41dfb5f3a6c3b46cbf34fe1301905683357f9fe9b0bd35fede2d",
+    "prompt_only_aggregate_projection_sha256": "5dcc5d515b9453ae4261017e10afd382ac03013cb7a9ab1061014c502d9d9a72"
+  },
+  "generation_conditions": {
+    "criteria_hidden": true,
+    "skill_visible": true,
+    "fresh_context": true,
+    "one_generator_per_case": true,
+    "first_created_file_frozen": true,
+    "quality_resampling": false,
+    "response_word_maximum": 1200
+  },
+  "responses": [
+    {
+      "case_id": "scenario-01",
+      "task_id": "/root/focus_forward4_1",
+      "path": "evals/operating-with-focus-and-morale/forward/scenario-01.md",
+      "bytes": 6393,
+      "words": 881,
+      "filesystem_birth_epoch": 1784158954,
+      "filesystem_mtime_epoch": 1784158954,
+      "response_body_sha256": "3439a90e7b760acd94be87f6f07fe6b3d4989ed53a7b0b30958ce1da0ac71e83",
+      "wrapped_response_sha256": "3ffc23019ab5afbb234e6caab674b3016a4104fe6d6461ca24084defe7b2b3e1"
+    },
+    {
+      "case_id": "scenario-02",
+      "task_id": "/root/focus_forward4_2",
+      "path": "evals/operating-with-focus-and-morale/forward/scenario-02.md",
+      "bytes": 6680,
+      "words": 971,
+      "filesystem_birth_epoch": 1784158987,
+      "filesystem_mtime_epoch": 1784158987,
+      "response_body_sha256": "fc517f9cd0f684ce8c3e2f1538c4c26e76f8dab13d7cdfdcca3df9ae2a023a6d",
+      "wrapped_response_sha256": "aba73a7c565afd2d2b40b79f838f2be07e61fc42f6ef09394a6873404e795fcb"
+    },
+    {
+      "case_id": "scenario-03",
+      "task_id": "/root/focus_forward4_3",
+      "path": "evals/operating-with-focus-and-morale/forward/scenario-03.md",
+      "bytes": 7126,
+      "words": 1035,
+      "filesystem_birth_epoch": 1784158982,
+      "filesystem_mtime_epoch": 1784158982,
+      "response_body_sha256": "442d2650c7973463edb68f3abafd412c539d89fb451a3430ca6e3245f5eae690",
+      "wrapped_response_sha256": "bd7c3d738c2e5e96974216781a580f17e8fb6298396ee1eafa0ed90eab98f6d1"
+    },
+    {
+      "case_id": "scenario-04",
+      "task_id": "/root/focus_forward4_4",
+      "path": "evals/operating-with-focus-and-morale/forward/scenario-04.md",
+      "bytes": 7304,
+      "words": 1051,
+      "filesystem_birth_epoch": 1784159007,
+      "filesystem_mtime_epoch": 1784159007,
+      "response_body_sha256": "d6158f0e371ebb4b43f8ef85040fa32c32bc60134eb3f36d641ac36ea2118331",
+      "wrapped_response_sha256": "d5d3e0d70460d6b0161c952bf1f6ee1d185e0764242b39100c913b994908bd7a"
+    },
+    {
+      "case_id": "scenario-05",
+      "task_id": "/root/focus_forward4_5",
+      "path": "evals/operating-with-focus-and-morale/forward/scenario-05.md",
+      "bytes": 6304,
+      "words": 900,
+      "filesystem_birth_epoch": 1784159054,
+      "filesystem_mtime_epoch": 1784159054,
+      "response_body_sha256": "8c4eb1bc899618fc80a943b6bc769812c02ef414a236a96eefe242ff7132eb01",
+      "wrapped_response_sha256": "e37810cd3afcef5c76c1d8568a022d51343f8cb51be3ac8f7a98146ccf56e607"
+    },
+    {
+      "case_id": "scenario-06",
+      "task_id": "/root/focus_forward4_6",
+      "path": "evals/operating-with-focus-and-morale/forward/scenario-06.md",
+      "bytes": 7233,
+      "words": 1067,
+      "filesystem_birth_epoch": 1784159055,
+      "filesystem_mtime_epoch": 1784159055,
+      "response_body_sha256": "b2ebf115c77a7e253ff3fd3dc15d134bbc48ea7159ad6fa121bc8326ad61bd69",
+      "wrapped_response_sha256": "3527d9d0e63f452e683629eeb487da4fdd241f57a5f8519cac747d33b70bfc52"
+    }
+  ],
+  "verification": {
+    "response_count": 6,
+    "unique_task_count": 6,
+    "unique_response_body_count": 6,
+    "maximum_response_words": 1067,
+    "all_responses_within_word_limit": true,
+    "all_response_birth_epochs_equal_mtime_epochs": true,
+    "skill_and_runtime_match_frozen_plan": true,
+    "integrity_result": "pass"
+  },
+  "scoring_state": {
+    "scorer_dispatched": false,
+    "scoring_started": false,
+    "distinct_scorer_required": true
+  },
+  "compatibility_wrapper": {
+    "purpose": "repository-validator metadata only",
+    "applied_after_scoring": true,
+    "template": "Case ID: {case_id}\\nReviewer ID: focus-forward-004\\n\\n",
+    "frozen_body_bytes_unchanged": true,
+    "body_hash_algorithm": "sha256"
+  }
+}

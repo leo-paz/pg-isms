@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "attempt": 5,
+  "status": "non-accepting-auxiliary-stress-test",
+  "score": 4,
+  "maximum": 5,
+  "accepted": false,
+  "response_preserved": true,
+  "post_score_repairs": false,
+  "execution_attestation_present": false,
+  "limitation": "The repository does not contain a reconstructable generation attestation establishing freshness, generator/scorer separation, or freeze chronology for this attempt.",
+  "acceptance_use": false,
+  "project_quality_contract_gate": false,
+  "disposition": "Retain transparently as auxiliary stress evidence only; do not use it to claim skill acceptance."
+}

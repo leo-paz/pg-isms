@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "reason": "The original pre-scoring manifest was moved byte-for-byte to generation-freeze-manifest.json when the canonical manifest was normalized for repository validation.",
+  "original_manifest_sha256": "4d3af3395f316b5303188166821d053340ba0669495ecc4df0edee2b6a96802f",
+  "preserved_path": "evals/operating-with-focus-and-morale/baseline/generation-freeze-manifest.json",
+  "byte_identical_to_committed_original": true,
+  "label_note": "Older independent-review artifacts call this digest manifest_sha256 because that was the file's original path at review time."
+}

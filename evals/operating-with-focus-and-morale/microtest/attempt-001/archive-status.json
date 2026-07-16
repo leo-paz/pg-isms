@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "attempt": 1,
+  "canonical": false,
+  "accepted": false,
+  "responses_frozen": true,
+  "scoring_started": false,
+  "disposition": "One-write capture passed for all ten samples, but guided replications 1 and 5 exceeded the predeclared 1200-word hard maximum. The entire attempt is preserved unscored; no sample was edited or selectively replaced."
+}

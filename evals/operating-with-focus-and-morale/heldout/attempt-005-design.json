@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "id": "operating-with-focus-and-morale-heldout-attempt-005",
+  "kind": "heldout-transfer-design",
+  "status": "ready",
+  "skill": {
+    "name": "operating-with-focus-and-morale",
+    "sha256": "8cb42d33741e49adfb6412bcedb88106491f0041324486115aa4ffdf362245cc",
+    "runtime_contract_sha256": "24ec2d982c69da54dc1c6474032e898ee4da22e3f10a8b0bd2a7c4dadeeb2336"
+  },
+  "domain": "hospitality and guided food-tour operations",
+  "prompt_word_band": [500, 750],
+  "canonical_answer_word_band": [900, 1100],
+  "hard_answer_word_band": [900, 1150],
+  "prompt": "Use `operating-with-focus-and-morale` to produce the filled decision artifact for this case. Return 900–1,100 words and follow its runtime record.\n\nOn 2027-02-08, 18-month-old Harborlight Table has 312 paid guests and four staff: Maya Chen (founder/general manager), Luis Ortega (tour operations/partnerships), Priya Shah (bookings/guest support), and Jonah Reed (host/route logistics). Maya owns priority, price, and allocation; Luis itinerary and same-day operations; Priya refunds and booking support; Jonah route readiness. These rights were recorded 2027-01-06. Cash is $168,000, monthly net burn $14,000, and 2027-02-26 payroll is reserved. There is no debt covenant, fundraising, investor diligence, buyer contact, sale discussion, or safety, self-harm, misconduct, retaliation, security, privacy, legal, or insurance incident.\n\nDuring the eight normal-load weeks before 2027-01-10, no decision waited over 24 hours. Since Maya’s workload rose to 67 hours weekly on 2027-01-10, three decisions have waited 25–31 hours. Maya has slept 5.5 hours on three nights each week, reversed two refund decisions, and attended only one of four scheduled organizer calls. Calendar records for 2027-01-11 through 2027-02-07 show 23 hours weekly in meetings/partnerships, nine in influencer/rebrand work, six hosting or speaking with guests, and four in analysis. Retrospective attendance fell from 4/4 to 2/4, and two shifts were swapped late. Guest ratings remain 4.8/5 across 150 surveys; all four weekly tours ran; no support SLA was missed.\n\nFor weekday private team dinners, the last 20 qualified organizer inquiries produced two paid deposits. Nine organizers recorded uncertainty about final headcount; seven stopped replying. A 2027-01 email-follow-up test also produced two deposits from 20 qualified inquiries. The tactic is a founder-led 15-minute planning call plus a $250 refundable seven-day date hold for the next 20 consecutive qualified inquiries. The outcome target is at least six paid deposits from those 20 by 2027-03-08, with no more than two hold cancellations. The mechanism is reduced commitment friction; the rival is February budget timing. Maya owns the test and its booking-CRM plus coded-call artifact. Checks are 2027-02-15, 2027-02-22, and 2027-03-01; final review is 2027-03-08.\n\nCompeting work: Fork & Story’s influencer-dinner response; a second waterfront route; a hotel-concierge deck; a website rebrand; a prepaid $900 Spring Taste Fair booth on 2027-02-27; and Maya’s weekly founder-networking breakfast. Luis claims the competitor launch requires an influencer response. Maya claims longer hours prove seriousness and every initiative matters. Priya claims morale is falling because guest wins are invisible. Jonah claims a second route would restore creative energy.\n\nContinuity controls are supplied. Booking/support: Priya primary, Luis backup, same-business-day service, escalate through the booking board to Maya within two hours. Tour delivery and same-day incidents: Luis primary, Jonah backup, 10-minute response, incident log to Maya and emergency services for immediate danger. Price/allocation decisions: Maya primary, Luis backup, four-hour response, decision log. Payroll, permits, and insurance: Maya primary, Priya backup, one-business-day response, compliance folder to accountant Nadia Patel within four hours. Maya will hold organizer calls Tuesdays and Thursdays 09:00–12:00. Work is capped at 48 hours weekly through 2027-03-08, with Mondays off, no work after 18:30, and no exceptional push. Rosa Bell, an experienced local tour owner, is available for a private Friday 30-minute peer check.\n\nTreat only these as consequential unknowns: whether the hold tactic beats budget timing (Maya; CRM/coded calls; 2027-03-08; success is at least 6/20 deposits and at most two cancellations; continue versus change tactic), whether approval waits disappear under the relief envelope (Luis; decision log; 2027-02-22; success is zero waits over 24 hours while Maya stays at or below 48 hours; remain here versus route to `building-and-evolving-organizations`), and whether visible progress plus recovery improves morale (Priya; anonymous 1–5 pulse and attendance log; 2027-03-01; success is median pulse up at least one point and attendance 4/4; retain cadence versus have Rosa diagnose another mechanism).\n\nUse this ordered, exhaustive tree. `Stop` first: at least three chargebacks or contribution per group below $400; Maya ends the offer and refunds open holds by 2027-03-08, preserves public tours, then hands capacity to Luis on 2027-03-09 while this route resets priority. Otherwise `reopen-goal` at 0–2 deposits after both tests miss; Maya reviews the premise with Rosa on 2027-03-12, preserving public tours. Otherwise `continue` at 6–20 deposits, at most two cancellations, and safeguards held; Maya extends through 2027-04-05 here. `Adapt` covers every other result; its named 3–5-deposit subcase includes at most two cancellations and at least six calls supporting budget timing. Luis restores failed safeguards and tests monthly-invoice timing as the only changed variable from 2027-03-09 through 2027-04-05, still here. Carry all three unknowns. Mark future checks scheduled/not yet observed; invent nothing. No essay citations were supplied.",
+  "hidden_grading": {
+    "visible_to_generation_agent": false,
+    "scoring": "binary_strict_conjunctive",
+    "points_per_criterion": 1,
+    "required_score": 5,
+    "maximum_score": 5,
+    "partial_credit": false,
+    "criteria": [
+      {
+        "id": "route-and-state-boundary",
+        "criterion": "Selects operating-with-focus-and-morale as primary; records date, exact decision, horizon, stage, owner, checks, final review, and a dated route-back or route-switch predicate; separately excludes survival, financing, buyer, authority/organization, and acute-continuity routes using supplied observed facts; treats the 25–31-hour waits as overload-linked and makes any post-relief wait over 24 hours by 2027-02-22 the organization-route trigger; invents no adverse state. Every clause is required."
+      },
+      {
+        "id": "evidence-integrity",
+        "criterion": "Classifies every supplied observed fact and all five supplied claimed propositions once, each with a reusable ID; creates exactly the three supplied consequential-unknown rows, each preserving owner, artifact, due date, quantitative threshold, and decision effect; ends with no unclassified decision-relevant inputs; creates no trivia unknowns, merged unknowns, promoted claims, or fabricated checkpoint results. Every clause is required."
+      },
+      {
+        "id": "priority-and-competing-work",
+        "criterion": "Gives exactly one priority/tactic row for the 20-inquiry planning-call plus seven-day-hold test with 2/20 baseline, 6/20 target by 2027-03-08, affected organizers, Maya, mechanism, budget-timing rival, checkpoints, falsifier, and final date; states protected weekly tours/support/payroll/permit/insurance obligations; gives all six named competitors separate cancel, delegate, defer, or tightly bound rows with owner, effective date, and numerical limit or reopen condition; leaves none undispositioned. Every clause is required."
+      },
+      {
+        "id": "execution-morale-and-cadence",
+        "criterion": "Preserves every supplied primary/backup pair, service level, escalation destination/window, and artifact for all four continuity classes; reserves Maya's direct-organizer blocks; applies the 48-hour cap, Mondays off, 18:30 cutoff, no exceptional push, removed work, and Rosa's private check; separates morale signal, tested mechanism, goal premise, and tactic; includes separate company, guest/continuity, and workload/judgment measures; includes all three future checkpoints as scheduled/not-yet-observed with confounder, safeguard, and precommitted-branch fields. Every clause is required."
+      },
+      {
+        "id": "branch-and-output-contract",
+        "criterion": "Gives separate continue, adapt, reopen-goal, and stop rows and preserves the supplied ordered exhaustive mapping: stop first; otherwise reopen at 0–2 after both misses; otherwise continue only on its full success conjunction; adapt every remaining result, including the named 3–5 subcase. It preserves every supplied action, owner, date, resulting route, and handoff/return state; records decision-now, preserved public-tour option, and carried unknowns; uses runtime schemas with no blank, TBD, as needed, merged required field, or prose substitute; includes the one-line no-citations lineage/provenance boundary; contains 900–1,150 words. Every clause is required."
+      }
+    ],
+    "threshold_equivalence": {
+      "policy": "Accept numerically or logically equivalent expressions; reject weaker, shifted, overlapping, or qualitative substitutes.",
+      "examples": [
+        "30% of 20 equals 6/20",
+        "under 6 equals 0–5",
+        "at least three equals >=3"
+      ]
+    }
+  },
+  "generation_protocol": {
+    "fresh_agent": true,
+    "agent_inputs": [
+      "frozen skill package",
+      "candidate-facing prompt"
+    ],
+    "forbidden_inputs": [
+      "design file",
+      "hidden criteria",
+      "acceptance rules",
+      "prior attempts",
+      "scores",
+      "reviewer comments"
+    ],
+    "draft_count": 1,
+    "length_conformance_only": true,
+    "same_agent_may_word_count_and_edit_own_draft": true,
+    "permitted_feedback": "word-count result only",
+    "forbidden_feedback": [
+      "rubric feedback",
+      "quality feedback",
+      "completeness feedback",
+      "correctness feedback",
+      "rewriting by another agent"
+    ],
+    "canonicalization": "Move the first and only 900–1,100-word conforming draft unchanged to the canonical answer path, then freeze it before grading.",
+    "post_freeze_repairs": false,
+    "grade_after_freeze": true
+  },
+  "fairness_controls": {
+    "all_required_names_and_values_supplied": true,
+    "controlled_unknowns_accepted": true,
+    "permitted_consequential_unknown_count": 3,
+    "trivia_unknowns_rejected": true,
+    "domain_knowledge_required": false,
+    "objective_threshold_equivalence": true,
+    "criteria_hidden_during_generation": true,
+    "criteria_surfaces_non_overlapping": [
+      "routing",
+      "evidence",
+      "priority and dispositions",
+      "execution and cadence",
+      "branches and format"
+    ]
+  },
+  "fairness_audit": {
+    "status": "PASS",
+    "auditor": "independent fresh-context subagent fairness_audit_005",
+    "notes": [
+      "The first audit found a claim-count ambiguity and non-exhaustive branch mapping; both were corrected before re-audit.",
+      "The re-audit confirmed the 750-word prompt, five claims, exactly three controlled consequential unknowns, exhaustive ordered branches, hidden strict 5/5 criteria, objective-equivalence policy, JSON/Markdown agreement, and same-agent length-only staging before unchanged canonical freeze."
+    ]
+  }
+}
