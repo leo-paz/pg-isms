@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "skill_name": "managing-runway-and-survival",
+  "phase": "no-skill-baseline",
+  "reviewer_id": "runway-baseline-auditor-001",
+  "review_scope": {
+    "source_or_skill_artifacts_read": false,
+    "allowed_artifacts_only": true,
+    "criterion_judgments_made_from_prompt_and_response": true,
+    "prior_score_opened_after_independent_vector_was_formed": true
+  },
+  "integrity": {
+    "verdict": "pass",
+    "cases_sha256": "45f0b96edcfed3562ee2d6338db0bc1270d7c8a5a5dcdb8dc48e2f8a764739cd",
+    "generation_plan_sha256": "c08f74a0ac36a0135887d491aa9e07556a09afa023920cb8c6a8ffaf0c6c4acd",
+    "checks": {
+      "declared_hashes_match_current_bytes": true,
+      "all_five_prompt_projections_exactly_match_cases_json_prompts": true,
+      "all_prompt_hashes_match_generation_plan": true,
+      "all_response_hashes_match_attestation_and_freeze_manifest": true,
+      "all_response_word_counts_match_attestation_and_freeze_manifest": true,
+      "all_responses_within_1200_word_cap": true,
+      "all_response_birth_epochs_equal_mtime_epochs": true,
+      "five_case_ids_and_generator_assignments_are_one_to_one": true,
+      "generator_task_ids_prompt_paths_prompt_hashes_and_response_hashes_are_unique": true,
+      "generation_precedes_attestation_and_scoring": true,
+      "scorer_is_distinct_from_all_five_generators": true,
+      "target_skill_package_absent_outside_evaluation_fixture": true
+    },
+    "response_words": {
+      "scenario-01": 1032,
+      "scenario-02": 974,
+      "scenario-03": 946,
+      "scenario-04": 994,
+      "scenario-05": 1050
+    },
+    "chronology": {
+      "plan_frozen_at_utc": "2026-07-16T03:31:37Z",
+      "response_birth_epoch_range": [1784172786, 1784172899],
+      "responses_frozen_at_utc": "2026-07-16T03:35:23Z",
+      "generation_plan_birth_epoch": 1784172712,
+      "generation_attestation_and_manifest_birth_epoch": 1784172945,
+      "strict_score_birth_epoch": 1784173176,
+      "strict_review_birth_epoch": 1784173239
+    },
+    "scorer_separation": {
+      "generator_task_ids": [
+        "/root/runway_baseline_1",
+        "/root/runway_baseline_2",
+        "/root/runway_baseline_3",
+        "/root/runway_baseline_4",
+        "/root/runway_baseline_5"
+      ],
+      "prior_scorer_id": "runway-baseline-scorer-001",
+      "independent_reviewer_id": "runway-baseline-auditor-001",
+      "all_distinct_as_required": true
+    },
+    "attestation_limits": "One-first-completion, no-resampling, and hidden-criteria claims are attested generation controls; unique generators, frozen response bytes, birth/mtime equality, prompt projection, and scoring chronology corroborate them."
+  },
+  "scoring_method": {
+    "scale": "binary",
+    "conjunctive": true,
+    "rule": "Award 1 only if every clause is explicitly satisfied by the response; do not infer omitted details."
+  },
+  "cases": [
+    {
+      "case_id": "scenario-01",
+      "audited_vector": [0, 0, 0, 0, 0],
+      "earned": 0,
+      "criteria": [
+        {"criterion_index": 1, "score": 0, "basis": "Survival is primary in substance, but the response omits the exact workflow/default-dead record and starts fundraising in parallel rather than after a survival-envelope switch."},
+        {"criterion_index": 2, "score": 0, "basis": "The arithmetic and operating inputs are mostly present, but the observed model never records the supplied fact that payroll and taxes are current."},
+        {"criterion_index": 3, "score": 0, "basis": "It lacks explicit downside/base/upside cases, complete unknown records, and a dated default-alive test."},
+        {"criterion_index": 4, "score": 0, "basis": "It pauses hires and sequences renewals/expansion, but neither the four-hire gate nor every action has the complete required predicate or action tuple."},
+        {"criterion_index": 5, "score": 0, "basis": "The four named non-overlapping branches, handoffs, and qualified-adviser triggers are absent."}
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "audited_vector": [0, 0, 0, 0, 0],
+      "earned": 0,
+      "criteria": [
+        {"criterion_index": 1, "score": 0, "basis": "The response establishes positive cash generation and rejects arbitrary austerity, but does not explicitly diagnose default alive or reject rescue fundraising as primary."},
+        {"criterion_index": 2, "score": 0, "basis": "Cohort comparability is not verified or flagged, and the consequential unknowns lack complete owner/artifact/date/threshold/effect records."},
+        {"criterion_index": 3, "score": 0, "basis": "The reversible capped test is strong, but it states neither a preserved cash/runway floor nor the affected segment."},
+        {"criterion_index": 4, "score": 0, "basis": "It separates base and marginal spend and protects service quality, but never names or protects core product obligations."},
+        {"criterion_index": 5, "score": 0, "basis": "Its pass/fail and pause consequences are not four explicit, non-overlapping owned branches with complete routes."}
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "audited_vector": [1, 0, 0, 0, 0],
+      "earned": 1,
+      "criteria": [
+        {"criterion_index": 1, "score": 1, "basis": "It rejects default alive from two pre-revenue months, uses staged capital-heavy scenarios, and counts neither pilot letters nor an unsigned Series A as cash."},
+        {"criterion_index": 2, "score": 0, "basis": "It omits the clearance range, complete monthly downside/base/upside consequences, and an explicit inventory of timing and cost-variance unknowns."},
+        {"criterion_index": 3, "score": 0, "basis": "The dated milestone gates lack consistently named qualified domain owners and complete records for each consequential unknown."},
+        {"criterion_index": 4, "score": 0, "basis": "It defers tooling and hiring and considers several alternatives, but does not explicitly cover every option class or safeguard study validity, compliance, and data integrity."},
+        {"criterion_index": 5, "score": 0, "basis": "It returns two end states, not four required branches, and does not route financing execution to raising-and-governing-capital."}
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "audited_vector": [0, 1, 0, 0, 0],
+      "earned": 1,
+      "criteria": [
+        {"criterion_index": 1, "score": 0, "basis": "A Series A process is primary in substance, but the exact raising-and-governing-capital identifier and explicit default-alive record are missing."},
+        {"criterion_index": 2, "score": 1, "basis": "It uses the supplied observations, calculates $120,000 net burn and about 26.7 months, and expressly does not treat the static result as proof."},
+        {"criterion_index": 3, "score": 0, "basis": "Required unknowns lack owners, and the response invents round size, valuation, dilution, governance, and terms."},
+        {"criterion_index": 4, "score": 0, "basis": "It lacks a dated floor, financing/distraction budget, and plan-B switch, then answers work that should be routed to the financing workflow."},
+        {"criterion_index": 5, "score": 0, "basis": "No complete route-away record gives the exact skill, owner, handoff, unknowns, preserved option, and switch-back condition."}
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "audited_vector": [1, 1, 0, 1, 0],
+      "earned": 3,
+      "criteria": [
+        {"criterion_index": 1, "score": 1, "basis": "It makes the immediate cash emergency primary, stops hiring/rebrand, treats invoices as uncertain dated collections, and values unsigned pipeline at zero."},
+        {"criterion_index": 2, "score": 1, "basis": "It orders daily reconciliation and a 13-week exact-date forecast containing every supplied cash component and identifies timing, split, and expense-definition unknowns."},
+        {"criterion_index": 3, "score": 0, "basis": "The action sequence protects dispatch, but every action does not carry the complete owner/deadline/effect/artifact/safeguard/review tuple."},
+        {"criterion_index": 4, "score": 1, "basis": "It invokes the named qualified adviser classes before deferrals, cancellations, workforce action, or wind-down and invents no legal priority or cash certainty."},
+        {"criterion_index": 5, "score": 0, "basis": "Dated gates exist, but they are not four consolidated non-overlapping branches with complete owners, options, handoffs, and unknowns."}
+      ]
+    }
+  ],
+  "totals": {
+    "audited_vector": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0],
+    "audited_vector_grouped": "00000 00000 10000 01000 11010",
+    "earned": 5,
+    "possible": 25,
+    "normalized": 0.2,
+    "percent": 20.0
+  },
+  "comparison_to_strict_score": {
+    "prior_vector": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0],
+    "changed_bit_count": 0,
+    "changed_bits": [],
+    "verdict": "exact agreement"
+  },
+  "red_valid": true,
+  "red_valid_basis": "Every scenario has at least one zero under the independent conjunctive rescore.",
+  "ready_to_freeze_red": true,
+  "readiness_basis": "Integrity passes, generation and scoring are separated, the independent rescore confirms 5/25 with zero changed bits, and all five cases demonstrate at least one baseline miss."
+}

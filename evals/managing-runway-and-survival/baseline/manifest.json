@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "skill_name": "managing-runway-and-survival",
+  "phase": "baseline",
+  "reviewer_id": "runway-baseline-001",
+  "canonical_agent_task": "/root/runway_baseline_1",
+  "generator_task_ids": [
+    "/root/runway_baseline_1",
+    "/root/runway_baseline_2",
+    "/root/runway_baseline_3",
+    "/root/runway_baseline_4",
+    "/root/runway_baseline_5"
+  ],
+  "generated_at": "2026-07-16T03:31:37Z",
+  "model_identity": "Codex (GPT-5)",
+  "dispatch_prompt": "Generate one complete response for one prompt in fresh context, using prompt facts only, without criteria, target skill, intended answers, other outputs, or review feedback.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "no-skill",
+    "skill_sha256": null
+  },
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "scenario-01": "77b72e3b7563adfe1ce28b52bc083b650c80236261475a29a2ef2a5257a2456c",
+    "scenario-02": "888b1408d26d8c107b9bc34868550386ab5b71daa81bcf6be6cc48cdbdebd506",
+    "scenario-03": "19555233fd6b379e07737322824b8e77d664a8e242923e9b7b201cfcacf58327",
+    "scenario-04": "ec25a5eaa5345b0c024886779213c5af1f55b1604921d83551393ef8b3a9d829",
+    "scenario-05": "3eae677a8c143a69282bec3178185f8cfbcd4c637d32254d232f293f8235aa26"
+  },
+  "response_body_hashes": {
+    "scenario-01": "c8e1743cca3d7c78f84cc25a1f1b4093d4015773285e4f0e6e50f6e7f2bbb226",
+    "scenario-02": "c784c30954a0e10775b68d20ff2b45cf6c95a70648eccfea9385989289ca7892",
+    "scenario-03": "0215b78ec4044e1f6c19d8ca7ec8201208655c8491d4e826468ce27a4fef76d4",
+    "scenario-04": "9b819fbae333f85b6ee487f0b0b5a3b6af07917a7f55b68a5156e461633462b8",
+    "scenario-05": "626e645044b600d9e320272e990115c1037f53896e734bad1160aa3f90e9edad"
+  },
+  "mechanical_wrapper": {
+    "purpose": "repository-validator metadata only",
+    "location": "appended_after_response_body",
+    "applied_after_scoring_and_independent_audit": true,
+    "rendered_block": "Case ID: {case_id}\nReviewer ID: runway-baseline-001\n",
+    "body_bytes_unchanged": true
+  }
+}

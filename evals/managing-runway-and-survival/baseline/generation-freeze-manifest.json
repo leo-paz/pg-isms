@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "skill_name": "managing-runway-and-survival",
+  "phase": "no-skill-baseline",
+  "frozen_before_scoring": true,
+  "frozen_at_utc": "2026-07-16T03:35:23Z",
+  "cases_sha256": "45f0b96edcfed3562ee2d6338db0bc1270d7c8a5a5dcdb8dc48e2f8a764739cd",
+  "generation_plan_sha256": "c08f74a0ac36a0135887d491aa9e07556a09afa023920cb8c6a8ffaf0c6c4acd",
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "scenario-01": "c8e1743cca3d7c78f84cc25a1f1b4093d4015773285e4f0e6e50f6e7f2bbb226",
+    "scenario-02": "c784c30954a0e10775b68d20ff2b45cf6c95a70648eccfea9385989289ca7892",
+    "scenario-03": "0215b78ec4044e1f6c19d8ca7ec8201208655c8491d4e826468ce27a4fef76d4",
+    "scenario-04": "9b819fbae333f85b6ee487f0b0b5a3b6af07917a7f55b68a5156e461633462b8",
+    "scenario-05": "626e645044b600d9e320272e990115c1037f53896e734bad1160aa3f90e9edad"
+  },
+  "response_word_counts": {
+    "scenario-01": 1032,
+    "scenario-02": 974,
+    "scenario-03": 946,
+    "scenario-04": 994,
+    "scenario-05": 1050
+  },
+  "scoring": {
+    "started": false,
+    "distinct_fresh_scorer_required": true,
+    "responses_may_not_be_edited_or_replaced": true
+  }
+}

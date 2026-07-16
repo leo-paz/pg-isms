@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "skill_name": "managing-runway-and-survival",
+  "phase": "no-skill-baseline",
+  "attested_at_utc": "2026-07-16T03:35:23Z",
+  "generation_plan_sha256": "c08f74a0ac36a0135887d491aa9e07556a09afa023920cb8c6a8ffaf0c6c4acd",
+  "cases_sha256": "45f0b96edcfed3562ee2d6338db0bc1270d7c8a5a5dcdb8dc48e2f8a764739cd",
+  "responses": [
+    {
+      "case_id": "scenario-01",
+      "task_id": "/root/runway_baseline_1",
+      "words": 1032,
+      "bytes": 6852,
+      "birth_epoch": 1784172786,
+      "mtime_epoch": 1784172786,
+      "sha256": "c8e1743cca3d7c78f84cc25a1f1b4093d4015773285e4f0e6e50f6e7f2bbb226"
+    },
+    {
+      "case_id": "scenario-02",
+      "task_id": "/root/runway_baseline_2",
+      "words": 974,
+      "bytes": 6421,
+      "birth_epoch": 1784172791,
+      "mtime_epoch": 1784172791,
+      "sha256": "c784c30954a0e10775b68d20ff2b45cf6c95a70648eccfea9385989289ca7892"
+    },
+    {
+      "case_id": "scenario-03",
+      "task_id": "/root/runway_baseline_3",
+      "words": 946,
+      "bytes": 6327,
+      "birth_epoch": 1784172804,
+      "mtime_epoch": 1784172804,
+      "sha256": "0215b78ec4044e1f6c19d8ca7ec8201208655c8491d4e826468ce27a4fef76d4"
+    },
+    {
+      "case_id": "scenario-04",
+      "task_id": "/root/runway_baseline_4",
+      "words": 994,
+      "bytes": 6639,
+      "birth_epoch": 1784172888,
+      "mtime_epoch": 1784172888,
+      "sha256": "9b819fbae333f85b6ee487f0b0b5a3b6af07917a7f55b68a5156e461633462b8"
+    },
+    {
+      "case_id": "scenario-05",
+      "task_id": "/root/runway_baseline_5",
+      "words": 1050,
+      "bytes": 7124,
+      "birth_epoch": 1784172899,
+      "mtime_epoch": 1784172899,
+      "sha256": "626e645044b600d9e320272e990115c1037f53896e734bad1160aa3f90e9edad"
+    }
+  ],
+  "integrity": {
+    "response_count": 5,
+    "unique_task_count": 5,
+    "unique_response_hash_count": 5,
+    "all_within_1200_words": true,
+    "all_birth_epochs_equal_mtime_epochs": true,
+    "criteria_hidden": true,
+    "no_skill": true,
+    "one_first_completion_per_case": true,
+    "quality_resampling": false,
+    "scoring_not_started_at_freeze": true
+  }
+}

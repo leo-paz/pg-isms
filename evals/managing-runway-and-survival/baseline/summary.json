@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "skill_name": "managing-runway-and-survival",
+  "phase": "baseline",
+  "reviewer_id": "runway-baseline-001",
+  "scorer_id": "runway-baseline-scorer-001",
+  "independent_reviewer_id": "runway-baseline-auditor-001",
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "score": 0,
+      "max_score": 5,
+      "raw_output": "scenario-01.md",
+      "vector": "00000"
+    },
+    {
+      "case_id": "scenario-02",
+      "score": 0,
+      "max_score": 5,
+      "raw_output": "scenario-02.md",
+      "vector": "00000"
+    },
+    {
+      "case_id": "scenario-03",
+      "score": 1,
+      "max_score": 5,
+      "raw_output": "scenario-03.md",
+      "vector": "10000"
+    },
+    {
+      "case_id": "scenario-04",
+      "score": 1,
+      "max_score": 5,
+      "raw_output": "scenario-04.md",
+      "vector": "01000"
+    },
+    {
+      "case_id": "scenario-05",
+      "score": 3,
+      "max_score": 5,
+      "raw_output": "scenario-05.md",
+      "vector": "11010"
+    }
+  ],
+  "total_score": 5,
+  "total_max_score": 25,
+  "normalized_score": 0.2,
+  "red_valid": true,
+  "independent_audit": {
+    "integrity": "pass",
+    "bit_changes": 0,
+    "audited_total": 5,
+    "ready_to_freeze_red": true
+  }
+}

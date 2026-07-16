@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "skill_name": "managing-runway-and-survival",
+  "phase": "no-skill-baseline",
+  "scorer_id": "runway-baseline-scorer-001",
+  "reviewer_id": "runway-baseline-scorer-001",
+  "scoring_method": {
+    "scale": "binary",
+    "criterion_values": [0, 1],
+    "conjunctive": true,
+    "rule": "A criterion receives 1 only when every required clause is explicitly satisfied; any missing clause yields 0. No absent detail is inferred and prose polish receives no credit."
+  },
+  "integrity": {
+    "cases_sha256": "45f0b96edcfed3562ee2d6338db0bc1270d7c8a5a5dcdb8dc48e2f8a764739cd",
+    "generation_plan_sha256": "c08f74a0ac36a0135887d491aa9e07556a09afa023920cb8c6a8ffaf0c6c4acd",
+    "generation_attestation_sha256": "764f0517dfe25db1e09e6f7322bde9562aded187efc820956db636e78a1fd98b",
+    "generation_freeze_manifest_sha256": "3b20a89377950e2f646553dcba3cc94535de19a1a8fca241b7cf2bed4b436cfb",
+    "response_word_limit": 1200,
+    "all_response_hashes_match": true,
+    "all_response_word_counts_match": true,
+    "all_responses_within_word_limit": true,
+    "target_skill_package_exists": false,
+    "target_skill_package_check": "No managing-runway-and-survival directory exists outside the evaluation fixture evals/managing-runway-and-survival.",
+    "responses_preserved_byte_for_byte": true
+  },
+  "cases": [
+    {
+      "case_id": "scenario-01",
+      "case_type": "trigger",
+      "response_sha256": "c8e1743cca3d7c78f84cc25a1f1b4093d4015773285e4f0e6e50f6e7f2bbb226",
+      "response_words": 1032,
+      "vector": [0, 0, 0, 0, 0],
+      "earned": 0,
+      "possible": 5,
+      "normalized": 0.0,
+      "criteria": [
+        {
+          "criterion_index": 1,
+          "score": 0,
+          "evidence": "The response leads with a survival decision, freezes hiring, says to manage as though the extension will not close, and forbids counting financing until funds clear.",
+          "missing": "It never names managing-runway-and-survival as the primary workflow or explicitly classifies the company as default-dead. Fundraising begins immediately in parallel rather than being a secondary composed branch entered after a stated survival-envelope switch date."
+        },
+        {
+          "criterion_index": 2,
+          "score": 0,
+          "evidence": "It uses $960,000 cash, $165,000 receipts, the implied $310,000 outflow, $145,000 burn, MRR growth, 78% gross margin, 3.2% churn, and the $82,000 hiring step; it calculates about 6.6 months of runway and a mid-December exhaustion point with hires, and labels unchanged receipts and timing differences as assumptions.",
+          "missing": "The observed-input model does not record the supplied fact that payroll and taxes are current. Because the criterion requires every listed observed input, that omission is dispositive."
+        },
+        {
+          "criterion_index": 3,
+          "score": 0,
+          "evidence": "It provides dated current-burn, hiring, and reduced-burn projections through December 31, including monthly cash figures or time to zero.",
+          "missing": "It does not provide explicit downside, base, and upside scenarios; consequential unknowns are not each given an owner, artifact or source, due date, threshold, and decision effect; and there is no dated default-alive test distinct from runway extension."
+        },
+        {
+          "criterion_index": 4,
+          "score": 0,
+          "evidence": "It pauses the four hires, sequences the August 15 renewals and August 31 expansion test before any narrow commission, and protects support, renewal-critical engineering, security, reliability, and churn or expansion work.",
+          "missing": "The later hiring gate is not an evidence-backed, absorbable return predicate for the four hires. More importantly, not every cut, collection, revenue action, or bounded spend has the required complete tuple of owner, effective date, cash effect or cap, safeguard, and review date."
+        },
+        {
+          "criterion_index": 5,
+          "score": 0,
+          "evidence": "The response has dated financing, restriction, and cash-floor gates in October and December.",
+          "missing": "It does not return explicit continue, adapt, plan-B, and shutdown-or-orderly-wind-down branches with non-overlapping predicates, owners, preserved options, and handoffs. It also does not trigger qualified finance, tax, employment, or legal owners before irreversible obligations are changed or missed."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "case_type": "edge",
+      "response_sha256": "c784c30954a0e10775b68d20ff2b45cf6c95a70648eccfea9385989289ca7892",
+      "response_words": 974,
+      "vector": [0, 0, 0, 0, 0],
+      "earned": 0,
+      "possible": 5,
+      "normalized": 0.0,
+      "criteria": [
+        {
+          "criterion_index": 1,
+          "score": 0,
+          "evidence": "It says the company is not in a runway crisis, notes the operating cash surplus and ten-month history, rejects the arbitrary freeze, and distinguishes bounded investment from unrestricted growth.",
+          "missing": "It does not explicitly diagnose default alive or reject rescue fundraising as a primary response. Those required clauses cannot be inferred from the absence of a fundraising proposal."
+        },
+        {
+          "criterion_index": 2,
+          "score": 0,
+          "evidence": "It uses the supplied cash, revenue, expense, margin, churn, channel spend, annualized gross profit, payback, and support observations, and it discusses saturation, sales capacity, and marginal payback.",
+          "missing": "It does not verify or flag cohort comparability, and the four consequential unknowns are not each assigned an owner, artifact, due date, threshold, and decision effect."
+        },
+        {
+          "criterion_index": 3,
+          "score": 0,
+          "evidence": "It defines a 90-day reversible test capped at $54,000 incremental channel spend, gives the sales lead and finance roles, separately tags marginal spend, names saturation and lead quality as rival explanations, uses weekly and cohort evidence, states falsifiers, and gates the salesperson on the August 19 review.",
+          "missing": "It sets no preserved cash or runway floor, and it does not define the affected segment for the expansion test before the gate."
+        },
+        {
+          "criterion_index": 4,
+          "score": 0,
+          "evidence": "It separates the proven $18,000 engine from the marginal $18,000 expansion, protects support response and retention, tracks gross profit, cash exposure, churn, receivables, and payback, and states when spend reverts or continues.",
+          "missing": "It does not name or protect core product obligations. The criterion is conjunctive, so support protection alone is insufficient."
+        },
+        {
+          "criterion_index": 5,
+          "score": 0,
+          "evidence": "It supplies pass, fail, support-breach, and later-cohort failure consequences and preserves a return to the prior $18,000 spend level without inventing crisis facts.",
+          "missing": "It does not return distinct expand, hold, adapt, and stop-expansion branches with demonstrably non-overlapping thresholds, an owner for each branch, and a fully stated resulting route."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "case_type": "condition",
+      "response_sha256": "0215b78ec4044e1f6c19d8ca7ec8201208655c8491d4e826468ce27a4fef76d4",
+      "response_words": 946,
+      "vector": [1, 0, 0, 0, 0],
+      "earned": 1,
+      "possible": 5,
+      "normalized": 0.2,
+      "criteria": [
+        {
+          "criterion_index": 1,
+          "score": 1,
+          "evidence": "It explicitly says not to declare default alive, explains that two pre-revenue months are insufficient, manages the capital-heavy study and tooling decisions with staged scenarios, treats the pilot letters as producing no cash, and says an unsigned Series A is not a financing source. It does not apply a software or ramen-profitability assumption.",
+          "missing": null
+        },
+        {
+          "criterion_index": 2,
+          "score": 0,
+          "evidence": "It states the $330,000 spend, about 5.5 months of runway, the $650,000-$950,000 study range, the $420,000 tooling order and $252,000 forfeiture, dated cash caps, an obligations register, and three financing or study-cost cases.",
+          "missing": "It omits the April-October 2027 regulatory-clearance range, does not supply complete downside, base, and upside monthly cash or time-to-zero consequences, and does not explicitly inventory unprovided timing and cost variance as unknowns."
+        },
+        {
+          "criterion_index": 3,
+          "score": 0,
+          "evidence": "It creates August through December gates for study budget, readiness, hospital economics, financing preparation, tooling, and study start, and calls for existing qualified advisers.",
+          "missing": "The technical, regulatory, customer, and financing milestone set is not consistently assigned to named qualified domain owners, and each consequential unknown lacks the full owner, artifact, due date, observable threshold, and decision-effect tuple."
+        },
+        {
+          "criterion_index": 4,
+          "score": 0,
+          "evidence": "It defers tooling to November 30, freezes the five hires, considers staged or protected orders, cost reduction, deposits, financing, strategic partners, and delay, and preserves the core asset and critical capability.",
+          "missing": "It does not explicitly compare all required option classes, and it does not state safeguards for study validity, compliance, and data integrity."
+        },
+        {
+          "criterion_index": 5,
+          "score": 0,
+          "evidence": "It gives funded and preservation states and dated tooling and study gates with cash-floor consequences.",
+          "missing": "It returns only two January states rather than fund-and-proceed, reduce-or-stage, delay-milestone, and orderly-stop branches with non-overlapping predicates, owners, preserved options, and handoff dates. It also does not route financing execution to raising-and-governing-capital."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "case_type": "non-trigger",
+      "response_sha256": "9b819fbae333f85b6ee487f0b0b5a3b6af07917a7f55b68a5156e461633462b8",
+      "response_words": 994,
+      "vector": [0, 1, 0, 0, 0],
+      "earned": 1,
+      "possible": 5,
+      "normalized": 0.2,
+      "criteria": [
+        {
+          "criterion_index": 1,
+          "score": 0,
+          "evidence": "It chooses a planned Series A process as primary, says the cash position is not presently a survival problem, and limits preceding runway work to one week of modeling and guardrails.",
+          "missing": "It never gives the exact raising-and-governing-capital workflow identifier or explicitly records default alive; therefore the required route selection is incomplete."
+        },
+        {
+          "criterion_index": 2,
+          "score": 1,
+          "evidence": "It uses $3.2 million cash, $320,000 collections, $440,000 expense, ARR, churn, gross margin in the proposed model, nine months of $170,000 net-new ARR, absence of major concentration, and absence of overdue liabilities. It computes $120,000 net burn and about 26.7 months of static runway, then explicitly says the calculation is not a forecast and relies on operating history for the default-alive rationale.",
+          "missing": null
+        },
+        {
+          "criterion_index": 3,
+          "score": 0,
+          "evidence": "It cites improving collections, nine months of net-new ARR, low churn, and no binding survival trigger, and it flags ARR-to-collections reconciliation and sensitivity work.",
+          "missing": "Forecast sensitivity, channel saturation, collection timing, and financing budget are not each assigned owners. The response also invents an $8-$10 million target round, dilution bands, valuation examples, board structure, and terms despite the criterion's express prohibition."
+        },
+        {
+          "criterion_index": 4,
+          "score": 0,
+          "evidence": "It sets 18-month review and 12-month corrective-action runway guardrails, delays full acceleration hiring until close, and proposes monthly reforecasting.",
+          "missing": "There is no dated runway floor, financing budget or maximum distraction envelope, or dated plan-B switch. It answers terms, dilution, control, investor selection, and process design directly instead of routing them to the financing workflow."
+        },
+        {
+          "criterion_index": 5,
+          "score": 0,
+          "evidence": "It explains why fundraising is primary and identifies some runway facts and guardrails.",
+          "missing": "There is no explicit route-away record with the exact skill identifier, decision owner, handoff date, complete unknowns, preserved option, and switch-back condition that would make survival primary."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "case_type": "application",
+      "response_sha256": "626e645044b600d9e320272e990115c1037f53896e734bad1160aa3f90e9edad",
+      "response_words": 1050,
+      "vector": [1, 1, 0, 1, 0],
+      "earned": 3,
+      "possible": 5,
+      "normalized": 0.6,
+      "criteria": [
+        {
+          "criterion_index": 1,
+          "score": 1,
+          "evidence": "It explicitly calls the situation a cash emergency, makes the survival plan primary, stops hiring and rebranding before growth or financing work, values the unsigned pipeline at zero, and models the two accepted invoices as dated but uncertain collections.",
+          "missing": null
+        },
+        {
+          "criterion_index": 2,
+          "score": 1,
+          "evidence": "It orders a daily bank reconciliation and 13-week exact-date forecast starting from $620,000 and separately records the $290,000 essential obligations, $115,000 other commitments, $180,000 receivables and their dates, $78,000 monthly gross profit, and $235,000 other recurring expense. It names interim-timing risk, the unknown invoice split, and the possible expense-definition overlap, with controller reconciliation controls.",
+          "missing": null
+        },
+        {
+          "criterion_index": 3,
+          "score": 0,
+          "evidence": "It sequences hiring and rebrand stops, invoice collection, adviser review of obligations and contracts, vendor renegotiation, focused customer cash, and reversible cuts; it assigns several owners and dates and strongly protects dispatch continuity and active loads.",
+          "missing": "Not every action has an expected cash effect or cap, evidence artifact, continuity safeguard, and next review. In particular, the vendor, software, services, headcount, financing, and focused-revenue actions do not each carry the full required action tuple."
+        },
+        {
+          "criterion_index": 4,
+          "score": 1,
+          "evidence": "It sends the daily forecast and commitment register to employment, tax, insurance, contract, and insolvency advisers on July 21 before July 22 deferrals, renegotiations, cancellations, or headcount action; it requires adviser supervision for wind-down decisions and expressly refuses improvised creditor preferences. It treats financing and collections as uncertain and invents no legal priority or customer certainty.",
+          "missing": null
+        },
+        {
+          "criterion_index": 5,
+          "score": 0,
+          "evidence": "It provides dated cleared-cash, floor, burn, dispatch, financing, and wind-down gates through September 30, with board and operations roles and dispatch handoff planning.",
+          "missing": "It does not return four explicit stabilize, adapt, plan-B, and orderly-wind-down branches with non-overlapping predicates. The multiple dated conditions can overlap, do not consistently assign an owner and preserved option to each route, and do not consolidate unresolved unknowns by branch."
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "vector": [
+      0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0,
+      1, 0, 0, 0, 0,
+      0, 1, 0, 0, 0,
+      1, 1, 0, 1, 0
+    ],
+    "earned": 5,
+    "possible": 25,
+    "normalized": 0.2,
+    "percent": 20.0,
+    "case_earned": {
+      "scenario-01": 0,
+      "scenario-02": 0,
+      "scenario-03": 1,
+      "scenario-04": 1,
+      "scenario-05": 3
+    },
+    "cases_with_at_least_one_miss": 5,
+    "case_count": 5
+  },
+  "red_valid": true,
+  "red_valid_basis": "Every case has at least one zero: scenario-01 misses 5, scenario-02 misses 5, scenario-03 misses 4, scenario-04 misses 4, and scenario-05 misses 2."
+}

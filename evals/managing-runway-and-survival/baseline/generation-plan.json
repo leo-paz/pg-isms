@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "skill_name": "managing-runway-and-survival",
+  "phase": "no-skill-baseline",
+  "frozen_before_generation": true,
+  "frozen_at_utc": "2026-07-16T03:31:37Z",
+  "cases_sha256": "45f0b96edcfed3562ee2d6338db0bc1270d7c8a5a5dcdb8dc48e2f8a764739cd",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "skill_package_exists": false,
+  "response_word_limit": 1200,
+  "one_first_completion_per_case": true,
+  "quality_resampling": false,
+  "generators": [
+    {
+      "case_id": "scenario-01",
+      "task_id": "/root/runway_baseline_1",
+      "prompt_path": "evals/managing-runway-and-survival/baseline/prompts/scenario-01.txt",
+      "prompt_sha256": "4428b3a4a26e8ad2274df2d11fda19067380506c5039651de5329daa04da78c0"
+    },
+    {
+      "case_id": "scenario-02",
+      "task_id": "/root/runway_baseline_2",
+      "prompt_path": "evals/managing-runway-and-survival/baseline/prompts/scenario-02.txt",
+      "prompt_sha256": "ed9d545123c443a7022d9e7c89ee4139cdff79d670ae257061fafbb3b29ffe9f"
+    },
+    {
+      "case_id": "scenario-03",
+      "task_id": "/root/runway_baseline_3",
+      "prompt_path": "evals/managing-runway-and-survival/baseline/prompts/scenario-03.txt",
+      "prompt_sha256": "9097ad8c06e0be39101c4e27b0732ecbee85dc1346a31dbd9736c708199ecd4c"
+    },
+    {
+      "case_id": "scenario-04",
+      "task_id": "/root/runway_baseline_4",
+      "prompt_path": "evals/managing-runway-and-survival/baseline/prompts/scenario-04.txt",
+      "prompt_sha256": "4775a484c1f431ffb8ef354a5e86f534e554216db482b07f65ebef3d226314ca"
+    },
+    {
+      "case_id": "scenario-05",
+      "task_id": "/root/runway_baseline_5",
+      "prompt_path": "evals/managing-runway-and-survival/baseline/prompts/scenario-05.txt",
+      "prompt_sha256": "eb030556cefdbe89cd33abb4fcd578e8adbcd041ad4611a6d02e2b118acdbe71"
+    }
+  ],
+  "generation_contract": {
+    "allowed_inputs": [
+      "the assigned prompt text"
+    ],
+    "forbidden_inputs": [
+      "criteria",
+      "intended answers",
+      "target skill",
+      "source essays",
+      "other responses",
+      "review feedback"
+    ],
+    "instruction": "Produce one complete answer from prompt facts only, within 1200 words, then freeze it without revision or replacement."
+  }
+}
