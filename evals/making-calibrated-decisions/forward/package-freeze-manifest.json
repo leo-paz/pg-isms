@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "skill_name": "making-calibrated-decisions",
+  "phase": "forward",
+  "frozen_at_utc": "2026-07-17T20:12:04Z",
+  "package_hashes": {
+    "SKILL.md": "a8c531838e4d65b54c18a11026e130fa789997bfe0c2dd443d965fd1cb9d6c4d",
+    "agents/openai.yaml": "d87bc2ac1a1021a1355496b0c349eaf9388d73f084831cb1357eec4f56c23dfa",
+    "references/runtime-contract.md": "e2d83d3a96fb28f1a4d6d3b50c617ef70537f0abea74b9fbc97c0bdeba58c53e",
+    "references/evidence.json": "98cd920a01a08630cd0415e52cd482fcd7c83805928f8b80c290dce35d712463",
+    "references/provenance.md": "1a5474943f14b1dae331b66deda9d34a48921f5de0e1910cd149d1dd363513d6",
+    "references/source-reaudit.md": "fd7b4bb88bc085e7fcd6668866948fc565fb9d4a519626d66764bbc1b400d428"
+  },
+  "controls": {
+    "criteria_hidden": true,
+    "baseline_hidden": true,
+    "one_first_completion_per_case": true,
+    "quality_resampling": false,
+    "package_edits_forbidden_after_generation_starts": true
+  }
+}

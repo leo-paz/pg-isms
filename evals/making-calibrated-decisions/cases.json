@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "skill_name": "making-calibrated-decisions",
+  "cases": [
+    {
+      "id": "scenario-01",
+      "type": "trigger",
+      "prompt": "On July 20, 2026, a 10-person enterprise workflow startup must choose by July 31 whether to ship a major onboarding change, accept a design partner's exclusivity request, and begin a seed-extension process. Cash is $1.05 million; collected revenue is $95,000 per month; total cash expense is $185,000 per month. Three of twelve paying customers account for 61% of ARR. In a 14-user moderated prototype, 11 completed onboarding versus 6 of 14 on the current flow, but the prototype has not been tested with administrators or accessibility tooling. The design partner says exclusivity is required for a $240,000 annual contract, but counsel has not reviewed the draft and no document is signed. An investor says fundraising will be easier if the company announces the partner first. The product lead wants to ship to everyone next week, the sales lead wants to sign exclusivity today, and the CEO wants one decision record that reconciles product evidence, concentration risk, runway, contract control, and financing timing before the specialist owners execute. Produce that record and dated branches without giving legal or investment advice.",
+      "criteria": [
+        "Selects `making-calibrated-decisions` as the primary workflow because the user explicitly requests one cross-domain decision record, while assigning shipping, customer learning, runway, contract, and financing execution to named specialist branches rather than replacing them.",
+        "Establishes the observed stage, survival state, enterprise product type, evidence latency, reversibility, and binding decisions; distinguishes supplied facts from claims and unknowns, computes approximately 11.7 months of static runway at the current $90,000 net burn, and does not count the unsigned contract or hoped-for round as cash.",
+        "Frames competing hypotheses and gives every consequential unknown an owner, artifact, due date, observable threshold, and decision effect, including administrator/accessibility evidence, concentration consequences, exclusivity scope, qualified legal review, collections, and financing assumptions.",
+        "Separates reversible tests from irreversible commitments: stages the onboarding rollout with monitoring and rollback, prevents announcement or acceptance of exclusivity before evidence and qualified review, and keeps fundraising from becoming proof that the partner claim is true.",
+        "Returns non-overlapping dated proceed, adapt, defer, and reject or preserve-alternative branches with explicit switch conditions, costs of delay, protected options, and handoffs to the exact specialist workflows that own execution."
+      ]
+    },
+    {
+      "id": "scenario-02",
+      "type": "non-trigger",
+      "prompt": "A six-person SaaS team has already decided to release a reversible tooltip experiment to 10% of free-trial users. The change stores no new data, affects no payment or permission behavior, has an immediate rollback, and has passed the team's normal accessibility and QA checks. The product manager asks for the rollout sequence, success metric, monitoring window, and rollback threshold. No funding, runway, hiring, legal, historical-source, or cross-domain decision is involved. Choose the primary workflow and give a compact plan.",
+      "criteria": [
+        "Routes the request to `shipping-and-iterating-products`, not `making-calibrated-decisions`, because a specialist owns this routine reversible release.",
+        "Uses calibration only as inherited guards by stating the low error cost, reversibility, immediate evidence latency, and supplied safety checks without expanding the task into a generic cross-domain decision framework.",
+        "Defines the 10% rollout, one primary success metric plus guardrails, an owner, observation window, and a precommitted rollback threshold without inventing product facts.",
+        "Preserves a control or baseline comparison and distinguishes a signal from noise or novelty effects before expansion.",
+        "Returns concise expand, hold, adapt, and rollback branches with observable conditions and a handoff back to normal product iteration."
+      ]
+    },
+    {
+      "id": "scenario-03",
+      "type": "condition",
+      "prompt": "A founder cites a 2010 startup essay to argue that the company should immediately move from Toronto to San Francisco, raise with rolling convertible notes from many small investors, and assume investors will independently commit once a first check appears. The company is a profitable eight-person vertical-software business in July 2026. Four of six enterprise customers require Canadian data residency; two founders have unresolved U.S. immigration constraints; the team has not decided whether outside capital fits its model. The founder asks which parts of the essay are durable mechanisms, which are dated parameters, and what must be verified before any relocation or financing specialist acts. Produce a source-calibration record, not legal, tax, immigration, or investment advice.",
+      "criteria": [
+        "Selects `making-calibrated-decisions` to calibrate the historical claim, while routing the eventual founder-location decision to `preparing-to-found`, capital-model choice to `designing-business-models`, and any later financing execution to `raising-and-governing-capital`.",
+        "Separates plausible durable mechanisms—investor coordination, bounded process, proximity or network access—from dated parameters such as geography, instrument norms, investor behavior, laws, costs, and market conditions; treats the essay as a hypothesis source rather than current authority.",
+        "Records the current observations and gives data-residency, immigration, tax, customer, talent, market-access, instrument, securities, and investor-condition unknowns qualified owners, primary artifacts or current sources, dates, thresholds, and decision effects.",
+        "Compares move, remain, travel or temporary-presence, and no-raise alternatives using reversible evidence tests before commitments; does not assume a first check creates momentum or that relocation causes fundraising success.",
+        "Returns dated verify, test, handoff, and no-action branches with explicit falsifiers, costs of delay, preserved options, and a rule for retiring or updating the historical claim."
+      ]
+    },
+    {
+      "id": "scenario-04",
+      "type": "application",
+      "prompt": "A respected industry celebrity says a developer-tool startup should abandon its current product and build an AI code-review agent because 'every winner will be an agent company.' The celebrity predicts that three named design partners will adopt within 30 days but has not spoken with them. The startup has 42 paying teams, 4.5% monthly logo churn, and six months of improving expansion revenue. Five current customers asked for faster dependency analysis; none asked for autonomous review. A two-week concierge test with ten teams would cost $8,000 and leave the current product intact. A pivot would consume four months and pause the existing roadmap. The founders suspect the celebrity may see a nonconsensus shift early and ask how to decide without deferring to prestige or dismissing contrarian insight. Produce a dated decision record.",
+      "criteria": [
+        "Uses `making-calibrated-decisions` because the explicit job is to reconcile a contrarian source with operating evidence, while identifying opportunity choice and user learning as the later execution owners.",
+        "Separates observed customer, churn, expansion, and test facts from the celebrity's market and adoption claims; records the named prediction with a resolution date and unambiguous outcome rather than transferring credibility from status.",
+        "States at least two rival explanations, including a real emerging need and prestige-driven or category-level noise, and designs the reversible concierge test with target sample, mechanism, evidence threshold, owner, date, and falsifier.",
+        "Preserves the current product and roadmap while evidence is weak, sets an $8,000 cap and two-week review, and requires stronger evidence before the four-month pivot rather than treating contrarianism or consensus as proof.",
+        "Returns non-overlapping pivot, continue, adapt-test, and reject-claim branches, including what happens if the three named design partners do or do not adopt and how source credibility is updated."
+      ]
+    },
+    {
+      "id": "scenario-05",
+      "type": "edge",
+      "prompt": "A pre-revenue medical-device startup must decide by August 15, 2026 whether to place a non-refundable $700,000 tooling order for a novel implant component. It has $2.6 million cash and spends $260,000 per month before tooling. Bench tests on 18 units met the internal target, but an independent lab replication will finish in October and a regulator meeting is scheduled for November. A famous surgeon says the design will become standard of care; two hospitals signed nonbinding letters, and no purchase order exists. The supplier says the slot may disappear, but has not documented capacity or the cost of reserving it. Waiting could delay a pivotal study by three months; ordering now could make the company unable to fund the study if replication fails. The CEO asks for a calibrated decision framework that respects slow evidence, patient harm, regulation, cash survival, and the value of preserving a manufacturing option. Do not give medical, regulatory, legal, or investment advice.",
+      "criteria": [
+        "Selects `making-calibrated-decisions` for the explicit cross-domain commitment framework, with ordered handoffs to survival, qualified medical/regulatory owners, product or technical validation, and financing only after the decision envelope is established.",
+        "Classifies cash, spend, bench results, dates, letters, surgeon view, supplier claim, and unknown study costs correctly; computes about 10 months of static runway before tooling and shows why the $700,000 irreversible order changes the survival envelope without inventing certainty.",
+        "Raises the evidence gate for an irreversible, high-harm, regulated decision with slow latency; requires independent replication and qualified regulatory, clinical, manufacturing, finance, and legal evidence rather than treating prestige or nonbinding letters as validation.",
+        "Investigates reversible option-preserving alternatives such as a documented paid reservation, staged tooling, alternate supplier, study resequencing, or bounded delay, and assigns each consequential unknown an owner, artifact, date, threshold, and decision effect.",
+        "Returns mutually exclusive order, reserve-or-stage, wait, and stop-or-redesign branches with cash floors, evidence gates, switch dates, patient and study safeguards, costs of delay, and explicit preserved options."
+      ]
+    }
+  ]
+}

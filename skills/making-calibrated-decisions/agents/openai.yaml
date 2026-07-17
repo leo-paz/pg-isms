@@ -1,0 +1,4 @@
+interface:
+  display_name: "Making Calibrated Decisions"
+  short_description: "Calibrate cross-domain startup decisions"
+  default_prompt: "Use $making-calibrated-decisions to build a decision record that routes specialist work, classifies evidence, preserves options, and sets explicit switch conditions."

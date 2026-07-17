@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "skill_name": "making-calibrated-decisions",
+  "phase": "forward",
+  "reviewer_id": "calibration-forward-generator-001",
+  "scorer_id": "calibration-forward-scorer-001",
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "raw_output": "scenario-01.md",
+      "bit_vector": "11100",
+      "score": 3,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-02",
+      "raw_output": "scenario-02.md",
+      "bit_vector": "11010",
+      "score": 3,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-03",
+      "raw_output": "scenario-03.md",
+      "bit_vector": "01000",
+      "score": 1,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-04",
+      "raw_output": "scenario-04.md",
+      "bit_vector": "11110",
+      "score": 4,
+      "max_score": 5
+    },
+    {
+      "case_id": "scenario-05",
+      "raw_output": "scenario-05.md",
+      "bit_vector": "01011",
+      "score": 3,
+      "max_score": 5
+    }
+  ],
+  "totals": {
+    "passed": 14,
+    "possible": 25
+  },
+  "normalized_score": 0.56,
+  "baseline_normalized_score": 0.28,
+  "normalized_delta": 0.28,
+  "forward_valid": true
+}

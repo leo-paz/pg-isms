@@ -1263,3 +1263,56 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
 
 - Library progress: `14/21` planned skills implemented; skill `15` is next:
   `making-calibrated-decisions`. Blockers under PROJECT_BRIEF: none.
+
+## Checkpoint 4 skill 15 verified: `making-calibrated-decisions`
+
+- Source audit: the exact reciprocal projection contains `134` essays and `14`
+  owned themes. Independent review confirmed that this broad set is inherited
+  evidence for the library's global decision guards, not a generic runtime trigger.
+  A mechanism-defining tier was separately verified with BM25, semantic QMD, and
+  complete local reads. The machine-readable evidence contains `134` records and
+  `236` exact essay-theme entries; generated provenance reproduces the ordered
+  projection and documents article `004`'s single-line source limitation.
+- RED baseline: five fresh no-skill cases were frozen before official package
+  initialization and scored `7/25 = 0.28`. They cover an explicit cross-domain
+  record, a routine release non-trigger, a historical location/funding claim, a
+  prestige-backed reversible contrarian test, and a slow high-harm regulated
+  commitment.
+- Package: the official initializer created the skill. The final `492`-word
+  `SKILL.md` uses exclusive route-away, source-calibration, and cross-domain modes;
+  the runtime distinguishes observed propositions from claims preserved in observed
+  artifacts, matches evidence cadence to product type, and separates reversible
+  tests from irreversible gates. Final hashes are SKILL
+  `a8c531838e4d65b54c18a11026e130fa789997bfe0c2dd443d965fd1cb9d6c4d`
+  and runtime
+  `e2d83d3a96fb28f1a4d6d3b50c617ef70537f0abea74b9fbc97c0bdeba58c53e`.
+- Independent package review initially found an unconditional full-record contract,
+  overlapping evidence classes, and a missing competition route. One targeted
+  revision added exclusive mode exits, proposition-level classification, and
+  `competing-and-positioning`; the reviewer rechecked all three and reported no
+  residual blocker.
+- GREEN forward: one blind first-completion set used the same five cases and final
+  package hashes. Strict scoring was `14/25 = 0.56`, a material `+0.28`
+  improvement. The retained misses are recorded rather than resampled. In
+  particular, the source-only case intentionally stops before inventing a company
+  action tree, preserving the independently reviewed residual-routing boundary.
+  No extra wording micro-suite was run because no fragile new phrase or real safety
+  regression appeared.
+- Verification:
+
+  ```text
+  Skill is valid!
+  skill provenance check: essays=134 themes=14
+  all implemented package/provenance checks passed: 15
+  evaluation validation: baseline=0.28 forward=0.56 delta=0.28
+  taxonomy sync: skills=21 themes=122 relevant_essays=209 essay_skill_pairings=820
+  taxonomy validation: corpus_files=223 classified=223 uncovered_relevant=0 orphan_skills=0
+  python3 -m unittest discover -s tests -v
+  Ran 127 tests
+  OK
+  copyright scan: normalized 20/30/40-token matches=0/0/0
+  git diff --check for authored skill/evaluation/progress files: passed
+  ```
+
+- Library progress: `15/21` planned skills implemented; skill `16` is next:
+  `thinking-through-writing`. Blockers under PROJECT_BRIEF: none.

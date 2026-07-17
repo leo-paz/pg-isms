@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "skill_name": "making-calibrated-decisions",
+  "phase": "forward",
+  "frozen_before_generation": true,
+  "frozen_at_utc": "2026-07-17T20:12:04Z",
+  "cases_sha256": "87bc8a24a1367ae3a4aea07be3972372abc1e286fd9822bcd97951ba538fede0",
+  "prompt_projection_sha256": "6a615038405d4b33ab439738cdbaf43a299fbc9105347551c876dcdd36eefb4a",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "response_word_limit": 1200,
+  "one_first_completion_per_case": true,
+  "quality_resampling": false,
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "a8c531838e4d65b54c18a11026e130fa789997bfe0c2dd443d965fd1cb9d6c4d",
+    "runtime_contract_sha256": "e2d83d3a96fb28f1a4d6d3b50c617ef70537f0abea74b9fbc97c0bdeba58c53e"
+  },
+  "generator": {
+    "task_id": "/root/skill15_forward",
+    "reviewer_id": "calibration-forward-generator-001"
+  },
+  "generation_contract": {
+    "allowed_inputs": [
+      "the assigned id-and-prompt projection",
+      "SKILL.md",
+      "references/runtime-contract.md"
+    ],
+    "forbidden_inputs": [
+      "criteria",
+      "baseline responses or scores",
+      "reviews",
+      "evidence or provenance",
+      "other skills",
+      "other responses"
+    ],
+    "instruction": "Apply the frozen skill to each prompt independently, freeze the first complete answer, and do not revise or resample for quality."
+  }
+}

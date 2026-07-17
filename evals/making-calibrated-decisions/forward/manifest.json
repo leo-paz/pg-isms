@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "skill_name": "making-calibrated-decisions",
+  "phase": "forward",
+  "reviewer_id": "calibration-forward-generator-001",
+  "canonical_agent_task": "/root/skill15_forward",
+  "generated_at": "2026-07-17T20:12:04Z",
+  "model_identity": "Codex (GPT-5)",
+  "dispatch_prompt": "Apply only the frozen making-calibrated-decisions skill and runtime contract to each id-and-prompt projection independently, without criteria, baseline evidence, reviews, provenance, other skills, other responses, or quality resampling; freeze every first complete answer.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "generation_environment": {
+    "prompt_projection_path": "/tmp/making-calibrated-decisions-prompts.json",
+    "one_first_completion_per_case": true,
+    "quality_resampling": false,
+    "response_word_limit": 1200
+  },
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "a8c531838e4d65b54c18a11026e130fa789997bfe0c2dd443d965fd1cb9d6c4d",
+    "runtime_sha256": "e2d83d3a96fb28f1a4d6d3b50c617ef70537f0abea74b9fbc97c0bdeba58c53e"
+  },
+  "response_hash_algorithm": "sha256",
+  "cases_sha256": "87bc8a24a1367ae3a4aea07be3972372abc1e286fd9822bcd97951ba538fede0",
+  "projection_sha256": "6a615038405d4b33ab439738cdbaf43a299fbc9105347551c876dcdd36eefb4a",
+  "response_hashes": {
+    "scenario-01": "7f06a1883ca8a294f89ea68142a5fac69685b032770f9ce1f52794cca7d13177",
+    "scenario-02": "75c4e4838baf557828cc3922c306d071c52e0bf136e0117709e46dc31cbb6bab",
+    "scenario-03": "940881cf726ce9559c95b63c72b1b3a3bf5b3e037e0ae9d5740914dda23f0f7b",
+    "scenario-04": "0bb52a23a5cd411b00bcf52f8bdeb7ac7b8705d1d9c840d389b1a7082c753338",
+    "scenario-05": "67bf6e8d5c0de39496d39890a025be724dfcd996756e8d619bc377efced4e1ed"
+  },
+  "scoring_lineage": {
+    "criteria_revealed_only_after_response_freeze": true,
+    "scorer_id": "calibration-forward-scorer-001"
+  }
+}
