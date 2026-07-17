@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 4,
+  "frozen_before_generation": true,
+  "frozen_at_utc": "2026-07-16T06:37:01Z",
+  "cases_sha256": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "response_word_target": 900,
+  "response_word_limit": 1050,
+  "one_first_completion_per_case": true,
+  "quality_resampling": false,
+  "prior_attempts": [
+    {
+      "attempt": 1,
+      "path": "evals/raising-and-governing-capital/forward-attempt-1",
+      "status": "invalid-generation-contract",
+      "responses_scored": false
+    },
+    {
+      "attempt": 2,
+      "path": "evals/raising-and-governing-capital/forward-attempt-2",
+      "status": "valid-material-improvement-not-final",
+      "authoritative_score": 19,
+      "possible": 25
+    },
+    {
+      "attempt": 3,
+      "path": "evals/raising-and-governing-capital/forward-attempt-3",
+      "status": "invalid-generation-contract",
+      "responses_scored": false
+    }
+  ],
+  "material_refactor": [
+    "Pipe-tight GFM eliminates whitespace-token inflation while preserving rendered tables",
+    "Five aligned sections with a precedence-based exactly-one state module",
+    "Canonical IDs and combined state-specific tables eliminate repeated fact and control tuples",
+    "Scenario-complete healthy-round, preference-waterfall, default-alive, and capital-heavy gates",
+    "Independent contract and 25-criterion reviews both marked the package ready"
+  ],
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "8994d06028d63fb008a55a0eaaddcaab1082cb87aeb62031de08f220e77faaa0",
+    "runtime_contract_sha256": "0aecbb8cbfe705ac59d531e1d2b77c08a44bded068ff150d6c81ebaabfa8cefe"
+  },
+  "generators": [
+    {
+      "case_id": "scenario-01",
+      "task_id": "/root/capital_forward4_1",
+      "prompt_path": "evals/raising-and-governing-capital/forward/prompts/scenario-01.txt",
+      "prompt_sha256": "f7941f55699af6154f154350c2bbdc43f4203ac8e4294e30ee055fd81efec4b8"
+    },
+    {
+      "case_id": "scenario-02",
+      "task_id": "/root/capital_forward4_2",
+      "prompt_path": "evals/raising-and-governing-capital/forward/prompts/scenario-02.txt",
+      "prompt_sha256": "741b573d9aadc7a52fe819fe96b8934a494cd3a043ce83376e79c1382bf302be"
+    },
+    {
+      "case_id": "scenario-03",
+      "task_id": "/root/capital_forward4_3",
+      "prompt_path": "evals/raising-and-governing-capital/forward/prompts/scenario-03.txt",
+      "prompt_sha256": "6a2a74bf23d9988ffb44e31139427fa6a2919efccf83e892ab3485b9983f1009"
+    },
+    {
+      "case_id": "scenario-04",
+      "task_id": "/root/capital_forward4_4",
+      "prompt_path": "evals/raising-and-governing-capital/forward/prompts/scenario-04.txt",
+      "prompt_sha256": "dedcbea2f8bb5b423d377ff0565fb9ec957c30d923eed924dd6f237695ea4e3c"
+    },
+    {
+      "case_id": "scenario-05",
+      "task_id": "/root/capital_forward4_5",
+      "prompt_path": "evals/raising-and-governing-capital/forward/prompts/scenario-05.txt",
+      "prompt_sha256": "5bc23d73c6876ec21220a8fe49aa7bf38de9ea4bd52f0b8eeba1d0672dbf889d"
+    }
+  ],
+  "generation_contract": {
+    "allowed_inputs": [
+      "the assigned prompt text",
+      "skills/raising-and-governing-capital/SKILL.md",
+      "skills/raising-and-governing-capital/references/runtime-contract.md"
+    ],
+    "forbidden_inputs": [
+      "case criteria",
+      "intended answers",
+      "baseline responses or scores",
+      "prior forward attempts",
+      "other current forward responses",
+      "source evidence or provenance",
+      "review feedback"
+    ],
+    "instruction": "Read the frozen skill and runtime, compose one complete decision record from prompt facts, enforce pipe-tight GFM and canonical-ID reuse, compact to 800-950 words before writing, verify at most 1050 words, then freeze that first written completion without revision or replacement."
+  }
+}

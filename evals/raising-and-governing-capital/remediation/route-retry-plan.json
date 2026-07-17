@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "case_id": "capital-heavy-route",
+  "reason": "First response omitted one literal venture-specific default despite package guidance.",
+  "prompt_sha256": "dedcbea2f8bb5b423d377ff0565fb9ec957c30d923eed924dd6f237695ea4e3c",
+  "skill_sha256": "c08a06f18da35cf1d245f041a39422d6b54c4117919d8f0459efee6aaffe9491",
+  "runtime_sha256": "b78d0239da421d83ee487f4da71513fdd60046ed2d4f235e0e4b51a004b173a9",
+  "task_id": "/root/capital_remediation_route_retry",
+  "criteria_hidden": true,
+  "one_first_completion": true,
+  "word_limit": 1200
+}

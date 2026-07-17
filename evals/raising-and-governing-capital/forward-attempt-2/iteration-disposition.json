@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "attempt": 2,
+  "status": "valid-material-improvement-not-final",
+  "authoritative_score": 19,
+  "possible": 25,
+  "normalized": 0.76,
+  "baseline_score": 1,
+  "baseline_possible": 25,
+  "normalized_delta": 0.72,
+  "authoritative_vector": "1111111011101110001011111",
+  "integrity": "pass-with-disclosed-attestation-and-chronology-limits",
+  "responses_frozen_unchanged": true,
+  "refactor_required": [
+    "Distinguish structurally financed capital-heavy milestones from ordinary default-dead operating states so cash that reaches readiness gates does not force a survival misroute.",
+    "Require explicit downside/base/upside preference exit economics rather than allowing operating cash scenarios to substitute.",
+    "Define a dated default-alive equilibrium test as recurring collected receipts covering recurring outflow before the cash floor without assumed financing.",
+    "Require explicit working-capital and qualified regulatory/safety controls plus derived capital-heavy funding ranges and staged milestones."
+  ],
+  "disposition": "Preserve this scored evaluation, refactor the package at the identified source mechanisms, and run a third complete forward evaluation with fresh generators and new hashes."
+}

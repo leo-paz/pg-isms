@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 7,
+  "frozen_before_generation": true,
+  "frozen_at_utc": "2026-07-17T19:27:52Z",
+  "cases_sha256": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "response_word_limit": 1200,
+  "one_first_completion_per_case": true,
+  "quality_resampling": false,
+  "red_evidence": {
+    "baseline_score": 1,
+    "baseline_possible": 25,
+    "latest_superseded_forward": "forward-attempt-6",
+    "latest_score": 21,
+    "failure": "Independent final review found subjective or hard-coded offer selection, acceptance/closing ambiguity, and routing gaps."
+  },
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "c08a06f18da35cf1d245f041a39422d6b54c4117919d8f0459efee6aaffe9491",
+    "runtime_contract_sha256": "de28dea85b36c1d8d22d8b493f86e3134bbc33edd9affccf8d8ce392892080c8"
+  },
+  "generators": [
+    {"case_id":"scenario-01","task_id":"/root/capital_forward7_1","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-01.txt","prompt_sha256":"f7941f55699af6154f154350c2bbdc43f4203ac8e4294e30ee055fd81efec4b8"},
+    {"case_id":"scenario-02","task_id":"/root/capital_forward7_2","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-02.txt","prompt_sha256":"741b573d9aadc7a52fe819fe96b8934a494cd3a043ce83376e79c1382bf302be"},
+    {"case_id":"scenario-03","task_id":"/root/capital_forward7_3","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-03.txt","prompt_sha256":"6a2a74bf23d9988ffb44e31139427fa6a2919efccf83e892ab3485b9983f1009"},
+    {"case_id":"scenario-04","task_id":"/root/capital_forward7_4","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-04.txt","prompt_sha256":"dedcbea2f8bb5b423d377ff0565fb9ec957c30d923eed924dd6f237695ea4e3c"},
+    {"case_id":"scenario-05","task_id":"/root/capital_forward7_5","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-05.txt","prompt_sha256":"5bc23d73c6876ec21220a8fe49aa7bf38de9ea4bd52f0b8eeba1d0672dbf889d"}
+  ],
+  "generation_contract": {
+    "allowed_inputs": ["assigned prompt","SKILL.md","runtime-contract.md"],
+    "forbidden_inputs": ["criteria","baseline bodies or scores","prior forward attempts","other responses","source or reviews","git history"],
+    "instruction": "Apply the frozen skill to one prompt, write one complete answer no longer than 1200 words, and freeze the first completion without revision."
+  }
+}

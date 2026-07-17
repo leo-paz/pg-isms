@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 7,
+  "frozen_before_generation": true,
+  "frozen_at_utc": "2026-07-17T19:27:52Z",
+  "generation_plan_sha256": "c40ed9a912f5120ceed1f1ee620b087df46b22fe9b98cf607934fc62b678dca0",
+  "cases_sha256": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+  "package_hashes": {
+    "SKILL.md": "c08a06f18da35cf1d245f041a39422d6b54c4117919d8f0459efee6aaffe9491",
+    "agents/openai.yaml": "f37b652602aba0c6e55bda672c1a3c886caf76707967ab806ec8fd593b8d3838",
+    "references/evidence.json": "ec08687e123d61a45a4360150c3c060bfd61e31bae7b4894ed231d2d9044520c",
+    "references/provenance.md": "8d1ec1825de4d9ecd7197a4fe90616cb50196d61e18e6976ad89fde3d88fd030",
+    "references/runtime-contract.md": "de28dea85b36c1d8d22d8b493f86e3134bbc33edd9affccf8d8ce392892080c8",
+    "references/source-reaudit.md": "14bddda60eba50610c659b35a35730d2e2b94ec6589b8a881e5c626b015b28bb"
+  },
+  "controls": {
+    "criteria_hidden": true,
+    "baseline_and_prior_attempts_hidden": true,
+    "distinct_fresh_generator_per_case": true,
+    "one_first_completion_per_case": true,
+    "quality_resampling": false,
+    "response_word_limit": 1200,
+    "package_edits_forbidden_after_generation_starts": true
+  }
+}

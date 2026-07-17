@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "capital-forward7-review-001",
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 7,
+  "score_vector_freeze_sha256": "fa381f17847413b993a81814d7d57497e1d1043bceb05038cce86f69e60db175",
+  "scoring_policy": "strict binary conjunctive: 1 only when every criterion clause is explicit; no inference",
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "vector": [1, 1, 1, 1, 1],
+      "score": 5,
+      "max_score": 5,
+      "criteria": [
+        {"criterion": 1, "score": 1, "evidence": "Section 1 makes capital primary from the observed operating state; CF1 bounds the floor, SW1 gives a dated observable survival switch, and F4/C2 explicitly remain zero demand."},
+        {"criterion": 2, "score": 1, "evidence": "F1-F5, C1-C2, and U1-U2 losslessly classify every supplied group; each consequential unknown has owner, artifact, date, threshold, and effect."},
+        {"criterion": 3, "score": 1, "evidence": "D0 defines milestone, ranged uses/time, contingency, working capital, amount formula/band, economics/control, staged no-raise path, adviser checks, and falsifier; scenario arithmetic is labeled."},
+        {"criterion": 4, "score": 1, "evidence": "P1 and the A/B/C table provide a bounded batch, qualification, warm paths, dates, owner, controlled synchronized materials, references, founder-time cap, protected work, and anti-fabrication rule."},
+        {"criterion": 5, "score": 1, "evidence": "The first-true launch/continue/close-or-counter/pause family has owners, dates, consequences, evidence, routes, and preserved options; G0 and ZaR/ZaE/ZcR/ZcE separate counsel-reviewed acceptance from closing."}
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "vector": [0, 1, 1, 0, 1],
+      "score": 3,
+      "max_score": 5,
+      "criteria": [
+        {"criterion": 1, "score": 0, "evidence": "The response records unsigned status, July 27, capital-primary routing, and no-deal capacity, but never explicitly requires current qualified company counsel and a qualified finance/tax owner before interpretation, negotiation, or signature."},
+        {"criterion": 2, "score": 1, "evidence": "The downside row shows 11.11% for A and 11.29% for B; F8-F9 and the three scenarios explicitly prevent headline valuation from resolving pool, participation, anti-dilution, or fully diluted economics."},
+        {"criterion": 3, "score": 1, "evidence": "F3-F12, the three scenario rows, and A/E/C/P/T/Z separately cover milestone/amount, waterfalls, anti-dilution, boards/vetoes, executive/sale control, references, certainty, and missing terms with control tuples."},
+        {"criterion": 4, "score": 0, "evidence": "Counters and walk-aways cover amount, pool, preference, anti-dilution, board, and vetoes, but no explicit precommitted acceptable information-right or pro-rata envelope is stated; F11 merely leaves those terms for verification."},
+        {"criterion": 5, "score": 1, "evidence": "The first-true selected/alternate/continue/no-deal family is deterministic and exhaustive, carries owners/dates/evidence/consequences/options, keeps synchronized facts, and sequences signed acceptance evidence before effective documents and cleared funds."}
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "vector": [1, 1, 1, 1, 1],
+      "score": 5,
+      "max_score": 5,
+      "criteria": [
+        {"criterion": 1, "score": 1, "evidence": "Section 1 makes survival primary from the observed cash/receipts/outflow, flat revenue, and churn; C4/C5 are explicitly zero cash/demand and capital remains bounded support."},
+        {"criterion": 2, "score": 1, "evidence": "C1-C8/U1-U2, CF1, the three scenarios, E0, G0, and the forecast-to-floor plan-B trigger supply the complete route-away handoff and an early within-48-hours switch."},
+        {"criterion": 3, "score": 1, "evidence": "The action table freezes all three hires, sequences renewals and retention before broad capital work, protects obligations/customer delivery, and gives every action owner/date, cash effect/cap, artifact, and safeguard."},
+        {"criterion": 4, "score": 1, "evidence": "The capital-support row permits only truthful reusable materials and qualification under a four-hour weekly cap, defers valuation/full launch, and makes E0 plus G0 the dated handoff back to capital."},
+        {"criterion": 5, "score": 1, "evidence": "The first-true continue/adapt/plan-B/wind-down family has owners, dates, evidence, preserved options, qualified-adviser controls, and explicitly prevents G0 from firing before the post-intervention cycle test."}
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "vector": [0, 1, 0, 0, 0],
+      "score": 1,
+      "max_score": 5,
+      "criteria": [
+        {"criterion": 1, "score": 0, "evidence": "The response explicitly selects managing-runway-and-survival until H0, while the criterion requires raising-and-governing-capital as primary; this is a direct route mismatch even though it follows the current package and taxonomy."},
+        {"criterion": 2, "score": 1, "evidence": "F1-F8 plus M1-M3 use cash, spend, pilot cost/duration, contingency, separate working capital, cash contribution/floor, and process burn; technical, supplier/safety, customer, and financing controls have owners, artifacts, dates, thresholds, and effects."},
+        {"criterion": 3, "score": 0, "evidence": "August 15 is a real evidence gate and $18m/next-summer claims are refused, but the response defers rather than derives downside/base/upside funding ranges and dated staged milestone/tranche outcomes."},
+        {"criterion": 4, "score": 0, "evidence": "F7 groups specialist, generalist, and strategic parties in one intake row; no segmented comparison explicitly covers every required fit, capacity, follow-on, diligence, horizon, governance, conflict, confidentiality, IP/exclusivity, and reference field per investor type."},
+        {"criterion": 5, "score": 0, "evidence": "The response emits survival continue/adapt/plan-B/wind-down branches, not launch-round/stage-or-syndicate/delay-and-rework/stop-or-preserve-option with the required financing consequences."}
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "vector": [1, 1, 0, 1, 0],
+      "score": 3,
+      "max_score": 5,
+      "criteria": [
+        {"criterion": 1, "score": 1, "evidence": "Section 1 and F1-F3/F7 record non-survival status, fund-signed/company-unsigned offers, July 25 expiries, no no-shop/exclusivity, and refuse urgency; qualified counsel and finance/tax owners gate acceptance and closing."},
+        {"criterion": 2, "score": 1, "evidence": "The F6 correction line stops the 42% claim, verifies 31% and scope, preserves versions/recipients, corrects both funds and the data room before acceptance, requires acknowledgments, and scores each response in T."},
+        {"criterion": 3, "score": 0, "evidence": "A/E/C/P/T/Z compare most requested factors and control missing documents, but no offer-specific comparison of current legal and tax implications is given, nor a complete dated threshold/effect tuple for those implications."},
+        {"criterion": 4, "score": 1, "evidence": "The frozen weighted matrix emphasizes partner, control, truth, amount, economics, and certainty; the process protects operations, requires on-list/off-list checks, and gates on document and cap-table review."},
+        {"criterion": 5, "score": 0, "evidence": "The response uses generic accept-selected/counter-selected/continue/decline branches rather than distinct close-X, close-Y, counter-or-extend, and decline-both branches required by the criterion."}
+      ]
+    }
+  ],
+  "vector": [1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0],
+  "total_score": 17,
+  "total_max_score": 25,
+  "normalized_score": 0.68,
+  "baseline_score": 1,
+  "baseline_max_score": 25,
+  "delta": 16,
+  "integrity": {
+    "response_hashes_match_generation_freeze": true,
+    "all_response_word_counts_at_or_below_1200": true,
+    "baseline_bodies_read": false,
+    "prior_forward_attempt_artifacts_read": false
+  },
+  "package_behavior_ready": false
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 6,
+  "adjudicated_at_utc": "2026-07-16T08:05:15Z",
+  "adjudicator": "capital-forward6-adjudicator",
+  "model": "GPT-5 Codex",
+  "adjudication_vector_freeze_sha256": "39ea31b81a004c75df5364101814db31b469aacdf04cd347320c3880093b7f26",
+  "scoring_rule": "strict binary conjunctive: one only when every criterion clause is explicit in the frozen response; no inference or generic-prose credit",
+  "scope": {
+    "disputed_criteria": [
+      "scenario-03.3",
+      "scenario-04.3",
+      "scenario-04.4"
+    ],
+    "agreed_bits_preserved": 22,
+    "agreed_zero_preserved": "scenario-04.1",
+    "agreed_ones_preserved": 21
+  },
+  "verdicts": [
+    {
+      "id": "scenario-03.3",
+      "scorer_score": 1,
+      "auditor_score": 0,
+      "adjudicated_score": 0,
+      "evidence": [
+        {
+          "location": "scenario-03.md:5,35",
+          "finding": "The response explicitly freezes all three hires."
+        },
+        {
+          "location": "scenario-03.md:36-37,40",
+          "finding": "Renewal and retention work is sequenced under the survival plan, and customer support or customer/retention work is explicitly protected."
+        },
+        {
+          "location": "scenario-03.md:35-39",
+          "finding": "Immediate survival actions A1-A5 each state an owner/date, cash effect or cap, artifact, and safeguard or review threshold."
+        }
+      ],
+      "reason": "The criterion also conjunctively requires explicit protection of product continuity. The response names customer support, customer/retention work, renewals, collections, cash, obligations, and IP, but nowhere explicitly protects product continuity. That missing clause cannot be inferred from the other safeguards."
+    },
+    {
+      "id": "scenario-04.3",
+      "scorer_score": 0,
+      "auditor_score": 1,
+      "adjudicated_score": 0,
+      "evidence": [
+        {
+          "location": "scenario-04.md:5,14,17,27,56",
+          "finding": "The August 15 engineering review and updated quotes precede the August 21 sizing/launch decision, and the unverified $18 million and next-summer proposal is rejected as fact."
+        },
+        {
+          "location": "scenario-04.md:30-36",
+          "finding": "The response derives labeled downside, base, and upside planning ranges."
+        },
+        {
+          "location": "scenario-04.md:27-28,58-59",
+          "finding": "No-raise, delay/rework, and preservation alternatives are explicit."
+        },
+        {
+          "location": "scenario-04.md:57",
+          "finding": "The response permits a milestone tranche when U2 supports separable financed stages, but provides no named stage, observable stage outcome, or stage date."
+        }
+      ],
+      "reason": "The criterion requires the response to derive staged milestones, not merely preserve the option to stage financing. Line 57 is a conditional placeholder for future staging and does not define the milestone outcomes themselves. Under no-inference conjunctive scoring, the missing staged milestones force zero."
+    },
+    {
+      "id": "scenario-04.4",
+      "scorer_score": 0,
+      "auditor_score": 1,
+      "adjudicated_score": 0,
+      "evidence": [
+        {
+          "location": "scenario-04.md:44-48",
+          "finding": "The table segments specialist, generalist, and strategic counterparties and supplies the required comparison headings."
+        },
+        {
+          "location": "scenario-04.md:47",
+          "finding": "The generalist row records a revenue-stage mismatch, unknown capacity, deferral, a factual teaser, and re-entry evidence/authority. It does not explicitly compare technical diligence, time horizon, follow-on support, conflicts, governance, or references for that segment."
+        },
+        {
+          "location": "scenario-04.md:48,50",
+          "finding": "Qualified technical/legal review before strategic sensitive disclosure or restrictions and qualified company-counsel review are explicit."
+        }
+      ],
+      "reason": "A heading does not supply missing row-level comparisons. Because the generalist segment lacks explicit treatment of several enumerated dimensions, especially references, conflicts, governance, follow-on support, technical diligence, and time horizon, the full comparison conjunction is not satisfied."
+    }
+  ],
+  "authoritative_result": {
+    "case_vectors": {
+      "scenario-01": [1, 1, 1, 1, 1],
+      "scenario-02": [1, 1, 1, 1, 1],
+      "scenario-03": [1, 1, 0, 1, 1],
+      "scenario-04": [0, 1, 0, 0, 1],
+      "scenario-05": [1, 1, 1, 1, 1]
+    },
+    "bit_string": "1111111111110110100111111",
+    "total": 21,
+    "possible": 25,
+    "score": "21/25"
+  },
+  "attestation": "The adjudication used only cases.json; forward/scenario-03.md and forward/scenario-04.md; generation-freeze-manifest.json; score-vector-freeze.json; strict-score.json; independent-vector-freeze.json; and independent-review.json. No baseline, prior-attempt directory, other scenario body, skill/source/provenance file, prior review feedback, or git history was opened. No existing file or frozen response was edited."
+}

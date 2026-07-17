@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "capital-forward7-review-001",
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 7,
+  "scoring_policy": "strict binary conjunctive: 1 only when every criterion clause is explicit; no inference",
+  "case_vectors": {
+    "scenario-01": [1, 1, 1, 1, 1],
+    "scenario-02": [0, 1, 1, 0, 1],
+    "scenario-03": [1, 1, 1, 1, 1],
+    "scenario-04": [0, 1, 0, 0, 0],
+    "scenario-05": [1, 1, 0, 1, 0]
+  },
+  "vector": [1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0],
+  "total": 17,
+  "possible": 25,
+  "hashes": {
+    "cases_sha256": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+    "generation_plan_sha256": "c40ed9a912f5120ceed1f1ee620b087df46b22fe9b98cf607934fc62b678dca0",
+    "package_freeze_manifest_sha256": "de1afe6dd81a80c9aebf2f2c56f2c0860e44b1995a459ef30465f003641c494f",
+    "generation_attestation_sha256": "a88595eb80eb6d66719d1638687e1972f55132503e910d201aec5006236425e0",
+    "generation_freeze_manifest_sha256": "14486ff39d7acd3958c866044ad28ebbdf4b556101ac4a3a8169cb564572a978",
+    "skill_sha256": "c08a06f18da35cf1d245f041a39422d6b54c4117919d8f0459efee6aaffe9491",
+    "runtime_contract_sha256": "de28dea85b36c1d8d22d8b493f86e3134bbc33edd9affccf8d8ce392892080c8",
+    "openai_yaml_sha256": "f37b652602aba0c6e55bda672c1a3c886caf76707967ab806ec8fd593b8d3838",
+    "responses": {
+      "scenario-01": "c8da1efb2fce866141bea298b93e52ccb3532b4d1061dad8d105b45a52b02eef",
+      "scenario-02": "648f60cf475a98e77774717bc828c1e455ecac5da4ebb44fd8dd3324a35f39d7",
+      "scenario-03": "a49c02f5902b0c7b5b96f0bf2a1bb995217ec5230ff4987eaaced428216bcef6",
+      "scenario-04": "b7f5992f97ec3220d30ac6b12f5da65caf76d99aaa975e7c843d66fc062630eb",
+      "scenario-05": "8e2b732f2f08c293335faff0fe0c6acbe04fd0ba1160dacd08f5231fb4c6d1aa"
+    }
+  },
+  "response_word_counts": {
+    "scenario-01": 1058,
+    "scenario-02": 1118,
+    "scenario-03": 778,
+    "scenario-04": 968,
+    "scenario-05": 885
+  },
+  "all_responses_at_or_below_1200_words": true,
+  "no_baseline_attestation": {
+    "baseline_summary_read_before_vector_freeze": false,
+    "baseline_bodies_read": false,
+    "prior_forward_attempt_artifacts_read": false,
+    "vector_frozen_before_baseline_delta_lookup": true
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "capital-forward-auditor-001",
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 2,
+  "review_state": "complete-after-prior-score-and-baseline-comparison",
+  "artifact_boundary": {
+    "opened_before_vector_freeze": [
+      "evals/raising-and-governing-capital/cases.json",
+      "evals/raising-and-governing-capital/forward/generation-plan.json",
+      "evals/raising-and-governing-capital/forward/package-freeze-manifest.json",
+      "evals/raising-and-governing-capital/forward/generation-attestation.json",
+      "evals/raising-and-governing-capital/forward/generation-freeze-manifest.json",
+      "evals/raising-and-governing-capital/forward/prompts/scenario-01.txt through scenario-05.txt",
+      "evals/raising-and-governing-capital/forward/scenario-01.md through scenario-05.md"
+    ],
+    "package_files_before_vector_freeze": "hashed only; package contents were not used as intended answers",
+    "not_opened_before_vector_freeze": [
+      "evals/raising-and-governing-capital/forward/strict-score.json",
+      "evals/raising-and-governing-capital/forward/strict-review.md",
+      "evals/raising-and-governing-capital/forward/scorecards/",
+      "evals/raising-and-governing-capital/forward/score-vector-freeze.json",
+      "evals/raising-and-governing-capital/baseline/",
+      "evals/raising-and-governing-capital/forward-attempt-1/",
+      "skills/raising-and-governing-capital/references/evidence.json content",
+      "skills/raising-and-governing-capital/references/provenance.md content",
+      "skills/raising-and-governing-capital/references/source-reaudit.md content",
+      "other review feedback"
+    ]
+  },
+  "pre_comparison_vector_freeze": {
+    "vector_determined_at_utc": "2026-07-16T05:57:10Z",
+    "physically_recorded_at_utc": "2026-07-16T05:58:19Z",
+    "prior_strict_score_opened": false,
+    "canonical_payload": "{\"scenario-01\":\"11111\",\"scenario-02\":\"11011\",\"scenario-03\":\"11111\",\"scenario-04\":\"00010\",\"scenario-05\":\"11111\",\"concatenated\":\"1111111011111110001011111\",\"total\":20,\"maximum\":25}",
+    "canonical_payload_sha256": "c1aa6b05ec909454dd79c88f0edab964f37e15dfba79fbbfb76e0533d20fd5b5",
+    "case_vectors": {
+      "scenario-01": "11111",
+      "scenario-02": "11011",
+      "scenario-03": "11111",
+      "scenario-04": "00010",
+      "scenario-05": "11111"
+    },
+    "concatenated_vector": "1111111011111110001011111",
+    "score": 20,
+    "maximum": 25
+  },
+  "integrity_before_comparison": {
+    "status": "verified-with-attestation-limit",
+    "cases_sha256": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+    "cases_hash_matches_plan_package_attestation_and_generation_freeze": true,
+    "all_five_prompt_projections_exactly_match_case_prompt_text": true,
+    "all_prompt_hashes_match_generation_plan": true,
+    "all_six_package_hashes_match_package_freeze_manifest": true,
+    "generation_plan_hash_matches_package_attestation_and_generation_freeze": true,
+    "package_manifest_hash_matches_attestation_and_generation_freeze": true,
+    "all_response_hashes_match_attestation_and_generation_freeze": true,
+    "all_response_word_byte_birth_and_mtime_values_match_attestation": true,
+    "all_response_task_ids_match_plan": true,
+    "unique_task_count": 5,
+    "unique_response_hash_count": 5,
+    "word_counts": {
+      "scenario-01": 1009,
+      "scenario-02": 1045,
+      "scenario-03": 1051,
+      "scenario-04": 1077,
+      "scenario-05": 1050
+    },
+    "all_responses_at_most_1200_words": true,
+    "all_response_birth_epochs_equal_mtime_epochs": true,
+    "one_first_write": "attested and corroborated by birth=mtime; not independently provable from frozen files alone",
+    "criteria_and_hidden_inputs": "attested hidden and prompt projections contain no criteria; generator read history is not independently observable from frozen files alone",
+    "attempt_1_separation": "verified after the vector freeze: attempt 1 used three distinct /root/capital_forward_* task IDs, different skill/runtime hashes, and three response hashes with zero overlap against attempt 2; attempt 2 used five fresh /root/capital_forward2_* tasks. Identical prompt hashes are expected because cases were unchanged.",
+    "chronology_utc": [
+      "cases mtime 2026-07-16T04:39:56Z",
+      "SKILL.md and runtime-contract.md mtime 2026-07-16T05:25:52Z",
+      "declared plan/package freeze 2026-07-16T05:26:10Z",
+      "prompt births 2026-07-16T05:26:16Z",
+      "generation-plan birth 2026-07-16T05:26:32Z",
+      "package-freeze-manifest birth 2026-07-16T05:26:49Z",
+      "response births 2026-07-16T05:31:32Z through 2026-07-16T05:41:42Z",
+      "declared generation freeze 2026-07-16T05:42:03Z",
+      "attestation and generation-freeze-manifest births 2026-07-16T05:42:37Z"
+    ],
+    "chronology_note": "All cases, package files, prompts, plans, and freeze declarations precede the five response writes, and all response writes precede the scoring freeze. The declared 05:26:10Z freeze predates physical prompt and manifest creation by 6 to 39 seconds, so filesystem chronology proves pre-generation freezing but not physical existence of every hash-bearing artifact at the declared instant. The analogous post-generation manifests were physically written 34 seconds after their declared freeze, after all responses existed.",
+    "responses": {
+      "scenario-01": {
+        "sha256": "13652bd71a71ecd4a1e7ff32a587b8d3477203ca1f96866546d8bcea09cb57f8",
+        "words": 1009,
+        "bytes": 9501,
+        "task_id": "/root/capital_forward2_1"
+      },
+      "scenario-02": {
+        "sha256": "7ee6f712471088476985a90a3e8370a9b4928ddd977fd7321e7e1799b7914aa5",
+        "words": 1045,
+        "bytes": 7438,
+        "task_id": "/root/capital_forward2_2"
+      },
+      "scenario-03": {
+        "sha256": "39e4fa022ab88a0957a6ec053d3bef6be21f1eb242f602970dec1d2cb5ce1453",
+        "words": 1051,
+        "bytes": 7142,
+        "task_id": "/root/capital_forward2_3"
+      },
+      "scenario-04": {
+        "sha256": "379174bae5b6d91c7362fda0f8524de86e023482be81ee2bd355454539e9b695",
+        "words": 1077,
+        "bytes": 7830,
+        "task_id": "/root/capital_forward2_4"
+      },
+      "scenario-05": {
+        "sha256": "8da167c6af928de13ece197d82e9eb4c24ca67cca1d79e741d0b65efa60c61b6",
+        "words": 1050,
+        "bytes": 7730,
+        "task_id": "/root/capital_forward2_5"
+      }
+    }
+  },
+  "strict_judgments": {
+    "scenario-01": [
+      {
+        "criterion": 1,
+        "score": 1,
+        "judgment": "The record selects raising-and-governing-capital, marks the state only provisionally default-alive, records the supplied positive collections/ARR/obligation history, sets a $1.2m floor, and switches immediately to survival if the floor predicate fires. It treats each investor conversation as zero cash and not as decision evidence."
+      },
+      {
+        "criterion": 2,
+        "score": 1,
+        "judgment": "E1-E4 explicitly classify every supplied operating number, obligation status, conversation state/data request, founder-time fact, and founder statement. The unknown-control table supplies owner, artifact, due date, threshold, and branch effect for each consequential unknown."
+      },
+      {
+        "criterion": 3,
+        "score": 1,
+        "judgment": "The pre-meeting thesis explicitly gives the target milestone, ranged uses, time, working-capital contingency, amount, existing-cash contribution, runway floor, dilution/control envelope, no-raise alternative, and finance/counsel/tax checks. Derived figures and assumptions are labeled provisional, derived, or scenario assumptions."
+      },
+      {
+        "criterion": 4,
+        "score": 1,
+        "judgment": "The record gives a dated batched process, qualification tiers, warm paths, meeting/data dates, accountable owners, synchronized truthful materials, data-room/confidentiality controls, reference checks, decision dates, CEO-time cap, and protected delivery work, and expressly forbids fake scarcity or interest."
+      },
+      {
+        "criterion": 5,
+        "score": 1,
+        "judgment": "The ordered launch, continue, close-or-counter, and pause-or-no-raise branches have observable predicates, owners/dates, route, safeguard, and preserved option. Closing requires counsel-reviewed signed documents meeting every precommitted threshold, whose factor set covers amount/runway fit, partner/references, truth response, certainty, economics, and control."
+      }
+    ],
+    "scenario-02": [
+      {
+        "criterion": 1,
+        "score": 1,
+        "judgment": "The record makes terms and capital need the binding decision, identifies both offers as unsigned with the July 27 expiry, preserves the no-raise option, and assigns counsel, finance/accounting, and tax owners before interpretation or action."
+      },
+      {
+        "criterion": 2,
+        "score": 1,
+        "judgment": "It shows 11.11% for A and 11.29% for B and explicitly states that fully diluted capitalization and pool effects remain gated; the comparison separately identifies participation and anti-dilution effects, so the headline cannot establish lower dilution or better economics."
+      },
+      {
+        "criterion": 3,
+        "score": 0,
+        "judgment": "The response compares the requested terms and supplies controlled unknowns, but its downside/base/upside table models operating burn and milestone funding, not preference economics across downside/base/upside exit scenarios. That explicit conjunct is absent."
+      },
+      {
+        "criterion": 4,
+        "score": 1,
+        "judgment": "The thesis and comparison table precommit counters and walk-aways for pool treatment, preference, anti-dilution, board/control, vetoes, information/pro-rata/tranches, and milestone-sized funding; they do not call terms standard or choose by headline price."
+      },
+      {
+        "criterion": 5,
+        "score": 1,
+        "judgment": "The ordered accept-A, counter-A-or-B, continue-both, and decline-or-no-deal branches include owners, dates, document evidence, economic/control result, and preserved options. Synchronized facts and identical correction handling are required for both investors without a legal conclusion."
+      }
+    ],
+    "scenario-03": [
+      {
+        "criterion": 1,
+        "score": 1,
+        "judgment": "The record explicitly selects managing-runway-and-survival because $165k net burn, flat revenue, 4.1% churn, and 4.36 months to zero make the company default-dead. It gives capital only bounded support and treats the partner meeting and soft circles as zero cash."
+      },
+      {
+        "criterion": 2,
+        "score": 1,
+        "judgment": "The route-away record includes cash, receipts, expense, derived net burn, obligations, churn, renewal/test dates, planned hires, claims, controlled unknowns, a $300k floor, three scenarios, a conjunctive default-alive switch, and early plan-B/wind-down branches."
+      },
+      {
+        "criterion": 3,
+        "score": 1,
+        "judgment": "It pauses hires, sequences renewals and the retention test before fundraising, protects service/customer work, and gives every immediate survival action an owner/date, cash effect or cap, artifact, safeguard, and linked review threshold."
+      },
+      {
+        "criterion": 4,
+        "score": 1,
+        "judgment": "Capital support is limited to one factual brief, at most 12 qualified counterparties, the existing partner meeting, a six-hour weekly CEO cap, and controlled data access. Valuation and broad launch are deferred until the dated August 25 handoff predicate passes."
+      },
+      {
+        "criterion": 5,
+        "score": 1,
+        "judgment": "The ordered continue, adapt, plan-B, and shutdown-or-orderly-wind-down branches are non-overlapping and include owners, dates, adviser gates, consequences, and preserved options; the financing handoff occurs only when all survival switch evidence passes."
+      }
+    ],
+    "scenario-04": [
+      {
+        "criterion": 1,
+        "score": 0,
+        "judgment": "The criterion requires raising-and-governing-capital as primary for the capital-heavy pre-revenue milestone. The response instead explicitly selects managing-runway-and-survival and says survival remains primary until a later handoff. The other anti-overclaim clauses cannot cure that routing failure."
+      },
+      {
+        "criterion": 2,
+        "score": 0,
+        "judgment": "The model includes cash, spend, pilot ranges, contingency, runway, and financing timing, but it does not explicitly identify working capital, and its unknown-control table does not assign a regulatory or safety unknown its own qualified owner, artifact, date, threshold, and decision effect."
+      },
+      {
+        "criterion": 3,
+        "score": 0,
+        "judgment": "The August 15 review and quotes are gates and the $18m/next-summer claims are rejected, but the requested downside/base/upside funding ranges are incomplete: the downside row leaves the gap/raise unknown, so every conjunct is not satisfied."
+      },
+      {
+        "criterion": 4,
+        "score": 1,
+        "judgment": "The two investor tables segment specialist, generalist, and strategic parties and record fit, capacity/reserves, diligence competence, horizon/follow-on, governance, conflicts, confidentiality/IP/exclusivity, and references, including unknowns. Sensitive and strategic sharing is gated by counsel-cleared scope and need-to-know controls."
+      },
+      {
+        "criterion": 5,
+        "score": 0,
+        "judgment": "The response returns shutdown, plan-B, adapt, and continue survival branches, not the required launch-round, stage-or-syndicate, delay-and-rework, and stop-or-preserve-option capital branches. It therefore omits the required observable capital-route decision set even though its survival branches are ordered."
+      }
+    ],
+    "scenario-05": [
+      {
+        "criterion": 1,
+        "score": 1,
+        "judgment": "The record keeps raising-and-governing-capital primary; records both fund-signed/company-unaccepted offers, July 25 expiries, no exclusivity/no-shop, and the non-rescue state; rejects bonus/valuation shortcuts; and assigns counsel plus finance/accounting/tax owners."
+      },
+      {
+        "criterion": 2,
+        "score": 1,
+        "judgment": "It freezes the incorrect deck immediately, assigns verification of 31% and scope, preserves calculations/versions/recipients/timestamps, requires identical correction and acknowledgment from both funds before negotiation or signature, and branches on response without manufactured urgency."
+      },
+      {
+        "criterion": 3,
+        "score": 1,
+        "judgment": "The record compares amount/milestone fit, fully diluted economics and waterfalls, preference and missing rights, director/observer influence, references, follow-on and fast-sale pressure, certainty, confidentiality, and counsel/tax effects. U1-U5 provide owners, artifacts, dates, thresholds, and effects."
+      },
+      {
+        "criterion": 4,
+        "score": 1,
+        "judgment": "The thesis, weighted score, and counter/walk-away table precommit partner/reference, control, truth, amount/use, economics, and certainty thresholds; the five-day process protects releases/customers/operations and requires existing plus independent downside references, full documents, and cap-table review."
+      },
+      {
+        "criterion": 5,
+        "score": 1,
+        "judgment": "The ordered close-X, close-Y, counter-or-extend, and decline-both branches have non-overlapping predicates, owners/dates, corrected-disclosure and signed-document evidence, governance/economic consequences, and preserved X/Y/no-raise or operating options through August 15."
+      }
+    ]
+  },
+  "comparison": {
+    "opened_after_pre_comparison_vector_freeze": true,
+    "scorer_id": "capital-forward-scorer-001",
+    "strict_score_sha256": "d7cab906fd4fa4b7b0ff384c9c6d8f6231aa0182b337197627e607d95a1ffd18",
+    "scorer_vector_freeze_sha256": "0a85f44125451a639a88dea5d5b3bcc1c523932ff288294c5c1bc03a1eef2dd0",
+    "independent_frozen_vector": "1111111011111110001011111",
+    "scorer_frozen_vector": "1111111011101110011011111",
+    "independent_total": 20,
+    "scorer_total": 20,
+    "total_matches": true,
+    "bit_for_bit_match": false,
+    "changed_bit_count": 2,
+    "changed_bits": [
+      {
+        "global_position": 12,
+        "case_id": "scenario-03",
+        "criterion": 2,
+        "independent_bit": 1,
+        "scorer_bit": 0,
+        "comparison_judgment": "The scorer's zero is the stronger conjunctive reading: the August 25 switch does not explicitly require recurring receipts to cover recurring outflow or otherwise state a dated equilibrium/default-alive test."
+      },
+      {
+        "global_position": 18,
+        "case_id": "scenario-04",
+        "criterion": 3,
+        "independent_bit": 0,
+        "scorer_bit": 1,
+        "comparison_judgment": "The independent zero remains the stronger conjunctive reading: the downside gap/raise cell is explicitly 'unknown; pause', not a derived downside funding range, even though base/upside and staged/full ranges are present."
+      }
+    ],
+    "post_comparison_adjudication_recommendation": {
+      "vector": "1111111011101110001011111",
+      "vector_sha256": "d66d29fe5f1cf07b0a91f9ee311df1c691ba87885c74c0f7c0a74539401cbe6f",
+      "score": 19,
+      "maximum": 25,
+      "note": "This recommendation does not alter the physically sealed independent vector; it records the stricter result after reconciling both disputed clauses."
+    }
+  },
+  "baseline_comparison": {
+    "opened_after_scorer_comparison": true,
+    "baseline_summary_sha256": "2450e566f868d49bbda797db924ada30b292de55cbf1cc47363ab0a2124b2ab2",
+    "baseline_total": 1,
+    "baseline_maximum": 25,
+    "baseline_case_scores": {
+      "scenario-01": 0,
+      "scenario-02": 0,
+      "scenario-03": 0,
+      "scenario-04": 0,
+      "scenario-05": 1
+    },
+    "independent_frozen_forward_case_scores": {
+      "scenario-01": 5,
+      "scenario-02": 4,
+      "scenario-03": 5,
+      "scenario-04": 1,
+      "scenario-05": 5
+    },
+    "independent_frozen_case_improvements": {
+      "scenario-01": 5,
+      "scenario-02": 4,
+      "scenario-03": 5,
+      "scenario-04": 1,
+      "scenario-05": 4
+    },
+    "independent_frozen_raw_delta": 19,
+    "independent_frozen_normalized_delta": 0.76,
+    "every_case_improves_by_at_least_one_criterion": true,
+    "post_comparison_recommended_raw_delta": 18,
+    "post_comparison_recommended_normalized_delta": 0.72
+  },
+  "readiness": {
+    "integrity": "pass-with-disclosed-attestation-and-chronology-limits",
+    "material_behavior_improvement": true,
+    "ready_to_freeze_green": false,
+    "blocking_reason": "The fresh independent vector and scorer vector differ at two bits. Because each disputed vector contains one conjunctively unsupported 1, adjudication is required before a green score is frozen."
+  },
+  "ready_to_freeze_green": false
+}

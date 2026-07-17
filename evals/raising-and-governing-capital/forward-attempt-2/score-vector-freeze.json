@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 2,
+  "scorer_id": "capital-forward-scorer-001",
+  "scoring_mode": "binary-conjunctive",
+  "vector_order": "scenario-01:c1-c5,scenario-02:c1-c5,scenario-03:c1-c5,scenario-04:c1-c5,scenario-05:c1-c5",
+  "vector": "1111111011101110011011111",
+  "vector_sha256": "f54b52c8415ed6e22d4dc1bcb71f009e5115ef9b7ad95fd8ba73dafb46b235b2",
+  "score": 20,
+  "possible": 25,
+  "case_scores": {
+    "scenario-01": 5,
+    "scenario-02": 4,
+    "scenario-03": 4,
+    "scenario-04": 2,
+    "scenario-05": 5
+  },
+  "frozen_at_utc": "2026-07-16T05:47:10Z",
+  "baseline_summary_opened_before_freeze": false,
+  "baseline_response_bodies_opened": false,
+  "source_evidence_or_provenance_opened": false,
+  "prior_forward_attempt_opened": false,
+  "immutable_after_baseline_open": true
+}

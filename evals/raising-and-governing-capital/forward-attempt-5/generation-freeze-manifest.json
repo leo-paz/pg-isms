@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 5,
+  "frozen_before_scoring": true,
+  "frozen_at_utc": "2026-07-16T07:09:03Z",
+  "cases_sha256": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+  "generation_plan_sha256": "a013b622e58966cdf4656769df8d04eb7587086bde72e8a3c26eb7cd0af33bd5",
+  "package_freeze_manifest_sha256": "8977c7d1c69fc94cdf03997b0c63f414e5ad34b5da33d7dd984c76cfa9f6a16f",
+  "generation_attestation_sha256": "b7eabd3cc4c8a101d4a25efdefe536f413e0f30611d15ea9cd8fabb61a1fe0c1",
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "scenario-01": "d0515a3fb3470982dd05bd1b4896b6bd2b4f02b87655081e40e419afa1f2c9d8",
+    "scenario-02": "889778d72347f0b5cb1a4af341b6916190ab7ba7213c773ca80551aa72e5b054",
+    "scenario-03": "3c3b045bb27fbabf55aa3992294c30ece39e8243e581c4404d071db1c94f87d1",
+    "scenario-04": "6a5b9bba250f856e396ec25bf20a3310a57f14a1d43db7c12cfdd7c3c5a5ba3f",
+    "scenario-05": "68b45fd26ec8e2f026c368fee3cdafa0fdb6ba4406fe39609f84d9c0375910e5"
+  },
+  "response_word_counts": {"scenario-01":907,"scenario-02":977,"scenario-03":917,"scenario-04":762,"scenario-05":675},
+  "response_byte_counts": {"scenario-01":8456,"scenario-02":9631,"scenario-03":8667,"scenario-04":8420,"scenario-05":7476},
+  "response_birth_epochs": {"scenario-01":1784185442,"scenario-02":1784185341,"scenario-03":1784185396,"scenario-04":1784185668,"scenario-05":1784185720},
+  "response_mtime_epochs": {"scenario-01":1784185442,"scenario-02":1784185341,"scenario-03":1784185396,"scenario-04":1784185668,"scenario-05":1784185720},
+  "scoring": {
+    "started": false,
+    "distinct_fresh_scorer_required": true,
+    "distinct_fresh_independent_auditor_required": true,
+    "responses_may_not_be_edited_or_replaced": true
+  }
+}

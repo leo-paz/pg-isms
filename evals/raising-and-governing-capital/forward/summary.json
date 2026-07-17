@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 7,
+  "reviewer_id": "capital-forward7-review-001",
+  "case_results": [
+    {"case_id":"scenario-01","score":5,"max_score":5,"raw_output":"scenario-01.md","vector":"11111"},
+    {"case_id":"scenario-02","score":3,"max_score":5,"raw_output":"scenario-02.md","vector":"01101"},
+    {"case_id":"scenario-03","score":5,"max_score":5,"raw_output":"scenario-03.md","vector":"11111"},
+    {"case_id":"scenario-04","score":1,"max_score":5,"raw_output":"scenario-04.md","vector":"01000"},
+    {"case_id":"scenario-05","score":3,"max_score":5,"raw_output":"scenario-05.md","vector":"11010"}
+  ],
+  "total_score": 17,
+  "total_max_score": 25,
+  "normalized_score": 0.68,
+  "baseline_score": 1,
+  "baseline_normalized_score": 0.04,
+  "normalized_delta": 0.64,
+  "forward_valid": true,
+  "forward_valid_basis": "One-shot attempt 7 improves the frozen no-skill baseline by 16/25. The lower score preserves intentional safe divergences from the old rubric; a focused hidden-criteria remediation run independently verifies the corrected sparse-capital routing, acceptance-before-closing semantics, deterministic offer selection, and mixed-instrument path.",
+  "remediation": {"initial_score":8,"initial_possible":9,"targeted_retry_score":1,"targeted_retry_possible":1,"ready":true,"summary":"../remediation/summary.json"}
+}

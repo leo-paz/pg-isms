@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "attempt": 5,
+  "status": "valid-material-improvement-superseded-by-final-review",
+  "recorded_at_utc": "2026-07-16T07:21:36Z",
+  "baseline_score": 1,
+  "authoritative_forward_score": 23,
+  "maximum_score": 25,
+  "normalized_delta": 0.88,
+  "case_scores": {"scenario-01":5,"scenario-02":5,"scenario-03":4,"scenario-04":4,"scenario-05":5},
+  "every_case_materially_improves": true,
+  "generation_integrity": "pass",
+  "review_sequence": "strict scorer and independent auditor froze vectors before baseline comparison; a fresh adjudicator resolved two disputed bits",
+  "decision": "Preserve attempt 5 as a valid material-improvement evaluation, but supersede it after a fresh behavior review found circular acceptance and closing predicates. Refactor readiness versus post-action evidence and rerun the current package with fresh generators."
+}

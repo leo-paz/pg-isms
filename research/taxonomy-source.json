@@ -144,7 +144,7 @@
     },
     {
       "id": "survival-before-capital",
-      "predicate": "If the company is default-dead or time-to-zero is binding, run survival scenarios and a switch date before executing even a plausible rescue financing branch.",
+      "predicate": "If the company is default-dead, time-to-zero is binding, or sparse capital-heavy history lacks a completed cash-floor and readiness handoff, run survival scenarios and a switch date before executing even a plausible financing branch. Capital becomes primary only after that handoff proves cash reaches dated readiness gates while preserving protected obligations and a no-raise option.",
       "primary_sequence": [
         "managing-runway-and-survival",
         "raising-and-governing-capital"
@@ -396,8 +396,8 @@
       },
       {
         "tension": "Persuasive framing versus truthful calibration.",
-        "predicate": "If an offer satisfies the required runway, partner, control, truth, and certainty thresholds, then prefer closing over indefinite optimization; otherwise continue the parallel process with a switch date.",
-        "true_case": "A signed offer meets runway, partner, control, truth, and certainty thresholds.",
+        "predicate": "If one company-unaccepted offer passes every precommitted hard gate and is the unique winner under factor-specific anchored scores and a frozen aggregation rule, then accept it instead of optimizing indefinitely; closing remains a later state requiring definitive documents, satisfied conditions, and cleared funds. Otherwise counter, continue, or preserve no-deal with a switch date.",
+        "true_case": "One company-unaccepted offer is the unique anchored winner, then separately becomes accepted, definitive, effective, and funded.",
         "false_case": "An offer creates unacceptable control risk and still does not fund the required milestone."
       }
     ],
@@ -930,12 +930,13 @@
       "skill_name": "raising-and-governing-capital",
       "purpose": "Prepare and run a time-bounded financing process, select aligned investors, and reason clearly about terms, dilution, valuation, control, and truth.",
       "triggers": [
-        "Plan or diagnose a startup fundraising round.",
-        "Compare investors, terms, valuation, dilution, control, or financing timing."
+        "Plan or diagnose a startup fundraising round after the capital model is chosen.",
+        "Compare investors, financing instruments, terms, valuation, dilution, debt burden, control, or financing timing before company acceptance or closing."
       ],
       "non_triggers": [
-        "Decide whether the venture should use outside capital at all.",
-        "Diagnose a default-dead company; run survival first even when a rescue round seems credible."
+        "Decide whether the venture should use outside capital at all or choose its capital model and return shape.",
+        "Diagnose a default-dead or sparse capital-heavy company without a completed survival/readiness handoff; run survival first even when a round seems credible.",
+        "Design ordinary post-close management, board cadence, or executive accountability when no financing, amendment, waiver, consent, or investor-right decision is pending."
       ],
       "themes": [
         "deal-mechanics-and-terms",
@@ -950,8 +951,8 @@
         "valuation"
       ],
       "stage_conditions": [
-        "Raise when the company has an appropriate milestone and enough process leverage; long-build and capital-heavy ventures may need company financing before product launch.",
-        "Advice changes across venture type, seed and later rounds, hot and weak markets, and survival financing; verify current instruments, terms, and investor conditions."
+        "Raise when the company has an appropriate milestone and enough process leverage; long-build and capital-heavy ventures may finance before product launch only after a survival/readiness handoff proves cash reaches the decision gates while preserving a floor.",
+        "Advice changes across venture type, seed, inside, and later rounds, hot and weak markets, and instrument families; verify current instruments, existing-investor rights, terms, and investor conditions."
       ],
       "tensions": [
         "Speed and certainty versus investor quality and terms.",

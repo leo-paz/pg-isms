@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "attempt": "forward-attempt-4",
+  "status": "invalid-generation-contract",
+  "recorded_at_utc": "2026-07-16T06:46:15Z",
+  "generation_plan_sha256": "128d17cfc0c5acdc757950d95a35ca45bdc6f0ee8550271bd0cbf1d4d25fe2e6",
+  "package_freeze_manifest_sha256": "87e6d31dcbe6428c5de1b24c46043aaee7a695cb0a7003e281f90cc254155ef4",
+  "responses": [
+    {"case_id":"scenario-01","task_id":"/root/capital_forward4_1","words":869,"bytes":8653,"birth_epoch":1784184103,"mtime_epoch":1784184103,"sha256":"09ba094943ba2175257a2c6f9540cee7d02741bffc701c8faf3522039020d454","within_1050_word_limit":true},
+    {"case_id":"scenario-02","task_id":"/root/capital_forward4_2","words":862,"bytes":8327,"birth_epoch":1784184062,"mtime_epoch":1784184062,"sha256":"8a0706ca352fe63799fc0747c9b7c9e43244a043203763aa57df3a3f95ebbbf5","within_1050_word_limit":true},
+    {"case_id":"scenario-03","task_id":"/root/capital_forward4_3","words":653,"bytes":6529,"birth_epoch":1784184064,"mtime_epoch":1784184064,"sha256":"bda94a298e3cc9ee8d7817fbb67e782bd46d5fb2c53ee3e81119cf6dd057b9f8","within_1050_word_limit":true},
+    {"case_id":"scenario-04","task_id":"/root/capital_forward4_4","words":1003,"bytes":9123,"birth_epoch":1784184348,"mtime_epoch":1784184348,"sha256":"9619058dafe0190875c4811974c698290484f11cc7d4186f972d766a6a05753d","within_1050_word_limit":true},
+    {"case_id":"scenario-05","task_id":"/root/capital_forward4_5","words":1096,"bytes":10041,"birth_epoch":1784184287,"mtime_epoch":1784184287,"sha256":"0b3eb57588f61d79439a66ce8e858d4656a303962d4b6b5200a87a9b21886d80","within_1050_word_limit":false}
+  ],
+  "integrity": {
+    "first_completion_per_case": true,
+    "response_bodies_frozen_without_revision": true,
+    "all_birth_epochs_equal_mtime_epochs": true,
+    "quality_resampling": false,
+    "package_hashes_match_pre_generation_freeze": true,
+    "criteria_hidden": true,
+    "baseline_hidden": true,
+    "all_prior_attempts_hidden": true,
+    "source_evidence_hidden": true,
+    "distinct_fresh_generator_per_case": true
+  },
+  "scoring_started": false,
+  "disposition": "Preserve all five response bodies. Diagnose the remaining scenario-05 output pressure, make a material package-level compaction refactor, and run a new complete attempt with fresh generators. Do not replace or resample any attempt-4 response."
+}

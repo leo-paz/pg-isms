@@ -1,0 +1,3175 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "source_reviewers": [
+    "capital-source-a",
+    "capital-source-b",
+    "capital-source-c",
+    "capital-source-union"
+  ],
+  "owned_themes": [
+    "deal-mechanics-and-terms",
+    "financing-terms-equity-and-control",
+    "founder-autonomy-and-control",
+    "funding-market-conditions",
+    "funding-stage-fit",
+    "fundraising-readiness-and-investor-communication",
+    "fundraising-strategy-and-process",
+    "investor-incentives-and-selection",
+    "investor-truth-trust-and-reputation",
+    "valuation"
+  ],
+  "coverage": {
+    "assigned_essays": 49,
+    "retained_essays": 42,
+    "excluded_essays": 7,
+    "owned_pairs": 146,
+    "theme_counts": {
+      "deal-mechanics-and-terms": 12,
+      "financing-terms-equity-and-control": 16,
+      "founder-autonomy-and-control": 14,
+      "funding-market-conditions": 13,
+      "funding-stage-fit": 15,
+      "fundraising-readiness-and-investor-communication": 10,
+      "fundraising-strategy-and-process": 20,
+      "investor-incentives-and-selection": 21,
+      "investor-truth-trust-and-reputation": 14,
+      "valuation": 11
+    }
+  },
+  "retrieval_attestation": {
+    "required_command_prefix": "PATH=/Users/leopaz/.nvm/versions/node/v22.23.0/bin:$PATH qmd --index graham-essays",
+    "qmd_index": "graham-essays",
+    "batch_a": {
+      "assigned": 17,
+      "bm25_queries": 34,
+      "semantic_queries": 37,
+      "full_local_reads": 17
+    },
+    "batch_b": {
+      "assigned": 16,
+      "bm25_queries": 16,
+      "semantic_queries": 16,
+      "full_local_reads": 16
+    },
+    "batch_c": {
+      "assigned": 16,
+      "bm25_queries": 16,
+      "semantic_queries": 16,
+      "full_local_reads": 16
+    },
+    "pairwise_disjoint": true,
+    "batch_union_exact": true,
+    "union_disputed_reruns": {
+      "essays": 40,
+      "bm25": 40,
+      "semantic": 40,
+      "full_local_reads": 40
+    },
+    "decision_basis": "Complete line-numbered local sources; retrieval snippets were never treated as evidence."
+  },
+  "citation_normalization": [
+    "Public evidence ranges are split or narrowed to stay inside committed canonical audit intervals without broadening claims.",
+    "Article 069 omits the auxiliary line-230 valuation footnote because the core valuation, term, board, and control claim is already supported at 152-164 and line 230 is outside the committed audit intervals."
+  ],
+  "records": [
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "033",
+      "reviewer": "capital-source-union",
+      "audit_batch": "A",
+      "batch_reviewer": "capital-source-a",
+      "title": "What the Bubble Got Right",
+      "source_url": "https://paulgraham.com/bubble.html",
+      "corpus_path": "033_what-the-bubble-got-right.md",
+      "corpus_sha256": "e8749738d478150faddea0a11041e8776f9a65286682e4098fb217d86da43414",
+      "line_count": 170,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Technology-led company; early-IPO discussion is a historical market hypothesis."
+      ],
+      "tensions": [
+        "Founder technical authority versus experienced operating leadership and board accountability.",
+        "Durable-value equity incentives versus short-term market appearance."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Revalidate IPO eligibility, disclosure and market appetite; revalidate option accounting, tax and securities treatment."
+      ],
+      "boundary_routes": [
+        "Employee options -> building-and-evolving-organizations.",
+        "Acquisition preparation -> navigating-acquisitions-and-exits.",
+        "Bubble/trend interpretation -> choosing-startup-opportunities or making-calibrated-decisions."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-autonomy-and-control",
+          "claim": "Keep technical product direction with a capable technical founder; an investor-installed experienced executive should not automatically become the source of product judgment.",
+          "line_ranges": [
+            "66-72"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "039",
+      "reviewer": "capital-source-union",
+      "audit_batch": "A",
+      "batch_reviewer": "capital-source-a",
+      "title": "How to Start a Startup",
+      "source_url": "https://paulgraham.com/start.html",
+      "corpus_path": "039_how-to-start-a-startup.md",
+      "corpus_sha256": "f5090076885521d8b412a85eb87c4de60d257e541e6e1c62ea28b13277709320",
+      "line_count": 318,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Seed and VC stages differ; examples favor capital-efficient software; the claimed seller's market is historical."
+      ],
+      "tensions": [
+        "Equity for survival odds versus ownership/control.",
+        "Investor disclosure versus bounded secrecy.",
+        "Prestige/advice versus speed and fewer strings."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Revalidate instruments, securities rules, incorporation/IP practice, valuation, board/control norms and timelines; replace named-firm and 2005 leverage claims with current evidence."
+      ],
+      "boundary_routes": [
+        "Cash state -> managing-runway-and-survival.",
+        "Founder ownership -> forming-founder-partnerships.",
+        "Legal, IP, securities and tax -> qualified counsel."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "Start later fundraising before cash is nearly gone, approach multiple investors, and compare speed, control, strings and actual help rather than prestige alone.",
+          "line_ranges": [
+            "160-184"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "040",
+      "reviewer": "capital-source-union",
+      "audit_batch": "A",
+      "batch_reviewer": "capital-source-a",
+      "title": "A Unified Theory of VC Suckage",
+      "source_url": "https://paulgraham.com/venturecapital.html",
+      "corpus_path": "040_a-unified-theory-of-vc-suckage.md",
+      "corpus_sha256": "c67af072a0881b79c562be6f12f83ffb89efe7249b0984addf7580739704c54d",
+      "line_count": 72,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": false
+      },
+      "conditions": [
+        "Institutional VC and companies unable to absorb a preferred check; 2005 excess fund supply is not timeless."
+      ],
+      "tensions": [
+        "Capital scale/monitoring versus productive absorption and flexibility.",
+        "High paper value versus attainable exits."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Revalidate fund economics, ownership targets, reserves, board practices, check sizes and exit markets; test misconduct risk through references rather than stereotype."
+      ],
+      "boundary_routes": [
+        "Capital need -> designing-business-models.",
+        "Burn/hiring state -> managing-runway-and-survival.",
+        "Exit feasibility -> navigating-acquisitions-and-exits."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-autonomy-and-control",
+          "claim": "Capital large relative to company need can bring board monitoring, executive replacement pressure and operating distortion.",
+          "line_ranges": [
+            "26-34"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Model fund behavior from fees, fund size, check-size pressure, ownership needs, diligence cost and monitoring burden before deciding capital fit.",
+          "line_ranges": [
+            "20-32"
+          ]
+        },
+        {
+          "canonical_theme": "valuation",
+          "claim": "A valuation driven by an oversized round can narrow feasible exits and transfer practical veto power; assess the post-round option set, not the headline.",
+          "line_ranges": [
+            "32-36",
+            "38-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "046",
+      "reviewer": "capital-source-union",
+      "audit_batch": "A",
+      "batch_reviewer": "capital-source-a",
+      "title": "Hiring is Obsolete",
+      "source_url": "https://paulgraham.com/hiring.html",
+      "corpus_path": "046_hiring-is-obsolete.md",
+      "corpus_sha256": "8939db982de310ef2af6313558e9022165864b60b656e1fec0b5cd2de9d6c512",
+      "line_count": 214,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": false
+      },
+      "conditions": [
+        "Formation/seed in capital-light software; cost and distribution claims are era-specific."
+      ],
+      "tensions": [
+        "Investor capital/help versus unnecessary loss of founder authority."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Recalculate formation, compliance, data, compute, distribution and hiring costs; verify current governance norms."
+      ],
+      "boundary_routes": [
+        "Whether to use outside capital -> designing-business-models.",
+        "Acquisition -> navigating-acquisitions-and-exits.",
+        "Career risk -> preparing-to-found."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-autonomy-and-control",
+          "claim": "Lower capital requirements reduce investor permission and control leverage; do not let an investor-supplied executive automatically displace founder product authority.",
+          "line_ranges": [
+            "18-24",
+            "86-102"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "049",
+      "reviewer": "capital-source-union",
+      "audit_batch": "A",
+      "batch_reviewer": "capital-source-a",
+      "title": "Inequality and Risk",
+      "source_url": "https://paulgraham.com/inequality.html",
+      "corpus_path": "049_inequality-and-risk.md",
+      "corpus_sha256": "97e7b7be0981cd393a076bdae57da9442d09a8f1a759e5d3668946ed2711252e",
+      "line_count": 134,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": false
+      },
+      "conditions": [
+        "Venture-scale high-variance investments; no round stage or instrument."
+      ],
+      "tensions": [
+        "Portfolio upside seeking versus founder concentrated downside/security."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Revalidate tax, return data, success rates and regulation; exclude the broad political conclusion from company-level decisions."
+      ],
+      "boundary_routes": [
+        "Policy/corruption -> making-calibrated-decisions.",
+        "Founder personal risk -> preparing-to-found."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Model venture investors as portfolio risk takers whose upside economics can support uncertain bets; do not infer their risk preference from a founder's concentrated exposure.",
+          "line_ranges": [
+            "28-40",
+            "46-50",
+            "54-66"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "050",
+      "reviewer": "capital-source-union",
+      "audit_batch": "A",
+      "batch_reviewer": "capital-source-a",
+      "title": "What I Did this Summer",
+      "source_url": "https://paulgraham.com/sfp.html",
+      "corpus_path": "050_what-i-did-this-summer.md",
+      "corpus_sha256": "847e2b2bc3556329c4923922eb301ab4b802a646232aaf7de29078fc45bb8621",
+      "line_count": 130,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": false
+      },
+      "conditions": [
+        "Three-month 2005 accelerator cohort with small checks and web prototypes; investor/term anecdotes at 78-88 are not a complete process."
+      ],
+      "tensions": [
+        "Investor support/cohort structure versus founder independence."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Revalidate accelerator terms, check sizes, cohort evidence and legal meaning of expiring offers; do not generalize the eight-company sample."
+      ],
+      "boundary_routes": [
+        "Program design -> advising-and-supporting-founders.",
+        "Prototype speed -> shipping-and-iterating-products."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "founder-autonomy-and-control",
+          "claim": "Use low-capital support and shared learning without turning the investor into the operator; excessive incubator control can suppress founder ownership and agency.",
+          "line_ranges": [
+            "28-42",
+            "92-116"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "052",
+      "reviewer": "capital-source-union",
+      "audit_batch": "A",
+      "batch_reviewer": "capital-source-a",
+      "title": "The Venture Capital Squeeze",
+      "source_url": "https://paulgraham.com/vcsqueeze.html",
+      "corpus_path": "052_the-venture-capital-squeeze.md",
+      "corpus_sha256": "44d8434f88272dd364293d642daf0f2e4e9f5ba6b11e746ee06944fe9c4da6e7",
+      "line_count": 74,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "2005 Series A/early-acquisition market for capital-light software; secondary advice is stage-, size- and investor-dependent."
+      ],
+      "tensions": [
+        "Investor deployment versus company absorption.",
+        "Founder concentrated versus investor portfolio risk.",
+        "Primary company capital versus founder liquidity."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Revalidate Sarbanes-Oxley, IPO access, cost curves, fund supply, Series A size, acquisitions and secondary norms."
+      ],
+      "boundary_routes": [
+        "Capital requirement -> designing-business-models.",
+        "Survival cash -> managing-runway-and-survival.",
+        "Acquisition timing -> navigating-acquisitions-and-exits."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "financing-terms-equity-and-control",
+          "claim": "A bounded founder secondary can sometimes reduce concentrated risk and align risk appetite without transferring all upside.",
+          "line_ranges": [
+            "48-60"
+          ]
+        },
+        {
+          "canonical_theme": "funding-market-conditions",
+          "claim": "Recalculate capital need and leverage when startup costs, fund supply, regulation and exit markets change; fund-preferred check size is not company need.",
+          "line_ranges": [
+            "12-34"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "Set the round from the company's capital requirement, not the amount a fund needs to deploy.",
+          "line_ranges": [
+            "12-24",
+            "56-60"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Fund structure can push investors toward larger checks, more control and a different risk preference than founders.",
+          "line_ranges": [
+            "24-34",
+            "48-60"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "053",
+      "reviewer": "capital-source-union",
+      "audit_batch": "A",
+      "batch_reviewer": "capital-source-a",
+      "title": "How to Fund a Startup",
+      "source_url": "https://paulgraham.com/startupfunding.html",
+      "corpus_path": "053_how-to-fund-a-startup.md",
+      "corpus_sha256": "54872ba30ffefa6d8244b56a090d352b15708561e27e3a14b9734c3f73520a01",
+      "line_count": 316,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Separates five funding sources and seed/angel/Series A; worked sequence assumes capital-efficient software; investor hierarchy and terms are 2005 observations."
+      ],
+      "tensions": [
+        "Enough capital versus overfunding.",
+        "Speed/certainty versus partner quality and rights.",
+        "Lower dilution versus future/exit flexibility.",
+        "Founder authority versus purchased governance."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Revalidate accredited-investor and solicitation rules, instruments, standard documents, check sizes, pools, vesting, preferences, anti-dilution, board norms and timelines; replace named groups/tiers with current data."
+      ],
+      "boundary_routes": [
+        "Cash truth -> managing-runway-and-survival.",
+        "Consulting/product venture shape -> designing-business-models.",
+        "Cofounder equity -> forming-founder-partnerships.",
+        "Signed instruments -> qualified counsel."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "deal-mechanics-and-terms",
+          "claim": "A term sheet starts diligence and definitive documents; verify break history/authority and continue to funding rather than treating verbal interest as money.",
+          "line_ranges": [
+            "86-102",
+            "150-194",
+            "250-280"
+          ]
+        },
+        {
+          "canonical_theme": "financing-terms-equity-and-control",
+          "claim": "Model liquidation preference, vesting, board composition, vetoes, option-pool changes, dilution, anti-dilution, tranches and protections as one economic/control package.",
+          "line_ranges": [
+            "168-176",
+            "226-236",
+            "256-266",
+            "302-310"
+          ]
+        },
+        {
+          "canonical_theme": "founder-autonomy-and-control",
+          "claim": "Institutional capital changes the board and founder command; evaluate persuasion rights and downside control before closing.",
+          "line_ranges": [
+            "144-176",
+            "230-236",
+            "264-266"
+          ]
+        },
+        {
+          "canonical_theme": "funding-stage-fit",
+          "claim": "Plan financing as enough to reach a concrete milestone that makes the next source rational; choose personal, consulting, angel, seed or institutional paths by stage and venture shape.",
+          "line_ranges": [
+            "14-24",
+            "26-60",
+            "62-102",
+            "104-136",
+            "198-264"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-readiness-and-investor-communication",
+          "claim": "Approach investors when team, idea, product, user evidence, market, economics, competition and capital use can make a credible case; prefer a working demo to polished speculation.",
+          "line_ranges": [
+            "178-194",
+            "216-220",
+            "246-256"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "Start early for search/closing delay, keep alternatives live until cash arrives, and preserve low costs to reject coercive terms.",
+          "line_ranges": [
+            "96-102",
+            "184-194",
+            "208-214",
+            "268-280"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Diligence stage fit, partner authority, reputation, advice, connections, fund incentives, break behavior and downside conduct.",
+          "line_ranges": [
+            "62-102",
+            "134-194"
+          ]
+        },
+        {
+          "canonical_theme": "investor-truth-trust-and-reputation",
+          "claim": "Verify references, term-sheet break rates and whether the speaker can commit the firm; brand is not enough.",
+          "line_ranges": [
+            "78-84",
+            "140-166"
+          ]
+        },
+        {
+          "canonical_theme": "valuation",
+          "claim": "Treat early valuation as negotiated ownership economics; inspect pre/post-money dilution and option-pool effects, not the headline alone.",
+          "line_ranges": [
+            "72-74",
+            "140-150",
+            "224-230",
+            "254-264"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "061",
+      "reviewer": "capital-source-union",
+      "audit_batch": "A",
+      "batch_reviewer": "capital-source-a",
+      "title": "The Hardest Lessons for Startups to Learn",
+      "source_url": "https://paulgraham.com/startuplessons.html",
+      "corpus_path": "061_the-hardest-lessons-for-startups-to-learn.md",
+      "corpus_sha256": "5909836e56125495956df8714a1ce0bf0266f709af6bcd02c9bd6da35180604d",
+      "line_count": 210,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Stage-independent after a deal is live; no instrument specified."
+      ],
+      "tensions": [
+        "Builder optimism versus deal pessimism.",
+        "Alternatives versus truthful communication and exclusivity."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Revalidate exclusivity, no-shop, disclosure and signed obligations in actual documents."
+      ],
+      "boundary_routes": [
+        "Acquisition -> navigating-acquisitions-and-exits.",
+        "General persistence -> operating-with-focus-and-morale."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "deal-mechanics-and-terms",
+          "claim": "Investor interest or a handshake is not a close; keep momentum and alternatives alive until the deal actually closes.",
+          "line_ranges": [
+            "142-164"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "Preserve genuine nondependence and parallel alternatives because fundraising consumes time and counterparty optimism can weaken terms.",
+          "line_ranges": [
+            "152-164"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "067",
+      "reviewer": "capital-source-union",
+      "audit_batch": "A",
+      "batch_reviewer": "capital-source-a",
+      "title": "How to Present to Investors",
+      "source_url": "https://paulgraham.com/investors.html",
+      "corpus_path": "067_how-to-present-to-investors.md",
+      "corpus_sha256": "b6127523e40ba685e1993124a195892df6ee57c4e3a33e7b6df1e457d8832506",
+      "line_count": 160,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Brief YC Demo Day format; lines 42-50 explicitly mark earlier demo emphasis obsolete."
+      ],
+      "tensions": [
+        "Narrow clarity versus larger opportunity.",
+        "Confident persuasion versus calibration.",
+        "Product evidence versus premature model detail."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Verify current format, time, audience, remote-demo expectations, disclosures and metrics; preserve evidence/candor principles."
+      ],
+      "boundary_routes": [
+        "Message/slide craft -> communicating-clearly.",
+        "Positioning -> competing-and-positioning.",
+        "Demand evidence -> learning-from-users."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "fundraising-readiness-and-investor-communication",
+          "claim": "Make the company legible quickly with a concrete description, evidence-led product explanation, a few company-specific numbers and user stories showing demand.",
+          "line_ranges": [
+            "26-58",
+            "66-68",
+            "70-78",
+            "122-146"
+          ]
+        },
+        {
+          "canonical_theme": "investor-truth-trust-and-reputation",
+          "claim": "Communicate evidence-backed confidence while remaining candid about unknowns; polish and unsupported passion claims do not create credibility.",
+          "line_ranges": [
+            "100-112"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "069",
+      "reviewer": "capital-source-union",
+      "audit_batch": "A",
+      "batch_reviewer": "capital-source-a",
+      "title": "The 18 Mistakes That Kill Startups",
+      "source_url": "https://paulgraham.com/startupmistakes.html",
+      "corpus_path": "069_the-18-mistakes-that-kill-startups.md",
+      "corpus_sha256": "91619a4194f5d9ed857d8461b53e727b923c8791bbe0683ed061b3113cc296a4",
+      "line_count": 256,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Early unprofitable prototype/launch/growth startup; overfunding prevalence and timelines are historical."
+      ],
+      "tensions": [
+        "Milestone funding versus premature scale.",
+        "Investor insight versus operation.",
+        "Deal optimization versus user/product attention."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Revalidate sizes, buffers, duration, valuation, boards and reputation; do not use first-reasonable-deal without current thresholds."
+      ],
+      "boundary_routes": [
+        "Default-dead/burn -> managing-runway-and-survival.",
+        "Hiring -> building-and-evolving-organizations.",
+        "Product/user failure -> learning-from-users and shipping-and-iterating-products."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "financing-terms-equity-and-control",
+          "claim": "Assess valuation/unusual terms with board composition and the practical path to investor control.",
+          "line_ranges": [
+            "152-164"
+          ]
+        },
+        {
+          "canonical_theme": "founder-autonomy-and-control",
+          "claim": "Keep investors informed without ceding product operation; balanced boards can still create practical control through a deciding director.",
+          "line_ranges": [
+            "156-164"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Large checks bring a clock, hiring pressure and leverage; select for fit with company pace and milestone.",
+          "line_ranges": [
+            "142-164"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "076",
+      "reviewer": "capital-source-union",
+      "audit_batch": "A",
+      "batch_reviewer": "capital-source-a",
+      "title": "The Hacker's Guide to Investors",
+      "source_url": "https://paulgraham.com/guidetoinvestors.html",
+      "corpus_path": "076_the-hacker-s-guide-to-investors.md",
+      "corpus_sha256": "cb053b2a8062da8c586d77b2e0ac8272fd50a2f966556ed398a256589a98fd8c",
+      "line_count": 262,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Distinguishes angel/VC stages and portfolio economics; collusion, tiers and universal funding need are 2007 conditions, not defaults."
+      ],
+      "tensions": [
+        "Speed/certainty versus quality/optimization.",
+        "High valuation versus exit flexibility.",
+        "Portfolio versus founder risk.",
+        "Confidence versus truth."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Revalidate fund structures, roles, sizes, ownership, timelines, co-investment, law, competition, secondary norms and rankings; revalidate capital's competitive advantage for this venture."
+      ],
+      "boundary_routes": [
+        "Whether to raise -> designing-business-models.",
+        "Fatal cash -> managing-runway-and-survival.",
+        "Acquisition offers -> navigating-acquisitions-and-exits.",
+        "Investor portfolio construction -> evaluating-startups-and-founders."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "deal-mechanics-and-terms",
+          "claim": "A term sheet is not a close; continue selling, diligence and momentum through definitive documents and funding.",
+          "line_ranges": [
+            "140-154"
+          ]
+        },
+        {
+          "canonical_theme": "financing-terms-equity-and-control",
+          "claim": "Round size, valuation, return needs and founder liquidity jointly alter dilution, exits and whose risk preference governs.",
+          "line_ranges": [
+            "68-98",
+            "174-190"
+          ]
+        },
+        {
+          "canonical_theme": "founder-autonomy-and-control",
+          "claim": "Investor selection affects whether a capable technical founder remains CEO and how authority survives funding.",
+          "line_ranges": [
+            "192-200"
+          ]
+        },
+        {
+          "canonical_theme": "funding-stage-fit",
+          "claim": "Choose angels, VCs and check size by stage, need, risk and plausible outcome.",
+          "line_ranges": [
+            "26-38",
+            "68-84"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-readiness-and-investor-communication",
+          "claim": "Approach from demonstrated progress and real alternatives rather than permission-seeking; stay-in-touch language is not financing evidence.",
+          "line_ranges": [
+            "212-244"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "Use traction and genuine interest without over-optimizing, interpret ambiguous interest as no, budget process cost and maintain a backup.",
+          "line_ranges": [
+            "56-98",
+            "202-244"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Predict behavior from dealmaking, momentum, fund size, portfolio exposure, accountability, co-investing and risk concentration; diligence firm and partner.",
+          "line_ranges": [
+            "48-84",
+            "110-130",
+            "156-190",
+            "192-200"
+          ]
+        },
+        {
+          "canonical_theme": "investor-truth-trust-and-reputation",
+          "claim": "Use reputation, references, pressured conduct and commitment authority to distinguish a partner from a flattering noncommittal process.",
+          "line_ranges": [
+            "192-222"
+          ]
+        },
+        {
+          "canonical_theme": "valuation",
+          "claim": "Treat valuation as negotiated amount/ownership arithmetic and test dilution/exit effects rather than status.",
+          "line_ranges": [
+            "86-98"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "078",
+      "reviewer": "capital-source-union",
+      "audit_batch": "A",
+      "batch_reviewer": "capital-source-a",
+      "title": "The Equity Equation",
+      "source_url": "https://paulgraham.com/equity.html",
+      "corpus_path": "078_the-equity-equation.md",
+      "corpus_sha256": "1b0aa8248f5564bc20b5522e610b44b0aa6cf667b796a1403ed7eed300ff1886",
+      "line_count": 60,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": false
+      },
+      "conditions": [
+        "Stage-independent math framing; examples use early financing/hiring."
+      ],
+      "tensions": [
+        "Ownership percentage versus outcome-adjusted retained value.",
+        "Transparent arithmetic versus false precision."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Algebra is stable; add current instrument, tax, securities, preference and cap-table effects; named-firm odds are historical."
+      ],
+      "boundary_routes": [
+        "Employee grants -> building-and-evolving-organizations.",
+        "Actual instruments -> counsel/cap-table tooling."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "deal-mechanics-and-terms",
+          "claim": "For an equity trade n, expose the assumption that consideration must improve expected outcome by more than 1/(1-n) for retained ownership to be worth more.",
+          "line_ranges": [
+            "18-24",
+            "48-50"
+          ]
+        },
+        {
+          "canonical_theme": "financing-terms-equity-and-control",
+          "claim": "Evaluate dilution by whether the consideration increases retained value enough, then add rights, downside and uncertainty omitted by the fraction.",
+          "line_ranges": [
+            "18-24",
+            "48-50"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "Make the expected investor improvement explicit before exchanging equity rather than accept conventional percentages by intuition.",
+          "line_ranges": [
+            "18-24",
+            "48-50"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "084",
+      "reviewer": "capital-source-union",
+      "audit_batch": "A",
+      "batch_reviewer": "capital-source-a",
+      "title": "The Future of Web Startups",
+      "source_url": "https://paulgraham.com/webstartups.html",
+      "corpus_path": "084_the-future-of-web-startups.md",
+      "corpus_sha256": "97302e9a9937ae31ebfa6fba5450e75492ee6915acc6eac4cff955ba9a4c127d",
+      "line_count": 160,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "2007 seed/angel documents versus bespoke Series A; cost/permission shift is venture- and market-dependent."
+      ],
+      "tensions": [
+        "Standard speed/cost versus custom protection.",
+        "Portfolio versus founder risk.",
+        "Polish versus operating evidence."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Revalidate cost curves, market, instruments, legal fees, customization, evidence expectations and remote interaction."
+      ],
+      "boundary_routes": [
+        "Cost/venture shape -> designing-business-models.",
+        "Evidence generation -> shipping-and-iterating-products.",
+        "Acquisitions -> navigating-acquisitions-and-exits."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "deal-mechanics-and-terms",
+          "claim": "Standardize repeatable early documents to reduce time/legal cost while larger institutional rounds remain company-specific.",
+          "line_ranges": [
+            "38-48"
+          ]
+        },
+        {
+          "canonical_theme": "funding-market-conditions",
+          "claim": "When startup costs fall, founders can defer institutional permission and approach with evidence; recompute leverage from current costs and markets.",
+          "line_ranges": [
+            "16-30",
+            "72-78"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-readiness-and-investor-communication",
+          "claim": "A launched product and measured performance can substitute for credentialed polish and a speculative plan.",
+          "line_ranges": [
+            "72-78"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Investors may prefer portfolio risk that founders with one concentrated company reject; compare exposures before adopting advice.",
+          "line_ranges": [
+            "62-68"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "085",
+      "reviewer": "capital-source-union",
+      "audit_batch": "A",
+      "batch_reviewer": "capital-source-a",
+      "title": "Why to Move to a Startup Hub",
+      "source_url": "https://paulgraham.com/startuphubs.html",
+      "corpus_path": "085_why-to-move-to-a-startup-hub.md",
+      "corpus_sha256": "c3509a0221dab70aa78803313db0dd2a17dfdc6daf42952501b243d49245f832",
+      "line_count": 72,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Relocation/hub choice before or during fundraising; family, immigration, industry center and definite offers can outweigh hub advantage."
+      ],
+      "tensions": [
+        "Stronger network versus relocation/attention cost.",
+        "Interest versus executable offer."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Revalidate investor density, sector centers, remote fundraising, immigration, family cost, speed and firm presence; do not preserve the old geographic hierarchy."
+      ],
+      "boundary_routes": [
+        "Relocation/ecosystem -> building-startup-ecosystems or preparing-to-found; keep only investor quality/commitment checks here."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Assess an investor market by domain judgment, willingness to act and execution, not generic prudence reputation.",
+          "line_ranges": [
+            "38-38",
+            "40-54"
+          ]
+        },
+        {
+          "canonical_theme": "investor-truth-trust-and-reputation",
+          "claim": "Distinguish definite funding commitment from investor interest that may never become an offer.",
+          "line_ranges": [
+            "38-38",
+            "40-40",
+            "62-64"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "088",
+      "reviewer": "capital-source-union",
+      "audit_batch": "B",
+      "batch_reviewer": "capital-source-b",
+      "title": "A New Venture Animal",
+      "source_url": "https://paulgraham.com/ycombinator.html",
+      "corpus_path": "088_a-new-venture-animal.md",
+      "corpus_sha256": "539c404ce625ab499beefb7f63684e8f4185d52c570326945f6604e23ee650c1",
+      "line_count": 68,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": false
+      },
+      "conditions": [
+        "Earliest-stage, founder-only, capital-light companies; the source explicitly excludes expensive biotech from its cheap-launch model.",
+        "Company launch and product launch are separate milestones when the product cannot ship before the next round."
+      ],
+      "tensions": [
+        "Small check plus intensive support versus later-stage money with less operating help.",
+        "Protect building time while still creating a bounded investor milestone."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Revalidate present YC mechanics, round labels, dollar amounts, equity percentages, legal setup, and investor-exposure channels; retain the durable stage-to-support ratio."
+      ],
+      "boundary_routes": [
+        "Cofounder repair and operational help route to advising-and-supporting-founders.",
+        "Company and product launch execution route to shipping-and-iterating-products."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "funding-stage-fit",
+          "claim": "Match the mix of capital and hands-on help to stage: very early capital-light teams need less cash but more help resolving basic company questions than later rounds do. Company financing readiness can precede product launch for long-build products, and the product choice should bound how much is raised and what follows.",
+          "line_ranges": [
+            "24-30",
+            "40-44"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "092",
+      "reviewer": "capital-source-union",
+      "audit_batch": "B",
+      "batch_reviewer": "capital-source-b",
+      "title": "Why There Aren't More Googles",
+      "source_url": "https://paulgraham.com/googles.html",
+      "corpus_path": "092_why-there-aren-t-more-googles.md",
+      "corpus_sha256": "ba69a7358ae64379127838c13437d6a735dbc192eab1d1e5a9b0cf5960f6aa67",
+      "line_count": 76,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Early, capital-light technology startups whose strongest ideas may look implausible before traction.",
+        "The small-check portfolio proposal is an investor-side model, not a requirement that every founder accept fragmented capital."
+      ],
+      "tensions": [
+        "Independent contrarian selection versus social proof and institutional career risk.",
+        "More small bets and lighter diligence versus adequate understanding and governance."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "The 2008 VC categories, check sizes, board practices, and funding gap are historical. Verify current investor categories and market supply; retain the incentive diagnosis and proportional-governance principle."
+      ],
+      "boundary_routes": [
+        "Acquisition-offer reasoning routes to navigating-acquisitions-and-exits.",
+        "Founder and idea evaluation routes to evaluating-startups-and-founders."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "funding-market-conditions",
+          "claim": "Large checks, delegated capital, consensus pressure, and limited technical understanding can push investors toward familiar, later evidence and away from novel early bets. When startup costs fall, fill the gap between tiny seed checks and large institutional rounds with more small bets, proportionate diligence, and less board overhead.",
+          "line_ranges": [
+            "38-48",
+            "52-64"
+          ]
+        },
+        {
+          "canonical_theme": "funding-stage-fit",
+          "claim": "When startup costs fall, fill the gap between tiny seed checks and large institutional rounds with more small bets, proportionate diligence, and less board overhead.",
+          "line_ranges": [
+            "52-64"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Large checks, delegated capital, consensus pressure, and limited technical understanding can push investors toward familiar, later evidence and away from novel early bets. When startup costs fall, fill the gap between tiny seed checks and large institutional rounds with more small bets, proportionate diligence, and less board overhead.",
+          "line_ranges": [
+            "38-48",
+            "52-64"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "098",
+      "reviewer": "capital-source-union",
+      "audit_batch": "B",
+      "batch_reviewer": "capital-source-b",
+      "title": "A Fundraising Survival Guide",
+      "source_url": "https://paulgraham.com/fundraising.html",
+      "corpus_path": "098_a-fundraising-survival-guide.md",
+      "corpus_sha256": "11f20d1a09eca973eb234f2e0b7532d40d96bd1cfd2db24d72ce26a04273e600",
+      "line_count": 208,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "A company that has decided outside capital is needed; survival state should be diagnosed first.",
+        "Flexible sizing and rolling-close advice is strongest for capital-light angel rounds, not projects with a hard minimum financing requirement."
+      ],
+      "tensions": [
+        "Close speed and certainty versus investor quality and reasonable terms.",
+        "Conservative assumptions versus maintaining founder confidence.",
+        "Investor-pipeline work versus keeping the company alive and improving."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Verify current securities law, note or equity instruments, rolling-close practice, investor categories, dollar amounts, and prevailing terms. Retain the durable anti-surprise, bounded-process, qualification, and operating-momentum principles."
+      ],
+      "boundary_routes": [
+        "Default-dead planning, consulting downshifts, and ramen profitability route to managing-runway-and-survival.",
+        "Morale and attention protection route to operating-with-focus-and-morale."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "deal-mechanics-and-terms",
+          "claim": "When money is still needed, close a reputable reasonable offer, maintain viable plans at several capital levels, and use a smaller or rolling close when a fixed angel round would deadlock.",
+          "line_ranges": [
+            "82-102"
+          ]
+        },
+        {
+          "canonical_theme": "funding-market-conditions",
+          "claim": "A thin, correlated investor market can turn individual indecision and herd effects into apparent consensus; do not treat linked investor reactions as independent evidence.",
+          "line_ranges": [
+            "20-32"
+          ]
+        },
+        {
+          "canonical_theme": "funding-stage-fit",
+          "claim": "When money is still needed, close a reputable reasonable offer, maintain viable plans at several capital levels, and use a smaller or rolling close when a fixed angel round would deadlock.",
+          "line_ranges": [
+            "82-102"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-readiness-and-investor-communication",
+          "claim": "Turn rejections into precise data: test specific objections with domain judgment and identify where the pitch loses investors instead of absorbing an undifferentiated verdict.",
+          "line_ranges": [
+            "120-140"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "Assume a raise will take longer than expected, partition investor work where possible, and keep releases, revenue, users, and deals moving during the process. When money is still needed, close a reputable reasonable offer, maintain viable plans at several capital levels, and use a smaller or rolling close when a fixed angel round would deadlock. Turn rejections into precise data: test specific objections with domain judgment and identify where the pitch loses investors instead of absorbing an undifferentiated verdict. Qualify investor experience and decision readiness, ask what remains before commitment, and prioritize by probability of a real close rather than prestige alone.",
+          "line_ranges": [
+            "58-78",
+            "82-102",
+            "120-140",
+            "152-170"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "A thin, correlated investor market can turn individual indecision and herd effects into apparent consensus; do not treat linked investor reactions as independent evidence. Qualify investor experience and decision readiness, ask what remains before commitment, and prioritize by probability of a real close rather than prestige alone.",
+          "line_ranges": [
+            "20-32",
+            "152-170"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "102",
+      "reviewer": "capital-source-union",
+      "audit_batch": "B",
+      "batch_reviewer": "capital-source-b",
+      "title": "Could VC be a Casualty of the Recession?",
+      "source_url": "https://paulgraham.com/divergence.html",
+      "corpus_path": "102_could-vc-be-a-casualty-of-the-recession.md",
+      "corpus_sha256": "34fbc190bbc5aba27e6d6dc9bf47e5536c94316d23099442b4f6df196ab74255",
+      "line_count": 48,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Capital-light Internet or software companies able to approach profitability on founder-scale costs.",
+        "A recession or weak capital market can reduce investor supply without necessarily reducing founder formation; this does not apply uniformly to capital-heavy ventures."
+      ],
+      "tensions": [
+        "Use capital for a valuable hire versus avoid months of process distraction.",
+        "Traditional venture norms versus company-specific economics and optionality."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "The essay analyzes the 2008 recession and period-specific cost figures. Recompute current costs, market conditions, capital supply, and the milestone that outside money would buy."
+      ],
+      "boundary_routes": [
+        "Runway, profitability, and cost reduction route primarily to managing-runway-and-survival.",
+        "Cost-curve and venture-model choices route to designing-business-models and calibrated decisions."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "funding-market-conditions",
+          "claim": "When product, development, distribution, and infrastructure costs fall, recompute whether institutional-scale capital is required instead of inheriting an old funding norm. In a funding contraction, founders who can reach low-cost profitability may postpone a hire and decline a distracting round rather than assume venture supply determines company formation.",
+          "line_ranges": [
+            "14-24",
+            "28-38",
+            "40-42"
+          ]
+        },
+        {
+          "canonical_theme": "funding-stage-fit",
+          "claim": "When product, development, distribution, and infrastructure costs fall, recompute whether institutional-scale capital is required instead of inheriting an old funding norm.",
+          "line_ranges": [
+            "14-24"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "In a funding contraction, founders who can reach low-cost profitability may postpone a hire and decline a distracting round rather than assume venture supply determines company formation.",
+          "line_ranges": [
+            "28-38",
+            "40-42"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "105",
+      "reviewer": "capital-source-union",
+      "audit_batch": "B",
+      "batch_reviewer": "capital-source-b",
+      "title": "Startups in 13 Sentences",
+      "source_url": "https://paulgraham.com/13sentences.html",
+      "corpus_path": "105_startups-in-13-sentences.md",
+      "corpus_sha256": "b41599173fc1126dca43c98730b50936e33194101c5ca0ce2d0609545992fd7e",
+      "line_count": 94,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Compact general startup advice, not a complete live-round procedure.",
+        "The ramen-profitability premise is conditional on a capital-light product and must not be applied to hard-minimum financing ventures."
+      ],
+      "tensions": [
+        "Investor leverage from revenue versus distraction from paid side work.",
+        "Hope for a deal versus planning as though it will not close."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "The durable claims concern distraction and unclosed-deal uncertainty. Revalidate any concrete financing structure or profitability target elsewhere."
+      ],
+      "boundary_routes": [
+        "Revenue and runway route to managing-runway-and-survival.",
+        "Focus and morale route to operating-with-focus-and-morale."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "A small profitability threshold can improve investor leverage, while fundraising is a paid-looking distraction that should be minimized when it displaces product work. Treat prospective deals as unreliable background processes until they actually close so dependence does not distort morale or execution.",
+          "line_ranges": [
+            "52-58",
+            "68-70"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "109",
+      "reviewer": "capital-source-union",
+      "audit_batch": "B",
+      "batch_reviewer": "capital-source-b",
+      "title": "How to Be an Angel Investor",
+      "source_url": "https://paulgraham.com/angelinvesting.html",
+      "corpus_path": "109_how-to-be-an-angel-investor.md",
+      "corpus_sha256": "029d8767349bdf77a5411335fb6f6603654282a80570503e9c46e63b23169c10",
+      "line_count": 150,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Angel and pre-traction investing, often through syndicates; later institutional rounds have different governance and diligence needs.",
+        "Founder-facing use is reciprocal: select investors by the behavior the essay asks good angels to exhibit."
+      ],
+      "tensions": [
+        "Term protection versus preserving founder motivation and company quality.",
+        "Prompt uncertain decisions versus strategic delay for more information.",
+        "Investor help versus clear boundaries on operational involvement."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "All 2009 securities instruments, documents, tax implications, named law firms, typical valuations, check sizes, and anti-dilution practices require current legal and market verification. Do not use the essay as legal advice."
+      ],
+      "boundary_routes": [
+        "Founder potential and portfolio construction route to evaluating-startups-and-founders.",
+        "Legal implementation requires qualified current counsel."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "deal-mechanics-and-terms",
+          "claim": "Understand preferred equity, convertible debt, syndicates, dilution, participation rights, check size, and valuation, but do not let marginal term optimization outweigh selecting a strong company.",
+          "line_ranges": [
+            "16-20",
+            "24-48"
+          ]
+        },
+        {
+          "canonical_theme": "financing-terms-equity-and-control",
+          "claim": "Understand preferred equity, convertible debt, syndicates, dilution, participation rights, check size, and valuation, but do not let marginal term optimization outweigh selecting a strong company. Use specialist startup counsel, understand participation and anti-dilution rights, and avoid ownership structures that leave founders too little incentive for later rounds.",
+          "line_ranges": [
+            "16-20",
+            "24-48",
+            "114-132"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Agree before closing on the investor's expected help and compare investors by useful contribution as well as money. Investor quality is observable through decisiveness, follow-through, founder help, and a reputation that produces trusted referrals; strategic indecision preserves an option at the founder's expense. Use specialist startup counsel, understand participation and anti-dilution rights, and avoid ownership structures that leave founders too little incentive for later rounds.",
+          "line_ranges": [
+            "50-50",
+            "82-110",
+            "114-132"
+          ]
+        },
+        {
+          "canonical_theme": "investor-truth-trust-and-reputation",
+          "claim": "Investor quality is observable through decisiveness, follow-through, founder help, and a reputation that produces trusted referrals; strategic indecision preserves an option at the founder's expense.",
+          "line_ranges": [
+            "82-110"
+          ]
+        },
+        {
+          "canonical_theme": "valuation",
+          "claim": "Understand preferred equity, convertible debt, syndicates, dilution, participation rights, check size, and valuation, but do not let marginal term optimization outweigh selecting a strong company.",
+          "line_ranges": [
+            "16-20",
+            "24-48"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "116",
+      "reviewer": "capital-source-union",
+      "audit_batch": "B",
+      "batch_reviewer": "capital-source-b",
+      "title": "Ramen Profitable",
+      "source_url": "https://paulgraham.com/ramenprofitable.html",
+      "corpus_path": "116_ramen-profitable.md",
+      "corpus_sha256": "9f739d9db68aba93f6d50e2b4e3c3d20aa2aeaebc376b566401747cbe154875d",
+      "line_count": 93,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Capital-light software where founder-scale revenue is plausible; the source explicitly excludes most biotech and other expensive categories.",
+        "The revenue source need not be the final model, but it must not trap the company in non-scalable services."
+      ],
+      "tensions": [
+        "Raise to accelerate versus preserve leverage and product attention.",
+        "Survival revenue versus premature monetization or consulting capture."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Recompute the founder-expense threshold and verify current financing alternatives and terms. Retain the durable optionality and attention effects, not the historical dollar example."
+      ],
+      "boundary_routes": [
+        "The state diagnosis and revenue threshold route primarily to managing-runway-and-survival.",
+        "Monetization timing and consulting boundaries route to designing-business-models."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "financing-terms-equity-and-control",
+          "claim": "Reduced financing dependence can improve terms, make the company more credible, and let founders choose a shorter, less distracting round.",
+          "line_ranges": [
+            "28-48"
+          ]
+        },
+        {
+          "canonical_theme": "founder-autonomy-and-control",
+          "claim": "For a capital-light company, covering founder living costs removes the immediate need to raise and restores choice over when to engage investors. Reduced financing dependence can improve terms, make the company more credible, and let founders choose a shorter, less distracting round.",
+          "line_ranges": [
+            "16-24",
+            "28-48"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "For a capital-light company, covering founder living costs removes the immediate need to raise and restores choice over when to engage investors. Reduced financing dependence can improve terms, make the company more credible, and let founders choose a shorter, less distracting round. Do not confuse short-term financing independence with a permanent no-investment doctrine or let consulting revenue erase the scalable product path.",
+          "line_ranges": [
+            "16-24",
+            "28-48",
+            "52-60"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "123",
+      "reviewer": "capital-source-union",
+      "audit_batch": "B",
+      "batch_reviewer": "capital-source-b",
+      "title": "What Startups Are Really Like",
+      "source_url": "https://paulgraham.com/really.html",
+      "corpus_path": "123_what-startups-are-really-like.md",
+      "corpus_sha256": "0cfc80d2be7c3e14f03dcb8ee4fe98be5a11b30005a79784e63ffff2ebddcdff",
+      "line_count": 402,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "A cross-founder retrospective spanning many startup stages; the evidence is anecdotal and reports surprises rather than controlled effects.",
+        "The confidence-pressure section requires a truth-first corrective from other sources and should never be rendered as advice to deceive."
+      ],
+      "tensions": [
+        "Persuasive certainty versus truthful calibration.",
+        "Optimism about company execution versus pessimism about uncontrolled capital events.",
+        "Investor attention versus product and revenue progress."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Revalidate current investor process and evidence expectations. The durable use is to diagnose incentives, external dependency, and the truth-versus-confidence tension."
+      ],
+      "boundary_routes": [
+        "Cofounders, product iteration, users, morale, luck, and role evolution route to their dedicated skills."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "Expect fundraising and other bureaucratic deals to take multiples longer than founder-paced work, and keep patience or revenue from making them the company's critical path. Plan as though uncommitted outside money will not arrive, focus on controllable revenue, and treat an actual offer differently from optimistic investor interest. Fork slow outside processes away from the operating critical path and recognize when investor selection is being driven by sales performance rather than product understanding.",
+          "line_ranges": [
+            "120-136",
+            "246-258",
+            "372-376"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Investors may select displayed confidence and social proof because those are also rewarded in their own capital-raising process; treat this as selection pressure to counter with evidence and truthful command, not permission to posture deceptively. Fork slow outside processes away from the operating critical path and recognize when investor selection is being driven by sales performance rather than product understanding.",
+          "line_ranges": [
+            "260-284",
+            "372-376"
+          ]
+        },
+        {
+          "canonical_theme": "investor-truth-trust-and-reputation",
+          "claim": "Investors may select displayed confidence and social proof because those are also rewarded in their own capital-raising process; treat this as selection pressure to counter with evidence and truthful command, not permission to posture deceptively.",
+          "line_ranges": [
+            "260-284"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "127",
+      "reviewer": "capital-source-union",
+      "audit_batch": "B",
+      "batch_reviewer": "capital-source-b",
+      "title": "The Top Idea in Your Mind",
+      "source_url": "https://paulgraham.com/top.html",
+      "corpus_path": "127_the-top-idea-in-your-mind.md",
+      "corpus_sha256": "2d7b6341998f135e0ce53764529f36646b9e6e4281bf56511b57fcebe5862d8e",
+      "line_count": 62,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": false
+      },
+      "conditions": [
+        "Any raise or acquisition discussion that becomes critical enough to displace product thought; not a terms or investor-selection procedure."
+      ],
+      "tensions": [
+        "Necessary capital work versus protecting the scarce attention used for hard product problems."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "No historical instrument claim is needed. Revalidate only whether fundraising is actually the dominant attention sink in the current company."
+      ],
+      "boundary_routes": [
+        "The general attention audit belongs primarily to operating-with-focus-and-morale."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "Fundraising can consume ambient thought even when meetings are brief; audit what unstructured thoughts return to and bound the dependency so product work remains central.",
+          "line_ranges": [
+            "22-30",
+            "48-48"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "129",
+      "reviewer": "capital-source-union",
+      "audit_batch": "B",
+      "batch_reviewer": "capital-source-b",
+      "title": "The Future of Startup Funding",
+      "source_url": "https://paulgraham.com/future.html",
+      "corpus_path": "129_the-future-of-startup-funding.md",
+      "corpus_sha256": "58af1045e5744374ac5be8509bddd98055155b6582a1b962f9e0019f1691883e",
+      "line_count": 154,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Primarily capital-light software; lines 120-122 explicitly say the model does not apply unchanged to energy, biotech, or other expensive ventures.",
+        "Angel, Series A, and later financing have different board, check-size, help, and diligence patterns.",
+        "Founder leverage changes across seller and buyer markets; line 144 warns that a downturn can reverse apparent power temporarily."
+      ],
+      "tensions": [
+        "Fast independent closes versus continuously fundraising.",
+        "Founder control versus valuable investor help and protection.",
+        "Less dilution versus investor quality and stage-appropriate capital.",
+        "Different prices for risk and help versus cap-table complexity and fairness."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "This is a 2010 funding-market forecast. Verify current note and equity instruments, valuation-cap practice, tranches, rolling closes, option pools, board norms, legal requirements, investor categories, and cycle conditions before use."
+      ],
+      "boundary_routes": [
+        "Capital-light applicability and company survival route to business-model and runway skills.",
+        "Attention costs route to operating-with-focus-and-morale."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "deal-mechanics-and-terms",
+          "claim": "Compare dilution and restrictions, use standardized execution and independent closes to reduce deadlock, and recognize that fixed-round contingencies or investor collusion can transfer leverage from founders. Inspect option-pool dilution and governance power rather than relying on headline valuation or nominal ownership alone.",
+          "line_ranges": [
+            "46-68",
+            "94-94"
+          ]
+        },
+        {
+          "canonical_theme": "financing-terms-equity-and-control",
+          "claim": "Compare dilution and restrictions, use standardized execution and independent closes to reduce deadlock, and recognize that fixed-round contingencies or investor collusion can transfer leverage from founders. Inspect option-pool dilution and governance power rather than relying on headline valuation or nominal ownership alone.",
+          "line_ranges": [
+            "46-68",
+            "94-94"
+          ]
+        },
+        {
+          "canonical_theme": "founder-autonomy-and-control",
+          "claim": "Board-seat capacity and control assumptions can force larger, fewer institutional rounds; test whether the desired help actually requires governance power. Run a founder-controlled, time-bounded process; reject one-sided tranches, require real early commitments, and prefer investors who can decide quickly without waiting for herd confirmation. Inspect option-pool dilution and governance power rather than relying on headline valuation or nominal ownership alone.",
+          "line_ranges": [
+            "32-38",
+            "72-92",
+            "94-94"
+          ]
+        },
+        {
+          "canonical_theme": "funding-market-conditions",
+          "claim": "Match investor type and round to the company's capital need and stage, while recognizing that investor business models and prestige can bias the available structures.",
+          "line_ranges": [
+            "14-28"
+          ]
+        },
+        {
+          "canonical_theme": "funding-stage-fit",
+          "claim": "Match investor type and round to the company's capital need and stage, while recognizing that investor business models and prestige can bias the available structures. Board-seat capacity and control assumptions can force larger, fewer institutional rounds; test whether the desired help actually requires governance power.",
+          "line_ranges": [
+            "14-28",
+            "32-38"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "Compare dilution and restrictions, use standardized execution and independent closes to reduce deadlock, and recognize that fixed-round contingencies or investor collusion can transfer leverage from founders. Run a founder-controlled, time-bounded process; reject one-sided tranches, require real early commitments, and prefer investors who can decide quickly without waiting for herd confirmation.",
+          "line_ranges": [
+            "46-68",
+            "72-92"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Match investor type and round to the company's capital need and stage, while recognizing that investor business models and prestige can bias the available structures. Board-seat capacity and control assumptions can force larger, fewer institutional rounds; test whether the desired help actually requires governance power. Compare dilution and restrictions, use standardized execution and independent closes to reduce deadlock, and recognize that fixed-round contingencies or investor collusion can transfer leverage from founders. Run a founder-controlled, time-bounded process; reject one-sided tranches, require real early commitments, and prefer investors who can decide quickly without waiting for herd confirmation.",
+          "line_ranges": [
+            "14-28",
+            "32-38",
+            "46-68",
+            "72-92"
+          ]
+        },
+        {
+          "canonical_theme": "valuation",
+          "claim": "Compare dilution and restrictions, use standardized execution and independent closes to reduce deadlock, and recognize that fixed-round contingencies or investor collusion can transfer leverage from founders. Inspect option-pool dilution and governance power rather than relying on headline valuation or nominal ownership alone.",
+          "line_ranges": [
+            "46-68",
+            "94-94"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "131",
+      "reviewer": "capital-source-union",
+      "audit_batch": "B",
+      "batch_reviewer": "capital-source-b",
+      "title": "High Resolution Fundraising",
+      "source_url": "https://paulgraham.com/hiresfund.html",
+      "corpus_path": "131_high-resolution-fundraising.md",
+      "corpus_sha256": "7a095337fb101ae6aad85cc534c7e3be850ee8fdcc47b7429142220e25a6a01b",
+      "line_count": 38,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Multi-investor angel rounds; the essay itself distinguishes these from a Series A with one unequivocal lead.",
+        "Differentiated terms require legally sound documents, cap-table clarity, and current investor acceptance."
+      ],
+      "tensions": [
+        "Speed and flexible pricing versus legal complexity, disclosure, and perceived fairness.",
+        "Reward decisive investors versus preserving a clean round and cap table."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Convertible-note conventions and valuation-cap mechanics are from 2010. Verify current securities law, tax, SAFEs or other instruments, disclosure, side-letter constraints, and market norms with counsel."
+      ],
+      "boundary_routes": [
+        "General herd-bias diagnosis also supports calibrated decision-making."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "deal-mechanics-and-terms",
+          "claim": "Use lightweight execution and differentiated effective prices to break investor deadlock, rewarding earlier commitment, greater risk, or more valuable help rather than giving every investor identical terms by default. Let observed demand inform round size and price; start smaller when investors are skeptical and expand when demand is strong instead of fixing an unknowable optimum in advance.",
+          "line_ranges": [
+            "14-24",
+            "26-34"
+          ]
+        },
+        {
+          "canonical_theme": "financing-terms-equity-and-control",
+          "claim": "Use lightweight execution and differentiated effective prices to break investor deadlock, rewarding earlier commitment, greater risk, or more valuable help rather than giving every investor identical terms by default. Let observed demand inform round size and price; start smaller when investors are skeptical and expand when demand is strong instead of fixing an unknowable optimum in advance.",
+          "line_ranges": [
+            "14-24",
+            "26-34"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "Use lightweight execution and differentiated effective prices to break investor deadlock, rewarding earlier commitment, greater risk, or more valuable help rather than giving every investor identical terms by default. Let observed demand inform round size and price; start smaller when investors are skeptical and expand when demand is strong instead of fixing an unknowable optimum in advance.",
+          "line_ranges": [
+            "14-24",
+            "26-34"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Use lightweight execution and differentiated effective prices to break investor deadlock, rewarding earlier commitment, greater risk, or more valuable help rather than giving every investor identical terms by default. Let observed demand inform round size and price; start smaller when investors are skeptical and expand when demand is strong instead of fixing an unknowable optimum in advance.",
+          "line_ranges": [
+            "14-24",
+            "26-34"
+          ]
+        },
+        {
+          "canonical_theme": "valuation",
+          "claim": "Use lightweight execution and differentiated effective prices to break investor deadlock, rewarding earlier commitment, greater risk, or more valuable help rather than giving every investor identical terms by default. Let observed demand inform round size and price; start smaller when investors are skeptical and expand when demand is strong instead of fixing an unknowable optimum in advance.",
+          "line_ranges": [
+            "14-24",
+            "26-34"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "133",
+      "reviewer": "capital-source-union",
+      "audit_batch": "B",
+      "batch_reviewer": "capital-source-b",
+      "title": "The New Funding Landscape",
+      "source_url": "https://paulgraham.com/superangels.html",
+      "corpus_path": "133_the-new-funding-landscape.md",
+      "corpus_sha256": "c3e907ece10d62db0207e2f8f728219f32ee4e81fd4b8a5913d7144c8e76be7e",
+      "line_count": 122,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Angel, super-angel, and Series A choices in a 2010 competitive funding market.",
+        "Signaling risk matters most when the next round arrives before the company has concrete growth or revenue evidence."
+      ],
+      "tensions": [
+        "Higher valuation and fast close versus investor attention and follow-on incentives.",
+        "Less dilution and more control versus access to a high-quality board investor.",
+        "Investor signaling versus company metrics."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Investor categories, check sizes, valuation ranges, board structures, notes, fund economics, and market forecasts are historical. Rebuild the investor map and terms comparison from current data."
+      ],
+      "boundary_routes": [
+        "Exit-horizon incentives overlap with acquisition and portfolio skills."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "financing-terms-equity-and-control",
+          "claim": "Compare a medium angel round with an early Series A on dilution, board control, veto rights, help, time to close, and whether rejection leaves a smaller completed round or nothing.",
+          "line_ranges": [
+            "46-68"
+          ]
+        },
+        {
+          "canonical_theme": "founder-autonomy-and-control",
+          "claim": "Compare a medium angel round with an early Series A on dilution, board control, veto rights, help, time to close, and whether rejection leaves a smaller completed round or nothing.",
+          "line_ranges": [
+            "46-68"
+          ]
+        },
+        {
+          "canonical_theme": "funding-market-conditions",
+          "claim": "Map investor categories by check size, decision speed, capital source, portfolio load, attention, and follow-on motive; competition changes the price and value of investor help. Interpret valuation sensitivity through the investor's return model and expected exit horizon rather than assuming every investor optimizes for the same outcome.",
+          "line_ranges": [
+            "20-44",
+            "70-90"
+          ]
+        },
+        {
+          "canonical_theme": "funding-stage-fit",
+          "claim": "Map investor categories by check size, decision speed, capital source, portfolio load, attention, and follow-on motive; competition changes the price and value of investor help. Compare a medium angel round with an early Series A on dilution, board control, veto rights, help, time to close, and whether rejection leaves a smaller completed round or nothing.",
+          "line_ranges": [
+            "20-44",
+            "46-68"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "Compare a medium angel round with an early Series A on dilution, board control, veto rights, help, time to close, and whether rejection leaves a smaller completed round or nothing. Treat follow-on signaling as one input, limit dependence on any one investor, and prioritize concrete operating results that can outrank reputation inference in the next round.",
+          "line_ranges": [
+            "46-68",
+            "92-100"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Map investor categories by check size, decision speed, capital source, portfolio load, attention, and follow-on motive; competition changes the price and value of investor help. Interpret valuation sensitivity through the investor's return model and expected exit horizon rather than assuming every investor optimizes for the same outcome.",
+          "line_ranges": [
+            "20-44",
+            "70-90"
+          ]
+        },
+        {
+          "canonical_theme": "investor-truth-trust-and-reputation",
+          "claim": "Treat follow-on signaling as one input, limit dependence on any one investor, and prioritize concrete operating results that can outrank reputation inference in the next round.",
+          "line_ranges": [
+            "92-100"
+          ]
+        },
+        {
+          "canonical_theme": "valuation",
+          "claim": "Interpret valuation sensitivity through the investor's return model and expected exit horizon rather than assuming every investor optimizes for the same outcome.",
+          "line_ranges": [
+            "70-90"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "136",
+      "reviewer": "capital-source-union",
+      "audit_batch": "B",
+      "batch_reviewer": "capital-source-b",
+      "title": "Founder Control",
+      "source_url": "https://paulgraham.com/control.html",
+      "corpus_path": "136_founder-control.md",
+      "corpus_sha256": "1943d98eee50859b73bf6f74691f6ad2beca09ddc97cdd9bb963ddce1a90a7fd",
+      "line_count": 40,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Series A and post-financing board governance, not seed-note execution or general workplace autonomy.",
+        "The source conditions the forecast on the absence of financial catastrophe and acknowledges protective provisions."
+      ],
+      "tensions": [
+        "Founder board majority versus investor protective rights and fiduciary constraints.",
+        "Persuasion and trust versus the investor's ability to compel or replace leadership."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "The 2010 board-norm forecast is not current evidence. Verify governing documents, jurisdiction, fiduciary duties, protective provisions, stockholder rights, and comparable current financings with counsel."
+      ],
+      "boundary_routes": [
+        "Concrete legal governance requires qualified current counsel."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "financing-terms-equity-and-control",
+          "claim": "Model post-Series-A control from board composition, protective vetoes, fiduciary duties, and pre-vote bargaining leverage rather than equating a nominal seat majority with unlimited authority.",
+          "line_ranges": [
+            "14-26",
+            "28-28"
+          ]
+        },
+        {
+          "canonical_theme": "founder-autonomy-and-control",
+          "claim": "Model post-Series-A control from board composition, protective vetoes, fiduciary duties, and pre-vote bargaining leverage rather than equating a nominal seat majority with unlimited authority. Use current comparable deals to challenge alleged norms, and recognize that reduced investor compulsion makes mutual trust in founder judgment more important at selection time.",
+          "line_ranges": [
+            "14-26",
+            "28-28",
+            "30-36"
+          ]
+        },
+        {
+          "canonical_theme": "investor-truth-trust-and-reputation",
+          "claim": "Use current comparable deals to challenge alleged norms, and recognize that reduced investor compulsion makes mutual trust in founder judgment more important at selection time.",
+          "line_ranges": [
+            "30-36"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "137",
+      "reviewer": "capital-source-union",
+      "audit_batch": "B",
+      "batch_reviewer": "capital-source-b",
+      "title": "Subject: Airbnb",
+      "source_url": "https://paulgraham.com/airbnb.html",
+      "corpus_path": "137_subject-airbnb.md",
+      "corpus_sha256": "4c61030349ad0c2b95886804436e0b604b3e6f4c45f2c35c31f648450c6ad9bb",
+      "line_count": 272,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Very early, unfamiliar marketplace with weak surface plausibility, warm advocacy, and founders actively observing users.",
+        "A warm introduction and advocate are advantages, not substitutes for evidence, direct founder command, or independent investor judgment."
+      ],
+      "tensions": [
+        "Persistent advocacy versus pressuring an investor after disconfirming evidence.",
+        "Large future narrative versus a small present beachhead.",
+        "Trust in the advocate versus independent diligence."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "The 2009 Airbnb facts, market map, and investor process are historical. For a current company, rebuild the user, market, competition, and capital-efficiency evidence from current data."
+      ],
+      "boundary_routes": [
+        "User fieldwork and market expansion route to learning-from-users and acquiring-and-growing-users.",
+        "Founder assessment routes to evaluating-startups-and-founders."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "fundraising-readiness-and-investor-communication",
+          "claim": "A trusted advocate can open a direct founder meeting for an unfamiliar company by pairing a concise large-market thesis with concrete founder resourcefulness rather than merely forwarding a generic pitch. Prepare founders for ambivalence, insist that skeptical investors meet them before an internal verdict, and foreground direct user fieldwork and the team's ability to let the idea evolve. Build the market-size case from adjacent segments, an expansion path, capital efficiency, and observed countercyclical demand instead of repeating a headline ambition. Follow up with new evidence while preserving disconfirming facts about competition and multi-homing; advocacy should improve the model, not erase uncertainty.",
+          "line_ranges": [
+            "12-18",
+            "24-30",
+            "54-58",
+            "84-86",
+            "124-126",
+            "148-178",
+            "184-210",
+            "240-262"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "A trusted advocate can open a direct founder meeting for an unfamiliar company by pairing a concise large-market thesis with concrete founder resourcefulness rather than merely forwarding a generic pitch. Prepare founders for ambivalence, insist that skeptical investors meet them before an internal verdict, and foreground direct user fieldwork and the team's ability to let the idea evolve.",
+          "line_ranges": [
+            "12-18",
+            "24-30",
+            "54-58",
+            "84-86",
+            "124-126"
+          ]
+        },
+        {
+          "canonical_theme": "investor-truth-trust-and-reputation",
+          "claim": "A trusted advocate can open a direct founder meeting for an unfamiliar company by pairing a concise large-market thesis with concrete founder resourcefulness rather than merely forwarding a generic pitch. Follow up with new evidence while preserving disconfirming facts about competition and multi-homing; advocacy should improve the model, not erase uncertainty.",
+          "line_ranges": [
+            "12-18",
+            "24-30",
+            "240-262"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "145",
+      "reviewer": "capital-source-union",
+      "audit_batch": "B",
+      "batch_reviewer": "capital-source-b",
+      "title": "How Y Combinator Started",
+      "source_url": "https://paulgraham.com/ycstart.html",
+      "corpus_path": "145_how-y-combinator-started.md",
+      "corpus_sha256": "9a87044d44edf0b6e88603fe3709786b32b3c6bff5fc548643a7ff252bb312ad",
+      "line_count": 46,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": false
+      },
+      "conditions": [
+        "Historical formation of a seed institution, not a founder's live-round checklist.",
+        "The first program was explicitly an experiment; its batch structure was retained only after observed results."
+      ],
+      "tensions": [
+        "Standard terms and process speed versus venture-specific legal and economic needs.",
+        "Money alone versus high-touch setup and advice."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Do not reuse 2005 terms, percentages, documents, or institutional practices. Retain only the standardization, support, and bounded-experiment principles after current legal review."
+      ],
+      "boundary_routes": [
+        "Batch experiments, rapid launch, location, and organization formation route to shipping, organization-building, and calibrated-decision skills."
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "financing-terms-equity-and-control",
+          "claim": "A new seed institution can replace haphazard one-off transactions with more, smaller investments and standardized terms, while avoiding a structure or name that prematurely narrows the model. Standardized seed financing is more useful when paired with competent setup, practical guidance, and calm support rather than cash alone.",
+          "line_ranges": [
+            "14-24",
+            "24-28"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "149",
+      "reviewer": "capital-source-union",
+      "audit_batch": "C",
+      "batch_reviewer": "capital-source-c",
+      "title": "Startup = Growth",
+      "source_url": "https://paulgraham.com/growth.html",
+      "corpus_path": "149_startup-growth.md",
+      "corpus_sha256": "809ba3471a180baa9c4b5a07646a48e093baeb0b65eaef97dae54f7eb94dd0c2",
+      "line_count": 194,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Applies to scalable high-growth ventures, especially those with network effects or costly delay, not ordinary small businesses or default-dead rescue rounds.",
+        "A profitable company has more financing leverage and can compare financed acceleration against growth from revenue."
+      ],
+      "tensions": [
+        "Selling equity can reduce founder ownership, but sufficient acceleration can improve the value and defensibility of the retained stake.",
+        "Investor-compatible growth is not evidence that the company should raise; the capital must change the attainable growth path."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "The 2012 descriptions of VC exit preferences, monitoring costs, capital availability, and attractive terms are historical. Revalidate the current fund model, instrument, market cycle, and company-specific competitive urgency."
+      ],
+      "boundary_routes": [
+        {
+          "route_to": "acquiring-and-growing-users",
+          "line_ranges": [
+            "54-111",
+            "167-173"
+          ],
+          "reason": "Growth measurement, cadence, and metric integrity are operating guidance rather than financing mechanics."
+        },
+        {
+          "route_to": "designing-business-models",
+          "line_ranges": [
+            "14-32",
+            "155-157"
+          ],
+          "reason": "Venture scalability and market reach determine whether startup financing logic applies."
+        }
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "funding-stage-fit",
+          "claim": "Use outside capital for a scalable company when it can safely accelerate a defensible growth engine, including a profitable company facing network-effect or competitive speed risk; fundraising is not an inherent property of every startup.",
+          "line_ranges": [
+            "131-135",
+            "149-149"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "VCs favor companies capable of extreme growth partly because capital-gain exits are easier to monitor than profit distributions from privately controlled ordinary businesses; assess an investor's model against the venture's actual return shape.",
+          "line_ranges": [
+            "121-129"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "150",
+      "reviewer": "capital-source-union",
+      "audit_batch": "C",
+      "batch_reviewer": "capital-source-c",
+      "title": "The Hardware Renaissance",
+      "source_url": "https://paulgraham.com/hw.html",
+      "corpus_path": "150_the-hardware-renaissance.md",
+      "corpus_sha256": "87d77cbb3185098ffd313a1c57591f0aa92ff96abd2cd9dbc25d232acfc1c58d",
+      "line_count": 32,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": false
+      },
+      "conditions": [
+        "Applies to capital-intensive or manufacturing ventures when prototyping, production, distribution, or crowdfunding economics have shifted.",
+        "Investor skepticism remains relevant to process planning even when it is not reliable evidence about user demand."
+      ],
+      "tensions": [
+        "Contrarian founder conviction can identify investor lag, but cannot substitute for current cost, margin, manufacturing, and demand evidence."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "All concrete facts are from 2012. Revalidate current manufacturing lead times, component and compliance costs, crowdfunding rules, hardware investor appetite, batch performance, margins, and working-capital needs."
+      ],
+      "boundary_routes": [
+        {
+          "route_to": "choosing-startup-opportunities",
+          "line_ranges": [
+            "18-24"
+          ],
+          "reason": "The primary decision is whether changed hardware economics make the venture viable, not how to run a round."
+        }
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "funding-market-conditions",
+          "claim": "Treat investor category aversion as a lagging market signal when operating economics and direct founder results have changed; map the current evidence and alternative capital channels instead of accepting an inherited category average.",
+          "line_ranges": [
+            "14-24"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "152",
+      "reviewer": "capital-source-union",
+      "audit_batch": "C",
+      "batch_reviewer": "capital-source-c",
+      "title": "Startup Investing Trends",
+      "source_url": "https://paulgraham.com/invtrend.html",
+      "corpus_path": "152_startup-investing-trends.md",
+      "corpus_sha256": "44f60cd08bde6c5600dd0396194aaaa6b78d9831547a5106b306d776f8d4801f",
+      "line_count": 106,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Separates earliest-stage high-volume investing from the historical Series A model and its board-seat opportunity cost.",
+        "The founder-leverage mechanism is strongest for capital-light ventures with competing capital and weakest when the company urgently needs a concentrated, capital-heavy round."
+      ],
+      "tensions": [
+        "A fast, low-friction investor preserves operating time but still needs selection skill because easy access attracts weak companies as well as strong ones.",
+        "Lower dilution and founder control can improve alignment, while a company may still benefit from high-quality investor support and governance."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "This 2013 investor talk is explicitly a market forecast. Revalidate current Series A ownership targets, check sizes, option-pool treatment, board practices, seed access, valuations, fund economics, and instrument conventions before operational use."
+      ],
+      "boundary_routes": [
+        {
+          "route_to": "evaluating-startups-and-founders",
+          "line_ranges": [
+            "38-46",
+            "54-62"
+          ],
+          "reason": "Portfolio selection, founder supply, and investor risk appetite are primarily investor-side evaluation guidance."
+        },
+        {
+          "route_to": "designing-business-models",
+          "line_ranges": [
+            "26-34"
+          ],
+          "reason": "Capital-light venture economics determine bargaining position before a financing process begins."
+        }
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "deal-mechanics-and-terms",
+          "claim": "Size a round from the company's stage-specific capital need and the equity founders choose to sell, then let market valuation determine ownership, instead of inflating the round to satisfy a fund's target ownership or board-seat economics.",
+          "line_ranges": [
+            "64-78"
+          ]
+        },
+        {
+          "canonical_theme": "financing-terms-equity-and-control",
+          "claim": "When startup formation becomes cheaper and founder supply grows, revisit inherited financing assumptions: lower capital dependence can shift leverage toward founders, reducing the equity and control they need to surrender. Size a round from the company's stage-specific capital need and the equity founders choose to sell, then let market valuation determine ownership, instead of inflating the round to satisfy a fund's target ownership or board-seat economics.",
+          "line_ranges": [
+            "26-38",
+            "64-78"
+          ]
+        },
+        {
+          "canonical_theme": "founder-autonomy-and-control",
+          "claim": "When startup formation becomes cheaper and founder supply grows, revisit inherited financing assumptions: lower capital dependence can shift leverage toward founders, reducing the equity and control they need to surrender.",
+          "line_ranges": [
+            "26-38"
+          ]
+        },
+        {
+          "canonical_theme": "funding-market-conditions",
+          "claim": "When startup formation becomes cheaper and founder supply grows, revisit inherited financing assumptions: lower capital dependence can shift leverage toward founders, reducing the equity and control they need to surrender.",
+          "line_ranges": [
+            "26-38"
+          ]
+        },
+        {
+          "canonical_theme": "funding-stage-fit",
+          "claim": "Size a round from the company's stage-specific capital need and the equity founders choose to sell, then let market valuation determine ownership, instead of inflating the round to satisfy a fund's target ownership or board-seat economics.",
+          "line_ranges": [
+            "64-78"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "Treat decision speed, standard terms, and low negotiation burden as investor-selection criteria because fundraising imposes a high operating-time cost on a founder-only company.",
+          "line_ranges": [
+            "50-52",
+            "80-80"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "For power-law startup portfolios, investor selection quality matters more than optimizing entry price alone, and founder control can align with investor returns when investors serve rather than micromanage. Treat decision speed, standard terms, and low negotiation burden as investor-selection criteria because fundraising imposes a high operating-time cost on a founder-only company. Size a round from the company's stage-specific capital need and the equity founders choose to sell, then let market valuation determine ownership, instead of inflating the round to satisfy a fund's target ownership or board-seat economics.",
+          "line_ranges": [
+            "44-50",
+            "50-52",
+            "64-78",
+            "80-80"
+          ]
+        },
+        {
+          "canonical_theme": "valuation",
+          "claim": "For power-law startup portfolios, investor selection quality matters more than optimizing entry price alone, and founder control can align with investor returns when investors serve rather than micromanage. Size a round from the company's stage-specific capital need and the equity founders choose to sell, then let market valuation determine ownership, instead of inflating the round to satisfy a fund's target ownership or board-seat economics.",
+          "line_ranges": [
+            "44-50",
+            "64-78"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "154",
+      "reviewer": "capital-source-union",
+      "audit_batch": "C",
+      "batch_reviewer": "capital-source-c",
+      "title": "How to Convince Investors",
+      "source_url": "https://paulgraham.com/convince.html",
+      "corpus_path": "154_how-to-convince-investors.md",
+      "corpus_sha256": "4b648f3cf97de7c5f4bce9a8b8358124082114f091755f15a6d1fb1362c9f38b",
+      "line_count": 137,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "The evidence bar rises with company age and round stage; capital-heavy and long-build ventures may use technical milestones instead of early revenue.",
+        "The YC Demo Day examples are illustrative, not universal deadlines or proof thresholds."
+      ],
+      "tensions": [
+        "A founder must present the upside clearly without pretending an uncertain bet is certain.",
+        "Investor rejection can reveal a real weakness or conventional bias; investigate the concern before deciding which."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Revalidate current investor materials, round-stage labels, market-size conventions, and YC-specific process details. Preserve the truth, domain-command, stage-evidence, and clear-retelling principles."
+      ],
+      "boundary_routes": [
+        {
+          "route_to": "choosing-startup-opportunities",
+          "line_ranges": [
+            "60-72"
+          ],
+          "reason": "Market size, why-now timing, and a sequence from beachhead to large market also govern opportunity selection."
+        },
+        {
+          "route_to": "evaluating-startups-and-founders",
+          "line_ranges": [
+            "16-30"
+          ],
+          "reason": "Founder evaluation and power-law selection are investor-side judgments."
+        }
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "funding-stage-fit",
+          "claim": "Match the evidence bar to company stage: an early experiment may need a credible path to a large capturable market, while a later round must show that the experiment worked and that the company can exploit the market.",
+          "line_ranges": [
+            "60-72",
+            "117-121"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-readiness-and-investor-communication",
+          "claim": "Prepare by determining whether the startup is genuinely a good investment, developing domain command, and explaining the resulting case concisely and matter-of-factly; presentation cannot repair a weak or unexamined company. Match the evidence bar to company stage: an early experiment may need a credible path to a large capturable market, while a later round must show that the experiment worked and that the company can exploit the market.",
+          "line_ranges": [
+            "14-20",
+            "38-56",
+            "60-72",
+            "86-96",
+            "117-121"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "After rejection, ask for the actual concern, explain candidly why it may be mistaken, and make the case clear enough to survive partner-to-partner retelling instead of fabricating investor momentum.",
+          "line_ranges": [
+            "76-82",
+            "125-131"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Treat investor fixation on other investors as a quality signal: strong investors use independent judgment, while the company explanation must also survive internal partner retelling.",
+          "line_ranges": [
+            "82-82",
+            "125-125"
+          ]
+        },
+        {
+          "canonical_theme": "investor-truth-trust-and-reputation",
+          "claim": "Prepare by determining whether the startup is genuinely a good investment, developing domain command, and explaining the resulting case concisely and matter-of-factly; presentation cannot repair a weak or unexamined company. After rejection, ask for the actual concern, explain candidly why it may be mistaken, and make the case clear enough to survive partner-to-partner retelling instead of fabricating investor momentum.",
+          "line_ranges": [
+            "14-20",
+            "38-56",
+            "76-82",
+            "86-96",
+            "125-131"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "155",
+      "reviewer": "capital-source-union",
+      "audit_batch": "C",
+      "batch_reviewer": "capital-source-c",
+      "title": "Investor Herd Dynamics",
+      "source_url": "https://paulgraham.com/herd.html",
+      "corpus_path": "155_investor-herd-dynamics.md",
+      "corpus_sha256": "7e1660bac822a9967a8b7b9a601144c7e9500850cbe597f415e884d31ae31980",
+      "line_count": 48,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Most relevant while assembling an early round from multiple investors; a single negotiated lead round may behave differently.",
+        "The first commitment matters most where investors can observe and react to one another's interest."
+      ],
+      "tensions": [
+        "Real momentum can reduce financing risk, but manufacturing a stampede sacrifices truth and can select for weak investors.",
+        "Raising price can reflect reduced risk while damaging trust or losing needed capital."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "The social-proof mechanism is durable, but the 2013 distinction between angels and VCs, convertible-debt treatment, information flows, and valuation-cap examples require current legal and market verification."
+      ],
+      "boundary_routes": [
+        {
+          "route_to": "making-calibrated-decisions",
+          "line_ranges": [
+            "14-18",
+            "26-28"
+          ],
+          "reason": "Herding is also evidence about correlated judgment and weak information aggregation."
+        }
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "Expect investor interest to be socially correlated, distinguish high-quality independent judgment from herd-following, run enough parallel conversations to reach the first commitment, and do not confuse fundraising popularity with company quality. Use only genuine external deadlines, tell a preferred investor the truth about timing without exaggeration, and protect each firm's identity unless disclosure is appropriate.",
+          "line_ranges": [
+            "14-18",
+            "24-34",
+            "28-32"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Expect investor interest to be socially correlated, distinguish high-quality independent judgment from herd-following, run enough parallel conversations to reach the first commitment, and do not confuse fundraising popularity with company quality.",
+          "line_ranges": [
+            "14-18",
+            "24-34"
+          ]
+        },
+        {
+          "canonical_theme": "investor-truth-trust-and-reputation",
+          "claim": "Use only genuine external deadlines, tell a preferred investor the truth about timing without exaggeration, and protect each firm's identity unless disclosure is appropriate.",
+          "line_ranges": [
+            "28-32"
+          ]
+        },
+        {
+          "canonical_theme": "valuation",
+          "claim": "A real first close can reduce risk and justify a later price increase, but change price only when the company can afford to lose investors who reject the new valuation.",
+          "line_ranges": [
+            "20-22"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "156",
+      "reviewer": "capital-source-union",
+      "audit_batch": "C",
+      "batch_reviewer": "capital-source-c",
+      "title": "How to Raise Money",
+      "source_url": "https://paulgraham.com/fr.html",
+      "corpus_path": "156_how-to-raise-money.md",
+      "corpus_sha256": "1a56f8dacf98ced76f56bc50255159e4fec0c10038d13934453ef336ca8b101e",
+      "line_count": 386,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "The essay explicitly focuses on its historical phase 2; phase 1 accelerator applications and later negotiated rounds require different sequencing and proof.",
+        "Long-build or capital-intensive ventures may need technical or regulatory milestones rather than early profitability, while rescue financing must first pass the survival workflow."
+      ],
+      "tensions": [
+        "Speed and certainty reduce distraction, but investor quality and material terms can justify bounded diligence.",
+        "A lower valuation can close a round, while an artificially low or high price can both damage future optionality.",
+        "Truthful momentum and parallel process create leverage; fabricated interest and ambiguous commitments destroy calibration."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Nearly every numeric threshold, instrument, paperwork convention, round label, ownership percentage, valuation example, role title, deck convention, platform, and lead-round description is from 2013. Verify current securities law, instruments, caps, SAFEs or notes, fund roles, market prices, dilution, option pools, no-shop terms, and round process with qualified counsel and current data."
+      ],
+      "boundary_routes": [
+        {
+          "route_to": "managing-runway-and-survival",
+          "line_ranges": [
+            "116-154",
+            "258-290"
+          ],
+          "reason": "Zero-dollar plans, profitability, burn, spending, and hiring state are survival guidance even though they affect financing leverage."
+        },
+        {
+          "route_to": "operating-with-focus-and-morale",
+          "line_ranges": [
+            "38-48",
+            "220-230",
+            "244-256"
+          ],
+          "reason": "Attention containment and avoiding fundraising addiction are operating-focus mechanisms."
+        }
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "deal-mechanics-and-terms",
+          "claim": "Treat every investor as a no until an unconditional commitment is confirmed and the deal as incomplete until cash arrives. Optimize first for sufficient capital and investor quality, then valuation; account for future-round constraints rather than letting an eager first check set the price.",
+          "line_ranges": [
+            "60-68",
+            "78-98",
+            "156-218",
+            "258-266"
+          ]
+        },
+        {
+          "canonical_theme": "financing-terms-equity-and-control",
+          "claim": "Optimize first for sufficient capital and investor quality, then valuation; account for dilution and future-round constraints rather than letting an eager first check set an unsustainable price.",
+          "line_ranges": [
+            "156-218",
+            "258-266"
+          ]
+        },
+        {
+          "canonical_theme": "funding-market-conditions",
+          "claim": "Change tactics by financing stage and current market structure: seed checks, negotiated lead rounds, accelerators, termsheets, and investor materials do not share one invariant process.",
+          "line_ranges": [
+            "100-114",
+            "192-218",
+            "232-240"
+          ]
+        },
+        {
+          "canonical_theme": "funding-stage-fit",
+          "claim": "Identify the actual financing phase and raise only when capital can accelerate the company and stage-appropriate evidence can convince investors; later rounds demand proof that the earlier experiment worked. Change tactics by financing stage and current market structure: seed checks, negotiated lead rounds, accelerators, termsheets, and investor materials do not share one invariant process.",
+          "line_ranges": [
+            "14-18",
+            "32-36",
+            "100-114",
+            "192-218",
+            "232-240",
+            "280-290"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-readiness-and-investor-communication",
+          "claim": "Identify the actual financing phase and raise only when capital can accelerate the company and stage-appropriate evidence can convince investors; later rounds demand proof that the earlier experiment worked. Use a short factual summary of plan, rationale, and progress, assume materials may circulate, disclose material threats forthrightly, and preserve relationships through respectful conduct in both acceptance and rejection.",
+          "line_ranges": [
+            "14-18",
+            "32-36",
+            "232-240",
+            "268-278",
+            "280-290"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-strategy-and-process",
+          "claim": "Run fundraising as a bounded mode, assign one founder to contain it, pursue investors in parallel weighted by expected value, leave every meeting with a next step, and finish promptly so product and user work can resume. Prioritize investors who can decide independently, move quickly, and offer acceptable partnership value; defer contingent followers and high-friction negotiators, and prefer a definite acceptable offer to an uncertain better one.",
+          "line_ranges": [
+            "38-48",
+            "70-76",
+            "78-84",
+            "100-114",
+            "182-204",
+            "220-230",
+            "292-296"
+          ]
+        },
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Prioritize investors who can decide independently, move quickly, and offer acceptable partnership value; defer contingent followers and high-friction negotiators, and prefer a definite acceptable offer to an uncertain better one.",
+          "line_ranges": [
+            "100-114",
+            "182-204"
+          ]
+        },
+        {
+          "canonical_theme": "investor-truth-trust-and-reputation",
+          "claim": "Treat every investor as a no until an unconditional commitment is confirmed and judge progress by actions. Use short factual materials, assume they may circulate, and preserve relationships through respectful conduct.",
+          "line_ranges": [
+            "60-68",
+            "78-98",
+            "232-240",
+            "268-278"
+          ]
+        },
+        {
+          "canonical_theme": "valuation",
+          "claim": "Optimize first for sufficient capital and investor quality, then valuation; account for dilution and future-round constraints rather than letting an eager first check set an unsustainable price.",
+          "line_ranges": [
+            "156-218",
+            "258-266"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "165",
+      "reviewer": "capital-source-union",
+      "audit_batch": "C",
+      "batch_reviewer": "capital-source-c",
+      "title": "The Ronco Principle",
+      "source_url": "https://paulgraham.com/ronco.html",
+      "corpus_path": "165_the-ronco-principle.md",
+      "corpus_sha256": "6ce1e4310f4c9b627fd9b4c36eaa3097925f837e579f6648169ecafeeaa11207",
+      "line_count": 48,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Most useful during investor diligence and relationship governance, not as a tactic for generating fundraising momentum.",
+        "The reputation mechanism is strongest where founders share information and future counterparties are hard to predict."
+      ],
+      "tensions": [
+        "Being fair and trustworthy does not require accepting bad terms or avoiding firm boundaries."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Do not rely on a 2015 personal endorsement or historical deal list. Gather current, independent references from founders across outcomes and verify recent investor conduct, conflicts, support, and governance behavior."
+      ],
+      "boundary_routes": [
+        {
+          "route_to": "building-startup-ecosystems",
+          "line_ranges": [
+            "16-32"
+          ],
+          "reason": "Referral networks and ecosystem transparency also explain how investor communities allocate access."
+        }
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "investor-incentives-and-selection",
+          "claim": "Select investors from a long record of founder reports and conduct, especially under conflict: in a connected, transparent, and unpredictable ecosystem, consistent fair behavior compounds into trust and access while mistreatment loses future deals.",
+          "line_ranges": [
+            "12-32",
+            "40-42"
+          ]
+        },
+        {
+          "canonical_theme": "investor-truth-trust-and-reputation",
+          "claim": "Select investors from a long record of founder reports and conduct, especially under conflict: in a connected, transparent, and unpredictable ecosystem, consistent fair behavior compounds into trust and access while mistreatment loses future deals.",
+          "line_ranges": [
+            "12-32",
+            "40-42"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "174",
+      "reviewer": "capital-source-union",
+      "audit_batch": "C",
+      "batch_reviewer": "capital-source-c",
+      "title": "Economic Inequality",
+      "source_url": "https://paulgraham.com/ineq.html",
+      "corpus_path": "174_economic-inequality.md",
+      "corpus_sha256": "67be621565fcf58b5a5c1b75c637fa58cf5b3ff685902f16b0b5d15237f683ea",
+      "line_count": 126,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "This is a single supporting observation about capital-light startup formation, not a general claim for all venture types or rounds.",
+        "The leverage mechanism weakens when a company needs large pre-revenue capital or has few financing alternatives."
+      ],
+      "tensions": [
+        "Retaining board votes can preserve autonomy, while investor vetoes, information rights, and financing dependence may still constrain decisions."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "The claim describes the market as of 2016. Verify present capital requirements, investor competition, dilution, protective provisions, board composition, and actual founder authority; nominal board control does not capture all veto rights."
+      ],
+      "boundary_routes": [
+        {
+          "route_to": "making-calibrated-decisions",
+          "line_ranges": [
+            "14-88"
+          ],
+          "reason": "The essay's primary workflow is decomposing an aggregate metric into causal mechanisms."
+        }
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "financing-terms-equity-and-control",
+          "claim": "When technology lowers the capital required to start, founders may gain negotiating leverage, retain more equity, and preserve board control; measure those outcomes rather than assuming an inherited financing norm.",
+          "line_ranges": [
+            "60-60"
+          ]
+        },
+        {
+          "canonical_theme": "founder-autonomy-and-control",
+          "claim": "When technology lowers the capital required to start, founders may gain negotiating leverage, retain more equity, and preserve board control; measure those outcomes rather than assuming an inherited financing norm.",
+          "line_ranges": [
+            "60-60"
+          ]
+        },
+        {
+          "canonical_theme": "funding-market-conditions",
+          "claim": "When technology lowers the capital required to start, founders may gain negotiating leverage, retain more equity, and preserve board control; measure those outcomes rather than assuming an inherited financing norm.",
+          "line_ranges": [
+            "60-60"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "176",
+      "reviewer": "capital-source-union",
+      "audit_batch": "C",
+      "batch_reviewer": "capital-source-c",
+      "title": "How to Make Pittsburgh a Startup Hub",
+      "source_url": "https://paulgraham.com/pgh.html",
+      "corpus_path": "176_how-to-make-pittsburgh-a-startup-hub.md",
+      "corpus_sha256": "ca36b66b9386989e62436a5da8f896d7d98b3f692bf01f638d2f93a8ba6a34fc",
+      "line_count": 86,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Applies to a startup whose location has weak local capital access but enough talent and operating support to build there.",
+        "Capital-light and customer-financeable ventures can delay institutional capital more readily than long-build, regulated, or manufacturing ventures."
+      ],
+      "tensions": [
+        "A company can use nonlocal capital while helping a local investor network grow organically; waiting for the ecosystem must not become the financing plan."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "The Pittsburgh diagnosis, Kickstarter role, YC mobility assumptions, local demographics, and nonlocal-capital access are from 2016. Revalidate current geography, program requirements, capital sources, remote diligence, securities rules, and customer-financing feasibility."
+      ],
+      "boundary_routes": [
+        {
+          "route_to": "building-startup-ecosystems",
+          "line_ranges": [
+            "12-82"
+          ],
+          "reason": "The essay's primary workflow concerns talent, universities, local culture, policy, amenities, and the slow formation of an investor community."
+        }
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "funding-market-conditions",
+          "claim": "When local investors are scarce, do not assume a mature investor community can be created quickly; match the company's stage to current alternatives such as lower initial capital needs, customer-backed financing, or temporary accelerator access.",
+          "line_ranges": [
+            "74-78"
+          ]
+        },
+        {
+          "canonical_theme": "funding-stage-fit",
+          "claim": "When local investors are scarce, do not assume a mature investor community can be created quickly; match the company's stage to current alternatives such as lower initial capital needs, customer-backed financing, or temporary accelerator access.",
+          "line_ranges": [
+            "74-78"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "182",
+      "reviewer": "capital-source-union",
+      "audit_batch": "C",
+      "batch_reviewer": "capital-source-c",
+      "title": "The Lesson to Unlearn",
+      "source_url": "https://paulgraham.com/lesson.html",
+      "corpus_path": "182_the-lesson-to-unlearn.md",
+      "corpus_sha256": "4195472a2fc8d6fdfd7134c3e0da9e0c1328c964e82dc851e21b4717abc4104e",
+      "line_count": 144,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Applies before or during a raise when the team is substituting launch theater, social proof, or fundraising scores for company evidence.",
+        "A long-build venture may use real technical, regulatory, or commercial milestones rather than immediate usage or revenue."
+      ],
+      "tensions": [
+        "A financing process still needs communication and sequencing, but process cannot convert weak fundamentals into readiness."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "The anti-proxy principle is durable. Revalidate which evidence is direct for the venture and stage instead of treating the essay's revenue-or-usage shorthand as universal."
+      ],
+      "boundary_routes": [
+        {
+          "route_to": "shipping-and-iterating-products / acquiring-and-growing-users",
+          "line_ranges": [
+            "64-82"
+          ],
+          "reason": "Product usefulness and user growth are the underlying work that produces fundraising evidence."
+        },
+        {
+          "route_to": "making-calibrated-decisions",
+          "line_ranges": [
+            "12-62",
+            "98-132"
+          ],
+          "reason": "The broader essay distinguishes direct outcomes from authority-imposed, hackable proxies."
+        }
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "fundraising-readiness-and-investor-communication",
+          "claim": "When founders ask for a trick to attract capital, redirect them to the direct readiness test: make the company a good investment by producing a useful product and real revenue or usage growth rather than optimizing a hackable fundraising proxy.",
+          "line_ranges": [
+            "62-82"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "196",
+      "reviewer": "capital-source-union",
+      "audit_batch": "C",
+      "batch_reviewer": "capital-source-c",
+      "title": "Billionaires Build",
+      "source_url": "https://paulgraham.com/ace.html",
+      "corpus_path": "196_billionaires-build.md",
+      "corpus_sha256": "b78d4775ee632c3c4b43701d35f9e13b5eb120aaa59f1f91543fa553f9f9bd31",
+      "line_count": 114,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "Explicitly seed and accelerator-stage; later rounds need operating evidence beyond a promising hypothesis and founder expertise.",
+        "A capital-heavy product can show urgent demand and credible technical execution before revenue, but still needs a stage-appropriate milestone case."
+      ],
+      "tensions": [
+        "A founder should teach the investor from genuine expertise while remaining explicit about uncertainty and risk."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "The 2020 claims about a ten-minute YC interview, question format, and selection practice can change. Verify current YC instructions or the target investor's actual diligence process; retain the user-evidence and candor principles."
+      ],
+      "boundary_routes": [
+        {
+          "route_to": "learning-from-users",
+          "line_ranges": [
+            "24-56",
+            "98-100"
+          ],
+          "reason": "Direct user understanding and urgent first-user evidence are the underlying company work."
+        },
+        {
+          "route_to": "evaluating-startups-and-founders",
+          "line_ranges": [
+            "72-86"
+          ],
+          "reason": "Founder qualities, cofounder relationship, motivation, and authenticity are investor-side evaluation evidence."
+        }
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "funding-stage-fit",
+          "claim": "At seed stage, investors can reasonably expect a thoughtful and honest promising hypothesis with real initial demand, not certainty or mature-company proof.",
+          "line_ranges": [
+            "30-36",
+            "66-70"
+          ]
+        },
+        {
+          "canonical_theme": "fundraising-readiness-and-investor-communication",
+          "claim": "Prepare for seed investor diligence by identifying urgent first users, showing a plausible path from the initial market to a large one, and teaching investors what direct user evidence reveals instead of relying on a polished pitch.",
+          "line_ranges": [
+            "24-56",
+            "58-58"
+          ]
+        },
+        {
+          "canonical_theme": "investor-truth-trust-and-reputation",
+          "claim": "Answer the question asked, admit unknowns and explain how to resolve them, and discuss failure modes, competitors, strengths, and weaknesses candidly; attempting to make a risky seed hypothesis look perfect weakens trust.",
+          "line_ranges": [
+            "58-70"
+          ]
+        }
+      ]
+    },
+    {
+      "skill_name": "raising-and-governing-capital",
+      "article_no": "201",
+      "reviewer": "capital-source-union",
+      "audit_batch": "C",
+      "batch_reviewer": "capital-source-c",
+      "title": "How People Get Rich Now",
+      "source_url": "https://paulgraham.com/richnow.html",
+      "corpus_path": "201_how-people-get-rich-now.md",
+      "corpus_sha256": "f7d5ba013ed31c6ea38f688169354bc64fd84c2acf662810a439ff47718d2aed",
+      "line_count": 106,
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      },
+      "conditions": [
+        "The leverage mechanism is strongest for capital-light technology-led companies that can reach evidence before raising; factory, hardware, biotech, and regulated ventures may still need investor permission for early milestones.",
+        "Large elective rounds can coexist with cheap formation when a proven company chooses acceleration rather than requiring capital to exist."
+      ],
+      "tensions": [
+        "Lower dependency can preserve autonomy, but taking more capital may still improve the retained stake's expected value when use of funds is explicit and effective.",
+        "High valuation reduces immediate dilution while increasing future performance and financing constraints."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "The 2021 claims about founder-investor leverage, venture-capital abundance, valuations, startup costs, acquisition costs, and giant rounds require current market and venture-specific data. Verify instrument, round terms, dilution, burn, milestone, and actual use of funds."
+      ],
+      "boundary_routes": [
+        {
+          "route_to": "designing-business-models / choosing-startup-opportunities",
+          "line_ranges": [
+            "22-68"
+          ],
+          "reason": "Technology-led company formation, scalable venture definition, growth economics, and incumbent disruption determine whether this financing model applies."
+        },
+        {
+          "route_to": "managing-runway-and-survival",
+          "line_ranges": [
+            "92-94"
+          ],
+          "reason": "Whether extra dollars extend runway or create waste requires a separate operating survival plan."
+        }
+      ],
+      "theme_evidence": [
+        {
+          "canonical_theme": "deal-mechanics-and-terms",
+          "claim": "Evaluate a round in both dollars and dilution: a higher valuation can mean selling less stock or raising more, and additional capital is justified only when it improves success odds, extends optionality, or accelerates a validated company rather than merely funding survival.",
+          "line_ranges": [
+            "92-94"
+          ]
+        },
+        {
+          "canonical_theme": "financing-terms-equity-and-control",
+          "claim": "Lower product and customer-acquisition costs can reduce founder dependence on investor permission, increase bargaining leverage, raise valuations, and improve the equity terms available for a given amount of capital. Evaluate a round in both dollars and dilution: a higher valuation can mean selling less stock or raising more, and additional capital is justified only when it improves success odds, extends optionality, or accelerates a validated company rather than merely funding survival.",
+          "line_ranges": [
+            "54-58",
+            "92-94"
+          ]
+        },
+        {
+          "canonical_theme": "founder-autonomy-and-control",
+          "claim": "Lower product and customer-acquisition costs can reduce founder dependence on investor permission, increase bargaining leverage, raise valuations, and improve the equity terms available for a given amount of capital.",
+          "line_ranges": [
+            "54-58"
+          ]
+        },
+        {
+          "canonical_theme": "funding-market-conditions",
+          "claim": "Lower product and customer-acquisition costs can reduce founder dependence on investor permission, increase bargaining leverage, raise valuations, and improve the equity terms available for a given amount of capital.",
+          "line_ranges": [
+            "54-58"
+          ]
+        },
+        {
+          "canonical_theme": "funding-stage-fit",
+          "claim": "Evaluate a round in both dollars and dilution: a higher valuation can mean selling less stock or raising more, and additional capital is justified only when it improves success odds, extends optionality, or accelerates a validated company rather than merely funding survival.",
+          "line_ranges": [
+            "92-94"
+          ]
+        },
+        {
+          "canonical_theme": "valuation",
+          "claim": "Lower product and customer-acquisition costs can reduce founder dependence on investor permission, increase bargaining leverage, raise valuations, and improve the equity terms available for a given amount of capital. Evaluate a round in both dollars and dilution: a higher valuation can mean selling less stock or raising more, and additional capital is justified only when it improves success odds, extends optionality, or accelerates a validated company rather than merely funding survival.",
+          "line_ranges": [
+            "54-58",
+            "92-94"
+          ]
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "article_no": "048",
+      "title": "After the Ladder",
+      "source_url": "https://paulgraham.com/ladder.html",
+      "corpus_path": "048_after-the-ladder.md",
+      "corpus_sha256": "30b0fda3c7700fae5b6d3920063d9831b337a64b8183b8ef5cb41536ff74b39e",
+      "line_count": 36,
+      "audit_batch": "A",
+      "batch_reviewer": "capital-source-a",
+      "reviewer": "capital-source-union",
+      "excluded_from_skill": true,
+      "specific_reason": "Career ownership and liquidity optionality are not startup financing terms or investor governance.",
+      "conditions": [
+        "Career-choice framing only; no financing stage."
+      ],
+      "tensions": [
+        "Visible ownership/liquidity versus implicit job security and deferred corporate rewards."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Employment security and liquidity vary by era and jurisdiction, but that does not create capital-governance fit."
+      ],
+      "routes": [
+        "Entire essay -> preparing-to-found and making-calibrated-decisions."
+      ],
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      }
+    },
+    {
+      "article_no": "073",
+      "title": "Why to Not Not Start a Startup",
+      "source_url": "https://paulgraham.com/notnot.html",
+      "corpus_path": "073_why-to-not-not-start-a-startup.md",
+      "corpus_sha256": "1d65d63e2052bb58fee7841dd4b123647f1ad59a9eca2443a8ecc1ee43c1a810",
+      "line_count": 248,
+      "audit_batch": "A",
+      "batch_reviewer": "capital-source-a",
+      "reviewer": "capital-source-union",
+      "excluded_from_skill": true,
+      "specific_reason": "Personal commitment and independence are founder-readiness evidence, not financing control.",
+      "conditions": [
+        "Pre-formation readiness; no live financing."
+      ],
+      "tensions": [
+        "Independence/uncertainty versus employment structure/security."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "YC rates, age, labor markets, regional failure stigma and acquisition assumptions are historical."
+      ],
+      "routes": [
+        "Entire essay -> preparing-to-found, choosing-startup-opportunities and forming-founder-partnerships."
+      ],
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      }
+    },
+    {
+      "article_no": "089",
+      "title": "You Weren't Meant to Have a Boss",
+      "source_url": "https://paulgraham.com/boss.html",
+      "corpus_path": "089_you-weren-t-meant-to-have-a-boss.md",
+      "corpus_sha256": "89653782baf540ad1e3b5dc669536f149573b8abdc18560528ba0302f0494302",
+      "line_count": 114,
+      "audit_batch": "B",
+      "batch_reviewer": "capital-source-b",
+      "reviewer": "capital-source-union",
+      "excluded_from_skill": true,
+      "specific_reason": "Maker autonomy inside an organization is not control created by a financing round.",
+      "conditions": [
+        "Maker-heavy technology work and organization-size choices, not a financing stage.",
+        "The conclusion does not establish that all small-company leaders preserve autonomy or that all founders should raise capital."
+      ],
+      "tensions": [
+        "Autonomy and learning versus salary, safety, and brand.",
+        "Small teams versus the need to coordinate at scale."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "No current financing revalidation can repair the category mismatch. The credit-card debt warning at line 104 remains broadly prudent but should be checked against current legal and financing alternatives for a concrete case."
+      ],
+      "routes": [
+        "Route to preparing-to-found, building-and-evolving-organizations, and making-calibrated-decisions."
+      ],
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      }
+    },
+    {
+      "article_no": "159",
+      "title": "The Fatal Pinch",
+      "source_url": "https://paulgraham.com/pinch.html",
+      "corpus_path": "159_the-fatal-pinch.md",
+      "corpus_sha256": "fe19127bb8528a9ac0736ce809d7a0865f274a1134afa27c5ca4f4ea7d43f034",
+      "line_count": 77,
+      "audit_batch": "C",
+      "batch_reviewer": "capital-source-c",
+      "reviewer": "capital-source-union",
+      "excluded_from_skill": true,
+      "specific_reason": "The fatal pinch is an explicit survival-first non-trigger; rescue-raise hope must not delay the runway workflow.",
+      "conditions": [
+        "Applies only after short runway, high burn, and weak revenue or agreed progress create an acute survival state.",
+        "Long-build ventures qualify only when initial investors agreed beforehand to progress rather than revenue as the milestone."
+      ],
+      "tensions": [
+        "A rescue round may be possible, but assuming it is the plan delays actions that preserve survival optionality."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "The survival mechanism is durable, but the eight-month example and investor-rescue probabilities are not current market forecasts. Use actual cash, burn, milestone, and signed financing evidence."
+      ],
+      "routes": [
+        {
+          "route_to": "managing-runway-and-survival",
+          "line_ranges": [
+            "12-67"
+          ],
+          "reason": "The procedure is to diagnose a fatal-pinch state, assume rescue capital is unavailable until funded, cut burn, and find emergency revenue."
+        },
+        {
+          "route_to": "learning-from-users / designing-business-models",
+          "line_ranges": [
+            "47-59"
+          ],
+          "reason": "Emergency customer work and productized-service boundaries are user and business-model procedures."
+        }
+      ],
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      }
+    },
+    {
+      "article_no": "169",
+      "title": "Default Alive or Default Dead?",
+      "source_url": "https://paulgraham.com/aord.html",
+      "corpus_path": "169_default-alive-or-default-dead.md",
+      "corpus_sha256": "139c0bbcb1bef10681478da73995f70990f6cbeda34d09f4be622a9f75e9c8f0",
+      "line_count": 66,
+      "audit_batch": "C",
+      "batch_reviewer": "capital-source-c",
+      "reviewer": "capital-source-union",
+      "excluded_from_skill": true,
+      "specific_reason": "Default-dead diagnosis and its financing contingency belong to survival planning, not raise execution.",
+      "conditions": [
+        "Applies after enough operating history exists to project revenue growth and expenses against cash.",
+        "Fundraising is only a contingent plan A for a default-dead company; the company must define plan B and its switch date first."
+      ],
+      "tensions": [
+        "Strong growth can attract investors, yet even strong growth cannot make fundraising a safe survival assumption."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "Do not reuse the essay's 5x annual growth example as a current investor threshold. Model the actual company and verify current investor appetite, but never count unsigned financing as survival cash."
+      ],
+      "routes": [
+        {
+          "route_to": "managing-runway-and-survival",
+          "line_ranges": [
+            "12-44"
+          ],
+          "reason": "Default-alive diagnosis, a written contingency, hiring restraint, and survival timing are the entire operating procedure."
+        },
+        {
+          "route_to": "building-and-evolving-organizations",
+          "line_ranges": [
+            "34-44"
+          ],
+          "reason": "Headcount must follow validated growth rather than precede it."
+        }
+      ],
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      }
+    },
+    {
+      "article_no": "198",
+      "title": "What I Worked On",
+      "source_url": "https://paulgraham.com/worked.html",
+      "corpus_path": "198_what-i-worked-on.md",
+      "corpus_sha256": "a9cc3eb8cbe406dafd8a6265979043dea229cced203093999c6716c450725f6e",
+      "line_count": 350,
+      "audit_batch": "C",
+      "batch_reviewer": "capital-source-c",
+      "reviewer": "capital-source-union",
+      "excluded_from_skill": true,
+      "specific_reason": "The memoir's historical funding dependence is operating history, not reusable round guidance.",
+      "conditions": [
+        "The relevant material is retrospective evidence about one Internet-Bubble software company and the creation of an accelerator, not a financing-process prescription.",
+        "Investor-induced hiring pressure mattered because the company delayed breakeven and remained dependent on investors."
+      ],
+      "tensions": [
+        "Investor advice can supply useful support while also encouraging spending or hiring that increases dependency; operating state must govern the decision."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "The $10,000-for-10% Viaweb deal, original YC deal, 2005 investor structure, Internet-Bubble norms, and accelerator formation are historical facts, not current terms or process guidance."
+      ],
+      "routes": [
+        {
+          "route_to": "managing-runway-and-survival / building-and-evolving-organizations",
+          "line_ranges": [
+            "158-160"
+          ],
+          "reason": "The actionable lesson is to relate growth, hiring, profitability, and investor dependence."
+        },
+        {
+          "route_to": "building-startup-ecosystems / advising-and-supporting-founders",
+          "line_ranges": [
+            "212-242"
+          ],
+          "reason": "The YC history concerns accelerator design, seed support, cohorts, and founder services."
+        },
+        {
+          "route_to": "historical-and-source-context",
+          "line_ranges": [
+            "132-134",
+            "214-238",
+            "324-336"
+          ],
+          "reason": "The specific deals and investor-market customs document historical context only."
+        }
+      ],
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      }
+    },
+    {
+      "article_no": "199",
+      "title": "Donate Unrestricted",
+      "source_url": "https://paulgraham.com/donate.html",
+      "corpus_path": "199_donate-unrestricted.md",
+      "corpus_sha256": "1f43fecc6bbd25db3b14b138fb570fa5a9fea2ef131edb4413490f67cbba9316",
+      "line_count": 32,
+      "audit_batch": "C",
+      "batch_reviewer": "capital-source-c",
+      "reviewer": "capital-source-union",
+      "excluded_from_skill": true,
+      "specific_reason": "Restricted nonprofit donations are too remote an analogy and would create a false startup-capital trigger.",
+      "conditions": [
+        "The source concerns nonprofit donations, umbrella organizations, and donor-recipient power asymmetry; it contains no startup, investor, round, term, valuation, dilution, board, or fundraising-stage evidence."
+      ],
+      "tensions": [
+        "Operator autonomy can improve local allocation, while legal restrictions, explicit program purpose, or genuine allocator expertise may justify constraints."
+      ],
+      "revalidation_required": true,
+      "revalidation_notes": [
+        "The nonprofit allocation principle may remain useful, but its exceptions depend on current donor restrictions, law, tax, grant obligations, and domain expertise. None converts it into startup financing evidence."
+      ],
+      "routes": [
+        {
+          "route_to": "advising-and-supporting-founders",
+          "line_ranges": [
+            "12-24"
+          ],
+          "reason": "The transferable mental model is to trust a competent operator's local allocation judgment and recognize candor loss under power asymmetry."
+        },
+        {
+          "route_to": "making-calibrated-decisions",
+          "line_ranges": [
+            "14-24"
+          ],
+          "reason": "The allocator must test competence and domain expertise before delegating resource decisions."
+        }
+      ],
+      "retrieval_attestation": {
+        "batch_bm25": true,
+        "batch_semantic": true,
+        "batch_full_text_read": true,
+        "union_bm25_semantic_and_full_text_rerun": true
+      }
+    }
+  ]
+}

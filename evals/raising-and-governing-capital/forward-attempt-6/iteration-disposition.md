@@ -1,0 +1,3 @@
+# Attempt 6 disposition
+
+Attempt 6 is a valid material improvement but is superseded by the independent package-level final review. It improved the frozen no-skill baseline from 1/25 to an authoritative 21/25 while preserving five first completions, the package freeze, and the full scoring hash chain. The review found that unanchored scores or hard-coded offer preference could still feed an irreversible acceptance, plus cross-skill routing and acceptance-versus-closing ambiguities. The response bodies remain byte-identical to their generation hashes; only validator metadata was appended after adjudication. Attempt 6 is preserved as non-final evidence and must not be reused or rescored.

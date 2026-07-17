@@ -1222,3 +1222,44 @@ Full discovery reported `Ran 31 tests` and `OK`; Python compilation, the manifes
 - Library progress after the required quality-contract milestone: `13/21` planned
   skills implemented; skill `14` is next: `raising-and-governing-capital`.
   Blockers under PROJECT_BRIEF: none.
+
+## Checkpoint 4 skill 14 verified: `raising-and-governing-capital`
+
+- Source audit: three disjoint partitions covered all `49` assigned essays with
+  BM25, semantic QMD, and full-document reads. The reconciled package retains
+  `42` essays, excludes `7` with specific reasons, owns `10` themes and `146`
+  exact essay-theme pairs, and keeps all `303` retained evidence ranges inside
+  the canonical audit and corpus bounds.
+- RED/GREEN evidence: the frozen no-skill baseline scored `1/25`. Attempts 1,
+  3, and 4 were invalid generation runs; attempt 2 scored `19/25`; attempt 5
+  scored `23/25` but was superseded by a circular acceptance/closing review;
+  attempt 6 scored `21/25` but final review found subjective selection and
+  routing defects. The final one-shot attempt 7 scored `17/25 = 0.68`, a
+  `+0.64` normalized improvement over baseline. The lower score preserves safe
+  intentional divergences from the old rubric rather than gaming it.
+- Final remediation: offer choice now uses hard gates, factor-specific anchors,
+  frozen weights/aggregation, unique-winner and tie behavior; `ZaR→ZaE` company
+  acceptance is separate from `ZcR→ZcE` closing; sparse capital-heavy work
+  requires a survival/readiness handoff; and mixed equity, SAFE/convertible,
+  debt, and revenue-share consequences are executable. A focused hidden-criteria
+  proof scored `8/9`; the sole literal-default omission passed a structural
+  `1/1` retry. Final hashes are SKILL
+  `c08a06f18da35cf1d245f041a39422d6b54c4117919d8f0459efee6aaffe9491`
+  and runtime
+  `b78d0239da421d83ee487f4da71513fdd60046ed2d4f235e0e4b51a004b173a9`.
+- Verification:
+
+  ```text
+  Skill is valid!
+  skill provenance check: essays=42 themes=10
+  evaluation validation: baseline=0.04 forward=0.68 delta=0.64
+  focused remediation: 8/9 plus targeted retry 1/1; ready=true
+  taxonomy validation: corpus_files=223 classified=223 uncovered_relevant=0 orphan_skills=0
+  python3 -m unittest discover -s tests
+  Ran 127 tests
+  OK
+  copyright scan: normalized 20/30/40-token corpus matches=0/0/0
+  ```
+
+- Library progress: `14/21` planned skills implemented; skill `15` is next:
+  `making-calibrated-decisions`. Blockers under PROJECT_BRIEF: none.

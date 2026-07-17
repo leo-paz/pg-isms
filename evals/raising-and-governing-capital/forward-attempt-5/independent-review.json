@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "auditor_id": "capital-forward5-auditor-001",
+  "model": "GPT-5",
+  "reviewed_at_utc": "2026-07-16T07:14:12Z",
+  "phase": "forward",
+  "attempt": 5,
+  "vector_freeze_sha256": "39bcabdac1d67ceb3f89d7d6bc43ff998b6bb63b7674e7a4c3ecbc34cc6bbb88",
+  "criterion_order": [
+    "scenario-01.c1",
+    "scenario-01.c2",
+    "scenario-01.c3",
+    "scenario-01.c4",
+    "scenario-01.c5",
+    "scenario-02.c1",
+    "scenario-02.c2",
+    "scenario-02.c3",
+    "scenario-02.c4",
+    "scenario-02.c5",
+    "scenario-03.c1",
+    "scenario-03.c2",
+    "scenario-03.c3",
+    "scenario-03.c4",
+    "scenario-03.c5",
+    "scenario-04.c1",
+    "scenario-04.c2",
+    "scenario-04.c3",
+    "scenario-04.c4",
+    "scenario-04.c5",
+    "scenario-05.c1",
+    "scenario-05.c2",
+    "scenario-05.c3",
+    "scenario-05.c4",
+    "scenario-05.c5"
+  ],
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "vector": "11111",
+      "score": 5,
+      "max_score": 5,
+      "criteria": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "evidence": "Sections 1-3 select raising-and-governing-capital, call the company not acute because obligations and operating evidence are current, define FL1=$1.35m and dated X1.S, and F4 gives conversation statuses zero commitment credit.",
+          "judgment": "Pass: the healthy-process route, bounded floor, switch predicate, non-static evidence, and no invented demand are all explicit."
+        },
+        {
+          "criterion": 2,
+          "bit": 1,
+          "evidence": "The canonical register explicitly classifies the supplied facts in F1-F4, C1-C2, and U1; U1 and A1 each name an artifact, owner, due date, pass threshold, and decision effect.",
+          "judgment": "Pass: every supplied fact category and every consequential unknown control required by the criterion is explicit."
+        },
+        {
+          "criterion": 3,
+          "bit": 1,
+          "evidence": "M1 states the dated milestone, ranged uses and time, contingency, provisional raise and company contribution, dilution/control envelope, staged/no-raise alternative, adviser clearance, and falsifier; S-D/S-B/S-U label assumptions.",
+          "judgment": "Pass: the financing thesis precedes meetings and all required ranges, alternatives, verification, and assumption labels are present."
+        },
+        {
+          "criterion": 4,
+          "bit": 1,
+          "evidence": "X1 and Section 4 define start/end dates, data/introduction/qualification/decision batches, tiered qualification, owners, warm paths, references, truthful synchronized materials, controlled room/confidentiality, time caps, and protected work; the materials paragraph bans fabricated scarcity and demand.",
+          "judgment": "Pass: every process-control clause is explicit."
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "evidence": "Section 5 gives ordered launch, continue, close-or-counter, and pause-or-no-raise predicates, owners/dates, actions, evidence IDs, and preserved options. G0 requires M1/U1, partner, envelope, adviser, truth, definitive-document, approval, and cleared-funding gates.",
+          "judgment": "Pass: the four branches are observable and non-overlapping by stage/order, and closing is gated on the full precommitted package."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "vector": "11111",
+      "score": 5,
+      "max_score": 5,
+      "criteria": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "evidence": "Section 1 makes financing terms primary, records both offers as unsigned with July 27 expiry, and keeps U3 no-deal capacity. Sections 2 and 4 require qualified counsel and finance/accounting/tax owners before interpretation, negotiation, acceptance, signature, or closing.",
+          "judgment": "Pass: every status, option-preservation, deadline, and adviser clause is explicit."
+        },
+        {
+          "criterion": 2,
+          "bit": 1,
+          "evidence": "D0 calculates A=5/(40+5)=11.11% and B=7/(55+7)=11.29% before pool/security effects. The E row separately explains post- versus pre-money pool dilution, participation, full-ratchet versus weighted-average protection, and U1 fully diluted capitalization uncertainty.",
+          "judgment": "Pass: both arithmetic and the reasons headline valuation cannot prove dilution/economic superiority are explicit."
+        },
+        {
+          "criterion": 3,
+          "bit": 1,
+          "evidence": "F1-F6/U1-U4, the three exit waterfalls, and the A/E/C/P/T/Z matrix separately cover milestone fit, preferences, anti-dilution, board and veto control, executive/sale rights, references, certainty, and missing terms, with owners, artifacts, dates, thresholds, and effects.",
+          "judgment": "Pass: the comparison and unknown-control register satisfy every required dimension."
+        },
+        {
+          "criterion": 4,
+          "bit": 1,
+          "evidence": "U3 requires a board-approved economic/control envelope; the A/E/C rows and counter/walk-away columns cover amount fit, pool placement, preference, anti-dilution, board/control, veto narrowing, information/pro-rata and related rights. Price is only one weighted factor and no term is called standard.",
+          "judgment": "Pass: the counterproposal and walk-away envelope is precommitted and complete."
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "evidence": "Section 5 orders accept-A, counter-A-or-B, continue-both, and decline-or-use-no-deal-plan, each with owner/date, action, evidence IDs, and preserved option. G0.Za/Zc define signed-document status, while the one dated fact sheet and G0.T require synchronized truthful disclosure to both issuers.",
+          "judgment": "Pass: all branch, evidence, consequence, option, and truthful-disclosure clauses are explicit through the cited canonical gates."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "vector": "11111",
+      "score": 5,
+      "max_score": 5,
+      "criteria": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "evidence": "Section 1 calls the supplied trend default-dead and selects managing-runway-and-survival, with raising-and-governing-capital only as limited support. F4 explicitly assigns the partner meeting and soft circles zero cash.",
+          "judgment": "Pass: the survival route and bounded secondary financing branch are explicit."
+        },
+        {
+          "criterion": 2,
+          "bit": 1,
+          "evidence": "F1-F7 and U1-U2 record cash, receipts, expense, burn inputs, obligations, churn, renewal/test dates, hires and claims; FLR, EQ, G0, three scenarios, and the July 24 Plan-B package provide the floor, default-alive test, switch, and early option-preserving handoff.",
+          "judgment": "Pass: every route-away handoff component is explicit."
+        },
+        {
+          "criterion": 3,
+          "bit": 1,
+          "evidence": "Section 4 freezes all three hires, sequences renewals and the retention test, protects customer/product work, and supplies for every survival action an owner/date, cash effect or cap, artifact, and safeguard/review threshold.",
+          "judgment": "Pass: all immediate survival execution clauses are explicit."
+        },
+        {
+          "criterion": 4,
+          "bit": 1,
+          "evidence": "DIST caps capital distraction at six founder-hours weekly; the final execution row limits capital work to reusable truthful materials, qualification, and controlled access, bans broad launch and valuation/September-close claims, and G0 gives the September 30 handoff predicate.",
+          "judgment": "Pass: capital support is bounded and full round design is expressly deferred until the survival gate."
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "evidence": "Section 5 provides ordered continue, adapt, plan-B, and shutdown-or-orderly-wind-down branches with mutually exclusive FLR/G0 predicates, owners/dates, actions, evidence IDs, preserved options, adviser involvement, and an explicit G0 capital handoff.",
+          "judgment": "Pass: every branch and handoff clause is explicit."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "vector": "11111",
+      "score": 5,
+      "max_score": 5,
+      "criteria": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "evidence": "Sections 1-2 select raising-and-governing-capital for the pre-revenue financed-pilot milestone, state that the pilot must precede revenue, reject the software-seed $18m/next-summer proposal in F9, and use dated engineering/supplier gates rather than a weekly commercial-evidence default. F7 assigns all letters and investor discussions zero cash and committed demand.",
+          "judgment": "Pass: the capital-heavy route, rejection of software/ramen/weekly defaults, and non-commitment treatment are explicit in the route and gates."
+        },
+        {
+          "criterion": 2,
+          "bit": 1,
+          "evidence": "F1-F10 and M1-M2 build the dated model from $8.4m cash, $610k spend, $9m-$13m and 12-18 month ranges, runway through close, contingency, working capital, and financing dates. F5/F6/F7/F8/F10 assign technical/safety, supplier, customer-status, and financing controls owners, artifacts, dates, thresholds, and effects.",
+          "judgment": "Pass: every model input and unknown-control category is explicit."
+        },
+        {
+          "criterion": 3,
+          "bit": 1,
+          "evidence": "F5/F6 make August 15 written engineering review and dated supplier quotes prerequisites; M1/M2 block a fixed launch amount when unverified; the upside/base/downside table derives $7.6m-$16.7m ranges and Section 5 preserves stage/delay/stop alternatives while F9 excludes $18m and next-summer claims.",
+          "judgment": "Pass: readiness gates, ranged scenarios, alternatives, and claim discipline are all explicit."
+        },
+        {
+          "criterion": 4,
+          "bit": 1,
+          "evidence": "F8 and the investor table separately classify specialist, generalist, and strategic parties across stage/milestone fit, capacity, diligence/authority, horizon/follow-on, governance/conflicts, confidentiality/IP/exclusivity, and on/off-list references. The adviser paragraph blocks sensitive or irreversible actions until qualified review.",
+          "judgment": "Pass: all investor-selection and strategic-risk clauses are explicit."
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "evidence": "Section 5 gives ordered launch-round, stage-or-syndicate, delay-and-rework, and stop-or-preserve-option predicates with owners/dates, M1 funding or staging cash consequence, resulting route/action, evidence IDs, and preserved option. M3 and the adviser paragraph require truthful communications and qualified review before term action, leaving no current-market instrument or term assumed.",
+          "judgment": "Pass: every branch and communication/term-verification clause is explicit through the cited controls."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "vector": "11111",
+      "score": 5,
+      "max_score": 5,
+      "criteria": [
+        {
+          "criterion": 1,
+          "bit": 1,
+          "evidence": "Section 1 keeps raising-and-governing-capital primary and no-acute-need status. O0 records fund-signed/company-unaccepted status, July 25 expiries, no exclusivity/no-shop, and zero cash; O1 and G0 prevent the bonus/headline from bypassing U1 counsel and finance/tax review.",
+          "judgment": "Pass: all offer-status, route, deadline, option, anti-urgency, and adviser clauses are explicit."
+        },
+        {
+          "criterion": 2,
+          "bit": 1,
+          "evidence": "T0 and Section 4 say stop 42%, verify 31% plus scope/cause, preserve sources/calculations/versions/timestamps/recipients, correct X and Y and the synchronized room before company signature, obtain acknowledgments, and score response under G0.T; T walk-away and branch gates handle investor response.",
+          "judgment": "Pass: correction, audit trail, consistency, response branches, and rejection of delayed correction/urgency are explicit."
+        },
+        {
+          "criterion": 3,
+          "bit": 1,
+          "evidence": "U0-U1, the exit waterfalls, and the A/E/C/P/T/Z matrix compare milestone amount, fully diluted economics, preference and missing terms, board/observer access, references and follow-on/exit pressure, certainty, confidentiality, and legal/tax effects, each with owners, artifacts, dates, thresholds, and effects.",
+          "judgment": "Pass: every comparison and unknown-control requirement is explicit."
+        },
+        {
+          "criterion": 4,
+          "bit": 1,
+          "evidence": "The weighted matrix allocates A15/E20/C20/P15/T20/Z10, making truth, partner fit, control, use, economics, and certainty explicit rather than price-only. D0 protects marketplace/customer work with a five-day time cap; R0 and U1 require expanded references and full document/cap-table review.",
+          "judgment": "Pass: the precommitment, operating protection, reference, and document-review clauses are explicit."
+        },
+        {
+          "criterion": 5,
+          "bit": 1,
+          "evidence": "Section 5 orders close-X, close-Y, counter-or-extend, and decline-both, each with exclusive first-true sequencing, owners/dates, economic/governance action, evidence IDs, and preserved options. G0.Za/Zc require corrected disclosure, company-signed acceptance, adviser-reviewed definitives, approvals, conditions, and funded cash.",
+          "judgment": "Pass: every closing-branch clause is explicit."
+        }
+      ]
+    }
+  ],
+  "bit_string": "1111111111111111111111111",
+  "total_score": 25,
+  "total_max_score": 25,
+  "normalized_score": 1.0,
+  "integrity": {
+    "status": "pass",
+    "attempt_identity_verified": true,
+    "hash_chain_verified": true,
+    "response_hashes_verified": true,
+    "response_sizes_and_timestamps_verified": true,
+    "unique_task_count": 5,
+    "unique_response_hash_count": 5,
+    "all_birth_epochs_equal_mtime_epochs": true,
+    "all_responses_within_1200_word_limit": true,
+    "criteria_hidden_during_generation_attested": true,
+    "baseline_hidden_during_generation_attested": true,
+    "prior_attempts_and_source_evidence_hidden_during_generation_attested": true,
+    "one_first_completion_and_no_resampling_attested": true,
+    "target_variance_note": "Scenario 04 has 762 words and scenario 05 has 675 words, below the plan's 900-word target and its 800-950 compaction guidance; both remain within the explicit 1200-word integrity ceiling. This is recorded as a non-blocking target variance, not an identity or hard-limit failure.",
+    "forbidden_artifacts_opened_by_auditor": false
+  },
+  "baseline_comparison": {
+    "source": "baseline/summary.json only",
+    "baseline_adjudicated_vector": "0000000000000000000001000",
+    "baseline_adjudicated_case_vectors": {
+      "scenario-01": "00000",
+      "scenario-02": "00000",
+      "scenario-03": "00000",
+      "scenario-04": "00000",
+      "scenario-05": "01000"
+    },
+    "baseline_adjudicated_total": 1,
+    "forward_independent_total": 25,
+    "absolute_improvement": 24,
+    "normalized_improvement": 0.96,
+    "case_improvements": {
+      "scenario-01": 5,
+      "scenario-02": 5,
+      "scenario-03": 5,
+      "scenario-04": 5,
+      "scenario-05": 4
+    }
+  },
+  "readiness": {
+    "status": "ready",
+    "reason": "The immutable independent vector is 25/25, every criterion passes conjunctive binary review, artifact identity and the hard integrity controls pass, and the forward result materially improves the adjudicated baseline by 24 points."
+  },
+  "auditor_attestation": {
+    "baseline_response_bodies_opened": false,
+    "baseline_summary_opened_only_after_vector_freeze": true,
+    "scorer_vector_or_strict_score_artifacts_opened": false,
+    "prior_forward_attempt_directories_opened": false,
+    "skill_package_or_evidence_provenance_corpus_opened": false,
+    "other_review_feedback_opened": false,
+    "forward_responses_or_package_edited": false,
+    "vector_freeze_revised_after_creation": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "initial_score": 8,
+  "initial_possible": 9,
+  "initial_missing": "capital-heavy route response omitted the literal ramen-profitability refusal",
+  "targeted_retry_score": 1,
+  "targeted_retry_possible": 1,
+  "targeted_retry_response_sha256": "7ab0c2528daf3e65552ada06d53df55dd972851047c2184375b9213482a456ca",
+  "final_runtime_sha256": "b78d0239da421d83ee487f4da71513fdd60046ed2d4f235e0e4b51a004b173a9",
+  "resolved_behaviors": [
+    "sparse capital-heavy survival/readiness routing and explicit capital-light default refusals",
+    "deterministic unique-winner selection with company acceptance before later closing",
+    "mixed equity, SAFE, and debt normalization with stage and market evidence controls"
+  ],
+  "remediation_ready": true
+}

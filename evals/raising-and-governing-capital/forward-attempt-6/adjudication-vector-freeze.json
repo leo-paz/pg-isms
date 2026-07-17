@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 6,
+  "freeze_type": "adjudication-strict-binary-vector",
+  "frozen_at_utc": "2026-07-16T08:04:43Z",
+  "adjudicator": "capital-forward6-adjudicator",
+  "model": "GPT-5 Codex",
+  "scoring_rule": "strict binary conjunctive: one only when every criterion clause is explicit in the frozen response; no inference or generic-prose credit",
+  "scope": {
+    "disputed_criteria_only": [
+      "scenario-03.3",
+      "scenario-04.3",
+      "scenario-04.4"
+    ],
+    "agreed_zero_preserved": [
+      "scenario-04.1"
+    ],
+    "agreed_one_count_preserved": 21,
+    "agreement_policy": "All 22 agreed criterion bits are retained unchanged; only the three listed disputes are adjudicated."
+  },
+  "identity_hashes": {
+    "cases_sha256": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+    "generation_freeze_manifest_sha256": "af617e4e70f8eba59c7f0e2ce1aa5f0f09dcea2d4f488682fddf9f9f07642f57",
+    "score_vector_freeze_sha256": "070c69a60da190c3e71a031f604088c04b80f2f2beee760ec30148febcc41d9f",
+    "strict_score_sha256": "f5f029b7daf1e8b8d14b0e4ee35f21bcbf9bad3fcf90c500e0c13a64bc6c0fca",
+    "independent_vector_freeze_sha256": "084adc10c2d76f106bf1c14246a6dfd407c4c3051309d090f4551bda448055c8",
+    "independent_review_sha256": "6a6eeba5ddd85fac7183d64677f15e846b9b8ad754f4e2d0f18255a1923c876c",
+    "responses": {
+      "scenario-03": "f6b7e6f08bc670bca35cc1cebf7fb4798104fa2411ee2624f228e9b9eba39484",
+      "scenario-04": "4b576193a70fa8bbc511492443e1ea11bf5feaa0bc99a90d3e689b92ebccc1bd"
+    }
+  },
+  "disputed_decisions": [
+    {
+      "id": "scenario-03.3",
+      "scorer_score": 1,
+      "auditor_score": 0,
+      "adjudicated_score": 0
+    },
+    {
+      "id": "scenario-04.3",
+      "scorer_score": 0,
+      "auditor_score": 1,
+      "adjudicated_score": 0
+    },
+    {
+      "id": "scenario-04.4",
+      "scorer_score": 0,
+      "auditor_score": 1,
+      "adjudicated_score": 0
+    }
+  ],
+  "vector_order": "scenario-01.1 through scenario-01.5, then scenario-02 through scenario-05 in the same criterion order",
+  "case_vectors": {
+    "scenario-01": [1, 1, 1, 1, 1],
+    "scenario-02": [1, 1, 1, 1, 1],
+    "scenario-03": [1, 1, 0, 1, 1],
+    "scenario-04": [0, 1, 0, 0, 1],
+    "scenario-05": [1, 1, 1, 1, 1]
+  },
+  "bit_string": "1111111111110110100111111",
+  "total": 21,
+  "possible": 25,
+  "attestations": {
+    "vector_frozen_before_adjudication_narrative": true,
+    "baseline_not_accessed": true,
+    "prior_attempt_directories_not_accessed": true,
+    "other_scenario_bodies_not_accessed": true,
+    "skill_source_provenance_not_accessed": true,
+    "prior_review_feedback_not_accessed": true,
+    "git_history_not_accessed": true,
+    "responses_not_edited_or_replaced": true,
+    "existing_files_not_edited": true,
+    "only_permitted_inputs_used": true
+  }
+}

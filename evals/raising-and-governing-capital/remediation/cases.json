@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "purpose": "Focused post-review proof for semantics intentionally changed after the original frozen rubric.",
+  "cases": [
+    {
+      "id": "capital-heavy-route",
+      "prompt_path": "prompts/capital-heavy-route.txt",
+      "criteria": [
+        "Routes sparse pre-revenue capital-heavy work to managing-runway-and-survival because no completed survival/readiness handoff was supplied, while refusing software-seed, ramen-profitability, and weekly-evidence defaults.",
+        "Produces the cash-floor, dated technical/supplier readiness, protected-obligation, no-raise/delay, and exact capital re-entry handoff rather than launching or pricing a round.",
+        "Treats letters and discussions as zero cash/demand and requires qualified technical, finance, and legal owners without inventing professional conclusions."
+      ]
+    },
+    {
+      "id": "accept-then-close",
+      "prompt_path": "prompts/accept-then-close.txt",
+      "criteria": [
+        "Stops and corrects the false metric everywhere before company acceptance and makes deterministic selection depend on hard gates, anchored scores, frozen aggregation, and a unique winner rather than a preferred label.",
+        "Treats fund-signed offers as company-unaccepted and explicitly separates ZaR readiness, ZaE company acceptance evidence, ZcR definitive-document and funding readiness, and ZcE effective documents plus cleared funds.",
+        "Uses accept-selected-then-close, counter, continue, and decline/no-deal branches with tie and unresolved-evidence behavior; never calls acceptance itself closing."
+      ]
+    },
+    {
+      "id": "mixed-instruments",
+      "prompt_path": "prompts/mixed-instruments.txt",
+      "criteria": [
+        "Keeps capital primary and normalizes the SAFE, priced equity, and venture debt through applicable ownership/conversion, cash-service, warrant, covenant, lien, maturity, default, and control consequences with qualified owners.",
+        "Models milestone coverage and downside/base/upside cash and ownership effects, existing SAFE/pro-rata implications, and a no-deal or staged option without calling debt non-dilutive.",
+        "Treats weak-market commentary as claimed, uses only verified market evidence for cadence and counters, and applies hard gates, anchored scoring, aggregation, unique-winner/tie behavior, acceptance evidence, and later closing evidence."
+      ]
+    }
+  ]
+}

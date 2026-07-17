@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 5,
+  "reviewer": {
+    "id": "capital-forward5-scorer-001",
+    "model": "GPT-5 Codex"
+  },
+  "scoring_rule": "Binary and conjunctive: award 1 only when every clause is explicit in the frozen response; award no inference or generic-prose credit.",
+  "score_vector_freeze": {
+    "path": "evals/raising-and-governing-capital/forward/score-vector-freeze.json",
+    "frozen_at_utc": "2026-07-16T07:13:16Z",
+    "score_vector_25_bit": "1111111111101110111111111",
+    "total": 23,
+    "possible": 25,
+    "revised_after_baseline_access": false
+  },
+  "case_results": [
+    {
+      "case_id": "scenario-01",
+      "vector": "11111",
+      "score": 5,
+      "max_score": 5,
+      "criteria": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "evidence": ["scenario-01.md:5", "scenario-01.md:12-14", "scenario-01.md:24", "scenario-01.md:34", "scenario-01.md:49"],
+          "finding": "Explicitly selects the capital workflow for a non-acute operating company, preserves FL1=$1.35m, defines the observable X1.S switch, treats conversation status as no commitment, and forbids fabricated demand."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "evidence": ["scenario-01.md:11-18"],
+          "finding": "F1-F4, C1-C2, U1, and A1 explicitly classify all supplied facts and statements and attach owner, artifact, date, threshold, and effect to consequential unknowns."
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "evidence": ["scenario-01.md:18", "scenario-01.md:22-30"],
+          "finding": "M1 and S-D/S-B/S-U explicitly supply the milestone, ranged uses, timing, contingency, raise range, cash contribution, economics/control envelope, staged/no-raise alternative, adviser checks, and labeled assumptions."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "evidence": ["scenario-01.md:34", "scenario-01.md:39-49"],
+          "finding": "X1 and the tier table explicitly establish a bounded batched process, qualification, introduction and meeting dates, ownership, synchronized materials, access/confidentiality controls, references, decision dates, time caps, protected work, and truthful communications."
+        },
+        {
+          "criterion": 5,
+          "score": 1,
+          "evidence": ["scenario-01.md:24", "scenario-01.md:34-35", "scenario-01.md:53-60"],
+          "finding": "The first-true waterfall explicitly gives the four required routes, ownership, dates, actions, evidence and options; G0 cross-references M1/FL1 and requires partner, economics/control, adviser, truth, definitive-document, approval, and cleared-funds gates before close."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-02",
+      "vector": "11111",
+      "score": 5,
+      "max_score": 5,
+      "criteria": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "evidence": ["scenario-02.md:5", "scenario-02.md:11-13", "scenario-02.md:18-19", "scenario-02.md:37"],
+          "finding": "Explicitly makes offer comparison primary, identifies both documents as unsigned/company-unaccepted and expiring July 27, preserves U3's no-deal plan, and gates interpretation through closing on qualified counsel and finance/accounting/tax owners."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "evidence": ["scenario-02.md:26", "scenario-02.md:31-33", "scenario-02.md:42"],
+          "finding": "D0 shows 11.11% versus 11.29%; the U1/E analysis explicitly makes pool placement, capitalization/security effects, participation, and anti-dilution reasons the headline does not establish lower dilution or better economics."
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "evidence": ["scenario-02.md:17-20", "scenario-02.md:27", "scenario-02.md:29-33", "scenario-02.md:39-46"],
+          "finding": "The six-row A/E/C/P/T/Z comparison and three exit cases explicitly cover every required economic, control, reference, certainty, and unknown-term dimension; U1-U4 attach controls to unknowns."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "evidence": ["scenario-02.md:19", "scenario-02.md:27", "scenario-02.md:41-46"],
+          "finding": "U3 and the counter/walk-away columns explicitly precommit amount, preference, anti-dilution, pool, board/control, veto, information/pro-rata and milestone-fit bounds without a price-only or unverified-standard conclusion."
+        },
+        {
+          "criterion": 5,
+          "score": 1,
+          "evidence": ["scenario-02.md:27", "scenario-02.md:37", "scenario-02.md:48-55"],
+          "finding": "The first-true waterfall explicitly makes the four required branches exclusive in sequence, ties them to owners/dates/G0 signed evidence and package consequences, preserves options, and applies one synchronized fact set to both issuers without a legal conclusion."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-03",
+      "vector": "10111",
+      "score": 4,
+      "max_score": 5,
+      "criteria": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "evidence": ["scenario-03.md:5", "scenario-03.md:14", "scenario-03.md:45"],
+          "finding": "Explicitly routes to survival, makes capital support limited, gives the partner meeting and soft circles zero cash credit, and bars broad launch."
+        },
+        {
+          "criterion": 2,
+          "score": 0,
+          "evidence": ["scenario-03.md:11-18", "scenario-03.md:25-34"],
+          "missing_clauses": ["The criterion requires observed cash, receipts, expense, burn, obligations, and churn in the route-away handoff, but F1-F7 explicitly classify the supplied operating figures and dates as claimed; no observed operating-fact register is supplied."],
+          "finding": "The response does provide the floor, scenarios, default-alive test, unknown controls, and early Plan-B mechanics, but the observed-fact conjunct fails and the criterion therefore scores zero."
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "evidence": ["scenario-03.md:38-45"],
+          "finding": "Every immediate survival action explicitly has an owner/date, cash effect or cap, artifact and safeguard/threshold; hiring is frozen, renewals and retention precede broad fundraising, and customer/product continuity is protected."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "evidence": ["scenario-03.md:27-28", "scenario-03.md:45", "scenario-03.md:51"],
+          "finding": "Capital support is explicitly limited to reusable truthful materials, qualification, controlled access and six founder-hours; valuation/full launch are deferred and G0 gives the dated handoff predicate."
+        },
+        {
+          "criterion": 5,
+          "score": 1,
+          "evidence": ["scenario-03.md:25-27", "scenario-03.md:44", "scenario-03.md:47-54"],
+          "finding": "The first-true waterfall explicitly provides the four required survival branches, owners/dates/options and adviser-controlled Plan-B/wind-down paths; financing becomes primary only on the dated EQ/F6/F7/F1/U2 gate."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-04",
+      "vector": "01111",
+      "score": 4,
+      "max_score": 5,
+      "criteria": [
+        {
+          "criterion": 1,
+          "score": 0,
+          "evidence": ["scenario-04.md:5", "scenario-04.md:17", "scenario-04.md:19", "scenario-04.md:50"],
+          "missing_clauses": ["The response explicitly rejects software-seed benchmarking, but never explicitly rejects ramen-profitability and weekly-evidence defaults; under conjunctive no-inference scoring, mere omission of those defaults receives no credit."],
+          "finding": "The primary route and zero-credit treatment of letters/diligence/discussions are explicit, but the named default-refusal conjunct is incomplete and the criterion therefore scores zero."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "evidence": ["scenario-04.md:11-20", "scenario-04.md:24-34"],
+          "finding": "F1-F10 and M1-M2 explicitly build the dated model from cash, spend, pilot range/timing, contingency, working capital, existing contribution, floor, and financing dates, with controlled technical/safety, supplier, customer, and financing unknowns."
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "evidence": ["scenario-04.md:15-16", "scenario-04.md:24-34", "scenario-04.md:50"],
+          "finding": "F5/F6 are explicit August 15 preconditions to fixed amount/date; the three cases, staged/delay alternative and F9 correction avoid treating $18m or next summer as fact."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "evidence": ["scenario-04.md:17-18", "scenario-04.md:42-48"],
+          "finding": "F8 and the three counterparty rows explicitly compare fit, capacity/follow-on, technical competence/diligence path, horizon, governance/conflicts, confidentiality/IP/exclusivity and references, with technical and counsel review before sensitive disclosure or restrictions."
+        },
+        {
+          "criterion": 5,
+          "score": 1,
+          "evidence": ["scenario-04.md:26-28", "scenario-04.md:40-42", "scenario-04.md:50", "scenario-04.md:52-59"],
+          "finding": "The first-true waterfall explicitly supplies the four routes, owners/dates, M1/F10 cash consequences and preserved options; M3/F9 require truthful communications and qualified-current term review rather than assumed terms."
+        }
+      ]
+    },
+    {
+      "case_id": "scenario-05",
+      "vector": "11111",
+      "score": 5,
+      "max_score": 5,
+      "criteria": [
+        {
+          "criterion": 1,
+          "score": 1,
+          "evidence": ["scenario-05.md:4", "scenario-05.md:9-11", "scenario-05.md:16", "scenario-05.md:21-22", "scenario-05.md:40-44"],
+          "finding": "Explicitly keeps capital primary, records fund-signed/company-unaccepted status, July 25 expiries, no no-shop/exclusivity and non-rescue state, and subordinates headline/bonus to whole-package gates and qualified owners."
+        },
+        {
+          "criterion": 2,
+          "score": 1,
+          "evidence": ["scenario-05.md:13", "scenario-05.md:22", "scenario-05.md:31", "scenario-05.md:35", "scenario-05.md:43", "scenario-05.md:49-52"],
+          "finding": "T0 explicitly stops 42%, verifies 31%/scope/cause, preserves the audit trail, corrects X and Y plus the synchronized room before signature, obtains acknowledgments, and routes adverse responses through T and the branch waterfall."
+        },
+        {
+          "criterion": 3,
+          "score": 1,
+          "evidence": ["scenario-05.md:15-16", "scenario-05.md:21-28", "scenario-05.md:37-44"],
+          "finding": "D0/G0 and A/E/C/P/T/Z explicitly compare amount/need, fully diluted economics, preference/unknown terms, seats/access, references/signaling/exit pressure, certainty, confidentiality and adviser effects; U0/U1 control unknowns."
+        },
+        {
+          "criterion": 4,
+          "score": 1,
+          "evidence": ["scenario-05.md:21-22", "scenario-05.md:31", "scenario-05.md:37-44"],
+          "finding": "The weighted matrix and counter/walk-away envelope explicitly prioritize partner/control/truth/amount/economics/certainty, protect operations during July 20-25, and require on/off-list references, cap-table and full-document review."
+        },
+        {
+          "criterion": 5,
+          "score": 1,
+          "evidence": ["scenario-05.md:22", "scenario-05.md:46-52"],
+          "finding": "The ordered first-true branches explicitly provide owners/dates, corrected-disclosure and company-signed/definitive/funded evidence through Za/Zc, economic/governance outcomes, and the profitable no-deal/protected-work option through August 15."
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "score": 23,
+    "possible": 25,
+    "normalized_score": 0.92,
+    "score_vector_25_bit": "1111111111101110111111111"
+  },
+  "integrity": {
+    "status": "pass-with-generation-band-deviations",
+    "package_identity": {
+      "skill_name": "raising-and-governing-capital",
+      "attempt": 5,
+      "generation_plan_skill_sha256": "7b3ac3128d1ffc27f9c60305c400d9249ee956b810a557a2ff22ccede4f37581",
+      "package_manifest_skill_sha256": "7b3ac3128d1ffc27f9c60305c400d9249ee956b810a557a2ff22ccede4f37581",
+      "generation_plan_runtime_contract_sha256": "8179e7246fa73b035c9de513a087326171a94b93680dd773a1281ef98153af17",
+      "package_manifest_runtime_contract_sha256": "8179e7246fa73b035c9de513a087326171a94b93680dd773a1281ef98153af17",
+      "manifest_identity_consistent": true,
+      "direct_package_rehash_performed": false,
+      "direct_package_rehash_reason": "The scoring contract forbade reading the skill package."
+    },
+    "input_artifacts": {
+      "cases": {"sha256":"fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372","bytes":14139,"words":1835,"birth_utc":"2026-07-16T04:28:35Z","birth_epoch":1784176115,"mtime_utc":"2026-07-16T04:39:56Z","mtime_epoch":1784176796},
+      "generation_plan": {"sha256":"a013b622e58966cdf4656769df8d04eb7587086bde72e8a3c26eb7cd0af33bd5","bytes":3888,"words":200,"birth_utc":"2026-07-16T06:59:16Z","birth_epoch":1784185156,"mtime_utc":"2026-07-16T06:59:16Z","mtime_epoch":1784185156,"declared_frozen_at_utc":"2026-07-16T06:58:43Z"},
+      "package_freeze_manifest": {"sha256":"8977c7d1c69fc94cdf03997b0c63f414e5ad34b5da33d7dd984c76cfa9f6a16f","bytes":1466,"words":60,"birth_utc":"2026-07-16T06:59:32Z","birth_epoch":1784185172,"mtime_utc":"2026-07-16T06:59:32Z","mtime_epoch":1784185172,"declared_frozen_at_utc":"2026-07-16T06:58:43Z"},
+      "generation_attestation": {"sha256":"b7eabd3cc4c8a101d4a25efdefe536f413e0f30611d15ea9cd8fabb61a1fe0c1","bytes":2053,"words":55,"birth_utc":"2026-07-16T07:09:17Z","birth_epoch":1784185757,"mtime_utc":"2026-07-16T07:09:17Z","mtime_epoch":1784185757,"declared_attested_at_utc":"2026-07-16T07:09:03Z"},
+      "generation_freeze_manifest": {"sha256":"3ba54913511061864b78dea4ae69b722841b878a75dd476138e3db40abee0b0a","bytes":1827,"words":56,"birth_utc":"2026-07-16T07:09:38Z","birth_epoch":1784185778,"mtime_utc":"2026-07-16T07:09:38Z","mtime_epoch":1784185778,"declared_frozen_at_utc":"2026-07-16T07:09:03Z"}
+    },
+    "responses": {
+      "scenario-01": {"sha256":"d0515a3fb3470982dd05bd1b4896b6bd2b4f02b87655081e40e419afa1f2c9d8","words":907,"bytes":8456,"birth_utc":"2026-07-16T07:04:02Z","birth_epoch":1784185442,"mtime_utc":"2026-07-16T07:04:02Z","mtime_epoch":1784185442,"birth_equals_mtime":true},
+      "scenario-02": {"sha256":"889778d72347f0b5cb1a4af341b6916190ab7ba7213c773ca80551aa72e5b054","words":977,"bytes":9631,"birth_utc":"2026-07-16T07:02:21Z","birth_epoch":1784185341,"mtime_utc":"2026-07-16T07:02:21Z","mtime_epoch":1784185341,"birth_equals_mtime":true},
+      "scenario-03": {"sha256":"3c3b045bb27fbabf55aa3992294c30ece39e8243e581c4404d071db1c94f87d1","words":917,"bytes":8667,"birth_utc":"2026-07-16T07:03:16Z","birth_epoch":1784185396,"mtime_utc":"2026-07-16T07:03:16Z","mtime_epoch":1784185396,"birth_equals_mtime":true},
+      "scenario-04": {"sha256":"6a5b9bba250f856e396ec25bf20a3310a57f14a1d43db7c12cfdd7c3c5a5ba3f","words":762,"bytes":8420,"birth_utc":"2026-07-16T07:07:48Z","birth_epoch":1784185668,"mtime_utc":"2026-07-16T07:07:48Z","mtime_epoch":1784185668,"birth_equals_mtime":true},
+      "scenario-05": {"sha256":"68b45fd26ec8e2f026c368fee3cdafa0fdb6ba4406fe39609f84d9c0375910e5","words":675,"bytes":7476,"birth_utc":"2026-07-16T07:08:40Z","birth_epoch":1784185720,"mtime_utc":"2026-07-16T07:08:40Z","mtime_epoch":1784185720,"birth_equals_mtime":true}
+    },
+    "response_checks": {
+      "hashes_match_attestation_and_generation_freeze": true,
+      "word_counts_match_attestation_and_generation_freeze": true,
+      "byte_counts_match_attestation_and_generation_freeze": true,
+      "birth_and_mtime_epochs_match_attestation_and_generation_freeze": true,
+      "unique_response_hash_count": 5,
+      "unique_response_hashes": true,
+      "all_within_1200_word_hard_limit": true,
+      "generation_instruction_800_to_950_words_met_by_all": false,
+      "generation_instruction_band_deviations": [
+        {"case_id":"scenario-02","words":977,"deviation":"27 above 950"},
+        {"case_id":"scenario-04","words":762,"deviation":"38 below 800"},
+        {"case_id":"scenario-05","words":675,"deviation":"125 below 800"}
+      ],
+      "responses_edited_by_scorer": false,
+      "package_edited_by_scorer": false
+    },
+    "blind_scoring": {
+      "baseline_summary_opened_before_vector_freeze": false,
+      "baseline_response_bodies_opened": false,
+      "score_vector_frozen_before_baseline_summary_access": true,
+      "baseline_summary_sha256": "2450e566f868d49bbda797db924ada30b292de55cbf1cc47363ab0a2124b2ab2",
+      "baseline_summary_bytes": 1498,
+      "baseline_summary_birth_utc": "2026-07-16T05:03:12Z",
+      "baseline_summary_mtime_utc": "2026-07-16T05:03:12Z"
+    }
+  },
+  "baseline_comparison": {
+    "baseline_adjudicated_vector": "0000000000000000000001000",
+    "baseline_total": 1,
+    "baseline_possible": 25,
+    "baseline_normalized": 0.04,
+    "forward_total": 23,
+    "forward_possible": 25,
+    "forward_normalized": 0.92,
+    "absolute_score_gain": 22,
+    "percentage_point_gain": 88,
+    "relative_score_multiple": 23
+  },
+  "readiness": {
+    "material_improvement_over_baseline": true,
+    "ready_for_final_all_criteria_acceptance": false,
+    "ready_for_independent_audit": true,
+    "blocking_criteria": ["scenario-03.criterion-2", "scenario-04.criterion-1"],
+    "additional_integrity_warning": "Three responses miss the generation plan's 800-950 instruction band although all satisfy the declared 1200-word hard limit."
+  }
+}

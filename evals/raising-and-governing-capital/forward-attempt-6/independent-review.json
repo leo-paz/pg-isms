@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 6,
+  "auditor": "capital-forward6-auditor-001",
+  "model": "GPT-5 Codex",
+  "vector_freeze_sha256": "084adc10c2d76f106bf1c14246a6dfd407c4c3051309d090f4551bda448055c8",
+  "scoring_rule": "strict binary conjunctive: one only when every criterion clause is explicit; no inference or generic-prose credit",
+  "integrity": {
+    "passed": true,
+    "findings": [
+      {
+        "check": "attempt identity",
+        "passed": true,
+        "finding": "Generation plan, package freeze, generation attestation, and generation freeze each identify forward attempt 6."
+      },
+      {
+        "check": "manifest hash chain",
+        "passed": true,
+        "finding": "Computed hashes match the declared chain: cases fc56ebe9..., plan 4682a329..., package freeze baa57461..., and generation attestation 4c11c5e5.... The generation-freeze file identity is af617e4e...."
+      },
+      {
+        "check": "response hashes",
+        "passed": true,
+        "finding": "All five computed response SHA-256 values match both generation-attestation.json and generation-freeze-manifest.json, and all five hashes are unique."
+      },
+      {
+        "check": "word and byte counts",
+        "passed": true,
+        "finding": "Computed scenario-01 through scenario-05 counts are respectively 902/8853, 798/8134, 956/8717, 820/7947, and 929/9030 words/bytes; every value matches both frozen records and every response is within 1200 words."
+      },
+      {
+        "check": "timestamp ordering and immutability indicators",
+        "passed": true,
+        "finding": "Each response birth epoch equals its mtime epoch. All response epochs follow the plan/package freeze files and precede the generation attestation; the generation-freeze file follows the attestation."
+      },
+      {
+        "check": "audit isolation",
+        "passed": true,
+        "finding": "The review used only cases.json, the four permitted forward manifests, and the five frozen response bodies; no baseline, scorer artifact, prior-attempt directory, skill/source/provenance file, adjudication/review feedback, or git history was accessed."
+      }
+    ]
+  },
+  "criteria": [
+    {
+      "id": "scenario-01.1",
+      "score": 1,
+      "judgment": "Pass: the response explicitly selects the capital workflow from the non-acute operating state, bounds a cash floor and switch-back predicate, and refuses to treat conversations as cash or demand.",
+      "evidence": ["scenario-01.md:5", "scenario-01.md:11-14", "scenario-01.md:24", "scenario-01.md:28-34", "scenario-01.md:46"]
+    },
+    {
+      "id": "scenario-01.2",
+      "score": 1,
+      "judgment": "Pass: F1-F4, C1-C2, and U1-U2 classify every supplied fact or statement and attach owner, artifact, due date, threshold, and decision effect to consequential unknowns.",
+      "evidence": ["scenario-01.md:9-18"]
+    },
+    {
+      "id": "scenario-01.3",
+      "score": 1,
+      "judgment": "Pass: U1 and T1 define the milestone, ranged uses, timing, contingency, raise range, verified-cash contribution, economics/control envelope, staged alternative, adviser checks, and labeled planning assumptions.",
+      "evidence": ["scenario-01.md:17", "scenario-01.md:22-34"]
+    },
+    {
+      "id": "scenario-01.4",
+      "score": 1,
+      "judgment": "Pass: E0/E1 provide a bounded two-batch process, tiering, warm paths, meeting and decision dates, ownership, truthful synchronized materials, access/confidentiality controls, references, time cap, protected work, and an express no-scarcity/no-demand rule.",
+      "evidence": ["scenario-01.md:38-48"]
+    },
+    {
+      "id": "scenario-01.5",
+      "score": 1,
+      "judgment": "Pass: the first-true branches are observably separated, dated, owned, routed, and option-preserving; G0, ZaR/ZaE, and ZcR/ZcE explicitly require counsel-reviewed signed documents, cleared funds, and the stated partner, truth, certainty, economic, and control gates.",
+      "evidence": ["scenario-01.md:34", "scenario-01.md:52-57"]
+    },
+    {
+      "id": "scenario-02.1",
+      "score": 1,
+      "judgment": "Pass: the response makes economics/control primary, keeps both sheets unsigned with the July 27 deadline, preserves U4 no-deal, and assigns interpretation and finance/tax work to qualified owners.",
+      "evidence": ["scenario-02.md:5", "scenario-02.md:11-18", "scenario-02.md:35-37"]
+    },
+    {
+      "id": "scenario-02.2",
+      "score": 1,
+      "judgment": "Pass: D0 shows 11.11% and 11.29% simple ownership before fully diluted effects; U1, the three exit cases, and the E comparison explicitly show why pool placement, participation, anti-dilution, and cap-table definitions defeat the headline-only claim.",
+      "evidence": ["scenario-02.md:13", "scenario-02.md:15", "scenario-02.md:24", "scenario-02.md:27-31", "scenario-02.md:42"]
+    },
+    {
+      "id": "scenario-02.3",
+      "score": 1,
+      "judgment": "Pass: the response separately compares amount/milestone fit, scenario preference economics, anti-dilution, board/veto/executive/sale control, references, certainty, and unprovided terms, with complete U1-U4 controls.",
+      "evidence": ["scenario-02.md:11", "scenario-02.md:14-18", "scenario-02.md:27-31", "scenario-02.md:39-46"]
+    },
+    {
+      "id": "scenario-02.4",
+      "score": 1,
+      "judgment": "Pass: U2 and the counter/walk-away matrix precommit acceptable funding, pool, preference, anti-dilution, board/control, veto, information/pro-rata, and other-rights bounds without calling terms standard or choosing on price.",
+      "evidence": ["scenario-02.md:16", "scenario-02.md:24", "scenario-02.md:39-46"]
+    },
+    {
+      "id": "scenario-02.5",
+      "score": 1,
+      "judgment": "Pass: the first-true accept/counter/continue/decline branches contain owners, dates, readiness/completion evidence, consequences and preserved options, while G0 and execution require one synchronized truthful record and adviser-cleared documents.",
+      "evidence": ["scenario-02.md:25", "scenario-02.md:35", "scenario-02.md:50-55"]
+    },
+    {
+      "id": "scenario-03.1",
+      "score": 1,
+      "judgment": "Pass: the response explicitly routes to survival from flat receipts, burn, churn and time-to-floor, bounds capital as support only, and assigns zero cash to the meeting and soft circles.",
+      "evidence": ["scenario-03.md:5", "scenario-03.md:11-16", "scenario-03.md:24-29", "scenario-03.md:40"]
+    },
+    {
+      "id": "scenario-03.2",
+      "score": 1,
+      "judgment": "Pass: the control register, cash model, scenarios, H0, immediate actions, A5 switch, and branches provide the required route-away handoff facts, controls, floor, default-alive test, and dated plan-B trigger.",
+      "evidence": ["scenario-03.md:11-29", "scenario-03.md:35-40", "scenario-03.md:46-49"]
+    },
+    {
+      "id": "scenario-03.3",
+      "score": 0,
+      "judgment": "Fail conjunctively: the response pauses all three hires, sequences renewal/retention work, protects customer support, and gives A1-A5 owners, dates, cash effects/caps, artifacts, safeguards, and thresholds, but it never explicitly protects product continuity.",
+      "evidence": ["scenario-03.md:5", "scenario-03.md:35-40"],
+      "missing_explicit_clause": "Protect product continuity alongside customer continuity."
+    },
+    {
+      "id": "scenario-03.4",
+      "score": 1,
+      "judgment": "Pass: A6 limits capital support to truthful reusable materials and qualification under a four-hour/zero-spend distraction cap, defers valuation and full launch, and H0 provides the dated handoff predicate.",
+      "evidence": ["scenario-03.md:15", "scenario-03.md:18", "scenario-03.md:29", "scenario-03.md:40", "scenario-03.md:46"]
+    },
+    {
+      "id": "scenario-03.5",
+      "score": 1,
+      "judgment": "Pass: the first-true continue/adapt/plan-B/shutdown branches are separated by H0, floor, obligation and forecast evidence, with owners, dates, option preservation, adviser gates, and financing handoff only after H0.",
+      "evidence": ["scenario-03.md:18", "scenario-03.md:29", "scenario-03.md:44-49"]
+    },
+    {
+      "id": "scenario-04.1",
+      "score": 0,
+      "judgment": "Fail conjunctively: the response explicitly chooses a capital-heavy pre-revenue route, rejects the software-seed/$18m/next-summer proposal, and counts all interest and letters as zero cash or demand, but it never expressly rejects ramen-profitability or weekly-evidence defaults.",
+      "evidence": ["scenario-04.md:5", "scenario-04.md:15-17", "scenario-04.md:24-30"],
+      "missing_explicit_clause": "Expressly refuse ramen-profitability and weekly-evidence defaults for this capital-heavy company."
+    },
+    {
+      "id": "scenario-04.2",
+      "score": 1,
+      "judgment": "Pass: F1/C1/U1-U3 and the dated scenarios explicitly connect cash, spend, pilot cost/time, reserve/runway, contingency, working capital, timing, and technical/supplier/safety/customer/financing controls with owners and decision effects.",
+      "evidence": ["scenario-04.md:11-20", "scenario-04.md:26-36", "scenario-04.md:40-42"]
+    },
+    {
+      "id": "scenario-04.3",
+      "score": 1,
+      "judgment": "Pass: the August 15 review/quotes gate the August 21 sizing decision; D0 and the three labeled planning cases replace the unverified proposal and retain staged, no-raise, delay, and redesign options.",
+      "evidence": ["scenario-04.md:13-14", "scenario-04.md:17", "scenario-04.md:27-36", "scenario-04.md:56-59"]
+    },
+    {
+      "id": "scenario-04.4",
+      "score": 1,
+      "judgment": "Pass: I1-I3 explicitly segment specialist, generalist, and strategic counterparties across fit/capacity/follow-on, technical competence/horizon, governance/conflicts, confidentiality/IP/exclusivity, references, and qualified review gates.",
+      "evidence": ["scenario-04.md:16", "scenario-04.md:44-50"]
+    },
+    {
+      "id": "scenario-04.5",
+      "score": 1,
+      "judgment": "Pass: the first-true branches use bounded technical/financing predicates with owners, dates, F0/cash consequences, resulting routes and preserved options; execution requires current factual records, qualified term review, and no manufactured demand.",
+      "evidence": ["scenario-04.md:28", "scenario-04.md:42", "scenario-04.md:50", "scenario-04.md:54-59"]
+    },
+    {
+      "id": "scenario-05.1",
+      "score": 1,
+      "judgment": "Pass: the response records the profitable non-rescue route, fund-only signatures, company nonacceptance, July 25 expiries, no exclusivity/no-shop, and adviser gates while refusing bonus/headline pressure.",
+      "evidence": ["scenario-05.md:5", "scenario-05.md:12-13", "scenario-05.md:17-18", "scenario-05.md:32-37"]
+    },
+    {
+      "id": "scenario-05.2",
+      "score": 1,
+      "judgment": "Pass: F6/T immediately stop and verify the claim, preserve the audit trail, correct both funds and the room before acceptance, require acknowledgment, score investor responses, and prevent bonus-driven urgency.",
+      "evidence": ["scenario-05.md:16", "scenario-05.md:25", "scenario-05.md:32", "scenario-05.md:39", "scenario-05.md:47", "scenario-05.md:54-57"]
+    },
+    {
+      "id": "scenario-05.3",
+      "score": 1,
+      "judgment": "Pass: U1, the exit illustrations, and A/E/C/P/T/Z compare amount/need, fully diluted economics, preference/unprovided terms, board/observer/control, partner evidence, signaling/exit pressure, certainty, confidentiality, and legal/tax implications with dated owners and thresholds.",
+      "evidence": ["scenario-05.md:14-18", "scenario-05.md:24-28", "scenario-05.md:41-48"]
+    },
+    {
+      "id": "scenario-05.4",
+      "score": 1,
+      "judgment": "Pass: the weighted, precommitted matrix prioritizes amount/use, economics, control, partner behavior, truth response, and certainty; execution protects operating/customer work and requires on/off-list references, full-document, cap-table, and adviser review.",
+      "evidence": ["scenario-05.md:25", "scenario-05.md:32", "scenario-05.md:41-48"]
+    },
+    {
+      "id": "scenario-05.5",
+      "score": 1,
+      "judgment": "Pass: close-X, close-Y, counter-or-extend, and decline-both are first-true and non-overlapping, with owners, dates, corrected-disclosure and signed/cleared-funds evidence, economic/control gates, and preserved profitable-company options.",
+      "evidence": ["scenario-05.md:25", "scenario-05.md:52-57"]
+    }
+  ],
+  "case_vectors": {
+    "scenario-01": [1, 1, 1, 1, 1],
+    "scenario-02": [1, 1, 1, 1, 1],
+    "scenario-03": [1, 1, 0, 1, 1],
+    "scenario-04": [0, 1, 1, 1, 1],
+    "scenario-05": [1, 1, 1, 1, 1]
+  },
+  "bit_string": "1111111111110110111111111",
+  "total": 23,
+  "possible": 25
+}

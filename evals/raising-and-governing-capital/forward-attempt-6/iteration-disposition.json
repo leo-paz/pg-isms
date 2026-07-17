@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "attempt": 6,
+  "status": "valid-material-improvement-superseded-by-final-review",
+  "authoritative_score": 21,
+  "possible": 25,
+  "baseline_score": 1,
+  "normalized_improvement": 0.8,
+  "integrity": "pass",
+  "package_behavior_review": "failed-critical-offer-selection-predicate"
+}

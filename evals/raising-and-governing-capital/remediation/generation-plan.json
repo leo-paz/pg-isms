@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "frozen_at_utc": "2026-07-17T19:41:58Z",
+  "cases_sha256": "0063faf172a2ac866dd97ba0c6087ab50e4ec52955d59e2c5f7c2662acd73374",
+  "skill_sha256": "c08a06f18da35cf1d245f041a39422d6b54c4117919d8f0459efee6aaffe9491",
+  "runtime_sha256": "de28dea85b36c1d8d22d8b493f86e3134bbc33edd9affccf8d8ce392892080c8",
+  "criteria_hidden_from_generators": true,
+  "one_first_completion_per_case": true,
+  "response_word_limit": 1200,
+  "tasks": [
+    {"case_id":"capital-heavy-route","task_id":"/root/capital_remediation_route","prompt_sha256":"dedcbea2f8bb5b423d377ff0565fb9ec957c30d923eed924dd6f237695ea4e3c"},
+    {"case_id":"accept-then-close","task_id":"/root/capital_remediation_close","prompt_sha256":"5bc23d73c6876ec21220a8fe49aa7bf38de9ea4bd52f0b8eeba1d0672dbf889d"},
+    {"case_id":"mixed-instruments","task_id":"/root/capital_remediation_mixed","prompt_sha256":"a3240233a4a317f53b9bd4ffdc7d94bc7d9e65ebb2e51a32b7033c7aa7c70a79"}
+  ]
+}

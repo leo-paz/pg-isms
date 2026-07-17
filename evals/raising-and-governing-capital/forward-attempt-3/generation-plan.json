@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 3,
+  "frozen_before_generation": true,
+  "frozen_at_utc": "2026-07-16T06:07:29Z",
+  "cases_sha256": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "response_word_target": 1050,
+  "response_word_limit": 1200,
+  "one_first_completion_per_case": true,
+  "quality_resampling": false,
+  "prior_attempts": [
+    {"attempt":1,"path":"evals/raising-and-governing-capital/forward-attempt-1","status":"invalid-generation-contract","responses_scored":false},
+    {"attempt":2,"path":"evals/raising-and-governing-capital/forward-attempt-2","status":"valid-material-improvement-not-final","authoritative_score":19,"possible":25}
+  ],
+  "material_refactor": [
+    "Capital-heavy readiness versus ordinary survival routing",
+    "Working-capital and bounded staged funding ranges with qualified regulatory/safety controls",
+    "Separate downside/base/upside preference exit waterfalls",
+    "Dated recurring-receipts-versus-outflow default-alive equilibrium test"
+  ],
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "64c8d650dd390f3cb008ae03b79e55ad0018f40932dbdc21d0a0355923f01916",
+    "runtime_contract_sha256": "7f926f3109124f806183be19266df66c8b5302e06abe63c4a4ff05e9ac639240"
+  },
+  "generators": [
+    {"case_id":"scenario-01","task_id":"/root/capital_forward3_1","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-01.txt","prompt_sha256":"f7941f55699af6154f154350c2bbdc43f4203ac8e4294e30ee055fd81efec4b8"},
+    {"case_id":"scenario-02","task_id":"/root/capital_forward3_2","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-02.txt","prompt_sha256":"741b573d9aadc7a52fe819fe96b8934a494cd3a043ce83376e79c1382bf302be"},
+    {"case_id":"scenario-03","task_id":"/root/capital_forward3_3","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-03.txt","prompt_sha256":"6a2a74bf23d9988ffb44e31139427fa6a2919efccf83e892ab3485b9983f1009"},
+    {"case_id":"scenario-04","task_id":"/root/capital_forward3_4","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-04.txt","prompt_sha256":"dedcbea2f8bb5b423d377ff0565fb9ec957c30d923eed924dd6f237695ea4e3c"},
+    {"case_id":"scenario-05","task_id":"/root/capital_forward3_5","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-05.txt","prompt_sha256":"5bc23d73c6876ec21220a8fe49aa7bf38de9ea4bd52f0b8eeba1d0672dbf889d"}
+  ],
+  "generation_contract": {
+    "allowed_inputs": ["the assigned prompt text","skills/raising-and-governing-capital/SKILL.md","skills/raising-and-governing-capital/references/runtime-contract.md"],
+    "forbidden_inputs": ["case criteria","intended answers","baseline responses or scores","prior forward attempts","other current forward responses","source evidence or provenance","review feedback"],
+    "instruction": "Read the frozen skill and runtime, compose one complete decision record from prompt facts, compact to the 950-1050 target before writing, verify at most 1200 words, then freeze that first written completion without revision or replacement."
+  }
+}

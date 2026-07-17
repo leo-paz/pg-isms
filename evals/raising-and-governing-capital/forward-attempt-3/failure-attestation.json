@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "attempt": "forward-attempt-3",
+  "status": "invalid-generation-contract",
+  "recorded_at_utc": "2026-07-16T06:11:52Z",
+  "generation_plan_sha256": "8da8c147da5c343045df8ec155940477adfdd80fc2d28db7d219134ae1af7847",
+  "package_freeze_manifest_sha256": "539bd30f957ae678fdb151b5098a83a2ac77d83eaf2159923067b5282c84317d",
+  "responses": [
+    {
+      "case_id": "scenario-01",
+      "task_id": "/root/capital_forward3_1",
+      "words": 1157,
+      "bytes": 8307,
+      "birth_epoch": 1784182276,
+      "mtime_epoch": 1784182276,
+      "sha256": "86f428d6ba22aa7e170a973344e7d6a28ce52b88e3bcfdb31483ac40d5e6c36a",
+      "within_1200_word_limit": true
+    },
+    {
+      "case_id": "scenario-02",
+      "task_id": "/root/capital_forward3_2",
+      "words": 1496,
+      "bytes": 10360,
+      "birth_epoch": 1784182288,
+      "mtime_epoch": 1784182288,
+      "sha256": "8707a7b11cac4a6cbb91f24f6f31e50c7745c9af9f669064ba38bad5e3d10cf7",
+      "within_1200_word_limit": false
+    },
+    {
+      "case_id": "scenario-03",
+      "task_id": "/root/capital_forward3_3",
+      "words": 1246,
+      "bytes": 8874,
+      "birth_epoch": 1784182283,
+      "mtime_epoch": 1784182283,
+      "sha256": "3bcaf8444aa8d196db015a27b63db24e62dea7a27bbc9521c2487cfa844f0064",
+      "within_1200_word_limit": false
+    }
+  ],
+  "integrity": {
+    "first_completion_per_dispatched_case": true,
+    "response_bodies_frozen_without_revision": true,
+    "all_birth_epochs_equal_mtime_epochs": true,
+    "quality_resampling": false,
+    "package_hashes_match_pre_generation_freeze": true,
+    "criteria_hidden": true,
+    "baseline_hidden": true,
+    "prior_attempt_hidden": true,
+    "source_evidence_hidden": true
+  },
+  "undispatched_cases": [
+    "scenario-04",
+    "scenario-05"
+  ],
+  "scoring_started": false,
+  "disposition": "Preserve the failed bytes, make a further package-level output-compaction refactor, then run a new complete forward evaluation with fresh generators and new frozen package hashes. Do not replace or resample any attempt-3 response."
+}

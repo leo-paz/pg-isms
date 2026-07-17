@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 5,
+  "adjudicator": {
+    "id": "capital-forward5-adjudicator-001",
+    "model": "GPT-5 Codex"
+  },
+  "frozen_at_utc": "2026-07-16T07:18:14Z",
+  "immutable_after_creation": true,
+  "scoring_rule": "Binary and conjunctive: award 1 only when every clause is explicit in the frozen response; do not award inference or generic-prose credit.",
+  "scope": {
+    "disputed_bits_only": [
+      "scenario-03.criterion-2",
+      "scenario-04.criterion-1"
+    ],
+    "agreed_bits_preserved_without_change": 23
+  },
+  "identity_hashes": {
+    "algorithm": "sha256",
+    "cases.json": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+    "scenario-03.md": "3c3b045bb27fbabf55aa3992294c30ece39e8243e581c4404d071db1c94f87d1",
+    "scenario-04.md": "6a5b9bba250f856e396ec25bf20a3310a57f14a1d43db7c12cfdd7c3c5a5ba3f",
+    "generation-freeze-manifest.json": "3ba54913511061864b78dea4ae69b722841b878a75dd476138e3db40abee0b0a",
+    "score-vector-freeze.json": "1d2353abc91fe11372aa79468862cad6fb17dd07f6dc7f46c02098312fd98358",
+    "strict-score.json": "3a0b57938720ea776145ec867e74b587dee0ad49096e7f2e8af01011c2c4243d",
+    "independent-vector-freeze.json": "39bcabdac1d67ceb3f89d7d6bc43ff998b6bb63b7674e7a4c3ecbc34cc6bbb88",
+    "independent-review.json": "234f22c020923710ca4de275e2462b3d089977a30d55e40c6a5deb4e41230ed2"
+  },
+  "disputed_verdicts": [
+    {
+      "case_id": "scenario-03",
+      "criterion": 2,
+      "score": 0,
+      "scorer_score": 0,
+      "independent_auditor_score": 1,
+      "pinpoint_evidence": [
+        "scenario-03.md:11 explicitly classifies cash and current payroll/taxes as claimed.",
+        "scenario-03.md:12 explicitly classifies collected receipts and churn as claimed.",
+        "scenario-03.md:13 explicitly classifies cash expense and the burn inputs as claimed.",
+        "scenario-03.md:15-17 explicitly classify planned hires, the renewal date, and the retention-test date as claimed.",
+        "scenario-03.md:18 classifies protected-obligation amounts and timing as unknown.",
+        "scenario-03.md:25-34 explicitly supplies the cash floor, default-alive test, capital switch, scenarios, and net-burn calculations."
+      ],
+      "missing_clauses": [
+        "The required observed cash, receipts, expense, obligations, and churn are not explicit as observed in the route-away handoff; the response expressly classifies those supplied operating facts as claimed, with obligation amounts and timing unknown."
+      ],
+      "rationale": "Most handoff components are explicit, but the observed-operating-facts conjunct is not. Under the strict conjunctive rule, the criterion scores 0."
+    },
+    {
+      "case_id": "scenario-04",
+      "criterion": 1,
+      "score": 0,
+      "scorer_score": 0,
+      "independent_auditor_score": 1,
+      "pinpoint_evidence": [
+        "scenario-04.md:5 selects raising-and-governing-capital and rejects the proposed $18 million and next-summer output as current commitments.",
+        "scenario-04.md:17 explicitly gives the evaluation letters and investor or strategic discussions zero cash and committed-demand credit.",
+        "scenario-04.md:19,26,50 explicitly identify, reject, and stop the software-seed comparison and unsupported output-date claim."
+      ],
+      "missing_clauses": [
+        "No passage explicitly refuses the ramen-profitability default.",
+        "No passage explicitly refuses the weekly-evidence default; dated engineering and supplier gates cannot substitute for the named refusal under no-inference scoring."
+      ],
+      "rationale": "The route, software-seed refusal, and zero-credit treatment are explicit, but two named default-refusal conjuncts are absent. Under the strict conjunctive rule, the criterion scores 0."
+    }
+  ],
+  "authoritative_result": {
+    "criterion_order": [
+      "scenario-01.criterion-1",
+      "scenario-01.criterion-2",
+      "scenario-01.criterion-3",
+      "scenario-01.criterion-4",
+      "scenario-01.criterion-5",
+      "scenario-02.criterion-1",
+      "scenario-02.criterion-2",
+      "scenario-02.criterion-3",
+      "scenario-02.criterion-4",
+      "scenario-02.criterion-5",
+      "scenario-03.criterion-1",
+      "scenario-03.criterion-2",
+      "scenario-03.criterion-3",
+      "scenario-03.criterion-4",
+      "scenario-03.criterion-5",
+      "scenario-04.criterion-1",
+      "scenario-04.criterion-2",
+      "scenario-04.criterion-3",
+      "scenario-04.criterion-4",
+      "scenario-04.criterion-5",
+      "scenario-05.criterion-1",
+      "scenario-05.criterion-2",
+      "scenario-05.criterion-3",
+      "scenario-05.criterion-4",
+      "scenario-05.criterion-5"
+    ],
+    "case_vectors": {
+      "scenario-01": [1, 1, 1, 1, 1],
+      "scenario-02": [1, 1, 1, 1, 1],
+      "scenario-03": [1, 0, 1, 1, 1],
+      "scenario-04": [0, 1, 1, 1, 1],
+      "scenario-05": [1, 1, 1, 1, 1]
+    },
+    "score_vector_25_bit": "1111111111101110111111111",
+    "score": 23,
+    "possible": 25,
+    "normalized_score": 0.92
+  },
+  "attestation": {
+    "baseline_summary_opened_before_freeze": false,
+    "baseline_response_bodies_opened": false,
+    "skill_package_or_source_evidence_provenance_corpus_opened": false,
+    "prior_forward_attempt_directories_opened": false,
+    "other_scenario_bodies_opened": false,
+    "review_feedback_outside_the_permitted_artifacts_opened": false,
+    "only_permitted_pre-freeze_artifacts_were_opened": true,
+    "vector_will_not_be_revised_after_creation": true
+  }
+}

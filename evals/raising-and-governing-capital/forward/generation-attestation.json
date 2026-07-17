@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 7,
+  "attested_at_utc": "2026-07-17T19:33:33Z",
+  "generation_plan_sha256": "c40ed9a912f5120ceed1f1ee620b087df46b22fe9b98cf607934fc62b678dca0",
+  "package_freeze_manifest_sha256": "de1afe6dd81a80c9aebf2f2c56f2c0860e44b1995a459ef30465f003641c494f",
+  "responses": [
+    {"case_id":"scenario-01","task_id":"/root/capital_forward7_1","words":1058,"bytes":9779,"birth_epoch":1784316649,"mtime_epoch":1784316649,"sha256":"c8da1efb2fce866141bea298b93e52ccb3532b4d1061dad8d105b45a52b02eef"},
+    {"case_id":"scenario-02","task_id":"/root/capital_forward7_2","words":1118,"bytes":10162,"birth_epoch":1784316654,"mtime_epoch":1784316654,"sha256":"648f60cf475a98e77774717bc828c1e455ecac5da4ebb44fd8dd3324a35f39d7"},
+    {"case_id":"scenario-03","task_id":"/root/capital_forward7_3","words":778,"bytes":7708,"birth_epoch":1784316670,"mtime_epoch":1784316670,"sha256":"a49c02f5902b0c7b5b96f0bf2a1bb995217ec5230ff4987eaaced428216bcef6"},
+    {"case_id":"scenario-04","task_id":"/root/capital_forward7_4","words":968,"bytes":8794,"birth_epoch":1784316778,"mtime_epoch":1784316778,"sha256":"b7f5992f97ec3220d30ac6b12f5da65caf76d99aaa975e7c843d66fc062630eb"},
+    {"case_id":"scenario-05","task_id":"/root/capital_forward7_5","words":885,"bytes":8600,"birth_epoch":1784316790,"mtime_epoch":1784316790,"sha256":"8e2b732f2f08c293335faff0fe0c6acbe04fd0ba1160dacd08f5231fb4c6d1aa"}
+  ],
+  "integrity": {"responses":5,"unique_tasks":5,"unique_hashes":5,"all_within_1200":true,"all_birth_equal_mtime":true,"criteria_hidden":true,"one_first_completion":true,"quality_resampling":false,"scoring_not_started":true}
+}

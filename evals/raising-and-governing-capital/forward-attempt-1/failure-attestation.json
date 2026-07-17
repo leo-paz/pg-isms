@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "attempt": "forward-attempt-1",
+  "status": "invalid-generation-contract",
+  "recorded_at_utc": "2026-07-16T05:25:14Z",
+  "generation_plan_sha256": "49f16510bd754e926cef3258662f80afb4cba4588909616aef70a93e33d161c3",
+  "responses": [
+    {
+      "case_id": "scenario-01",
+      "task_id": "/root/capital_forward_1",
+      "words": 1233,
+      "bytes": 8767,
+      "sha256": "4fbc1ba0b6a1c056c2355952baa52e8d2fd1268883155cf9ce3c45f81f764fa0",
+      "within_1200_word_limit": false
+    },
+    {
+      "case_id": "scenario-02",
+      "task_id": "/root/capital_forward_2",
+      "words": 1254,
+      "bytes": 8342,
+      "sha256": "1da3041f86b99f0c6911efaf4bb4ee75959c3fd6ae7124aacd68a0da98275ef9",
+      "within_1200_word_limit": false
+    },
+    {
+      "case_id": "scenario-03",
+      "task_id": "/root/capital_forward_3",
+      "words": 1354,
+      "bytes": 8724,
+      "sha256": "441b1901ac59a3e0fa8e46bc39fdc8c5f0a7fe48367fa19a6d43b39f12cda9d7",
+      "within_1200_word_limit": false
+    }
+  ],
+  "integrity": {
+    "first_completion_per_dispatched_case": true,
+    "response_bodies_frozen_without_revision": true,
+    "quality_resampling": false,
+    "package_hashes_match_pre_generation_freeze": true,
+    "criteria_hidden": true,
+    "baseline_hidden": true,
+    "three_of_three_initial_parallel_generations_reproduced_failure": true
+  },
+  "undispatched_cases": [
+    "scenario-04",
+    "scenario-05"
+  ],
+  "scoring_started": false,
+  "disposition": "Preserve the failed bytes, refactor the skill's output-budget contract, then run a new complete forward evaluation with fresh generators and new frozen package hashes."
+}

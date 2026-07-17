@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 5,
+  "adjudicator": {
+    "id": "capital-forward5-adjudicator-001",
+    "model": "GPT-5 Codex"
+  },
+  "adjudicated_at_utc": "2026-07-16T07:19:01Z",
+  "scoring_rule": "Binary and conjunctive: award 1 only when every clause is explicit in the frozen response; do not award inference or generic-prose credit.",
+  "adjudication_vector_freeze": {
+    "path": "forward/adjudication-vector-freeze.json",
+    "sha256": "4e917b235ef5827e6f6613e23c444b62ca8fc8b3c33e659c732f8480ac85892f",
+    "created_before_baseline_summary_access": true,
+    "revised_after_creation": false
+  },
+  "review_comparison": {
+    "strict_scorer": {
+      "id": "capital-forward5-scorer-001",
+      "score_vector_25_bit": "1111111111101110111111111",
+      "total": 23,
+      "possible": 25
+    },
+    "independent_auditor": {
+      "id": "capital-forward5-auditor-001",
+      "score_vector_25_bit": "1111111111111111111111111",
+      "total": 25,
+      "possible": 25
+    },
+    "disputed_bits": [
+      {
+        "criterion_id": "scenario-03.criterion-2",
+        "strict_scorer": 0,
+        "independent_auditor": 1,
+        "adjudicated": 0,
+        "reason": "The response explicitly classifies the required cash, receipts, expense, obligations, and churn as claimed or unknown rather than observed; the observed-operating-facts conjunct therefore fails."
+      },
+      {
+        "criterion_id": "scenario-04.criterion-1",
+        "strict_scorer": 0,
+        "independent_auditor": 1,
+        "adjudicated": 0,
+        "reason": "The response explicitly rejects software-seed benchmarking but never explicitly refuses the ramen-profitability or weekly-evidence defaults; both named conjuncts therefore fail."
+      }
+    ],
+    "agreed_bits_changed_by_adjudication": 0
+  },
+  "authoritative_result": {
+    "case_results": [
+      {
+        "case_id": "scenario-01",
+        "vector": "11111",
+        "score": 5,
+        "max_score": 5
+      },
+      {
+        "case_id": "scenario-02",
+        "vector": "11111",
+        "score": 5,
+        "max_score": 5
+      },
+      {
+        "case_id": "scenario-03",
+        "vector": "10111",
+        "score": 4,
+        "max_score": 5
+      },
+      {
+        "case_id": "scenario-04",
+        "vector": "01111",
+        "score": 4,
+        "max_score": 5
+      },
+      {
+        "case_id": "scenario-05",
+        "vector": "11111",
+        "score": 5,
+        "max_score": 5
+      }
+    ],
+    "score_vector_25_bit": "1111111111101110111111111",
+    "total_score": 23,
+    "total_max_score": 25,
+    "normalized_score": 0.92
+  },
+  "baseline_comparison": {
+    "source": "baseline/summary.json only",
+    "source_sha256": "2450e566f868d49bbda797db924ada30b292de55cbf1cc47363ab0a2124b2ab2",
+    "opened_only_after_adjudication_vector_freeze": true,
+    "baseline_response_bodies_opened": false,
+    "baseline_adjudicated_case_vectors": {
+      "scenario-01": "00000",
+      "scenario-02": "00000",
+      "scenario-03": "00000",
+      "scenario-04": "00000",
+      "scenario-05": "01000"
+    },
+    "baseline_adjudicated_vector_25_bit": "0000000000000000000001000",
+    "baseline_total": 1,
+    "baseline_possible": 25,
+    "baseline_normalized_score": 0.04,
+    "forward_total": 23,
+    "forward_possible": 25,
+    "forward_normalized_score": 0.92,
+    "absolute_score_improvement": 22,
+    "normalized_score_improvement": 0.88,
+    "percentage_point_improvement": 88,
+    "relative_score_multiple": 23,
+    "case_score_improvements": {
+      "scenario-01": 5,
+      "scenario-02": 5,
+      "scenario-03": 4,
+      "scenario-04": 4,
+      "scenario-05": 4
+    }
+  },
+  "integrity": {
+    "status": "pass-with-nonblocking-generation-band-deviations",
+    "attempt_identity_verified": true,
+    "adjudication_vector_freeze_verified": true,
+    "response_hashes_match_generation_freeze_manifest": true,
+    "all_responses_within_1200_word_hard_limit": true,
+    "generation_instruction_800_to_950_words_met_by_all": false,
+    "generation_band_deviations": [
+      {
+        "case_id": "scenario-02",
+        "words": 977,
+        "deviation": "27 above 950"
+      },
+      {
+        "case_id": "scenario-04",
+        "words": 762,
+        "deviation": "38 below 800"
+      },
+      {
+        "case_id": "scenario-05",
+        "words": 675,
+        "deviation": "125 below 800"
+      }
+    ],
+    "baseline_summary_opened_before_vector_freeze": false,
+    "baseline_response_bodies_opened": false,
+    "skill_package_or_source_evidence_provenance_corpus_opened": false,
+    "prior_forward_attempt_directories_opened": false,
+    "other_scenario_bodies_opened": false,
+    "review_feedback_outside_the_permitted_artifacts_opened": false,
+    "responses_or_package_edited_by_adjudicator": false,
+    "reviewer_freezes_edited_by_adjudicator": false
+  },
+  "readiness": {
+    "adjudication_complete": true,
+    "material_improvement_over_baseline": true,
+    "ready_for_final_all_criteria_acceptance": false,
+    "blocking_criteria": [
+      "scenario-03.criterion-2",
+      "scenario-04.criterion-1"
+    ],
+    "reason": "The authoritative result is 23/25. Both disputed criteria fail the strict conjunctive explicitness rule, so all-criteria acceptance is blocked despite material baseline improvement and passing hard integrity controls."
+  }
+}

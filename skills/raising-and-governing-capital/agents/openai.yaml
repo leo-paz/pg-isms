@@ -1,0 +1,4 @@
+interface:
+  display_name: "Raising and Governing Capital"
+  short_description: "Compare startup financing before commitment"
+  default_prompt: "Use $raising-and-governing-capital to plan a financing process or compare instruments and offers before company acceptance and closing."

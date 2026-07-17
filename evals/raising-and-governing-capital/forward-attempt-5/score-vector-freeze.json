@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 5,
+  "reviewer": {
+    "id": "capital-forward5-scorer-001",
+    "model": "GPT-5 Codex"
+  },
+  "frozen_at_utc": "2026-07-16T07:13:16Z",
+  "hash_algorithm": "sha256",
+  "cases_sha256": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+  "freeze_hashes": {
+    "generation_plan_sha256": "a013b622e58966cdf4656769df8d04eb7587086bde72e8a3c26eb7cd0af33bd5",
+    "package_freeze_manifest_sha256": "8977c7d1c69fc94cdf03997b0c63f414e5ad34b5da33d7dd984c76cfa9f6a16f",
+    "generation_attestation_sha256": "b7eabd3cc4c8a101d4a25efdefe536f413e0f30611d15ea9cd8fabb61a1fe0c1",
+    "generation_freeze_manifest_sha256": "3ba54913511061864b78dea4ae69b722841b878a75dd476138e3db40abee0b0a"
+  },
+  "response_hashes": {
+    "scenario-01": "d0515a3fb3470982dd05bd1b4896b6bd2b4f02b87655081e40e419afa1f2c9d8",
+    "scenario-02": "889778d72347f0b5cb1a4af341b6916190ab7ba7213c773ca80551aa72e5b054",
+    "scenario-03": "3c3b045bb27fbabf55aa3992294c30ece39e8243e581c4404d071db1c94f87d1",
+    "scenario-04": "6a5b9bba250f856e396ec25bf20a3310a57f14a1d43db7c12cfdd7c3c5a5ba3f",
+    "scenario-05": "68b45fd26ec8e2f026c368fee3cdafa0fdb6ba4406fe39609f84d9c0375910e5"
+  },
+  "vector_order": [
+    "scenario-01.criterion-1",
+    "scenario-01.criterion-2",
+    "scenario-01.criterion-3",
+    "scenario-01.criterion-4",
+    "scenario-01.criterion-5",
+    "scenario-02.criterion-1",
+    "scenario-02.criterion-2",
+    "scenario-02.criterion-3",
+    "scenario-02.criterion-4",
+    "scenario-02.criterion-5",
+    "scenario-03.criterion-1",
+    "scenario-03.criterion-2",
+    "scenario-03.criterion-3",
+    "scenario-03.criterion-4",
+    "scenario-03.criterion-5",
+    "scenario-04.criterion-1",
+    "scenario-04.criterion-2",
+    "scenario-04.criterion-3",
+    "scenario-04.criterion-4",
+    "scenario-04.criterion-5",
+    "scenario-05.criterion-1",
+    "scenario-05.criterion-2",
+    "scenario-05.criterion-3",
+    "scenario-05.criterion-4",
+    "scenario-05.criterion-5"
+  ],
+  "case_vectors": {
+    "scenario-01": [1, 1, 1, 1, 1],
+    "scenario-02": [1, 1, 1, 1, 1],
+    "scenario-03": [1, 0, 1, 1, 1],
+    "scenario-04": [0, 1, 1, 1, 1],
+    "scenario-05": [1, 1, 1, 1, 1]
+  },
+  "score_vector_25_bit": "1111111111101110111111111",
+  "total": 23,
+  "possible": 25,
+  "attestation": {
+    "baseline_summary_opened_before_freeze": false,
+    "statement": "The baseline summary and all baseline response bodies were not opened before this score vector was frozen."
+  }
+}

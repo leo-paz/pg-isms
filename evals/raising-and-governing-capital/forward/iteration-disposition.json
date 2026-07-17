@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "attempt": 7,
+  "status": "valid-material-improvement-final",
+  "baseline_score": 1,
+  "forward_score": 17,
+  "possible": 25,
+  "normalized_improvement": 0.64,
+  "focused_remediation_ready": true,
+  "integrity": "pass"
+}

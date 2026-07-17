@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "case_id": "capital-heavy-route",
+  "criterion_id": "capital-heavy-route.1",
+  "scoring_rule": "strict binary conjunctive; no other criterion rescored",
+  "score": 1,
+  "possible": 1,
+  "pass": true,
+  "judgment": "The retry explicitly routes the sparse pre-revenue capital-heavy venture to managing-runway-and-survival because the completed cash-floor/readiness handoff is absent, limits capital to bounded support, and literally refuses software-seed comparison, ramen profitability, and weekly evidence.",
+  "evidence": [
+    "capital-heavy-route-retry.md:3-5",
+    "capital-heavy-route-retry.md:30-32",
+    "skills/raising-and-governing-capital/references/runtime-contract.md:30,44"
+  ],
+  "integrity": {
+    "plan_hashes_match": true,
+    "prompt_sha256": "dedcbea2f8bb5b423d377ff0565fb9ec957c30d923eed924dd6f237695ea4e3c",
+    "skill_sha256": "c08a06f18da35cf1d245f041a39422d6b54c4117919d8f0459efee6aaffe9491",
+    "runtime_sha256": "b78d0239da421d83ee487f4da71513fdd60046ed2d4f235e0e4b51a004b173a9",
+    "response_sha256": "7ab0c2528daf3e65552ada06d53df55dd972851047c2184375b9213482a456ca",
+    "response_words": 927,
+    "within_1200": true
+  }
+}

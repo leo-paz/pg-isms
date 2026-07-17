@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 5,
+  "frozen_before_generation": true,
+  "frozen_at_utc": "2026-07-16T06:58:43Z",
+  "cases_sha256": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "response_word_target": 900,
+  "response_word_limit": 1200,
+  "one_first_completion_per_case": true,
+  "quality_resampling": false,
+  "prior_attempts": [
+    {"attempt":1,"path":"evals/raising-and-governing-capital/forward-attempt-1","status":"invalid-generation-contract","responses_scored":false},
+    {"attempt":2,"path":"evals/raising-and-governing-capital/forward-attempt-2","status":"valid-material-improvement-not-final","authoritative_score":19,"possible":25},
+    {"attempt":3,"path":"evals/raising-and-governing-capital/forward-attempt-3","status":"invalid-generation-contract","responses_scored":false},
+    {"attempt":4,"path":"evals/raising-and-governing-capital/forward-attempt-4","status":"invalid-generation-contract","responses_scored":false}
+  ],
+  "material_refactor": [
+    "Competing offers now use one D0 thesis, one G0 gate with named A/E/C/P/T/Z subgates, and three waterfalls",
+    "Acceptance Za and closing Zc are stage-specific and truth T covers both verified no-error and correction-required states",
+    "Comparison output is exactly six A/E/C/P/T/Z rows and branches cite canonical gates instead of repeating evidence",
+    "Section emission limits total 920 words while the repository integrity ceiling remains 1200",
+    "Independent contract and all-25-criteria reviews both marked attempt 5 ready"
+  ],
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "7b3ac3128d1ffc27f9c60305c400d9249ee956b810a557a2ff22ccede4f37581",
+    "runtime_contract_sha256": "8179e7246fa73b035c9de513a087326171a94b93680dd773a1281ef98153af17"
+  },
+  "generators": [
+    {"case_id":"scenario-01","task_id":"/root/capital_forward5_1","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-01.txt","prompt_sha256":"f7941f55699af6154f154350c2bbdc43f4203ac8e4294e30ee055fd81efec4b8"},
+    {"case_id":"scenario-02","task_id":"/root/capital_forward5_2","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-02.txt","prompt_sha256":"741b573d9aadc7a52fe819fe96b8934a494cd3a043ce83376e79c1382bf302be"},
+    {"case_id":"scenario-03","task_id":"/root/capital_forward5_3","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-03.txt","prompt_sha256":"6a2a74bf23d9988ffb44e31139427fa6a2919efccf83e892ab3485b9983f1009"},
+    {"case_id":"scenario-04","task_id":"/root/capital_forward5_4","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-04.txt","prompt_sha256":"dedcbea2f8bb5b423d377ff0565fb9ec957c30d923eed924dd6f237695ea4e3c"},
+    {"case_id":"scenario-05","task_id":"/root/capital_forward5_5","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-05.txt","prompt_sha256":"5bc23d73c6876ec21220a8fe49aa7bf38de9ea4bd52f0b8eeba1d0672dbf889d"}
+  ],
+  "generation_contract": {
+    "allowed_inputs": ["the assigned prompt text","skills/raising-and-governing-capital/SKILL.md","skills/raising-and-governing-capital/references/runtime-contract.md"],
+    "forbidden_inputs": ["case criteria","intended answers","baseline responses or scores","all prior forward attempts","other current forward responses","source evidence or provenance","review feedback"],
+    "instruction": "Read the frozen skill and runtime, compose one complete decision record from prompt facts, enforce pipe-tight GFM, section emission limits, and explicit canonical-ID reuse, compact to 800-950 words before writing, verify no more than 1200 words, then freeze that first written completion without revision or replacement."
+  }
+}

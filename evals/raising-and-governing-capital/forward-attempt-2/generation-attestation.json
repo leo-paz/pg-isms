@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 2,
+  "attested_at_utc": "2026-07-16T05:42:03Z",
+  "generation_plan_sha256": "1a2e2effc4e7f036a7ab19248901a5098dbf4390d9cc7a1a6e4c22932d3d0b08",
+  "package_freeze_manifest_sha256": "a0ae3a83fa406363bf5f60db1d9fca978a43b39071c4a2c8a2396eab475ad586",
+  "cases_sha256": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+  "responses": [
+    {"case_id":"scenario-01","task_id":"/root/capital_forward2_1","words":1009,"bytes":9501,"birth_epoch":1784180038,"mtime_epoch":1784180038,"sha256":"13652bd71a71ecd4a1e7ff32a587b8d3477203ca1f96866546d8bcea09cb57f8"},
+    {"case_id":"scenario-02","task_id":"/root/capital_forward2_2","words":1045,"bytes":7438,"birth_epoch":1784179892,"mtime_epoch":1784179892,"sha256":"7ee6f712471088476985a90a3e8370a9b4928ddd977fd7321e7e1799b7914aa5"},
+    {"case_id":"scenario-03","task_id":"/root/capital_forward2_3","words":1051,"bytes":7142,"birth_epoch":1784179984,"mtime_epoch":1784179984,"sha256":"39e4fa022ab88a0957a6ec053d3bef6be21f1eb242f602970dec1d2cb5ce1453"},
+    {"case_id":"scenario-04","task_id":"/root/capital_forward2_4","words":1077,"bytes":7830,"birth_epoch":1784180502,"mtime_epoch":1784180502,"sha256":"379174bae5b6d91c7362fda0f8524de86e023482be81ee2bd355454539e9b695"},
+    {"case_id":"scenario-05","task_id":"/root/capital_forward2_5","words":1050,"bytes":7730,"birth_epoch":1784180460,"mtime_epoch":1784180460,"sha256":"8da167c6af928de13ece197d82e9eb4c24ca67cca1d79e741d0b65efa60c61b6"}
+  ],
+  "integrity": {
+    "response_count": 5,
+    "unique_task_count": 5,
+    "unique_response_hash_count": 5,
+    "all_within_1200_words": true,
+    "all_birth_epochs_equal_mtime_epochs": true,
+    "criteria_hidden": true,
+    "baseline_hidden": true,
+    "prior_attempt_hidden": true,
+    "source_evidence_hidden": true,
+    "frozen_skill_and_runtime": true,
+    "one_first_written_completion_per_case": true,
+    "quality_resampling": false,
+    "scoring_not_started_at_freeze": true
+  }
+}

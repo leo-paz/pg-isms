@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "adjudicator_id": "capital-forward-adjudicator-001",
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 2,
+  "review_state": "complete",
+  "scope": {
+    "disputed_bits_only": true,
+    "disputed_bit_count": 2,
+    "disputed_bits": [
+      "scenario-03:criterion-2",
+      "scenario-04:criterion-3"
+    ]
+  },
+  "scoring_method": {
+    "scale": "binary",
+    "conjunctive": true,
+    "rule": "A criterion receives 1 only if every clause is explicit; any missing explicit clause forces 0."
+  },
+  "artifact_boundary": {
+    "opened_for_adjudication": [
+      "evals/raising-and-governing-capital/cases.json",
+      "evals/raising-and-governing-capital/forward/scenario-03.md",
+      "evals/raising-and-governing-capital/forward/scenario-04.md",
+      "evals/raising-and-governing-capital/forward/strict-score.json",
+      "evals/raising-and-governing-capital/forward/independent-review.json",
+      "evals/raising-and-governing-capital/forward/generation-freeze-manifest.json (identity only)",
+      "evals/raising-and-governing-capital/forward/package-freeze-manifest.json (identity only)",
+      "evals/raising-and-governing-capital/forward/score-vector-freeze.json (identity only)"
+    ],
+    "not_opened": [
+      "skill package contents",
+      "source essays",
+      "source evidence or provenance",
+      "baseline response bodies",
+      "forward-attempt-1",
+      "other feedback"
+    ]
+  },
+  "identity": {
+    "cases_sha256": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+    "scenario_03_response_sha256": "39e4fa022ab88a0957a6ec053d3bef6be21f1eb242f602970dec1d2cb5ce1453",
+    "scenario_04_response_sha256": "379174bae5b6d91c7362fda0f8524de86e023482be81ee2bd355454539e9b695",
+    "strict_score_sha256": "d7cab906fd4fa4b7b0ff384c9c6d8f6231aa0182b337197627e607d95a1ffd18",
+    "independent_review_sha256": "4de811de8892adc6e16109420ecebd8486e32eaebbbda55c0a99ddd41854cb6a",
+    "package_freeze_manifest_sha256": "a0ae3a83fa406363bf5f60db1d9fca978a43b39071c4a2c8a2396eab475ad586",
+    "generation_freeze_manifest_sha256": "0716785c8642d19618bdc6b1449387c8cc05d08acd906bacc315ae4c50a0eb1f",
+    "scorer_vector_freeze_sha256": "0a85f44125451a639a88dea5d5b3bcc1c523932ff288294c5c1bc03a1eef2dd0"
+  },
+  "verdicts": [
+    {
+      "case_id": "scenario-03",
+      "criterion": 2,
+      "global_position": 12,
+      "scorer_bit": 0,
+      "independent_auditor_bit": 1,
+      "authoritative_bit": 0,
+      "agrees_with": "capital-forward-scorer-001",
+      "explicitly_present": [
+        "Cash, collected receipts, expense, derived net burn, obligations, churn, renewal and retention dates, planned hires, and financing claims are recorded at response lines 9 and 13-21.",
+        "Consequential unknown controls are recorded at response lines 25-32.",
+        "The $300,000 cash floor and downside/base/upside cash scenarios appear at response lines 9 and 34.",
+        "A dated August 25 capital handoff gate and early survival/plan-B branches appear at response lines 44 and 58-61."
+      ],
+      "missing_explicit_clause": "The response never defines a dated default-alive or operating-equilibrium test requiring recurring receipts to cover recurring outflow. The August 25 gate is only a capital handoff predicate and can pass while recurring expense still exceeds recurring collections.",
+      "pinpoint_evidence": [
+        {
+          "response_lines": "44",
+          "quote": "no-financing downside forecast remains at or above $300,000 through 12/31",
+          "finding": "This is a cash-floor condition, not an explicit recurring-receipts-versus-recurring-outflow equilibrium test."
+        },
+        {
+          "response_lines": "50",
+          "quote": "Only then may a full deck",
+          "finding": "The switch authorizes the capital workflow; it does not establish default-alive status."
+        }
+      ],
+      "conjunctive_judgment": "Because the complete route-away handoff lacks the required explicit dated default-alive/equilibrium test, criterion 2 is 0."
+    },
+    {
+      "case_id": "scenario-04",
+      "criterion": 3,
+      "global_position": 18,
+      "scorer_bit": 1,
+      "independent_auditor_bit": 0,
+      "authoritative_bit": 0,
+      "agrees_with": "capital-forward-auditor-001",
+      "explicitly_present": [
+        "The August 15 engineering review and quote coverage are readiness gates before replacing provisional amount and timing at response lines 26, 31, and 62.",
+        "Provisional full and staged funding ranges and milestone scenarios appear at response lines 31 and 33-37.",
+        "Re-scope, a nonexclusive partner, cost reduction, and orderly preservation state a no-raise or delay alternative at response line 31.",
+        "The $18 million and next-summer proposal is classified as unsupported and rejected at response line 19; line 62 permits no promise."
+      ],
+      "missing_explicit_clause": "The response does not derive a downside funding range. Its downside gap/raise entry is expressly left unknown, so the required downside/base/upside funding ranges are incomplete.",
+      "pinpoint_evidence": [
+        {
+          "response_lines": "35",
+          "quote": "unknown; pause",
+          "finding": "An unknown is not a derived downside funding range."
+        },
+        {
+          "response_lines": "36-37",
+          "quote": "$20–23m",
+          "finding": "Base and upside ranges are explicit, but they cannot supply the missing downside conjunct."
+        }
+      ],
+      "conjunctive_judgment": "Because the downside funding range is absent, criterion 3 is 0 even though the other clauses are explicit."
+    }
+  ],
+  "comparison": {
+    "scorer": {
+      "reviewer_id": "capital-forward-scorer-001",
+      "vector": "1111111011101110011011111",
+      "score": 20,
+      "possible": 25
+    },
+    "independent_auditor": {
+      "reviewer_id": "capital-forward-auditor-001",
+      "vector": "1111111011111110001011111",
+      "score": 20,
+      "possible": 25
+    },
+    "resolution": {
+      "scenario-03:criterion-2": "scorer 0 sustained; auditor 1 overruled",
+      "scenario-04:criterion-3": "auditor 0 sustained; scorer 1 overruled",
+      "change_from_scorer": "one bit, global position 18: 1 to 0",
+      "change_from_independent_auditor": "one bit, global position 12: 1 to 0"
+    }
+  },
+  "authoritative_result": {
+    "vector_order": "scenario-01:c1-c5,scenario-02:c1-c5,scenario-03:c1-c5,scenario-04:c1-c5,scenario-05:c1-c5",
+    "case_vectors": {
+      "scenario-01": "11111",
+      "scenario-02": "11011",
+      "scenario-03": "10111",
+      "scenario-04": "00010",
+      "scenario-05": "11111"
+    },
+    "vector": "1111111011101110001011111",
+    "vector_sha256": "d66d29fe5f1cf07b0a91f9ee311df1c691ba87885c74c0f7c0a74539401cbe6f",
+    "score": 19,
+    "possible": 25,
+    "normalized": 0.76,
+    "percent": 76.0,
+    "case_scores": {
+      "scenario-01": 5,
+      "scenario-02": 4,
+      "scenario-03": 4,
+      "scenario-04": 1,
+      "scenario-05": 5
+    }
+  },
+  "baseline_comparison": {
+    "baseline_score": 1,
+    "baseline_possible": 25,
+    "baseline_normalized": 0.04,
+    "authoritative_forward_score": 19,
+    "authoritative_forward_normalized": 0.76,
+    "raw_criterion_delta": 18,
+    "normalized_delta": 0.72,
+    "baseline_case_scores": {
+      "scenario-01": 0,
+      "scenario-02": 0,
+      "scenario-03": 0,
+      "scenario-04": 0,
+      "scenario-05": 1
+    },
+    "authoritative_case_improvements": {
+      "scenario-01": 5,
+      "scenario-02": 4,
+      "scenario-03": 4,
+      "scenario-04": 1,
+      "scenario-05": 4
+    },
+    "every_case_improves_by_at_least_one_criterion": true,
+    "material_behavior_improvement": true
+  },
+  "integrity": {
+    "status": "pass-with-disclosed-attestation-and-chronology-limits",
+    "cases_hash_matches_allowed_freeze_and_review_artifacts": true,
+    "disputed_response_hashes_match_generation_freeze_manifest": true,
+    "responses_frozen_before_scoring": true,
+    "package_frozen_before_generation": true,
+    "forbidden_content_not_opened": true,
+    "limits": [
+      "One-first-write and hidden-input claims are attested and corroborated but are not independently provable from frozen files alone.",
+      "Filesystem chronology proves pre-generation freezing, but some hash-bearing artifacts were physically created seconds after their declared freeze time.",
+      "Package hashes were used only for identity; package contents were not opened for adjudication."
+    ]
+  },
+  "readiness": {
+    "attempt_2_ready_to_freeze_green": true,
+    "basis": "Adjudication resolves both disputed bits under the exact conjunctive rule; integrity passes with disclosed limits, the authoritative result is 19/25, normalized improvement over baseline is 0.72, and every case improves by at least one criterion.",
+    "authoritative_vector_not_yet_recorded_as_a_new_score_freeze": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 5,
+  "reviewer_id": "capital-forward5-scorer-001",
+  "canonical_agent_task": "/root/capital_forward5_1",
+  "generator_task_ids": [
+    "/root/capital_forward5_1",
+    "/root/capital_forward5_2",
+    "/root/capital_forward5_3",
+    "/root/capital_forward5_4",
+    "/root/capital_forward5_5"
+  ],
+  "generated_at": "2026-07-16T06:58:43Z",
+  "model_identity": "Codex (GPT-5)",
+  "dispatch_prompt": "Apply the frozen raising-and-governing-capital skill to one exact prompt in fresh context with hidden criteria, immutable first completions, and a 1200-word integrity ceiling.",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "responses_frozen_before_scoring": true,
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "7b3ac3128d1ffc27f9c60305c400d9249ee956b810a557a2ff22ccede4f37581",
+    "runtime_sha256": "8179e7246fa73b035c9de513a087326171a94b93680dd773a1281ef98153af17"
+  },
+  "response_hash_algorithm": "sha256",
+  "response_hashes": {
+    "scenario-01": "3ca751bc554c96ec501a4c94635419dc7ccc58c42c50137a19e9e240613f5423",
+    "scenario-02": "8b284980b50e87fb6dd53d0369ca8922e2fba4af20693faadb1738e7a7f480ef",
+    "scenario-03": "de85c064df33ee238cd685cf619aec5c464096f8b53383b0cae45f9d719b9257",
+    "scenario-04": "c52715f8292570cbe89a50b835ee75fab1460e0574fa4de3b6358e3c9097eef4",
+    "scenario-05": "4fab2afe8b5190480e6afa10d41ecf8a19f744dab22fd4d858c3f5b4888a6dd5"
+  },
+  "response_body_hashes": {
+    "scenario-01": "d0515a3fb3470982dd05bd1b4896b6bd2b4f02b87655081e40e419afa1f2c9d8",
+    "scenario-02": "889778d72347f0b5cb1a4af341b6916190ab7ba7213c773ca80551aa72e5b054",
+    "scenario-03": "3c3b045bb27fbabf55aa3992294c30ece39e8243e581c4404d071db1c94f87d1",
+    "scenario-04": "6a5b9bba250f856e396ec25bf20a3310a57f14a1d43db7c12cfdd7c3c5a5ba3f",
+    "scenario-05": "68b45fd26ec8e2f026c368fee3cdafa0fdb6ba4406fe39609f84d9c0375910e5"
+  },
+  "integrity_artifacts": {
+    "generation_plan_sha256": "a013b622e58966cdf4656769df8d04eb7587086bde72e8a3c26eb7cd0af33bd5",
+    "package_freeze_manifest_sha256": "8977c7d1c69fc94cdf03997b0c63f414e5ad34b5da33d7dd984c76cfa9f6a16f",
+    "generation_attestation_sha256": "b7eabd3cc4c8a101d4a25efdefe536f413e0f30611d15ea9cd8fabb61a1fe0c1",
+    "generation_freeze_manifest_sha256": "3ba54913511061864b78dea4ae69b722841b878a75dd476138e3db40abee0b0a",
+    "scorer_vector_sha256": "1d2353abc91fe11372aa79468862cad6fb17dd07f6dc7f46c02098312fd98358",
+    "independent_vector_sha256": "39bcabdac1d67ceb3f89d7d6bc43ff998b6bb63b7674e7a4c3ecbc34cc6bbb88",
+    "adjudication_vector_sha256": "4e917b235ef5827e6f6613e23c444b62ca8fc8b3c33e659c732f8480ac85892f"
+  },
+  "mechanical_wrapper": {
+    "purpose": "repository-validator metadata only",
+    "location": "appended after response body",
+    "applied_after_scoring_independent_audit_and_adjudication": true,
+    "rendered_block": "Case ID: {case_id}\nReviewer ID: capital-forward5-scorer-001\n",
+    "body_bytes_unchanged": true
+  }
+}

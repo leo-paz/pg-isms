@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 6,
+  "frozen_before_generation": true,
+  "frozen_at_utc": "2026-07-16T07:46:42Z",
+  "cases_sha256": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+  "cases_projection": "id-and-prompt-only",
+  "criteria_visible_during_generation": false,
+  "response_word_target": 900,
+  "response_word_limit": 1200,
+  "one_first_completion_per_case": true,
+  "quality_resampling": false,
+  "prior_attempts": [
+    {"attempt":1,"path":"evals/raising-and-governing-capital/forward-attempt-1","status":"invalid-generation-contract","responses_scored":false},
+    {"attempt":2,"path":"evals/raising-and-governing-capital/forward-attempt-2","status":"valid-material-improvement-not-final","authoritative_score":19,"possible":25},
+    {"attempt":3,"path":"evals/raising-and-governing-capital/forward-attempt-3","status":"invalid-generation-contract","responses_scored":false},
+    {"attempt":4,"path":"evals/raising-and-governing-capital/forward-attempt-4","status":"invalid-generation-contract","responses_scored":false},
+    {"attempt":5,"path":"evals/raising-and-governing-capital/forward-attempt-5","status":"valid-material-improvement-superseded-by-final-review","authoritative_score":23,"possible":25}
+  ],
+  "material_refactor": [
+    "Acceptance and closing now use acyclic readiness and post-action evidence: ZaR to ZaE, then ZcR to ZcE",
+    "Every accept-or-close-capable model, including ordinary rounds, must define the universal G0 readiness and completion contract",
+    "Section budgets are compaction targets while only the repository 1200-word ceiling determines generation validity",
+    "Prompt historical measurements are observed-at-input with verification state, while opinions, intentions, projections, and attributed assertions remain claimed",
+    "The business-model early exit is limited to an unsettled capital model or return shape, so sizing a chosen financing model stays in this workflow",
+    "Independent contract and all-25-criteria reviews both marked attempt 6 ready"
+  ],
+  "skill_state": {
+    "mode": "skill",
+    "skill_sha256": "321dcb8a478d4a3e488b4578cc28bf4cca2c66d663534404be4242bd56b8924d",
+    "runtime_contract_sha256": "fbd46017c3895f5f1bb7788405c664b2a41a0d0c992dea452a87170ecfe3995b"
+  },
+  "generators": [
+    {"case_id":"scenario-01","task_id":"/root/capital_forward6_1","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-01.txt","prompt_sha256":"f7941f55699af6154f154350c2bbdc43f4203ac8e4294e30ee055fd81efec4b8"},
+    {"case_id":"scenario-02","task_id":"/root/capital_forward6_2","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-02.txt","prompt_sha256":"741b573d9aadc7a52fe819fe96b8934a494cd3a043ce83376e79c1382bf302be"},
+    {"case_id":"scenario-03","task_id":"/root/capital_forward6_3","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-03.txt","prompt_sha256":"6a2a74bf23d9988ffb44e31139427fa6a2919efccf83e892ab3485b9983f1009"},
+    {"case_id":"scenario-04","task_id":"/root/capital_forward6_4","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-04.txt","prompt_sha256":"dedcbea2f8bb5b423d377ff0565fb9ec957c30d923eed924dd6f237695ea4e3c"},
+    {"case_id":"scenario-05","task_id":"/root/capital_forward6_5","prompt_path":"evals/raising-and-governing-capital/forward/prompts/scenario-05.txt","prompt_sha256":"5bc23d73c6876ec21220a8fe49aa7bf38de9ea4bd52f0b8eeba1d0672dbf889d"}
+  ],
+  "generation_contract": {
+    "allowed_inputs": ["the assigned prompt text","skills/raising-and-governing-capital/SKILL.md","skills/raising-and-governing-capital/references/runtime-contract.md"],
+    "forbidden_inputs": ["case criteria","intended answers","baseline responses or scores","all prior forward attempts","other current forward responses","source evidence or provenance","review feedback","git history"],
+    "instruction": "Read the frozen skill and runtime, compose one complete decision record from prompt facts, enforce pipe-tight GFM and explicit canonical-ID reuse, compact toward 800-950 words, verify no more than 1200 words, then write and freeze exactly one first completion without revision or replacement."
+  }
+}

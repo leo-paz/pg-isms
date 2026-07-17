@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 3,
+  "frozen_before_generation": true,
+  "frozen_at_utc": "2026-07-16T06:07:29Z",
+  "generation_plan_sha256": "8da8c147da5c343045df8ec155940477adfdd80fc2d28db7d219134ae1af7847",
+  "cases_sha256": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+  "package_hash_algorithm": "sha256",
+  "package_hashes": {
+    "SKILL.md": "64c8d650dd390f3cb008ae03b79e55ad0018f40932dbdc21d0a0355923f01916",
+    "agents/openai.yaml": "9a39c8cda148c9906e293850da99b5fb8689c4f6dd9f86290ad7681a70f75fd1",
+    "references/evidence.json": "ec08687e123d61a45a4360150c3c060bfd61e31bae7b4894ed231d2d9044520c",
+    "references/provenance.md": "eea84a818b5da123101fe34cbb238b1abe15f9786ab73da99a4738fb862b1129",
+    "references/runtime-contract.md": "7f926f3109124f806183be19266df66c8b5302e06abe63c4a4ff05e9ac639240",
+    "references/source-reaudit.md": "14bddda60eba50610c659b35a35730d2e2b94ec6589b8a881e5c626b015b28bb"
+  },
+  "controls": {
+    "criteria_hidden": true,
+    "baseline_hidden": true,
+    "prior_attempt_hidden": true,
+    "source_evidence_hidden": true,
+    "distinct_fresh_generator_per_case": true,
+    "one_first_completion_per_case": true,
+    "quality_resampling": false,
+    "response_word_target": 1050,
+    "response_word_limit": 1200,
+    "package_edits_forbidden_after_generation_starts": true
+  }
+}

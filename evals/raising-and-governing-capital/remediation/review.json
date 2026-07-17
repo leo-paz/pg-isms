@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "review": "fresh-focused-remediation",
+  "scoring_rule": "strict binary conjunctive: score 1 only when every clause is explicit; no inference or generic-prose credit",
+  "score": 8,
+  "possible": 9,
+  "criteria": [
+    {
+      "id": "capital-heavy-route.1",
+      "score": 0,
+      "judgment": "The response correctly makes survival primary because the cash-floor/readiness handoff is absent, rejects software-seed benchmarking, and rejects software-style weekly proof, but never explicitly refuses ramen-profitability defaults.",
+      "evidence": [
+        "capital-heavy-route.md:5",
+        "capital-heavy-route.md:28-32",
+        "capital-heavy-route.md:38"
+      ],
+      "missing_explicit_clause": "Refuse ramen-profitability defaults for this pre-revenue long-build venture."
+    },
+    {
+      "id": "capital-heavy-route.2",
+      "score": 1,
+      "judgment": "U1/U2, G0, the dated actions, and first-true branches establish the cash floor, protected obligations, independent technical/supplier gates, staged and no-raise/delay choices, and the exact September 8 capital re-entry handoff without launching or pricing a round.",
+      "evidence": [
+        "capital-heavy-route.md:17-18",
+        "capital-heavy-route.md:24-32",
+        "capital-heavy-route.md:38-43",
+        "capital-heavy-route.md:53-56"
+      ]
+    },
+    {
+      "id": "capital-heavy-route.3",
+      "score": 1,
+      "judgment": "Nonbinding letters are zero cash and committed demand; diligence and strategic discussions are qualification only and zero cash. Finance, independent technical, and company-counsel gates are named, and the response disclaims management-made engineering conclusions.",
+      "evidence": [
+        "capital-heavy-route.md:11-18",
+        "capital-heavy-route.md:32",
+        "capital-heavy-route.md:39-45"
+      ]
+    },
+    {
+      "id": "accept-then-close.1",
+      "score": 1,
+      "judgment": "C2/T stop and correct the metric everywhere before acceptance. D0/G0 and SEL require hard gates, factor-specific anchors, frozen weights and aggregation, a minimum, a margin, and a unique winner.",
+      "evidence": [
+        "accept-then-close.md:12",
+        "accept-then-close.md:24-25",
+        "accept-then-close.md:35-37",
+        "accept-then-close.md:44-53"
+      ]
+    },
+    {
+      "id": "accept-then-close.2",
+      "score": 1,
+      "judgment": "The offer-status table keeps both fund-signed offers company-unaccepted and at zero cash; G0 explicitly separates ZaR, ZaE, ZcR, and ZcE.",
+      "evidence": [
+        "accept-then-close.md:14-18",
+        "accept-then-close.md:25",
+        "accept-then-close.md:39-42"
+      ]
+    },
+    {
+      "id": "accept-then-close.3",
+      "score": 1,
+      "judgment": "The four first-true branches cover accept-selected-then-close, counter, continue, and decline/no-deal; ties, sub-margin results, and unresolved evidence cannot accept, and acceptance is sequenced before later closing.",
+      "evidence": [
+        "accept-then-close.md:53",
+        "accept-then-close.md:55-62"
+      ]
+    },
+    {
+      "id": "mixed-instruments.1",
+      "score": 1,
+      "judgment": "Capital remains primary. The control register, three scenarios, and comparison normalize SAFE conversion/ownership, priced-equity ownership/preference/control, and debt service, warrants, covenants, lien, maturity, default, refinancing, and control with qualified finance, counsel, accounting, and tax owners.",
+      "evidence": [
+        "mixed-instruments.md:5",
+        "mixed-instruments.md:14-18",
+        "mixed-instruments.md:24-31",
+        "mixed-instruments.md:35-44"
+      ]
+    },
+    {
+      "id": "mixed-instruments.2",
+      "score": 1,
+      "judgment": "D0 and the scenario table model milestone coverage, downside/base/upside cash and ownership consequences, existing SAFE/pro-rata interactions, and a staged/no-deal choice; the debt is expressly described as cash-burdened and dilutive.",
+      "evidence": [
+        "mixed-instruments.md:13-17",
+        "mixed-instruments.md:24",
+        "mixed-instruments.md:27-31",
+        "mixed-instruments.md:52-55"
+      ]
+    },
+    {
+      "id": "mixed-instruments.3",
+      "score": 1,
+      "judgment": "Weak-market commentary remains claimed and requires dated comparables plus written terms before it can change cadence or counters. G0/SEL provide hard gates, anchored scoring, frozen aggregation, unique-winner/tie behavior, acceptance evidence, and later closing evidence.",
+      "evidence": [
+        "mixed-instruments.md:18",
+        "mixed-instruments.md:24-25",
+        "mixed-instruments.md:37-46",
+        "mixed-instruments.md:52-55"
+      ]
+    }
+  ],
+  "integrity": {
+    "declared_hashes_match": true,
+    "cases_sha256": "0063faf172a2ac866dd97ba0c6087ab50e4ec52955d59e2c5f7c2662acd73374",
+    "skill_sha256": "c08a06f18da35cf1d245f041a39422d6b54c4117919d8f0459efee6aaffe9491",
+    "runtime_sha256": "de28dea85b36c1d8d22d8b493f86e3134bbc33edd9affccf8d8ce392892080c8",
+    "prompt_hashes_match": true,
+    "responses": {
+      "capital-heavy-route": {
+        "sha256": "abd23a00b534b3e45c1f486b4a52ed16b2f26e7b5c91bfeab3683468792a0545",
+        "words": 911,
+        "within_1200": true
+      },
+      "accept-then-close": {
+        "sha256": "2de66f62bc9f544fd89103bbe3ee33cf555fd3c4abd209cfa927cc1b6d05ca92",
+        "words": 1037,
+        "within_1200": true
+      },
+      "mixed-instruments": {
+        "sha256": "49f3d6a011b9d0fad35db285d3c7fe0b8305b101f5d239f288b985cc3182b54a",
+        "words": 1099,
+        "within_1200": true
+      }
+    },
+    "skill_quick_validate": "pass",
+    "taxonomy_validation": "pass"
+  },
+  "semantic_blockers": [
+    {
+      "id": "sparse-capital-heavy-routing-and-defaults",
+      "package_resolved": true,
+      "response_resolved": false,
+      "evidence": [
+        "skills/raising-and-governing-capital/SKILL.md:14",
+        "skills/raising-and-governing-capital/references/runtime-contract.md:30,44",
+        "skills/managing-runway-and-survival/references/runtime-contract.md:14-18",
+        "research/taxonomy.json:147",
+        "capital-heavy-route.md:5,38"
+      ],
+      "reason": "Routing is corrected across taxonomy and both skills, but the response omits the required explicit ramen-profitability refusal."
+    },
+    {
+      "id": "deterministic-selection-and-acceptance-before-closing",
+      "package_resolved": true,
+      "response_resolved": true,
+      "evidence": [
+        "skills/raising-and-governing-capital/SKILL.md:28-30",
+        "skills/raising-and-governing-capital/references/runtime-contract.md:50,54,102,106",
+        "research/taxonomy.json:399-400",
+        "accept-then-close.md:24-25,53,59-62"
+      ]
+    },
+    {
+      "id": "mixed-instrument-normalization-and-market-evidence",
+      "package_resolved": true,
+      "response_resolved": true,
+      "evidence": [
+        "skills/raising-and-governing-capital/SKILL.md:20,26-30",
+        "skills/raising-and-governing-capital/references/runtime-contract.md:44,54,83",
+        "research/taxonomy.json:1515-1535",
+        "mixed-instruments.md:14-18,24-31,37-55"
+      ]
+    }
+  ],
+  "remediation_ready": false
+}

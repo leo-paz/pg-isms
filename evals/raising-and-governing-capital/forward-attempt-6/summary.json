@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 6,
+  "reviewer_id": "capital-forward6-scorer-001",
+  "scorer_id": "capital-forward6-scorer-001",
+  "independent_reviewer_id": "capital-forward6-auditor-001",
+  "adjudicator_id": "capital-forward6-adjudicator",
+  "case_results": [
+    {"case_id":"scenario-01","score":5,"max_score":5,"raw_output":"scenario-01.md","vector":"11111"},
+    {"case_id":"scenario-02","score":5,"max_score":5,"raw_output":"scenario-02.md","vector":"11111"},
+    {"case_id":"scenario-03","score":4,"max_score":5,"raw_output":"scenario-03.md","vector":"11011"},
+    {"case_id":"scenario-04","score":2,"max_score":5,"raw_output":"scenario-04.md","vector":"01001"},
+    {"case_id":"scenario-05","score":5,"max_score":5,"raw_output":"scenario-05.md","vector":"11111"}
+  ],
+  "authoritative_vector": "1111111111110110100111111",
+  "total_score": 21,
+  "total_max_score": 25,
+  "normalized_score": 0.84,
+  "baseline_score": 1,
+  "baseline_normalized_score": 0.04,
+  "normalized_delta": 0.8,
+  "forward_valid": true,
+  "forward_valid_basis": "The immutable adjudicated attempt-6 score is 21/25 versus the frozen 1/25 no-skill baseline, an 80 percentage-point improvement. All five cases improve, the corrected acceptance and closing contract is acyclic, and every hard generation-integrity control passes.",
+  "independent_audit": {
+    "integrity": "pass",
+    "frozen_total": 23,
+    "changed_bits_before_adjudication": 3,
+    "ready_for_adjudication": true
+  },
+  "adjudication": {
+    "disputed_bits": 3,
+    "authoritative_total": 21,
+    "agreed_zero_preserved": "scenario-04.1",
+    "material_behavior_improvement": true,
+    "ready_to_freeze_green": true
+  },
+  "residual_misses": [
+    "scenario-03 criterion 3: protected customer continuity was explicit, but protected product continuity was not",
+    "scenario-04 criterion 1: software-seed refusal was explicit, but ramen-profitability and weekly-evidence refusals were not emitted",
+    "scenario-04 criterion 3: a staging route was present, but dated staged milestone outcomes were not explicit",
+    "scenario-04 criterion 4: the generalist row omitted explicit diligence, horizon, follow-on, conflicts, governance, and reference comparisons"
+  ]
+}

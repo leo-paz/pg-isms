@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "skill_name": "raising-and-governing-capital",
+  "phase": "forward",
+  "attempt": 6,
+  "attested_at_utc": "2026-07-16T07:53:43Z",
+  "generation_plan_sha256": "4682a32994c4891b88f46610d5d83f326b77cfadb0cfdfbac5211b2fad1647a9",
+  "package_freeze_manifest_sha256": "baa57461ca201bcba0d35e97adbab56db6fd29c064ce5fc0e4db574ce4fb305d",
+  "cases_sha256": "fc56ebe94279acb5b1091df1fba26e4152f1798f0936e9c58e75d7196d89f372",
+  "responses": [
+    {"case_id":"scenario-01","task_id":"/root/capital_forward6_1","words":902,"bytes":8853,"birth_epoch":1784188214,"mtime_epoch":1784188214,"sha256":"adaf892d2ccd29a7e2230c1197b49a4704ac08e6b0a303a63e263ab20163eb72"},
+    {"case_id":"scenario-02","task_id":"/root/capital_forward6_2","words":798,"bytes":8134,"birth_epoch":1784188191,"mtime_epoch":1784188191,"sha256":"a06fd68d5dd721e3df080c56dee13d14fc459b22914245391ccc2f59384b2a15"},
+    {"case_id":"scenario-03","task_id":"/root/capital_forward6_3","words":956,"bytes":8717,"birth_epoch":1784188246,"mtime_epoch":1784188246,"sha256":"f6b7e6f08bc670bca35cc1cebf7fb4798104fa2411ee2624f228e9b9eba39484"},
+    {"case_id":"scenario-04","task_id":"/root/capital_forward6_4","words":820,"bytes":7947,"birth_epoch":1784188394,"mtime_epoch":1784188394,"sha256":"4b576193a70fa8bbc511492443e1ea11bf5feaa0bc99a90d3e689b92ebccc1bd"},
+    {"case_id":"scenario-05","task_id":"/root/capital_forward6_5","words":929,"bytes":9030,"birth_epoch":1784188359,"mtime_epoch":1784188359,"sha256":"52a2bb278f4f3cb944ab30c1a112a44d18507f100f9be1fb0828dd52b6e88b1a"}
+  ],
+  "integrity": {
+    "response_count": 5,
+    "unique_task_count": 5,
+    "unique_response_hash_count": 5,
+    "all_within_1200_words": true,
+    "all_birth_epochs_equal_mtime_epochs": true,
+    "criteria_hidden": true,
+    "baseline_hidden": true,
+    "all_prior_attempts_hidden": true,
+    "source_evidence_hidden": true,
+    "review_feedback_hidden": true,
+    "git_history_hidden": true,
+    "frozen_skill_and_runtime": true,
+    "one_first_written_completion_per_case": true,
+    "quality_resampling": false,
+    "scoring_not_started_at_freeze": true
+  }
+}
